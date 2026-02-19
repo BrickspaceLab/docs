@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **We do not provide support for code customizations**
 
-If you are not comfortable making code changes, we highly recommend [hiring an expert developer](support/hire-a-shopify-developer.md).
+If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../../support/hire-a-shopify-developer.md).
 {% endhint %}
 
 

@@ -1,18 +1,4 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
-# Show variant metafields for selected variant
+# Show variant metafield content
 
 Display variant-specific metafields when a shopper selects a variant on the product page. This uses Alpine's `x-show` to conditionally render content for the active variant and can be added via a `Custom liquid` section.
 
@@ -37,7 +23,5 @@ Replace `custom.short_description` with your metafield namespace and key. Ensure
 
 Notes:
 
-- `current_variant_id` is managed by the theme's Alpine state and updates on selection.
-- Duplicate the inner block to output multiple metafields.
-
-
+* `current_variant_id` is managed by the theme's Alpine state and updates on selection.
+* Duplicate the inner block to output multiple metafields.

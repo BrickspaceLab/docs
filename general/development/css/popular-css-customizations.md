@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Popular CSS customizations
 
 Custom CSS can be used in a variety of ways and is the perfect option for minor customizations. Here are a few guides for commonly requested customizations.
@@ -51,10 +37,9 @@ h3 { color: #000000; }
 <summary>Change the color of a button</summary>
 
 1. Navigate to the section you want to edit.
-
-1) In the settings panel scroll to the bottom and open **Custom CSS**.
-2) Alternatively, if you want to apply this change across your entire store front navigate to **Theme settings > Custom CSS**
-3) Paste the following code in the input field and update the color value to any hex color code.
+2. In the settings panel scroll to the bottom and open **Custom CSS**.
+3. Alternatively, if you want to apply this change across your entire store front navigate to **Theme settings > Custom CSS**
+4. Paste the following code in the input field and update the color value to any hex color code.
    * In the below example, `#000000` can be replaced to change the background of the button, `#ffffff` can be replaced to change the text color of the bottom
 
 ```css
@@ -68,15 +53,12 @@ h3 { color: #000000; }
 <summary>Adjust the size of a button</summary>
 
 1. Navigate to the section you want to edit.
-
-1) In the settings panel scroll to the bottom and open **Custom CSS**.
-2) Alternatively, if you want to apply this change across your entire store front navigate to **Theme settings > Custom CSS**
-3) Paste in the following code. Adjust any of the values to change the button as needed
+2. In the settings panel scroll to the bottom and open **Custom CSS**.
+3. Alternatively, if you want to apply this change across your entire store front navigate to **Theme settings > Custom CSS**
+4. Paste in the following code. Adjust any of the values to change the button as needed
 
 ```css
 .btn { font-size: 24px; padding: 10px 30px; }
 ```
 
 </details>
-
-

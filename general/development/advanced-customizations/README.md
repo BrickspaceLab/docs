@@ -1,26 +1,9 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Advanced customizations
 
 {% hint style="warning" %}
 **We do not provide support for code customizations**
 
-If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../support/hire-a-shopify-developer.md).
+If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../../support/hire-a-shopify-developer.md).
 {% endhint %}
 
 Our Shopify themes are built with developers in mind. We use a familiar tools so you can take any of our existing themes and customize them quickly.
