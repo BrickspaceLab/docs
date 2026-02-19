@@ -231,4 +231,3 @@
 ## General
 
 * [Changelog](general/changelog/README.md)
-* [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)

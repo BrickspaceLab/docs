@@ -21,8 +21,8 @@ The following blocks can be nested within this block:
 * [Icon](icon.md)
 * [Image](image.md)
 * [Localization label](localization-label.md)
-* [Cart count](cart/cart-count.md)
-* [Cart price](cart/simple-subtotal.md)
+* [Cart count](/broken/pages/I1uLikf9S6Wq0KNvGdgN)
+* [Cart price](/broken/pages/4VWNibJzvJcDHosz3SNd)
 
 ## Block settings
 
