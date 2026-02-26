@@ -1,1 +1,0 @@
-# Article table of contents
