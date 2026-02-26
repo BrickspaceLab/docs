@@ -3,19 +3,15 @@
 
 ## Overview
 
-A flexible overlay container component that allows positioning child blocks in fixed positions on the screen corners. Supports both app and theme blocks with customizable corner positioning and z-index control. Ideal for chat widgets, promotional banners, or notification elements.
+A fixed-position overlay container that stays in place while the page scrolls. Supports configurable positioning, sizing, color schemes, and responsive visibility controls.
 
 
 ## Common use cases
 
-- Use for floating/fixed position blocks on the screen like chat widgets, promotional banners, or notification elements
-- Configure position and spacing using the block settings
-- Control visibility for different device sizes
+Display fixed-position content such as alerts, promotional banners, or persistent navigation elements.
 
 
 ## Compatible blocks
-
-The following blocks can be nested within this block:
 
 - All theme blocks
 - App blocks
@@ -26,38 +22,37 @@ The following blocks can be nested within this block:
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Enable padding | Adds padding around the overlay content | Checkbox (default: true) |
-| Gap size | Controls spacing between child blocks | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+|---------|-------------|--------|
+| Enable padding | Controls the enable padding | Checkbox (default: true) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body<br>• Neutral<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Controls the enable inheritance | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-
+|---------|-------------|--------|
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Rotation | Rotates the overlay content | • None (default)<br>• Right 90°<br>• Left 90° |
-| Horizontal position | Controls horizontal positioning of the overlay | • Left (default)<br>• Center<br>• Right |
-| Vertical position | Controls vertical position as percentage from top | 0 - 100 % (default: 100) |
-| Enable margin | Applies margin based on theme settings | Checkbox (default: false) |
-
+|---------|-------------|--------|
+| Rotation | Controls the rotation | • No rotation (default)<br>• Rotate 90° right<br>• Rotate 90° left |
+| Horizontal position | Controls the horizontal position | • Left (default)<br>• Center<br>• Right |
+| Vertical position | Controls the vertical position | 0 – 100 % (default: 100) |
+| Enable margin | Controls the enable margin | Checkbox (default: false) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

@@ -3,16 +3,14 @@
 
 ## Overview
 
-Displays local pickup availability for the selected variant with store location details. Shows availability status, pickup times, and store addresses. Opens a drawer overlay when clicked to display detailed information about all available pickup locations. Content updates dynamically when variant selection changes.
+A block that displays product pickup availability information, showing whether a product is available for in-store pickup. Supports customizable spacing, color schemes, and responsive visibility controls.
 
 
 ## Common use cases
 
-- Display pickup availability on product pages for stores with local pickup enabled
-- Configure internal padding for better visual spacing within the pickup button
-- Use appropriate color schemes and borders to match your theme design
-- Set visibility options based on whether pickup is primarily a mobile or desktop feature
-- Integrate with product variant selection to show real-time pickup availability
+* Display pickup availability status on product pages to inform customers about in-store pickup options
+* Configure internal padding for better visual spacing within the pickup button
+* Use color schemes and borders to match your theme design
 
 
 ## Block settings
@@ -21,29 +19,29 @@ Displays local pickup availability for the selected variant with store location 
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Product | Select the product to display pickup availability for | Product picker |
-
+| Product | Controls the product | Product picker |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable internal padding | Adds internal padding to the pickup button | Checkbox (default: true) |
-| Enable horizontal padding | Adds horizontal padding around the block | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the block | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the block | Checkbox (default: false) |
-
+| Enable internal padding | Adds internal padding to the content | Checkbox (default: true) |
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None |
-
+| Type | Controls the type | <p>• Custom<br>• Base (default)<br><br>Visible when enable inheritance is false</p> |
+| Scheme | Controls the scheme | <p>Color scheme picker<br><br>Visible when color type is custom and enable inheritance is false</p> |
+| Scheme | Controls the scheme | <p>• Body (default)<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent<br><br>Visible when color type is base and enable inheritance is false</p> |
+| Border | Controls the border | <p>• Body<br>• Subtle (default)<br>• Strong<br>• None<br><br>Visible when color type is base and enable inheritance is false</p> |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: false) |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

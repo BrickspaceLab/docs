@@ -3,23 +3,12 @@
 
 ## Overview
 
-A flexible container component that provides customizable tab layout options for child blocks. Ability to show multiple containers that can be toggled with tabs. Uses Alpine.js for tab switching functionality with smooth transitions between tab content.
+A tabbed layout container that organizes child blocks into switchable tab panels. Supports configurable tab styling, color schemes, alignment, and responsive visibility controls.
 
 
 ## Common use cases
 
-- Organize content into multiple tabbed sections
-- Create product detail tabs (description, specifications, reviews)
-- Display different content views that can be toggled
-- Group related information into separate tab panels
-- Use for FAQ sections or multi-step content organization
-
-
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-- [Tab item](_g__tab-item.md)
+Organize related content into switchable tabs for compact, organized presentation.
 
 
 ## Block settings
@@ -27,40 +16,39 @@ The following blocks can be nested within this block:
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Tabs | Comma-separated list of tab names (e.g., "Tab 1, Tab 2, Tab 3") | Text input |
-
+|---------|-------------|--------|
+| Tabs | A comma-separated list of tab titles | Text input |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Padding space at the top of the container | 0 - 300 px (default: 0) |
-| Bottom spacing | Padding space at the bottom of the container | 0 - 300 px (default: 0) |
-| Enable internal padding | Adds horizontal padding inside the tab header | Checkbox (default: false) |
-| Gap size | Controls spacing between tab buttons | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 300 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 300 px (default: 0) |
+| Enable internal padding | Controls the enable internal padding | Checkbox (default: false) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background and text colors for the tab header | • Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default) |
-| Color border | Controls the border color | • Subtle (default)<br>• Strong<br><br>Visible when border position is not blank |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Controls the border | • Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Font family | Font family for tab button text | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains type-- |
-| Font size | Font size for tab button text | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-
+|---------|-------------|--------|
+| Font family | Controls the font family | • Standard (default)<br>• Heading<br>• Subheading<br>• Accent |
+| Font size | Controls the font size | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-triggered animations | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |

@@ -1,48 +1,44 @@
 # Overlay sidebar
 
+
 ## Overview
 
-A configurable sidebar overlay component that can slide in from either the left or right side of the screen. Creates a responsive sidebar drawer with customizable styling, positioning, and content.
+A sidebar overlay block that slides in from the left or right side of the screen. Supports customizable color schemes, positioning, and responsive visibility options.
+
 
 ## Common use cases
 
-* Provide a unique overlay\_id for each sidebar instance
-* Use the visibility settings to control display on different device sizes
-* Consider user experience when configuring close button visibility
-* Create navigation menus, filters, or supplementary content panels
+- Display navigation menus, filters, or supplementary content panels in a sidebar that slides in from the side of the screen.
 
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-* [Container](layout/container.md) (for sidebar content)
-* [Container](layout/container.md) (for sidebar footer)
 
 ## Block settings
 
 ### Content
 
-| Setting           | Description                                                             | Options                                                                                                                             |
-| ----------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Overlay preset    | Select a preset overlay ID or use a custom one                          | <p>• Account<br>• Search<br>• Menu<br>• Primary cart<br>• Alternative cart<br>• Quick buy<br>• Quick edit<br>• Custom (default)</p> |
-| Overlay ID        | Custom identifier for the overlay (used to trigger it programmatically) | <p>Text input<br><br>Visible when overlay preset is "Custom"</p>                                                                    |
-| Show close button | Displays a close button in the sidebar                                  | Checkbox (default: false)                                                                                                           |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Overlay preset | Select a preset overlay ID or use a custom one | &bull; Account<br>&bull; Search<br>&bull; Menu<br>&bull; Primary cart<br>&bull; Alternative cart<br>&bull; Quick buy<br>&bull; Quick edit<br>&bull; Custom (default) |
+| Overlay ID | Custom identifier for the overlay | Text input<br><br>_Visible when overlay preset is "Custom"_ |
+| Show close button | Displays a close button in the sidebar | Checkbox (default: false) |
 
 ### Color
 
-| Setting      | Description                                        | Options                                                                                                                                                                                    |
-| ------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text color combination | <p>• Body<br>• Neutral<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Border color | Controls the border color                          | <p>• Subtle (default)<br>• Strong<br>• None</p>                                                                                                                                            |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default)<br><br>_Visible when enable inheritance is disabled_ |
+| Color scheme | Controls the color scheme | Color scheme picker<br><br>_Visible when type is "Custom" and enable inheritance is disabled_ |
+| Color scheme | Controls the background and text color combination | &bull; Body<br>&bull; Accent 1 (default)<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Border color | Controls the border color | &bull; Subtle (default)<br>&bull; Strong<br>&bull; None<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
 
 ### Layout
 
-| Setting             | Description                                       | Options                            |
-| ------------------- | ------------------------------------------------- | ---------------------------------- |
-| Horizontal position | Position of the sidebar along the horizontal axis | <p>• Left<br>• Right (default)</p> |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Horizontal position | Position of the sidebar along the horizontal axis | &bull; Left<br>&bull; Right (default) |
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

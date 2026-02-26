@@ -3,20 +3,15 @@
 
 ## Overview
 
-A float block that wraps other theme or app blocks and positions them absolutely according to x and y coordinate settings. Supports responsive positioning for different desktop and mobile layouts with rotation effects for dynamic floating content.
+A floating overlay container that positions its child blocks at a fixed location on the page. Supports configurable positioning, sizing, rotation, color schemes, and separate desktop and mobile layout controls.
 
 
 ## Common use cases
 
-- Position blocks at specific coordinates on the page for floating elements like tooltips, badges, or overlays
-- Ensure the parent container has position: relative for proper positioning
-- Use responsive positioning for different desktop and mobile layouts
-- Apply rotation effects for dynamic floating content
+Position content as a floating overlay at specific locations on the page with separate mobile and desktop controls.
 
 
 ## Compatible blocks
-
-The following blocks can be nested within this block:
 
 - All theme blocks
 - App blocks
@@ -27,42 +22,41 @@ The following blocks can be nested within this block:
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default) |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank |
-| Enable color difference | Applies mix-blend-difference for visual contrast | Checkbox (default: false) |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Controls the enable inheritance | Checkbox (default: false) |
+| Enable color difference | Colors are inverted when this block overlaps any other content. | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
+|---------|-------------|--------|
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
 
-
-### Layout (desktop)
-
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Vertical alignment | Vertical position percentage on desktop | 0 - 100 % (default: 50) |
-| Horizontal alignment | Horizontal position percentage on desktop | 0 - 100 % (default: 50) |
-| Width | Width of the floating block as viewport percentage | 5 - 100 % (default: 30) |
-| Rotation | Rotation angle in degrees | 0 - 360 deg (default: 15) |
-
-
-### Layout (mobile)
+### Layout desktop
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Vertical alignment | Vertical position percentage on mobile | 0 - 100 % (default: 50) |
-| Horizontal alignment | Horizontal position percentage on mobile | 0 - 100 % (default: 50) |
-| Width | Width of the floating block as viewport percentage | 5 - 100 % (default: 70) |
-| Rotation | Rotation angle in degrees | 0 - 360 deg (default: 15) |
+|---------|-------------|--------|
+| Vertical alignment | Controls the vertical alignment | 0 – 100 % (default: 50) |
+| Horizontal alignment | Controls the horizontal alignment | 0 – 100 % (default: 50) |
+| Width | Controls the width | 5 – 100 % (default: 30) |
+| Rotation | Controls the rotation | 0 – 360 deg (default: 15) |
 
+### Layout mobile
+
+| Setting | Description | Options |
+|---------|-------------|--------|
+| Vertical alignment | Controls the vertical alignment | 0 – 100 % (default: 50) |
+| Horizontal alignment | Controls the horizontal alignment | 0 – 100 % (default: 50) |
+| Width | Controls the width | 5 – 100 % (default: 70) |
+| Rotation | Controls the rotation | 0 – 360 deg (default: 15) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-triggered animations | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |

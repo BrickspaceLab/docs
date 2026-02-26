@@ -1,44 +1,70 @@
 # Flex item
 
+
 ## Overview
 
-A flexible container item designed to be used within layout__flex.liquid for creating customizable layouts. Supports responsive width adjustments, alignment controls, and spacing options.
+A flexible container block that displays its content within a flex layout. It supports customizable width, spacing, sticky positioning, color schemes, scroll animations, and responsive visibility options.
+
 
 ## Block limitations
 
 This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
 
+
 ## Common use cases
 
-- Use with layout__flex.liquid to create flexible grid-like layouts
-- Configure visibility settings for responsive designs that differ between mobile and desktop
-- Adjust gap size to maintain consistent spacing between nested elements
-- Set custom widths for mobile and desktop views
-- Use sticky positioning for elements that should remain visible while scrolling
+- Use as a child of a flex layout to create responsive multi-column arrangements with independently sized and styled content areas.
 
-## Child blocks
 
-This block includes the following nested blocks:
+## Compatible blocks
 
-- All theme blocks
-- App blocks
+The following blocks can be nested within this block:
+
+- Any theme block
+- Any app block
+
 
 ## Block settings
 
+### Spacing
+
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable padding | Adds padding around the flex item content | Checkbox (default: false) |
-| Enable vertical spacing | Adds vertical padding (top and bottom) | Checkbox (default: true) |
-| Gap size | Controls spacing between child blocks | None, Default (default), XS, SM, MD, LG, XL |
-| Color scheme | Controls the background and text colors | Body, Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent (default) |
-| Color border | Controls the border color | Body, Subtle (default), Strong, Primary, Secondary, Tertiary, None. Visible when border position is not blank |
-| Border position | Controls where borders appear | None (default), Top, Bottom, Left, Right, Top and bottom, Left and right, All |
-| Width mobile | Width of the flex item on mobile devices | 5 - 100 % (default: 80). Visible when enable width fill and enable default width are false |
-| Width desktop | Width of the flex item on desktop devices | 5 - 100 % (default: 40). Visible when enable width fill and enable default width are false |
-| Enable width fill | Makes the flex item grow to fill available space | Checkbox (default: false) |
-| Enable default width | Uses automatic width sizing | Checkbox (default: false) |
-| Enable sticky layout | Enables sticky positioning | Checkbox (default: false) |
-| Sticky position | Position for sticky element | None, Top, Bottom. Visible when enable sticky layout is true |
-| Vertical alignment | Controls vertical alignment of content | Top, Middle, Bottom (default) |
-| Visibility | Controls when the block is visible | All (default), Mobile only, Desktop only |
+| Enable padding | Adds internal padding to the block | Checkbox (default: false) |
+| Enable vertical spacing | Adds vertical spacing around the block | Checkbox (default: true) |
+| Gap size | Spacing between child elements | &bull; None<br>&bull; Default (default)<br>&bull; Extra small<br>&bull; Small<br>&bull; Medium<br>&bull; Large<br>&bull; Extra large |
 
+### Color
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Scheme | Color scheme picker for custom mode | Color scheme picker |
+| Scheme | Color scheme for the block | &bull; Body<br>&bull; Accent 1<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent (default) |
+| Border | Border color for the block | &bull; Body foreground<br>&bull; Subtle (default)<br>&bull; Strong<br>&bull; None |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
+
+### Style
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Border position | Position of the border on the block | &bull; None (default)<br>&bull; Top<br>&bull; Bottom<br>&bull; Left<br>&bull; Right<br>&bull; Top & bottom<br>&bull; Left & right<br>&bull; All |
+
+### Layout
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Mobile width | Width of the block on mobile devices | 5 – 100% (default: 80) |
+| Desktop width | Width of the block on desktop devices | 5 – 100% (default: 40) |
+| Enable width fill | Allows the block to fill available space in the flex container | Checkbox (default: false) |
+| Enable default width | Uses the parent container's default width setting | Checkbox (default: false) |
+| Enable sticky layout | Makes the block sticky when scrolling | Checkbox (default: false) |
+| Sticky position | Position where the block sticks when scrolling | &bull; None (default)<br>&bull; Top<br>&bull; Bottom |
+| Vertical alignment | Vertical alignment of child content | &bull; Top<br>&bull; Middle<br>&bull; Bottom (default) |
+
+### Display
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |
+| Scroll animation | Animation applied to the block on scroll | &bull; None (default)<br>&bull; Fade<br>&bull; Slide up<br>&bull; Slide down<br>&bull; Slide left<br>&bull; Slide right<br>&bull; Zoom |

@@ -3,17 +3,14 @@
 
 ## Overview
 
-A comprehensive product price display block that renders pricing information for products including regular prices, sale prices, price ranges, and unit pricing. Automatically handles product variants by using selected_or_first_available_variant and displays sale pricing with strikethrough compare-at prices when available. Unit pricing appears below main price when available on the selected variant.
+A customizable product price block that displays the product price with optional price range formatting for both regular and sale prices. Supports text styling, alignment, color schemes, and responsive visibility controls.
 
 
 ## Common use cases
 
-- Display product pricing on product pages and product cards
-- Show price ranges for products with multiple variants
-- Display sale prices with strikethrough compare-at prices
-- Show unit pricing for products sold by weight or volume
-- Configure appropriate font sizes based on context (smaller for cards, larger for product pages)
-- Use alignment settings that match your overall product layout design
+* Display product prices with customizable formatting and styling
+* Show price ranges or starting prices for products with multiple variants
+* Configure sale price display to show ranges or starting prices
 
 
 ## Block settings
@@ -22,44 +19,42 @@ A comprehensive product price display block that renders pricing information for
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Product | Select the product to display pricing for | Product picker |
-| Price range | How to display prices for products with multiple variants | • Range (default)<br>• Starting price |
-| Sale price range | How to display sale prices for products with multiple variants | • Range (default)<br>• Starting price |
-
+| Product | Controls the product | Product picker |
+| Price range | Controls the price range | • Show price range (default)<br>• Show starting price |
+| Sale price range | Controls the sale price range | • Show range (default)<br>• Show starting price |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the price | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the price | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the price | Checkbox (default: false) |
-
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Color text | Controls the text color | • Default (default)<br>• Alternative<br>• Primary background<br>• Primary foreground<br>• Secondary background<br>• Secondary foreground<br>• Tertiary background<br>• Tertiary foreground<br>• Neutral background<br>• Neutral foreground<br>• Shade |
-
+| Type | Controls the type | <p>• Custom<br>• Base (default)<br><br>Visible when enable inheritance is false</p> |
+| Scheme | Controls the scheme | <p>Color scheme picker<br><br>Visible when color type is custom and enable inheritance is false</p> |
+| Text color | Controls the text color | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3<br><br>Visible when color type is base and enable inheritance is false</p> |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: true) |
 
 ### Style
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Font family | Font family for the price text | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains type-- |
-| Font size | Font size for the price text | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-
+| Font family | Controls the font family | <p>• Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains type--</p> |
+| Font size | Controls the font size | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment of the price | • Left (default)<br>• Center<br>• Right |
-
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Right |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

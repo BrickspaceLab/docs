@@ -1,38 +1,74 @@
 # Pagination
 
-## Block limitations
+A pagination component that provides infinite scroll, load more button, and numbered page navigation options. Designed for use within paginated layout blocks.
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within paginated layout blocks.
 
 ## Overview
 
-A pagination component that provides options for infinite scroll, load more button, and numbered page navigation within paginated content.
+Renders pagination controls for paginated content with three display modes: infinite scroll, load more on click, and next/back buttons. Supports sticky positioning, customizable button styles, and responsive visibility.
+
 
 ## Common use cases
 
-- Use within paginated collections or search results
-- Choose pagination type based on user experience needs
+Use this block to add pagination controls within paginated layout blocks such as collection grids, blog grids, or search grids.
 
-## Child blocks
 
-This block does not support child blocks.
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within paginated layout blocks such as collection grid, blog grid, search grid, and collections grid. It requires a paginate object from a parent layout block and is not designed for standalone use. It is private because it depends on pagination context provided by its parent.
+
 
 ## Block settings
 
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Pagination type | Type of pagination to display | Scroll (default), Load, Pages |
-| Label | Custom label for load more button | Text input |
-| Show page count | Displays current page and total pages | Checkbox (default: true) |
-| Top spacing | Spacing above the pagination | 0 - 300 px (default: 0) |
-| Bottom spacing | Spacing below the pagination | 0 - 300 px (default: 0) |
-| Enable padding | Adds padding around the pagination | Checkbox (default: true) |
-| Color scheme | Controls the background color scheme | Body, Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent (default) |
-| Border color | Controls the border color | Body, Subtle (default), Strong, Primary, Secondary, Tertiary, None. Visible when border position is not empty |
-| Button color | Color style for pagination buttons | Primary, Secondary (default), Tertiary, Neutral, Plain, Outline, Inverted outline, Blur, Link, Inverted link |
-| Border position | Controls which sides have borders | None (default), Top, Bottom, Left, Right, Top and bottom, Left and right, All |
-| Button size | Size of pagination buttons | Extra small, Small (default), Standard, Large |
-| Horizontal alignment | Controls horizontal alignment | Left, Center (default), Right |
-| Sticky position | Makes the pagination stick to viewport | None (default), Top, Bottom |
-| Visibility | Controls when the block is visible | All (default), Mobile only, Desktop only |
+### Pagination type
 
+| Setting | Description | Options |
+| --- | --- | --- |
+| Pagination type | Controls how additional pages are loaded | • Load more on scroll (default)<br>• Load more on click<br>• Next/back buttons |
+
+### Content
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Label | Custom label text for the load more button | Text input |
+| Show page count | Displays the current page and total page count | Checkbox (default: true) |
+
+### Spacing
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Top spacing | Padding space above the pagination | 0 – 300 px (default: 0) |
+| Bottom spacing | Padding space below the pagination | 0 – 300 px (default: 0) |
+| Enable padding | Adds padding around the pagination | Checkbox (default: true) |
+
+### Color
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Chooses between custom and base color modes | • Custom<br>• Base (default) |
+| Scheme | Selects a custom color scheme for the background | Color scheme picker |
+| Scheme | Sets the background color scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Sets the border color style | • Body<br>• Subtle (default)<br>• Strong<br>• None |
+| Button | Selects a custom color scheme for the button | Color scheme picker |
+| Button | Sets the button color style | • Plain (default)<br>• Main<br>• Blur<br>• Outline<br>• Inverted outline<br>• Transparent<br>• Inverted transparent |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme | Checkbox (default: false) |
+
+### Style
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Border position | Sets the position of the border | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
+| Button size | Controls the size of pagination buttons | • Extra small<br>• Small (default)<br>• Standard<br>• Large |
+
+### Layout
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Horizontal alignment | Controls horizontal alignment of the pagination | • Left<br>• Center (default)<br>• Right |
+| Sticky position | Makes the pagination stick to the viewport edge | • None (default)<br>• Top<br>• Bottom |
+
+### Display
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

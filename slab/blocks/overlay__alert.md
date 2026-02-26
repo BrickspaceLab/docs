@@ -1,51 +1,52 @@
 # Overlay alert
 
+
 ## Overview
 
-An alert overlay component that displays content in a floating panel that can be positioned at different corners of the screen. Supports auto-close functionality with visual progress indicator, customizable appearance, and responsive behavior.
+An alert overlay block that displays content in a floating panel positioned at different corners of the screen. Supports auto-close functionality with a visual progress indicator, customizable color schemes, and responsive visibility options.
+
 
 ## Common use cases
 
-* Use for temporary notifications, messages, or calls-to-action
-* Keep content concise as the alert has limited space
-* Consider accessibility when choosing colors and auto-close timing
-* Display important announcements or promotional messages
-* Provide user feedback for actions
+- Display temporary notifications, promotional messages, or user feedback in a floating alert panel.
 
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-* [Container](layout/container.md) (for alert content)
 
 ## Block settings
 
 ### Content
 
-| Setting             | Description                                                             | Options                                                                                                                                                                                               |
-| ------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Overlay preset      | Select a preset overlay ID or use a custom one                          | <p>• Account<br>• Search<br>• Menu<br>• Primary cart<br>• Alternative cart<br>• Age verification<br>• Form response<br>• Discount<br>• Error<br>• Quick buy<br>• Quick edit<br>• Custom (default)</p> |
-| Overlay ID          | Custom identifier for the overlay (used to trigger it programmatically) | <p>Text input<br><br>Visible when overlay preset is "Custom"</p>                                                                                                                                      |
-| Show close button   | Displays a close button in the alert                                    | Checkbox (default: false)                                                                                                                                                                             |
-| Enable auto close   | Automatically closes the alert after a set duration                     | Checkbox (default: false)                                                                                                                                                                             |
-| Auto close duration | Time before the alert automatically closes                              | <p>1 - 10 s (default: 3)<br><br>Visible when enable auto close is true</p>                                                                                                                            |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Overlay preset | Select a preset overlay ID or use a custom one | &bull; Account<br>&bull; Search<br>&bull; Menu<br>&bull; Primary cart<br>&bull; Alternative cart<br>&bull; Age verification<br>&bull; Form response<br>&bull; Discount<br>&bull; Error<br>&bull; Quick buy<br>&bull; Quick edit<br>&bull; Custom (default) |
+| Overlay ID | Custom identifier for the overlay | Text input<br><br>_Visible when overlay preset is "Custom"_ |
+| Show close button | Displays a close button in the alert | Checkbox (default: false) |
 
 ### Color
 
-| Setting      | Description                                        | Options                                                                                                                                                                                    |
-| ------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text color combination | <p>• Body<br>• Neutral<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Border color | Controls the border color                          | <p>• Subtle (default)<br>• Strong<br>• None</p>                                                                                                                                            |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default)<br><br>_Visible when enable inheritance is disabled_ |
+| Color scheme | Controls the color scheme | Color scheme picker<br><br>_Visible when type is "Custom" and enable inheritance is disabled_ |
+| Color scheme | Controls the background and text color combination | &bull; Body<br>&bull; Accent 1 (default)<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Border color | Controls the border color | &bull; Subtle (default)<br>&bull; Strong<br>&bull; None<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
+
+### Style
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Enable auto close | Automatically closes the alert after a set duration | Checkbox (default: false) |
+| Auto close duration | Time before the alert automatically closes | 1 – 10 s (default: 3)<br><br>_Visible when enable auto close is enabled_ |
 
 ### Layout
 
-| Setting             | Description                                     | Options                            |
-| ------------------- | ----------------------------------------------- | ---------------------------------- |
-| Horizontal position | Position of the alert along the horizontal axis | <p>• Left<br>• Right (default)</p> |
-| Vertical position   | Position of the alert along the vertical axis   | <p>• Top (default)<br>• Bottom</p> |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Horizontal position | Position of the alert along the horizontal axis | &bull; Left<br>&bull; Right (default) |
+| Vertical position | Position of the alert along the vertical axis | &bull; Top (default)<br>&bull; Bottom |
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

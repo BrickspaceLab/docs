@@ -1,30 +1,28 @@
 # Search grid
 
-
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within search templates.
+A paginated grid layout for displaying search results with configurable columns, spacing, and styling options. Designed for use within search templates.
 
 
 ## Overview
 
-A block for displaying paginated search results in a customizable grid layout with configurable columns, spacing, and styling. This block supports search result templates with mixed content types (products, articles, pages) and contains provisions for sidebar and top bar filters.
+Renders search results in a responsive grid with pagination support. Includes provisions for sidebar filters and top/bottom bar containers.
 
 
 ## Common use cases
 
-- Adjust items_per_page based on your store's needs
-- Set appropriate row_desktop and row_mobile values for responsive design
+Use this block to display paginated search results in a customizable grid layout on the search results page.
+
+
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within search templates. It requires a search context to paginate results and must be placed inside a section that provides search data. It is private because it depends on the search template context and is not designed for standalone use.
 
 
 ## Compatible blocks
 
-The following blocks can be nested within this block:
+This block accepts the following nested block types:
 
-- Grid paginate item blocks
-- [Container](layout/container.md) blocks (for top bar, sidebars, bottom bar)
-- [Pagination](_pagination.md)
-- [Filter](filter.md) blocks
+- `_g__grid-paginateitem`
 
 
 ## Block settings
@@ -32,45 +30,43 @@ The following blocks can be nested within this block:
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Items per page | Number of results per page | 1 - 32 (default: 10) |
-
+| --- | --- | --- |
+| Items per page | Number of items displayed per page | 1 – 32 (default: 10) |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Spacing above the grid | 0 - 300 px (default: 0) |
-| Bottom spacing | Spacing below the grid | 0 - 300 px (default: 0) |
-| Enable horizontal padding | Adds horizontal padding around the grid | Checkbox (default: false) |
-| Gap size | Spacing between grid items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+| --- | --- | --- |
+| Top spacing | Padding space above the block content | 0 – 300 px (default: 0) |
+| Bottom spacing | Padding space below the block content | 0 – 300 px (default: 0) |
+| Enable horizontal padding | Adds horizontal padding to the block | Checkbox (default: false) |
+| Gap size | Controls the space between grid items | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border color | Controls the border color | • Subtle (default)<br>• Strong |
-
+| --- | --- | --- |
+| Type | Chooses between custom and base color modes | • Custom<br>• Base (default) |
+| Scheme | Selects a custom color scheme | Color scheme picker |
+| Border | Sets the border color style | • Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border position | Controls which sides have borders | • None (default)<br>• Top<br>• Bottom<br>• Top and bottom |
-
+| --- | --- | --- |
+| Border position | Sets the position of the border | • None (default)<br>• Top<br>• Bottom<br>• Top & bottom |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Row desktop | Number of columns on desktop | 1 - 8 (default: 5) |
-| Row mobile | Number of columns on mobile | 1 - 3 (default: 2) |
-| Enable margin | Adds margin around the grid | Checkbox (default: false) |
-
+| --- | --- | --- |
+| Desktop row size | Number of columns displayed on desktop | 1 – 8 (default: 5) |
+| Mobile row size | Number of columns displayed on mobile | 1 – 3 (default: 2) |
+| Enable margin | Adds outer margin to the block | Checkbox (default: false) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

@@ -3,24 +3,21 @@
 
 ## Overview
 
-A customizable password form block that allows customers to enter a password to access a store. Features responsive layout options, flexible styling, and customizable success messages. Supports both stacked and inline layouts with error handling and success message display.
+A customizable password form block that allows customers to enter a password to access a store. Features responsive layout options, flexible styling, and customizable success messages.
 
 
 ## Common use cases
 
-- Protect store access with password authentication
-- Use stacked layout for mobile-first designs
-- Choose button colors that contrast well with your theme
-- Consider using padding options when placed within other content blocks
-- Test the form across different screen sizes to ensure optimal layout
+* Add a password entry form for storefront password protection
+* Create password-gated access to your store during development
 
 
 ## Compatible blocks
 
 The following blocks can be nested within this block:
 
-- [Input field](form-input.md)
-- [Button](button.md)
+* [Input field](input-field.md)
+* [Button](button.md)
 
 
 ## Block settings
@@ -28,28 +25,25 @@ The following blocks can be nested within this block:
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Success message | Custom message shown after successful password entry | Rich text input |
-
+|---------|-------------|----------|
+| Success message | Message shown after successful submission | Rich text input |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the form | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the form | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the form | Checkbox (default: false) |
-
+|---------|-------------|----------|
+| Enable horizontal padding | Adds horizontal padding inside the container | Checkbox (default: false) |
+| Enable top padding | Adds top padding | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding | Checkbox (default: false) |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Layout | Form layout style | • Stacked<br>• Inline (default) |
-
+|---------|-------------|----------|
+| Layout | Controls the layout direction | <p>• Stacked<br>• Inline (default)</p> |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+|---------|-------------|----------|
+| Visibility | Controls when the block is visible | <p>• Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only</p> |

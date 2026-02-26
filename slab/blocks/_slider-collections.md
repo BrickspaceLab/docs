@@ -1,21 +1,21 @@
 # Slider collections
 
-
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](layout__slider.md) block.
+A slider component for displaying collections in a horizontally scrollable layout. Designed for use within the slider layout block.
 
 
 ## Overview
 
-A customizable slider component for displaying collections in a horizontal scrollable layout. This block iterates through collections selected by the merchant and renders them as slider items with configurable layout options.
+Renders collections from a merchant-selected collection list as horizontally scrollable slider items with responsive width controls. Falls back to all collections in the theme editor when no collection list is selected.
 
 
 ## Common use cases
 
-- Use this block when you want to showcase collections in a scrollable slider format
-- Configure the widths carefully to ensure proper display on different devices
-- For best results, use with collections that have consistent image dimensions
+Use this block to showcase collections in a horizontal slider format within the slider layout block.
+
+
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within the slider layout block. It requires a collection list selection and must be nested inside a slider container. It is private because it depends on the slider layout for its scrollable behavior and is not designed for standalone use.
 
 
 ## Block settings
@@ -23,20 +23,18 @@ A customizable slider component for displaying collections in a horizontal scrol
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Collection list | Collections to display | Collection list picker |
+| --- | --- | --- |
+| Collection list | Collections to display in the slider | Collection list picker |
 
-
-### Spacing
+### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Width mobile | Width of each slider item on mobile | 5 - 100 % (default: 80) |
-| Width desktop | Width of each slider item on desktop | 5 - 100 % (default: 20) |
-
+| --- | --- | --- |
+| Mobile width | Width of each slider item on mobile | 5 – 100 % (default: 80) |
+| Desktop width | Width of each slider item on desktop | 5 – 100 % (default: 20) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

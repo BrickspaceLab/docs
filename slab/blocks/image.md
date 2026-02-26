@@ -3,14 +3,12 @@
 
 ## Overview
 
-A flexible image block component that renders a single image with customizable styling options. Supports responsive display, color schemes, aspect ratios, and alignment controls.
+A versatile image block that renders a single image with optional link, lazy loading, and responsive display options. Supports customizable aspect ratios, border radius, color schemes, and visibility controls.
 
 
 ## Common use cases
 
-- Consider image optimization by setting appropriate max_width
-- Choose aspect ratio based on image content and layout needs
-- Utilize color schemes to maintain fallback colors or backgrounds when using transparent images
+Display images with optional links, responsive sizing, and customizable styling throughout your theme.
 
 
 ## Block settings
@@ -18,48 +16,46 @@ A flexible image block component that renders a single image with customizable s
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Image | The image to display | Image picker |
-
+|---------|-------------|--------|
+| Image | Controls the image | Image picker |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the content | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the content | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the content | Checkbox (default: false) |
-
+|---------|-------------|--------|
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background color scheme | • Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur |
-| Border color | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not empty |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body (default)<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border position | Controls which sides have borders | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-| Radius | Controls the border radius | • None (default)<br>• Default<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full |
-| Enable aspect ratio | Forces the image to maintain a specific aspect ratio | Checkbox (default: false) |
-| Aspect ratio | The aspect ratio to maintain | • Square<br>• Landscape<br>• Portrait<br>• None<br><br>Visible when enable aspect ratio is true |
-
+|---------|-------------|--------|
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
+| Radius | Controls the radius | • None<br>• Default (default)<br>• Small<br>• Medium<br>• Large<br>• 1x Large<br>• 2x Large<br>• Full |
+| Enable aspect ratio | Controls the enable aspect ratio | Checkbox (default: false) |
+| Aspect ratio | Controls the aspect ratio | • Square<br>• Landscape<br>• Portrait<br>• None (default) |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Width | Controls the width of the image | 5 - 100 % (default: 100) |
-| Horizontal alignment | Controls horizontal alignment | • Left (default)<br>• Center<br>• Right |
-
+|---------|-------------|--------|
+| Width | Controls the width | 5 – 100 % (default: 100) |
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Right |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-based animations to the block | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |

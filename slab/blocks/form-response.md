@@ -3,15 +3,12 @@
 
 ## Overview
 
-A dynamic error message display block that renders error text from an Alpine.js store. Provides customizable styling options including text color, font family, size, alignment, and responsive visibility controls.
+A dynamic form response block that renders feedback text from an Alpine.js store. Provides customizable styling options including text color, font family, size, alignment, and responsive visibility controls.
 
 
 ## Common use cases
 
-- Enable max_width (default: true) for better readability of error messages
-- Consider the context where errors will appear when choosing text color and size
-- Use appropriate padding settings based on surrounding content
-- Display form submission feedback and validation messages
+Display form submission feedback and validation messages with customizable styling.
 
 
 ## Block settings
@@ -19,37 +16,36 @@ A dynamic error message display block that renders error text from an Alpine.js 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the content | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the content | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the content | Checkbox (default: false) |
-
+|---------|-------------|--------|
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Text color | Controls the text color | • Default (default)<br>• Alternative<br>• Primary background<br>• Primary foreground<br>• Secondary background<br>• Secondary foreground<br>• Tertiary background<br>• Tertiary foreground<br>• Neutral background<br>• Neutral foreground<br>• Shade<br>• Error<br>• Success |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Text | Controls the text | • Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3 |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: true) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Font family | Controls the font family used for the text | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains 'type--' |
-| Font size | Controls the font size of the text | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-
+|---------|-------------|--------|
+| Font family | Controls the font family | • Standard (default)<br>• Heading<br>• Subheading<br>• Accent |
+| Font size | Controls the font size | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Horizontal alignment | Controls horizontal text alignment | • Left (default)<br>• Center<br>• Justify<br>• Right |
-| Enable max width | Limits the maximum width of the text content | Checkbox (default: true) |
-
+|---------|-------------|--------|
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Justify<br>• Right |
+| Enable max width | Controls the enable max width | Checkbox (default: true) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

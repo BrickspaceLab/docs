@@ -3,16 +3,12 @@
 
 ## Overview
 
-A product bundle block that lists bundle items from a metafield and allows adding all selected variants to cart at once. Displays bundle products using the c__bundle-item snippet and integrates with the theme's cart functionality to add multiple line items simultaneously.
+A product bundle block that lists bundle items from a product metafield and allows adding all selected variants to cart at once. Supports configurable button colors, spacing, and responsive visibility options.
 
 
 ## Common use cases
 
-- Configure product bundles using the custom.product_bundle metafield (list of products)
-- Use gap size settings to control spacing between bundle items based on your design needs
-- Configure button colors to match your theme's design system
-- Set appropriate padding based on the container context where the bundle block is displayed
-- Test bundle functionality with products that have variants to ensure proper selection flow
+- Display a product bundle with individually selectable variants and an add-all-to-cart button.
 
 
 ## Block settings
@@ -23,27 +19,27 @@ A product bundle block that lists bundle items from a metafield and allows addin
 |---------|-------------|---------|
 | Product | Select the product to display bundle for | Product picker |
 
-
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
 | Enable horizontal padding | Adds horizontal padding around the bundle | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the bundle | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the bundle | Checkbox (default: false) |
-| Gap size | Controls spacing between bundle items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+| Enable top padding | Adds top padding above the bundle | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding below the bundle | Checkbox (default: false) |
+| Gap size | Controls spacing between bundle items | &bull; None<br>&bull; Default (default)<br>&bull; XS<br>&bull; SM<br>&bull; MD<br>&bull; LG<br>&bull; XL |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Disabled button color | Color scheme for the disabled "Choose Options" button | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain (default)<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link |
-| Main button color | Color scheme for the active "Add to Cart" button | • Primary (default)<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link |
-
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Default button color | Color scheme for the active add to cart button | Color scheme picker<br><br>_Visible when type is "Custom"_ |
+| Default button color | Color scheme for the active add to cart button | &bull; Plain (default)<br>&bull; Main<br>&bull; Blur<br>&bull; Outline<br>&bull; Inverted outline<br>&bull; Transparent<br>&bull; Inverted transparent<br><br>_Visible when type is "Base"_ |
+| Disabled button color | Color scheme for the disabled choose options button | Color scheme picker<br><br>_Visible when type is "Custom"_ |
+| Disabled button color | Color scheme for the disabled choose options button | &bull; Plain (default)<br>&bull; Main<br>&bull; Blur<br>&bull; Outline<br>&bull; Inverted outline<br>&bull; Transparent<br>&bull; Inverted transparent<br><br>_Visible when type is "Base"_ |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

@@ -1,50 +1,46 @@
 # Overlay drawer
 
+
 ## Overview
 
-A customizable drawer component that displays content in a sliding overlay panel. This component creates an interactive drawer that can be positioned at the bottom, left, or right of the screen with a button to trigger its visibility.
+A drawer overlay block that displays content in a sliding panel. Supports configurable positioning, full-height mode, customizable color schemes, and responsive visibility options.
+
 
 ## Common use cases
 
-* Use for navigation menus, filters, cart drawers, or any content that should appear on demand
-* Consider the best position based on content type (e.g., filters often work well as left/right drawers)
-* Ensure drawer content is accessible and navigable by keyboard
-* Customize colors and borders to match your theme design
+- Display navigation menus, cart drawers, or supplementary content in a sliding panel triggered on demand.
 
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-* [Container](layout/container.md) (for drawer content)
-* [Container](layout/container.md) (for drawer footer)
 
 ## Block settings
 
 ### Content
 
-| Setting           | Description                                                             | Options                                                                                                                             |
-| ----------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Overlay preset    | Select a preset overlay ID or use a custom one                          | <p>• Account<br>• Search<br>• Menu<br>• Primary cart<br>• Alternative cart<br>• Quick buy<br>• Quick edit<br>• Custom (default)</p> |
-| Overlay ID        | Custom identifier for the overlay (used to trigger it programmatically) | <p>Text input<br><br>Visible when overlay preset is "Custom"</p>                                                                    |
-| Show close button | Displays a close button in the drawer                                   | Checkbox (default: false)                                                                                                           |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Overlay preset | Select a preset overlay ID or use a custom one | &bull; Account<br>&bull; Search<br>&bull; Menu<br>&bull; Primary cart<br>&bull; Alternative cart<br>&bull; Quick buy<br>&bull; Quick edit<br>&bull; Custom (default) |
+| Overlay ID | Custom identifier for the overlay | Text input<br><br>_Visible when overlay preset is "Custom"_ |
+| Show close button | Displays a close button in the drawer | Checkbox (default: false) |
 
 ### Color
 
-| Setting      | Description                                        | Options                                                                                                                                                                                    |
-| ------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text color combination | <p>• Body<br>• Neutral<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Border color | Controls the border color                          | <p>• Subtle (default)<br>• Strong<br>• None</p>                                                                                                                                            |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default)<br><br>_Visible when enable inheritance is disabled_ |
+| Color scheme | Controls the color scheme | Color scheme picker<br><br>_Visible when type is "Custom" and enable inheritance is disabled_ |
+| Color scheme | Controls the background and text color combination | &bull; Body<br>&bull; Accent 1 (default)<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Border color | Controls the border color | &bull; Subtle (default)<br>&bull; Strong<br>&bull; None<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
 
 ### Layout
 
-| Setting             | Description                                      | Options                                        |
-| ------------------- | ------------------------------------------------ | ---------------------------------------------- |
-| Horizontal position | Position of the drawer along the horizontal axis | <p>• Left<br>• Center<br>• Right (default)</p> |
-| Vertical position   | Position of the drawer along the vertical axis   | <p>• Top (default)<br>• Bottom</p>             |
-| Enable full height  | Makes the drawer extend to full viewport height  | Checkbox (default: false)                      |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Horizontal position | Position of the drawer along the horizontal axis | &bull; Left<br>&bull; Center<br>&bull; Right (default) |
+| Vertical position | Position of the drawer along the vertical axis | &bull; Top (default)<br>&bull; Bottom |
+| Enable full height | Makes the drawer extend to full viewport height | Checkbox (default: false) |
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

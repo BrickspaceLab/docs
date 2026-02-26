@@ -3,29 +3,26 @@
 
 ## Overview
 
-A table row component that can be added to the layout__table block. Allows merchants to add content to each cell in the row.
-
-
-## Common use cases
-
-- Add multiple _table-cell blocks to create a complete row
-- For best appearance, ensure all rows have the same number of cells
-- Create structured table layouts with consistent cell arrangements
+A table row block that creates a horizontal row within a table layout. It provides the row structure and accepts table cell blocks as children for individual cell content.
 
 
 ## Block limitations
 
-This is a private block that can only be used within the layout__table block. It provides the table row structure and supports _g__table-cell blocks for individual cells. It is not available in the general block picker.
+This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
 
 
-## Child blocks
+## Common use cases
 
-This block includes the following nested blocks:
+- Use within a table layout to create structured rows that contain table cell blocks.
 
-- Table cell
+
+## Compatible blocks
+
+The following blocks can be nested within this block:
+
+- [Table cell](_g__table-cell.md)
 
 
 ## Block settings
 
-This block has no settings.
-
+This block has no configurable settings.

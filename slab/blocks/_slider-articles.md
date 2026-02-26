@@ -1,22 +1,21 @@
 # Slider articles
 
-
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](layout__slider.md) block.
+A slider component for displaying blog articles in a horizontally scrollable layout. Designed for use within the slider layout block.
 
 
 ## Overview
 
-A customizable slider component for displaying blog articles in a horizontal scrollable layout. This block iterates through articles from a selected blog and renders them as slider items with configurable layout options.
+Renders articles from a selected blog as horizontally scrollable slider items with responsive width controls. Supports filtering articles by tag.
 
 
 ## Common use cases
 
-- Use this block when you want to showcase blog content in a scrollable slider format
-- Configure the widths carefully to ensure proper display on different devices
-- When using tag filtering, ensure articles have appropriate tags assigned
-- For best results, use with blog content that has consistent image dimensions
+Use this block to showcase blog content in a horizontal slider format within the slider layout block.
+
+
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within the slider layout block. It requires a blog context to iterate articles and must be nested inside a slider container. It is private because it depends on the slider layout for its scrollable behavior and is not designed for standalone use.
 
 
 ## Block settings
@@ -24,22 +23,20 @@ A customizable slider component for displaying blog articles in a horizontal scr
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
+| --- | --- | --- |
 | Blog | Blog to display articles from | Blog picker |
-| Item count | Number of articles to display | Number (default: 7) |
-| Filter by tag | Filter articles by a specific tag | Text input |
+| Item count | Number of articles to display | Number input (default: 7) |
+| Filter by tag | Filters articles to only show those with this tag | Text input |
 
-
-### Spacing
+### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Width mobile | Width of each slider item on mobile | 5 - 100 % (default: 80) |
-| Width desktop | Width of each slider item on desktop | 5 - 100 % (default: 20) |
-
+| --- | --- | --- |
+| Mobile width | Width of each slider item on mobile | 5 – 100 % (default: 80) |
+| Desktop width | Width of each slider item on desktop | 5 – 100 % (default: 20) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

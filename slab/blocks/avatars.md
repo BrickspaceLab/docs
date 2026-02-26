@@ -8,17 +8,16 @@ A flexible container component for displaying avatar images in an overlapping ho
 
 ## Common use cases
 
-- Display team members or contributors in a visually appealing overlapping layout
-- Show user groups or participant lists with consistent avatar sizes
-- Create engaging visual representations of community or team sections
-- Use center or right alignment when adding many avatars depending on your design
+* Display a group of avatar images such as team members or customer testimonials
+* Create trust indicators with customer profile images
+* Show contributor or author photos
 
 
 ## Compatible blocks
 
 The following blocks can be nested within this block:
 
-- [Avatar image](_avatar-image.md)
+* [Avatar image](_avatar-image.md)
 
 
 ## Block settings
@@ -26,21 +25,19 @@ The following blocks can be nested within this block:
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the avatars | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the avatars | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the avatars | Checkbox (default: false) |
-
+|---------|-------------|----------|
+| Enable horizontal padding | Adds horizontal padding inside the container | Checkbox (default: false) |
+| Enable top padding | Adds top padding | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding | Checkbox (default: false) |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment of the avatars | • Left (default)<br>• Center<br>• Right |
-
+|---------|-------------|----------|
+| Horizontal alignment | Controls horizontal alignment | <p>• Left (default)<br>• Center<br>• Right</p> |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+|---------|-------------|----------|
+| Visibility | Controls when the block is visible | <p>• Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only</p> |

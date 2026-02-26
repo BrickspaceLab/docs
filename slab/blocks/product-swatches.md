@@ -8,12 +8,11 @@ A customizable product variant swatches block that displays color and other opti
 
 ## Common use cases
 
-- Display color swatches for products with color variants
-- Show variant option swatches for product selection
-- Use custom uploaded swatch images for brand-specific colors
-- Configure swatch limits to control how many swatches are displayed
-- Enable tooltips to show swatch names on hover
-- Set appropriate swatch sizes based on context (smaller for cards, larger for product pages)
+* Display color swatches for products with color variants
+* Show variant option swatches for product selection
+* Use custom uploaded swatch images for brand-specific colors
+* Configure swatch limits to control how many swatches are displayed
+* Enable tooltips to show swatch names on hover
 
 
 ## Block settings
@@ -22,31 +21,28 @@ A customizable product variant swatches block that displays color and other opti
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Product | Select the product to display swatches for | Product picker |
-| Size | Size of the swatch circles | 8 - 44 px (default: 16) |
-| Limit | Maximum number of swatches to display | 1 - 20 (default: 6) |
-| Radius | Border radius for swatch circles | • None<br>• Default<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full (default) |
-| Show tooltip | Displays swatch name in a tooltip on hover | Checkbox (default: true) |
-
+| Product | Controls the product | Product picker |
+| Size | Controls the size | 8 – 44 px (default: 16) |
+| Limit | Controls the limit | 1 – 20 (default: 6) |
+| Radius | Controls the radius | • None<br>• Default<br>• Small<br>• Medium<br>• Large<br>• Extra large<br>• 2x Large<br>• Full (default) |
+| Show tooltip | Controls the show tooltip | Checkbox (default: true) |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the swatches | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the swatches | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the swatches | Checkbox (default: false) |
-
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment of the swatches | • Left (default)<br>• Center<br>• Right |
-
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Right |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

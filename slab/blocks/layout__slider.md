@@ -3,30 +3,12 @@
 
 ## Overview
 
-A flexible slider/carousel container component that provides smooth scrolling functionality for child content blocks. Features auto-scroll capabilities, navigation arrows, progress indicators, and responsive behavior. All JavaScript functionality is contained within Alpine.js x-data attributes for efficient performance.
+A slider layout container that displays child blocks in a horizontal scrollable carousel. Supports configurable slide width, autoplay, navigation controls, progress indicators, and responsive visibility.
 
 
 ## Common use cases
 
-- Create image carousels or product sliders
-- Display featured content in a scrollable horizontal layout
-- Use auto-scroll for automatic content rotation
-- Add navigation controls for user interaction
-- Show progress indicators to display slide position
-- Enable scroll animations for engaging content reveals
-
-
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-- [Slider item](_g__slider-item.md)
-- [Slider products](_slider-products.md)
-- [Slider articles](_slider-articles.md)
-- [Slider collections](_slider-collections.md)
-- [Slider gallery](_slider-gallery.md)
-- [Slider recommendations](_slider-recommendations.md)
-- [Slider recent](_slider-recent.md)
+Present content in a horizontal carousel with navigation controls and autoplay functionality.
 
 
 ## Block settings
@@ -34,59 +16,61 @@ The following blocks can be nested within this block:
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Show arrows | Displays navigation arrows for the slider | Checkbox (default: true) |
-| Show indicators | Displays progress indicators (dots or numbers) | Checkbox (default: true) |
-| Show controls on hover | Shows controls only when hovering over the slider | Checkbox (default: false)<br><br>Visible when show arrows or show indicators is true |
-| Show scrollbar | Displays a scrollbar for the slider | Checkbox (default: false) |
-| Show progress bar | Displays a progress bar at the top of the slider | Checkbox (default: false)<br><br>Visible when enable auto scroll is true |
-| Enable instant transition | Removes smooth scrolling for instant slide changes | Checkbox (default: false) |
-| Enable auto scroll | Automatically scrolls through slides | Checkbox (default: false) |
-| Auto scroll delay | Time delay between auto-scroll transitions | 0 - 20 s (default: 0)<br><br>Visible when enable auto scroll is true |
-
+|---------|-------------|--------|
+| Show arrows | Controls the show arrows | Checkbox (default: true) |
+| Show indicators | Controls the show indicators | Checkbox (default: true) |
+| Show controls on hover | Controls the show controls on hover | Checkbox (default: false) |
+| Show scrollbar | Controls the show scrollbar | Checkbox (default: false) |
+| Show progress bar | Controls the show progress bar | Checkbox (default: false) |
+| Enable instant transition | When enabled the slider will instantly move to the next slide instead of smoothly scrolling. | Checkbox (default: false) |
+| Enable auto scroll | When enabled the slider will automatically scroll to the next slide after a delay. | Checkbox (default: false) |
+| Auto scroll delay | Controls the auto scroll delay | 0 – 20 s (default: 10) |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Padding space at the top of the slider | 0 - 300 px (default: 0) |
-| Bottom spacing | Padding space at the bottom of the slider | 0 - 300 px (default: 0) |
-| Enable horizontal padding | Adds horizontal padding around the slider | Checkbox (default: false) |
-| Gap size | Controls spacing between slider items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 300 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 300 px (default: 0) |
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable internal padding | Controls the enable internal padding | Checkbox (default: false) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default) |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank |
-| Color arrow | Controls the color of navigation arrows | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link<br><br>Visible when show arrows is true |
-| Color indicator | Controls the color of progress indicators | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Transparent<br><br>Visible when show indicators is true |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Arrow | Controls the arrow | Color scheme picker |
+| Arrow | Controls the arrow | • Plain<br>• Main<br>• Blur (default)<br>• Outline<br>• Inverted outline<br>• Transparent<br>• Inverted transparent |
+| Indicator | Controls the indicator | Color scheme picker |
+| Indicator | Controls the indicator | • Plain<br>• Main<br>• Blur (default)<br>• Outline<br>• Inverted outline<br>• Transparent<br>• Inverted transparent |
+| Enable inheritance | Controls the enable inheritance | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Button size | Controls the size of navigation arrow buttons | • Extra small<br>• Small (default)<br>• Standard<br>• Large<br><br>Visible when show arrows is true |
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-| Indicator radius | Controls the border radius of progress indicators | • None<br>• Default (default)<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full |
-
+|---------|-------------|--------|
+| Button size | Controls the button size | • Extra small<br>• Small (default)<br>• Standard<br>• Large |
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
+| Radius | Controls the radius | • None (default)<br>• Default<br>• Small<br>• Medium<br>• Large<br>• 1x Large<br>• 2x Large<br>• Full |
+| Indicator radius | Controls the indicator radius | • None<br>• Default (default)<br>• Small<br>• Medium<br>• Large<br>• 1x Large<br>• 2x Large<br>• Full |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Vertical alignment | Controls vertical alignment of slider items | • Top (default)<br>• Middle<br>• Bottom |
-| Control alignment | Controls horizontal alignment of navigation controls | • Left<br>• Center<br>• Right (default)<br><br>Visible when show arrows or show indicators is true |
-| Control placement | Controls vertical placement of navigation controls | • Top (default)<br>• Middle<br>• Bottom<br>• Under<br><br>Visible when show arrows or show indicators is true |
-| Enable scroll margin | Applies margin based on theme settings for scroll padding | Checkbox (default: false) |
-
+|---------|-------------|--------|
+| Vertical alignment | Controls the vertical alignment | • Top (default)<br>• Middle<br>• Bottom |
+| Control alignment | Controls the control alignment | • Left<br>• Center<br>• Right (default) |
+| Control placement | Controls the control placement | • Top (default)<br>• Middle<br>• Bottom<br>• Under |
+| Enable scroll margin | Controls the enable scroll margin | Checkbox (default: false) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-triggered animations | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
