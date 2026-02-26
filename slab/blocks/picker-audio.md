@@ -3,15 +3,12 @@
 
 ## Overview
 
-A form block component that provides audio enable/disable radio button controls with customizable visibility and padding options.
+A block that provides an audio toggle button allowing users to enable or disable audio. Supports customizable button color, size, alignment, and responsive visibility options.
 
 
 ## Common use cases
 
-- Ensure translations are set up for 'actions.enable_audio' and 'actions.disable_audio'
-- Consider adding ARIA labels for better accessibility
-- Allow users to toggle audio on/off for video or audio content
-- Display audio control in headers or media sections
+- Allow users to toggle audio on or off for video or media content in headers or media sections.
 
 
 ## Block settings
@@ -21,33 +18,31 @@ A form block component that provides audio enable/disable radio button controls 
 | Setting | Description | Options |
 |---------|-------------|---------|
 | Enable horizontal padding | Adds horizontal padding around the control | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the control | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the control | Checkbox (default: false) |
-
+| Enable top padding | Adds top padding above the control | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding below the control | Checkbox (default: false) |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Button color | Controls the button color scheme | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link (default)<br>• Inverted link |
-
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Button color | Controls the button color scheme | Color scheme picker<br><br>_Visible when type is "Custom"_ |
+| Button color | Controls the button color scheme | &bull; Plain<br>&bull; Main<br>&bull; Blur<br>&bull; Outline<br>&bull; Inverted outline<br>&bull; Transparent (default)<br>&bull; Inverted transparent<br><br>_Visible when type is "Base"_ |
 
 ### Style
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Button size | Controls the button size | • Extra small<br>• Small (default)<br>• Standard<br>• Large |
-
+| Button size | Controls the button size | &bull; Extra small<br>&bull; Small (default)<br>&bull; Standard<br>&bull; Large |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment | • Left (default)<br>• Center<br>• Full<br>• Right |
-
+| Horizontal alignment | Controls horizontal alignment | &bull; Left (default)<br>&bull; Center<br>&bull; Full<br>&bull; Right |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

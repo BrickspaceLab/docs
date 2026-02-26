@@ -1,36 +1,57 @@
 # Tab item
 
+
 ## Overview
 
-A configurable tab item block for creating tabbed content sections in Shopify themes. This block is designed to work with tab navigation systems and displays content only when its corresponding tab is selected.
+A tab item block that displays its content when its corresponding tab is selected. It works with tab navigation systems and supports customizable spacing, color schemes, and responsive visibility options.
+
 
 ## Block limitations
 
 This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
 
+
 ## Common use cases
 
-- Use consistent tab names across related tab items
-- Consider responsive visibility settings for different content on mobile/desktop
-- Adjust spacing and gap size to maintain visual consistency with your theme
-- Configure color schemes to match your theme design
+- Use as a child of a tab layout to create tabbed content sections where each tab reveals different nested content.
 
-## Child blocks
 
-This block includes the following nested blocks:
+## Compatible blocks
 
-- All theme blocks
-- App blocks
+The following blocks can be nested within this block:
+
+- Any theme block
+- Any app block
+
 
 ## Block settings
 
+### Content
+
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Tab key | Unique identifier for this tab item (must match tab name in parent tabs block) | Text input |
+| Tab | Unique identifier for this tab that must match the tab name in the parent tabs block | Text input |
+| Show as default tab | Displays this tab's content by default when the page loads | Checkbox (default: false) |
+
+### Spacing
+
+| Setting | Description | Options |
+|---------|-------------|---------|
 | Enable horizontal padding | Adds horizontal padding to the tab content | Checkbox (default: false) |
 | Enable vertical padding | Adds vertical padding to the tab content | Checkbox (default: true) |
-| Gap size | Controls spacing between child blocks | None, Default (default), XS, SM, MD, LG, XL |
-| Color scheme | Controls the background and text colors | Body (default), Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent |
-| Vertical alignment | Controls vertical alignment of content | Top, Middle, Bottom |
-| Visibility | Controls when the block is visible | All (default), Mobile only, Desktop only |
+| Gap size | Spacing between child elements | &bull; None<br>&bull; Default (default)<br>&bull; Extra small<br>&bull; Small<br>&bull; Medium<br>&bull; Large<br>&bull; Extra large |
 
+### Color
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Scheme | Color scheme picker for custom mode | Color scheme picker |
+| Scheme | Color scheme for the block | &bull; Body<br>&bull; Accent 1<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent (default) |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
+
+### Display
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

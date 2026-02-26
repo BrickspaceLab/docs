@@ -8,12 +8,10 @@ A subscription options block that displays purchase choices for products with se
 
 ## Common use cases
 
-- Use only with products that have selling plans properly configured in Shopify admin
-- Place within or near product forms for optimal user experience
-- Enable default subscription option for subscription-focused products to improve conversion
-- Configure appropriate padding based on surrounding layout context
-- Test thoroughly with different subscription configurations and discount types
-- Use visibility settings to control display on different device sizes if needed
+* Use only with products that have selling plans properly configured in Shopify admin
+* Place within or near product forms for optimal user experience
+* Enable default subscription option for subscription-focused products to improve conversion
+* Use visibility settings to control display on different device sizes if needed
 
 
 ## Block settings
@@ -22,28 +20,19 @@ A subscription options block that displays purchase choices for products with se
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Product | Select the product to display subscription options for | Product picker |
-| Enable default subscription | Automatically selects the first available subscription option on page load | Checkbox (default: true) |
-
+| Product | Controls the product | Product picker |
+| Enable default subscription | Controls the enable default subscription | Checkbox (default: true) |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the block | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the block | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the block | Checkbox (default: false) |
-
-
-### Color
-
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Text color | Controls the text color | • Default (default)<br>• Alternative<br>• Primary background<br>• Primary foreground<br>• Secondary background<br>• Secondary foreground<br>• Tertiary background<br>• Tertiary foreground<br>• Neutral background<br>• Neutral foreground<br>• Shade |
-
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

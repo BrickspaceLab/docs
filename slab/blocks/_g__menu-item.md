@@ -1,36 +1,63 @@
 # Menu item
 
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Menu dropdown](menu-dropdown.md) or [Menu page](menu-page.md) blocks.
 
 ## Overview
 
-A menu item block component that renders content within a menu dropdown. Provides a container for theme and app blocks to be displayed when a menu item is selected.
+A menu item block that renders content within a navigation menu dropdown. It provides a container for nested theme and app blocks that display when the corresponding menu item is selected.
+
+
+## Block limitations
+
+This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
+
 
 ## Common use cases
 
-- Use this block to add custom content like featured products, images or promotions to menu dropdowns
-- Configure gap size and padding based on content type and design needs
-- Ensure menu_key matches the parent menu item title for proper functionality
+- Use to add custom content such as featured products, images, or promotions to navigation menu dropdowns.
 
-## Child blocks
 
-This block includes the following nested blocks:
+## Compatible blocks
 
-- All theme blocks
-- App blocks
+The following blocks can be nested within this block:
+
+- Any theme block
+- Any app block
+
 
 ## Block settings
 
+### Content
+
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Menu key | Key that matches the parent menu item (handlized) | Text input |
+| Menu | Key that matches the parent menu item handle | Text input |
+
+### Spacing
+
+| Setting | Description | Options |
+|---------|-------------|---------|
 | Enable horizontal padding | Adds horizontal padding inside the container | Checkbox (default: false) |
 | Enable vertical padding | Adds vertical padding inside the container | Checkbox (default: false) |
-| Gap size | Spacing between child blocks | None, Default (default), Xs, Sm, Md, Lg, Xl |
-| Color scheme | Controls the background color scheme | Body (default), Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent |
-| Border color | Controls the border color | Body, Subtle (default), Strong, Primary, Secondary, Tertiary, None. Visible when border position is not empty |
-| Border position | Controls which sides have borders | None (default), Top, Bottom, Left, Right, Top and bottom, Left and right, All |
-| Visibility | Controls when the block is visible | All (default), Mobile only, Desktop only |
+| Gap size | Spacing between child elements | &bull; None<br>&bull; Default (default)<br>&bull; Extra small<br>&bull; Small<br>&bull; Medium<br>&bull; Large<br>&bull; Extra large |
 
+### Color
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Scheme | Color scheme picker for custom mode | Color scheme picker |
+| Scheme | Color scheme for the block | &bull; Body (default)<br>&bull; Accent 1<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent |
+| Border | Border color for the block | &bull; Body foreground<br>&bull; Subtle (default)<br>&bull; Strong<br>&bull; None |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
+
+### Style
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Border position | Position of the border on the block | &bull; None (default)<br>&bull; Top<br>&bull; Bottom<br>&bull; Left<br>&bull; Right<br>&bull; Top & bottom<br>&bull; Left & right<br>&bull; All |
+
+### Display
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

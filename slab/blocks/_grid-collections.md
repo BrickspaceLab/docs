@@ -3,7 +3,7 @@
 
 ## Overview
 
-A collection grid block that displays collections from a selected collection list. Supports customizable display settings including device visibility.
+A collection grid block that displays collections from a selected collection list in a grid layout. It supports responsive device visibility settings.
 
 
 ## Block limitations
@@ -13,15 +13,7 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ## Common use cases
 
-- Use this block when you want to display multiple collections in a grid layout
-- Configure visibility settings to control display on different devices
-
-
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-- [Collection card](collection-card.md)
+- Use to display multiple collections in a grid layout for collection discovery pages or homepage sections.
 
 
 ## Block settings
@@ -30,11 +22,10 @@ The following blocks can be nested within this block:
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Collection list | Select the collection list to display collections from | Collection list picker |
-
+| Collection list | Select the collections to display | Collection list picker |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

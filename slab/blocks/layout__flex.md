@@ -3,23 +3,12 @@
 
 ## Overview
 
-A flexible container component that provides customizable flex layout options for child blocks. Enables responsive alignment, spacing, and visibility controls through the theme editor. Supports both horizontal and vertical flex directions with comprehensive alignment options.
+A flexible CSS flex-based grid layout container that arranges child blocks in rows and columns. Supports configurable column counts for desktop and mobile, gap sizing, alignment, and responsive visibility.
 
 
 ## Common use cases
 
-- Create flexible row or column layouts for content organization
-- Use horizontal direction for side-by-side content arrangements
-- Use vertical direction for stacked content layouts
-- Configure gap sizes to control spacing between flex items
-- Adjust alignment settings to position content within the flex container
-
-
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-- [Flex item](_g__flex-item.md)
+Arrange content blocks in a flexible grid layout with configurable columns and responsive behavior.
 
 
 ## Block settings
@@ -27,42 +16,42 @@ The following blocks can be nested within this block:
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Padding space at the top of the container | 0 - 300 px (default: 0) |
-| Bottom spacing | Padding space at the bottom of the container | 0 - 300 px (default: 0) |
-| Enable horizontal padding | Adds horizontal padding around the container | Checkbox (default: false) |
-| Gap size | Controls spacing between flex items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 300 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 300 px (default: 0) |
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default) |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Controls the enable inheritance | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-
+|---------|-------------|--------|
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Direction | Controls the flex direction | • Horizontal (default)<br>• Vertical |
-| Horizontal alignment (row) | Controls horizontal alignment when direction is horizontal | • Left (default)<br>• Center<br>• Right<br>• Between<br><br>Visible when direction is horizontal |
-| Vertical alignment (row) | Controls vertical alignment when direction is horizontal | • Start (default)<br>• Middle<br>• End<br>• Between<br>• Stretch<br><br>Visible when direction is horizontal |
-| Vertical alignment (column) | Controls vertical alignment when direction is vertical | • Start (default)<br>• Middle<br>• End<br>• Between<br><br>Visible when direction is vertical |
-| Horizontal alignment (column) | Controls horizontal alignment when direction is vertical | • Left<br>• Center<br>• Right<br>• Between<br>• Stretch (default)<br><br>Visible when direction is vertical |
-
+|---------|-------------|--------|
+| Direction | Controls the direction | • Horizontal (default)<br>• Vertical |
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Right<br>• Between |
+| Vertical alignment | Controls the vertical alignment | • Start (default)<br>• Middle<br>• End<br>• Between |
+| Horizontal alignment | Controls the horizontal alignment | • Left<br>• Center<br>• Right<br>• Between<br>• Stretch (default) |
+| Vertical alignment | Controls the vertical alignment | • Start<br>• Middle<br>• End<br>• Between<br>• Stretch (default) |
+| Enable block wrap | Controls the enable block wrap | Checkbox (default: true) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-triggered animations | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |

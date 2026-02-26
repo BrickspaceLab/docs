@@ -3,26 +3,20 @@
 
 ## Overview
 
-A flexible inline container component that allows for horizontal display of child blocks. Supports both app and theme blocks flowing inline with customizable spacing and alignment. Content wraps naturally when it reaches the container width. Ideal for text with icons, inline images, or any content that should flow together.
+A flexible inline container that displays child blocks horizontally in a flowing layout. Content wraps naturally when it reaches the container width.
 
 
 ## Common use cases
 
-- Display text with inline icons or images
-- Create inline content that flows horizontally
-- Combine text and visual elements in a single line
-- Use for inline badges, labels, or decorative elements
-- Display inline links or buttons within text content
+Display multiple blocks inline horizontally, ideal for text with icons or other content that should flow together.
 
 
 ## Compatible blocks
 
-The following blocks can be nested within this block:
-
-- [Rich text](richtext.md)
-- [Image](image.md)
-- [Icon](icon.md)
-- [Video](video.md)
+- Rich text
+- Image
+- Icon
+- Video
 
 
 ## Block settings
@@ -30,21 +24,19 @@ The following blocks can be nested within this block:
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Padding space at the top of the container | 0 - 300 px (default: 0) |
-| Bottom spacing | Padding space at the bottom of the container | 0 - 300 px (default: 0) |
-
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 300 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 300 px (default: 0) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Block max height | Maximum height for inline blocks (images, videos, icons) | 0 - 300 px (default: 30) |
-
+|---------|-------------|--------|
+| Block max height | Controls the block max height | 0 – 300 px (default: 30) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-triggered animations | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |

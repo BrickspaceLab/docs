@@ -8,13 +8,11 @@ A product navigation block that displays sibling products (related products from
 
 ## Common use cases
 
-- Configure the custom.linked_collection metafield for your products to enable sibling product navigation
-- Use button/swatch mode when displaying a small number of siblings (2-6 products) for quick visual selection
-- Use dropdown mode when displaying many siblings (7+ products) to save space and reduce visual clutter
-- Enable tooltips when showing swatches without labels to improve accessibility
-- Consider enabling grid layout for consistent spacing and alignment
-- Adjust swatch size (8-120px) based on design context: smaller for compact layouts, larger for hero sections
-- Set appropriate gap sizes to balance density and readability
+* Configure the custom.linked_collection metafield for your products to enable sibling product navigation
+* Use button/swatch mode when displaying a small number of siblings for quick visual selection
+* Use dropdown mode when displaying many siblings to save space and reduce visual clutter
+* Enable tooltips when showing swatches without labels to improve accessibility
+* Consider enabling grid layout for consistent spacing and alignment
 
 
 ## Block settings
@@ -23,56 +21,61 @@ A product navigation block that displays sibling products (related products from
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Product | Select the product to display sibling options for | Product picker |
-| Label | Optional label text displayed above the sibling options | Text input |
-| Swatch selection | Controls how sibling options are displayed | • Buttons (default)<br>• Dropdowns |
-| Show swatch | Displays product featured image as swatch background | Checkbox (default: true) |
-| Show tooltip | Displays tooltip on hover showing product title | Checkbox (default: true)<br><br>Visible when swatch selection is buttons |
-| Show labels | Displays product title alongside swatches | Checkbox (default: false)<br><br>Visible when swatch selection is buttons |
-| Layout | Controls how swatches and labels are arranged | • Stacked<br>• Inline (default)<br><br>Visible when show labels and swatch selection is buttons |
-| Swatch size | Size of the swatch preview images | 8 - 120 px (default: 16)<br><br>Visible when show swatch is true |
-| Swatch radius | Controls the border radius of swatches | • None<br>• Default<br>• SM<br>• MD<br>• LG<br>• XL<br>• 2XL<br>• Full (default)<br><br>Visible when show swatch is true |
+| Product | Controls the product | Product picker |
+| Label | Controls the label | Text input |
 
+### Swatches
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Swatch selection | Controls the swatch selection | • Buttons (default)<br>• Dropdowns |
+| Show swatch | Controls the show swatch | Checkbox (default: true) |
+| Show tooltip | Controls the show tooltip | <p>Checkbox (default: true)<br><br>Visible when swatch selection is buttons</p> |
+| Show labels | Controls the show labels | <p>Checkbox (default: false)<br><br>Visible when swatch selection is buttons</p> |
+| Layout | Controls the layout | <p>• Stacked<br>• Inline (default)<br><br>Visible when show swatch is true and swatch selection is buttons</p> |
+| Size | Controls the size | <p>8 – 120 px (default: 16)<br><br>Visible when show swatch is true</p> |
+| Radius | Controls the radius | <p>• None<br>• Default<br>• Small<br>• Medium<br>• Large<br>• Extra large<br>• 2x Large<br>• Full (default)<br><br>Visible when show swatch is true</p> |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the block | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the block | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the block | Checkbox (default: false) |
-| Gap size | Controls spacing between sibling option buttons | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Text color | Controls the text color for labels | • Default (default)<br>• Alternative<br>• Primary background<br>• Primary foreground<br>• Secondary background<br>• Secondary foreground<br>• Tertiary background<br>• Tertiary foreground<br>• Neutral background<br>• Neutral foreground<br>• Shade<br><br>Visible when label is not blank |
-| Button color | Controls the button/swatch color scheme | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain (default)<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link |
-
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Text color | Controls the text color | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3<br><br>Visible when label is not blank and enable inheritance is false</p> |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: true) |
+| Button | Controls the button | <p>Color scheme picker<br><br>Visible when color type is custom</p> |
+| Button | Controls the button | <p>• Plain (default)<br>• Main<br>• Blur<br>• Outline<br>• Inverted outline<br>• Transparent<br>• Inverted transparent<br><br>Visible when color type is base</p> |
 
 ### Style
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Font family | Controls the font family for labels | • Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains type-- and label is not blank |
-| Font size | Controls the font size for labels | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6<br><br>Visible when label is not blank |
-| Button size | Controls the size of buttons/swatches | • Extra small<br>• Small (default)<br>• Standard<br>• Large |
-
+| Font family | Controls the font family | <p>• Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains type-- and label is not blank</p> |
+| Font size | Controls the font size | <p>• Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6<br><br>Visible when label is not blank</p> |
+| Button size | Controls the button size | • Extra small<br>• Small (default)<br>• Standard<br>• Large |
 
 ### Layout
 
+This section is visible when swatch selection is buttons.
+
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment | • Left (default)<br>• Center<br>• Right<br><br>Visible when label is not blank |
-| Enable grid layout | Displays options in a grid instead of flex wrap | Checkbox (default: false)<br><br>Visible when swatch selection is buttons |
-| Row desktop | Number of columns in grid on desktop | 1 - 12 (default: 4)<br><br>Visible when enable grid layout and swatch selection is buttons |
-| Row mobile | Number of columns in grid on mobile | 1 - 3 (default: 2)<br><br>Visible when enable grid layout and swatch selection is buttons |
-
+| Horizontal alignment | Controls the horizontal alignment | <p>• Left (default)<br>• Center<br>• Right<br><br>Visible when label is not blank</p> |
+| Enable grid layout | Controls the enable grid layout | <p>Checkbox (default: false)<br><br>Visible when swatch selection is buttons</p> |
+| Row desktop | Controls the row desktop | <p>1 – 12 (default: 4)<br><br>Visible when enable grid layout is true and swatch selection is buttons</p> |
+| Row mobile | Controls the row mobile | <p>1 – 3 (default: 2)<br><br>Visible when enable grid layout is true and swatch selection is buttons</p> |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

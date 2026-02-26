@@ -1,43 +1,39 @@
 # Overlay popup
 
+
 ## Overview
 
-A customizable popup modal component that displays content in an overlay triggered by a button. Provides smooth animations, responsive behavior, and extensive styling options through block settings.
+A popup overlay block that displays content in a centered modal. Supports an optional full-viewport background, customizable color schemes, and responsive visibility options.
+
 
 ## Common use cases
 
-* Use semantic HTML within popup content for better accessibility
-* Keep popup content concise to avoid overwhelming users
-* Consider mobile viewports when designing popup content
-* Test keyboard navigation and screen reader compatibility
-* Use appropriate color contrast for overlay background
+- Display focused content such as age verification, account forms, or promotional messages in a centered popup modal.
 
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-* [Container](layout/container.md) (for popup content)
 
 ## Block settings
 
 ### Content
 
-| Setting                | Description                                                             | Options                                                                                                                                                   |
-| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Overlay preset         | Select a preset overlay ID or use a custom one                          | <p>• Account<br>• Search<br>• Menu<br>• Primary cart<br>• Alternative cart<br>• Age verification<br>• Quick buy<br>• Quick edit<br>• Custom (default)</p> |
-| Overlay ID             | Custom identifier for the overlay (used to trigger it programmatically) | <p>Text input<br><br>Visible when overlay preset is "Custom"</p>                                                                                          |
-| Show close button      | Displays a close button in the popup                                    | Checkbox (default: false)                                                                                                                                 |
-| Enable full background | Makes the popup background cover the entire viewport                    | Checkbox (default: false)                                                                                                                                 |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Overlay preset | Select a preset overlay ID or use a custom one | &bull; Account<br>&bull; Search<br>&bull; Menu<br>&bull; Primary cart<br>&bull; Alternative cart<br>&bull; Age verification<br>&bull; Quick buy<br>&bull; Quick edit<br>&bull; Custom (default) |
+| Overlay ID | Custom identifier for the overlay | Text input<br><br>_Visible when overlay preset is "Custom"_ |
+| Show close button | Displays a close button in the popup | Checkbox (default: false) |
+| Enable full background | Makes the popup background cover the entire viewport | Checkbox (default: false) |
 
 ### Color
 
-| Setting      | Description                                        | Options                                                                                                                                                                                    |
-| ------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text color combination | <p>• Body<br>• Neutral<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Border color | Controls the border color                          | <p>• Subtle (default)<br>• Strong<br>• None</p>                                                                                                                                            |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default)<br><br>_Visible when enable inheritance is disabled_ |
+| Color scheme | Controls the color scheme | Color scheme picker<br><br>_Visible when type is "Custom" and enable inheritance is disabled_ |
+| Color scheme | Controls the background and text color combination | &bull; Body<br>&bull; Accent 1 (default)<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Border color | Controls the border color | &bull; Subtle (default)<br>&bull; Strong<br>&bull; None<br><br>_Visible when type is "Base" and enable inheritance is disabled_ |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

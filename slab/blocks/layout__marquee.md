@@ -1,67 +1,61 @@
-# Layout marquee
+# Marquee
+
 
 ## Overview
 
-A marquee layout block that creates a scrolling effect for its child blocks. It supports various customization options such as animation duration, pause on hover, reverse animation, and alignment settings. This block is ideal for showcasing featured content in a dynamic and engaging manner.
+A marquee layout block that creates a continuous horizontal scrolling effect for its child blocks. Supports configurable animation duration, pause on hover, reverse direction, and color scheme options.
+
 
 ## Common use cases
 
-* Highlight important announcements or featured products with a scrolling marquee
-* Adjust animation settings to create a smooth and visually appealing effect
-* Consider the content length when setting the animation duration to avoid abrupt loops
-* Use pause on hover for better user interaction
+Create scrolling announcement bars, featured content showcases, or repeating promotional content.
+
 
 ## Compatible blocks
 
-The following blocks can be nested within this block:
+- Rich text
+- Image
+- Icon
+- Button
+- Container
 
-* [Rich text](richtext.md)
-* [Image](image.md)
-* [Icon](icon.md)
-* [Button](button.md)
-* [Container](layout/container.md)
 
 ## Block settings
 
-### Content
-
-| Setting                  | Description                                     | Options                   |
-| ------------------------ | ----------------------------------------------- | ------------------------- |
-| Animation duration       | Duration of the marquee animation in seconds    | 1 - 90 s (default: 60)    |
-| Enable pause on hover    | Pauses animation when hovering over the marquee | Checkbox (default: false) |
-| Enable reverse animation | Reverses the scroll direction                   | Checkbox (default: false) |
-
 ### Spacing
 
-| Setting                   | Description                                | Options                   |
-| ------------------------- | ------------------------------------------ | ------------------------- |
-| Top spacing               | Padding space at the top of the marquee    | 0 - 300 px (default: 0)   |
-| Bottom spacing            | Padding space at the bottom of the marquee | 0 - 300 px (default: 0)   |
-| Enable horizontal padding | Adds horizontal padding around the marquee | Checkbox (default: false) |
+| Setting | Description | Options |
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 300 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 300 px (default: 0) |
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
 
 ### Color
 
-| Setting      | Description                             | Options                                                                                                                                                                                    |
-| ------------ | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text colors | <p>• Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default)</p> |
-| Color border | Controls the border color               | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank</p>                                       |
+| Setting | Description | Options |
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Controls the enable inheritance | Checkbox (default: false) |
 
 ### Style
 
-| Setting          | Description                       | Options                                                                                                            |
-| ---------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Block max height | Maximum height for block elements | 0 - 500 px (default: 100)                                                                                          |
-| Border position  | Controls where borders appear     | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
+| Setting | Description | Options |
+|---------|-------------|--------|
+| Block max height | Controls the block max height | 0 – 500 px (default: 100) |
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
 
 ### Layout
 
-| Setting            | Description                            | Options                                        |
-| ------------------ | -------------------------------------- | ---------------------------------------------- |
-| Vertical alignment | Controls vertical alignment of content | <p>• Top<br>• Middle (default)<br>• Bottom</p> |
+| Setting | Description | Options |
+|---------|-------------|--------|
+| Vertical alignment | Controls the vertical alignment | • Top<br>• Middle (default)<br>• Bottom |
 
 ### Display
 
-| Setting          | Description                        | Options                                                                                                    |
-| ---------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p>                                                  |
-| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p> |
+| Setting | Description | Options |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |

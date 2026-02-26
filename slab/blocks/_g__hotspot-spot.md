@@ -1,36 +1,58 @@
 # Spot
 
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Hotspot](hotspot.md) block.
 
 ## Overview
 
-A hotspot spot block that can be used to display interactive spots on images or other elements. The block supports animations, color schemes, and responsive positioning. It allows for nested blocks to be displayed when the spot is interacted with.
+A hotspot spot block that positions nested content at configurable coordinates on a hotspot image. It supports independent positioning and sizing for mobile and desktop viewports along with optional entrance animations.
+
+
+## Block limitations
+
+This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
+
 
 ## Common use cases
 
-- Use this block to highlight specific areas on images or other elements, providing additional information or interactivity
-- Customize the color scheme and animations to match the overall theme design
-- Ensure that the nested blocks provide meaningful content that enhances the user experience
+- Use to create interactive hotspot markers on images that reveal product details, descriptions, or other content at precise positions.
 
-## Child blocks
 
-This block includes the following nested blocks:
+## Compatible blocks
 
-- All theme blocks
-- App blocks
+The following blocks can be nested within this block:
+
+- Any theme block
+- Any app block
+
 
 ## Block settings
 
+### Color
+
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Color scheme | Controls the background color scheme | Body (default), Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent |
-| Enable animations | Enables animations for the hotspot spot | Checkbox (default: false) |
-| Y alignment | Vertical position of the spot | 0 - 100 % (default: 20) |
-| X alignment | Horizontal position of the spot | 0 - 100 % (default: 20) |
-| Width | Width of the content area | 20 - 800 px (default: 300) |
-| Y alignment mobile | Vertical position of the spot on mobile | 0 - 100 % (default: 20) |
-| X alignment mobile | Horizontal position of the spot on mobile | 0 - 100 % (default: 20) |
-| Width mobile | Width of the content area on mobile | 5 - 400 px (default: 250) |
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Scheme | Color scheme picker for custom mode | Color scheme picker |
+| Scheme | Color scheme for the block | &bull; Body (default)<br>&bull; Accent 1<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
 
+### Style
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Enable animations | Enables entrance animations for the hotspot | Checkbox (default: false) |
+
+### Layout
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Vertical alignment | Vertical position of the hotspot on desktop | 0 – 100% (default: 20) |
+| Horizontal alignment | Horizontal position of the hotspot on desktop | 0 – 100% (default: 20) |
+| Width | Width of the hotspot content area on desktop | 20 – 800px (default: 300) |
+
+### Layout mobile
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Vertical alignment | Vertical position of the hotspot on mobile | 0 – 100% (default: 20) |
+| Horizontal alignment | Horizontal position of the hotspot on mobile | 0 – 100% (default: 20) |
+| Width | Width of the hotspot content area on mobile | 5 – 400px (default: 250) |

@@ -1,36 +1,62 @@
 # Tags
 
+A block that lists and styles tags from the nearest article, product, or collection context. Supports text and badge display modes.
+
+
 ## Overview
 
-A block that lists and styles tags for the nearest context (article, product, or collection). It collects tags from closest.article, closest.product, or closest.collection, then renders each as plain text or as a styled badge depending on the display_type setting.
+Renders tags as plain text or styled badges with configurable alignment, typography, color, and overlay positioning. Automatically collects tags from the closest article, product, or collection context.
 
-## Block limitations
-
-This is a private block that can only be used within specific sections or parent blocks. It automatically detects tags from the nearest article, product, or collection context and is not intended for standalone use.
 
 ## Common use cases
 
-- Place inside article, product, or collection contexts where tags are present
-- Prefer badge display type for emphasis; use text for subtle inline labels
-- Tune alignment, font family, and font size to match surrounding typography
-- Use padding settings sparingly to keep spacing consistent with adjacent blocks
-- Enable overlay for absolute positioning when tags should appear over other content
+Use this block to display tags inside article, product, or collection contexts where tags are present.
+
+
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within article, product, or collection contexts that provide tags. It requires a closest context object to collect tags from and is not designed for standalone use. It is private because it depends on the closest article, product, or collection to source its content.
+
 
 ## Block settings
 
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the tags | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the tags | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the tags | Checkbox (default: false) |
-| Color scheme | Controls the background and text colors for badges | Body (default), Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent. Visible when display type is badge |
-| Color border | Controls the border color for badges | Body (default), Subtle (default), Strong, Primary, Secondary, Tertiary, None. Visible when display type is badge |
-| Enable color difference | Applies mix-blend-difference for better visibility on varying backgrounds | Checkbox (default: false) |
-| Display type | Controls how tags are displayed | Text, Badge (default) |
-| Font family | Controls the font family | Standard (default), Heading, Subheading, Accent |
-| Font size | Controls the font size | Smaller, Small, Default (default), Big, Bigger, Heading 1, Heading 2, Heading 3, Heading 4, Heading 5, Heading 6. Visible when display type is text |
-| Horizontal alignment | Controls horizontal alignment | Left (default), Center, Right |
-| Vertical alignment | Controls vertical alignment when overlay is enabled | Top (default), Bottom. Visible when enable overlay is true |
-| Enable overlay | Switches to absolute positioning | Checkbox (default: false) |
-| Visibility | Controls when the block is visible | All (default), Mobile only, Desktop only |
+### Spacing
 
+| Setting | Description | Options |
+| --- | --- | --- |
+| Enable horizontal padding | Adds horizontal padding around the tags | Checkbox (default: false) |
+| Enable top padding | Adds top padding above the tags | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding below the tags | Checkbox (default: false) |
+
+### Color
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Chooses between custom and base color modes | • Custom<br>• Base (default) |
+| Scheme | Selects a custom color scheme | Color scheme picker |
+| Scheme | Sets the background and text color scheme for badges | • Body (default)<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent |
+| Border | Sets the border color style for badges | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme | Checkbox (default: false) |
+| Enable color difference | Colors are inverted when this block overlaps any other content | Checkbox (default: false) |
+
+### Style
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Display type | Controls how tags are rendered | • Text<br>• Badge (default) |
+| Font family | Sets the font family for the tags | • Standard (default)<br>• Heading<br>• Subheading<br>• Accent |
+| Font size | Sets the font size for the tags | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
+
+### Layout
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Horizontal alignment | Controls horizontal alignment of the tags | • Left (default)<br>• Center<br>• Right |
+| Vertical alignment | Controls vertical position when overlay is enabled | • Top (default)<br>• Bottom |
+| Enable overlay | Switches to absolute positioning over parent content | Checkbox (default: false) |
+
+### Display
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

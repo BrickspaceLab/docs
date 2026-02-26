@@ -3,7 +3,7 @@
 
 ## Overview
 
-A grid block that displays the recently viewed products in a grid layout. Uses Alpine.js to display products from the recently viewed products store.
+A recently viewed products block that displays products the customer has previously viewed in a grid layout. It supports configurable item count and responsive device visibility.
 
 
 ## Block limitations
@@ -13,17 +13,7 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ## Common use cases
 
-- Display recently viewed products to encourage customers to return to products they've seen
-- Adjust item count based on available space in your layout
-- Use responsive visibility to show different counts on mobile vs desktop
-- Product cards are dynamically loaded to prevent layout shifts
-
-
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-- [Product card](product-card.md) (dynamically loaded)
+- Use to display recently viewed products in a grid to encourage customers to revisit products they have browsed.
 
 
 ## Block settings
@@ -34,9 +24,8 @@ The following blocks can be nested within this block:
 |---------|-------------|---------|
 | Item count | Maximum number of recently viewed products to display | Number input (default: 5) |
 
-
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

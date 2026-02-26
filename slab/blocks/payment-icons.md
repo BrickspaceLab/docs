@@ -3,16 +3,12 @@
 
 ## Overview
 
-A customizable block that displays payment method icons supported by the store. Shows all enabled payment types from the shop's settings in either a horizontal or vertical layout with configurable spacing and visibility options.
+A block that displays payment method icons supported by the store. Shows all enabled payment types in either a horizontal or vertical layout with configurable spacing and visibility options.
 
 
 ## Common use cases
 
-- Best used in footer sections to display accepted payment methods
-- Consider using inline layout for wider viewports and stacked for narrow containers
-- Adjust gap size based on the payment icons' visual density
-- Use padding options when the icons need to be offset from surrounding content
-- Set appropriate visibility options if different layouts are needed for mobile/desktop views
+- Display accepted payment methods in footer sections with configurable layout and spacing.
 
 
 ## Block settings
@@ -22,20 +18,18 @@ A customizable block that displays payment method icons supported by the store. 
 | Setting | Description | Options |
 |---------|-------------|---------|
 | Enable horizontal padding | Adds horizontal padding around the icons | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the icons | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the icons | Checkbox (default: false) |
-| Gap size | Spacing between payment icons | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+| Enable top padding | Adds top padding above the icons | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding below the icons | Checkbox (default: false) |
+| Gap size | Spacing between payment icons | &bull; None<br>&bull; Default (default)<br>&bull; XS<br>&bull; SM<br>&bull; MD<br>&bull; LG<br>&bull; XL |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Layout | Controls the icon layout direction | • Stacked<br>• Inline (default) |
-
+| Layout | Controls the icon layout direction | &bull; Stacked<br>&bull; Inline (default) |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

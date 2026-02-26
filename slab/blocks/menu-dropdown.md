@@ -3,23 +3,21 @@
 
 ## Overview
 
-A container component that handles menu dropdown functionality and styling. Provides a flexible menu system with support for nested links, dropdowns, and featured content blocks. Uses Alpine.js for dropdown menu interactions and positioning, supports full-width dropdowns for specified menu columns, and handles nested menu items up to grandchild level.
+A container component that handles menu dropdown functionality and styling. Provides a flexible menu system with support for nested links, dropdowns, and featured content blocks.
 
 
 ## Common use cases
 
-- Use for main navigation menus that require dropdowns
-- Configure menu_columns setting for full-width mega menus
-- Add navigation images to enhance visual hierarchy
-- Customize fonts and spacing to match site design
-- Leverage blocks to add featured content in dropdowns
+* Create a multi-level navigation dropdown menu with customizable typography and colors
+* Build header navigation with mega menu dropdowns
+* Configure separate styles for parent, child, and grandchild links
 
 
 ## Compatible blocks
 
 The following blocks can be nested within this block:
 
-- [Menu item](_g__menu-item.md)
+* [Menu item](_g__menu-item.md)
 
 
 ## Block settings
@@ -27,69 +25,79 @@ The following blocks can be nested within this block:
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Menu | Select the menu to display | Link list picker (default: main-menu) |
-
-
-### Parent links
-
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Font family | Font family for parent menu links | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when parent font size contains type-- |
-| Font size | Font size for parent menu links | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-| Enable dropdown icons | Shows chevron icons for menu items with dropdowns | Checkbox (default: true) |
-| Enable link as button | Converts parent links with children to buttons | Checkbox (default: false) |
-
-
-### Child links
-
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Font family | Font family for child menu links | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when child font size contains type-- |
-| Font size | Font size for child menu links | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-
-
-### Grandchild links
-
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Font family | Font family for grandchild menu links | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when grandchild font size contains type-- |
-| Font size | Font size for grandchild menu links | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-
-
-### Dropdown
-
-| Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Background and text color scheme for dropdown | • Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent |
-| Color border | Border color for dropdown | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None |
-| Layout | Layout style for dropdown menus | • Stacked (default)<br>• Inline |
-| Color divider | Divider color between stacked dropdown items | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None |
-| Enable internal padding | Adds internal padding to dropdown content | Checkbox (default: false)<br><br>Visible when dropdown is not full-width |
-| Enable margin | Applies margin based on theme settings | Checkbox (default: true)<br><br>Visible when menu columns is not blank |
-| Gap size | Spacing between dropdown menu items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-| Menu columns | Comma-separated list of menu items to display as full-width columns | Text input |
-
+|---------|-------------|----------|
+| Menu | Select the navigation menu to display | Link list picker (default: main-menu) |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Padding space at the top of parent links | 0 - 30 px (default: 15) |
-| Bottom spacing | Padding space at the bottom of parent links | 0 - 30 px (default: 15) |
-| Enable horizontal padding | Adds horizontal padding around the menu | Checkbox (default: false) |
-| Gap size | Spacing between menu items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
+|---------|-------------|----------|
+| Top spacing | Top spacing in pixels | 0 - 30 px (default: 15 px) |
+| Bottom spacing | Bottom spacing in pixels | 0 - 30 px (default: 15 px) |
+| Enable horizontal padding | Adds horizontal padding inside the container | Checkbox (default: false) |
+| Gap size | Spacing between content blocks within the container | <p>• None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large</p> |
 
+### Colors
+
+| Setting | Description | Options |
+|---------|-------------|----------|
+| Type | Controls text color mode | <p>• Custom<br>• Base (default)<br><br>Visible when enable_text_inheritance is false</p> |
+| Text | Select a custom text color scheme | <p>Color scheme picker<br><br>Visible when text_color_type is custom and enable_text_inheritance is false</p> |
+| Text | Controls the text color | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3<br><br>Visible when text_color_type is base and enable_text_inheritance is false</p> |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: false) |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment of the menu | • Left (default)<br>• Center<br>• Right |
+|---------|-------------|----------|
+| Horizontal alignment | Controls horizontal alignment | <p>• Left (default)<br>• Center<br>• Right</p> |
 
+### Parent links
+
+| Setting | Description | Options |
+|---------|-------------|----------|
+| Font family | Font family for parent menu links | <p>• Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when parent font size contains type--</p> |
+| Font size | Font size for parent menu links | <p>• Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6</p> |
+| Enable dropdown icons | Shows dropdown indicator icons | Checkbox (default: true) |
+| Enable click to open | When enabled the parent menu items will not be linked and instead act as buttons to open a dropdown. | Checkbox (default: false) |
+
+### Child links
+
+| Setting | Description | Options |
+|---------|-------------|----------|
+| Font family | Font family for child menu links | <p>• Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when child font size contains type--</p> |
+| Font size | Font size for child menu links | <p>• Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6</p> |
+
+### Grandchild links
+
+| Setting | Description | Options |
+|---------|-------------|----------|
+| Font family | Font family for grandchild menu links | <p>• Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when grandchild font size contains type--</p> |
+| Font size | Font size for grandchild menu links | <p>• Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6</p> |
+
+### Dropdown
+
+| Setting | Description | Options |
+|---------|-------------|----------|
+| Layout | Controls the dropdown layout style | <p>• Stacked (default)<br>• Inline</p> |
+| Enable internal padding | Adds internal padding to the dropdown | Checkbox (default: true) |
+| Enable margin | Adds margin around the dropdown | <p>Checkbox (default: true)<br><br>Visible when menu_columns is not blank</p> |
+| Gap size | Spacing between items in the dropdown | <p>• None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large</p> |
+| Full width dropdown | Enter a comma-separated list of menu links that should display with a full width dropdown. E.g. Best sellers, Sale, New arrivals | Text input |
+
+### Dropdown colors
+
+| Setting | Description | Options |
+|---------|-------------|----------|
+| Type | Controls dropdown color mode | <p>• Custom<br>• Base (default)<br><br>Visible when enable_dropdown_inheritance is false</p> |
+| Scheme | Select a custom dropdown color scheme | <p>Color scheme picker<br><br>Visible when dropdown_color_type is custom and enable_dropdown_inheritance is false</p> |
+| Scheme | Controls the dropdown background color | <p>• Body (default)<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent<br><br>Visible when dropdown_color_type is base and enable_dropdown_inheritance is false</p> |
+| Border | Controls the dropdown border color | <p>• None<br>• Subtle (default)<br>• Strong<br>• Body foreground<br><br>Visible when dropdown_color_type is base and enable_dropdown_inheritance is false</p> |
+| Divider | Controls the dropdown divider color | <p>• None<br>• Subtle (default)<br>• Strong<br>• Body foreground<br><br>Visible when dropdown_color_type is base and enable_dropdown_inheritance is false</p> |
+| Enable inheritance | Inherit dropdown colors from parent | Checkbox (default: false) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+|---------|-------------|----------|
+| Visibility | Controls when the block is visible | <p>• Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only</p> |

@@ -1,39 +1,65 @@
 # Slider item
 
+
 ## Overview
 
-A configurable slider item component designed to be used within the [Slider](layout__slider.md) block. Provides customizable width settings for both mobile and desktop displays, with optional gap sizing between child elements.
+A slider item block that displays its content as an individual slide within a slider layout. It supports customizable width for mobile and desktop, spacing, color schemes, and responsive visibility options.
+
 
 ## Block limitations
 
 This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
 
+
 ## Common use cases
 
-- Adjust width percentages based on desired number of visible items
-- For equal width items across all slides, enable the default width setting
-- Use the visibility options to create different experiences on mobile vs desktop
-- Configure color schemes and borders to match your theme design
+- Use as a child of a slider layout to create individual slides with independently sized and styled content.
 
-## Child blocks
 
-This block includes the following nested blocks:
+## Compatible blocks
 
-- All theme blocks
-- App blocks
+The following blocks can be nested within this block:
+
+- Any theme block
+- Any app block
+
 
 ## Block settings
 
+### Spacing
+
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable padding | Adds padding around the slider item content | Checkbox (default: false) |
-| Gap size | Controls spacing between child blocks | None, Default (default), XS, SM, MD, LG, XL |
-| Color scheme | Controls the background and text colors | Body, Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent (default) |
-| Color border | Controls the border color | Body, Subtle, Strong, Primary, Secondary, Tertiary, None (default). Visible when border position is not blank |
-| Border position | Controls where borders appear | None (default), Top, Bottom, Left, Right, Top and bottom, Left and right, All |
-| Width mobile | Width of the slider item on mobile devices | 5 - 100 % (default: 80). Visible when enable default width is false |
-| Width desktop | Width of the slider item on desktop devices | 5 - 100 % (default: 40). Visible when enable default width is false |
-| Enable default width | Uses automatic width sizing for equal-width items | Checkbox (default: false) |
-| Vertical alignment | Controls vertical alignment of content | Top, Middle, Bottom (default) |
-| Visibility | Controls when the block is visible | All (default), Mobile only, Desktop only |
+| Enable padding | Adds internal padding to the block | Checkbox (default: false) |
+| Gap size | Spacing between child elements | &bull; None<br>&bull; Default (default)<br>&bull; Extra small<br>&bull; Small<br>&bull; Medium<br>&bull; Large<br>&bull; Extra large |
 
+### Color
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Scheme | Color scheme picker for custom mode | Color scheme picker |
+| Scheme | Color scheme for the block | &bull; Body<br>&bull; Accent 1<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent (default) |
+| Border | Border color for the block | &bull; Body foreground<br>&bull; Subtle<br>&bull; Strong<br>&bull; None (default) |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
+
+### Style
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Border position | Position of the border on the block | &bull; None (default)<br>&bull; Top<br>&bull; Bottom<br>&bull; Left<br>&bull; Right<br>&bull; Top & bottom<br>&bull; Left & right<br>&bull; All |
+
+### Layout
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Mobile width | Width of the slide on mobile devices | 5 – 100% (default: 80) |
+| Desktop width | Width of the slide on desktop devices | 5 – 100% (default: 40) |
+| Enable default width | Uses the parent container's default width setting for equal-width slides | Checkbox (default: false) |
+| Vertical alignment | Vertical alignment of child content | &bull; Top<br>&bull; Middle<br>&bull; Bottom (default) |
+
+### Display
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

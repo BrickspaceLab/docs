@@ -3,15 +3,12 @@
 
 ## Overview
 
-A language selection form component that displays available languages as radio buttons. Enables users to switch between different language options on the store. Only displays when multiple languages are configured and language selection is enabled in theme settings.
+A language selector block that displays available languages as radio buttons. Enables users to switch between configured language options on the store.
 
 
 ## Common use cases
 
-- Ensure proper translations are set up for all supported languages
-- Consider testing keyboard navigation and screen reader compatibility
-- Review language-specific layout considerations for longer language names
-- Display language selection in headers, footers, or navigation menus
+- Display a language selector in header, footer, or overlay sections for multilingual stores.
 
 
 ## Block settings
@@ -22,9 +19,8 @@ A language selection form component that displays available languages as radio b
 |---------|-------------|---------|
 | Enable internal padding | Adds internal padding to the language list | Checkbox (default: false) |
 
-
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

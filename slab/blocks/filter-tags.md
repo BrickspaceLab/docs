@@ -3,16 +3,12 @@
 
 ## Overview
 
-Displays a block of filter tags sourced from a collection or blog metafield, allowing buyers to filter collections or blog posts by custom tags. The block supports flexible layout (stacked or inline), alignment, spacing, color, font, and device visibility options. It renders a link to view all items and individual tag links, highlighting the active tag. Tag data is pulled from a metafield defined by the merchant in block settings.
+A filter tag navigation block that renders tag-based links for filtering collections or blog posts. Tags are sourced from a merchant-defined metafield and displayed with customizable layout, styling, and color options.
 
 
 ## Common use cases
 
-- Ensure the collection or blog metafield contains a comma-separated list of tags for best results
-- Use the block in collection or blog templates to provide buyers with easy tag-based filtering
-- Adjust gap size and alignment to match the design context and available space
-- Use device visibility settings to tailor the block's presence on mobile or desktop as needed
-- Combine with other navigation or filtering blocks for a comprehensive browsing experience
+Provide tag-based filtering navigation for collection or blog pages using custom metafield data.
 
 
 ## Block settings
@@ -20,45 +16,43 @@ Displays a block of filter tags sourced from a collection or blog metafield, all
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Metafield tags | Metafield reference for tags (namespace.key format) | Text input |
-
+|---------|-------------|--------|
+| Metafield tags | A metafield pointing to a comma seperated list of tags. Example: 'custom.subtags' | Text input |
 
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Spacing above the tags | 0 - 30 px (default: 0) |
-| Bottom spacing | Spacing below the tags | 0 - 30 px (default: 0) |
-| Enable horizontal padding | Adds horizontal padding around the tags | Checkbox (default: false) |
-| Gap size | Spacing between tags | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 30 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 30 px (default: 0) |
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Text color | Controls the text color of tags | • Default (default)<br>• Alternative<br>• Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Shade |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Text | Controls the text | • Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3 |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: true) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Font family | Controls the font family used for tags | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains 'type--' |
-| Font size | Controls the font size of tags | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-
+|---------|-------------|--------|
+| Font family | Controls the font family | • Standard (default)<br>• Heading<br>• Subheading<br>• Accent |
+| Font size | Controls the font size | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Layout | Controls the tag layout direction | • Stacked<br>• Inline (default) |
-| Horizontal alignment | Controls horizontal alignment | • Left (default)<br>• Center<br>• Right |
-
+|---------|-------------|--------|
+| Layout | Controls the layout | • Stacked<br>• Inline (default) |
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Right |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

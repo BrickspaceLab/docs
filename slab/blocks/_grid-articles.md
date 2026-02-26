@@ -3,7 +3,7 @@
 
 ## Overview
 
-A blog article grid block that displays articles from a selected blog. Supports filtering by tag and customizable display settings including item count and device visibility.
+A blog article grid block that displays articles from a selected blog in a grid layout. It supports filtering by tag, configurable item count, and responsive device visibility.
 
 
 ## Block limitations
@@ -13,16 +13,7 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ## Common use cases
 
-- Use this block when you want to display a specific blog's articles in a grid layout
-- Set an appropriate item_count to control the number of articles shown
-- Use the tag filter to display a subset of articles that match a specific tag
-
-
-## Compatible blocks
-
-The following blocks can be nested within this block:
-
-- [Article card](article-card.md)
+- Use to display a selection of blog articles in a grid, optionally filtered by tag.
 
 
 ## Block settings
@@ -35,9 +26,8 @@ The following blocks can be nested within this block:
 | Item count | Maximum number of articles to display | Number input (default: 8) |
 | Filter by tag | Filter articles by a specific tag | Text input |
 
-
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

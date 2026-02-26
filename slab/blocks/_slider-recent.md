@@ -1,21 +1,21 @@
-# Slider recent
+# Recently viewed
 
-
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](layout__slider.md) block.
+A slider component that displays recently viewed products in a horizontally scrollable layout. Designed for use within the slider layout block.
 
 
 ## Overview
 
-A slider block that displays the recently viewed products in a slider layout. Uses Alpine.js to display the recently viewed products dynamically.
+Renders recently viewed products as horizontally scrollable slider items with responsive width controls. Products are dynamically loaded from the browser using Alpine.js and the Shopify API.
 
 
 ## Common use cases
 
-- Display recently viewed products in a horizontal slider format
-- Show personalized product recommendations based on browsing history
-- Use on product pages, collection pages, or homepage to encourage repeat engagement
+Use this block to display recently viewed products in a horizontal slider format within the slider layout block.
+
+
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within the slider layout block. It requires browser-side recently viewed product data and must be nested inside a slider container. It is private because it depends on the slider layout for its scrollable behavior and Alpine.js store data for its content.
 
 
 ## Block settings
@@ -23,20 +23,18 @@ A slider block that displays the recently viewed products in a slider layout. Us
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Item count | Number of recently viewed products to display | Number (default: 5) |
+| --- | --- | --- |
+| Item count | Number of recently viewed products to display | Number input (default: 5) |
 
-
-### Spacing
+### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Width mobile | Width of each slider item on mobile | 5 - 100 % (default: 80) |
-| Width desktop | Width of each slider item on desktop | 5 - 100 % (default: 20) |
-
+| --- | --- | --- |
+| Mobile width | Width of each slider item on mobile | 5 – 100 % (default: 80) |
+| Desktop width | Width of each slider item on desktop | 5 – 100 % (default: 20) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

@@ -1,22 +1,21 @@
 # Slider products
 
-
-## Block limitations
-
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](layout__slider.md) block.
+A product slider component for displaying collection products in a horizontally scrollable layout. Designed for use within the slider layout block.
 
 
 ## Overview
 
-A product slider component designed to display a collection of products within the [Slider](layout__slider.md) block. This block renders individual product items in a horizontally scrollable slider format with responsive sizing and customizable gap spacing.
+Renders products from a selected collection as horizontally scrollable slider items with responsive width controls. Supports filtering by tag and optionally hiding products already in the cart.
 
 
 ## Common use cases
 
-- Use for featuring product collections in a horizontal slider format
-- Adjust width settings based on how many products you want visible at once
-- Consider mobile experience when setting width values
-- Use tag filtering to create themed or curated product collections
+Use this block to feature product collections in a horizontal slider format within the slider layout block.
+
+
+## Block limitations
+
+This is a private block, indicated by the `_` prefix. It is intended for use exclusively within the slider layout block. It requires a collection selection and must be nested inside a slider container. It is private because it depends on the slider layout for its scrollable behavior and is not designed for standalone use.
 
 
 ## Block settings
@@ -24,23 +23,21 @@ A product slider component designed to display a collection of products within t
 ### Content
 
 | Setting | Description | Options |
-|---------|-------------|---------|
+| --- | --- | --- |
 | Collection | Collection to display products from | Collection picker |
-| Item count | Number of products to display | Number (default: 7) |
-| Filter by tag | Filter products by a specific tag | Text input |
-| Show products in cart | Displays products even if they're already in the cart | Checkbox (default: true) |
+| Item count | Number of products to display | Number input (default: 7) |
+| Filter by tag | Filters products to only show those with this tag | Text input |
+| Show products in cart | When disabled, products that are added to the cart will not be shown | Checkbox (default: true) |
 
-
-### Spacing
+### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Width mobile | Width of each slider item on mobile | 5 - 100 % (default: 80) |
-| Width desktop | Width of each slider item on desktop | 5 - 100 % (default: 20) |
-
+| --- | --- | --- |
+| Mobile width | Width of each slider item on mobile | 5 – 100 % (default: 80) |
+| Desktop width | Width of each slider item on desktop | 5 – 100 % (default: 20) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| --- | --- | --- |
+| Visibility | Controls which devices the block appears on | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

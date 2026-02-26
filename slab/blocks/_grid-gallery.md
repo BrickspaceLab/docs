@@ -3,7 +3,7 @@
 
 ## Overview
 
-A grid gallery block that displays media from a selected product. It iterates through the selected product's media to display images, videos, external videos, and 3D models. The block is highly customizable, supporting various styling options including color schemes, border configurations, and responsive visibility settings.
+A product gallery block that displays media from a selected product in a grid layout. It supports images, videos, external videos, and 3D models with configurable aspect ratios, color schemes, and responsive device visibility settings.
 
 
 ## Block limitations
@@ -13,51 +13,43 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ## Common use cases
 
-- Always select a product in the theme editor to populate the gallery with media
-- Adjust item_count to control the number of media items displayed in the gallery
-- Utilize enable_aspect_ratio and aspect_ratio settings to maintain consistent media proportions across different devices
-- Experiment with color_scheme, color_border, and border_position for visual customization to match the theme's aesthetic
-- Use visibility options to create responsive layouts, showing different gallery configurations on mobile and desktop
-- Enable variant images to show different images based on selected product variants
+- Use to display product media in a grid, with optional variant-based image filtering and customizable aspect ratios.
 
 
 ## Block settings
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| Show selected variant images only | Displays only images associated with the selected variant | Checkbox (default: false) |
 
 ### Content
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable variant images | Shows different images based on selected product variants | Checkbox (default: false) |
 | Product | Select the product to display media from | Product picker |
-| Item count | Number of media items to display (0 = all media) | Number input (default: 7) |
-
+| Item count | Maximum number of media items to display | Number input (default: 7) |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank |
-
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Scheme | Color scheme picker for custom mode | Color scheme picker |
+| Scheme | Color scheme for the block | &bull; Body (default)<br>&bull; Accent 1<br>&bull; Accent 2<br>&bull; Accent 3<br>&bull; Shade 1<br>&bull; Shade 2<br>&bull; Shade 3<br>&bull; Blur<br>&bull; Transparent |
+| Border | Border color for the block | &bull; None<br>&bull; Subtle (default)<br>&bull; Strong<br>&bull; Body foreground |
+| Enable inheritance | Inherits color settings from the parent block | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-
-
-### Layout
-
-| Setting | Description | Options |
-|---------|-------------|---------|
+| Border position | Controls where borders appear | &bull; None (default)<br>&bull; Top<br>&bull; Bottom<br>&bull; Left<br>&bull; Right<br>&bull; Top & bottom<br>&bull; Left & right<br>&bull; All |
 | Enable aspect ratio | Maintains consistent aspect ratio for all media items | Checkbox (default: false) |
-| Show entire image | Displays entire image without cropping | Checkbox (default: true)<br><br>Visible when enable aspect ratio is true |
-| Aspect ratio | Aspect ratio for media items | • Square<br>• Landscape<br>• Portrait<br>• None<br><br>Visible when enable aspect ratio is true |
-
+| Show entire image | Displays the entire image without cropping | Checkbox (default: true) |
+| Aspect ratio | Aspect ratio for media items | &bull; Square<br>&bull; Landscape<br>&bull; Portrait<br>&bull; None (default) |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

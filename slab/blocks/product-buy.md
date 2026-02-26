@@ -3,17 +3,12 @@
 
 ## Overview
 
-A comprehensive product purchase form block that handles variant selection, quantity input, and cart actions. The block dynamically displays different button states based on product availability and option selection, including "Choose Options", "Sold Out", "Unavailable", and "Add to Cart" states. Supports optional quantity input, dynamic checkout buttons, and real-time price display.
+A product purchase form block that handles variant selection, quantity input, and cart actions. Displays different button states based on product availability and option selection, and supports dynamic checkout buttons and real-time price display.
 
 
 ## Common use cases
 
-- Ensure all product options are configured before adding this block
-- Use inline layout only when horizontal space is sufficient for both quantity and button
-- Enable quantity input for products that customers typically buy in bulk
-- Configure appropriate button colors to match your theme's design system
-- Test with products that have multiple variants to ensure proper option selection flow
-- Consider enabling dynamic checkout for improved conversion rates
+- Add a product purchase form with add-to-cart, quantity input, and dynamic checkout buttons to a product page.
 
 
 ## Block settings
@@ -23,51 +18,50 @@ A comprehensive product purchase form block that handles variant selection, quan
 | Setting | Description | Options |
 |---------|-------------|---------|
 | Product | Select the product to display buy buttons for | Product picker |
-| Dynamic label | Custom label for the add to cart button (e.g., "Pre-order") | Rich text input<br><br>Visible when enable dynamic label is true |
+| Dynamic label | Custom label for the add to cart button | Rich text input<br><br>_Visible when enable dynamic label is enabled_ |
 | Enable dynamic label | Replaces "Add to cart" with custom label text | Checkbox (default: false) |
 | Enable quantity input | Displays a quantity selector input field | Checkbox (default: false) |
 | Enable dynamic checkout | Displays dynamic checkout buttons (Shop Pay, Apple Pay, etc.) | Checkbox (default: true) |
 | Show price | Displays the product price on the add to cart button | Checkbox (default: true) |
 | Show gift card form | Displays form fields for gift card recipient information | Checkbox (default: false) |
 
-
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
 | Enable horizontal padding | Adds horizontal padding around the form | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the form | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the form | Checkbox (default: false) |
-| Gap size | Spacing between form elements | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+| Enable top padding | Adds top padding above the form | Checkbox (default: false) |
+| Enable bottom padding | Adds bottom padding below the form | Checkbox (default: false) |
+| Gap size | Spacing between form elements | &bull; None<br>&bull; Default (default)<br>&bull; XS<br>&bull; SM<br>&bull; MD<br>&bull; LG<br>&bull; XL |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Main button color | Color scheme for the add to cart button | • Primary (default)<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link |
-| Disabled button color | Color scheme for disabled/placeholder buttons | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain (default)<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link |
-| Dynamic checkout button color | Color scheme for dynamic checkout buttons | • Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain (default) |
-
+| Type | Determines color configuration mode | &bull; Custom<br>&bull; Base (default) |
+| Default button color | Color scheme for the add to cart button | Color scheme picker<br><br>_Visible when type is "Custom"_ |
+| Default button color | Color scheme for the add to cart button | &bull; Plain (default)<br>&bull; Main<br>&bull; Blur<br>&bull; Outline<br>&bull; Inverted outline<br>&bull; Transparent<br>&bull; Inverted transparent<br><br>_Visible when type is "Base"_ |
+| Disabled button color | Color scheme for disabled buttons | Color scheme picker<br><br>_Visible when type is "Custom"_ |
+| Disabled button color | Color scheme for disabled buttons | &bull; Plain (default)<br>&bull; Main<br>&bull; Blur<br>&bull; Outline<br>&bull; Inverted outline<br>&bull; Transparent<br>&bull; Inverted transparent<br><br>_Visible when type is "Base"_ |
+| Dynamic checkout button color | Color scheme for dynamic checkout buttons | Color scheme picker<br><br>_Visible when type is "Custom"_ |
+| Dynamic checkout button color | Color scheme for dynamic checkout buttons | &bull; Plain (default)<br>&bull; Main<br>&bull; Blur<br>&bull; Outline<br>&bull; Inverted outline<br>&bull; Transparent<br>&bull; Inverted transparent<br><br>_Visible when type is "Base"_ |
 
 ### Style
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Button size | Controls the size of buttons | • Extra small<br>• Small<br>• Standard (default)<br>• Large |
-| Quantity input | Style of the quantity input field | • Default (default)<br>• Minimal<br><br>Visible when enable quantity input is true |
-
+| Button size | Controls the size of buttons | &bull; Extra small<br>&bull; Small<br>&bull; Standard (default)<br>&bull; Large |
+| Quantity input | Style of the quantity input field | &bull; Default (default)<br>&bull; Minimal<br><br>_Visible when enable quantity input is enabled_ |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Layout | Controls the layout of quantity and button | • Stacked (default)<br>• Inline |
+| Layout | Controls the layout of quantity and button | &bull; Stacked (default)<br>&bull; Inline |
 | Enable full width | Makes buttons span the full width of the container | Checkbox (default: false) |
-
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls when the block is visible | &bull; All (default)<br>&bull; Mobile only<br>&bull; Desktop only |

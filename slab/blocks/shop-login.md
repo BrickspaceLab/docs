@@ -3,15 +3,14 @@
 
 ## Overview
 
-A block that displays a login button for the shop.
+A block that displays a shop login or follow button with configurable layout and visibility options.
 
 
 ## Common use cases
 
-- Display a login button for the shop
-- Support responsive visibility controls for mobile/desktop display
-- Offer text alignment options (left, center, justify, right)
-- Add shop login functionality to headers or account pages
+* Add a login button to headers or account pages
+* Use the follow button type for shop follow functionality
+* Configure full-width layout for prominent login buttons
 
 
 ## Block settings
@@ -20,28 +19,25 @@ A block that displays a login button for the shop.
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Button type | Select the type of button to display | • Login (default)<br>• Follow |
-
+| Button type | Controls the button type | • Login (default)<br>• Follow |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the button | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the button | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the button | Checkbox (default: false) |
-
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Horizontal alignment | Controls horizontal text alignment | • Left (default)<br>• Center<br>• Right<br><br>Visible when enable full width is false or button type is "follow" |
-| Enable full width | Makes the button span the full width of its container | Checkbox (default: false)<br><br>Visible when button type is "login" |
-
+| Horizontal alignment | Controls the horizontal alignment | <p>• Left (default)<br>• Center<br>• Right<br><br>Visible when enable full width is false or button type is follow</p> |
+| Enable full width | Controls the enable full width | <p>Checkbox (default: false)<br><br>Visible when button type is login</p> |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

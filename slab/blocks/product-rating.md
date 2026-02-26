@@ -3,14 +3,14 @@
 
 ## Overview
 
-A comprehensive product rating display block that renders the rating information for a product. The block supports various styling options, alignment controls, and responsive visibility settings to seamlessly integrate with different product layouts and themes.
+A customizable product rating block that displays star, circle, or square rating icons alongside text. Supports multiple icon styles, configurable sizes, text styling, color schemes, and responsive visibility controls.
 
 
 ## Common use cases
 
-- Configure the product resource setting to specify which product's rating to display
-- Display product ratings on product pages and product cards
-- Show customer reviews and ratings to build trust
+* Display product ratings with customizable icon styles on product pages
+* Show rating information in product cards or product detail layouts
+* Configure icon appearance including type, style, and size
 
 
 ## Block settings
@@ -19,46 +19,44 @@ A comprehensive product rating display block that renders the rating information
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Product | Select the product to display rating for | Product picker |
-
+| Product | Controls the product | Product picker |
 
 ### Spacing
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Enable horizontal padding | Adds horizontal padding around the rating | Checkbox (default: false) |
-| Enable top padding | Adds top padding around the rating | Checkbox (default: false) |
-| Enable bottom padding | Adds bottom padding around the rating | Checkbox (default: false) |
-
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Enable top padding | Controls the enable top padding | Checkbox (default: false) |
+| Enable bottom padding | Controls the enable bottom padding | Checkbox (default: false) |
 
 ### Color
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Text color | Controls the text color | • Default (default)<br>• Alternative<br>• Primary background<br>• Primary foreground<br>• Secondary background<br>• Secondary foreground<br>• Tertiary background<br>• Tertiary foreground<br>• Neutral background<br>• Neutral foreground<br>• Shade |
-
+| Type | Controls the type | <p>• Custom<br>• Base (default)<br><br>Visible when enable inheritance is false</p> |
+| Scheme | Controls the scheme | <p>Color scheme picker<br><br>Visible when color type is custom and enable inheritance is false</p> |
+| Text color | Controls the text color | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3<br><br>Visible when color type is base and enable inheritance is false</p> |
+| Enable inheritance | Colors will be inherited from the closest parent block that has a set scheme. | Checkbox (default: true) |
 
 ### Style
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Icon type | Shape of rating icons | • Star (default)<br>• Circle<br>• Square<br><br>Visible when icon display is not "none" |
-| Icon display | Controls how rating icons are displayed | • None<br>• Default (default)<br>• Simple |
-| Icon style | Style variant for rating icons | • Classic (default)<br>• Sharp<br><br>Visible when icon display is not "none" |
-| Icon size | Size of rating icons | 10 - 100 px (default: 14)<br><br>Visible when icon display is not "none" |
-| Font family | Controls the font family used for rating text | • Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains 'type--' |
-| Font size | Controls the font size of rating text | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
-
+| Icon type | Controls the icon type | <p>• Star (default)<br>• Circle<br>• Square<br><br>Visible when icon display is not none</p> |
+| Icon display | Controls the icon display | • None<br>• Default (default)<br>• Simple |
+| Icon style | Controls the icon style | <p>• Classic (default)<br>• Sharp<br><br>Visible when icon display is not none</p> |
+| Icon size | Controls the icon size | <p>10 – 100 (default: 14)<br><br>Visible when icon display is not none</p> |
+| Font family | Controls the font family | <p>• Standard (default)<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains type--</p> |
+| Font size | Controls the font size | • Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6 |
 
 ### Layout
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Horizontal alignment | Controls horizontal alignment | • Left (default)<br>• Center<br>• Right |
-
+| Horizontal alignment | Controls the horizontal alignment | • Left (default)<br>• Center<br>• Right |
 
 ### Display
 
 | Setting | Description | Options |
 |---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |

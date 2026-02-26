@@ -3,28 +3,16 @@
 
 ## Overview
 
-A flexible grid container component that allows for dynamic layout configuration of child blocks. Supports both app and theme blocks in a responsive grid layout with customizable columns for desktop and mobile views. Ideal for product grids, image galleries, or any content that benefits from a grid structure.
+A CSS grid layout container that arranges child blocks in a structured grid with configurable columns. Supports custom column counts for desktop and mobile, gap sizing, color schemes, and responsive visibility.
 
 
 ## Common use cases
 
-- Display multiple blocks in a grid layout for product grids, image galleries, or any content that benefits from a grid structure
-- Configure desktop and mobile columns based on content size and screen real estate
-- Use gap settings to control spacing between grid items
-- Enable scroll animations for dynamic content reveals
+Organize content blocks in a structured grid with precise column control for desktop and mobile.
 
 
 ## Compatible blocks
 
-The following blocks can be nested within this block:
-
-- [Grid products](_grid-products.md)
-- [Grid articles](_grid-articles.md)
-- [Grid collections](_grid-collections.md)
-- [Grid gallery](_grid-gallery.md)
-- [Grid recommendations](_grid-recommendations.md)
-- [Grid recent](_grid-recent.md)
-- [Grid item](_g__grid-item.md)
 - All theme blocks
 - App blocks
 
@@ -34,39 +22,38 @@ The following blocks can be nested within this block:
 ### Spacing
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Top spacing | Padding space at the top of the container | 0 - 300 px (default: 0) |
-| Bottom spacing | Padding space at the bottom of the container | 0 - 300 px (default: 0) |
-| Enable horizontal padding | Adds horizontal padding around the container | Checkbox (default: false) |
-| Gap size | Controls spacing between grid items | • None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL |
-
+|---------|-------------|--------|
+| Top spacing | Controls the top spacing | 0 – 300 px (default: 0) |
+| Bottom spacing | Controls the bottom spacing | 0 – 300 px (default: 0) |
+| Enable horizontal padding | Controls the enable horizontal padding | Checkbox (default: false) |
+| Gap size | Controls the gap size | • None<br>• Default (default)<br>• Extra small<br>• Small<br>• Medium<br>• Large<br>• Extra large |
 
 ### Color
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Color scheme | Controls the background and text colors | • Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default) |
-| Color border | Controls the border color | • Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank |
-
+|---------|-------------|--------|
+| Type | Controls the type | • Custom<br>• Base (default) |
+| Scheme | Controls the scheme | Color scheme picker |
+| Scheme | Controls the scheme | • Body<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent (default) |
+| Border | Controls the border | • None<br>• Subtle (default)<br>• Strong<br>• Body foreground |
+| Enable inheritance | Controls the enable inheritance | Checkbox (default: false) |
 
 ### Style
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Border position | Controls where borders appear | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All |
-
+|---------|-------------|--------|
+| Border position | Controls the border position | • None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top & bottom<br>• Left & right<br>• All |
 
 ### Layout
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Row desktop | Number of columns in grid on desktop | 1 - 8 (default: 5) |
-| Row mobile | Number of columns in grid on mobile | 1 - 3 (default: 2) |
-
+|---------|-------------|--------|
+| Desktop row size | Controls the desktop row size | 1 – 8 (default: 5) |
+| Mobile row size | Controls the mobile row size | 1 – 3 (default: 2) |
 
 ### Display
 
 | Setting | Description | Options |
-|---------|-------------|---------|
-| Visibility | Controls when the block is visible | • All (default)<br>• Mobile only<br>• Desktop only |
-| Scroll animation | Adds scroll-triggered animations | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
+|---------|-------------|--------|
+| Visibility | Controls the visibility | • Show on all devices (default)<br>• Show on mobile only<br>• Show on desktop only |
+| Scroll animation | Controls how the block appears when scrolled into view. | • None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom |
