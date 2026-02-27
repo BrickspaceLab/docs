@@ -16,7 +16,7 @@ A checkout container block that displays a form with checkout button, only visib
 
 The following blocks can be nested within this block:
 
-* [Button](../button.md)
+* [Button](../basics/button.md)
 
 ## Block settings
 

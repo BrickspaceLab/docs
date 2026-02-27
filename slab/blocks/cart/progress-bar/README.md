@@ -19,7 +19,7 @@ A dynamic cart progress bar that displays visual progress toward cart-based rewa
 
 The following blocks can be nested within this block:
 
-- [Progress tier](_g__cart-progress-tier.md)
+- [Progress tier](../progress-tier.md)
 
 
 ## Block settings

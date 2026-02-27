@@ -19,7 +19,7 @@ A customizable store locator block that displays a map with markers for each sto
 
 The following blocks can be nested within this block:
 
-- [Location](_g__map-item.md)
+- [Location](../location.md)
 
 
 ## Block settings
