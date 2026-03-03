@@ -2,6 +2,17 @@
 
 * [Slab documentation](README.md)
 
+## Developer
+
+* [Developer overview](developer/README.md)
+  * [Project setup](developer/project-setup.md)
+  * [GitHub Actions](developer/github-actions.md)
+  * [Using AI](developer/using-ai.md)
+  * [Agent skills and commands](developer/agent-skills-and-commands.md)
+  * [CSS](developer/css.md)
+  * [JavaScript](developer/javascript.md)
+  * [Global, collection, and product variables](developer/variables.md)
+
 ## Blocks
 
 * [Blocks overview](blocks/README.md)
