@@ -140,6 +140,17 @@
   * [Render quick edit](blocks/utility/quick-edit-content.md)
   * [Shared discount](blocks/utility/shared-discount.md)
 
+## Sections
+
+* [Section](sections/section.md)
+* [Main product section](sections/main__product.md)
+* [Main collection section](sections/main__collection.md)
+* [Main list collections section](sections/main__list-collections.md)
+* [Main blog section](sections/main__blog.md)
+* [Main search section](sections/main__search.md)
+* [Theme header section](sections/theme__header.md)
+* [Theme footer section](sections/theme__footer.md)
+
 ## General
 
 * [Changelog](general/changelog/README.md)
