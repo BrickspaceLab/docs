@@ -1,4 +1,4 @@
-# Section
+# Blank section
 
 ### Section overview
 
