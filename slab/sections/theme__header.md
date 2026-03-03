@@ -1,4 +1,4 @@
-# Theme header
+# Header
 
 ### Section overview
 

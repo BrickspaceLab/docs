@@ -143,13 +143,13 @@
 ## Sections
 
 * [Section](sections/section.md)
-* [Main product section](sections/main__product.md)
-* [Main collection section](sections/main__collection.md)
-* [Main list collections section](sections/main__list-collections.md)
-* [Main blog section](sections/main__blog.md)
-* [Main search section](sections/main__search.md)
-* [Theme header section](sections/theme__header.md)
-* [Theme footer section](sections/theme__footer.md)
+* [Product](sections/main__product.md)
+* [Collection](sections/main__collection.md)
+* [Collections](sections/main__list-collections.md)
+* [Blog](sections/main__blog.md)
+* [Search](sections/main__search.md)
+* [Header](sections/theme__header.md)
+* [Footer](sections/theme__footer.md)
 
 ## General
 

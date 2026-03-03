@@ -1,4 +1,4 @@
-# Main list collections
+# Collections
 
 ### Section overview
 

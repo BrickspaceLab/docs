@@ -1,4 +1,4 @@
-# Main search
+# Search
 
 ### Section overview
 

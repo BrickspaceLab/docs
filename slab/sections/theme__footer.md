@@ -1,4 +1,4 @@
-# Theme footer
+# Footer
 
 ### Section overview
 

@@ -1,4 +1,4 @@
-# Main product
+# Product
 
 ### Section overview
 

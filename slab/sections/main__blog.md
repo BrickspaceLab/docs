@@ -1,4 +1,4 @@
-# Main blog
+# Blog
 
 ### Section overview
 
