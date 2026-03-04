@@ -68,7 +68,6 @@
   * [Discount](sections/sitewide/discount.md)
   * [Account drawer](sections/sitewide/account-drawer.md)
   * [Custom liquid](sections/sitewide/custom-liquid.md)
-  * [Migrating custom changes](sections/sitewide/migrating-custom-changes.md)
   * [Store locater](sections/sitewide/store-locater.md)
 * [Navigation](sections/navigation/README.md)
   * [Navigation links](sections/navigation/navigation-links.md)
@@ -109,6 +108,7 @@
 
 ## General
 
+* [Migrating custom changes](general/migrating-custom-changes.md)
 * [Changelog](general/changelog/README.md)
   * [v2.1.1](general/changelog/v2.1.1.md)
   * [v2.1.0](general/changelog/v2.1.0.md)
