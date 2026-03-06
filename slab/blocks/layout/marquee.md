@@ -1,5 +1,7 @@
 # Layout marquee
 
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A marquee layout block that creates a scrolling effect for its child blocks. It supports various customization options such as animation duration, pause on hover, reverse animation, and alignment settings. This block is ideal for showcasing featured content in a dynamic and engaging manner.
