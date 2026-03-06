@@ -1,5 +1,7 @@
 # Accordion
 
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A collapsible accordion container that provides an expandable/collapsible content area with a header button. Uses Alpine.js for toggle functionality and includes smooth animations when enabled.

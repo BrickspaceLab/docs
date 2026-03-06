@@ -1,5 +1,7 @@
 # Video
 
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A customizable video block component that supports both native and custom video controls. Provides flexible styling options including color schemes, button styles, and layout controls. Supports responsive design with mobile/desktop visibility options and customizable width and alignment.

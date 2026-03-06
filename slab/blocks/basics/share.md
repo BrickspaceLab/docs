@@ -1,5 +1,7 @@
 # Share
 
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A customizable share component that allows users to easily share content to social media platforms. Features a share button with dynamic text feedback. Supports sharing to Facebook, Twitter/X, Pinterest, and LinkedIn, with native sharing on supported devices.

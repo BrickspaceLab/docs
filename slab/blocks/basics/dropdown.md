@@ -1,5 +1,7 @@
 # Dropdown
 
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A customizable dropdown overlay component that creates an accessible, animated dropdown menu triggered by a button. Provides flexible positioning, styling, and responsive behavior options.

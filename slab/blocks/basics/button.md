@@ -1,5 +1,7 @@
 # Button
 
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A customizable button component that renders a link styled as a button with various appearance and layout options. Supports responsive visibility controls, multiple style variants, and custom actions including overlay triggers, form submissions, and navigation.
