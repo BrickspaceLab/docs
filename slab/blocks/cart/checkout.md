@@ -1,5 +1,7 @@
 # Checkout
 
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A checkout container block that displays a form with checkout button, only visible when cart has items. Handles checkout redirection and supports Alpine.js for interactivity. Uses localStorage to remember verified users between sessions.
