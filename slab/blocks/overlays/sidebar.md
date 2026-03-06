@@ -1,5 +1,7 @@
 # Overlay sidebar
 
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A configurable sidebar overlay component that can slide in from either the left or right side of the screen. Creates a responsive sidebar drawer with customizable styling, positioning, and content.

@@ -1,5 +1,7 @@
 # Overlay drawer
 
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A customizable drawer component that displays content in a sliding overlay panel. This component creates an interactive drawer that can be positioned at the bottom, left, or right of the screen with a button to trigger its visibility.

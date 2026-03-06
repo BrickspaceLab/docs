@@ -1,5 +1,7 @@
 # Overlay alert
 
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 An alert overlay component that displays content in a floating panel that can be positioned at different corners of the screen. Supports auto-close functionality with visual progress indicator, customizable appearance, and responsive behavior.

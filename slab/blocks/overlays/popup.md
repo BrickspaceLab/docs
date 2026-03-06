@@ -1,5 +1,7 @@
 # Overlay popup
 
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A customizable popup modal component that displays content in an overlay triggered by a button. Provides smooth animations, responsive behavior, and extensive styling options through block settings.
