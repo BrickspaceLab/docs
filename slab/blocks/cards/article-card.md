@@ -1,5 +1,7 @@
 # Article card
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A flexible article card block for displaying a single article and its associated content blocks. This block is designed to be used within grid or slider layouts and supports a wide range of content types, including rich text, images, videos, icons, and article-specific information. The block offers extensive customization options for spacing, color scheme, border style, layout, and responsive visibility, making it suitable for various blog and content display needs.

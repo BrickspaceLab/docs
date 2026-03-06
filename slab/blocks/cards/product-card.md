@@ -1,5 +1,7 @@
 # Product card
 
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A flexible product card block for displaying a single product and its associated content blocks. This block is designed to be used within grid or slider layouts and supports a wide range of content types, including rich text, images, videos, icons, product price, badges, swatches, and media. The block offers extensive customization options for spacing, color scheme, border style, layout, and responsive visibility, making it suitable for various merchandising and design needs.

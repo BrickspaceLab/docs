@@ -1,5 +1,7 @@
 # Collection card
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 A flexible collection card block for displaying a single collection and its associated content blocks. This block is designed to be used within grid or slider layouts and supports a wide range of content types, including rich text, images, videos, icons, and collection-specific information. The block offers extensive customization options for spacing, color scheme, border style, layout, and responsive visibility, making it suitable for various merchandising and design needs.
