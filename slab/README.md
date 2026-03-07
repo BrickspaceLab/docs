@@ -4,7 +4,7 @@
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Blocks</td><td><a href="/broken/pages/BE5M9xwEbGEC1a26pSEr">Broken link</a></td></tr><tr><td>Sections</td><td><a href="content/sections/">sections</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Blocks</td><td><a href="content/blocks/">blocks</a></td></tr><tr><td>Sections</td><td><a href="content/sections/">sections</a></td></tr></tbody></table>
 
 ### Theme versions
 
