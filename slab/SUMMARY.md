@@ -1,12 +1,13 @@
 # Table of contents
 
 * [Slab documentation](README.md)
-  * [Changelog](readme/changelog.md)
+* [Changelog](changelog.md)
 
 ## Getting started
 
-* [Installing from ZIP](getting-started/installing-from-zip.md)
-* [Installing from GitHub](getting-started/installing-from-github.md)
+* [Installing Slab](getting-started/installing-slab/README.md)
+  * [Installing from ZIP](getting-started/installing-slab/installing-from-zip.md)
+  * [Installing from GitHub](getting-started/installing-slab/installing-from-github.md)
 
 ## CONTENT
 
@@ -162,9 +163,12 @@
 * [Getting started](advanced-customizations/getting-started/README.md)
   * [Scripts reference](advanced-customizations/getting-started/scripts-reference.md)
   * [Pulling upstream updates](advanced-customizations/getting-started/pulling-upstream-updates.md)
+* [Understanding theme code](advanced-customizations/understanding-theme-code/README.md)
+  * [Styling](advanced-customizations/understanding-theme-code/styling.md)
+  * [JavaScript](advanced-customizations/understanding-theme-code/javascript.md)
+  * [Naming conventions](advanced-customizations/understanding-theme-code/naming-conventions.md)
+* [Working with coding agents](advanced-customizations/working-with-coding-agents.md)
 * [Making changes](advanced-customizations/making-changes/README.md)
-  * [Understanding theme code](advanced-customizations/making-changes/understanding-theme-code.md)
-  * [Working with coding agents](advanced-customizations/making-changes/working-with-coding-agents.md)
   * [Using custom CSS](advanced-customizations/making-changes/using-custom-css.md)
   * [Using custom liquid](advanced-customizations/making-changes/using-custom-liquid.md)
   * [Using custom fonts](advanced-customizations/making-changes/using-custom-fonts.md)
