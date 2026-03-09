@@ -151,3 +151,15 @@
   * [Blog](content/sections/blog.md)
   * [Header](content/sections/header.md)
   * [Footer](content/sections/footer.md)
+
+## Advanced customizations
+
+* [Getting started](advanced-customizations/getting-started.md)
+* [Making changes](advanced-customizations/making-changes/README.md)
+  * [Understanding theme code](advanced-customizations/making-changes/understanding-theme-code.md)
+  * [Using Slab with coding agents](advanced-customizations/making-changes/using-slab-with-coding-agents.md)
+  * [Using custom CSS](advanced-customizations/making-changes/using-custom-css.md)
+  * [Using custom liquid](advanced-customizations/making-changes/using-custom-liquid.md)
+  * [Using custom fonts](advanced-customizations/making-changes/using-custom-fonts.md)
+  * [Creating custom blocks](advanced-customizations/making-changes/creating-custom-blocks.md)
+  * [Creating custom sections](advanced-customizations/making-changes/creating-custom-sections.md)
