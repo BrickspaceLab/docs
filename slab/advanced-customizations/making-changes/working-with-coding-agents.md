@@ -1,4 +1,4 @@
-# Using Slab with coding agents
+# Working with coding agents
 
 Slab ships with first-class support for AI-assisted development. The repo includes skills, rules, and commands that give any coding agent (Cursor, Claude, GitHub Copilot, etc.) the context it needs to write correct Shopify Liquid code, maintain consistency across the theme, and perform tasks that would otherwise require manual file editing.
 
@@ -150,8 +150,6 @@ Run these after making changes to catch issues before committing:
 | `/update-schema-translations` | Syncs schema translation keys across locale files                  |
 | `/format-presets`             | Reformats section preset JSON to match conventions                 |
 | `/prepare-submission`         | Full release workflow: build, version bump, changelog, theme check |
-
-***
 
 
 

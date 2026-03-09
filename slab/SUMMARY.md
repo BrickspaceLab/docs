@@ -3,6 +3,11 @@
 * [Slab documentation](README.md)
   * [Changelog](readme/changelog.md)
 
+## Getting started
+
+* [Installing from ZIP](getting-started/installing-from-zip.md)
+* [Installing from GitHub](getting-started/installing-from-github.md)
+
 ## CONTENT
 
 * [Blocks](content/blocks/README.md)
@@ -154,10 +159,12 @@
 
 ## Advanced customizations
 
-* [Getting started](advanced-customizations/getting-started.md)
+* [Getting started](advanced-customizations/getting-started/README.md)
+  * [Scripts reference](advanced-customizations/getting-started/scripts-reference.md)
+  * [Pulling upstream updates](advanced-customizations/getting-started/pulling-upstream-updates.md)
 * [Making changes](advanced-customizations/making-changes/README.md)
   * [Understanding theme code](advanced-customizations/making-changes/understanding-theme-code.md)
-  * [Using Slab with coding agents](advanced-customizations/making-changes/using-slab-with-coding-agents.md)
+  * [Working with coding agents](advanced-customizations/making-changes/working-with-coding-agents.md)
   * [Using custom CSS](advanced-customizations/making-changes/using-custom-css.md)
   * [Using custom liquid](advanced-customizations/making-changes/using-custom-liquid.md)
   * [Using custom fonts](advanced-customizations/making-changes/using-custom-fonts.md)
