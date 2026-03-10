@@ -32,13 +32,11 @@ Use this as a decision guide — work through it top to bottom:
 
 ## Utility classes
 
-The `src/css/utilities/` directory contains theme-aware utility classes that should be used in place of hardcoded values for typography and color. These classes read CSS custom properties set from merchant theme settings, so they adapt automatically to color schemes and font selections.
+The `src/css/utilities/` directory contains theme-aware utility classes that must be used in place of hardcoded values for typography and color. These classes read CSS custom properties set from merchant theme settings, so they adapt automatically to color schemes and font selections.
 
 
 
-#### Typography
-
-`src/css/utilities/typography.css`
+#### **Typography — `src/css/utilities/typography.css`**
 
 Use these instead of hardcoding font families, weights, or sizes:
 
@@ -53,7 +51,9 @@ Use these instead of hardcoding font families, weights, or sizes:
 | `type__heading-1-style` / `type__heading-1-size`                              | H1 font + size (repeat for 2–6)                  |
 | `type--smaller` / `type--small` / `type--base` / `type--big` / `type--bigger` | Theme-relative font sizes                        |
 
-#### Color — `src/css/utilities/colors.css`
+
+
+#### **Color — `src/css/utilities/colors.css`**
 
 Use these instead of hardcoding hex values or raw `color` / `background-color` declarations:
 
@@ -65,37 +65,24 @@ Use these instead of hardcoding hex values or raw `color` / `background-color` d
 | `color-ol__` | `color-ol__selected-1`                          | Outline colors                                        |
 | `color-bt__` | `color-bt__main`, `color-bt__scheme`            | Button background + text + border (with hover states) |
 
+**Using custom color schemes**
+
 Scheme-aware variants (`color-bg__scheme-bg`, `color-tx__scheme-fg`, etc.) automatically reflect the color scheme set on the nearest parent section or block — prefer these over body-level utilities inside themed sections.
 
-See Color utility class reference for the full list.
 
-## Color system
+
+**How it works**
 
 Colors are never written as raw hex values. Everything flows through CSS custom properties so that merchant-configurable theme settings propagate automatically to every component.
-
-#### How it works
 
 There are two layers:
 
 1. **Global CSS variables** — set on `:root` in `snippets/theme__styles.liquid`. These cover the body background, body foreground, auto-calculated shades, overlays, dividers, and input states.
 2. **Color scheme classes** — merchant-defined palettes (e.g. `color__primary`, `color__secondary`). Applying one to a container exposes a set of `--scheme__*` variables that any descendant can use.
 
-```
-Theme Settings
-    └─ snippets/theme__styles.liquid
-        ├─ :root { --color__* }          ← global variables
-        └─ .color__[id] { --scheme__* }  ← per-scheme variables
-                └─ color-bg__*, color-tx__*, color-br__*, color-ol__*, color-bt__*
-                        └─ HTML elements
-```
 
-**Key files:**
 
-* `snippets/theme__styles.liquid` — all CSS variable definitions
-* `src/css/utilities/colors.css` — all utility class definitions
-* `config/settings_schema.json` — color scheme configuration
-
-#### Global CSS variables
+**Global CSS variables**
 
 These are always available on `:root` regardless of scheme context.
 
@@ -126,7 +113,7 @@ These are always available on `:root` regardless of scheme context.
 | `--input__hover-background` / `--input__hover-border`     | Hover state   |
 | `--input__focus-background` / `--input__focus-border`     | Focus state   |
 
-#### Color schemes
+**Color schemes**
 
 Merchants configure color schemes in the theme editor. Each scheme exposes six variables when its class is applied to a container:
 
@@ -174,7 +161,7 @@ Available modifiers: `--background`, `--foreground`, `--border`, `--background-h
 
 ***
 
-### Color utility class reference
+**Color utility class reference**
 
 All classes follow this pattern:
 
@@ -188,7 +175,7 @@ color-[property]__[source]-[aspect]
 | `source`   | `body` · `scheme` · `shade` · `unshade` · `overlay` · `divider` · `selected` · `input` · `text` |
 | `aspect`   | `bg` · `fg` · `br` · `1` / `2` / `3`                                                            |
 
-#### Background — `color-bg__*`
+**Background — `color-bg__*`**
 
 | Class                     | Sets background to                                 |
 | ------------------------- | -------------------------------------------------- |
@@ -222,7 +209,7 @@ color-[property]__[source]-[aspect]
 <div class="color__accent color-bg__scheme-bg color-tx__scheme-fg">...</div>
 ```
 
-#### Text — `color-tx__*`
+**Text — `color-tx__*`**
 
 | Class                    | Sets text color to                                        |
 | ------------------------ | --------------------------------------------------------- |
@@ -246,7 +233,7 @@ color-[property]__[source]-[aspect]
 <span class="color-tx__error">This field is required</span>
 ```
 
-#### Border — `color-br__*`
+**Border — `color-br__*`**
 
 | Class                     | Sets border color to                                     |
 | ------------------------- | -------------------------------------------------------- |
@@ -273,7 +260,7 @@ color-[property]__[source]-[aspect]
 <div class="border-2 color-br__selected-1">...</div>
 ```
 
-#### Outline — `color-ol__*`
+**Outline — `color-ol__*`**
 
 Primarily used for focus rings.
 
@@ -290,7 +277,7 @@ Primarily used for focus rings.
 </button>
 ```
 
-#### Button — `color-bt__*`
+**Button — `color-bt__*`**
 
 Button utilities set background, border, and text color together with `:hover` states in a single class. They also cascade `color` to non-`.reset` children.
 
@@ -316,121 +303,169 @@ Button utilities set background, border, and text color together with `:hover` s
 <button class="color-bt__transparent px-4 py-2 rounded">Cancel</button>
 ```
 
-***
 
-### Common patterns
 
-#### Plain content area
+#### **Borders — `src/css/utilities/borders.css`**
 
-```html
-<div class="color-bg__body-bg color-tx__text-default">
-  Default page content
-</div>
-```
+Theme-aware border width and radius utilities that read from CSS custom properties, plus standardised focus ring patterns. Use these instead of hardcoding pixel values for borders and radii.
 
-#### Themed section
+**Border width — element**
 
-```liquid
-<section class="color__{{ section.settings.color_scheme }} color-bg__scheme-bg color-tx__scheme-fg">
-  <div class="border-t color-br__scheme-br">...</div>
-  <button class="color-bt__scheme">...</button>
-</section>
-```
+| Class             | Sets                                                    |
+| ----------------- | ------------------------------------------------------- |
+| `border--width`   | All sides — `--border__width-element`                   |
+| `border--t-width` | Top only — `--border__width-element`                    |
+| `border--r-width` | Right only — `--border__width-element`                  |
+| `border--b-width` | Bottom only — `--border__width-element`                 |
+| `border--l-width` | Left only — `--border__width-element`                   |
+| `outline--width`  | Outline width + solid style — `--border__width-element` |
 
-#### Card with subtle tint
+**Border width — button**
 
-```html
-<div class="color-bg__shade-1 color-tx__text-default rounded-lg p-4">
-  Card content
-</div>
-```
+| Class                    | Sets                                   |
+| ------------------------ | -------------------------------------- |
+| `border--button-width`   | All sides — `--border__width-button`   |
+| `border--t-button-width` | Top only — `--border__width-button`    |
+| `border--r-button-width` | Right only — `--border__width-button`  |
+| `border--b-button-width` | Bottom only — `--border__width-button` |
+| `border--l-button-width` | Left only — `--border__width-button`   |
 
-#### Input field
+**Border width — input**
 
-```html
-<input
-  class="color-bg__input color-br__input border color-tx__text-default
-         hover:color-bg__input--hover hover:color-br__input--hover
-         focus:color-bg__input--focus focus:color-br__input--focus"
-  type="text"
-/>
-```
+| Class                   | Sets                                     |
+| ----------------------- | ---------------------------------------- |
+| `border--input-width`   | All sides — `--size__border-input-width` |
+| `border--t-input-width` | Top — `--input__border-width-top`        |
+| `border--r-input-width` | Right — `--input__border-width-right`    |
+| `border--b-input-width` | Bottom — `--input__border-width-bottom`  |
+| `border--l-input-width` | Left — `--input__border-width-left`      |
+| `border--input-padding` | Horizontal padding — `--input__padding`  |
 
-#### Color type toggle in schema
+**Border radius**
 
-A common pattern offers merchants a choice between body colors and a custom scheme:
+| Class              | Sets                                                    |
+| ------------------ | ------------------------------------------------------- |
+| `border--radius`   | All corners — `--border__radius-element`                |
+| `border--t-radius` | Top-left + top-right — `--border__radius-element`       |
+| `border--b-radius` | Bottom-left + bottom-right — `--border__radius-element` |
+| `border--l-radius` | Top-left + bottom-left — `--border__radius-element`     |
+| `border--r-radius` | Top-right + bottom-right — `--border__radius-element`   |
 
-```json
-{
-  "type": "select",
-  "id": "color_type",
-  "label": "Color",
-  "options": [
-    { "value": "body", "label": "Body" },
-    { "value": "custom", "label": "Custom" }
-  ]
-}
-```
+**Focus styles**
 
-```liquid
-<div
-  class="
-    {% if block.settings.color_type == 'custom' %}
-      color__{{ block.settings.color_scheme }} color-bg__scheme-bg color-tx__scheme-fg
-    {% else %}
-      color-bg__body-bg color-tx__text-default
-    {% endif %}
-  "
->
-  {{ block.settings.content }}
-</div>
-```
+| Class                      | Style                                                                  |
+| -------------------------- | ---------------------------------------------------------------------- |
+| `border--focus`            | Solid outline using `--input__focus-width` and `--input__focus-border` |
+| `border--focus--inset`     | 2px inset box-shadow focus ring with body-bg outline                   |
+| `border--focus--outset`    | 4px outset box-shadow focus ring with body-bg outline                  |
+| `border--focus--offset`    | 2px outline with `outline-offset: 2`                                   |
+| `border--focus--simple`    | Inset 1px box-shadow, no outline                                       |
+| `border--focus--underline` | Underline only, no outline or shadow                                   |
+| `border--focus--none`      | Removes all border, outline, and shadow                                |
 
-***
+**Button border presets**
 
-### Do / Don't
+| Class                    | Applies                                           |
+| ------------------------ | ------------------------------------------------- |
+| `border__button`         | `border--button-width`                            |
+| `border__button--focus`  | `color-br__input--focus` + `border--focus--inset` |
+| `border__button--radius` | `--border__radius-button`                         |
 
-**Do not hardcode hex values:**
+**Input border presets**
 
-```liquid
-<!-- Bad -->
-<div style="background: #ffffff; color: #000000;">
+| Class                      | Applies                                                    |
+| -------------------------- | ---------------------------------------------------------- |
+| `border__input`            | All four input border widths (top / right / bottom / left) |
+| `border__input--focus`     | `border--focus--inset`                                     |
+| `border__input--radius`    | `--border__radius-input`                                   |
+| `border__textarea--radius` | `--border__radius-textarea`                                |
 
-<!-- Good -->
-<div class="color-bg__body-bg color-tx__text-default">
-```
+**Miscellaneous**
 
-**Do not use scheme utilities without a parent scheme class:**
+| Class          | Effect                                                                               |
+| -------------- | ------------------------------------------------------------------------------------ |
+| `shadow--blur` | Diffuse drop shadow: `0px 0px 100px 10px rgb(0 0 0 / 0.3)`                           |
+| `anglethrough` | Diagonal strikethrough line using a pseudo-element and `--color__background-shade-3` |
 
-```liquid
-<!-- Bad — --scheme__background is undefined -->
-<div class="color-bg__scheme-bg">...</div>
 
-<!-- Good -->
-<div class="color__primary">
-  <div class="color-bg__scheme-bg color-tx__scheme-fg">...</div>
-</div>
-```
 
-**Do not reach for raw Tailwind color classes:**
+#### **Animation — `src/css/utilities/animation.css`**
 
-```liquid
-<!-- Bad — bypasses merchant theming -->
-<div class="bg-gray-100 text-gray-900">
+Shorthand transition and scroll-driven animation utilities. Prefer these over writing `transition` or `animation` properties inline.
 
-<!-- Good -->
-<div class="color-bg__shade-1 color-tx__text-default">
-```
+**Transitions — all properties**
 
-**Do not add component styles to `src/css/base/`:**
+| Class                 | Transition                    |
+| --------------------- | ----------------------------- |
+| `animation-100--all`  | `transition-all duration-100` |
+| `animation-300--all`  | `transition-all duration-300` |
+| `animation-500--all`  | `transition-all duration-500` |
+| `animation-5000--all` | `transition-all` at 5000ms    |
 
-```css
-/* Bad — base is for bare element resets only */
-.product-card { ... }
+**Transitions — default properties**
 
-/* Good — put it in src/css/components/ or a {% stylesheet %} tag */
-```
+| Class            | Transition                 |
+| ---------------- | -------------------------- |
+| `animation-100`  | `transition duration-100`  |
+| `animation-200`  | `transition duration-200`  |
+| `animation-300`  | `transition duration-300`  |
+| `animation-500`  | `transition duration-500`  |
+| `animation-1000` | `transition duration-1000` |
+| `animation-5000` | `transition` at 5000ms     |
 
-***
+**Pause and keyframe animations**
 
-### Further reading
+| Class                 | Effect                                          |
+| --------------------- | ----------------------------------------------- |
+| `animate-pause`       | Pauses a running CSS animation                  |
+| `animate-xscroll`     | Continuous horizontal scroll (10s linear loop)  |
+| `animate-widthexpand` | Width expands 0→100% with fade (500ms infinite) |
+| `animate-hop1`        | Vertical hop, stagger offset 0.2s               |
+| `animate-hop2`        | Vertical hop, stagger offset 0.4s               |
+| `animate-hop3`        | Vertical hop, stagger offset 0.6s               |
+
+**Scroll-driven animations**
+
+These use `animation-timeline: view()` and require browser support for `animation-range`. They animate elements as they enter and leave the viewport (10%–90% range).
+
+| Class                         | Enter / exit effect                |
+| ----------------------------- | ---------------------------------- |
+| `scroll-fullblurinout-10-90`  | Fade + blur in and out             |
+| `scroll-slideupdown-10-90`    | Slide down from above, exit upward |
+| `scroll-slidedownup-10-90`    | Slide up from below, exit downward |
+| `scroll-slideleftright-10-90` | Slide in from left, exit left      |
+| `scroll-sliderightleft-10-90` | Slide in from right, exit right    |
+| `scroll-zoominout-10-90`      | Scale up from 80%, fade in         |
+
+
+
+#### **Spacing — `src/css/utilities/spacing.css`**
+
+Layout-gap and section-overlap utilities that read from merchant layout settings (`--layout__gap`, `--layout__desktop-overlap`, `--layout__mobile-overlap`). Use these instead of hardcoded spacing values tied to layout rhythm.
+
+| Class                | Sets                                                                                                              |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `section-overlap`    | Negative top margin + matching top padding to overlap the preceding section (responsive: desktop / mobile values) |
+| `spacing--font-base` | `min-height` equal to base line-height (`--type__base * 1.625`)                                                   |
+| `padding--gap`       | All sides — `--layout__gap`                                                                                       |
+| `padding--t-gap`     | Top — `--layout__gap`                                                                                             |
+| `padding--r-gap`     | Right — `--layout__gap`                                                                                           |
+| `padding--b-gap`     | Bottom — `--layout__gap`                                                                                          |
+| `padding--l-gap`     | Left — `--layout__gap`                                                                                            |
+| `margin--gap`        | All sides — `--layout__gap`                                                                                       |
+| `margin--t-gap`      | Top — `--layout__gap`                                                                                             |
+| `margin--r-gap`      | Right — `--layout__gap`                                                                                           |
+| `margin--b-gap`      | Bottom — `--layout__gap`                                                                                          |
+| `margin--l-gap`      | Left — `--layout__gap`                                                                                            |
+
+
+
+#### **Scrollbar — `src/css/utilities/scrollbar.css`**
+
+Cross-browser scrollbar visibility and styling utilities.
+
+| Class             | Effect                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| `hidescrollbar`   | Hides scrollbar in all browsers while keeping the element scrollable                       |
+| `showscrollbar`   | Shows a slim, theme-shaded scrollbar (shade-1 track, shade-2 thumb)                        |
+| `customscrollbar` | Thin scrollbar with overlay-tinted track and thumb, rounded using `border__button--radius` |
