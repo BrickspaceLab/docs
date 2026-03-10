@@ -108,7 +108,6 @@
 
 ## General
 
-* [Migrating custom changes](general/migrating-custom-changes.md)
 * [Changelog](general/changelog/README.md)
   * [v2.1.1](general/changelog/v2.1.1.md)
   * [v2.1.0](general/changelog/v2.1.0.md)
