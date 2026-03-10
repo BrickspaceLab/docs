@@ -1,4 +1,4 @@
-# Overlay alert
+# Alert
 
 <figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ An alert overlay component that displays content in a floating panel that can be
 
 The following blocks can be nested within this block:
 
-* [Container](../basics/containers/container.md) (for alert content)
+* [Container](../layout/container.md) (for alert content)
 
 ## Block settings
 

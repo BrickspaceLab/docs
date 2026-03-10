@@ -1,4 +1,4 @@
-# Overlay popup
+# Popup
 
 <figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ A customizable popup modal component that displays content in an overlay trigger
 
 The following blocks can be nested within this block:
 
-* [Container](../basics/containers/container.md) (for popup content)
+* [Container](../layout/container.md) (for popup content)
 
 ## Block settings
 

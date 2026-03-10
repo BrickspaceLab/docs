@@ -1,4 +1,4 @@
-# Overlay sidebar
+# Sidebar
 
 <figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
@@ -17,8 +17,8 @@ A configurable sidebar overlay component that can slide in from either the left 
 
 The following blocks can be nested within this block:
 
-* [Container](../basics/containers/container.md) (for sidebar content)
-* [Container](../basics/containers/container.md) (for sidebar footer)
+* [Container](../layout/container.md) (for sidebar content)
+* [Container](../layout/container.md) (for sidebar footer)
 
 ## Block settings
 

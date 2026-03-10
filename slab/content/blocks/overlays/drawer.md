@@ -1,4 +1,4 @@
-# Overlay drawer
+# Drawer
 
 <figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
@@ -17,8 +17,8 @@ A customizable drawer component that displays content in a sliding overlay panel
 
 The following blocks can be nested within this block:
 
-* [Container](../basics/containers/container.md) (for drawer content)
-* [Container](../basics/containers/container.md) (for drawer footer)
+* [Container](../layout/container.md) (for drawer content)
+* [Container](../layout/container.md) (for drawer footer)
 
 ## Block settings
 

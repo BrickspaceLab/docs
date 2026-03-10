@@ -1,4 +1,4 @@
-# Cart progress tier
+# Progress tier
 
 ## Block limitations
 
@@ -18,7 +18,7 @@ A block that displays a cart progress tier message when a specific threshold is 
 
 The following blocks can be nested within this block:
 
-* [Container](../../basics/containers/container.md)
+* [Container](../../layout/container.md)
 
 ## Block settings
 
