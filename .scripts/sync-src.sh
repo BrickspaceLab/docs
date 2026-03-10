@@ -19,6 +19,11 @@ trap cleanup EXIT
 
 mkdir -p "${SRC_DIR}"
 
+if [[ -z "${BRICKSPACE_GITHUB_TOKEN:-}" ]]; then
+  echo "BRICKSPACE_GITHUB_TOKEN is required to sync private BrickspaceLab repositories." >&2
+  exit 1
+fi
+
 echo "Syncing repository snapshots into ${SRC_DIR}"
 
 for repo in "${REPOS[@]}"; do
@@ -35,14 +40,28 @@ for repo in "${REPOS[@]}"; do
   rm -rf "${tmp_clone}" "${tmp_target}"
   mkdir -p "${tmp_target}"
 
-  git clone --depth 1 --quiet "${clone_url}" "${tmp_clone}"
+  auth_header="$(printf "x-access-token:%s" "${BRICKSPACE_GITHUB_TOKEN}" | base64 | tr -d '\n')"
 
-  rsync -a --delete \
-    --exclude ".git/" \
-    --exclude ".github/" \
-    --exclude ".gitignore" \
-    --exclude ".gitmodules" \
-    "${tmp_clone}/" "${tmp_target}/"
+  if ! git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic ${auth_header}" \
+    clone --depth 1 --quiet "${clone_url}" "${tmp_clone}"; then
+    echo "Failed to clone ${repo}. Verify BRICKSPACE_GITHUB_TOKEN has read access." >&2
+    exit 1
+  fi
+
+  if command -v rsync >/dev/null 2>&1; then
+    rsync -a --delete \
+      --exclude ".git/" \
+      --exclude ".github/" \
+      --exclude ".gitignore" \
+      --exclude ".gitmodules" \
+      "${tmp_clone}/" "${tmp_target}/"
+  else
+    cp -a "${tmp_clone}/." "${tmp_target}/"
+    rm -rf "${tmp_target}/.git" \
+      "${tmp_target}/.github" \
+      "${tmp_target}/.gitignore" \
+      "${tmp_target}/.gitmodules"
+  fi
 
   rm -rf "${final_target}"
   mv "${tmp_target}" "${final_target}"
