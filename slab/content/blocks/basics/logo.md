@@ -1,0 +1,55 @@
+# Logo
+
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+## Overview
+
+Displays the store logo with responsive sizing for desktop and mobile devices. The component renders either an uploaded logo image or falls back to the shop name as text if no image is provided. The logo is fully customizable with options for height adjustments on different devices, horizontal alignment, padding, and visibility controls across breakpoints.
+
+## Common use cases
+
+* Upload a logo with transparent background for best results
+* Adjust desktop and mobile logo heights to maintain proper proportions and readability
+* Consider logo placement within the overall header layout when choosing alignment
+* Use text fallback when logo image is not available
+
+## Block settings
+
+### Content
+
+| Setting    | Description                                  | Options                                                    |
+| ---------- | -------------------------------------------- | ---------------------------------------------------------- |
+| Logo       | Upload a logo image                          | <p>Image picker<br><br>Visible when show image is true</p> |
+| URL        | Link destination when logo is clicked        | URL input (default: /)                                     |
+| Text       | Text to display if no logo image is provided | <p>Text input<br><br>Visible when show image is false</p>  |
+| Show image | Toggle between logo image and text           | Checkbox (default: false)                                  |
+
+### Spacing
+
+| Setting                   | Description                             | Options                   |
+| ------------------------- | --------------------------------------- | ------------------------- |
+| Desktop logo height       | Height of the logo on desktop devices   | 10 - 200 px (default: 24) |
+| Mobile logo height        | Height of the logo on mobile devices    | 10 - 200 px (default: 24) |
+| Enable horizontal padding | Adds horizontal padding around the logo | Checkbox (default: false) |
+
+### Style
+
+| Setting        | Description                                        | Options                                                                                                                                                                       |
+| -------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Font family    | Controls the font family used for text logo        | <p>• Standard<br>• Heading (default)<br>• Subheading<br>• Accent<br><br>Visible when font size contains 'type--' or font size is "custom"</p>                                 |
+| Font size      | Controls the font size of text logo                | <p>• Smaller<br>• Small<br>• Default<br>• Big<br>• Bigger (default)<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6<br>• Custom</p> |
+| Size           | Custom font size when using custom typography      | <p>4 - 400 px (default: 16)<br><br>Visible when font size is "custom"</p>                                                                                                     |
+| Line height    | Custom line height when using custom typography    | <p>100 - 300 % (default: 150)<br><br>Visible when font size is "custom"</p>                                                                                                   |
+| Letter spacing | Custom letter spacing when using custom typography | <p>-3 - 3 rem (default: 0)<br><br>Visible when font size is "custom"</p>                                                                                                      |
+
+### Layout
+
+| Setting              | Description                   | Options                                        |
+| -------------------- | ----------------------------- | ---------------------------------------------- |
+| Horizontal alignment | Controls horizontal alignment | <p>• Left (default)<br>• Center<br>• Right</p> |
+
+### Display
+
+| Setting    | Description                        | Options                                                   |
+| ---------- | ---------------------------------- | --------------------------------------------------------- |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
