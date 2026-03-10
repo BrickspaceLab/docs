@@ -113,4 +113,3 @@
   * [v1.0.0](general/changelog/v1.0.0.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
   * [v2.0.0](general/known-issues-and-troubleshooting/v2.0.0.md)
-* [Cloning a demo theme](general/cloning-a-demo-theme.md)
