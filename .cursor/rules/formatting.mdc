@@ -1,0 +1,27 @@
+---
+description: Formatting conventions for markdown docs
+globs: **/*.md
+alwaysApply: false
+---
+
+# Docs Formatting
+
+Apply these formatting rules when editing markdown documentation.
+
+## Headings
+
+- Keep exactly one H1 (`#`) at the top of the page.
+- Preserve the page's existing heading hierarchy unless it is clearly invalid.
+- Keep heading labels consistent and concise.
+- Ensure one empty line appears above each heading (except the first H1).
+
+## Lists and sentence quality
+
+- Use one bullet style consistently within the page.
+- Ensure sentences are complete and end with proper punctuation.
+
+## Tables
+
+- Keep settings documentation in readable tables.
+- Use markdown tables by default.
+- Use HTML tables only when the page already depends on HTML table markup.

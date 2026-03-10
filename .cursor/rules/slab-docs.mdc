@@ -1,10 +1,10 @@
 ---
-description: Standards for writing high-quality Slab documentation
+description: Slab-specific source-of-truth verification for docs
 globs: slab/**/*.md
 alwaysApply: false
 ---
 
-# Slab documentation standards
+# Slab docs addendum
 
 ## Source of truth
 
@@ -13,43 +13,14 @@ alwaysApply: false
 - If required source files are not accessible, ask for those exact paths before drafting content.
 - Do not guess block behavior, defaults, compatibility, or setting labels.
 
-## Path-specific structure (audited)
+## Slab-specific checks
 
-- `slab/blocks/**/*.md`: Use the existing block-doc structure used across current Slab block pages:
-  - `## Overview`
-  - `## Common use cases`
-  - `## Compatible blocks` (only when nesting is supported)
-  - `## Block settings` (grouped tables by category)
-- `slab/**/README.md`, `slab/README.md`, and `slab/SUMMARY.md`: Treat as navigation/index pages.
-  - Keep them link-oriented with concise labels.
-  - Do not force FAQ/Steps/Details on index pages.
-- All other authored docs in `slab/` (for example guides, sections, getting-started, and general pages):
-  1. Title
-  2. Overview
-  3. FAQ
-  4. Steps
-  5. Details
+- Resolve translated labels (`t:` keys) using Slab locale files before writing setting names.
+- Confirm compatibility claims (nesting, supported block types, app-block support) from schema and Liquid usage.
+- Verify defaults, ranges, and option values from `{% schema %}` before documenting.
+- If behavior differs by template/context, state that condition explicitly in the docs.
 
-## Heading and formatting rules
+## Scope
 
-- Use exactly one H1 (`#`) at the top of the page.
-- Use sentence case for all headings.
-- Keep headings concise and action-oriented.
-- Keep heading levels consistent within a page.
-- End all sentences with proper punctuation.
-
-## Section quality bar for authored docs
-
-- **Title:** Use the user-facing name from schema or locale translations.
-- **Overview:** Write 1-3 sentences explaining purpose, context, and expected outcome.
-- **FAQ:** Include 3-6 practical questions with concise, implementation-accurate answers.
-- **Steps:** Provide an ordered, testable sequence using exact setting or UI names.
-- **Details:** Include technical specifics such as defaults, conditions, compatibility, and caveats.
-
-## Writing style
-
-- Keep language clear, direct, and non-promotional.
-- Prefer precise terminology used in the Slab theme and existing docs.
-- Add examples only when they remove ambiguity or prevent misuse.
-- If uncertain, state assumptions and request confirmation.
-- When a page currently contains only a title, expand it with complete sections instead of adding filler text.
+- This file only adds Slab-specific verification guidance.
+- Use global docs rules for structure, formatting, and writing style.

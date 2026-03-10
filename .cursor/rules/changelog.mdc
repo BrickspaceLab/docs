@@ -1,0 +1,31 @@
+---
+description: Standards for maintaining changelog entries
+globs: **/changelog.md
+alwaysApply: false
+---
+
+# Changelog standards
+
+Use this rule when adding or editing changelog entries.
+
+## Structure
+
+- Keep a single `# Changelog` heading at the top.
+- Wrap entries in `{% updates format="full" %}` and `{% endupdates %}`.
+- Use one `{% update date="YYYY-MM-DD" tags="x.y.z" %}` block per release.
+- Close every release block with `{% endupdate %}`.
+- Add new releases at the top so entries remain reverse chronological.
+
+## Entry format
+
+- Start each release with an `##` title that summarizes the release.
+- Group details under `#### Improvements` and `#### Fixes` when applicable.
+- Use bullet points for scoped changes; keep each bullet specific and concise.
+- Use present-perfect verbs for change bullets (for example: "Added", "Updated", "Fixed").
+
+## Quality checks
+
+- Ensure `tags` use semantic versioning and match the release being documented.
+- Ensure the `date` is the actual release date in `YYYY-MM-DD` format.
+- Keep tense and punctuation consistent across bullets.
+- Remove trailing spaces and empty lines between blocks.
