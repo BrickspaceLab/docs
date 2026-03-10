@@ -80,7 +80,7 @@
   * [Tooltip](sections/content-and-media/tooltip.md)
   * [Collage](sections/content-and-media/collage.md)
   * [Comparison table](sections/content-and-media/comparison-table.md)
-* [Products and collections](sections/products-and-collections/README.md)
+* [Products and Collections](sections/products-and-collections/README.md)
   * [Featured product](sections/products-and-collections/featured-product.md)
   * [Alt collection grid](sections/products-and-collections/alt-collection-grid.md)
   * [Collection list grid](sections/products-and-collections/collection-list-grid.md)
