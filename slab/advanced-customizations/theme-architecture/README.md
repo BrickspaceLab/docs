@@ -18,18 +18,12 @@ slab/
 └── templates/        # JSON templates
 ```
 
-
-
 {% content-ref url="styling.md" %}
 [styling.md](styling.md)
 {% endcontent-ref %}
 
-{% content-ref url="utility-classes/" %}
-[utility-classes/](utility-classes/)
-{% endcontent-ref %}
-
-{% content-ref url="javascript/README.md" %}
-[javascript/README.md](javascript/README.md)
+{% content-ref url="javascript/" %}
+[javascript](javascript/)
 {% endcontent-ref %}
 
 {% content-ref url="naming-conventions.md" %}
