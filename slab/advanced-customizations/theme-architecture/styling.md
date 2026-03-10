@@ -30,11 +30,15 @@ Use this as a decision guide — work through it top to bottom:
 
 
 
-## Custom utility classes
+## Utility classes
 
-The `src/css/utilities/` directory contains theme-aware utility classes that must be used in place of hardcoded values for typography and color. These classes read CSS custom properties set from merchant theme settings, so they adapt automatically to color schemes and font selections.
+The `src/css/utilities/` directory contains theme-aware utility classes that should be used in place of hardcoded values for typography and color. These classes read CSS custom properties set from merchant theme settings, so they adapt automatically to color schemes and font selections.
 
-#### Typography — `src/css/utilities/typography.css`
+
+
+#### Typography
+
+`src/css/utilities/typography.css`
 
 Use these instead of hardcoding font families, weights, or sizes:
 
