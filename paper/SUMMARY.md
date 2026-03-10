@@ -71,7 +71,7 @@
   * [Countdown](sections/content-and-media/countdown.md)
   * [Image comparison](sections/content-and-media/image-comparison.md)
   * [Image hotspot](sections/content-and-media/image-hotspot.md)
-* [Products and Collections](sections/products-and-collections/README.md)
+* [Products and collections](sections/products-and-collections/README.md)
   * [Featured product](sections/products-and-collections/featured-product.md)
   * [Featured collection grid](sections/products-and-collections/featured-collection-grid.md)
   * [Featured collection slider](sections/products-and-collections/featured-collection-slider.md)
