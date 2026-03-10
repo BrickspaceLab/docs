@@ -1,18 +1,10 @@
-# Use a custom font
-
-{% hint style="warning" %}
-**We do not provide support for code customizations**
-
-If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../../support/hire-a-shopify-developer.md).
-{% endhint %}
-
-
+# Using custom fonts
 
 We rely on [Shopify's Font Picker](https://www.shopify.ca/partners/blog/font-picker) to provide a font selection for your store. To access these settings go to Theme settings > Typography. Installing a font not available in the default selection will involve making some code customizations.
 
 
 
-### Installing a custom font
+## Installing a custom font
 
 {% stepper %}
 {% step %}
@@ -45,9 +37,6 @@ Please ensure you have a valid license to use the font you are trying to install
         url('{{ "MY_FONT.woff" | file_url }}') format("woff"); 
     }
     </code></pre>
-
-
-
 *   From here you can include your font by updating the below code inside the same file. The variables `--type-font-body-family` , `--type-font-header-family` and `--type-font-nav-family` control the font family used for body, headings and navigation text.
 
     <pre class="language-css" data-title="theme__styles.liquid"><code class="lang-css">--type-font-body-family: {{ settings.type_font_body.family }}, {{ settings.type_font_body.fallback_families }};
@@ -57,9 +46,6 @@ Please ensure you have a valid license to use the font you are trying to install
     --type-font-header-style: {{ settings.type_font_heading.style }}; --type-font-header-weight: {{ settings.type_font_heading.weight }}; 
     --type-font-nav-family: {{ settings.type_font_nav.family }}, {{ settings.type_font_nav.fallback_families }};
     </code></pre>
-
-
-
 *   The updated code should look something like this
 
     <pre class="language-css" data-title="theme__styles.liquid"><code class="lang-css">--type-font-body-family: 'MY_FONT';
@@ -71,4 +57,3 @@ Please ensure you have a valid license to use the font you are trying to install
     </code></pre>
 {% endstep %}
 {% endstepper %}
-
