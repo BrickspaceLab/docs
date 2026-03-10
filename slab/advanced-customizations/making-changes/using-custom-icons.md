@@ -32,11 +32,6 @@ The theme includes 60+ icons available through the [Icon block](../../../content
 * Open the theme editor and navigate to **Actions > Edit code**.
 * Locate the `theme__icons.liquid` snippet inside the **Snippets** folder.
 * Find the `{% case icon %}` block and add a new entry for your icon. Replace `my-custom-icon` with the name you want to use and update the `src` with the file URL copied in the previous step.
-
-    <pre class="language-liquid" data-title="theme__icons.liquid"><code class="lang-liquid">{% when 'my-custom-icon' %}
-      <img src="{{ 'my-custom-icon.svg' | file_url }}" alt="my-custom-icon" width="{{ size }}" height="{{ size }}">
-    </code></pre>
-
 * Save the file. Your custom icon will now be available for selection in the Icon block picker.
 {% endstep %}
 {% endstepper %}
