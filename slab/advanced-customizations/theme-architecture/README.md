@@ -1,6 +1,6 @@
 # Theme architecture
 
-
+Slab follows [standard Shopify theme architecture](https://shopify.dev/docs/storefronts/themes/architecture) with one addition: a `src/` folder that holds source files compiled into the theme at build time.
 
 ```
 slab/
@@ -17,9 +17,6 @@ slab/
 │   └── entrypoints/  # Vite JS/CSS entry points
 └── templates/        # JSON templates
 ```
-
-* `src/entrypoints/` — JavaScript and CSS entry points compiled by Vite. Add new global scripts or styles here.
-* `src/sections/` — Section preset JSON source files. The section watcher compiles these into `sections/` automatically.
 
 
 
