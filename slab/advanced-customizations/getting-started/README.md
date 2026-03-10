@@ -15,10 +15,14 @@ For advanced customizations we recommend installing Slab via GitHub.&#x20;
 [installing-from-github.md](../../getting-started/installing-slab/installing-from-github.md)
 {% endcontent-ref %}
 
-{% content-ref url="../understanding-theme-code/" %}
-[understanding-theme-code](../understanding-theme-code/)
+{% content-ref url="../theme-architecture/" %}
+[theme-architecture](../theme-architecture/)
 {% endcontent-ref %}
 
 {% content-ref url="../making-changes/" %}
 [making-changes](../making-changes/)
+{% endcontent-ref %}
+
+{% content-ref url="../working-with-coding-agents.md" %}
+[working-with-coding-agents.md](../working-with-coding-agents.md)
 {% endcontent-ref %}
