@@ -34,6 +34,10 @@ The `.cursor/rules/` directory contains three rule files that apply automaticall
 - `changelog.mdc` — standards for changelog entries.
 - `formatting.mdc` — markdown formatting conventions.
 
+### Source verification workflow
+
+Schema settings use translated labels like `"label": "t:general.settings.dropdown_menu.label"`. Resolve these by looking up the key path in `.src/<theme>/locales/en.default.schema.json`. For example, the key `t:general.settings.dropdown_menu.label` resolves via `general` → `settings` → `dropdown_menu` → `label` in that JSON file. Always verify setting names, defaults, ranges, and options against the schema before documenting them.
+
 ### Lint / test / build
 
 There is no linter, test suite, or build step in this repository. Quality is enforced by the Cursor rules and by verifying documentation against the synced theme source in `.src/`.
