@@ -28,8 +28,8 @@ slab/
 [utility-classes/](utility-classes/)
 {% endcontent-ref %}
 
-{% content-ref url="javascript.md" %}
-[javascript.md](javascript.md)
+{% content-ref url="javascript/README.md" %}
+[javascript/README.md](javascript/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="naming-conventions.md" %}
