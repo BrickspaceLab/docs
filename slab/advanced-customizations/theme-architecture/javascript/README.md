@@ -10,7 +10,9 @@ Interactivity is handled by Alpine.js. Components are defined inline in Liquid t
 
 
 
-## Global Alpine components
+## How we use Alpine
+
+#### Global Alpine components
 
 `layout/theme.liquid` sets `x-data="app()"` on `<body>`, making every method in `app()` available to all child Alpine components via `$root` or direct call.
 
@@ -18,7 +20,7 @@ Interactivity is handled by Alpine.js. Components are defined inline in Liquid t
 
 
 
-## Global Alpine stores
+#### Global Alpine stores
 
 `theme__scripts.liquid` registers all global Alpine stores inside an `alpine:init` listener. These stores are the single source of truth for shared state across the theme.
 
@@ -26,7 +28,7 @@ The `config` store holds theme-wide settings seeded from Liquid, including scrol
 
 
 
-## Product data
+#### Product data
 
 Product sections build their `x-data` object using `{% render 'helper__product-object' %}` captured into an inline JS object literal on the product container. This exposes the full Shopify product JSON, the currently selected options and variant, selling plan data, quantity, calculated price, and availability flags directly to the Alpine component.
 
@@ -34,7 +36,7 @@ The main entry method is `initProduct()` (called via `x-init`). It attaches the 
 
 
 
-## Section-specific components
+#### Section-specific components
 
 Heavier, page-specific components live in `src/javascript/components/`. They are loaded on-demand via `async-alpine` using `x-load` on the element:
 
@@ -43,8 +45,6 @@ Heavier, page-specific components live in `src/javascript/components/`. They are
 ```
 
 Each file exports a default function whose name matches the filename (e.g. `slider.ts` exports `slider()`). See `.cursor/rules/alpine.mdc` for the full component authoring guide.
-
-
 
 {% content-ref url="events.md" %}
 [events.md](events.md)
