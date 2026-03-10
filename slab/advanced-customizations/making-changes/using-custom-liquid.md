@@ -8,16 +8,20 @@ If you are not comfortable making code changes, we highly recommend [hiring an e
 
 The **Custom liquid** section type lets you inject Liquid and HTML directly into any page template without editing theme source files. It is the fastest way to add a one-off snippet of dynamic or interactive content.
 
+
+
 ### When to use custom liquid
 
 Custom liquid is a good fit when:
 
-- You need a quick, one-off snippet that does not need to be reused across multiple pages or sections.
-- The content does not require merchant-facing settings (no color pickers, text fields, or image pickers in the theme editor).
-- You want to add interactivity using Alpine.js `x-data` without building a full block or section.
-- You are prototyping or experimenting before committing to a more permanent solution.
+* You need a quick, one-off snippet that does not need to be reused across multiple pages or sections.
+* The content does not require merchant-facing settings (no color pickers, text fields, or image pickers in the theme editor).
+* You want to add interactivity using Alpine.js `x-data` without building a full block or section.
+* You are prototyping or experimenting before committing to a more permanent solution.
 
 If you find yourself needing the same snippet in multiple places, or if you want merchants to be able to configure the content from the theme editor, consider [creating a custom block](creating-custom-blocks.md) or [creating a custom section](creating-custom-sections.md) instead.
+
+
 
 ### How to add custom liquid
 
@@ -26,19 +30,31 @@ If you find yourself needing the same snippet in multiple places, or if you want
 3. Paste your Liquid and HTML code into the code field.
 4. Save.
 
+
+
 ### Using AI to write custom liquid
 
 AI coding agents are well-suited to writing custom liquid snippets. Slab uses [Alpine.js](https://alpinejs.dev/) for interactivity, so you can ask an agent to generate snippets that combine Liquid with Alpine's `x-data` and `x-init` directives.
 
 A useful prompt structure:
 
-> Write a Shopify Liquid snippet using Alpine.js `x-data` that \[describe what you want it to do]. Use utility classes from the Slab theme (e.g. `color-tx__shade-3`) for styling where appropriate.
+{% code overflow="wrap" %}
+```
+Write a Shopify Liquid snippet using Alpine.js x-data that [describe what you want it to do]. Use utility classes from the Slab theme for styling where appropriate.
+```
+{% endcode %}
+
+
 
 ### Example: live clock for a timezone
 
 The snippet below uses Alpine's `x-data` to display the current time in Toronto, updated every second. It was generated with this prompt:
 
-> Write a Shopify Liquid + Alpine.js snippet that displays the current local time in Toronto, updated every second. Use `x-data` and `x-init`.
+{% code overflow="wrap" %}
+```
+Write a Shopify Liquid + Alpine.js snippet that displays the current local time in Toronto, updated every second. Use x-data and x-init.
+```
+{% endcode %}
 
 ```liquid
 <div class="color-tx__shade-3">
@@ -60,4 +76,3 @@ The snippet below uses Alpine's `x-data` to display the current time in Toronto,
 </div>
 ```
 
-To adapt this for a different timezone, replace `America/Toronto` with any valid [IANA timezone identifier](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), such as `Europe/London` or `Asia/Tokyo`.
