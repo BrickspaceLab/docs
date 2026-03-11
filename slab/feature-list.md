@@ -8,19 +8,61 @@ This page is a capability index for Slab. It includes every documented block and
 
 
 
+
+
+* Create and set color schemes
+  * Use custom set color schemes almost anywhere and easily add new schemes.&#x20;
+* Rich border radius and with control
+  * Set global border styling to easily adjust your theme.
+* Input styles
+  * Use in depth input style settings to design all text input fields.
+* Fine tune typography
+  * Set the font family, line height, letter spacing and case for each font application with scale ratios to adjust sizing.
+* Sticky header bar&#x20;
+  * Ensure your header section is always visible.
+* Dynamic header bar
+  * Set your header section to be hidden while scrolling down and revealed when scrolling up.
+* Vertical scroll snapping
+  * Use vertical scroll snapping to snap scroll onto each section
+* Audio interactions
+  * Play subtle audio cues when customers click and interact with your website.
+* Page transitions
+  * Ability to customize page transitions
+* Header transitions
+  * Set header transitions
+* Rich animations
+* Cart minium order amount
+* Custom device specific cart behavor
+  * Control if you want to display a small cart, full cart page or cart drawer on desktop or mobile indenently&#x20;
+* Full block control for quick buy and quick edit popups
+  * Use blocks to build and edit your quick buy popups. You can even swap this to use a drawer.&#x20;
+* Form response overlay
+  * Show an overlay with form success or error messages making form submission much more seamless ux wise.&#x20;
+
+
+
+* Build your own cart
+  * Use blocks to build your own cart. Set your cart to open in a popup, drawer, alert or sidebar then build the contents with each piece.&#x20;
+* Build your own menu
+  * Use blocks to build the menu of your dreams. Use popups, drawers or other overlays then nest addtional blocks to create anything you can think of.&#x20;
+* Full overlay control
+  * Create popups, overlays, alerts and drawers with nested blocks then trigger them with buttons anywhere. Perfect for newsletters and more.&#x20;
+* Automatically highlight discounts
+  * When users land on a website they can be shown an overlay telling them a discount code is being applied.&#x20;
+
 ## Theme basics
 
-| Feature                    | Description                                                                               |
-| -------------------------- | ----------------------------------------------------------------------------------------- |
-| Lightning fast pages       | Built with performance best practices and page pre-loading when hovering over any link.   |
-| Search engine optimized    | All pages and content are built with SEO-optimized best practices.                        |
-| Keyboard accessibile       | All features and functionality can be used with keyboard navigation.                      |
-| Screen reader support      | All content is accessible to screen readers for an inclusive browsing experience.         |
-| Dynamic content            | Use metafields and dynamic content inside sections and blocks.                            |
-| Global shopping            | Supports Shopify Markets so customers can browse in their local language and currency.    |
-| Flexible price settings    | Remove trailing zeros and currency symbols for a simplified look.                         |
-| Device specific visibility | Customize visibility on almost every block and section for mobile and desktop separately. |
-| Drag and drop blocks       | A completely modular block architecture allowing you to build any layout.                 |
+| Feature                    | Description                                                                                                                        |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Lightning fast pages       | Built with performance best practices and page pre-loading when hovering over any link.                                            |
+| Search engine optimized    | All pages and content are built with SEO-optimized best practices.                                                                 |
+| Keyboard accessibile       | All features and functionality can be used with keyboard navigation.                                                               |
+| Screen reader support      | All content is accessible to screen readers for an inclusive browsing experience.                                                  |
+| Dynamic content            | Use metafields and dynamic content inside sections and blocks.                                                                     |
+| Global shopping            | Supports Shopify Markets so customers can browse in their local language and currency. and easily swap between different markets.  |
+| Flexible price settings    | Remove trailing zeros and currency symbols for a simplified look.                                                                  |
+| Device specific visibility | Customize visibility on almost every block and section for mobile and desktop separately.                                          |
+| Drag and drop blocks       | A completely modular block architecture allowing you to build any layout.                                                          |
 
 
 
@@ -38,6 +80,14 @@ This page is a capability index for Slab. It includes every documented block and
 
 
 ## Collection features
+
+Build your own filters
+
+* Use blocks to drag and drop your filters wherever you need
+
+Show selected collection card
+
+* Automatically highlight collection cards that are active for the current page letting users easily navigate between different collections.&#x20;
 
 | Feature                       | Description                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------- |
@@ -68,26 +118,41 @@ This page is a capability index for Slab. It includes every documented block and
 
 ## Product features
 
-| Feature                      | Description                                                                                             |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Sibling products             | Display sibling products linked as swatches.                                                            |
-| Product upsells              | Display automatic or manually selected product upsells.                                                 |
-| Product bundles              | Sell multiple items together on one product page.                                                       |
-| Image zooming                | Get a closer look at product images with a zoomable gallery.                                            |
-| Multimedia gallery           | Display images, videos and 3d files in a single media gallery.                                          |
-| Supports app blocks          | Easily add third-party apps to your product template using app blocks.                                  |
-| Rich block support           | Build your own product template using any of our existing blocks like tabs, accordions and drawers.     |
-| Store pickup                 | Show inventory availability and different locations.                                                    |
-| Inventory warning            | Show a warning message when there's a limited supply of inventory left.                                 |
-| Product customizations       | Collect product customization details like an engraving for a ring.                                     |
-| Related products             | Show automatic product recommendations.                                                                 |
-| Quick order table            | Show each variant in a seperate table row giving customers a quick option to add many variants at once. |
-| Combined listing (Shopify +) | Create and display combined listing products.                                                           |
-| Quantity pricing (Shopify +) | Display custom quantity pricing and volumn rules.                                                       |
+Shop pay installaments
+
+* Display pricing in shop pay installments
+
+Build your own template
+
+* Use blocks to build product template
+
+Rich options styles
+
+* Display options in a grid, stacked or in a dropdown. Then set colors and radius for swatches and other labels.
+
+| Feature                      | Description                                                                                         |
+| ---------------------------- | --------------------------------------------------------------------------------------------------- |
+| Sibling products             | Display sibling products linked as swatches.                                                        |
+| Product upsells              | Display automatic or manually selected product upsells.                                             |
+| Product bundles              | Sell multiple items together on one product page.                                                   |
+| Image zooming                | Get a closer look at product images with a zoomable gallery.                                        |
+| Multimedia gallery           | Display images, videos and 3d files in a single media gallery.                                      |
+| Supports app blocks          | Easily add third-party apps to your product template using app blocks.                              |
+| Rich block support           | Build your own product template using any of our existing blocks like tabs, accordions and drawers. |
+| Store pickup                 | Show inventory availability and different locations.                                                |
+| Inventory warning            | Show a warning message when there's a limited supply of inventory left.                             |
+| Related products             | Show automatic product recommendations.                                                             |
+| Combined listing (Shopify +) | Create and display combined listing products.                                                       |
 
 
 
 ## Cart and checkout features
+
+Build your own cart
+
+* use blocks to build your cart in drawer, popups overlays or on a full page
+
+Multi tier progress bar
 
 | Feature                 | Description                                                                                                    |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -118,20 +183,18 @@ This page is a capability index for Slab. It includes every documented block and
 | Tag filtering     | Additonally filtering to easily show blog posts with a specific tag.   |
 | Table of contents | Let customers easily jump to different headings in a blog post.        |
 
+
+
 ## Account features
 
-| Feature                                | Description                                                                                                   |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Sign in with Shop                      | Let customers sign in with their Shop account.                                                                |
-| Force sign up                          | When enabled the site won't be accessible unless logged into an approved account.                             |
-| Approve customers with tags            | Control which customer accounts have access to view restricted content using tags.                            |
-| Approve customers with B2B (Shopify +) | Control which customer accounts have access to view restricted content by approved B2B accounts.              |
-| Placeholder settings                   | Restricted content can be displayed with placeholders or be hidden.                                           |
-| Hide products with tags                | Products with matching tags will be hidden from customers who are not logged into approved accounts.          |
-| Hide prices with tags                  | Products with matching tags will have hidden prices from customers who are not logged into approved accounts. |
-| Hide blog posts                        | Blog posts with matching tags will be hidden from custoemrs who are not logged into approved accounts.        |
-| Advanced account drawer                | Quick access to all account details in a slideout drawer. Easily re-order and view order history.             |
-| B2B account switcher                   | Let customers easily switch between different B2B locations so they can easily place orders.                  |
+| Feature                 | Description                                                                                                   |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Sign in with Shop       | Let customers sign in with their Shop account.                                                                |
+|                         | Products with matching tags will be hidden from customers who are not logged into approved accounts.          |
+|                         | Products with matching tags will have hidden prices from customers who are not logged into approved accounts. |
+|                         |                                                                                                               |
+| Advanced account drawer | Quick access to all account details in a slideout drawer. Easily re-order and view order history.             |
+|                         |                                                                                                               |
 
 
 
