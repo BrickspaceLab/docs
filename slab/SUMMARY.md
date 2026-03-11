@@ -21,7 +21,7 @@
   * [SEO for Shopify](guides/basics/seo-for-shopify.md)
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
 
-## CONTENT
+## Content
 
 * [Blocks](content/blocks/README.md)
   * [Basics](content/blocks/basics/README.md)
