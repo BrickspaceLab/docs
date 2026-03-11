@@ -96,8 +96,25 @@
   * [Custom liquid](sections/forms/custom-liquid.md)
   * [Store locater](sections/forms/store-locater.md)
 
+## Advanced customizations
+
+* [Add custom Liquid](advanced-customizations/adding-custom-liquid/README.md)
+  * [Popular custom liquid](advanced-customizations/adding-custom-liquid/popular-custom-liquid/README.md)
+    * [Show variant metafield content](advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md)
+* [Add custom CSS](advanced-customizations/using-custom-css.md)
+  * [Popular custom CSS](advanced-customizations/popular-css-customizations/README.md)
+    * [Change background color](advanced-customizations/popular-css-customizations/change-background-color.md)
+    * [Change button color](advanced-customizations/popular-css-customizations/change-button-color.md)
+    * [Change heading color](advanced-customizations/popular-css-customizations/change-heading-color.md)
+    * [Change button size](advanced-customizations/popular-css-customizations/adjust-button-size.md)
+* [Add custom JavaScript](advanced-customizations/adding-custom-javascript.md)
+* [Use custom fonts](advanced-customizations/using-custom-fonts.md)
+* [Install a review app](advanced-customizations/installing-a-review-app.md)
+
 ## General
 
+* [Support policy](general/support-policy.md)
+* [Theme license](general/theme-license.md)
 * [Changelog](general/changelog/README.md)
   * [v2.2.2](general/changelog/v2.2.2.md)
   * [v2.2.1](general/changelog/v2.2.1.md)
