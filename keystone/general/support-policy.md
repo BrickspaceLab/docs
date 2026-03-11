@@ -1,27 +1,23 @@
 # Support policy
 
+Email support is available Monday to Friday with a typical 3-day response time. Shopify support is often the best option for platform issues or third party integrations.
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Contact theme support</td><td><a href="https://brickspacelab.com/pages/contact">https://brickspacelab.com/pages/contact</a></td></tr><tr><td>Contact Shopify support</td><td><a href="http://help.shopify.com/">http://help.shopify.com/</a></td></tr></tbody></table>
+
+
+
+## Our support policy <a href="#our-support-policy" id="our-support-policy"></a>
+
 Our support includes bug fixes and questions about built-in features and functionality. Our support does not include third party app integrations or code customizations.
 
-
-
-## What we cover
-
-* ✅ Questions about our themes features and functionality.&#x20;
-* ✅ Help setting up a theme's built-in features.
-* ✅ Fixing bugs or issues in unmodified themes.
-* ✅ Call support via scheduled meetings.&#x20;
-* ✅ 1-on-1 onboarding via scheduled meetings.&#x20;
-
-
-
-## What we don't cover
-
-* ❌ Support for integrations or third party apps (Contact the app developer for help as it is their responsibility to handle app installation.)
-* ❌ Fixing and troubleshooting issues related to custom theme code or generative blocks.
-* ❌ Transferring customizations to an updated theme.
-* ❌ Issues with the Shopify admin.
-* ❌ Design or code customizations.
-* ❌ Installing theme updates.
+| What we cover                                            | What we don't cover                                               |
+| -------------------------------------------------------- | ----------------------------------------------------------------- |
+| ✅ Questions about our themes features and functionality. | ❌ Design or code customizations.                                  |
+| ✅ Help setting up a theme's built-in features.           | ❌ Installing theme updates.                                       |
+| ✅ Fixing bugs or issues in unmodified themes.            | ❌ Issues with the Shopify admin .                                 |
+| ✅ Call support via scheduled meetings.                   | ❌ Transferring customizations to an updated theme.                |
+| ✅ 1-on-1 onboarding via scheduled meetings.              | ❌ Fixing and troubleshooting issues related to custom theme code. |
+| ​                                                        | ❌ Support for integrations or third party apps.                   |
 
 
 
