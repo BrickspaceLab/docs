@@ -204,3 +204,9 @@
   * [Create custom blocks](advanced-customizations/making-changes/creating-custom-blocks.md)
   * [Create custom sections](advanced-customizations/making-changes/creating-custom-sections.md)
 * [Work with coding agents](advanced-customizations/working-with-coding-agents.md)
+
+## General
+
+***
+
+* [Support policy](support-policy.md)
