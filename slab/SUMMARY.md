@@ -2,6 +2,7 @@
 
 * [Slab documentation](README.md)
 * [Changelog](changelog.md)
+* [Feature list](feature-list.md)
 
 ## Getting started
 
