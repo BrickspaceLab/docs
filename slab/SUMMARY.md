@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Slab documentation](README.md)
+* [Slab](README.md)
 * [Changelog](changelog.md)
 * [Feature list](feature-list.md)
 
