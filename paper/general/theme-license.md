@@ -1,16 +1,10 @@
----
-hidden: true
----
-
 # Theme license
 
-You can get a theme license by buying a theme through the Shopify theme store. Each theme license is valid only for the store it was purchased. If you've downloaded a theme from outside the Shopify theme store or imported one into a different store, it's unlicensed.&#x20;
+You can get a theme license by buying a theme through the Shopify theme store. Each theme license is valid only for the store it was purchased. If you've downloaded a theme from outside the Shopify theme store or imported one into a different store, it's unlicensed.
 
 {% hint style="danger" %}
-Using an unlicensed theme may lead to a DMCA takedown from Shopify resulting in your store being taken offline without notice.&#x20;
+Using an unlicensed theme may lead to a DMCA takedown from Shopify resulting in your store being taken offline without notice.
 {% endhint %}
-
-
 
 <details>
 
@@ -24,7 +18,7 @@ Purchase the theme through the official Shopify theme store.
 
 <summary>How do I transfer a theme to a different store</summary>
 
-Contact Shopify support.&#x20;
+Contact Shopify support.
 
 </details>
 
