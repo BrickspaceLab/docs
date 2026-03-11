@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Paper documentation](README.md)
+* [Paper](README.md)
 
 ## Getting started
 
@@ -85,8 +85,18 @@
   * [Contact form](sections/forms/contact-form.md)
   * [Store locator](sections/forms/store-locator.md)
 
+## Advanced customizations
+
+* [Adding custom liquid](advanced-customizations/adding-custom-liquid/README.md)
+  * [Show variant metafield content](advanced-customizations/adding-custom-liquid/show-variant-metafield-content.md)
+* [Adding custom JavaScript](advanced-customizations/adding-custom-javascript.md)
+* [Using custom fonts](advanced-customizations/using-custom-fonts.md)
+* [Installing a review app](advanced-customizations/installing-a-review-app.md)
+
 ## General
 
+* [Support policy](general/support-policy.md)
+* [Theme license](general/theme-license.md)
 * [Changelog](general/changelog/README.md)
   * [v.8.1.2](general/changelog/v.8.1.2.md)
   * [v8.1.1](general/changelog/v8.1.1.md)
@@ -137,7 +147,3 @@
   * [v1.0.0](general/changelog/v1.0.0.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
   * [v8.0.1](general/known-issues-and-troubleshooting/v8.0.1.md)
-* [Cloning a demo theme](general/cloning-a-demo-theme/README.md)
-  * [Poster](general/cloning-a-demo-theme/poster.md)
-  * [Parts](general/cloning-a-demo-theme/parts.md)
-  * [Pastel](general/cloning-a-demo-theme/pastel.md)
