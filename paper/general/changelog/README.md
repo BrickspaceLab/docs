@@ -2,7 +2,7 @@
 
 {% updates format="full" %}
 {% update date="2026-02-27" tags="8.1.2" %}
-## Cart note handling fixes
+## 8.1.2 Cart note handling fixes
 
 **Fixes**
 
@@ -10,7 +10,7 @@
 {% endupdate %}
 
 {% update date="2025-12-12" tags="8.1.1" %}
-## Product template, currency, and footer fixes
+## 8.1.1 Product template, currency, and footer fixes
 
 **Fixes**
 
@@ -20,7 +20,7 @@
 {% endupdate %}
 
 {% update date="2025-09-29" tags="8.1.0" %}
-## High-variant product support and bug fixes
+## 8.1.0 High-variant product support and bug fixes
 
 **Improvements**
 
@@ -39,7 +39,7 @@
 {% endupdate %}
 
 {% update date="2025-09-05" tags="8.0.5" %}
-## Template installation fixes
+## 8.0.5 Template installation fixes
 
 **Fixes**
 
@@ -47,7 +47,7 @@
 {% endupdate %}
 
 {% update date="2025-08-05" tags="8.0.4" %}
-## Listing preset defaults fix
+## 8.0.4 Listing preset defaults fix
 
 **Fixes**
 
@@ -55,7 +55,7 @@
 {% endupdate %}
 
 {% update date="2025-06-23" tags="8.0.3" %}
-## Install experience and header bar fixes
+## 8.0.3 Install experience and header bar fixes
 
 **Fixes**
 
@@ -66,7 +66,7 @@
 {% endupdate %}
 
 {% update date="2025-06-09" tags="8.0.2" %}
-## Theme file restructure for theme store redesign
+## 8.0.2 Theme file restructure for theme store redesign
 
 **Improvements**
 
@@ -76,7 +76,7 @@
 {% endupdate %}
 
 {% update date="2025-04-14" tags="8.0.1" %}
-## Mobile option selector fix
+## 8.0.1 Mobile option selector fix
 
 **Fixes**
 
@@ -84,7 +84,7 @@
 {% endupdate %}
 
 {% update date="2025-04-09" tags="8.0.0" %}
-## Revamped product options, high-variant support, and major bug fixes
+## 8.0.0 Revamped product options, high-variant support, and major bug fixes
 
 **Added**
 
@@ -139,7 +139,7 @@
 {% endupdate %}
 
 {% update date="2025-01-29" tags="7.6.2" %}
-## Deprecated font replacements
+## 7.6.2 Deprecated font replacements
 
 **Improvements**
 
@@ -147,7 +147,7 @@
 {% endupdate %}
 
 {% update date="2024-10-16" tags="7.6.1" %}
-## Linked products block fix
+## 7.6.1 Linked products block fix
 
 **Fixes**
 
@@ -155,7 +155,7 @@
 {% endupdate %}
 
 {% update date="2024-10-11" tags="7.6.0" %}
-## Safari fixes, metaobject swatch support, and new sections
+## 7.6.0 Safari fixes, metaobject swatch support, and new sections
 
 **Added**
 
@@ -195,7 +195,7 @@
 {% endupdate %}
 
 {% update date="2024-08-29" tags="7.5.0" %}
-## Translation fixes, variant strikethrough rework, and "Sign in with Shop"
+## 7.5.0 Translation fixes, variant strikethrough rework, and "Sign in with Shop"
 
 **Added**
 
@@ -220,7 +220,7 @@
 {% endupdate %}
 
 {% update date="2024-07-09" tags="7.4.0" %}
-## Image hotspot section and reworked locale files
+## 7.4.0 Image hotspot section and reworked locale files
 
 **Added**
 
@@ -239,7 +239,7 @@
 {% endupdate %}
 
 {% update date="2024-06-06" tags="7.3.0" %}
-## Combined listing support, discount popup, and swatch improvements
+## 7.3.0 Combined listing support, discount popup, and swatch improvements
 
 **Added**
 
@@ -266,7 +266,7 @@
 {% endupdate %}
 
 {% update date="2024-04-30" tags="7.2.1" %}
-## Tertiary button color, zoom level settings, and fixes
+## 7.2.1 Tertiary button color, zoom level settings, and fixes
 
 **Added**
 
@@ -287,7 +287,7 @@
 {% endupdate %}
 
 {% update date="2024-04-01" tags="7.2.0" %}
-## App block support for banners and mobile menu content blocks
+## 7.2.0 App block support for banners and mobile menu content blocks
 
 **Added**
 
@@ -317,7 +317,7 @@
 {% endupdate %}
 
 {% update date="2024-02-28" tags="7.1.2" %}
-## Quick bug fixes
+## 7.1.2 Quick bug fixes
 
 **Fixes**
 
@@ -328,7 +328,7 @@
 {% endupdate %}
 
 {% update date="2024-02-28" tags="7.1.1" %}
-## Mobile banner image fix
+## 7.1.1 Mobile banner image fix
 
 **Fixes**
 
@@ -336,7 +336,7 @@
 {% endupdate %}
 
 {% update date="2024-02-27" tags="7.1.0" %}
-## Gift card scheduling, new settings, and bug fixes
+## 7.1.0 Gift card scheduling, new settings, and bug fixes
 
 **Added**
 
@@ -365,7 +365,7 @@
 {% endupdate %}
 
 {% update date="2024-02-14" tags="7.0.0" %}
-## Rebuilt product page, new card and price settings, and improved border controls
+## 7.0.0 Rebuilt product page, new card and price settings, and improved border controls
 
 **Added**
 
@@ -392,7 +392,7 @@
 {% endupdate %}
 
 {% update date="2023-12-05" tags="6.2.0" %}
-## Cart settings, shipping bar improvements, and bug fixes
+## 6.2.0 Cart settings, shipping bar improvements, and bug fixes
 
 **Added**
 
@@ -419,7 +419,7 @@
 {% endupdate %}
 
 {% update date="2023-11-07" tags="6.1.7" %}
-## Variant strikethrough and hidden option bug fixes
+## 6.1.7 Variant strikethrough and hidden option bug fixes
 
 **Fixes**
 
@@ -429,7 +429,7 @@
 {% endupdate %}
 
 {% update date="2023-11-01" tags="6.1.6" %}
-## Swatch images and sold out display fixes
+## 6.1.6 Swatch images and sold out display fixes
 
 **Fixes**
 
@@ -439,7 +439,7 @@
 {% endupdate %}
 
 {% update date="2023-10-25" tags="6.1.5" %}
-## Variant indicator and subscription widget fixes
+## 6.1.5 Variant indicator and subscription widget fixes
 
 **Fixes**
 
@@ -451,7 +451,7 @@
 {% endupdate %}
 
 {% update date="2023-10-11" tags="6.1.4" %}
-## Store locator, currency, and subscription widget fixes
+## 6.1.4 Store locator, currency, and subscription widget fixes
 
 **Fixes**
 
@@ -463,7 +463,7 @@
 {% endupdate %}
 
 {% update date="2023-09-27" tags="6.1.3" %}
-## Clickable banner setting and section updates
+## 6.1.3 Clickable banner setting and section updates
 
 **Added**
 
@@ -479,7 +479,7 @@
 {% endupdate %}
 
 {% update date="2023-09-21" tags="6.1.2" %}
-## Currency filter, dropdown overlap, and subscription fixes
+## 6.1.2 Currency filter, dropdown overlap, and subscription fixes
 
 **Fixes**
 
@@ -492,7 +492,7 @@
 {% endupdate %}
 
 {% update date="2023-09-14" tags="6.1.1" %}
-## Logo settings, subscription widget, and quantity button fixes
+## 6.1.1 Logo settings, subscription widget, and quantity button fixes
 
 **Added**
 
@@ -512,7 +512,7 @@
 {% endupdate %}
 
 {% update date="2023-09-05" tags="6.1.0" %}
-## Improved image performance, reworked variant image setting, and new footer controls
+## 6.1.0 Improved image performance, reworked variant image setting, and new footer controls
 
 We've done a lot of work optimizing how images are rendered in the theme and were able to see real performance gains. We also reworked how the variant-specific image setting works — no more editing alt tags on each image; just order the images and the theme figures out which to show.
 
@@ -550,7 +550,7 @@ We've done a lot of work optimizing how images are rendered in the theme and wer
 {% endupdate %}
 
 {% update date="2023-08-10" tags="6.0.1" %}
-## Post-launch fixes for 6.0.0
+## 6.0.1 Post-launch fixes for 6.0.0
 
 **Changed**
 
@@ -564,7 +564,7 @@ We've done a lot of work optimizing how images are rendered in the theme and wer
 {% endupdate %}
 
 {% update date="2023-08-04" tags="6.0.0" %}
-## Product bundling, edit cart, and major new features
+## 6.0.0 Product bundling, edit cart, and major new features
 
 Our new update provides several significant enhancements, including the ability to bundle multiple single-variant products for sale on a single page. The new "Edit Cart" feature lets customers adjust product options without deleting and re-adding items.
 
@@ -605,7 +605,7 @@ Our new update provides several significant enhancements, including the ability 
 {% endupdate %}
 
 {% update date="2023-05-03" tags="5.2.0" %}
-## Announcement bar delay, typography fixes, and bug fixes
+## 5.2.0 Announcement bar delay, typography fixes, and bug fixes
 
 **Added**
 
@@ -627,7 +627,7 @@ Our new update provides several significant enhancements, including the ability 
 {% endupdate %}
 
 {% update date="2023-05-03" tags="5.1.0" %}
-## Gift card recipient support, price visibility controls, and padding settings
+## 5.1.0 Gift card recipient support, price visibility controls, and padding settings
 
 This patch introduces the newly supported Shopify gift card recipient feature, letting customers send gift cards to their friends directly. Also added more settings for granular control over when and how prices are shown.
 
@@ -654,7 +654,7 @@ This patch introduces the newly supported Shopify gift card recipient feature, l
 {% endupdate %}
 
 {% update date="2023-04-20" tags="5.0.1" %}
-## Bug fixes and default font revisions
+## 5.0.1 Bug fixes and default font revisions
 
 **Fixes**
 
@@ -676,7 +676,7 @@ This patch introduces the newly supported Shopify gift card recipient feature, l
 {% endupdate %}
 
 {% update date="2023-04-03" tags="5.0.0" %}
-## Cart behavior controls, audio feedback, and device visibility settings
+## 5.0.0 Cart behavior controls, audio feedback, and device visibility settings
 
 We're happy to present another major update to the Paper theme — lots of new functionality including audio feedback for key interactions and more options to customize your customer's shopping experience.
 
@@ -721,7 +721,7 @@ We're happy to present another major update to the Paper theme — lots of new f
 {% endupdate %}
 
 {% update date="2023-02-16" tags="4.1.1" %}
-## Performance improvements and bug fixes
+## 4.1.1 Performance improvements and bug fixes
 
 **Improvements**
 
@@ -737,7 +737,7 @@ We're happy to present another major update to the Paper theme — lots of new f
 {% endupdate %}
 
 {% update date="2023-02-16" tags="4.1.0" %}
-## Search suggestions and predictive search support
+## 4.1.0 Search suggestions and predictive search support
 
 **Added**
 
@@ -762,7 +762,7 @@ We're happy to present another major update to the Paper theme — lots of new f
 {% endupdate %}
 
 {% update date="2023-02-02" tags="4.0.0" %}
-## Store locator section, global alignment settings, and new product blocks
+## 4.0.0 Store locator section, global alignment settings, and new product blocks
 
 Lots of new updates and features — new store locator section, and improved alignment so almost everything can be set to left, center, or right.
 
@@ -806,7 +806,7 @@ Lots of new updates and features — new store locator section, and improved ali
 {% endupdate %}
 
 {% update date="2023-01-10" tags="3.0.2" %}
-## Countdown timer section and color switcher fix
+## 3.0.2 Countdown timer section and color switcher fix
 
 **Added**
 
@@ -818,7 +818,7 @@ Lots of new updates and features — new store locator section, and improved ali
 {% endupdate %}
 
 {% update date="2023-01-05" tags="3.0.1" %}
-## Post-launch fixes for 3.0.0
+## 3.0.1 Post-launch fixes for 3.0.0
 
 **Fixes**
 
@@ -827,7 +827,7 @@ Lots of new updates and features — new store locator section, and improved ali
 {% endupdate %}
 
 {% update date="2023-01-04" tags="3.0.0" %}
-## Icon grid section, color variant swatches, age verification, and new banner options
+## 3.0.0 Icon grid section, color variant swatches, age verification, and new banner options
 
 New sections, new features, better design, and bug fixes to start the year.
 
@@ -862,7 +862,7 @@ New sections, new features, better design, and bug fixes to start the year.
 {% endupdate %}
 
 {% update date="2022-12-05" tags="2.0.0" %}
-## Savings badge, sticky header, thumbnail gallery, and design improvements
+## 2.0.0 Savings badge, sticky header, thumbnail gallery, and design improvements
 
 **Added**
 
@@ -898,7 +898,7 @@ New sections, new features, better design, and bug fixes to start the year.
 {% endupdate %}
 
 {% update date="2022-11-14" tags="1.2.2" %}
-## Product title special character fix
+## 1.2.2 Product title special character fix
 
 **Fixes**
 
@@ -906,7 +906,7 @@ New sections, new features, better design, and bug fixes to start the year.
 {% endupdate %}
 
 {% update date="2022-11-09" tags="1.2.1" %}
-## Contact form 404 fix
+## 1.2.1 Contact form 404 fix
 
 **Fixes**
 
@@ -914,7 +914,7 @@ New sections, new features, better design, and bug fixes to start the year.
 {% endupdate %}
 
 {% update date="2022-10-27" tags="1.2.0" %}
-## Vertical spacing controls, product recommendations intent setting, and new upsell block
+## 1.2.0 Vertical spacing controls, product recommendations intent setting, and new upsell block
 
 This update introduces more vertical spacing controls so merchants can fine-tune spacing as needed, and new settings to support the intent property for the Product Recommendations API.
 
@@ -954,7 +954,7 @@ This update introduces more vertical spacing controls so merchants can fine-tune
 {% endupdate %}
 
 {% update date="2022-10-11" tags="1.0.0" %}
-## Paper goes live
+## 1.0.0 Paper goes live
 
 Paper's first release on the Shopify Theme Store.
 {% endupdate %}
