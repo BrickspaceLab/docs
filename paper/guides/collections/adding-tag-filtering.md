@@ -8,7 +8,7 @@ In this example clicking "Wallets" would filter the current collection to only s
 
 {% stepper %}
 {% step %}
-### Create metafield definitions
+#### Create metafield definitions
 
 1. Click **Collections** then click **Add** **definition**
 2. Set **Name** to **Subtags**
@@ -19,7 +19,7 @@ In this example clicking "Wallets" would filter the current collection to only s
 {% endstep %}
 
 {% step %}
-### Add data to collection metafield
+#### Add data to collection metafield
 
 1. Open the collection you’d like to add a tag filtering too
 2. Scroll to the bottom **Metafields** area.

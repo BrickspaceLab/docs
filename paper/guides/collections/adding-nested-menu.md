@@ -8,7 +8,7 @@ In this example clicking "Elastic" would navigate to a new page loading the "Ela
 
 {% stepper %}
 {% step %}
-### Create metafields definitions
+#### Create metafields definitions
 
 1. Go to **Settings** > **Metafields**
 2. Click **Collections** then click **Add definition**
@@ -19,7 +19,7 @@ In this example clicking "Elastic" would navigate to a new page loading the "Ela
 {% endstep %}
 
 {% step %}
-### Add data to Collection metafield
+#### Add data to Collection metafield
 
 1. Open the collection you’d like to add a tag filtering too
 2. Scroll to the bottom **Metafields** area

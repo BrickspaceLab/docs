@@ -4,7 +4,7 @@ Collection templates in Paper are compatible with Shopify's official [Search & D
 
 {% stepper %}
 {% step %}
-### Enable collection filters
+#### Enable collection filters
 
 1. Go to **Online Store** > **Themes** > **Customize**
 2. From the dropdown in the center of the top bar select **Collections** > **Default** **collection**
@@ -13,7 +13,7 @@ Collection templates in Paper are compatible with Shopify's official [Search & D
 {% endstep %}
 
 {% step %}
-### Enable collection sorting
+#### Enable collection sorting
 
 1. Go to **Online Store** > **Themes** > **Customize**
 2. From the dropdown in the center of the top bar select **Collections** > **Default** **collection**
@@ -22,7 +22,7 @@ Collection templates in Paper are compatible with Shopify's official [Search & D
 {% endstep %}
 
 {% step %}
-### Customizing filtering options
+#### Customizing filtering options
 
 1. Go to the [Search & Discovery](https://apps.shopify.com/search-and-discovery) app to adjust filters
 2. Hit **Save**

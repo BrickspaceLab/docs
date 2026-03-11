@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Paper](README.md)
+* [Changelog](changelog.md)
 
 ## Getting started
 
@@ -112,6 +113,5 @@
 
 * [Support policy](general/support-policy.md)
 * [Theme license](general/theme-license.md)
-* [Changelog](general/changelog/README.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
   * [v8.0.1](general/known-issues-and-troubleshooting/v8.0.1.md)
