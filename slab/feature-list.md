@@ -8,114 +8,114 @@ This page is a capability index for Slab. It includes every documented block and
 
 | Block                   | What it does                                                                                |
 | ----------------------- | ------------------------------------------------------------------------------------------- |
-| Accordion               | Display content in an expandable dropdown.                                                  |
-| Avatar image            | Display a user profile image or customer profile for reviews.                               |
-| Button                  | Trigger custom actions or link to any page.                                                 |
-| Countdown               | Display a real-time updating countdown.                                                     |
-| Discount                | Display a discount code customers can copy to their clipboard.                              |
-| Dropdown                | Display any block content in a dropdown after clicking a button.                            |
-| Hotspot spot            | Show any block content while hovering or clicking a specific location on an image or video. |
-| Icon                    |                                                                                             |
-| Image                   | Reusable image block for basics workflows.                                                  |
-| Image comparison        | Reusable image comparison block for basics workflows.                                       |
-| Logo                    | Reusable logo block for basics workflows.                                                   |
-| Map item                | Reusable map item block for basics workflows.                                               |
-| Payment icons           | Reusable payment icons block for basics workflows.                                          |
-| Rich text               | Reusable rich text block for basics workflows.                                              |
-| Share                   | Reusable share block for basics workflows.                                                  |
-| Shop login              | Reusable shop login block for basics workflows.                                             |
-| Social icons            | Reusable social icons block for basics workflows.                                           |
-| Video                   | Reusable video block for basics workflows.                                                  |
-| Article comments        | Reusable article comments block for blog workflows.                                         |
-| Article date            | Reusable article date block for blog workflows.                                             |
-| Article card            | Reusable article card block for cards workflows.                                            |
-| Collection card         | Reusable collection card block for cards workflows.                                         |
-| Product card            | Reusable product card block for cards workflows.                                            |
-| Cart count              | Reusable cart count block for cart workflows.                                               |
-| Cart results            | Reusable cart results block for cart workflows.                                             |
-| Checkout                | Reusable checkout block for cart workflows.                                                 |
-| Checkout agreement      | Reusable checkout agreement block for cart workflows.                                       |
-| Discount input          | Reusable discount input block for cart workflows.                                           |
-| Full subtotal           | Reusable full subtotal block for cart workflows.                                            |
-| Order notes             | Reusable order notes block for cart workflows.                                              |
-| Order summary           | Reusable order summary block for cart workflows.                                            |
-| Progress tier           | Reusable progress tier block for cart workflows.                                            |
-| Share cart              | Reusable share cart block for cart workflows.                                               |
-| Simple subtotal         | Reusable simple subtotal block for cart workflows.                                          |
-| Upsell checkbox         | Reusable upsell checkbox block for cart workflows.                                          |
-| Age verification        | Reusable age verification block for forms workflows.                                        |
-| Contact form            | Reusable contact form block for forms workflows.                                            |
-| Input field             | Reusable input field block for forms workflows.                                             |
-| Newsletter form         | Reusable newsletter form block for forms workflows.                                         |
-| Password form           | Reusable password form block for forms workflows.                                           |
-| Container               | Reusable container block for layout workflows.                                              |
-| Divider                 | Reusable divider block for layout workflows.                                                |
-| Flex item               | Reusable flex item block for layout workflows.                                              |
-| Float                   | Reusable float block for layout workflows.                                                  |
-| Grid item               | Reusable grid item block for layout workflows.                                              |
-| Inline                  | Reusable inline block for layout workflows.                                                 |
-| Marquee                 | Reusable marquee block for layout workflows.                                                |
-| Overlay                 | Reusable overlay block for layout workflows.                                                |
-| Slider item             | Reusable slider item block for layout workflows.                                            |
-| Tab item                | Reusable tab item block for layout workflows.                                               |
-| Table                   | Reusable table block for layout workflows.                                                  |
-| Table cell              | Reusable table cell block for layout workflows.                                             |
-| Alert                   | Reusable alert block for overlays workflows.                                                |
-| Drawer                  | Reusable drawer block for overlays workflows.                                               |
-| Popup                   | Reusable popup block for overlays workflows.                                                |
-| Sidebar                 | Reusable sidebar block for overlays workflows.                                              |
-| Blog                    | Reusable blog block for pagination workflows.                                               |
-| Collection              | Reusable collection block for pagination workflows.                                         |
-| Grid articles           | Reusable grid articles block for pagination workflows.                                      |
-| Grid collections        | Reusable grid collections block for pagination workflows.                                   |
-| Grid gallery            | Reusable grid gallery block for pagination workflows.                                       |
-| Grid products           | Reusable grid products block for pagination workflows.                                      |
-| Grid recent             | Reusable grid recent block for pagination workflows.                                        |
-| Grid recommendations    | Reusable grid recommendations block for pagination workflows.                               |
-| List collections        | Reusable list collections block for pagination workflows.                                   |
-| Paginate item           | Reusable paginate item block for pagination workflows.                                      |
-| Search                  | Reusable search block for pagination workflows.                                             |
-| Slider articles         | Reusable slider articles block for pagination workflows.                                    |
-| Slider collections      | Reusable slider collections block for pagination workflows.                                 |
-| Slider gallery          | Reusable slider gallery block for pagination workflows.                                     |
-| Slider products         | Reusable slider products block for pagination workflows.                                    |
-| Slider recent           | Reusable slider recent block for pagination workflows.                                      |
-| Slider recommendations  | Reusable slider recommendations block for pagination workflows.                             |
-| Badges                  | Reusable badges block for products workflows.                                               |
-| Bundles                 | Reusable bundles block for products workflows.                                              |
-| Product buy             | Reusable product buy block for products workflows.                                          |
-| Product inventory       | Reusable product inventory block for products workflows.                                    |
-| Product media           | Reusable product media block for products workflows.                                        |
-| Product options         | Reusable product options block for products workflows.                                      |
-| Product pickup          | Reusable product pickup block for products workflows.                                       |
-| Product price           | Reusable product price block for products workflows.                                        |
-| Product quick buy       | Reusable product quick buy block for products workflows.                                    |
-| Product rating          | Reusable product rating block for products workflows.                                       |
-| Product sibling options | Reusable product sibling options block for products workflows.                              |
-| Product subscription    | Reusable product subscription block for products workflows.                                 |
-| Product swatches        | Reusable product swatches block for products workflows.                                     |
-| Breadcrumbs             | Reusable breadcrumbs block for search and navigation workflows.                             |
-| Filter                  | Reusable filter block for search and navigation workflows.                                  |
-| Menu                    | Reusable menu block for search and navigation workflows.                                    |
-| Menu item               | Reusable menu item block for search and navigation workflows.                               |
-| Menu page               | Reusable menu page block for search and navigation workflows.                               |
-| Pagination              | Reusable pagination block for search and navigation workflows.                              |
-| Search input            | Reusable search input block for search and navigation workflows.                            |
-| Search results          | Reusable search results block for search and navigation workflows.                          |
-| Search summary          | Reusable search summary block for search and navigation workflows.                          |
-| Tag filter              | Reusable tag filter block for search and navigation workflows.                              |
-| Tags                    | Reusable tags block for search and navigation workflows.                                    |
-| Account B2B             | Reusable account b2b block for utility workflows.                                           |
-| Account orders          | Reusable account orders block for utility workflows.                                        |
-| Account profile         | Reusable account profile block for utility workflows.                                       |
-| Error                   | Reusable error block for utility workflows.                                                 |
-| Form response           | Reusable form response block for utility workflows.                                         |
-| Liquid                  | Reusable liquid block for utility workflows.                                                |
-| Localization label      | Reusable localization label block for utility workflows.                                    |
-| Picker audio            | Reusable picker audio block for utility workflows.                                          |
-| Picker country          | Reusable picker country block for utility workflows.                                        |
-| Picker language         | Reusable picker language block for utility workflows.                                       |
-| Render quick buy        | Reusable render quick buy block for utility workflows.                                      |
-| Render quick edit       | Reusable render quick edit block for utility workflows.                                     |
-| Shared discount         | Reusable shared discount block for utility workflows.                                       |
-| Visibility              | Reusable visibility block for utility workflows.                                            |
+| Accordion               | Display content in expandable sections to keep pages easy to scan.                          |
+| Avatar image            | Display a profile image for a customer, author, or reviewer.                                |
+| Button                  | Add a clear call to action that links anywhere or triggers an action.                       |
+| Countdown               | Show a live countdown timer for launches, promotions, or events.                            |
+| Discount                | Display a discount code customers can copy in one click.                                    |
+| Dropdown                | Reveal extra content after a customer clicks a button.                                      |
+| Hotspot spot            | Show content when a customer hovers over or taps a specific point on an image or video.     |
+| Icon                    | Display a visual icon to support text or highlight a feature.                               |
+| Image                   | Display an image with flexible cropping and aspect ratio settings.                          |
+| Image comparison        | Let customers compare two images with an interactive before-and-after view.                 |
+| Logo                    | Display a brand, partner, or trust logo.                                                    |
+| Map item                | Highlight a location, store, or point of interest on a map.                                 |
+| Payment icons           | Show accepted payment methods to build checkout confidence.                                 |
+| Rich text               | Display formatted text such as headings, paragraphs, links, and lists.                      |
+| Share                   | Let customers share a page or product with quick social links.                              |
+| Shop login              | Let customers sign in to Shop from the storefront.                                          |
+| Social icons            | Link customers to your social profiles with recognizable icons.                             |
+| Video                   | Display a hosted or uploaded video in the page layout.                                      |
+| Article comments        | Show blog comments and let readers join the conversation.                                   |
+| Article date            | Display the published date for a blog article.                                              |
+| Article card            | Display a blog article preview with key details and a link to read more.                    |
+| Collection card         | Display a collection preview that links shoppers to a product group.                        |
+| Product card            | Display a product preview with key details and a link to buy.                               |
+| Cart count              | Show how many items are currently in the cart.                                              |
+| Cart results            | Display the current cart items and their totals.                                            |
+| Checkout                | Give customers a direct path from cart to checkout.                                         |
+| Checkout agreement      | Ask customers to accept terms before continuing to checkout.                                |
+| Discount input          | Let customers enter a discount code in the cart.                                            |
+| Full subtotal           | Show a detailed cart subtotal before checkout.                                              |
+| Order notes             | Let customers add notes or delivery instructions to their order.                            |
+| Order summary           | Display a clear summary of cart items, pricing, and totals.                                 |
+| Progress tier           | Show progress toward a reward, discount, or free shipping threshold.                        |
+| Share cart              | Let customers share their cart with a link.                                                 |
+| Simple subtotal         | Show a simplified cart subtotal before checkout.                                            |
+| Upsell checkbox         | Let customers add an extra item or service with one click.                                  |
+| Age verification        | Ask customers to confirm they meet an age requirement.                                      |
+| Contact form            | Let customers send a message through a built-in contact form.                               |
+| Input field             | Collect customer information with a customizable form field.                                |
+| Newsletter form         | Let customers subscribe to email updates and promotions.                                    |
+| Password form           | Let customers enter a password to access a protected page.                                  |
+| Container               | Group content together and control how it appears on the page.                              |
+| Divider                 | Separate sections of content with a visual divider.                                         |
+| Flex item               | Position content within a flexible row or column layout.                                    |
+| Float                   | Place content above or beside other content for layered layouts.                            |
+| Grid item               | Position content within a structured grid layout.                                           |
+| Inline                  | Display multiple pieces of content side by side on one line.                                |
+| Marquee                 | Create scrolling content that moves across the page.                                        |
+| Overlay                 | Layer content on top of other content, images, or video.                                    |
+| Slider item             | Add a slide inside a swipeable or scrollable slider.                                        |
+| Tab item                | Add content inside a tabbed interface.                                                      |
+| Table                   | Display information in rows and columns for easy comparison.                                |
+| Table cell              | Add content to an individual table cell.                                                    |
+| Alert                   | Display an attention-grabbing message or announcement.                                      |
+| Drawer                  | Reveal content in a slide-out panel from the edge of the screen.                            |
+| Popup                   | Show promotional, informational, or sign-up content in a popup window.                      |
+| Sidebar                 | Display supporting content in a side panel alongside the main content.                      |
+| Blog                    | Display a paginated list of blog articles.                                                  |
+| Collection              | Display a paginated list of products from a collection.                                     |
+| Grid articles           | Show blog articles in a grid layout.                                                        |
+| Grid collections        | Show collections in a grid layout.                                                          |
+| Grid gallery            | Display images or media in a gallery grid.                                                  |
+| Grid products           | Show products in a shoppable grid layout.                                                   |
+| Grid recent             | Show recently viewed or recently added items in a grid.                                     |
+| Grid recommendations    | Show recommended products in a grid layout.                                                 |
+| List collections        | Show collections in a vertical list layout.                                                 |
+| Paginate item           | Add custom content inside a paginated layout.                                               |
+| Search                  | Display paginated search results across the storefront.                                     |
+| Slider articles         | Show blog articles in a horizontal slider.                                                  |
+| Slider collections      | Show collections in a horizontal slider.                                                    |
+| Slider gallery          | Show images or media in a swipeable gallery slider.                                         |
+| Slider products         | Show products in a horizontal slider.                                                       |
+| Slider recent           | Show recently viewed or recently added items in a slider.                                   |
+| Slider recommendations  | Show recommended products in a horizontal slider.                                           |
+| Badges                  | Highlight product labels such as sale, new, or sold out.                                    |
+| Bundles                 | Let customers buy related products together as a bundle.                                    |
+| Product buy             | Display the main add-to-cart and purchase actions for a product.                            |
+| Product inventory       | Show stock availability and inventory status.                                               |
+| Product media           | Display product images, videos, and other media.                                            |
+| Product options         | Let customers choose variants such as size, color, or material.                             |
+| Product pickup          | Show local pickup availability for a product.                                               |
+| Product price           | Display pricing, compare-at pricing, and savings.                                           |
+| Product quick buy       | Let customers add a product to cart without leaving the current page.                       |
+| Product rating          | Show product review ratings for quick social proof.                                         |
+| Product sibling options | Let customers switch between closely related products, such as colors or styles.            |
+| Product subscription    | Let customers choose a recurring purchase option.                                           |
+| Product swatches        | Let customers select product options with color or image swatches.                          |
+| Breadcrumbs             | Show the path back through the site so customers can navigate easily.                       |
+| Filter                  | Let customers narrow results by attributes such as size, price, or availability.            |
+| Menu                    | Display a navigation menu with links to key pages.                                          |
+| Menu item               | Add an individual link or action inside a menu.                                             |
+| Menu page               | Display page content tied to a selected menu item.                                          |
+| Pagination              | Let customers move between pages of results.                                                |
+| Search input            | Let customers type a query to search the storefront.                                        |
+| Search results          | Display the products, pages, or articles matching a search.                                 |
+| Search summary          | Show the current search term and result count.                                              |
+| Tag filter              | Let customers filter content by tag.                                                        |
+| Tags                    | Display clickable tags for browsing related content.                                        |
+| Account B2B             | Show business account details and B2B-specific customer information.                        |
+| Account orders          | Display a customer's order history and order details.                                       |
+| Account profile         | Let customers view and update their account details.                                        |
+| Error                   | Display an error message when something cannot be completed.                                |
+| Form response           | Show a success or error response after a form submission.                                   |
+| Liquid                  | Display custom content powered by Liquid logic.                                             |
+| Localization label      | Display translated text that matches the customer's language or market.                     |
+| Picker audio            | Let customers play and choose audio options.                                                |
+| Picker country          | Let customers choose their country or region.                                               |
+| Picker language         | Let customers choose their preferred storefront language.                                   |
+| Render quick buy        | Render a quick buy experience from another part of the page.                                |
+| Render quick edit       | Render a quick edit experience for updating product choices.                                |
+| Shared discount         | Display a discount offer that can be reused across multiple blocks.                         |
+| Visibility              | Show or hide content based on rules such as device, customer state, or context.            |
