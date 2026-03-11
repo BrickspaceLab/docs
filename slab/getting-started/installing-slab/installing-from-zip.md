@@ -22,4 +22,10 @@ Click **Add theme → Upload zip file** and select the downloaded file.
 {% step %}
 Click **Publish** when ready to go live.
 {% endstep %}
+
+{% step %}
+**Activate your license**
+
+When the theme loads for the first time, it will prompt you to enter your license key. Enter the key from your order confirmation or customer portal. This activates and assigns the license to this store.
+{% endstep %}
 {% endstepper %}

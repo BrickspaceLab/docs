@@ -77,6 +77,12 @@ shopify auth login --store your-store.myshopify.com
 {% endstep %}
 
 {% step %}
+**Activate your license**
+
+When the theme loads in your store for the first time, it will prompt you to enter your license key. Enter the key from your order confirmation or customer portal. This activates and assigns the license to this store.
+{% endstep %}
+
+{% step %}
 **Start local development**
 
 ```sh

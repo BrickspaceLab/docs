@@ -208,3 +208,4 @@
 ## General
 
 * [Support policy](general/support-policy.md)
+* [Theme license](general/theme-license.md)
