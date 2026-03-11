@@ -28,3 +28,9 @@ If you want to install a code snippet across your entire site then you can move 
 Click **Save**
 {% endstep %}
 {% endstepper %}
+
+
+
+{% content-ref url="popular-custom-liquid/" %}
+[popular-custom-liquid](popular-custom-liquid/)
+{% endcontent-ref %}

@@ -88,7 +88,8 @@
 ## Advanced customizations
 
 * [Adding custom liquid](advanced-customizations/adding-custom-liquid/README.md)
-  * [Show variant metafield content](advanced-customizations/adding-custom-liquid/show-variant-metafield-content.md)
+  * [Popular custom liquid](advanced-customizations/adding-custom-liquid/popular-custom-liquid/README.md)
+    * [Show variant metafield content](advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md)
 * [Adding custom JavaScript](advanced-customizations/adding-custom-javascript.md)
 * [Using custom fonts](advanced-customizations/using-custom-fonts.md)
 * [Installing a review app](advanced-customizations/installing-a-review-app.md)
