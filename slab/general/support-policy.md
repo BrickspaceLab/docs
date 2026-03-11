@@ -26,7 +26,7 @@ Our support includes bug fixes and questions about built-in features and functio
 * Slab includes an annual license. Support is available for the duration of your active license. Once your license expires, support and updates are no longer included until renewed.
 * Themes are only licensed to the store that your originally purchased it for.
 * Unlicensed themes are not eligble to receive support or updates.
-* License transfers between stores are only available in rare cases and are not guaranteed. Contact us to discuss your situation.
+* License transfers between stores are only available in rare cases and are not guaranteed.&#x20;
 * We may block customers who enage in abusive behavior or inappropriate language.
 
 ​

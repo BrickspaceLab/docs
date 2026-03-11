@@ -2,10 +2,6 @@
 
 Slab is sold directly from the [Brickspace Lab website](https://brickspacelab.com) with an annual subscription. After purchasing, you receive a license key that can be assigned to one Shopify store. When you install the theme, it will prompt you to enter your license key — this activates the license and assigns it to that store.
 
-{% hint style="info" %}
-Your license key is available in your order confirmation email and customer portal.
-{% endhint %}
-
 {% hint style="warning" %}
 If your license expires, you can continue using the theme but will no longer receive new updates or support until the license is renewed.
 {% endhint %}
@@ -46,6 +42,6 @@ No. Each license key can only be assigned to one Shopify store. You will need to
 
 <summary>Can I transfer my license to a different store</summary>
 
-Contact [Brickspace Lab support](https://brickspacelab.com/pages/contact) to request a license transfer.
+License transfers between stores are only available in rare cases and are not guaranteed. Contact us to discuss your situation.
 
 </details>
