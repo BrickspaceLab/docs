@@ -25,7 +25,7 @@ Our support includes bug fixes and questions about built-in features and functio
 
 * Submitting multiple tickets for the same issue will move your request to the end of the queue, causing a delayed response.
 * Support is provided in english. We do our best to offer translated support when available.
-* All theme purchases include lifetime support. However, we offer limited support for versions over a year old. Upgrading to the latest version is may be required for technical support.
+* Slab includes an annual license. Support is available for the duration of your active license. Once your license expires, support and updates are no longer included until renewed.
 * Themes are only licensed to the store that your originally purchased it for.
 * Unlicensed themes are not eligble to receive support or updates.
 * Contact Shopify if you'd like to transfer a theme license from one store to another.

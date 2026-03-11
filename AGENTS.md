@@ -15,7 +15,7 @@ This is a **GitBook-formatted documentation repository** for Brickspace Lab's Sh
 | `space/` | Space theme | Shopify theme (visual impact storefronts) |
 | `slab/` | Slab theme | Shopify theme (fully modular) |
 | `keystone/` | Keystone theme | Shopify theme (B2B / wholesale) |
-| `pallet/` / `Pallet/` | Pallet app | Shopify app (B2B pricing groups) |
+| `pallet/` | Pallet app | Shopify app (B2B pricing groups) |
 
 ### Theme source sync
 
