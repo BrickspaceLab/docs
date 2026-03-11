@@ -4,6 +4,6 @@
 
 ## Getting started
 
-* [Selecting a subscription plan](getting-started/selecting-a-subscription-plan.md)
-* [Installing the Pallet app](getting-started/installing-the-pallet-app.md)
-* [Creating your first storefront rule](getting-started/creating-your-first-storefront-rule.md)
+* [Select a subscription plan](getting-started/selecting-a-subscription-plan.md)
+* [Install the Pallet app](getting-started/installing-the-pallet-app.md)
+* [Create your first storefront rule](getting-started/creating-your-first-storefront-rule.md)

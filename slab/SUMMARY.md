@@ -7,8 +7,8 @@
 ## Getting started
 
 * [Installing Slab](getting-started/installing-slab/README.md)
-  * [Installing from ZIP](getting-started/installing-slab/installing-from-zip.md)
-  * [Installing from GitHub](getting-started/installing-slab/installing-from-github.md)
+  * [Install from ZIP](getting-started/installing-slab/installing-from-zip.md)
+  * [Install from GitHub](getting-started/installing-slab/installing-from-github.md)
 
 ## CONTENT
 
@@ -167,7 +167,7 @@
 
 * [Getting started](advanced-customizations/getting-started/README.md)
   * [Scripts reference](advanced-customizations/getting-started/scripts-reference.md)
-  * [Pulling upstream updates](advanced-customizations/getting-started/pulling-upstream-updates.md)
+  * [Pull upstream updates](advanced-customizations/getting-started/pulling-upstream-updates.md)
 * [Theme architecture](advanced-customizations/theme-architecture/README.md)
   * [Styling](advanced-customizations/theme-architecture/styling.md)
     * [Utility classes](advanced-customizations/theme-architecture/utility-classes/README.md)
@@ -181,15 +181,15 @@
     * [Events](advanced-customizations/theme-architecture/javascript/events.md)
   * [Naming conventions](advanced-customizations/theme-architecture/naming-conventions.md)
 * [Customizing your theme](advanced-customizations/making-changes/README.md)
-  * [Using custom CSS](advanced-customizations/making-changes/using-custom-css.md)
+  * [Use custom CSS](advanced-customizations/making-changes/using-custom-css.md)
     * [Popular custom CSS](advanced-customizations/making-changes/popular-css-customizations/README.md)
       * [Change background color](advanced-customizations/making-changes/popular-css-customizations/change-background-color.md)
       * [Change heading color](advanced-customizations/making-changes/popular-css-customizations/change-heading-color.md)
       * [Change button color](advanced-customizations/making-changes/popular-css-customizations/change-button-color.md)
       * [Change button size](advanced-customizations/making-changes/popular-css-customizations/adjust-button-size.md)
-  * [Using custom fonts](advanced-customizations/making-changes/using-custom-fonts.md)
-  * [Using custom icons](advanced-customizations/making-changes/using-custom-icons.md)
-  * [Using custom liquid](advanced-customizations/making-changes/using-custom-liquid.md)
-  * [Creating custom blocks](advanced-customizations/making-changes/creating-custom-blocks.md)
-  * [Creating custom sections](advanced-customizations/making-changes/creating-custom-sections.md)
-* [Working with coding agents](advanced-customizations/working-with-coding-agents.md)
+  * [Use custom fonts](advanced-customizations/making-changes/using-custom-fonts.md)
+  * [Use custom icons](advanced-customizations/making-changes/using-custom-icons.md)
+  * [Use custom Liquid](advanced-customizations/making-changes/using-custom-liquid.md)
+  * [Create custom blocks](advanced-customizations/making-changes/creating-custom-blocks.md)
+  * [Create custom sections](advanced-customizations/making-changes/creating-custom-sections.md)
+* [Work with coding agents](advanced-customizations/working-with-coding-agents.md)
