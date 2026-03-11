@@ -1,4 +1,4 @@
-# Migrating custom changes
+# Migrate custom changes
 
 ## Merging custom changes in Shopify themes - challenges and best practices
 

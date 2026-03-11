@@ -1,4 +1,4 @@
-# Replacing “Add to cart”
+# Replace “Add to cart”
 
 The “Add to cart” text can be customized for each product using metafields. This is useful if you want to change the wording for specific products. For example, you could use this to display “Pre-order” for one product.
 

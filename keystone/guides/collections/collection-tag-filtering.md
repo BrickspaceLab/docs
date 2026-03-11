@@ -1,4 +1,4 @@
-# Adding tag filtering
+# Add tag filtering
 
 Using Keystone you can update collection template to use tag based filtering. This is an easy way to surface sub-categories within a collection. For example, you may have a collection titled Accessories using nested navigation you could then set up links to Wallets, Phone Cases, and Bags.
 

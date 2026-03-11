@@ -1,4 +1,4 @@
-# Creating your first storefront rule
+# Create your first storefront rule
 
 ## Pricing Rules
 

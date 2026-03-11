@@ -1,4 +1,4 @@
-# Creating a Mapbox API key
+# Create a Mapbox API key
 
 {% hint style="info" %}
 Mapbox comes with a free tier. Please refer to their pricing page to see if you'll fall under free usage of the API key - [https://www.mapbox.com/pricing#maps](https://www.mapbox.com/pricing#maps)

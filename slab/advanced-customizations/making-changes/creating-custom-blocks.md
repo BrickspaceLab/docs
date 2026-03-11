@@ -1,4 +1,4 @@
-# Creating custom blocks
+# Create custom blocks
 
 ## What is a block?
 

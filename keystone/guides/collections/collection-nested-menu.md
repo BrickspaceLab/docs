@@ -1,4 +1,4 @@
-# Adding nested menu
+# Add a nested menu
 
 Each collection can be set up with nested navigation. This is useful if you have a large collection with multiple sub-groupings within. For example, you may have a collection titled Accessories using nested navigation you could then set up links to Wallets, Phone Cases, and Bags.
 

@@ -1,4 +1,4 @@
-# Designing your menu
+# Design your menu
 
 ### Menu Styling
 

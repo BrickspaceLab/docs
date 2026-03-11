@@ -1,4 +1,4 @@
-# Using color and option swatches
+# Use color and option swatches
 
 ## Space: Using color and option swatches
 

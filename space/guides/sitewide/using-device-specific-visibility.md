@@ -1,4 +1,4 @@
-# Using device specific visibility
+# Use device-specific visibility
 
 ## Space: Using device specific visibility
 

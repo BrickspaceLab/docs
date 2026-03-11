@@ -1,4 +1,4 @@
-# Using custom fonts
+# Use custom fonts
 
 {% hint style="warning" %}
 **We do not provide support for code customizations**

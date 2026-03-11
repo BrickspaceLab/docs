@@ -1,4 +1,4 @@
-# Installing from GitHub
+# Install from GitHub
 
 ## How to install
 

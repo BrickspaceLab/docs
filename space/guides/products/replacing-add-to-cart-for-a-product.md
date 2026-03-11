@@ -1,4 +1,4 @@
-# Replacing "Add to cart"
+# Replace "Add to cart" for a product
 
 ## Space: Replacing "Add to cart" for a product
 

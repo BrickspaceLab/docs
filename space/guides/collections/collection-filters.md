@@ -1,4 +1,4 @@
-# Customizing filters
+# Customize filters
 
 ***
 

@@ -1,4 +1,4 @@
-# Combined Listing
+# Combined listing
 
 Keystone supports the Combined Listing app, which allows you to link multiple products together. This is helpful if you want to split one product into separate listings but maintain visibility for each option. When this is setup, customers will see linked products as options so they can easily select different options or colors.
 

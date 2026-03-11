@@ -1,4 +1,4 @@
-# Pulling upstream updates
+# Pull upstream updates
 
 If you forked the repo, you can pull in new Slab releases at any time:
 

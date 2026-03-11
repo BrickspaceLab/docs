@@ -1,4 +1,4 @@
-# Installing a review app
+# Install a review app
 
 {% hint style="warning" %}
 **We do not provide support for code customizations**

@@ -2,5 +2,5 @@
 hidden: true
 ---
 
-# Disabling default ratings when using a third party app
+# Disable default ratings when using a third-party app
 

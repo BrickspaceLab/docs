@@ -1,4 +1,4 @@
-# Collection Blocks
+# Collection blocks
 
 The collection template can include optional blocks. These blocks are displayed in-grid alongside your products. This can be used to display a text block or a newsletter. Both of which are great for highlighting ongoing promotions
 

@@ -8,6 +8,13 @@ alwaysApply: false
 
 Apply these formatting rules when editing markdown documentation.
 
+## Article titles
+
+- Use sentence case: capitalize only the first word, proper nouns, product names, and acronyms.
+- Task/guide articles use a bare imperative verb: "Add custom CSS", "Design your menu", "Install a review app".
+- Reference articles (sections, settings, blocks) use a noun phrase: "Cart drawer", "Product badges", "Typography".
+- Never use gerunds ("-ing" form) as the opening verb: "Using custom CSS" and "Adding tag filtering" are non-conforming.
+
 ## Headings
 
 - Keep exactly one H1 (`#`) at the top of the page.

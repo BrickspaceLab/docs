@@ -1,4 +1,4 @@
-# Creating custom sections
+# Create custom sections
 
 ## What is a section?
 

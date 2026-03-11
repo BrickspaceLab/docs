@@ -1,4 +1,4 @@
-# Using custom liquid
+# Use custom Liquid
 
 The **Custom liquid** section type lets you inject Liquid and HTML directly into any page template without editing theme source files. It is the fastest way to add a one-off snippet of dynamic or interactive content.
 

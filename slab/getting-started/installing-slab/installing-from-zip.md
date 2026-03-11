@@ -1,4 +1,4 @@
-# Installing from ZIP
+# Install from ZIP
 
 ## How to install
 
