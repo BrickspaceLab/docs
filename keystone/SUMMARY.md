@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Keystone documentation](README.md)
+* [Keystone](README.md)
+* [Changelog](changelog.md)
 
 ## Getting started
 
-* [Getting started with your theme](getting-started/getting-started-with-your-theme.md)
 * [Theme basics](getting-started/theme-basics.md)
 * [Theme settings](getting-started/theme-settings/README.md)
   * [Colors](getting-started/theme-settings/colors.md)
@@ -125,12 +125,5 @@
 
 * [Support policy](general/support-policy.md)
 * [Theme license](general/theme-license.md)
-* [Changelog](general/changelog/README.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
   * [v1.3.0](general/known-issues-and-troubleshooting/v1.3.0.md)
-* [Cloning a demo theme](general/cloning-a-demo-theme/README.md)
-  * [Knit](general/cloning-a-demo-theme/knit.md)
-  * [Kingpin](general/cloning-a-demo-theme/kingpin.md)
-  * [Kindred](general/cloning-a-demo-theme/kindred.md)
-  * [Kettle](general/cloning-a-demo-theme/kettle.md)
-  * [Kaleidoscope](general/cloning-a-demo-theme/kaleidoscope.md)
