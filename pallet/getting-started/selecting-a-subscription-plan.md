@@ -1,6 +1,8 @@
-# Select a plan
+# Select a subscription plan
 
 Pallet offers two subscription plans designed to fit businesses of all sizes. Both plans include a 14-day free trial, so you can test the app risk-free before committing.
+
+
 
 |                                      | Basic     | Unlimited |
 | ------------------------------------ | --------- | --------- |
@@ -9,9 +11,7 @@ Pallet offers two subscription plans designed to fit businesses of all sizes. Bo
 | **Adjust pricing based on customer** | ✓         | ✓         |
 | **Free trial**                       | 14 days   | 14 days   |
 
-
-
-## FAQs
+### Frequently Asked Questions
 
 <details>
 

@@ -1,4 +1,4 @@
-# Storefront rules
+# Create your first storefront rule
 
 ## Pricing Rules
 
@@ -20,9 +20,11 @@ A pricing rule is a discount configuration that automatically applies to custome
 
 When a customer tagged "wholesale" logs in and browses your store, all prices will display 20% lower than the regular price.
 
+
+
 {% stepper %}
 {% step %}
-#### Navigate to the Rules Page
+### Navigate to the Rules Page
 
 * Open your Shopify admin
 * Click **Apps** in the left sidebar
@@ -31,14 +33,14 @@ When a customer tagged "wholesale" logs in and browses your store, all prices wi
 {% endstep %}
 
 {% step %}
-#### Start Creating a Rule
+### Start Creating a Rule
 
 * Click the **Create rule** button in the top right
 * You'll see the rule creation form with two main sections: **Audience** and **Discount**
 {% endstep %}
 
 {% step %}
-#### Configure the Audience
+### Configure the Audience
 
 The Audience section defines which customers will receive this discount.
 
@@ -55,7 +57,7 @@ The Audience section defines which customers will receive this discount.
 {% endstep %}
 
 {% step %}
-#### Set the Discount
+### Set the Discount
 
 **Discount Percentage**
 
@@ -68,7 +70,7 @@ The Audience section defines which customers will receive this discount.
 {% endstep %}
 
 {% step %}
-#### Save the Rule
+### Save the Rule
 
 1. Review your settings
 2. Click **Create rule**
