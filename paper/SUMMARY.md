@@ -98,7 +98,7 @@
     * [Change button color](advanced-customizations/popular-css-customizations/change-button-color.md)
     * [Change heading color](advanced-customizations/popular-css-customizations/change-heading-color.md)
     * [Change button size](advanced-customizations/popular-css-customizations/adjust-button-size.md)
-* [Installing a review app](advanced-customizations/installing-a-review-app.md)
+* [Install a review app](advanced-customizations/installing-a-review-app.md)
 
 ## General
 
