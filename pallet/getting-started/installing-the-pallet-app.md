@@ -1,4 +1,4 @@
-# Install the Pallet app
+# Install Pallet
 
 This guide will walk you through installing and setting up Pallet on your Shopify store. The entire process takes about 5-10 minutes.
 
@@ -8,11 +8,9 @@ This guide will walk you through installing and setting up Pallet on your Shopif
 * Store owner or staff account with app installation permissions
 * Customers tagged in your Shopify admin (or you can add tags after installation)
 
-
-
 {% stepper %}
 {% step %}
-### Install the Pallet App
+#### Install the Pallet App
 
 1. Visit the [Pallet app listing on the Shopify App Store](https://apps.shopify.com/)
 2. Click **Add app**
@@ -26,7 +24,7 @@ You'll be redirected to the Pallet app within your Shopify admin.
 {% endstep %}
 
 {% step %}
-### Select Your Subscription Plan
+#### Select Your Subscription Plan
 
 After installation, you'll see the plan selection page.
 
@@ -41,7 +39,7 @@ Your 14-day free trial starts immediately. You won't be charged until the trial 
 {% endstep %}
 
 {% step %}
-### Enable the Theme App Embed
+#### Enable the Theme App Embed
 
 This is the most important step - it enables Pallet to display custom prices on your storefront.
 
@@ -58,17 +56,13 @@ This is the most important step - it enables Pallet to display custom prices on 
 {% endstep %}
 
 {% step %}
-### Update your currency settings
+#### Update your currency settings
 
 1. In Shopify admin, go to **Settings**
-2. Then select **Change currency formatting**&#x20;
-3.  Wrap the currency in a span with a data-pallet-price attribute. Do this for both HTML with currency and HTML without currency.
-
-
+2. Then select **Change currency formatting**
+3. Wrap the currency in a span with a data-pallet-price attribute. Do this for both HTML with currency and HTML without currency.
 
 <figure><img src="../.gitbook/assets/screenshot_2026-01-21_101704_480 (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 For example:
 
@@ -86,7 +80,7 @@ After
 <span data-pallet-price>${{amount}} CAD</span>
 ```
 
-### Verify Installation
+#### Verify Installation
 
 **Create a Test Customer**
 
@@ -129,8 +123,6 @@ Now that Pallet is installed, you're ready to:
 2. **Create rules** - Set up rules for each customer segment
 3. **Test thoroughly** - Log in as different customer types and verify pricing displays correctly
 
-
-
 <details>
 
 <summary>Will this work with my theme?</summary>
@@ -170,6 +162,3 @@ No. Pallet only displays discounted prices to logged-in customers with matching 
 Yes! Pallet's discounts work on your online store, and Shopify's discount functions apply the discounts at checkout across all sales channels.
 
 </details>
-
-
-
