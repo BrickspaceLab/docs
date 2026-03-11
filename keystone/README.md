@@ -1,4 +1,4 @@
-# Keystone documentation
+# Keystone
 
 ### Helpful links
 
@@ -8,7 +8,7 @@
 
 ### Theme versions
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Changelog</td><td><a href="general/changelog/">changelog</a></td></tr><tr><td>Suggest feature</td><td><a href="https://brickspacelab.com/pages/contact">https://brickspacelab.com/pages/contact</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Changelog</td><td><a href="changelog.md">changelog.md</a></td></tr><tr><td>Suggest feature</td><td><a href="https://brickspacelab.com/pages/contact">https://brickspacelab.com/pages/contact</a></td></tr></tbody></table>
 
 
 

@@ -1,2 +1,0 @@
-# Cloning a demo theme
-

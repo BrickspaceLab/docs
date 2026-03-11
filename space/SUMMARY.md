@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Space documentation](README.md)
+* [Space](README.md)
+* [Changelog](changelog.md)
 
 ## Getting started
 
@@ -123,6 +124,5 @@
 
 * [Support policy](general/support-policy.md)
 * [Theme license](general/theme-license.md)
-* [Changelog](general/changelog/README.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
   * [v2.0.0](general/known-issues-and-troubleshooting/v2.0.0.md)
