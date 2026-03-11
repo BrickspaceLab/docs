@@ -207,6 +207,4 @@
 
 ## General
 
-***
-
-* [Support policy](support-policy.md)
+* [Support policy](general/support-policy.md)
