@@ -92,6 +92,12 @@
     * [Show variant metafield content](advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md)
 * [Adding custom JavaScript](advanced-customizations/adding-custom-javascript.md)
 * [Using custom fonts](advanced-customizations/using-custom-fonts.md)
+* [Using custom CSS](advanced-customizations/using-custom-css.md)
+  * [Popular custom CSS](advanced-customizations/popular-css-customizations/README.md)
+    * [Change background color](advanced-customizations/popular-css-customizations/change-background-color.md)
+    * [Change button color](advanced-customizations/popular-css-customizations/change-button-color.md)
+    * [Change heading color](advanced-customizations/popular-css-customizations/change-heading-color.md)
+    * [Change button size](advanced-customizations/popular-css-customizations/adjust-button-size.md)
 * [Installing a review app](advanced-customizations/installing-a-review-app.md)
 
 ## General
