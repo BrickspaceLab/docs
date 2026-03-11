@@ -8,7 +8,7 @@ Visit the Shopify help center to [learn more about updating themes](https://help
 
 
 
-### FAQs <a href="#h_ca638b6997" id="h_ca638b6997"></a>
+## FAQs <a href="#h_ca638b6997" id="h_ca638b6997"></a>
 
 <details>
 
@@ -36,7 +36,7 @@ Update your theme is not a requirement. If you see we’ve released new features
 
 
 
-### How to transfer settings after updating <a href="#h_a45de23e11" id="h_a45de23e11"></a>
+## How to transfer settings after updating <a href="#h_a45de23e11" id="h_a45de23e11"></a>
 
 {% hint style="info" %}
 This process does not copy over code changes. If you’ve made code changes those will have to manually be copied over to your new theme.

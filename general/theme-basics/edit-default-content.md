@@ -14,7 +14,7 @@ Default content can also be edited by using apps such as **Translate and adapt**
 
 
 
-### How to edit default content for your theme
+## How to edit default content
 
 {% stepper %}
 {% step %}

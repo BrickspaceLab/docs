@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Support policy
 
 Our support includes bug fixes and questions about built-in features and functionality. Our support does not include third party app integrations or code customizations.

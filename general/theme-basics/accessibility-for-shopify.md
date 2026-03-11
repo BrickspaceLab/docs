@@ -1,6 +1,6 @@
 # Accessibility for Shopify
 
-### What is accessibility
+## What is accessibility
 
 Accessibility covers a range of concerns, ensuring customers with disabilities, like visual or motor impairments, can easily use your store. This includes features like keyboard navigation and screen readers.
 
@@ -8,7 +8,7 @@ We prioritize accessibility, ensuring our themes follow best practices. We are c
 
 
 
-### FAQs
+## FAQs
 
 <details>
 
@@ -36,7 +36,7 @@ Please note that while we strive to make our themes accessible, we cannot guaran
 
 
 
-### Best practices
+## Best practices
 
 How a theme is used plays a big part of weather a storefront is accessibility. What sections are used and how they are setup can have a big difference in overall website accseibility.&#x20;
 

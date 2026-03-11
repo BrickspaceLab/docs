@@ -40,7 +40,6 @@
 * [Theme license](support/theme-license.md)
 * [Store access request](support/store-access-request.md)
 * [Hire a Shopify developer](support/hire-a-shopify-developer.md)
-* [Premium theme setup](support/premium-theme-setup.md)
 
 ## Partners
 

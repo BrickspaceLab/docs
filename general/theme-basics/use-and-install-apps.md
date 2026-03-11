@@ -6,7 +6,7 @@ Visit the Shopify help center to learn how to [extend your theme with apps](http
 
 
 
-### Considerations when using Shopify apps
+## Considerations when using Shopify apps
 
 * Consider building app functionality into theme by hiring a developer. This approach is recommended because many apps have the potential to impact your site's performance. You'll also avoid paying monthly fees for a single feature.
 * Look for apps with the [Built for Shopify badge](https://www.shopify.com/ca/partners/blog/built-for-shopify). Apps that have this badge meet higher standards and follow best-practices for theme integration.

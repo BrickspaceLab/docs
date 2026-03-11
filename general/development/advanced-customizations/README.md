@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Advanced customizations
 
 {% hint style="warning" %}

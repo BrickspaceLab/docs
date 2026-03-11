@@ -1,15 +1,19 @@
 # Hire a Shopify developer
 
-### When to hire a Shopify developer <a href="#h_0170420437" id="h_0170420437"></a>
+## When to hire a Shopify developer <a href="#h_0170420437" id="h_0170420437"></a>
 
 When customizing your Shopify store, it's best to start with built-in features and settings before resorting to code changes. However, there are times when working with a developer or learning to code becomes necessary. Here's what you need to know:
 
 1. Explore no-code options first Try to achieve your desired features or design elements using Shopify's built-in tools and app integrations before considering code modifications.
 2. Consider hiring a Shopify expert If you've exhausted no-code options and are unfamiliar with coding, it's time to work with an expert.
 
-### What we can help with <a href="#h_de1600cfc6" id="h_de1600cfc6"></a>
+
+
+## What we can help with <a href="#h_de1600cfc6" id="h_de1600cfc6"></a>
 
 Our team is available to build customizations and extend your Shopify theme with custom features and designs. We’re currently offering the following services.
+
+
 
 #### **Theme roast**
 
@@ -19,6 +23,8 @@ A quick, 30-minute video review of your store. Our team walks through your site,
 
 [↳ Book your theme roast](https://brickspacelab.com/products/theme-roast)
 
+
+
 #### **Theme roadmap**
 
 This is the full audit service. We review your entire ecommerce flow - from homepage to checkout then grade your UI and UX against industry benchmarks. You’ll walk away with a detailed roadmap of what to improve and in what order.
@@ -27,6 +33,8 @@ This is the full audit service. We review your entire ecommerce flow - from home
 
 [↳ Book discovery call](https://cal.com/brickspacelab/meeting?overlayCalendar=true)
 
+
+
 #### **Theme retainer**
 
 Prepay for a set number of development hours to help manage and maintain your Shopify store.
@@ -34,6 +42,8 @@ Prepay for a set number of development hours to help manage and maintain your Sh
 ↳ Starting at $3000 usd
 
 [↳ Book discovery call](https://cal.com/brickspacelab/meeting?overlayCalendar=true)
+
+
 
 #### **Theme setup**
 
@@ -83,6 +93,8 @@ Get your shopify theme set up by the team that built it. We’ll configure every
 
 </details>
 
+
+
 #### **Theme customizations**
 
 Need something custom? Our team can build custom layouts, features and tweak your theme to really bring your storefront to life.
@@ -93,7 +105,9 @@ Need something custom? Our team can build custom layouts, features and tweak you
 
 ✓ Build customizations on top of your existing Shopify theme
 
-### Our development partners <a href="#h_a3f4ea6baf" id="h_a3f4ea6baf"></a>
+
+
+## Our development partners <a href="#h_a3f4ea6baf" id="h_a3f4ea6baf"></a>
 
 For all other development needs we recommend working with our partners.
 

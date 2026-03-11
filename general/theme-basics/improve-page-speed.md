@@ -1,6 +1,6 @@
 # Improve page speed
 
-### How does page speed impact your business <a href="#h_029076d4e0" id="h_029076d4e0"></a>
+## How does page speed impact your business <a href="#h_029076d4e0" id="h_029076d4e0"></a>
 
 A low speed score might seem concerning but in reality it’s not. Speed tests often measure the worst-case scenarios which may not be a reality for many of your customers.
 
@@ -8,7 +8,7 @@ Many major websites like Allbirds, Fashion Nova, and Gymshark have Lighthouse sc
 
 
 
-### What is a good speed score <a href="#h_ed17bd6682" id="h_ed17bd6682"></a>
+## What is a good speed score <a href="#h_ed17bd6682" id="h_ed17bd6682"></a>
 
 You can look at the demo stores of the theme you are using for a good gauge on what a bare bones website could be performing at. For example the [Poster preset for Paper](https://themes.shopify.com/themes/paper/styles/poster/preview?surface_detail=listing\&surface_inter_position=1\&surface_intra_position=4\&surface_type=listing) scores between 80-97 on Lighthouse for desktop. Using other metrics the Poster preset scores 1.81s for loading speed, 48ms for interactivity and 0 for visual stability.
 
@@ -20,7 +20,7 @@ For a benchmark you can use the following as a guide
 
 
 
-### How to improve page speed <a href="#h_33b5f5febd" id="h_33b5f5febd"></a>
+## How to improve page speed <a href="#h_33b5f5febd" id="h_33b5f5febd"></a>
 
 **Reduce app usage**
 

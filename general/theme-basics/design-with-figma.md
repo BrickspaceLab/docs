@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Design with Figma
 
 #### Generate Figma file from your Shopify theme <a href="#h_7a99478973" id="h_7a99478973"></a>

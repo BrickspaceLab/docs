@@ -6,7 +6,7 @@ Visit the Shopify help center to [learn more about using templates](https://help
 
 
 
-### How to create and use custom templates
+## How to create and use custom templates
 
 We'll create a custom page template, customize it, and assign it to a page. This same process can be used for other templates, such as products or collections.
 
@@ -86,7 +86,7 @@ We'll create a custom page template, customize it, and assign it to a page. This
 
 
 
-### Considerations for creating a new template <a href="#considerations-for-creating-a-new-template" id="considerations-for-creating-a-new-template"></a>
+## Considerations for creating a new template <a href="#considerations-for-creating-a-new-template" id="considerations-for-creating-a-new-template"></a>
 
 Before you create a new template, review the following considerations:
 

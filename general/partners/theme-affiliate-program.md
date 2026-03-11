@@ -6,9 +6,8 @@ The Affiliate program is your chance to earn commission anytime your clients use
 
 
 
-### Benefits of becoming an affiliate
+## Benefits of becoming an affiliate
 
 * **Earn rewards** - You’ll get a $50 commission for each purchase you refer to us.
-* **Discord chat** - Join the [Discord server](https://discord.gg/4qdBFhmzCR) to get connected with other experts using our Shopify themes.
 * **Priority roadmap** - You’ll also have the chance to [suggest new features](https://tally.so/r/mBzRYR) which will likely be prioritized in our roadmap.
 * **Get exclusive discounts** - You’ll get access to our full list of third-party discounts and offers. You can share with any of your clients even if they are not a theme customers.
