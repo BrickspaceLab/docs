@@ -1,5 +1,11 @@
 # Paper
 
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button>
+
+<figure><img src=".gitbook/assets/1600x1200 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
 ## Helpful links
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting started</td><td><a href="/broken/pages/lPNg4ygjs6poFjkr3NPF">Broken link</a></td></tr><tr><td>Guides</td><td><a href="/broken/pages/wt4kkAOXBWkTGudC3Q9w">Broken link</a></td></tr><tr><td>Sections</td><td><a href="/broken/pages/A6AJ4vtLGFHJCHoB7TP0">Broken link</a></td></tr><tr><td>Common issues</td><td><a href="general/known-issues-and-troubleshooting/">known-issues-and-troubleshooting</a></td></tr></tbody></table>
