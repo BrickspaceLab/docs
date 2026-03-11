@@ -38,10 +38,10 @@ No. Our themes may append `?variant=ID` to product URLs to preselect a specific 
 
 <summary>Why am I seeing "large HTML" warnings?</summary>
 
-Some SEO tools may flag pages with large HTML sizes. While a large page can sometimes mean a slow website, that’s not always true—many large pages still load quickly. So, this warning isn’t always reliable.
+Some SEO tools may flag pages with large HTML sizes. While a large page can sometimes mean a slow website, that's not always true—many large pages still load quickly. So, this warning isn't always reliable.
 
 **What you can do:**\
-Focus on [improving your page speed](improve-page-speed.md) where possible. You can also use [Google Search Console](https://search.google.com/search-console/welcome) to check for any actual performance or indexing issues. If Search Console doesn’t show any warnings, it’s safe to ignore the alerts from your SEO tool.
+Focus on [improving your page speed](improve-page-speed.md) where possible. You can also use [Google Search Console](https://search.google.com/search-console/welcome) to check for any actual performance or indexing issues. If Search Console doesn't show any warnings, it's safe to ignore the alerts from your SEO tool.
 
 </details>
 

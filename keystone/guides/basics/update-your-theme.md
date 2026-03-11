@@ -12,7 +12,7 @@ Visit the Shopify help center to [learn more about updating themes](https://help
 
 <details>
 
-<summary>How do I check what theme version I’m using?</summary>
+<summary>How do I check what theme version I'm using?</summary>
 
 The theme version is listed in a few places in your Shopify dashboard. To find this go to Shopify then navigate to **Online Store > Themes**. From here you view your installed themes and see which version each theme is using.
 
@@ -30,7 +30,7 @@ To confirm you are using the latest version, please refer to the Shopify theme s
 
 <summary>How important is it to update to the latest version?</summary>
 
-Update your theme is not a requirement. If you see we’ve released new features you’d like to take advantage of then updating would be the best option. It is generally a good idea to update to the latest version at least once a year - this way you get new features, improved performance and bug fixes.
+Update your theme is not a requirement. If you see we've released new features you'd like to take advantage of then updating would be the best option. It is generally a good idea to update to the latest version at least once a year - this way you get new features, improved performance and bug fixes.
 
 </details>
 
@@ -39,7 +39,7 @@ Update your theme is not a requirement. If you see we’ve released new features
 ## How to transfer settings after updating <a href="#h_a45de23e11" id="h_a45de23e11"></a>
 
 {% hint style="info" %}
-This process does not copy over code changes. If you’ve made code changes those will have to manually be copied over to your new theme.
+This process does not copy over code changes. If you've made code changes those will have to manually be copied over to your new theme.
 {% endhint %}
 
 {% stepper %}
@@ -48,13 +48,13 @@ This process does not copy over code changes. If you’ve made code changes thos
 
 1. Sign in to your Shopify account
 2. Click the dropdown in your Shopify theme to view the version number
-3. Click “Add to theme library”
+3. Click "Add to theme library"
 {% endstep %}
 
 {% step %}
 #### Back up your themes
 
-1. Before continuing further it’s a good idea to create a backup copy of your themes
+1. Before continuing further it's a good idea to create a backup copy of your themes
    * Learn more about [duplicating themes](https://help.shopify.com/en/manual/online-store/themes/managing-themes/duplicating-themes)
 {% endstep %}
 
@@ -77,7 +77,7 @@ This process does not copy over code changes. If you’ve made code changes thos
 3. In your original theme, open the templates directory and take note of each file with a blue circle icon
    * For each file with a blue icon:
      1. In your original theme, open the file with a blue icon, copy the contents
-     2. In your new theme, overwrite the file’s content by pasting the content you copied from the original theme
+     2. In your new theme, overwrite the file's content by pasting the content you copied from the original theme
 
 
 {% endstep %}

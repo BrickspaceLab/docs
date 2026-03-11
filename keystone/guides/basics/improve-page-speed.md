@@ -2,9 +2,9 @@
 
 ## How does page speed impact your business <a href="#h_029076d4e0" id="h_029076d4e0"></a>
 
-A low speed score might seem concerning but in reality it’s not. Speed tests often measure the worst-case scenarios which may not be a reality for many of your customers.
+A low speed score might seem concerning but in reality it's not. Speed tests often measure the worst-case scenarios which may not be a reality for many of your customers.
 
-Many major websites like Allbirds, Fashion Nova, and Gymshark have Lighthouse scores well below 40. As long as your website loads and functions as expected there’s no need to panic - unless it’s taking exceptionally long to load.
+Many major websites like Allbirds, Fashion Nova, and Gymshark have Lighthouse scores well below 40. As long as your website loads and functions as expected there's no need to panic - unless it's taking exceptionally long to load.
 
 
 
@@ -24,11 +24,11 @@ For a benchmark you can use the following as a guide
 
 **Reduce app usage**
 
-Apps are usually the single biggest reason a Shopify theme is performing slower than expected. It’s best to avoid apps as much as possible - look for alternative solutions or considering hiring an expert to build customizations.
+Apps are usually the single biggest reason a Shopify theme is performing slower than expected. It's best to avoid apps as much as possible - look for alternative solutions or considering hiring an expert to build customizations.
 
-When installing a Shopify app it’s best to look for the “Built for Shopify” badge.
+When installing a Shopify app it's best to look for the "Built for Shopify" badge.
 
-Some apps that aren’t installed on your Shopify theme won’t have an impact. For example the Order printing app only interacts with your Shopify dashboard and not your theme.
+Some apps that aren't installed on your Shopify theme won't have an impact. For example the Order printing app only interacts with your Shopify dashboard and not your theme.
 
 
 
@@ -64,4 +64,4 @@ Disabling dynamic checkout buttons can improve page performance. If these are no
 
 **Use fewer fonts**
 
-When setting up your theme you have the option to select different font families. Choosing a System font will be best for page speed as these fonts are available on all devices and won’t require additional assets. If you are going to use a custom font, consider using 1 or 2. Using 3 or more custom fonts will have a bigger impact on slowing down your page speed.
+When setting up your theme you have the option to select different font families. Choosing a System font will be best for page speed as these fonts are available on all devices and won't require additional assets. If you are going to use a custom font, consider using 1 or 2. Using 3 or more custom fonts will have a bigger impact on slowing down your page speed.
