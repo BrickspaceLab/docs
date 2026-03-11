@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Pallet documentation](README.md)
+* [Pallet](README.md)
 
 ## Getting started
 
