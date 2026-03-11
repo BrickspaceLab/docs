@@ -32,3 +32,21 @@ Apply these formatting rules when editing markdown documentation.
 - Keep settings documentation in readable tables.
 - Use markdown tables by default.
 - Use HTML tables only when the page already depends on HTML table markup.
+
+## Terminology
+
+Use these terms consistently across theme documentation (slab, paper, space, keystone).
+
+| Term | Use for | Example |
+|------|---------|---------|
+| **customers** | Shoppers and visitors on the storefront | "Let customers add items to cart" |
+| **merchants** | Store owners configuring the theme | "Merchants can customize visibility per block" |
+| **storefront** | The public-facing shopping experience | "Search results across the storefront" |
+| **store** | The Shopify store as an entity | "Your store's mailing list", "store settings" |
+| **theme** | Slab or the theme being customized | "Adjust your theme", "theme settings" |
+| **blocks** | Theme editor content units | "Use blocks to build your cart" |
+| **sections** | Theme editor layout containers | "Add blocks inside sections" |
+
+**Avoid**: "users" when referring to shoppers (use "customers"); "website" when referring to the shopping experience (use "storefront"); "site" (prefer "storefront" or "store" depending on context).
+
+**Exception**: "User experience" (UX) and "user feedback" are acceptable as interface jargon.
