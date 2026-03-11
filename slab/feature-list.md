@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Feature list
 
 This page is a capability index for Slab. It includes every documented block and focused feature tables for collection, product, cart, blog, and search experiences. Slab is built almost entirely with blocks, so many features are possible through unique block combinations, and new feature patterns can still be discovered.
