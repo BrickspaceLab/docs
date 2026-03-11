@@ -2,7 +2,7 @@
 
 Our themes are updated regularly with new features, general improvements, and bug fixes.&#x20;
 
-Your theme will automatically update for minor fixes. Unfortunetly, Shopify does not automatically update themes for major updates or when you've made customizations to the theme code. If the code has been edited, you can install updates manually or [hire an expert](../support/hire-a-shopify-developer.md) for assistance.
+Your theme will automatically update for minor fixes. Unfortunetly, Shopify does not automatically update themes for major updates or when you've made customizations to the theme code. If the code has been edited, you can install updates manually or [hire an expert](https://experts.shopify.com/) for assistance.
 
 Visit the Shopify help center to [learn more about updating themes](https://help.shopify.com/en/manual/online-store/themes/managing-themes/updating-themes).
 

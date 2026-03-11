@@ -15,6 +15,14 @@
 
 ## Guides
 
+* [Basics](guides/basics/README.md)
+  * [Edit default content](guides/basics/edit-default-content.md)
+  * [Use custom templates](guides/basics/use-custom-templates.md)
+  * [Use and install apps](guides/basics/use-and-install-apps.md)
+  * [Improve page speed](guides/basics/improve-page-speed.md)
+  * [Update your theme](guides/basics/update-your-theme.md)
+  * [SEO for Shopify](guides/basics/seo-for-shopify.md)
+  * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
 * [Products](guides/products/README.md)
   * [Product badges](guides/products/product-badges.md)
   * [Product subtitles](guides/products/product-subtitles.md)
