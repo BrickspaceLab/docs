@@ -53,6 +53,7 @@ This page is a capability index for Slab. It includes every documented block kno
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Build your own form | Use blocks to build custom contact forms by adding different input fields. Combine inputs, labels, and buttons to create forms for any use case. |
 | Age verification    | Require customers to confirm they meet a minimum age before accessing the storefront. Supports birthdate verification or simple confirmation.    |
+| Form response overlay | Show an overlay with form success or error messages for a seamless submission experience.                                                               |
 
 
 
@@ -119,7 +120,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Share cart              | Let customers share their cart by copying and sharing a URL.                                                                                            |
 | Device specific control | Set different cart types for mobile and desktop. Show a cart alert on mobile and a cart drawer on desktop, for example.                                 |
 | Cart redirect           | Redirect customers to the cart page.                                                                                                                    |
-| Form response overlay   | Show an overlay with form success or error messages for a seamless submission experience.                                                               |
 
 
 
