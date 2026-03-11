@@ -185,6 +185,13 @@ This page is a capability index for Slab. It includes every documented block and
 |     |     |
 
 
+## Theme basics
+
+| <p>Lightning fast pages<br></p>    | Built with performance best practices and page pre-loading when hovering over any link. |
+| ---------------------------------- | --------------------------------------------------------------------------------------- |
+| <p>Search engine optimized<br></p> | All pages and content are built with SEO-optimized best practices.                      |
+| Keyboard accessibile               |                                                                                         |
+
 ## Complete block list
 
 
