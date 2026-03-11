@@ -6,7 +6,7 @@
 
 ## Getting started
 
-* [Installing](getting-started/installing-slab/README.md)
+* [Install Slab](getting-started/installing-slab/README.md)
   * [Install from ZIP](getting-started/installing-slab/installing-from-zip.md)
   * [Install from GitHub](getting-started/installing-slab/installing-from-github.md)
 
