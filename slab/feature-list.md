@@ -2,68 +2,67 @@
 
 This page is a capability index for Slab. It includes every documented block and focused feature tables for collection, product, cart, blog, and search experiences. Slab is built almost entirely with blocks, so many features are possible through unique block combinations, and new feature patterns can still be discovered.
 
+
+
 ## Theme basics
 
+| Feature                    | Description                                                                               |
+| -------------------------- | ----------------------------------------------------------------------------------------- |
+| Lightning fast pages       | Built with performance best practices and page pre-loading when hovering over any link.   |
+| Search engine optimized    | All pages and content are built with SEO-optimized best practices.                        |
+| Keyboard accessibile       | All features and functionality can be used with keyboard navigation.                      |
+| Screen reader support      | All content is accessible to screen readers for an inclusive browsing experience.         |
+| Dynamic content            | Use metafields and dynamic content inside sections and blocks.                            |
+| Global shopping            | Supports Shopify Markets so customers can browse in their local language and currency.    |
+| Flexible price settings    | Remove trailing zeros and currency symbols for a simplified look.                         |
+| Device specific visibility | Customize visibility on almost every block and section for mobile and desktop separately. |
+| Drag and drop blocks       | A completely modular block architecture allowing you to build any layout.                 |
 
-| Feature                    | Description                                                                             |
-| -------------------------- | --------------------------------------------------------------------------------------- |
-| Lightning fast pages       | Built with performance best practices and page pre-loading when hovering over any link. |
-| Search engine optimized    | All pages and content are built with SEO-optimized best practices.                      |
-| Keyboard accessibile       | All features and functionality can be used with keyboard navigation.                    |
-| Screen reader support      | All content is accessible to screen readers for an inclusive browsing experience.       |
-| Dynamic content            | Use metafields and dynamic content inside sections and blocks.                          |
-| Global shopping            | Supports Shopify Markets so customers can browse in their local language and currency.  |
-| Flexible price settings    | Remove trailing zeros and currency symbols for a simplified look.                       |
-| Device specific visibility | Customize visibility on almost every section for mobile and desktop separately.         |
-| Drag and drop sections     | Fully supports Shopify OS2.0 drag-and-drop sections.                                    |
 
 
 ## Navigation features
 
+| Feature                       | Description                                                                                                        |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Build any menu                | Use a combination of drawers, dropdowns, and content blocks to build any (mega) menu.                              |
+| Build any cart                | Use a combination of blocks to build any cart. You can display a full cart page, or use a popup or even a drawer.  |
+| Real-time search              | Help customers find what they're looking for by displaying search results as they type.                            |
+| Sticky scroll header          | Ensure your header section is always visible                                                                       |
+| Dynamic scroll header         | Set your header section to be hidden while scrolling down and revealed when scrolling up.                          |
+| Search with keyboard shortcut | Use cmd+k to instantly to start searching.                                                                         |
 
-| Feature                       | Description                                                                                                             |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Multi-announcement bar        | Feature multiple promotions using the simple announcement bar.                                                          |
-| Nested mega-menu              | Extensive nested navigation to show all your store's content in an easy-to-digest design.                               |
-| Nested drawer menu            | Multi-page drawer menu with optional content blocks to feature text, images or videos.                                  |
-| Fixed floating menu           | A minimal floating menu bar that can open the cart or menu drawers.                                                     |
-| Real-time search              | Help customers find what they're looking for by displaying search results as they type.                                 |
-| Featured blocks               | Include additional blocks within your desktop or mobile navigation to highlight important content.                      |
-| Sticky header                 | Ensure your header bar is always visible.                                                                               |
-| Dynamic scroll header         | Set your header bar to be hidden while scrolling down and revealed when scrolling up.                                   |
-| Section group support         | Remove or inject any section to create custom layouts in your header and footer.                                        |
-| Always visible cart sidebar   | A sticky cart sidebar that can be expanded and collapsed giving shoppers an easy way to view their cart while browsing. |
-| Always visible menu sidebar   | A fixed menu sidebar for easy navigation across all pages.                                                              |
-| Search with keyboard shortcut | Use cmd+k to instantly to start searching.                                                                              |
 
 
 ## Collection features
 
+| Feature                       | Description                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------- |
+| Easy filtering                | Works with Shopify's Search & Discovery app for easy setup filters.                   |
+| Tag-based filtering           | Let customers filter a collection page results based on product tags.                 |
+| Filter location               | Set the filter to appear as a sidebar or topbar.                                      |
+| Quick add                     | Easily add items to your cart without navigating to a product page.                   |
+| Quick add table               | Customers can quickly add many items to their cart by updating quantities in a table. |
+| List view                     | View collection results in a list view.                                               |
+| Custom metafield columns      | Display additional custom metafields inside a product table.                          |
+| Collection blocks             | Add content and media blocks within your collection grid.                             |
+| Infinite scrolling            | Load more collection results as you scroll near the bottom of the page.               |
+| Custom product badge          | Display custom product badges using tags or metafields.                               |
+| Sale badges                   | Highlight product discounts with percent or amount sale badges.                       |
+| Inventory count               | Show total product inventory count remaining when below a certain amount.             |
+| Product taglines              | A short description that can be displayed under each product title.                   |
+| Image cropping                | Set product images to crop to square, portrait or landscape.                          |
+| Second image on hover         | Show the second product image while hovering.                                         |
+| Video support                 | Show videos for each product card when used as the featured media or second media.    |
+| Image slider                  | A slider to show multiple photos for each product card.                               |
+| Content on hover              | Only show product card content such as the price and title while hovering.            |
+| Build your own cards          |                                                                                       |
+| Build your own quick add      |                                                                                       |
+| Build your own filtering      |                                                                                       |
+| Show selected collection card |                                                                                       |
 
-| Feature                  | Description                                                                           |
-| ------------------------ | ------------------------------------------------------------------------------------- |
-| Easy filtering           | Works with Shopify's Search & Discovery app for easy setup filters.                   |
-| Tag-based filtering      | Let customers filter a collection page results based on product tags.                 |
-| Filter location          | Set the filter to appear as a sidebar or topbar.                                      |
-| Quick add                | Easily add items to your cart without navigating to a product page.                   |
-| Quick add table          | Customers can quickly add many items to their cart by updating quantities in a table. |
-| List view                | View collection results in a list view.                                               |
-| Custom metafield columns | Display additional custom metafields inside a product table.                          |
-| Collection blocks        | Add content and media blocks within your collection grid.                             |
-| Infinite scrolling       | Load more collection results as you scroll near the bottom of the page.               |
-| Custom product badge     | Display custom product badges using tags or metafields.                               |
-| Sale badges              | Highlight product discounts with percent or amount sale badges.                       |
-| Inventory count          | Show total product inventory count remaining when below a certain amount.             |
-| Product taglines         | A short description that can be displayed under each product title.                   |
-| Image cropping           | Set product images to crop to square, portrait or landscape.                          |
-| Second image on hover    | Show the second product image while hovering.                                         |
-| Video support            | Show videos for each product card when used as the featured media or second media.    |
-| Image slider             | A slider to show multiple photos for each product card.                               |
-| Content on hover         | Only show product card content such as the price and title while hovering.            |
 
 
 ## Product features
-
 
 | Feature                      | Description                                                                                             |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -83,8 +82,8 @@ This page is a capability index for Slab. It includes every documented block and
 | Quantity pricing (Shopify +) | Display custom quantity pricing and volumn rules.                                                       |
 
 
-## Cart and checkout features
 
+## Cart and checkout features
 
 | Feature                 | Description                                                                                                    |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -104,8 +103,8 @@ This page is a capability index for Slab. It includes every documented block and
 | Cart redirect           | Redirect customers to the cart page.                                                                           |
 
 
-## Blog features
 
+## Blog features
 
 | Feature           | Description                                                            |
 | ----------------- | ---------------------------------------------------------------------- |
@@ -115,9 +114,7 @@ This page is a capability index for Slab. It includes every documented block and
 | Tag filtering     | Additonally filtering to easily show blog posts with a specific tag.   |
 | Table of contents | Let customers easily jump to different headings in a blog post.        |
 
-
 ## Account features
-
 
 | Feature                                | Description                                                                                                   |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -134,66 +131,7 @@ This page is a capability index for Slab. It includes every documented block and
 
 
 
-|                             |     |
-| --------------------------- | --- |
-|                             |     |
-|                             |     |
-|                             |     |
-|                             |     |
-|                             |     |
-|                             |     |
-| Slider                      |     |
-| Collapsible content         |     |
-| Marquee                     |     |
-| Icon grid                   |     |
-| Logo list                   |     |
-| Testimonials                |     |
-| Testimonial grid            |     |
-| Testimonial slider          |     |
-| Email sign-up               |     |
-| Image hotspot               |     |
-| Image comparison            |     |
-| Tabs                        |     |
-| Navigation slider           |     |
-| Navigation links            |     |
-| Contact form                |     |
-| Contact form                |     |
-| Sign-up form                |     |
-| Store locator               |     |
-| Product table               |     |
-| Featured product            |     |
-| Alternative collection grid |     |
-| Featured collection grid    |     |
-| Featured collection slider  |     |
-| Collection list grid        |     |
-| Collection list slider      |     |
-| Blog posts grid             |     |
-| Product comparison          |     |
-| Comparison table            |     |
-| Recently viewed             |     |
-| Product list                |     |
-| Block reveal                |     |
-| Image reveal                |     |
-| Static chat                 |     |
-| Text highlight              |     |
-| Custom liquid               |     |
-
-
-
-|     |     |
-| --- | --- |
-|     |     |
-
-
-## Theme basics
-
-| <p>Lightning fast pages<br></p>    | Built with performance best practices and page pre-loading when hovering over any link. |
-| ---------------------------------- | --------------------------------------------------------------------------------------- |
-| <p>Search engine optimized<br></p> | All pages and content are built with SEO-optimized best practices.                      |
-| Keyboard accessibile               |                                                                                         |
-
 ## Complete block list
-
 
 | Block                   | What it does                                                                            |
 | ----------------------- | --------------------------------------------------------------------------------------- |
@@ -308,5 +246,3 @@ This page is a capability index for Slab. It includes every documented block and
 | Render quick edit       | Render a quick edit experience for updating product choices.                            |
 | Shared discount         | Display a discount offer that can be reused across multiple blocks.                     |
 | Visibility              | Show or hide content based on rules such as device, customer state, or context.         |
-
-
