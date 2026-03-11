@@ -6,7 +6,7 @@
 
 
 
-## Theme versions
+## Updates
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Changelog</td><td><a href="changelog.md">changelog.md</a></td></tr></tbody></table>
 
