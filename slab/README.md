@@ -1,6 +1,10 @@
-# Slab documentation
+# Slab
 
 <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button>
+
+
+
+<figure><img src=".gitbook/assets/52e82fff661fec8619.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,9 +12,13 @@
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Blocks</td><td><a href="content/blocks/">blocks</a></td></tr><tr><td>Sections</td><td><a href="content/sections/">sections</a></td></tr><tr><td>Feature list</td><td><a href="feature-list.md">feature-list.md</a></td></tr></tbody></table>
 
+
+
 ## Theme updates
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Changelog</td><td><a href="changelog.md">changelog.md</a></td></tr></tbody></table>
+
+
 
 ## Get support <a href="#get-support" id="get-support"></a>
 
