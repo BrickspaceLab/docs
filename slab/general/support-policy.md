@@ -4,8 +4,6 @@ Email support is available Monday to Friday with a typical 3-day response time. 
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Contact theme support</td><td><a href="https://brickspacelab.com/pages/contact">https://brickspacelab.com/pages/contact</a></td></tr><tr><td>Contact Shopify support</td><td><a href="http://help.shopify.com/">http://help.shopify.com/</a></td></tr></tbody></table>
 
-
-
 ## Our support policy <a href="#our-support-policy" id="our-support-policy"></a>
 
 Our support includes bug fixes and questions about built-in features and functionality. Our support does not include third party app integrations or code customizations.
