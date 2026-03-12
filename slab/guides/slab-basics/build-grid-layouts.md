@@ -33,7 +33,7 @@ The Flex grid block arranges child blocks in a row or column with flexible align
 
 ## Common layouts
 
-Using the Flex grid you can create many unique layouts. Here are a few examples to help illustrate how to achieve different grid configurations.&#x20;
+Using the Flex grid you can create many unique layouts. Here are a few examples to help illustrate how to achieve different grid configurations.
 
 
 
@@ -54,7 +54,7 @@ Use this layout for content on one side that stays visible while scrolling.
 
 Use this layout for a navigation or header bar.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__sect.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__sect (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** disable **Enable block wrap**
@@ -69,7 +69,7 @@ Use this layout for a navigation or header bar.
 
 Use this layout for editorial-style layouts.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Horizontal alignment** to **Between**
@@ -82,9 +82,8 @@ Use this layout for editorial-style layouts.
 
 Use this layout for editorial-style layouts.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Vertical alignment** to **End**
 * All child blocks will now be pushed to the bottom of the container
-
