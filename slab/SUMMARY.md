@@ -12,14 +12,30 @@
 
 ## Guides
 
-* [Basics](guides/basics/README.md)
+* [Shopify basics](guides/basics/README.md)
   * [Edit default content](guides/basics/edit-default-content.md)
   * [Use custom templates](guides/basics/use-custom-templates.md)
   * [Use and install apps](guides/basics/use-and-install-apps.md)
   * [Improve page speed](guides/basics/improve-page-speed.md)
-  * [Update your theme](guides/basics/update-your-theme.md)
   * [SEO for Shopify](guides/basics/seo-for-shopify.md)
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
+* [Slab basics](guides/slab-basics/README.md)
+  * [Build grid layouts](guides/slab-basics/build-grid-layouts.md)
+  * [Build complex menus](guides/slab-basics/build-complex-menus.md)
+  * [Product, collection and article cards](guides/slab-basics/product-collection-and-article-cards.md)
+  * [Popups, drawers and overlays](guides/slab-basics/popups-drawers-and-overlays.md)
+  * [Quick add and quick edit](guides/slab-basics/quick-add-and-quick-edit.md)
+  * [Success and error overlays](guides/slab-basics/success-and-error-overlays.md)
+  * [Vertical scroll snapping](guides/slab-basics/vertical-scroll-snapping.md)
+* [Collection](guides/collection/README.md)
+  * [Filter and sort](guides/collection/filter-and-sort.md)
+* [Product](guides/product/README.md)
+  * [Sibling and linked products](guides/product/sibling-and-linked-products.md)
+  * [Product recommendations](guides/product/product-recommendations.md)
+* [Cart](guides/cart/README.md)
+  * [Build your cart](guides/cart/build-your-cart.md)
+* [Common issues](guides/common-issues/README.md)
+  * [Block displaying empty](guides/common-issues/block-displaying-empty.md)
 
 ## Content
 
