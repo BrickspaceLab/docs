@@ -39,52 +39,52 @@ Using the Flex grid you can create many unique layouts. Here are a few examples 
 
 #### **Grid with sticky position**
 
-Use this layout to display content on one side that stays visible while scrolling
+Use this layout for content on one side that stays visible while scrolling.
 
 <figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheade.png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Vertical alignment** to **Stretch**
-* **On a child Flex item toggle Enable sticky layout**
-* **Set Sticky position to Top**
+* On a child **Flex item** toggle **Enable sticky layout**
+* Set **Sticky position** to **Top**
 
 
 
 #### **Grid with centered three columns**
 
-A grid like this could be used for a navigation or header bar
+Use this layout for a navigation or header bar.
 
 <figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__sect.png" alt=""><figcaption></figcaption></figure>
 
-* Use a Flex grid block
-* On the parent Flex grid disable Enable block wrap
-* On the first Flex item toggle on Enable width fill, this will force the block to fill available space in the row
-* On the second Flex item set a specfic width like 20%
-* On the third Flex item toggle on Enable width fill
-* With this layout the first and last columns will automatially fill the remaining 80% of the row equally&#x20;
+* Use a **Flex grid** block
+* On the parent **Flex grid** disable **Enable block wrap**
+* On the first **Flex item** toggle **Enable width fill** — this will force the block to fill available space in the row
+* On the second **Flex item** set a specific width like 20%
+* On the third **Flex item** toggle **Enable width fill**
+* With this layout the first and last columns will automatically fill the remaining 80% of the row equally
 
 
 
 #### **Grid where two columns are pushed to either edge**
 
-A grid like this could be used to create more editoral style layouts.&#x20;
+Use this layout for editorial-style layouts.
 
 <figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (1).png" alt=""><figcaption></figcaption></figure>
 
-* Use a Flex grid block
-* On the parent Flex grid set Horizontal alignment to Between
-* Add two child Flex item blocks
+* Use a **Flex grid** block
+* On the parent **Flex grid** set **Horizontal alignment** to **Between**
+* Add two child **Flex item** blocks
 * The child blocks will now be pushed to the edges of the container
 
 
 
-#### Grid with content aligned to bottom
+#### **Grid with content aligned to bottom**
 
-A grid like this could be used to create more editoral style layouts.&#x20;
+Use this layout for editorial-style layouts.
 
 <figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (2).png" alt=""><figcaption></figcaption></figure>
 
-* Use a Flex grid block
-* On the parent Flex grid set Vertical alignment to End
+* Use a **Flex grid** block
+* On the parent **Flex grid** set **Vertical alignment** to **End**
 * All child blocks will now be pushed to the bottom of the container
 
