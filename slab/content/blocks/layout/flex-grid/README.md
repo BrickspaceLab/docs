@@ -50,9 +50,10 @@ The following blocks can be nested within this block:
 | ----------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Direction                     | Controls the flex direction                                | <p>• Horizontal (default)<br>• Vertical</p>                                                                         |
 | Horizontal alignment (row)    | Controls horizontal alignment when direction is horizontal | <p>• Left (default)<br>• Center<br>• Right<br>• Between<br><br>Visible when direction is horizontal</p>             |
-| Vertical alignment (row)      | Controls vertical alignment when direction is horizontal   | <p>• Start (default)<br>• Middle<br>• End<br>• Between<br>• Stretch<br><br>Visible when direction is horizontal</p> |
+| Vertical alignment (row)      | Controls vertical alignment when direction is horizontal   | <p>• Start<br>• Middle<br>• End<br>• Between<br>• Stretch (default)<br><br>Visible when direction is horizontal</p> |
 | Vertical alignment (column)   | Controls vertical alignment when direction is vertical     | <p>• Start (default)<br>• Middle<br>• End<br>• Between<br><br>Visible when direction is vertical</p>                |
 | Horizontal alignment (column) | Controls horizontal alignment when direction is vertical   | <p>• Left<br>• Center<br>• Right<br>• Between<br>• Stretch (default)<br><br>Visible when direction is vertical</p>  |
+| Enable block wrap             | Allow flex items to wrap to the next line                  | Checkbox (default: true)                                                                                               |
 
 ### Display
 
