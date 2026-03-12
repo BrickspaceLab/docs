@@ -6,7 +6,7 @@ Each overlay block can be connected to one of Slab's built-in overlay actions, s
 
 
 
-## Overlay types
+## Overlay blocks
 
 #### Drawer
 
