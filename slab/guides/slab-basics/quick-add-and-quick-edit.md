@@ -41,7 +41,7 @@ Use the **Quick edit content** block inside the overlay used for editing cart it
 
 
 
-## How to edit quick add and quick edit
+## How to edit quick actions
 
 To change what customers see in quick add or quick edit, first choose the template, then update that same product template.
 

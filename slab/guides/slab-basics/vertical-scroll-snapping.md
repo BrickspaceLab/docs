@@ -4,7 +4,7 @@ Vertical scroll snapping lets sections lock into place as customers scroll throu
 
 
 
-## Set up vertical scroll snapping
+## How to use scroll snapping
 
 Vertical scroll snapping has two parts.
 
