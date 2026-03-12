@@ -21,6 +21,7 @@
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
 * [Slab basics](guides/slab-basics/README.md)
   * [Grid layouts](guides/slab-basics/build-grid-layouts.md)
+  * [Dynamic product cards](guides/slab-basics/dynamic-product-cards.md)
   * [Overlays and popups](guides/slab-basics/popups-drawers-and-overlays.md)
   * [Quick add and quick edit](guides/slab-basics/quick-add-and-quick-edit.md)
   * [Vertical scroll snapping](guides/slab-basics/vertical-scroll-snapping.md)
