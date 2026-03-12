@@ -1,15 +1,18 @@
-# Popups, drawers and overlays
+# Overlays and popups
 
 Slab includes four overlay block types: **Drawer**, **Sidebar**, **Popup**, and **Alert**. Use overlays when you want to show content on top of the storefront without sending customers to a new page.
 
 Each overlay block can be connected to one of Slab's built-in overlay actions, such as **Account**, **Search**, **Menu**, **Primary cart**, or **Alternative cart**. You can also create your own custom overlays by giving the overlay a custom ID and linking a button to that same ID.
 
 
+
 ## Overlay types
 
-### Drawer
+#### Drawer
 
 The Drawer block opens in a sliding panel and can be positioned on the left or right side, or centered at the top or bottom.
+
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_NxEii.png" alt=""><figcaption></figcaption></figure>
 
 **When to use Drawer**
 
@@ -18,9 +21,12 @@ The Drawer block opens in a sliding panel and can be positioned on the left or r
 * Use it when you want the page behind the overlay to pause while the drawer is open.
 
 
-### Sidebar
+
+#### Sidebar
 
 The Sidebar block also opens from the left or right side of the screen, but it behaves more like a side panel. In Slab's overlay logic, sidebars stay independent from the body scroll locking used by popups and drawers.
+
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Sidebar**
 
@@ -29,9 +35,12 @@ The Sidebar block also opens from the left or right side of the screen, but it b
 * Use it when left or right positioning is enough and you do not need the centered top or bottom placement available in Drawer.
 
 
-### Popup
+
+#### Popup
 
 The Popup block opens as a centered modal overlay. It supports an optional **Enable full background** setting, which makes it more suitable for takeover-style experiences.
+
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (2).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Popup**
 
@@ -40,15 +49,19 @@ The Popup block opens as a centered modal overlay. It supports an optional **Ena
 * Use it when a centered modal feels more natural than a slide-in panel.
 
 
-### Alert
+
+#### Alert
 
 The Alert block is the lightest overlay type. It appears in a corner of the screen and supports optional auto-close timing.
+
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (4).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Alert**
 
 * Use it for success messages, error messages, discount notices, and short promotional prompts.
 * Use it when the message should be visible without taking over the full screen.
 * Use it when you want the overlay to close automatically after a short delay.
+
 
 
 ## Default overlay usage
@@ -63,18 +76,10 @@ For alerts, the built-in presets are **Account**, **Search**, **Menu**, **Primar
 
 Use these presets when you want a block to act as the theme's default overlay for a built-in action. For example, setting a Drawer block to **Search** connects that block to Slab's built-in search overlay action. Setting a Popup block to **Age verification** connects it to the theme's age verification overlay.
 
+This also gives you the flexibility to control and change what overlay type is assigned to what action. For example you could upate the Menu to use a Popup instead of a Drawer.
+
 The **Button** block can directly trigger the built-in **Account**, **Search**, **Menu**, **Primary cart**, and **Alternative cart** overlay actions, or it can trigger a custom overlay ID.
 
-
-## Choosing the right overlay
-
-Use **Drawer** when the overlay should feel like an extension of the page layout.
-
-Use **Sidebar** when you want a lighter side panel and want to keep storefront scrolling available.
-
-Use **Popup** when the message needs stronger focus in the center of the screen.
-
-Use **Alert** when the message should be brief, contextual, and easy to dismiss.
 
 
 ## Create a custom overlay
@@ -93,26 +98,3 @@ Use a simple ID such as `newsletter-popup` or `size-guide`. Reuse that exact val
 
 Once both settings match, the button will open that overlay instead of linking to a URL.
 
-
-## How custom overlay IDs work
-
-In Slab's source code, each overlay block checks whether **Overlay preset** is set to `custom`. If it is, the block uses the value from **Overlay ID** as the overlay's internal ID. The Button block uses its **Overlay custom** value to call the theme's `toggleOverlay(...)` function with that same ID.
-
-That is why the two values must match exactly. If the IDs do not match, the button will not know which overlay to open.
-
-
-## Common examples
-
-### Create a custom newsletter popup
-
-Use a **Popup** block with **Overlay preset** set to **Custom** and **Overlay ID** set to `newsletter-popup`. Then add a **Button** block, enable **Enable custom action**, choose **Custom** for the button overlay preset, and enter `newsletter-popup` in **Overlay custom**.
-
-
-### Create a custom size guide drawer
-
-Use a **Drawer** block with **Overlay preset** set to **Custom** and **Overlay ID** set to `size-guide`. Then connect a **Button** block to the same `size-guide` value.
-
-
-### Show short feedback after an action
-
-Use an **Alert** block when you want to show a brief message such as a discount notice, form response, or error message. If the message should disappear automatically, enable **Enable auto close** and choose an **Auto close duration**.
