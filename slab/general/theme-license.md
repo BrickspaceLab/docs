@@ -3,7 +3,7 @@
 Slab is sold directly from the [Brickspace Lab website](https://brickspacelab.com) with an annual subscription. After purchasing, you receive a license key that can be assigned to one Shopify store. When you install the theme, it will prompt you to enter your license key — this activates the license and assigns it to that store.
 
 {% hint style="warning" %}
-If your license expires, you can continue using the theme but will no longer receive new updates or support until the license is renewed.
+If your license expires or is cancelled, you will lose access to the theme. The next time you open the theme editor or a page with the license gate, the theme will prompt you to enter a valid license key. Renew your subscription to restore access.
 {% endhint %}
 
 <details>
@@ -26,7 +26,15 @@ After purchasing, you can download Slab as a ZIP file or access the source code 
 
 <summary>What happens when my license expires</summary>
 
-You can continue using the version of the theme you have installed. However, access to new updates and support is suspended until the license is renewed.
+You will lose access to the theme. When your subscription is cancelled or expires, the license key is revoked. The next time you open the theme editor or a page with the license gate, the theme checks your license status. If the key was revoked, the license gate reappears and you must enter a valid license key to continue. The cutoff is not a fixed number of days — it happens on the next theme load after revocation. Renew your subscription to restore access.
+
+</details>
+
+<details>
+
+<summary>How does license verification work</summary>
+
+Every time you open the theme editor or a page with the license gate, the theme checks your license status against our license provider. If your subscription was revoked (cancelled or expired), the stored activation is removed and the license gate appears. Access is not indefinite without renewal — each load re-checks your license status.
 
 </details>
 
