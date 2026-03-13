@@ -1,6 +1,6 @@
 # Your task
 
-Review a specific theme release against the docs repo, draft the required documentation changes, and open a pull request.
+Review a specific theme release against the docs repo, review the existing documentation coverage including the theme changelog as context, draft the required non-changelog documentation changes, and open a pull request.
 
 Example request:
 
@@ -23,7 +23,7 @@ Example request:
 4. Resolve the requested release in this order:
    - GitHub Release matching the requested version or tag
    - Matching git tag if no release exists
-   - The docs changelog only as a fallback clue when you need help identifying the previous version
+   - The theme changelog doc as supporting context only when it helps confirm what is already documented
 5. Before doing deeper analysis, run a quick access preflight:
    - If `BRICKSPACE_GITHUB_TOKEN` is not already set and a repo-root `.env` file exists, load environment variables from `.env` into the current shell without printing secret values
    - Check whether authenticated GitHub API access is available
@@ -32,7 +32,7 @@ Example request:
    - In cloud environments where `.env` is unavailable, rely on an already-provided environment variable or secret instead
 6. Choose the strongest verification mode that is actually available:
    - `full release verification`: authenticated GitHub release or tag access plus compare history, with tagged source verification
-   - `limited fallback review`: use the docs changelog plus any available synced or current source only when full release access is unavailable
+   - `limited fallback review`: use release metadata plus any available synced or current source only when full release access is unavailable
 7. If no GitHub access and no theme source access are available, stop and report the authentication or permissions blocker clearly.
 8. If you use an MCP tool for GitHub or any other external service:
    - Do not assume tool names.
@@ -73,14 +73,12 @@ Prefer authenticated direct GitHub API access with `BRICKSPACE_GITHUB_TOKEN`. If
 
 If full release verification is unavailable:
 
-1. Use the matching entry in `<theme>/changelog.md` as the fallback release summary if it already exists.
-2. Use any available theme source to verify only the technical details you can actually confirm.
-3. Restrict edits to:
-   - Existing changelog accuracy or formatting
+1. Use any available release metadata and theme source to verify only the technical details you can actually confirm.
+2. Restrict edits to:
    - Existing docs that are clearly outdated based on verified source
    - Obvious doc gaps directly supported by the fallback evidence
-4. Clearly label the run as a limited fallback review in the PR description and final output.
-5. Do not claim that the release was verified against GitHub release history if it was not.
+3. Clearly label the run as a limited fallback review in the PR description and final output.
+4. Do not claim that the release was verified against GitHub release history if it was not.
 
 
 ## Verification
@@ -97,12 +95,11 @@ For full release verification:
 
 For limited fallback review:
 
-1. Use the existing theme changelog entry as the starting point for the release summary.
-2. Load `BRICKSPACE_GITHUB_TOKEN` from repo-root `.env` first if needed and available.
-3. Run `npm run sync` only if `BRICKSPACE_GITHUB_TOKEN` is available after that preflight.
-4. If synced source is unavailable, use any already-present relevant source files in the workspace.
-5. Do not infer previous-version deltas that you cannot verify directly.
-6. Keep the resulting edits conservative and explicitly fallback-scoped.
+1. Load `BRICKSPACE_GITHUB_TOKEN` from repo-root `.env` first if needed and available.
+2. Run `npm run sync` only if `BRICKSPACE_GITHUB_TOKEN` is available after that preflight.
+3. If synced source is unavailable, use any already-present relevant source files in the workspace.
+4. Do not infer previous-version deltas that you cannot verify directly.
+5. Keep the resulting edits conservative and explicitly fallback-scoped.
 
 For optional current-branch verification:
 
@@ -113,20 +110,21 @@ For optional current-branch verification:
 
 ## Review docs coverage
 
-1. Search the repo for existing docs that already cover the affected settings, sections, blocks, guides, or changelog entries.
-2. Prefer updating existing docs over creating duplicates.
-3. Map release changes to doc types before editing:
+1. Search the repo for existing docs that already cover the affected settings, sections, blocks, or guides.
+2. Review the theme changelog doc as context for what the docs repo already says about the release, but do not treat it as the primary source of truth.
+3. Prefer updating existing docs over creating duplicates.
+4. Map release changes to doc types before editing:
    - Schema setting changes -> update the relevant settings, section, or block reference docs
    - New sections or blocks -> create or expand reference docs in the relevant theme area
    - Behavior changes without new schema -> update guides, troubleshooting docs, or feature docs that describe the affected workflow
-   - Release notes and fix-only changes -> add or update the theme changelog entry, and update other docs only if current docs become inaccurate
-4. Add or update the theme changelog entry if the release is not yet documented.
-5. Create a new doc only when the release introduces a customer-facing capability that is not already covered.
-6. Keep all doc changes scoped to verified release impact.
-7. Follow `.cursor/rules/formatting.mdc`.
-8. For theme docs, also follow `.cursor/rules/theme-docs.mdc`.
-9. When editing a changelog file, also follow `.cursor/rules/changelog.mdc`.
-10. In limited fallback review mode, prefer updating existing docs over creating broad new coverage unless the fallback evidence is strong and specific.
+   - Fix-only changes with no documentation impact -> do not create docs just to mirror release notes
+5. Assume the theme changelog is already updated for the release unless the user explicitly says otherwise.
+6. Do not edit changelog files as part of this command unless the user explicitly asks for changelog updates.
+7. Create a new doc only when the release introduces a customer-facing capability that is not already covered.
+8. Keep all doc changes scoped to verified release impact.
+9. Follow `.cursor/rules/formatting.mdc`.
+10. For theme docs, also follow `.cursor/rules/theme-docs.mdc`.
+11. In limited fallback review mode, prefer updating existing docs over creating broad new coverage unless the fallback evidence is strong and specific.
 
 
 ## Write the docs
@@ -154,7 +152,7 @@ For optional current-branch verification:
    - The theme and version reviewed
    - The verification mode used
    - The compare range used for analysis, if available
-   - The release, tag, or changelog entry used as the primary source
+   - The release or tag used as the primary source
    - Any release changes intentionally left undocumented because they were internal-only or not doc-worthy
    - Any gaps, fallbacks, or verification limits encountered
 
@@ -169,10 +167,9 @@ Return a concise checklist with:
   - limited fallback review
 - The release source used:
   - GitHub Release, or
-  - git tag, or
-  - docs changelog fallback, plus any supporting source used
+  - git tag, plus any supporting source used
 - The previous version used for comparison, if available
-- Whether existing docs were updated, a changelog entry was added, or a new doc was created
+- Whether existing non-changelog docs were updated, a new doc was created, or no non-changelog docs changes were needed
 - Whether `npm run sync` was used as supplementary verification
 - Whether a PR was created, or no docs changes were needed
 - The branch created and pushed, if applicable
@@ -186,4 +183,3 @@ Return a concise checklist with:
 
 - [Formatting](mdc:.cursor/rules/formatting.mdc)
 - [Theme docs source of truth](mdc:.cursor/rules/theme-docs.mdc)
-- [Changelog](mdc:.cursor/rules/changelog.mdc)
