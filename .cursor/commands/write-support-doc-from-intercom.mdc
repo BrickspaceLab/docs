@@ -1,0 +1,89 @@
+# Your task
+
+Turn a support conversation plus the user's notes into a verified docs update, then open a pull request.
+
+Example request:
+
+`Write a support doc for "How to hide inventory count" using the answers we provided in this chat - link https://app.intercom.com/.../conversation/215473375092294?view=List`
+
+
+## Workflow
+
+1. Parse the user's request and extract:
+   - The article topic
+   - Any notes already provided in the current chat
+   - The Intercom conversation URL or ID
+   - Any product or theme already mentioned
+2. If the product, theme, or doc area is unclear, ask 1-2 targeted follow-up questions before proceeding.
+   - Ask only what you need in order to place and verify the doc correctly.
+3. Use the Intercom MCP to fetch the full conversation details.
+   - Do not assume tool names.
+   - Read the MCP tool schema before calling it.
+4. Build a working summary that combines:
+   - The customer's problem
+   - The solution or workaround provided
+   - Technical details mentioned in the conversation
+   - The user's notes from the current chat
+
+
+## Verification
+
+Decide whether the request is theme-backed or non-theme.
+
+- Theme-backed topics depend on `slab`, `paper`, `space`, or `keystone` theme behavior, settings, blocks, sections, snippets, or schema-defined options.
+- Non-theme topics usually belong to `general` or `pallet`, unless the solution clearly depends on theme functionality.
+
+If the request is theme-backed:
+
+1. Run `npm run sync`.
+2. Verify the solution against `.src/<theme>/` source files.
+3. Use schema, Liquid, and locale files as the source of truth.
+4. Do not document anything that cannot be confirmed in source.
+
+If the request is non-theme:
+
+1. Skip `npm run sync` unless the topic clearly depends on theme code.
+2. Verify facts against the Intercom conversation and relevant docs or product files already in this repo.
+3. Do not state technical details as facts unless they are supported by the sources you reviewed.
+
+
+## Write the doc
+
+1. Search the repo for an existing article that already covers the topic.
+2. If a strong match exists, update it instead of creating a duplicate.
+3. Otherwise, create a new doc in the best-fit location, such as:
+   - `slab/...`
+   - `paper/...`
+   - `space/...`
+   - `keystone/...`
+   - `pallet/...`
+   - `general/...`
+4. Follow `.cursor/rules/formatting.mdc`.
+5. For theme docs, also follow `.cursor/rules/theme-docs.mdc`.
+6. Keep the article concise, practical, and based only on verified information.
+
+
+## Pull request
+
+1. Create one branch using:
+   - `intercom-<conversation-id>-<short-kebab-topic>`
+2. Commit the docs change with a message that references the Intercom conversation ID.
+3. Push the branch.
+4. Open exactly one PR against `BrickspaceLab/docs`.
+5. Include in the PR description:
+   - A concise summary of the doc change
+   - A link to the Intercom conversation
+   - Any discrepancy between the conversation and the verified source of truth
+
+
+## Final output
+
+Return a concise checklist with:
+
+- The product or doc area selected
+- Whether the run used theme-backed or non-theme verification
+- Whether an existing doc was updated or a new one was created
+- The branch created and pushed
+- The final result:
+  - PR URL, or
+  - a clear remediation message if something blocked completion
