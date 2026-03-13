@@ -1,0 +1,189 @@
+# Your task
+
+Review a specific theme release against the docs repo, draft the required documentation changes, and open a pull request.
+
+Example request:
+
+`Review theme release docs for paper 8.1.0 and draft the docs updates`
+
+
+## Workflow
+
+1. Parse the user's request and extract:
+   - The theme name: `slab`, `paper`, `space`, or `keystone`
+   - The target version
+   - Any scope hints already provided in the current chat
+2. If the theme or version is missing or ambiguous, ask 1-2 targeted follow-up questions before proceeding.
+   - Ask only what you need in order to resolve the correct release.
+3. Map the theme to the upstream private GitHub repo:
+   - `slab` -> `brickspacelab/slab`
+   - `paper` -> `brickspacelab/paper`
+   - `space` -> `brickspacelab/space`
+   - `keystone` -> `brickspacelab/keystone`
+4. Resolve the requested release in this order:
+   - GitHub Release matching the requested version or tag
+   - Matching git tag if no release exists
+   - The docs changelog only as a fallback clue when you need help identifying the previous version
+5. Before doing deeper analysis, run a quick access preflight:
+   - If `BRICKSPACE_GITHUB_TOKEN` is not already set and a repo-root `.env` file exists, load environment variables from `.env` into the current shell without printing secret values
+   - Check whether authenticated GitHub API access is available
+   - Check whether `BRICKSPACE_GITHUB_TOKEN` is available for direct API calls or `npm run sync`
+   - Treat `gh` as optional, not required
+   - In cloud environments where `.env` is unavailable, rely on an already-provided environment variable or secret instead
+6. Choose the strongest verification mode that is actually available:
+   - `full release verification`: authenticated GitHub release or tag access plus compare history, with tagged source verification
+   - `limited fallback review`: use the docs changelog plus any available synced or current source only when full release access is unavailable
+7. If no GitHub access and no theme source access are available, stop and report the authentication or permissions blocker clearly.
+8. If you use an MCP tool for GitHub or any other external service:
+   - Do not assume tool names.
+   - Read the MCP tool schema before calling it.
+9. Build a working release summary that combines:
+   - The release title and release notes, if available
+   - The previous release or previous semver tag
+   - The compare diff between the previous and target release
+   - The changed files most likely to affect docs
+
+
+## Release analysis
+
+Do not rely on `npm run sync` to discover releases or history.
+
+- `npm run sync` only pulls the latest default-branch snapshots into `.src/`.
+- `.src/` snapshots do not include git history, tags, or exact prior releases.
+- Use GitHub release or tag metadata as the source of truth for full release resolution.
+
+Prefer authenticated direct GitHub API access with `BRICKSPACE_GITHUB_TOKEN`. If the token is stored in the repo-root `.env`, load it into the current shell before release lookups or `npm run sync`. `gh` is optional and should only be used if it is already available and authenticated.
+
+1. Resolve the target release:
+   - Prefer `repos/<repo>/releases/tags/<version>`
+   - Fall back to matching tags for the same version
+2. Determine the previous release or semver tag for the same theme.
+3. Use GitHub compare history for `previous...target` to collect:
+   - Commits
+   - Changed files
+   - Patch summaries when available
+4. Download the target tagged source archive or tarball when you need exact release files for verification.
+5. Summarize the release impact with a docs-first lens:
+   - New settings or options
+   - Renamed settings, labels, or schema keys
+   - Removed settings or deprecated behavior
+   - New sections, blocks, templates, snippets, or guides that need coverage
+   - Bug fixes or behavior changes that affect existing docs
+6. Ignore internal-only refactors unless they change documented behavior.
+
+If full release verification is unavailable:
+
+1. Use the matching entry in `<theme>/changelog.md` as the fallback release summary if it already exists.
+2. Use any available theme source to verify only the technical details you can actually confirm.
+3. Restrict edits to:
+   - Existing changelog accuracy or formatting
+   - Existing docs that are clearly outdated based on verified source
+   - Obvious doc gaps directly supported by the fallback evidence
+4. Clearly label the run as a limited fallback review in the PR description and final output.
+5. Do not claim that the release was verified against GitHub release history if it was not.
+
+
+## Verification
+
+Verify all technical details against source before documenting them as facts.
+
+For full release verification:
+
+1. Download or inspect the tagged source snapshot for the target version.
+2. If needed, also inspect the previous tagged snapshot to confirm what changed.
+3. Use schema, Liquid, config, and locale files from the tagged release as the source of truth.
+4. Resolve translated labels from locale files before writing setting names or options.
+5. Do not document anything that cannot be confirmed in release metadata, compare output, or tagged source.
+
+For limited fallback review:
+
+1. Use the existing theme changelog entry as the starting point for the release summary.
+2. Load `BRICKSPACE_GITHUB_TOKEN` from repo-root `.env` first if needed and available.
+3. Run `npm run sync` only if `BRICKSPACE_GITHUB_TOKEN` is available after that preflight.
+4. If synced source is unavailable, use any already-present relevant source files in the workspace.
+5. Do not infer previous-version deltas that you cannot verify directly.
+6. Keep the resulting edits conservative and explicitly fallback-scoped.
+
+For optional current-branch verification:
+
+1. Load `BRICKSPACE_GITHUB_TOKEN` from repo-root `.env` first if needed and available.
+2. Run `npm run sync` only if checking the latest default-branch source helps confirm ongoing behavior and the token is available after preflight.
+3. Treat `.src/<theme>/` as supplementary verification only, not as the release source of truth.
+
+
+## Review docs coverage
+
+1. Search the repo for existing docs that already cover the affected settings, sections, blocks, guides, or changelog entries.
+2. Prefer updating existing docs over creating duplicates.
+3. Map release changes to doc types before editing:
+   - Schema setting changes -> update the relevant settings, section, or block reference docs
+   - New sections or blocks -> create or expand reference docs in the relevant theme area
+   - Behavior changes without new schema -> update guides, troubleshooting docs, or feature docs that describe the affected workflow
+   - Release notes and fix-only changes -> add or update the theme changelog entry, and update other docs only if current docs become inaccurate
+4. Add or update the theme changelog entry if the release is not yet documented.
+5. Create a new doc only when the release introduces a customer-facing capability that is not already covered.
+6. Keep all doc changes scoped to verified release impact.
+7. Follow `.cursor/rules/formatting.mdc`.
+8. For theme docs, also follow `.cursor/rules/theme-docs.mdc`.
+9. When editing a changelog file, also follow `.cursor/rules/changelog.mdc`.
+10. In limited fallback review mode, prefer updating existing docs over creating broad new coverage unless the fallback evidence is strong and specific.
+
+
+## Write the docs
+
+1. Draft only the docs changes supported by the evidence you reviewed.
+2. Keep the writing concise, practical, and merchant-facing.
+3. State conditions and limitations explicitly when the source shows them.
+4. If the release includes changes that are not doc-worthy, omit them from the docs update and mention that choice in the PR summary.
+5. If running in limited fallback review mode, clearly avoid language that implies full release verification.
+6. If you cannot verify whether a change should be documented, stop and report the blocker instead of guessing.
+
+
+## Pull request
+
+1. If the verified release analysis shows that no docs updates are needed:
+   - Do not create a no-op PR.
+   - Return a concise explanation of why no docs changes were required.
+2. Otherwise, create one branch using:
+   - `theme-release-<theme>-<version>`
+3. Commit the docs change with a message that references the theme and version.
+4. Push the branch.
+5. Open exactly one PR against `BrickspaceLab/docs`.
+6. Include in the PR description:
+   - A concise summary of the release-backed doc changes
+   - The theme and version reviewed
+   - The verification mode used
+   - The compare range used for analysis, if available
+   - The release, tag, or changelog entry used as the primary source
+   - Any release changes intentionally left undocumented because they were internal-only or not doc-worthy
+   - Any gaps, fallbacks, or verification limits encountered
+
+
+## Final output
+
+Return a concise checklist with:
+
+- The theme and version reviewed
+- The verification mode used:
+  - full release verification, or
+  - limited fallback review
+- The release source used:
+  - GitHub Release, or
+  - git tag, or
+  - docs changelog fallback, plus any supporting source used
+- The previous version used for comparison, if available
+- Whether existing docs were updated, a changelog entry was added, or a new doc was created
+- Whether `npm run sync` was used as supplementary verification
+- Whether a PR was created, or no docs changes were needed
+- The branch created and pushed, if applicable
+- The final result:
+  - PR URL, or
+  - a no-changes-needed summary, or
+  - a clear remediation message if something blocked completion
+
+
+## References
+
+- [Formatting](mdc:.cursor/rules/formatting.mdc)
+- [Theme docs source of truth](mdc:.cursor/rules/theme-docs.mdc)
+- [Changelog](mdc:.cursor/rules/changelog.mdc)
