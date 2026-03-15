@@ -40,6 +40,7 @@
   * [Custom fields](guides/products/custom-fields.md)
   * [Content drawers](guides/products/content-drawers.md)
   * [Hide out of stock options](guides/products/hide-out-of-stock-variants.md)
+  * [Hide inventory count](guides/products/hide-inventory-count.md)
 * [Collections](guides/collections/README.md)
   * [Customize filters](guides/collections/collection-filters.md)
   * [Tag filtering](guides/collections/collection-tag-filtering.md)
