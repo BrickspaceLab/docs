@@ -10,74 +10,80 @@ Use this section to understand what each setting group controls in **Theme setti
 
 These settings define your store's base color system.
 
-- **Background** (`color_body_background`): Main storefront background and the base color used to generate overlays, shades, and divider tokens.
-- **Foreground** (`color_body_foreground`): Default text color and default border color.
-- **Alternative foreground** (`color_body_foreground_alt`): Alternative text tone used by `--color__text-alt`.
-- **Default Slab preset values:** Background `#ffffff`, Foreground `#000000`, Alternative foreground `#ffffff`.
+| Editor label | Setting ID | What it controls | Default preset value |
+| --- | --- | --- | --- |
+| Background | `color_body_background` | Main storefront background and base for generated overlays, shades, and borders. | `#ffffff` |
+| Foreground | `color_body_foreground` | Default text and default border color. | `#000000` |
+| Alternative foreground | `color_body_foreground_alt` | Alternative text tone (`--color__text-alt`). | `#ffffff` |
 
 
 ### Primary
 
 Primary colors are your main emphasis colors for surfaces and buttons.
 
-- **Background** (`color_primary_background`): Primary surface color.
-- **Foreground** (`color_primary_foreground`): Text and icon color on primary surfaces.
-- **Border** (`color_primary_border`): Border color for primary elements.
-- **Hover background** (`color_primary_background_hover`): Hover background for primary interactive elements.
-- **Hover foreground** (`color_primary_foreground_hover`): Hover text/icon color.
-- **Hover border** (`color_primary_border_hover`): Hover border color.
-- **Default Slab preset values:** Background `#a61313`, Foreground `#ffffff`, Border `#a61313`, Hover background `#611414`, Hover foreground `#ffffff`, Hover border `#611414`.
+| Editor label | Setting ID | What it controls | Default preset value |
+| --- | --- | --- | --- |
+| Background | `color_primary_background` | Primary surface color. | `#a61313` |
+| Foreground | `color_primary_foreground` | Text/icon color on primary surfaces. | `#ffffff` |
+| Border | `color_primary_border` | Border color for primary surfaces. | `#a61313` |
+| Hover background | `color_primary_background_hover` | Hover background for primary buttons/surfaces. | `#611414` |
+| Hover foreground | `color_primary_foreground_hover` | Hover text/icon color on primary surfaces. | `#ffffff` |
+| Hover border | `color_primary_border_hover` | Hover border color on primary surfaces. | `#611414` |
 
 
 ### Secondary
 
 Secondary colors provide a second branded contrast style.
 
-- **Background** (`color_secondary_background`): Secondary surface color.
-- **Foreground** (`color_secondary_foreground`): Text and icon color on secondary surfaces.
-- **Border** (`color_secondary_border`): Border color for secondary elements.
-- **Hover background** (`color_secondary_background_hover`): Hover background for secondary interactive elements.
-- **Hover foreground** (`color_secondary_foreground_hover`): Hover text/icon color.
-- **Hover border** (`color_secondary_border_hover`): Hover border color.
-- **Default Slab preset values:** Background `#000000`, Foreground `#ffffff`, Border `#000000`, Hover background `#ffffff`, Hover foreground `#000000`, Hover border `#000000`.
+| Editor label | Setting ID | What it controls | Default preset value |
+| --- | --- | --- | --- |
+| Background | `color_secondary_background` | Secondary surface color. | `#000000` |
+| Foreground | `color_secondary_foreground` | Text/icon color on secondary surfaces. | `#ffffff` |
+| Border | `color_secondary_border` | Border color for secondary surfaces. | `#000000` |
+| Hover background | `color_secondary_background_hover` | Hover background for secondary buttons/surfaces. | `#ffffff` |
+| Hover foreground | `color_secondary_foreground_hover` | Hover text/icon color on secondary surfaces. | `#000000` |
+| Hover border | `color_secondary_border_hover` | Hover border color on secondary surfaces. | `#000000` |
 
 
 ### Tertiary
 
 Tertiary colors are an additional brand surface style, often softer or more decorative.
 
-- **Background** (`color_tertiary_background`): Tertiary surface color.
-- **Foreground** (`color_tertiary_foreground`): Text and icon color on tertiary surfaces.
-- **Border** (`color_tertiary_border`): Border color for tertiary elements.
-- **Hover background** (`color_tertiary_background_hover`): Hover background for tertiary interactive elements.
-- **Hover foreground** (`color_tertiary_foreground_hover`): Hover text/icon color.
-- **Hover border** (`color_tertiary_border_hover`): Hover border color.
-- **Default Slab preset values:** Background `#f6eadf`, Foreground `#000000`, Border `#f6eadf`, Hover background `#c9beb4`, Hover foreground `#000000`, Hover border `#c9beb4`.
+| Editor label | Setting ID | What it controls | Default preset value |
+| --- | --- | --- | --- |
+| Background | `color_tertiary_background` | Tertiary surface color. | `#f6eadf` |
+| Foreground | `color_tertiary_foreground` | Text/icon color on tertiary surfaces. | `#000000` |
+| Border | `color_tertiary_border` | Border color for tertiary surfaces. | `#f6eadf` |
+| Hover background | `color_tertiary_background_hover` | Hover background for tertiary buttons/surfaces. | `#c9beb4` |
+| Hover foreground | `color_tertiary_foreground_hover` | Hover text/icon color on tertiary surfaces. | `#000000` |
+| Hover border | `color_tertiary_border_hover` | Hover border color on tertiary surfaces. | `#c9beb4` |
 
 
 ### Additional colors and text links
 
 These settings control utility and supporting colors.
 
-- **Error** (`color_error`): Error surface and error text color token.
-- **Success** (`color_success`): Success surface and success text color token.
-- **Mobile bar color** (`color_mobile_bar`): Mobile browser theme color/meta color.
-- **Background overlay** (`color_overlay_background`): Default overlay gradient/background.
-- **Links** (`color_links`): Link text color token (`--color__text-link`).
-- **Default Slab preset values:** Mobile bar `#a61313`, Links `var(--color__text-default)`, Background overlay `linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) 100%)`.
+| Editor label | Setting ID | What it controls | Default preset value |
+| --- | --- | --- | --- |
+| Error | `color_error` | Error surfaces and text utility color. | Theme default (no explicit schema default) |
+| Success | `color_success` | Success surfaces and text utility color. | Theme default (no explicit schema default) |
+| Mobile bar color | `color_mobile_bar` | Mobile browser theme color/meta color. | `#a61313` |
+| Background overlay | `color_overlay_background` | Overlay gradient/background setting used by overlay UI. | `linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) 100%)` |
+| Links | `color_links` | Link text color token (`--color__text-link`). | `var(--color__text-default)` |
 
 
 ### Input state colors (global)
 
 These settings are in **Theme settings > Inputs**, but they feed global color tokens used across the storefront.
 
-- **Background (Default colors)** (`input_default_color_background`): Default input background token.
-- **Border (Default colors)** (`input_default_color_border`): Default input border token.
-- **Background (Hover colors)** (`input_hover_color_background`): Hover input background token.
-- **Border (Hover colors)** (`input_hover_color_border`): Hover input border token.
-- **Background (Focus colors)** (`input_focus_color_background`): Focus input background token.
-- **Border (Focus colors)** (`input_focus_color_border`): Focus input border token.
-- **Schema defaults:** Default background `var(--color__background-body)`, default border `transparent`, hover background `var(--color__background-body)`, hover border `transparent`, focus background `var(--color__background-body)`, focus border `var(--color__border-primary)`.
+| Editor label | Setting ID | What it controls | Schema default |
+| --- | --- | --- | --- |
+| Background (Default colors) | `input_default_color_background` | Input default background token. | `var(--color__background-body)` |
+| Border (Default colors) | `input_default_color_border` | Input default border token. | `transparent` |
+| Background (Hover colors) | `input_hover_color_background` | Input hover background token. | `var(--color__background-body)` |
+| Border (Hover colors) | `input_hover_color_border` | Input hover border token. | `transparent` |
+| Background (Focus colors) | `input_focus_color_background` | Input focus background token. | `var(--color__background-body)` |
+| Border (Focus colors) | `input_focus_color_border` | Input focus border token. | `var(--color__border-primary)` |
 
 
 
