@@ -20,6 +20,7 @@
   * [SEO for Shopify](guides/basics/seo-for-shopify.md)
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
 * [Slab basics](guides/slab-basics/README.md)
+  * [Use colors and schemes](guides/slab-basics/colors-and-schemes.md)
   * [Grid layouts](guides/slab-basics/build-grid-layouts.md)
   * [Overlays and popups](guides/slab-basics/popups-drawers-and-overlays.md)
   * [Quick add and quick edit](guides/slab-basics/quick-add-and-quick-edit.md)
