@@ -104,48 +104,28 @@ Slab computes many color tokens in `theme__styles.liquid` from the global settin
 
 
 
-## How to create and use schemes in section or block schemas
+## How to set up and use schemes
 
-In Slab, schemes are created by adding a `select` setting (typically `color_scheme`) to a section or block schema. Each option returns utility classes that are applied directly to the rendered element.
+In most Slab workflows, you use schemes directly in the theme editor. You do not need to write code to switch between Body, Accent, Shade, Primary, Secondary, or Tertiary styles.
 
-Example from `main__collection.liquid` schema:
+1. Open the section or block you are editing in the theme editor.
+2. Find the **Scheme** setting (sometimes labeled as color scheme in certain blocks).
+3. Select the style you want, such as **Body**, **Accent 1**, **Shade 2**, **Primary**, or **Transparent**.
+4. If needed, set the matching **Border** style so the outline contrast fits the selected scheme.
+5. Repeat for each section or block to build consistent visual hierarchy across the storefront.
 
-```json
-{
-  "type": "select",
-  "id": "color_scheme",
-  "label": "t:general.settings.color_scheme.label",
-  "options": [
-    { "value": "color__bg-body color__default", "label": "t:general.settings.color_scheme.body.label" },
-    { "value": "color__bg-neutral color__default", "label": "t:general.settings.color_scheme.neutral.label" },
-    { "value": "color__bg-overlay-1 color__default", "label": "t:general.settings.color_scheme.accent_1.label" },
-    { "value": "color__bg-overlay-2 color__default", "label": "t:general.settings.color_scheme.accent_2.label" },
-    { "value": "color__bg-overlay-3 color__default", "label": "t:general.settings.color_scheme.accent_3.label" },
-    { "value": "color__bg-shade-1 color__default", "label": "t:general.settings.color_scheme.shade_1.label" },
-    { "value": "color__bg-shade-2 color__default", "label": "t:general.settings.color_scheme.shade_2.label" },
-    { "value": "color__bg-shade-3 color__default", "label": "t:general.settings.color_scheme.shade_3.label" },
-    { "value": "color__bg-primary color__primary", "label": "t:general.settings.color_scheme.primary.label" },
-    { "value": "color__bg-secondary color__secondary", "label": "t:general.settings.color_scheme.secondary.label" },
-    { "value": "color__bg-tertiary color__tertiary", "label": "t:general.settings.color_scheme.tertiary.label" },
-    { "value": "bg-transparent", "label": "t:general.settings.color_scheme.transparent.label" }
-  ],
-  "default": "color__bg-body color__default"
-}
-```
+### Suggested setup order
 
-To apply the selected scheme:
+- Set your global colors first in **Theme settings > Colors**.
+- Apply section-level schemes next for major background areas.
+- Apply block-level schemes after that for cards, overlays, and calls to action.
+- Use **Primary**, **Secondary**, and **Tertiary** for intentional emphasis.
+- Use **Accent** and **Shade** options for softer contrast and layering.
+- Use **Transparent** when you want the parent area to show through.
 
-```liquid
-<section class="{{ section.settings.color_scheme }}">
-  {% content_for 'blocks' %}
-</section>
-```
+### For custom development
 
-The same pattern applies to blocks.
-
-1. Define a block `select` setting (for example `id: "color_scheme"`).
-2. Add the selected classes to the block wrapper (for example `class="{{ block.settings.color_scheme }}"`).
-3. Reuse the same option values so block and section behavior stays consistent.
+If you are building custom sections or blocks, follow the same pattern Slab uses in source: add a `color_scheme` select setting in schema, then apply `{{ section.settings.color_scheme }}` or `{{ block.settings.color_scheme }}` on the wrapper element.
 
 
 
