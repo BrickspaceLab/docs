@@ -1,4 +1,4 @@
-# Set prices
+# Prices
 
 Price settings in Slab let merchants control how amounts are formatted across the storefront. Use **Theme settings > Prices** to choose whether prices show trailing decimals and whether currency notation is included.
 

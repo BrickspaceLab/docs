@@ -1,4 +1,4 @@
-# Set audio
+# Audio
 
 Audio settings in Slab let merchants control whether storefront interface sounds are available. Use **Theme settings > Audio** to enable or disable theme audio effects, then optionally add a customer-facing audio toggle.
 

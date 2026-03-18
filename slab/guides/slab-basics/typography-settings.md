@@ -1,4 +1,4 @@
-# Set typography
+# Typography
 
 Typography settings in Slab let merchants control how text looks across the storefront from one place. Use **Theme settings > Typography** to choose your font families, set readable text scale, and standardize button and heading styles.
 

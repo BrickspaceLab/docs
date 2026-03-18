@@ -1,4 +1,4 @@
-# Set animations and transitions
+# Animations and transitions
 
 Motion settings in Slab let merchants control how movement feels across the storefront. Use **Theme settings > Motion** to choose page and header transitions, then decide whether to keep button and image effects enabled.
 

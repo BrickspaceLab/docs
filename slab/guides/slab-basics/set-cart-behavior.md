@@ -1,4 +1,4 @@
-# Set cart behavior
+# Cart behavior
 
 Cart behavior controls where customers go after they interact with cart actions in your storefront. In Slab, merchants can set different behavior for desktop, mobile, and cart button clicks.
 

@@ -1,4 +1,4 @@
-# Set inputs
+# Inputs
 
 Input settings in Slab let merchants control how form fields look and feel across the storefront. Use **Theme settings > Inputs** to set default, hover, and focus styles so text fields stay consistent and easy to use.
 

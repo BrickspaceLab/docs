@@ -1,4 +1,4 @@
-# Set up your menu
+# Your menu
 
 Your menu helps customers move through the storefront quickly. In Slab, most stores use a dropdown menu for desktop and a menu page inside the mobile drawer.
 
