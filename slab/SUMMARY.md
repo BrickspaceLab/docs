@@ -21,6 +21,7 @@
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
 * [Slab basics](guides/slab-basics/README.md)
   * [Use colors and schemes](guides/slab-basics/colors-and-schemes.md)
+  * [Set header position](guides/slab-basics/header-position-settings.md)
   * [Set animations and transitions](guides/slab-basics/animations-and-transitions-settings.md)
   * [Set inputs](guides/slab-basics/inputs-settings.md)
   * [Set typography](guides/slab-basics/typography-settings.md)
