@@ -2,6 +2,8 @@
 
 Header overlap settings in Slab let merchants place top-of-page content under the header for a layered storefront look. Use **Theme settings > Header** to turn overlap on globally, then fine-tune desktop and mobile overlap spacing.
 
+For position-focused guidance, see [Set header position](header-position-settings.md).
+
 ## How to set up header overlap
 
 Use this order so overlap spacing stays predictable:

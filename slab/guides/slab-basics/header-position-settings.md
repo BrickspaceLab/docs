@@ -2,6 +2,8 @@
 
 Header position settings in Slab let merchants control how the header behaves while customers scroll the storefront. Use **Theme settings > Header** to choose whether the header stays fixed, scrolls with the page, or hides while scrolling.
 
+For overlap-focused setup guidance, see [Set header overlap](header-overlap-settings.md).
+
 ## How to set up header position
 
 Use this order to keep header behavior changes predictable:
