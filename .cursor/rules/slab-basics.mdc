@@ -19,6 +19,7 @@ Use this rule when writing or editing Slab basics documentation.
 
 - Follow the same style used in existing Slab basics guides: short intro, clear section headings, practical steps, and concise tables when settings are involved.
 - Keep instructions task-oriented and easy to scan in the theme editor.
+- Place setup and explanatory content near the top (for example setup steps, suggested order, and behavior explanations), then put detailed settings tables lower in the page.
 - Prefer concrete paths like **Theme settings > Colors** over abstract references.
 - Keep wording consistent with `formatting.mdc` terminology (`customers`, `merchants`, `storefront`, `sections`, `blocks`).
 

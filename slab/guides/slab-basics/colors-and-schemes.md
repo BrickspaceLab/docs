@@ -2,90 +2,6 @@
 
 Slab color styling starts in **Theme settings > Colors**. Merchants pick a small set of global colors, then Slab generates additional color tokens (such as accents, shades, neutral, and plain) that sections and blocks can use through color scheme settings.
 
-## What each global color setting does
-
-Use this section to understand what each setting group controls in **Theme settings > Colors**.
-
-### Base
-
-These settings define your store's base color system.
-
-| Setting | What it controls |
-| --- | --- |
-| Background | Main storefront background and the base used for generated shade/overlay tones. |
-| Foreground | Default text color and default border contrast for base surfaces. |
-
-
-### Schemes
-
-Schemes replace the old primary/secondary/tertiary model.
-
-In **Theme settings > Colors > Schemes**, you can edit **Scheme 1**, **Scheme 2**, and add as many additional schemes as needed.
-
-Each scheme has the same six color fields:
-
-| Setting | How it is applied |
-| --- | --- |
-| Background | Main background color for any section or block using that scheme. |
-| Foreground | Text/icon color used on top of that scheme background. |
-| Border | Default border color for elements using that scheme. |
-| Hover background | Hover background for buttons and interactive elements in that scheme. |
-| Hover foreground | Hover text/icon color for interactive elements in that scheme. |
-| Hover border | Hover border color for interactive elements in that scheme. |
-
-Important: editing a scheme updates every section and block that uses that scheme.
-
-
-### Utility
-
-These settings control utility and supporting colors.
-
-| Setting | What it controls |
-| --- | --- |
-| Error | Error surfaces and error feedback color. |
-| Success | Success surfaces and success feedback color. |
-| Mobile bar | Browser UI color on supported mobile browsers. |
-| Overlay background | Background shown behind overlays and popups. |
-
-
-### Input state colors (global)
-
-These settings are in **Theme settings > Inputs**, but they feed global color tokens used across the storefront.
-
-| Setting | What it controls |
-| --- | --- |
-| Background (Default colors) | Default input background color. |
-| Border (Default colors) | Default input border color. |
-| Background (Hover colors) | Input background color on hover. |
-| Border (Hover colors) | Input border color on hover. |
-| Background (Focus colors) | Input background color on focus. |
-| Border (Focus colors) | Input border color on focus. |
-
-
-
-## How Slab creates color variations
-
-After you choose your global colors, Slab automatically creates extra color variations so sections and blocks stay visually consistent.
-
-### What these generated styles mean
-
-- **Accent 1/2/3:** Layered overlay tones used for depth and emphasis.
-- **Shade 1/2/3:** Lighter or darker background steps for subtle contrast.
-- **Main:** The main emphasis style for a component, based on the selected scheme's core colors.
-- **Plain:** A softer, low-emphasis surface based on the body background.
-- **Neutral:** A balanced surface tone that sits between body and brand colors.
-
-### What to expect in your storefront
-
-- If your body background is light, Slab creates darker overlays and shade tones.
-- If your body background is dark, Slab creates lighter overlays and shade tones.
-- Neutral and plain are auto-generated from your chosen body and brand colors.
-- Any section or block using a scheme will inherit that scheme's background, text, border, and hover behavior.
-
-Developer note: these generated values are calculated in `theme__styles.liquid` and exposed as `--color__*` variables used by color utility classes.
-
-
-
 ## How to set up and use schemes
 
 In most Slab workflows, you use schemes directly in the theme editor. You do not need to write code to switch scheme colors.
@@ -112,7 +28,26 @@ In most Slab workflows, you use schemes directly in the theme editor. You do not
 
 If you are building custom sections or blocks, follow the same pattern Slab uses in source: add a `color_scheme` select setting in schema, then apply `{{ section.settings.color_scheme }}` or `{{ block.settings.color_scheme }}` on the wrapper element.
 
+## How Slab creates color variations
 
+After you choose your global colors, Slab automatically creates extra color variations so sections and blocks stay visually consistent.
+
+### What these generated styles mean
+
+- **Accent 1/2/3:** Layered overlay tones used for depth and emphasis.
+- **Shade 1/2/3:** Lighter or darker background steps for subtle contrast.
+- **Main:** The main emphasis style for a component, based on the selected scheme's core colors.
+- **Plain:** A softer, low-emphasis surface based on the body background.
+- **Neutral:** A balanced surface tone that sits between body and brand colors.
+
+### What to expect in your storefront
+
+- If your body background is light, Slab creates darker overlays and shade tones.
+- If your body background is dark, Slab creates lighter overlays and shade tones.
+- Neutral and plain are auto-generated from your chosen body and brand colors.
+- Any section or block using a scheme will inherit that scheme's background, text, border, and hover behavior.
+
+Developer note: these generated values are calculated in `theme__styles.liquid` and exposed as `--color__*` variables used by color utility classes.
 
 ## Common scheme and border options
 
@@ -128,3 +63,59 @@ Developer note: border options commonly map to these utility classes in Slab sou
 - Strong -> `color__border-selected-1`
 - Scheme-based border options -> scheme-specific border utility classes
 - None -> `border-0!`
+
+## What each global color setting does
+
+Use this section to understand what each setting group controls in **Theme settings > Colors**.
+
+### Base
+
+These settings define your store's base color system.
+
+| Setting | What it controls |
+| --- | --- |
+| Background | Main storefront background and the base used for generated shade/overlay tones. |
+| Foreground | Default text color and default border contrast for base surfaces. |
+
+### Schemes
+
+Schemes replace the old primary/secondary/tertiary model.
+
+In **Theme settings > Colors > Schemes**, you can edit **Scheme 1**, **Scheme 2**, and add as many additional schemes as needed.
+
+Each scheme has the same six color fields:
+
+| Setting | How it is applied |
+| --- | --- |
+| Background | Main background color for any section or block using that scheme. |
+| Foreground | Text/icon color used on top of that scheme background. |
+| Border | Default border color for elements using that scheme. |
+| Hover background | Hover background for buttons and interactive elements in that scheme. |
+| Hover foreground | Hover text/icon color for interactive elements in that scheme. |
+| Hover border | Hover border color for interactive elements in that scheme. |
+
+Important: editing a scheme updates every section and block that uses that scheme.
+
+### Utility
+
+These settings control utility and supporting colors.
+
+| Setting | What it controls |
+| --- | --- |
+| Error | Error surfaces and error feedback color. |
+| Success | Success surfaces and success feedback color. |
+| Mobile bar | Browser UI color on supported mobile browsers. |
+| Overlay background | Background shown behind overlays and popups. |
+
+### Input state colors (global)
+
+These settings are in **Theme settings > Inputs**, but they feed global color tokens used across the storefront.
+
+| Setting | What it controls |
+| --- | --- |
+| Background (Default colors) | Default input background color. |
+| Border (Default colors) | Default input border color. |
+| Background (Hover colors) | Input background color on hover. |
+| Border (Hover colors) | Input border color on hover. |
+| Background (Focus colors) | Input background color on focus. |
+| Border (Focus colors) | Input border color on focus. |
