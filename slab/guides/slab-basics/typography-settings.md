@@ -2,6 +2,26 @@
 
 Typography settings in Slab let merchants control how text looks across the storefront from one place. Use **Theme settings > Typography** to choose your font families, set readable text scale, and standardize button and heading styles.
 
+## How to set up typography
+
+Use this order to keep typography changes predictable in the storefront.
+
+1. Open **Theme settings > Typography**.
+2. In **Fonts**, choose your four base font families first: Body, Heading, Subheading, and Accent.
+3. In **Sizes**, set **Base font size** first, then adjust **Scale ratio** until heading contrast looks right.
+4. In **Body**, set line height for paragraph readability.
+5. In **Button**, choose font, line height, letter spacing, and case for your default call-to-action style.
+6. In **Heading 1** through **Heading 6**, set each level to match your brand hierarchy.
+7. In **Styles**, set **Icon style** and **Text separator** so icon and text treatments stay consistent.
+
+## Suggested setup defaults for most stores
+
+- Keep **Base font size** between 14 and 16 px for readable storefront text.
+- Start **Scale ratio** around 110% to 120% for clear heading steps.
+- Use **Normal** line height for body and buttons unless your chosen font needs more or less spacing.
+- Limit uppercase to selected heading or button levels so customers can scan text quickly.
+- Keep one consistent **Icon style** across the entire storefront.
+
 ## What each typography setting controls
 
 ### Fonts
@@ -63,23 +83,3 @@ Each heading level has the same four controls.
 | Text separator | Separator symbol used between text elements in supported buttons. | Dot (`•`), Line (`|`) | Dot (`•`) |
 
 
-## How to set up typography
-
-Use this order to keep typography changes predictable in the storefront.
-
-1. Open **Theme settings > Typography**.
-2. In **Fonts**, choose your four base font families first: Body, Heading, Subheading, and Accent.
-3. In **Sizes**, set **Base font size** first, then adjust **Scale ratio** until heading contrast looks right.
-4. In **Body**, set line height for paragraph readability.
-5. In **Button**, choose font, line height, letter spacing, and case for your default call-to-action style.
-6. In **Heading 1** through **Heading 6**, set each level to match your brand hierarchy.
-7. In **Styles**, set **Icon style** and **Text separator** so icon and text treatments stay consistent.
-
-
-## Suggested setup defaults for most stores
-
-- Keep **Base font size** between 14 and 16 px for readable storefront text.
-- Start **Scale ratio** around 110% to 120% for clear heading steps.
-- Use **Normal** line height for body and buttons unless your chosen font needs more or less spacing.
-- Limit uppercase to selected heading or button levels so customers can scan text quickly.
-- Keep one consistent **Icon style** across the entire storefront.
