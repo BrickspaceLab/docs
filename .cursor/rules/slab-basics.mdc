@@ -25,6 +25,11 @@ Use this rule when writing or editing Slab basics documentation.
 
 ## Source-of-truth checks
 
+- Before verifying Slab settings, sync source from the theme repos.
+- If `BRICKSPACE_GITHUB_TOKEN` is stored in `.env`, load it in the same shell session before syncing: `set -a && source .env && set +a`.
+- Then run `npm run sync` from the repo root so `.src/slab/` is up to date.
+- If sync fails with `Operation not permitted` during clone, rerun the sync command with elevated permissions (outside sandbox) before diagnosing token access.
+- If sync fails, clearly state why (for example missing token or permissions) and avoid claiming verification against `.src/slab/`.
 - Follow `theme-docs.mdc` before publishing: verify behavior in `.src/slab/` source files.
 - Confirm setting names, defaults, ranges, and option values from schema and locale files instead of inferring.
 - If a claim cannot be confirmed from source, remove it or rewrite it as clearly scoped guidance.
