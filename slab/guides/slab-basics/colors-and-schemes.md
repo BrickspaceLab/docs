@@ -1,4 +1,4 @@
-# Colors and schemes
+# Colors
 
 Slab color styling starts in **Theme settings > Colors**. Merchants pick a small set of global colors, then Slab generates additional color tokens (such as accents, shades, neutral, and plain) that sections and blocks can use through color scheme settings.
 
