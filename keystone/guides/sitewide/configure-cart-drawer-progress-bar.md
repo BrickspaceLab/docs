@@ -18,17 +18,6 @@ Use the cart drawer progress bar to show customers how close they are to a cart 
 | Calculation | Which cart amount is used for progress: subtotal or total. | Use **Subtotal** to compare against the original subtotal amount. |
 | Success message | The message shown when the threshold is reached. | `You unlocked free shipping.` |
 
-## How the progress amount is calculated
-
-- **Subtotal** uses the cart `original_total_price`.
-- **Total** uses the cart `total_price`.
-- The bar fills as customers add products, then switches to the success message once the goal is reached.
-
-## Message behavior
-
-- The in-progress line uses Keystone locale text keys (`info.cart_bar_pre_text` and `info.cart_bar_text`) and automatically inserts the remaining amount between them.
-- The **Success message** field controls only the completed-state message when customers pass the threshold.
-
 ## Where to edit progress bar text
 
 - **Completed message**: In the theme editor, open **Cart drawer > Progress bar** and edit **Success message**.
