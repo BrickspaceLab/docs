@@ -14,27 +14,22 @@ Use the cart drawer progress bar to show customers how close they are to a cart 
 
 | Setting | What it controls | Example |
 | --- | --- | --- |
-| Threshold | The cart amount customers need to reach before the bar is complete. | Set `100` to show a goal of $100. |
-| Calculation | Which cart value is used to measure progress: subtotal or total. | Use subtotal to ignore shipping and taxes. |
+| Threshold | The minimum amount customers need to reach before the bar is complete. Enter a number only (no currency symbol). | Set `100` to show a $100 goal. |
+| Calculation | Which cart amount is used for progress: subtotal or total. | Use **Subtotal** to compare against the original subtotal amount. |
 | Success message | The message shown when the threshold is reached. | `You unlocked free shipping.` |
 
 ## How the progress amount is calculated
 
-- **Subtotal** uses line items after product discounts and before shipping and taxes.
-- **Total** uses the final cart amount that includes extra charges like shipping and taxes.
+- **Subtotal** uses the cart `original_total_price`.
+- **Total** uses the cart `total_price`.
 - The bar fills as customers add products, then switches to the success message once the goal is reached.
 
-## Message examples
+## Message behavior
 
-- `You are {{ amount }} away from free shipping.`
-- `Add {{ amount }} more to unlock a free gift.`
-- `Nice work - your cart qualified for free shipping.`
+- The in-progress line uses Keystone locale text keys (`info.cart_bar_pre_text` and `info.cart_bar_text`) and automatically inserts the remaining amount between them.
+- The **Success message** field controls only the completed-state message when customers pass the threshold.
 
-If you use dynamic amount text in your message, confirm your store translation or app logic supports the same placeholder format.
+## Where to edit progress bar text
 
-## Recommended testing
-
-1. Add products below the threshold and confirm the remaining amount updates.
-2. Add enough products to cross the threshold and confirm the success message appears.
-3. Remove an item and confirm the bar returns to the in-progress state.
-4. Check behavior on both desktop and mobile cart drawer layouts.
+- **Completed message**: In the theme editor, open **Cart drawer > Progress bar** and edit **Success message**.
+- **In-progress text**: In Shopify admin, open **Online Store > Themes > ... > Edit default theme content**, then search for the cart bar text strings (for example, `You're` and `away from free shipping`) and update them.
