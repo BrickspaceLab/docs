@@ -50,6 +50,7 @@
   * [Device specific visibility](guides/sitewide/device-specific-visibility.md)
   * [Discount popups](guides/sitewide/discount-popups.md)
   * [Quick re‑order](guides/sitewide/quick-reorder.md)
+  * [Configure cart drawer progress bar](guides/sitewide/configure-cart-drawer-progress-bar.md)
   * [Design your menu](guides/sitewide/designing-your-menu.md)
   * [Article table of contents](guides/sitewide/article-table-of-contents.md)
   * [Blog tag filtering](guides/sitewide/blog-tag-filtering.md)
