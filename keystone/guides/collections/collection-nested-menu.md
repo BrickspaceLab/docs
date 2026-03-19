@@ -27,3 +27,36 @@ In this example clicking "Elastic" would navigate to a new page loading the "Ela
    * It should look something like this:
      * `Tops,/collections/tops&Bags,/collections/bags&Shorts,/collections/short`
 4. Click **Save**
+
+\
+**Further explanation:**&#x20;
+
+Enter your sub-collection links in this format:
+
+`Label,/collections/handle&Label,/collections/handle&Label,/collections/handle`
+
+* `Label` = the text shown to customers (example: `Tops`)
+
+_Example:_ **Sibling Products,/**
+
+* `/collections/handle` = the link destination. You can find your collection handle within the collection your trying to link to. Reference the screen shot below.&#x20;
+
+_Example:_ **Collections/sibling-products**
+
+<details>
+
+<summary>S<em>creen shot of where to find your collection handle</em></summary>
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+
+
+</details>
+
+* `&` = separates each menu item
+
+_Full example:_ **Sibling Products,/collections/sibling-products**
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
