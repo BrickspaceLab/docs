@@ -33,17 +33,6 @@ Example:
 If you want the video to scale to the full width of its container, wrap each embed in a `.video-wrapper` element and add the CSS below.
 
 ```html
-<div class="video-wrapper">
-  <!-- Paste your YouTube embed code here -->
-  <iframe
-    src="https://www.youtube.com/embed/ALiyPTbL8Rg?si=rQKonpMMXeYSjJGC"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-</div>
-
 <style>
   .video-wrapper {
     position: relative;
@@ -62,6 +51,17 @@ If you want the video to scale to the full width of its container, wrap each emb
     border: 0;
   }
 </style>
+
+<div class="video-wrapper">
+  <!-- Paste your YouTube embed code here -->
+  <iframe
+    src="https://www.youtube.com/embed/ALiyPTbL8Rg?si=rQKonpMMXeYSjJGC"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
 ```
 
 > Support note: If the responsive styling does not apply, place the `<style>` block before the first `<div class="video-wrapper">` block in your Custom Liquid content.
