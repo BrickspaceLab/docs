@@ -48,6 +48,7 @@
 * [Sitewide](guides/sitewide/README.md)
   * [Use color and option swatches](guides/sitewide/using-color-and-option-swatches.md)
   * [Use device-specific visibility](guides/sitewide/using-device-specific-visibility.md)
+  * [Embed YouTube videos](guides/sitewide/embed-youtube-videos.md)
   * [Dynamic discount popups](guides/sitewide/dynamic-discount-popups.md)
   * [Blog tag filtering](guides/sitewide/blog-tag-filtering.md)
   * [Article table of contents](guides/sitewide/article-table-of-contents.md)

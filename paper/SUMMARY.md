@@ -48,6 +48,7 @@
   * [Collection blocks](guides/collections/collection-blocks.md)
 * [Sitewide](guides/sitewide/README.md)
   * [Use device-specific visibility](guides/sitewide/using-device-specific-visibility.md)
+  * [Embed YouTube videos](guides/sitewide/embed-youtube-videos.md)
   * [Dynamic discount popups](guides/sitewide/dynamic-discount-popups.md)
   * [Create a Mapbox API key](guides/sitewide/creating-a-mapbox-api-key.md)
   * [Design your menu](guides/sitewide/designing-your-menu.md)

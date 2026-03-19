@@ -48,6 +48,7 @@
 * [Sitewide](guides/sitewide/README.md)
   * [Color and option swatches](guides/sitewide/color-and-option-swatches.md)
   * [Device specific visibility](guides/sitewide/device-specific-visibility.md)
+  * [Embed YouTube videos](guides/sitewide/embed-youtube-videos.md)
   * [Discount popups](guides/sitewide/discount-popups.md)
   * [Quick re‑order](guides/sitewide/quick-reorder.md)
   * [Configure cart drawer progress bar](guides/sitewide/configure-cart-drawer-progress-bar.md)
