@@ -32,7 +32,7 @@ Create metafield definition
 4. Ensure the namespace and key field is `custom.badge`
 5. Select Type and choose "Single line text"
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="287"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="287"><figcaption></figcaption></figure>
 
 Update metafield
 
