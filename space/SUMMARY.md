@@ -52,6 +52,7 @@
   * [Blog tag filtering](guides/sitewide/blog-tag-filtering.md)
   * [Article table of contents](guides/sitewide/article-table-of-contents.md)
   * [Search results](guides/sitewide/search-results.md)
+  * [Add login to mobile menu drawer](guides/sitewide/add-login-to-mobile-menu-drawer.md)
 
 ## Sections
 
