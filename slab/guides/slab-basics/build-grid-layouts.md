@@ -8,7 +8,7 @@ Slab offers two main layout blocks for arranging content: **Default grid** and *
 
 The Default grid block creates a responsive grid of equal-width columns. Use it for product grids, image galleries, card layouts, or any content that benefits from a uniform grid structure.
 
-<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;block=template--18647337730099__section_eLU93j__layout_grid_PnDfC3(Theme 3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;block=template--18647337730099__section_eLU93j__layout_grid_PnDfC3(Theme 3).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Default grid**
 
@@ -20,7 +20,7 @@ The Default grid block creates a responsive grid of equal-width columns. Use it 
 
 The Flex grid block arranges child blocks in a row or column with flexible alignment and spacing. Use it for side-by-side layouts, stacked sections, hero layouts, or any content that needs flexible widths and alignment.
 
-<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;block=template--18647337730099__section_eLU93j__layout_grid_PnDfC3(Theme 3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;block=template--18647337730099__section_eLU93j__layout_grid_PnDfC3(Theme 3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Flex grid**
 
@@ -41,7 +41,7 @@ Using the Flex grid you can create many unique layouts. Here are a few examples 
 
 Use this layout for content on one side that stays visible while scrolling.
 
-<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheade.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_section=template--18647337730099__section_eLU93j&#x26;category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheade.png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Vertical alignment** to **Stretch**
@@ -54,7 +54,7 @@ Use this layout for content on one side that stays visible while scrolling.
 
 Use this layout for a navigation or header bar.
 
-<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__sect (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__sect (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** disable **Enable block wrap**
@@ -69,7 +69,7 @@ Use this layout for a navigation or header bar.
 
 Use this layout for editorial-style layouts.
 
-<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Horizontal alignment** to **Between**
@@ -82,7 +82,7 @@ Use this layout for editorial-style layouts.
 
 Use this layout for editorial-style layouts.
 
-<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FHeader%3Ftheme_id%3D141866205235%26first_setting_id%3Dheader_position&#x26;section=template--18647337730099__ (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Vertical alignment** to **End**
