@@ -38,7 +38,6 @@
     * [Quick add and quick edit](guides/slab-basics/conversion-and-feedback/quick-add-and-quick-edit.md)
     * [Success and error overlays](guides/slab-basics/conversion-and-feedback/success-and-error-overlays.md)
 * [Collection](guides/collection/README.md)
-  * [Filter and sort](guides/collection/filter-and-sort.md)
   * [Adjust filters](guides/collection/adjust-filters.md)
 * [Product](guides/product/README.md)
   * [Display linked products](guides/product/display-linked-products.md)
