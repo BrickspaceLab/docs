@@ -12,7 +12,7 @@ Each overlay block can be connected to one of Slab's built-in overlay actions, s
 
 The Drawer block opens in a sliding panel and can be positioned on the left or right side, or centered at the top or bottom.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_NxEii.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_NxEii.png" alt=""><figcaption></figcaption></figure>
 
 **When to use Drawer**
 
@@ -26,7 +26,7 @@ The Drawer block opens in a sliding panel and can be positioned on the left or r
 
 The Sidebar block also opens from the left or right side of the screen, but it behaves more like a side panel. In Slab's overlay logic, sidebars stay independent from the body scroll locking used by popups and drawers.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (1).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Sidebar**
 
@@ -40,7 +40,7 @@ The Sidebar block also opens from the left or right side of the screen, but it b
 
 The Popup block opens as a centered modal overlay. It supports an optional **Enable full background** setting, which makes it more suitable for takeover-style experiences.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (2).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Popup**
 
@@ -54,7 +54,7 @@ The Popup block opens as a centered modal overlay. It supports an optional **Ena
 
 The Alert block is the lightest overlay type. It appears in a corner of the screen and supports optional auto-close timing.
 
-<figure><img src="../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/admin.shopify.com_store_slabdemostore4_themes_141866205235_editor_category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FLayout%3Ftheme_id%3D141866205235%26first_setting_id%3Dx_margin&#x26;block=template--18647337730099__section_N (4).png" alt=""><figcaption></figcaption></figure>
 
 **When to use Alert**
 

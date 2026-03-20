@@ -1,2 +1,0 @@
-# Sibling and linked products
-
