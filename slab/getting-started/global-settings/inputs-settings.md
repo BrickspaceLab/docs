@@ -1,64 +1,96 @@
 # Inputs
 
-Input settings in Slab let merchants control how form fields look and feel across the storefront. Use **Theme settings > Inputs** to set default, hover, and focus styles so text fields stay consistent and easy to use.
+Input settings in **Theme settings > Inputs** control default, hover, and focus styles for form fields across the storefront, including colors, horizontal padding, and whether the border wraps the field or appears on the bottom edge only.
 
-## How to set up inputs
 
-Use this order to make input styling changes predictable:
 
-1. Open **Theme settings > Inputs**.
-2. In **Default colors**, set input **Background** and **Border** for the resting state.
-3. In **Hover colors**, set **Background** and **Border** for pointer hover.
-4. In **Focus colors**, set **Background** and **Border** for active fields.
-5. In **Spacing**, choose whether to keep **Enable horizontal padding** turned on.
-6. In **Style**, choose **Border position** as **Full** or **Bottom**.
-7. Optional: open **Theme settings > Borders** to adjust input border width and input radius.
+## How to change theme inputs
 
-## Suggested setup defaults for most stores
+{% stepper %}
+{% step %}
+### Set default colors
 
-- Start with **Body** for input backgrounds, then move to **Shade 1** if fields need more contrast.
-- Keep resting borders on **Standard** or **Subtle** so forms do not overpower page content.
-- Use **Primary** or **Strong** for focus borders so customers can clearly see the active field.
-- Keep **Enable horizontal padding** on for better readability in text inputs.
-- Use **Full** border position unless your brand style prefers an underline-only input.
+* Open **Theme settings > Inputs**.
+* Under **Default colors**, choose **Base** or **Custom** for **Type**.
+* Set **Background** (Body, Shade 1–3, or Transparent when **Type** is **Base**).
+* Set **Border**: with **Base**, choose **Subtle**, **Strong**, or **None**; with **Custom**, pick a color **Scheme** for the border.
+{% endstep %}
 
-## What each inputs setting controls
+{% step %}
+### Set hover and focus colors
+
+* Under **Hover colors**, set **Type**, **Background**, and **Border** the same way.
+* Under **Focus colors**, set **Type**, **Background**, and **Border** for the active field.
+{% endstep %}
+
+{% step %}
+### Set spacing and border style
+
+* Under **Spacing**, toggle **Enable horizontal padding** if you want extra space inside text fields.
+* Under **Style**, set **Border position** to **Full** or **Bottom**.
+{% endstep %}
+
+{% step %}
+### Optional: align with theme borders
+
+* Open **Theme settings > Borders** to adjust **Input radius** and **Input width** so fields match buttons and cards.
+{% endstep %}
+{% endstepper %}
+
+
+
+### Notes on inputs
+
+* **Type** chooses **Base** generated colors or **Custom** scheme-based borders.
+* Focus **Border** on **Base** defaults to **Strong** so the active field is easy to see.
+* **Bottom** **Border position** suits minimal or underline-style forms.
+
+
+
+## Input settings
+
+
 
 ### Default colors
 
-These settings control how inputs look before hover or focus.
+| Setting     | What it controls                                                                 |
+| ----------- | -------------------------------------------------------------------------------- |
+| Type        | **Base** uses theme-generated colors; **Custom** enables a scheme for borders. |
+| Background  | Resting background: Body, Shade 1–3, or Transparent.                           |
+| Border      | Resting border: Subtle, Strong, or None (**Base**), or a Scheme (**Custom**).   |
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Background | Input background color in the default state. | Body, Shade 1, Shade 2, Shade 3, Transparent | Body |
-| Border | Input border color in the default state. | Standard, Subtle, Strong, Primary, Secondary, Tertiary, None | None |
+
 
 ### Hover colors
 
-These settings control how inputs look when a customer hovers a field.
+| Setting     | What it controls                                                                 |
+| ----------- | -------------------------------------------------------------------------------- |
+| Type        | **Base** or **Custom** for hover, same pattern as default.                      |
+| Background  | Hover background: Body, Shade 1–3, or Transparent.                              |
+| Border      | Hover border: Subtle, Strong, or None (**Base**), or a Scheme (**Custom**).       |
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Background | Input background color on hover. | Body, Shade 1, Shade 2, Shade 3, Transparent | Body |
-| Border | Input border color on hover. | Standard, Subtle, Strong, Primary, Secondary, Tertiary, None | None |
+
 
 ### Focus colors
 
-These settings control how inputs look when a field is active.
+| Setting     | What it controls                                                                 |
+| ----------- | -------------------------------------------------------------------------------- |
+| Type        | **Base** or **Custom** for the focused field.                                   |
+| Background  | Focus background: Body, Shade 1–3, or Transparent.                              |
+| Border      | Focus border: Subtle, Strong, or None (**Base**), or a Scheme (**Custom**). Default **Strong** on **Base**. |
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Background | Input background color on focus. | Body, Shade 1, Shade 2, Shade 3, Transparent | Body |
-| Border | Input border color on focus. | Standard, Subtle, Strong, Primary, Secondary, Tertiary | Primary |
+
 
 ### Spacing
 
-| Setting | What it controls | Default |
-| --- | --- | --- |
-| Enable horizontal padding | Adds left and right internal spacing inside input fields. | Enabled |
+| Setting                   | What it controls                                      |
+| ------------------------- | ----------------------------------------------------- |
+| Enable horizontal padding | Adds left and right padding inside inputs when on.    |
+
+
 
 ### Style
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Border position | Shows borders on all sides or only on the bottom edge of inputs. | Full, Bottom | Full |
+| Setting          | What it controls                                              |
+| ---------------- | ------------------------------------------------------------- |
+| Border position  | **Full** (all sides) or **Bottom** (underline-style) only.     |

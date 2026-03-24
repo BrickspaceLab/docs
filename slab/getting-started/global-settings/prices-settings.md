@@ -1,28 +1,44 @@
 # Prices
 
-Price settings in Slab let merchants control how amounts are formatted across the storefront. Use **Theme settings > Prices** to choose whether prices show trailing decimals and whether currency notation is included.
+Price settings in **Theme settings > Prices** control whether formatted prices show trailing zeros and whether currency notation appears.
 
-## How to set up prices
 
-Use this order so price formatting stays consistent:
 
-1. Open **Theme settings > Prices**.
-2. Set **Show trailing zeros** based on how you want whole-number prices displayed.
-3. Set **Show currency symbol** based on whether your storefront should include currency notation in formatted prices.
-4. Preview product and cart templates to confirm regular and discounted prices match your preferred format.
+## How to change theme prices
 
-## Suggested setup defaults for most stores
+{% stepper %}
+{% step %}
+### Open price settings
 
-- Keep **Show trailing zeros** on for a traditional price format.
-- Turn **Show trailing zeros** off for cleaner whole-number display (for example, `$25` instead of `$25.00`).
-- Keep **Show currency symbol** off if your storefront uses a single obvious currency context.
-- Turn **Show currency symbol** on when customers may need clearer currency context.
+* Open **Theme settings > Prices**.
+{% endstep %}
 
-## What each prices setting controls
+{% step %}
+### Set formatting
 
-### Prices
+* Use **Show trailing zeros** to keep or hide decimals on whole amounts (for example, `$25.00` vs `$25`).
+* Use **Show currency symbol** to show or hide currency notation in formatted prices.
+{% endstep %}
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Show trailing zeros | Shows or hides trailing decimals (for example, `.00`) in formatted prices. | Enabled, Disabled | Enabled |
-| Show currency symbol | Shows or hides currency notation in formatted prices. | Enabled, Disabled | Disabled |
+{% step %}
+### Preview the storefront
+
+* Review product cards, product pages, cart, and featured prices.
+{% endstep %}
+{% endstepper %}
+
+
+
+### Notes on prices
+
+* **Show trailing zeros** changes how whole-number prices are displayed where this setting applies.
+* **Show currency symbol** helps when customers need explicit currency context.
+
+
+
+## Price settings
+
+| Setting               | What it controls                                                                 |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Show trailing zeros   | Keeps trailing decimals such as `.00` on whole amounts when enabled. Default on. |
+| Show currency symbol  | Shows currency notation in formatted prices when enabled. Default off.          |

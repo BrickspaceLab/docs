@@ -1,85 +1,116 @@
 # Typography
 
-Typography settings in Slab let merchants control how text looks across the storefront from one place. Use **Theme settings > Typography** to choose your font families, set readable text scale, and standardize button and heading styles.
+Typography settings in **Theme settings > Typography** let merchants choose font families, set readable type scale, and standardize body, button, heading, icon, and separator styles across the storefront.
 
-## How to set up typography
 
-Use this order to keep typography changes predictable in the storefront.
 
-1. Open **Theme settings > Typography**.
-2. In **Fonts**, choose your four base font families first: Body, Heading, Subheading, and Accent.
-3. In **Sizes**, set **Base font size** first, then adjust **Scale ratio** until heading contrast looks right.
-4. In **Body**, set line height for paragraph readability.
-5. In **Button**, choose font, line height, letter spacing, and case for your default call-to-action style.
-6. In **Heading 1** through **Heading 6**, set each level to match your brand hierarchy.
-7. In **Styles**, set **Icon style** and **Text separator** so icon and text treatments stay consistent.
+## How to change theme typography
 
-## Suggested setup defaults for most stores
+{% stepper %}
+{% step %}
+### Choose fonts
 
-- Keep **Base font size** between 14 and 16 px for readable storefront text.
-- Start **Scale ratio** around 110% to 120% for clear heading steps.
-- Use **Normal** line height for body and buttons unless your chosen font needs more or less spacing.
-- Limit uppercase to selected heading or button levels so customers can scan text quickly.
-- Keep one consistent **Icon style** across the entire storefront.
+* Open **Theme settings > Typography**.
+* Under **Fonts**, set **Body**, **Heading**, **Subheading**, and **Accent**.
+{% endstep %}
 
-## What each typography setting controls
+{% step %}
+### Set scale
+
+* Under **Sizes**, set **Base font size** and **Scale ratio** so body and headings feel balanced.
+{% endstep %}
+
+{% step %}
+### Style body and buttons
+
+* Under **Body**, set **Line height**.
+* Under **Button**, set **Font**, **Line height**, **Letter spacing**, and **Case**.
+{% endstep %}
+
+{% step %}
+### Style headings
+
+* Open **Heading 1** through **Heading 6**.
+* For each level, set **Font**, **Line height**, **Letter spacing**, and **Case**.
+{% endstep %}
+
+{% step %}
+### Set icon and separator style
+
+* Under **Styles**, choose **Icon style** and **Text separator**.
+{% endstep %}
+{% endstepper %}
+
+
+
+### Notes on typography
+
+* **Base font size** scales type-driven spacing across the theme—preview several templates after changes.
+* **Scale ratio** controls how much each heading step grows (100–135%).
+* **Letter spacing** options are labeled **Tight**, **Normal**, and **Loose** in the editor.
+* **Text separator** appears between text segments in supported buttons (dot vs line).
+
+
+
+## Typography settings
+
+
 
 ### Fonts
 
-Choose the core font families used across your storefront.
+| Setting     | What it controls                          |
+| ----------- | ----------------------------------------- |
+| Body        | Default paragraph and supporting text.    |
+| Heading     | Default heading font family.              |
+| Subheading  | Subheading font family.                   |
+| Accent      | Accent typography where applied.          |
 
-| Setting | What it controls | Default |
-| --- | --- | --- |
-| Body | Default paragraph and supporting text font family. | `sans-serif` |
-| Heading | Default heading font family. | `helvetica_n7` |
-| Subheading | Default subheading font family. | `sans-serif` |
-| Accent | Accent font family used where accent typography is applied. | `sans-serif` |
 
 
 ### Sizes
 
-These settings control the overall text scale used by Slab.
+| Setting         | What it controls                                                                 |
+| --------------- | -------------------------------------------------------------------------------- |
+| Base font size  | Root size for scaling type (9–20 px, default 14 px).                            |
+| Scale ratio     | Step between type levels as a percent (100–135%, default 110%).                  |
 
-| Setting | What it controls | Range | Default |
-| --- | --- | --- | --- |
-| Base font size | The base type size Slab uses to scale body and heading sizes. | 9 to 20 px | 14 px |
-| Scale ratio | How quickly type sizes increase between levels. | 100% to 135% | 110% |
 
 
 ### Body
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Line height | Vertical spacing for body text lines. | None (1), Tight (1.25), Normal (1.625), Loose (2) | Normal (1.625) |
+| Setting      | What it controls                                                                 |
+| ------------ | -------------------------------------------------------------------------------- |
+| Line height  | **None** (1), **Tight** (1.25), **Normal** (1.625), or **Loose** (2). Default **Normal**. |
+
 
 
 ### Button
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Font | Which font family buttons use. | Body, Heading, Subheading, Accent | Body |
-| Line height | Vertical spacing inside button text. | None (1), Tight (1.25), Normal (1.625), Loose (2) | Normal (1.625) |
-| Letter spacing | Tracking for button labels. | Tight (-0.025em), Normal (0), Loose (0.025em) | Normal (0) |
-| Case | Letter case for button labels. | Default, Uppercase, Lowercase | Default |
+| Setting          | What it controls                                                                 |
+| ---------------- | -------------------------------------------------------------------------------- |
+| Font             | **Body**, **Heading**, **Subheading**, or **Accent**. Default **Body**.          |
+| Line height      | **None**, **Tight**, **Normal**, or **Loose**. Default **Normal**.               |
+| Letter spacing   | **Tight**, **Normal**, or **Loose**. Default **Normal**.                         |
+| Case             | **Default**, **Uppercase**, or **Lowercase**. Default **Default**.               |
 
 
-### Heading 1 to Heading 6
 
-Each heading level has the same four controls.
+### Heading 1 through Heading 6
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Font | Which font family that heading level uses. | Body, Heading, Subheading, Accent | Body |
-| Line height | Vertical spacing for that heading level. | None (1), Tight (1.25), Normal (1.625), Loose (2) | Normal (1.625) |
-| Letter spacing | Tracking for that heading level. | Tight (-0.025em), Normal (0), Loose (0.025em) | Normal (0) |
-| Case | Letter case for that heading level. | Default, Uppercase, Lowercase | Default |
+Each heading level uses the same four settings (defaults below apply to every level).
+
+| Setting          | What it controls                                                                 |
+| ---------------- | -------------------------------------------------------------------------------- |
+| Font             | **Body**, **Heading**, **Subheading**, or **Accent**. Default **Body**.          |
+| Line height      | **None**, **Tight**, **Normal**, or **Loose**. Default **Normal**.               |
+| Letter spacing   | **Tight**, **Normal**, or **Loose**. Default **Normal**.                         |
+| Case             | **Default**, **Uppercase**, or **Lowercase**. Default **Default**.               |
+
 
 
 ### Styles
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Icon style | The icon family style used by theme icons. | Classic regular, Classic solid, Sharp regular, Sharp solid | Classic regular |
-| Text separator | Separator symbol used between text elements in supported buttons. | Dot (`•`), Line (`|`) | Dot (`•`) |
-
-
+| Setting          | What it controls                                                                 |
+| ---------------- | -------------------------------------------------------------------------------- |
+| Icon style       | **Classic regular**, **Classic solid**, **Sharp regular**, or **Sharp solid**. Default **Classic regular**. |
+| Text separator   | **Dot** or **Line** between text in supported buttons. Default **Dot**.          |

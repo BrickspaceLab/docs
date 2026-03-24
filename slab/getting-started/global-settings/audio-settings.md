@@ -1,30 +1,39 @@
 # Audio
 
-Audio settings in Slab let merchants control whether storefront interface sounds are available. Use **Theme settings > Audio** to enable or disable theme audio effects, then optionally add a customer-facing audio toggle.
+Audio settings in **Theme settings > Audio** control whether the theme may play interface sounds. When audio is enabled, you can add an **Audio picker** block so customers can choose their preference.
 
-## How to set up audio
 
-Use this order to keep audio behavior clear:
 
-1. Open **Theme settings > Audio**.
-2. Turn **Enable audio interface sounds** on or off.
-3. Preview key interactions, such as checkout actions, to confirm audio behavior matches your storefront experience.
-4. Optional: add an **Audio picker** block where you want customers to control audio on the storefront.
-5. If you add the block, test both states (audio on and off) and confirm the preference persists when the page reloads.
+## How to change theme audio
 
-When audio is enabled in theme settings, the storefront can use the customer preference saved by the **Audio picker** control. When audio is disabled in theme settings, storefront audio stays off.
+{% stepper %}
+{% step %}
+### Set the global toggle
 
-## Suggested setup defaults for most stores
+* Open **Theme settings > Audio**.
+* Turn **Enable audio interface sounds** on or off.
+{% endstep %}
 
-- Start with **Enable audio interface sounds** off if your brand prioritizes silent browsing.
-- Turn it on when you want richer interaction feedback for clicks and actions.
-- Add an **Audio picker** control when customers should be able to choose their own audio preference.
-- Keep audio behavior consistent across major templates after changing this setting.
+{% step %}
+### Optional: customer control
 
-## What each audio setting controls
+* Add an **Audio picker** block where customers should toggle sound.
+* Preview key actions (such as add to cart) with audio on and off.
+{% endstep %}
+{% endstepper %}
 
-### Audio
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Enable audio interface sounds | Enables or disables theme audio effects used by storefront interactions. | Enabled, Disabled | Disabled |
+
+### Notes on audio
+
+* When **Enable audio interface sounds** is off, storefront audio stays off.
+* When it is on, the theme can use the preference from the **Audio picker** where that block is placed.
+* Mobile browsers may still limit sound regardless of theme settings.
+
+
+
+## Audio settings
+
+| Setting                        | What it controls                                    |
+| ------------------------------ | --------------------------------------------------- |
+| Enable audio interface sounds  | Master toggle for theme interface audio. Default off. |

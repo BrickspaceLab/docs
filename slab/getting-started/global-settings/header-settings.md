@@ -1,54 +1,50 @@
 # Header
 
-Header settings in Slab control how the header behaves while customers scroll the storefront and whether top sections can overlap under it. Use **Theme settings > Header**.
+Header settings in **Theme settings > Header** control how the header behaves while customers scroll and whether top sections can render under the header when overlap is enabled at the theme and section level.
 
-## Set up header settings
 
-Use this order to keep header behavior predictable.
+
+## How to change theme header
 
 {% stepper %}
 {% step %}
-#### Choose a header position
+### Choose header position
 
-1. Open **Theme settings > Header**.
-2. In **Position**, choose **Sticky**, **Standard**, or **Dynamic**.
-3. Preview desktop and mobile behavior before changing overlap settings.
+* Open **Theme settings > Header**.
+* Under **Position**, choose **Sticky**, **Standard**, or **Dynamic**.
+* Preview desktop and mobile before changing overlap.
 {% endstep %}
 
 {% step %}
-#### Enable overlap only when needed
+### Configure overlap
 
-1. Turn on **Enable header overlap** only if your top sections are designed for text contrast over media.
-2. Set **Desktop overlap**.
-3. Set **Mobile overlap**.
-
-Desktop and mobile overlap values only appear when **Enable header overlap** is on.
+* Turn on **Enable header overlap** only when top sections are designed for content under the header.
+* Set **Desktop overlap** and **Mobile overlap** when overlap is enabled.
 {% endstep %}
 
 {% step %}
-#### Enable overlap on the sections that need it
+### Enable overlap on sections
 
-1. Open each top section where you want overlap.
-2. Enable that section's **Enable header overlap** setting.
-3. Preview key templates like home, collection, and product before publishing.
-
-If either the theme-level or section-level overlap setting is off, the section renders in normal flow.
+* Open each section that should sit under the header.
+* Turn on that section’s **Enable header overlap** setting.
+* If either the theme-level or section-level overlap setting is off, the section stays in normal flow.
 {% endstep %}
 {% endstepper %}
 
-## Suggested defaults for most stores
 
-* Start with **Sticky** when navigation and cart should stay accessible.
-* Use **Standard** for content-first pages where a fixed header feels too heavy.
-* Use **Dynamic** when you want more vertical browsing space while keeping the header available.
-* Keep **Enable header overlap** off unless top sections are intentionally designed for overlap.
-* Adjust overlap in 5 px increments until spacing matches your live header height.
 
-## Header settings reference
+### Notes on header behavior
 
-| Setting               | What it controls                                           | Range or options          | Default  |
-| --------------------- | ---------------------------------------------------------- | ------------------------- | -------- |
-| Position              | Controls how the header behaves during page scroll.        | Sticky, Standard, Dynamic | Standard |
-| Enable header overlap | Allows supported sections to render under the header bar.  | Enabled, Disabled         | Disabled |
-| Desktop overlap       | Overlap offset for desktop when header overlap is enabled. | 5 to 200 px (step 5)      | 90 px    |
-| Mobile overlap        | Overlap offset for mobile when header overlap is enabled.  | 5 to 200 px (step 5)      | 80 px    |
+* **Sticky** keeps the header visible while scrolling; **Standard** scrolls with the page; **Dynamic** can hide the header while scrolling down and show it when scrolling up—preview your main templates.
+* Overlap values use 5 px steps from 5 to 200 px; tune them to your logo and bar height.
+
+
+
+## Header settings
+
+| Setting                 | What it controls                                                                 |
+| ----------------------- | -------------------------------------------------------------------------------- |
+| Position                | **Sticky**, **Standard**, or **Dynamic**. Default **Standard**.                  |
+| Enable header overlap   | Allows supported sections to render under the header when their overlap is on. Default off. |
+| Desktop overlap         | Overlap offset on desktop when overlap is enabled (5–200 px, step 5, default 90 px). |
+| Mobile overlap          | Overlap offset on mobile when overlap is enabled (5–200 px, step 5, default 80 px). |

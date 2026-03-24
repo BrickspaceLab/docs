@@ -1,37 +1,55 @@
-# Animations and transitions
+# Motion
 
-Motion settings in Slab let merchants control how movement feels across the storefront. Use **Theme settings > Motion** to choose page and header transitions, then decide whether to keep button and image effects enabled.
+Motion settings in **Theme settings > Motion** control animations, button motion, image fade-in, and page and header transitions.
 
-## How to set up animations and transitions
 
-Use this order to keep motion updates predictable:
 
-1. Open **Theme settings > Motion**.
-2. Turn on **Enable animations** to unlock all motion controls.
-3. Set **Page transition** first so page-to-page movement matches your brand style.
-4. Set **Header transition** to control how the header enters or shifts.
-5. Turn **Enable button motion** on or off based on how interactive you want calls to action to feel.
-6. Turn **Enable image fade** on if you want images to fade in as they load.
-7. Preview key templates (home, collection, and product) before publishing.
+## How to change theme motion
 
-If **Enable animations** is turned off, the remaining motion options are hidden in the theme editor.
+{% stepper %}
+{% step %}
+### Turn animations on or off
 
-## Suggested setup defaults for most stores
+* Open **Theme settings > Motion**.
+* Use **Enable animations** as the master switch for the settings below it.
+{% endstep %}
 
-- Keep **Enable animations** on so your storefront has consistent movement behavior.
-- Start with **Page transition** set to **Fade** for subtle, broad compatibility.
-- Keep **Header transition** set to **None** unless your header movement needs to feel more pronounced.
-- Keep **Enable button motion** on so interactive elements still feel responsive.
-- Turn on **Enable image fade** only when you want softer image loading behavior.
+{% step %}
+### Set transitions
 
-## What each motion setting controls
+* Set **Page transition** to **None**, **Fade**, **Zoom**, **Slide down**, or **Slide right**.
+* Set **Header transition** to **None**, **Slide down**, or **Slide right**.
+{% endstep %}
 
-### Motion
+{% step %}
+### Set button and image motion
 
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Enable animations | Master toggle for theme motion settings. | Enabled, Disabled | Enabled |
-| Enable button motion | Motion effects used by buttons. | Enabled, Disabled | Enabled |
-| Enable image fade | Fades images into view using the dominant color from the center of the image. | Enabled, Disabled | Disabled |
-| Page transition | Transition style used between pages. | None, Fade, Zoom, Slide down, Slide right | Fade |
-| Header transition | Transition style used for header movement. | None, Slide down, Slide right | None |
+* Toggle **Enable button motion** for button feedback.
+* Toggle **Enable image fade** if images should fade in using a color from the image center.
+{% endstep %}
+
+{% step %}
+### Preview templates
+
+* Check home, collection, and product pages after changes.
+{% endstep %}
+{% endstepper %}
+
+
+
+### Notes on motion
+
+* When **Enable animations** is off, related controls are hidden in the theme editor.
+* **Page transition** defaults to **Fade**; **Header transition** defaults to **None**.
+
+
+
+## Motion settings
+
+| Setting               | What it controls                                                                 |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Enable animations     | Master toggle for theme motion. Default on.                                      |
+| Enable button motion  | Motion on buttons when animations are on. Default on.                          |
+| Enable image fade     | Fades images in using the dominant color from the center. Default off.           |
+| Page transition       | **None**, **Fade**, **Zoom**, **Slide down**, or **Slide right**. Default **Fade**. |
+| Header transition     | **None**, **Slide down**, or **Slide right**. Default **None**.                  |
