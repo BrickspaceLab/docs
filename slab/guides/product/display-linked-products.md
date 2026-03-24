@@ -1,40 +1,30 @@
 # Display linked products
 
-Linked products help customers switch between related items (for example colors, materials, or similar styles) without leaving the product flow. In Slab, this is handled by the **Product sibling options** block.
+Linked products let customers move between related items (for example colors or styles) without leaving the product page. Slab uses the **Product sibling options** block for this.
 
-## How to display linked products
+## Steps
 
-1. In Shopify admin, set up a product metafield definition for **`custom.linked_collection`**.
-2. For each product, assign a collection that contains the related products you want to show as linked options.
-3. Go to **Online Store > Themes > Customize** and open your product template.
-4. In the **Main product** section, add the **Product sibling options** block where you want linked products to appear.
-5. Confirm the block **Product** setting is set to the current product context (or pick a product for testing).
-6. Choose **Swatch selection** as **Buttons** or **Dropdowns**.
-7. Save, then test a product that has a populated linked collection.
+1. In Shopify admin, create a product metafield definition for **`custom.linked_collection`** (collection reference).
+2. For each product that should show siblings, set that metafield to a collection that contains the related products.
+3. Open **Online Store > Themes > Customize** and load a product template.
+4. In the **Main product** section, add **Product sibling options** where you want the links to appear.
+5. In the block settings, confirm **Product** matches the product you are editing (or pick one while testing).
+6. Choose **Swatch selection**: **Buttons** for a small set of siblings, or **Dropdowns** when there are many.
+7. Save the theme, then open a product that has **`custom.linked_collection`** set and confirm the options appear on the storefront.
 
-## How it works in Slab
+## How it works
 
 - The block reads related products from `product.metafields.custom.linked_collection`.
-- Linked options appear only when that collection has products.
-- If the product has no linked collection, the block shows a setup message in the editor.
+- Nothing renders on the storefront until that metafield points to a collection with products.
+- In the theme editor, you may see a setup hint when the metafield is empty.
 
-## Settings to adjust first
+## Block settings reference
 
-| Setting | What it controls | Default |
-| --- | --- | --- |
-| Swatch selection | Shows linked products as button/swatch choices or as a dropdown list. | Buttons |
-| Show swatch | Uses each linked product featured image as a visual swatch. | On |
-| Show tooltip | Shows product title tooltip when swatches are shown without labels (buttons mode). | On |
-| Show labels | Shows product titles next to swatches (buttons mode). | Off |
-| Swatch size | Controls swatch image size. | 16 px |
-| Swatch radius | Controls swatch corner style. | Full |
-| Enable grid layout | Displays linked options in a grid instead of flex wrap (buttons mode). | Off |
-| Row desktop / Row mobile | Number of grid columns when grid layout is enabled. | 4 / 2 |
-| Button size | Size for linked-product buttons/dropdown trigger. | Small |
+All options—swatches, labels, grid layout, spacing, colors, button size, and visibility—are documented on the [Product sibling options](../../content/blocks/products/sibling-options.md) block page.
 
-## Troubleshooting checklist
+## Troubleshooting
 
-- Confirm each product has `custom.linked_collection` populated.
-- Confirm the linked collection contains actual products.
-- Confirm the block is added to the active product template.
-- Confirm the block visibility setting is not limited to another device.
+- Confirm each product has **`custom.linked_collection`** filled in.
+- Confirm the linked collection contains the products you expect.
+- Confirm the block is on the product template customers actually use.
+- If the block never appears, check **Visibility** on the block (device limits can hide it).

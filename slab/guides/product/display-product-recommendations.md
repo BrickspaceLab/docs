@@ -1,51 +1,32 @@
 # Display product recommendations
 
-Product recommendations help customers discover more products without leaving the page they are viewing. In Slab, merchants can use recommendation blocks to show either related items or complementary add-ons.
+Product recommendations surface related or complementary items from Shopify’s recommendation system. In Slab you add them with a **Product recommendations** block inside a parent that supports that block (often a grid or slider area on product, collection, or cart templates).
 
-## How to set up product recommendations
+## Steps
 
-1. Open your theme editor and go to a template where you want recommendations to appear (commonly product templates).
-2. Add a container that supports recommendation blocks (for example a grid or slider area in your product content).
-3. Add a **Product recommendations** block (grid or slider variant).
+1. Open the theme editor and navigate to the template where recommendations should appear (often the default product template).
+2. Select a section or block that can contain recommendation blocks (for example a product content grid or a [Slider](../../content/blocks/layout/slider/README.md) area).
+3. Add **Product recommendations** and pick the **grid** or **slider** variant your layout needs.
 4. Set **Intent** to **Related** or **Complementary**.
-5. Set **Product** if you want a fixed source product; otherwise use the current product context.
-6. Set **Item count** to control how many products are shown.
-7. Optional: add **Filter by tag** to narrow recommendations to one tag.
-8. Choose whether to keep **Show products in cart** enabled.
+5. Leave **Product** on the default when you want recommendations based on the product being viewed; set it explicitly only if you need a fixed source product.
+6. Set **Item count** to match how much room the layout has.
+7. Optionally set **Filter by tag** to restrict results, and adjust **Show products in cart** if you want to hide items already in the cart.
+8. Save and preview on a real product page so recommendations can load.
 
-### Complementary recommendations setup
+### Complementary recommendations
 
-If you choose **Complementary** intent, configure complementary products in Shopify's Search and Discovery app first. Slab uses that Shopify data when rendering complementary recommendations.
+If **Intent** is **Complementary**, configure complementary product relationships in Shopify’s **Search and Discovery** app first. Slab uses that store data when rendering complementary recommendations.
 
-## Choose grid or slider recommendations
+## Grid or slider
 
-- Use a grid layout when you want recommendations to scan quickly in rows.
-- Use a slider layout when you want a horizontal, swipe-friendly row on mobile.
-- Slider recommendations include width controls for mobile and desktop cards.
+- Use the **grid** variant when you want a stable row-based layout customers can scan quickly.
+- Use the **slider** variant when you want a horizontal, scrollable row (especially on narrow viewports).
 
-## Suggested defaults for most stores
+## Block settings reference
 
-- Start with **Intent: Related** for automatic relevance.
-- Keep **Item count** around 4 to 6 to avoid visual overload.
-- Keep **Show products in cart** enabled for cross-sell workflows.
-- Use **Filter by tag** only when you need tightly curated recommendations.
+Shared content and visibility options are the same idea for both layouts; the slider block adds width controls per breakpoint.
 
-## What each recommendations setting controls
+* [Grid recommendations](../../content/blocks/all-pagination/products/grid-product-recommendations.md)
+* [Slider recommendations](../../content/blocks/all-pagination/products/slider-product-recommendations.md)
 
-### Shared settings (grid and slider)
-
-| Setting | What it controls | Options | Default |
-| --- | --- | --- | --- |
-| Intent | Recommendation type from Shopify. | Related, Complementary | Related |
-| Product | Source product used to fetch recommendations. | Product picker | Uses current product context in presets |
-| Item count | Max number of recommendation cards to render. | Number input | 5 |
-| Filter by tag | Limits results to products containing a specific tag. | Text input | Blank |
-| Show products in cart | Shows or hides recommended products already in the cart. | Enabled, Disabled | Enabled |
-| Visibility | Where the block appears by device. | All, Mobile only, Desktop only | All |
-
-### Slider-only settings
-
-| Setting | What it controls | Range | Default |
-| --- | --- | --- | --- |
-| Width mobile | Width of each recommendation card on mobile. | 5% to 100% | 80% |
-| Width desktop | Width of each recommendation card on desktop. | 5% to 100% | 20% |
+For layout ideas and typical combinations of settings, see **Common use cases** on each block page.
