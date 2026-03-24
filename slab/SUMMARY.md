@@ -38,6 +38,7 @@
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
 * [Slab basics](guides/slab-basics/README.md)
   * [Grid layouts](guides/slab-basics/build-grid-layouts.md)
+  * [Menus](guides/slab-basics/menus.md)
   * [Overlays and popups](guides/slab-basics/popups-drawers-and-overlays.md)
   * [Success and error messages](guides/slab-basics/success-and-error-overlays.md)
 * [Collection](guides/collection/README.md)
