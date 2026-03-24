@@ -31,13 +31,39 @@ The storefront **menu** action opens whichever overlay block is assigned the **M
 
 ## Swap the menu to a different overlay type
 
-Only one overlay block should use the **Menu overlay** preset at a time. To change from a drawer to a sidebar, popup, or another drawer configuration:
+Only one overlay block should use the **Menu overlay** preset at a time.
 
-* Open **Overlay group** in the theme editor.
-* Add a **Drawer**, **Sidebar**, or **Popup** block (or duplicate an existing overlay and then adjust it).
-* On that block, set **Overlay** to **Menu overlay**.
-* Move or rebuild the inner blocks (for example **Menu page**, **Menu**, search, and utilities) inside the new overlay so customers still see the links you expect.
-* On the previous menu overlay block, change **Overlay** to **Custom** with a unique ID you will not use, or remove that block so it no longer competes for the same action.
+{% stepper %}
+{% step %}
+### Open Overlay group
+
+* In the theme editor, open **Overlay group**.
+{% endstep %}
+
+{% step %}
+### Add the new overlay block
+
+* Add a **Drawer**, **Sidebar**, or **Popup** block, or duplicate an existing overlay block and adjust it.
+{% endstep %}
+
+{% step %}
+### Assign the menu action
+
+* On the new block, set **Overlay** to **Menu overlay**.
+{% endstep %}
+
+{% step %}
+### Move your menu content
+
+* Move or rebuild the inner blocks (for example **Menu page**, **Menu**, search, and utilities) so customers still see the links you expect.
+{% endstep %}
+
+{% step %}
+### Retire the old menu overlay
+
+* On the previous menu overlay block, set **Overlay** to **Custom** with a unique ID you will not use, or remove that block so it no longer competes for the same action.
+{% endstep %}
+{% endstepper %}
 
 Menu controls in the header use the same **Menu overlay** action. On a **Button** block, turn on **Enable custom action**, set **Overlay** to **Menu overlay**, so the button opens the overlay you configured above.
 
@@ -45,27 +71,44 @@ Menu controls in the header use the same **Menu overlay** action. On a **Button*
 
 ## Customize menus and dropdowns
 
-**Link structure (Shopify)**
+{% stepper %}
+{% step %}
+### Build your link structure
 
-* In the Shopify admin, go to **Online Store > Navigation** and edit the menu assigned in the block’s **Menu** setting (often the main menu). Parent items become top-level links; nested items appear in dropdowns (up to three levels: parent, child, grandchild).
+* In the Shopify admin, go to **Online Store > Navigation** and edit the menu you will assign to the block (often the main menu).
+* Parent items become top-level links; nested items appear in dropdowns (up to three levels: parent, child, grandchild).
+{% endstep %}
 
-**Menu dropdown block**
+{% step %}
+### Assign the menu in the theme editor
+
+* Open **Header group**, select the **Menu dropdown** block, and choose the same menu under **Menu**.
+{% endstep %}
+
+{% step %}
+### Tune the Menu dropdown block
 
 * Under **Parent links**, **Child links**, and **Grandchild links**, adjust typography for each level.
 * Turn **Enable dropdown icons** off if you do not want chevrons on items that have children.
 * Turn **Enable click to open** on so parents with children act as buttons that open the dropdown instead of navigating to the parent URL (info text in the theme explains this behavior).
 * Under **Dropdown**, choose **Layout** **Stacked** or **Inline** for how child groups arrange, and use **Gap size** for spacing in that layout.
 * Under **Dropdown colors**, set scheme, border, and divider styling, or use **Enable inheritance** so the dropdown follows surrounding color context.
+{% endstep %}
 
-**Optional images next to links**
+{% step %}
+### Add optional images next to links
 
 * For child or grandchild links, you can show a small round image when a theme asset exists named `navigation_[link-handle].jpg` (the handle is derived from the link title), matching the pattern used in the **Menu** block.
+{% endstep %}
 
-**Featured content in a specific dropdown**
+{% step %}
+### Add featured content to one top-level item
 
 * Inside **Menu dropdown**, add a **Menu item** block.
 * Set **Menu key** to the exact parent menu item title that should show that content when its dropdown is open (the theme matches a handleized form of the title).
 * Add blocks inside **Menu item** as needed; those blocks appear only for the matching top-level item.
+{% endstep %}
+{% endstepper %}
 
 
 
@@ -73,9 +116,21 @@ Menu controls in the header use the same **Menu overlay** action. On a **Button*
 
 For top-level items that should span the viewport like a mega menu, use the **Full width dropdown** setting on the **Menu dropdown** block.
 
-* Enter a **comma-separated** list of **parent** link titles as they appear in **Online Store > Navigation**, for example: `Best sellers, Sale, New arrivals`.
-* Spacing around the wide panel can follow **Theme settings > Layout** horizontal margins when **Enable margin** is on (this setting appears when **Full width dropdown** is not empty).
-* **Enable internal padding** on the dropdown applies to non-full-width dropdowns; full-width panels use the theme’s full-width padding behavior in the block markup.
+{% stepper %}
+{% step %}
+### List the parent items
+
+* In **Full width dropdown**, enter a **comma-separated** list of **parent** link titles as they appear in **Online Store > Navigation**, for example: `Best sellers, Sale, New arrivals`.
+{% endstep %}
+
+{% step %}
+### Adjust horizontal spacing (optional)
+
+* When **Full width dropdown** is not empty, **Enable margin** appears. Turn it on so spacing around the wide panel can follow **Theme settings > Layout** horizontal margins, or turn it off if you prefer edge-to-edge width.
+{% endstep %}
+{% endstepper %}
+
+**Enable internal padding** on the dropdown applies to non-full-width dropdowns; full-width panels use wider edge padding in the theme.
 
 Full-width dropdowns still respect a maximum height with scrolling when content is tall, so long lists remain usable on smaller screens.
 
