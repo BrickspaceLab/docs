@@ -46,6 +46,10 @@ The theme header section renders the site header for navigation and key actions.
 | Enable margin                    | Applies global horizontal margin settings.            |
 | Visibility                       | Controls device visibility (all, mobile, or desktop). |
 
+#### Show advanced settings
+
+The header includes **Show advanced settings** (checkbox, default off). When enabled, it reveals **Enable mobile margin** and **Mobile margin** (when **Enable mobile margin** is on).
+
 ### Block settings
 
 This section supports:

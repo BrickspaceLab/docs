@@ -29,6 +29,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 6 advanced options including enable instant transition, enable auto scroll, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting                   | Description                                        | Options                                                                                     |
@@ -38,9 +44,9 @@ The following blocks can be nested within this block:
 | Show controls on hover    | Shows controls only when hovering over the slider  | <p>Checkbox (default: false)<br><br>Visible when show arrows or show indicators is true</p> |
 | Show scrollbar            | Displays a scrollbar for the slider                | Checkbox (default: false)                                                                   |
 | Show progress bar         | Displays a progress bar at the top of the slider   | <p>Checkbox (default: false)<br><br>Visible when enable auto scroll is true</p>             |
-| Enable instant transition | Removes smooth scrolling for instant slide changes | Checkbox (default: false)                                                                   |
-| Enable auto scroll        | Automatically scrolls through slides               | Checkbox (default: false)                                                                   |
-| Auto scroll delay         | Time delay between auto-scroll transitions         | <p>0 - 20 s (default: 0)<br><br>Visible when enable auto scroll is true</p>                 |
+| Enable instant transition | Removes smooth scrolling for instant slide changes | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Enable auto scroll        | Automatically scrolls through slides               | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Auto scroll delay         | Time delay between auto-scroll transitions         | <p>0 - 20 s (default: 0)<br><br>Visible when enable auto scroll is true</p><br><br>Visible when **Show advanced settings** is on and **Enable auto scroll**|
 
 ### Spacing
 
@@ -81,5 +87,6 @@ The following blocks can be nested within this block:
 
 | Setting          | Description                        | Options                                                                                                    |
 | ---------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p>                                                  |
-| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p> |
+| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+| Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
+| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|

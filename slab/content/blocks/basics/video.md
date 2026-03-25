@@ -22,6 +22,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
+
 ### Content
 
 | Setting                | Description                               | Options                   |
@@ -49,11 +55,12 @@ The following blocks can be nested within this block:
 
 ### Style
 
-| Setting       | Description                               | Options                                                                                 |
-| ------------- | ----------------------------------------- | --------------------------------------------------------------------------------------- |
-| Width         | Controls the width of the video container | 5 - 100 % (default: 100)                                                                |
-| Minimum width | Minimum width of the video container      | 5 - 500 px (default: 500)                                                               |
-| Radius        | Controls the border radius                | <p>• None<br>• Default (default)<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full</p> |
+| Setting         | Description                               | Options                                                                                                            |
+| --------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Width           | Controls the width of the video container | 5 - 100 % (default: 100)                                                                                           |
+| Minimum width   | Minimum width of the video container      | 5 - 500 px (default: 500)                                                                                          |
+| Border position | Controls where borders appear on the video | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
+| Radius          | Controls the border radius                | <p>• None<br>• Default (default)<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full</p>                            |
 
 ### Layout
 
@@ -65,4 +72,4 @@ The following blocks can be nested within this block:
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

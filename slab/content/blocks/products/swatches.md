@@ -17,6 +17,12 @@ A customizable product variant swatches block that displays color and other opti
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals show tooltip, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting      | Description                                | Options                                                                                 |
@@ -25,7 +31,7 @@ A customizable product variant swatches block that displays color and other opti
 | Size         | Size of the swatch circles                 | 8 - 44 px (default: 16)                                                                 |
 | Limit        | Maximum number of swatches to display      | 1 - 20 (default: 6)                                                                     |
 | Radius       | Border radius for swatch circles           | <p>• None<br>• Default<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full (default)</p> |
-| Show tooltip | Displays swatch name in a tooltip on hover | Checkbox (default: true)                                                                |
+| Show tooltip | Displays swatch name in a tooltip on hover | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
 
 ### Spacing
 
@@ -45,4 +51,4 @@ A customizable product variant swatches block that displays color and other opti
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

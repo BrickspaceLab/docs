@@ -17,13 +17,19 @@ A comprehensive product purchase form block that handles variant selection, quan
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals dynamic label, enable dynamic label, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting                 | Description                                                   | Options                                                                 |
 | ----------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Product                 | Select the product to display buy buttons for                 | Product picker                                                          |
-| Dynamic label           | Custom label for the add to cart button (e.g., "Pre-order")   | <p>Rich text input<br><br>Visible when enable dynamic label is true</p> |
-| Enable dynamic label    | Replaces "Add to cart" with custom label text                 | Checkbox (default: false)                                               |
+| Dynamic label           | Custom label for the add to cart button (e.g., "Pre-order")   | <p>Rich text input<br><br>Visible when enable dynamic label is true</p><br><br>Visible when **Enable dynamic label** and **Show advanced settings** is on|
+| Enable dynamic label    | Replaces "Add to cart" with custom label text                 | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 | Enable quantity input   | Displays a quantity selector input field                      | Checkbox (default: false)                                               |
 | Enable dynamic checkout | Displays dynamic checkout buttons (Shop Pay, Apple Pay, etc.) | Checkbox (default: true)                                                |
 | Show price              | Displays the product price on the add to cart button          | Checkbox (default: true)                                                |
@@ -64,4 +70,4 @@ A comprehensive product purchase form block that handles variant selection, quan
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

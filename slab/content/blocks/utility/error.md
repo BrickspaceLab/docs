@@ -15,6 +15,12 @@ A dynamic error message display block that renders error text from an Alpine.js 
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
+
 ### Spacing
 
 | Setting                   | Description                                | Options                   |
@@ -47,4 +53,4 @@ A dynamic error message display block that renders error text from an Alpine.js 
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

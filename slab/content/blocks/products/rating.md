@@ -14,6 +14,12 @@ A comprehensive product rating display block that renders the rating information
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals icon type, icon display, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting | Description                              | Options        |
@@ -38,8 +44,8 @@ A comprehensive product rating display block that renders the rating information
 
 | Setting      | Description                                   | Options                                                                                                                                                           |
 | ------------ | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Icon type    | Shape of rating icons                         | <p>• Star (default)<br>• Circle<br>• Square<br><br>Visible when icon display is not "none"</p>                                                                    |
-| Icon display | Controls how rating icons are displayed       | <p>• None<br>• Default (default)<br>• Simple</p>                                                                                                                  |
+| Icon type    | Shape of rating icons                         | <p>• Star (default)<br>• Circle<br>• Square<br><br>Visible when icon display is not "none"</p><br><br>Visible when **Icon display** != 'none' and **Show advanced settings** is on|
+| Icon display | Controls how rating icons are displayed       | <p>• None<br>• Default (default)<br>• Simple</p><br><br>Visible when **Show advanced settings** is on|
 | Icon style   | Style variant for rating icons                | <p>• Classic (default)<br>• Sharp<br><br>Visible when icon display is not "none"</p>                                                                              |
 | Icon size    | Size of rating icons                          | <p>10 - 100 px (default: 14)<br><br>Visible when icon display is not "none"</p>                                                                                   |
 | Font family  | Controls the font family used for rating text | <p>• Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when font size contains 'type--'</p>                                                        |
@@ -55,4 +61,4 @@ A comprehensive product rating display block that renders the rating information
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

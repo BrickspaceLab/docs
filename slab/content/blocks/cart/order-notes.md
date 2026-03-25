@@ -14,6 +14,12 @@ A Shopify theme block component that displays a textarea for adding order notes 
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
+
 ### Content
 
 | Setting | Description                             | Options         |
@@ -32,4 +38,4 @@ A Shopify theme block component that displays a textarea for adding order notes 
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

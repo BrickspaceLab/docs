@@ -24,6 +24,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
+
 | Setting                   | Description                                                                    | Options                                                                                                                           |
 | ------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | Tab key                   | Unique identifier for this tab item (must match tab name in parent tabs block) | Text input                                                                                                                        |
@@ -32,4 +38,4 @@ The following blocks can be nested within this block:
 | Gap size                  | Controls spacing between child blocks                                          | None, Default (default), XS, SM, MD, LG, XL                                                                                       |
 | Color scheme              | Controls the background and text colors                                        | Body (default), Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent |
 | Vertical alignment        | Controls vertical alignment of content                                         | Top, Middle, Bottom                                                                                                               |
-| Visibility                | Controls when the block is visible                                             | All (default), Mobile only, Desktop only                                                                                          |
+| Visibility                | Controls when the block is visible                                             | All (default), Mobile only, Desktop only<br><br>Visible when **Show advanced settings** is on|

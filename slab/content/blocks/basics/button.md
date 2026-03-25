@@ -28,6 +28,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting                | Description                                                                 | Options                   |
+| ---------------------- | --------------------------------------------------------------------------- | ------------------------- |
+| Show advanced settings | Reveals full-width and square layout, device visibility, and scroll or load animations | Checkbox (default: false) |
+
 ### Content
 
 | Setting                | Description                                                 | Options                                                                                                                                                                                                                                                                                           |
@@ -53,9 +59,11 @@ The following blocks can be nested within this block:
 
 ### Color
 
-| Setting      | Description                      | Options                                                                                                                                                   |
-| ------------ | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Button color | Controls the button color scheme | <p>• Primary<br>• Secondary (default)<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link</p> |
+| Setting            | Description                          | Options                                                                                                                                                         |
+| ------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type               | Custom color scheme vs preset styles | <p>• Custom<br>• Base (default)</p>                                                                                                                             |
+| Button (custom)    | Color scheme applied to the button   | Color scheme picker<br><br>Visible when type is **Custom**                                                                                                      |
+| Button (base)      | Preset button style                  | <p>• Plain<br>• Main<br>• Blur<br>• Outline<br>• Inverted outline<br>• Text<br>• Inverted text</p><br><br>Visible when type is **Base**                           |
 
 ### Style
 
@@ -68,10 +76,18 @@ The following blocks can be nested within this block:
 | Setting              | Description                                           | Options                                                                                       |
 | -------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | Horizontal alignment | Controls horizontal alignment of the button           | <p>• Left (default)<br>• Center<br>• Right<br><br>Visible when enable full width is false</p> |
-| Enable full width    | Makes the button span the full width of its container | Checkbox (default: false)                                                                     |
+| Enable full width    | Makes the button span the full width of its container | <p>Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on</p>           |
+| Enable square        | Uses a square footprint (useful for icon-only buttons) | <p>Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on</p>        |
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting    | Description                        | Options                                                                                          |
+| ---------- | ---------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on |
+
+### Advanced motion
+
+| Setting          | Description                          | Options                                                                                                                                                                                                                         |
+| ---------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Load animation   | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**                                                       |
+| Scroll animation | Animation tied to scroll position    | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**                                 |

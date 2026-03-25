@@ -15,6 +15,12 @@ Image comparison section that shows before/after images with an interactive slid
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
+
 ### Content
 
 | Setting      | Description                                              | Options                               |
@@ -51,4 +57,4 @@ Image comparison section that shows before/after images with an interactive slid
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

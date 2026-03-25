@@ -19,22 +19,29 @@ A comprehensive product variant selection block that provides flexible display o
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 6 advanced options including unavailable indication, show labels, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting                | Description                                     | Options                                          |
 | ---------------------- | ----------------------------------------------- | ------------------------------------------------ |
 | Product                | Select the product to display options for       | Product picker                                   |
 | Variant selection      | Controls how non-swatch variants are displayed  | <p>• Buttons (default)<br>• Dropdowns</p>        |
-| Unavailable indication | Controls how unavailable variants are indicated | <p>• None<br>• Empty (default)<br>• Selected</p> |
-| Show labels            | Displays labels for each option                 | Checkbox (default: true)                         |
+| Unavailable indication | Controls how unavailable variants are indicated | <p>• None<br>• Empty (default)<br>• Selected</p><br><br>Visible when **Show advanced settings** is on|
+| Show labels            | Displays labels for each option                 | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
+| Show single variant options | Shows options when the product has only one variant | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
 
 ### Swatches
 
 | Setting          | Description                                            | Options                                                                                                                         |
 | ---------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | Swatch selection | Controls how swatch options (colors) are displayed     | <p>• Buttons (default)<br>• Dropdowns</p>                                                                                       |
-| Show swatch      | Displays color swatches for color options              | Checkbox (default: true)                                                                                                        |
-| Show tooltip     | Displays tooltips showing option names on swatch hover | <p>Checkbox (default: true)<br><br>Visible when swatch selection is "buttons"</p>                                               |
+| Show swatch      | Displays color swatches for color options              | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
+| Show tooltip     | Displays tooltips showing option names on swatch hover | <p>Checkbox (default: true)<br><br>Visible when swatch selection is "buttons"</p><br><br>Visible when **Swatch selection** is **buttons** and **Show advanced settings** is on|
 | Show labels      | Displays text labels with swatches                     | Checkbox (default: false)                                                                                                       |
 | Layout           | Controls the layout of swatch and label                | <p>• Stacked<br>• Inline (default)<br><br>Visible when show labels is true</p>                                                  |
 | Size             | Size of the swatch indicators                          | <p>8 - 120 px (default: 16)<br><br>Visible when show swatch is true</p>                                                         |
@@ -64,6 +71,7 @@ A comprehensive product variant selection block that provides flexible display o
 | Font family | Controls the font family used for option labels | <p>• Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when show labels is true</p>                                                                                              |
 | Font size   | Controls the font size of option labels         | <p>• Smaller<br>• Small<br>• Default<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6<br><br>Visible when show labels is true</p> |
 | Button size | Controls the size of option buttons             | <p>• Extra small<br>• Small (default)<br>• Standard<br>• Large</p>                                                                                                                              |
+| Enable selected outline | Draws an outline on the selected option | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on |
 
 ### Layout
 
@@ -78,4 +86,4 @@ A comprehensive product variant selection block that provides flexible display o
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on |

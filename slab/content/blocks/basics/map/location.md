@@ -24,6 +24,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals enable pre-opened, enable single open, and visibility | Checkbox (default: false) |
+
 | Setting                   | Description                                 | Options                                                                                                                           |
 | ------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Latitude                  | Latitude coordinate for the location        | Text input (default: "43.691070")                                                                                                 |
@@ -35,6 +41,6 @@ The following blocks can be nested within this block:
 | Color scheme              | Controls the background color scheme        | Body, Neutral, Accent 1, Accent 2, Accent 3, Shade 1, Shade 2, Shade 3, Primary, Secondary, Tertiary, Blur, Transparent (default) |
 | Border color              | Controls the border color                   | Body, Subtle (default), Strong, Primary, Secondary, Tertiary, None. Visible when border position is not empty                     |
 | Border position           | Controls which sides have borders           | None, Top, Bottom (default), Left, Right, Top and bottom, Left and right, All                                                     |
-| Enable pre opened         | Opens the accordion by default              | Checkbox (default: false)                                                                                                         |
-| Enable single open        | Closes other accordions when this one opens | Checkbox (default: false)                                                                                                         |
-| Visibility                | Controls when the block is visible          | All (default), Mobile only, Desktop only                                                                                          |
+| Enable pre opened         | Opens the accordion by default              | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Enable single open        | Closes other accordions when this one opens | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Visibility                | Controls when the block is visible          | All (default), Mobile only, Desktop only<br><br>Visible when **Show advanced settings** is on|

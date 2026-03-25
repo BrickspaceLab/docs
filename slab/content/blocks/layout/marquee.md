@@ -25,13 +25,19 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals enable reverse animation, visibility, load animation, and scroll animation | Checkbox (default: false) |
+
 ### Content
 
 | Setting                  | Description                                     | Options                   |
 | ------------------------ | ----------------------------------------------- | ------------------------- |
 | Animation duration       | Duration of the marquee animation in seconds    | 1 - 90 s (default: 60)    |
 | Enable pause on hover    | Pauses animation when hovering over the marquee | Checkbox (default: false) |
-| Enable reverse animation | Reverses the scroll direction                   | Checkbox (default: false) |
+| Enable reverse animation | Reverses the scroll direction                   | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 
 ### Spacing
 
@@ -65,5 +71,6 @@ The following blocks can be nested within this block:
 
 | Setting          | Description                        | Options                                                                                                    |
 | ---------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p>                                                  |
-| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p> |
+| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+| Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
+| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|

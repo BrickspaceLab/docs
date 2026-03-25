@@ -23,6 +23,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 6 advanced options including enable dropdown icons, type, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting | Description                | Options                               |
@@ -35,7 +41,7 @@ The following blocks can be nested within this block:
 | --------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Font family           | Font family for parent menu links                 | <p>• Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when parent font size contains type--</p>                                                   |
 | Font size             | Font size for parent menu links                   | <p>• Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6</p> |
-| Enable dropdown icons | Shows chevron icons for menu items with dropdowns | Checkbox (default: true)                                                                                                                                          |
+| Enable dropdown icons | Shows chevron icons for menu items with dropdowns | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
 
 ### Child links
 
@@ -53,10 +59,15 @@ The following blocks can be nested within this block:
 
 ### Page
 
-| Setting      | Description                                    | Options                                                                                                                                                         |
-| ------------ | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Color scheme | Background and text color scheme for menu page | <p>• Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary</p> |
-| Color border | Border color for menu page                     | <p>• Subtle (default)<br>• Strong<br>• None</p>                                                                                                                 |
+These color settings appear in the theme editor when **Show advanced settings** is on.
+
+| Setting             | Description                                        | Options                                                                                                                                                                                                                                                      |
+| ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Type                | Custom scheme vs preset surface colors             | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Show advanced settings** is on and **Enable inheritance** is off                                                                                                                                     |
+| Color scheme        | Background and text pairing                        | Color scheme picker<br><br>Visible when type is **Custom**, **Show advanced settings** is on, and **Enable inheritance** is off                                                                                                                                |
+| Color scheme        | Background and text pairing                        | <p>• Body background (default)<br>• Body foreground<br>• Accent 1–3<br>• Shade 1–3<br>• Blur<br>• Transparent</p><br><br>Visible when type is **Base**, **Show advanced settings** is on, and **Enable inheritance** is off                 |
+| Border color        | Menu page border                                   | <p>• Subtle (default)<br>• Strong<br>• None</p><br><br>Visible when **Show advanced settings** is on, type is **Base**, and **Enable inheritance** is off                                                                                                       |
+| Enable inheritance  | Inherit colors from the closest parent with a set scheme | <p>Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on</p>                                                                                                                                                                     |
 
 ### Spacing
 
@@ -70,4 +81,4 @@ The following blocks can be nested within this block:
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

@@ -30,6 +30,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 14 advanced options including top spacing, bottom spacing, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting                          | Description                                         | Options                                                                                       |
@@ -46,8 +52,8 @@ The following blocks can be nested within this block:
 
 | Setting                   | Description                                  | Options                                                                      |
 | ------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------- |
-| Top spacing               | Spacing above the container                  | 0 - 300 px (default: 0)                                                      |
-| Bottom spacing            | Spacing below the container                  | 0 - 300 px (default: 0)                                                      |
+| Top spacing               | Spacing above the container                  | 0 - 300 px (default: 0)<br><br>Visible when **Show advanced settings** is on|
+| Bottom spacing            | Spacing below the container                  | 0 - 300 px (default: 0)<br><br>Visible when **Show advanced settings** is on|
 | Enable horizontal padding | Adds horizontal padding inside the container | Checkbox (default: false)                                                    |
 | Enable vertical padding   | Adds vertical padding inside the container   | Checkbox (default: false)                                                    |
 | Enable margin             | Adds margin around the container             | Checkbox (default: false)                                                    |
@@ -59,7 +65,7 @@ The following blocks can be nested within this block:
 | ----------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Color scheme            | Controls the background color scheme         | <p>• Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
 | Border color            | Controls the border color                    | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not empty</p>                                       |
-| Enable color difference | Applies color blend mode for overlay effects | Checkbox (default: false)                                                                                                                                                                  |
+| Enable color difference | Applies color blend mode for overlay effects | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 
 ### Style
 
@@ -67,25 +73,28 @@ The following blocks can be nested within this block:
 | --------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | Border position | Controls which sides have borders          | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
 | Radius          | Controls the border radius                 | <p>• None<br>• Default (default)<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full</p>                            |
-| Enable crop     | Clips content that overflows the container | Checkbox (default: true)                                                                                           |
+| Enable crop     | Clips content that overflows the container | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
+| Enable shadow   | Adds a drop shadow to the container        | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 
 ### Layout
 
 | Setting                | Description                                           | Options                                                                                       |
 | ---------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | Width                  | Controls the width of the container                   | 5 - 100 % (default: 100)                                                                      |
+| Margin                 | Outer margin around the container                     | <p>• Default<br>• Narrow<br>• Standard<br>• Wide<br>• Full<br>• None (default)</p><br><br>Visible when **Show advanced settings** is on |
 | Minimum height         | Minimum height of the container                       | <p>0 - 1200 px (default: 0)<br><br>Visible when enable height fill is false</p>               |
 | Enable height fill     | Fills the container to the height of the parent       | Checkbox (default: true)                                                                      |
-| Enable overlay         | Positions the container as an absolute overlay        | Checkbox (default: false)                                                                     |
-| Show on hover          | Only displays the container on hover                  | Checkbox (default: false)                                                                     |
-| Enable block elevation | Increases z-index for sticky positioning              | <p>Checkbox (default: false)<br><br>Visible when enable sticky layout is true</p>             |
-| Enable sticky layout   | Makes the container stick to viewport while scrolling | Checkbox (default: false)                                                                     |
-| Sticky position        | Position where the container sticks                   | <p>• None (default)<br>• Top<br>• Bottom<br><br>Visible when enable sticky layout is true</p> |
+| Enable overlay         | Positions the container as an absolute overlay        | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Show on hover          | Only displays the container on hover                  | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Enable block elevation | Increases z-index for sticky positioning              | <p>Checkbox (default: false)<br><br>Visible when enable sticky layout is true</p><br><br>Visible when **Show advanced settings** is on|
+| Enable sticky layout   | Makes the container stick to viewport while scrolling | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Sticky position        | Position where the container sticks                   | <p>• None (default)<br>• Top<br>• Bottom<br><br>Visible when enable sticky layout is true</p><br><br>Visible when **Show advanced settings** is on and **Enable sticky layout** is on|
 | Vertical alignment     | Controls vertical alignment of content                | <p>• Top (default)<br>• Middle<br>• Bottom</p>                                                |
 
 ### Display
 
 | Setting          | Description                               | Options                                                                                                    |
 | ---------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Visibility       | Controls when the block is visible        | <p>• All (default)<br>• Mobile only<br>• Desktop only</p>                                                  |
-| Scroll animation | Adds scroll-based animations to the block | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p> |
+| Visibility       | Controls when the block is visible        | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+| Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
+| Scroll animation | Adds scroll-based animations to the block | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|

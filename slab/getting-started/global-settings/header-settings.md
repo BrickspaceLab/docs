@@ -45,6 +45,7 @@ Header settings in **Theme settings > Header** control how the header behaves wh
 | Setting                 | What it controls                                                                 |
 | ----------------------- | -------------------------------------------------------------------------------- |
 | Position                | **Sticky**, **Standard**, or **Dynamic**. Default **Standard**.                  |
+| Enable color difference | When enabled, header content can invert over overlapping page content for contrast. Default off. Best with light-on-dark or high-contrast artwork. |
 | Enable header overlap   | Allows supported sections to render under the header when their overlap is on. Default off. |
 | Desktop overlap         | Overlap offset on desktop when overlap is enabled (5–200 px, step 5, default 90 px). |
 | Mobile overlap          | Overlap offset on mobile when overlap is enabled (5–200 px, step 5, default 80 px). |

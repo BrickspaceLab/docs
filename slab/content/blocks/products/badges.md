@@ -18,6 +18,12 @@ A customizable product badges block that displays various types of informational
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals enable color difference, vertical alignment, enable overlay, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting             | Description                                                                                  | Options                                          |
@@ -43,7 +49,7 @@ A customizable product badges block that displays various types of informational
 | Color scheme            | Controls the background color scheme for badges           | <p>• Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent<br><br>Visible when display type is badge</p> |
 | Color border            | Controls the border color for badges                      | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when display type is badge</p>                                                                                        |
 | Color text              | Controls the text color                                   | <p>• Default (default)<br>• Alternative<br>• Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Shade</p>                                                                                                                        |
-| Enable color difference | Uses mix-blend-difference for better visibility on images | Checkbox (default: false)                                                                                                                                                                                                            |
+| Enable color difference | Uses mix-blend-difference for better visibility on images | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 
 ### Style
 
@@ -58,11 +64,11 @@ A customizable product badges block that displays various types of informational
 | Setting              | Description                                         | Options                                                                       |
 | -------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Horizontal alignment | Controls horizontal alignment of the badges         | <p>• Left (default)<br>• Center<br>• Right</p>                                |
-| Vertical alignment   | Controls vertical alignment when overlay is enabled | <p>• Top (default)<br>• Bottom<br><br>Visible when enable overlay is true</p> |
-| Enable overlay       | Positions badges as an overlay on product images    | Checkbox (default: false)                                                     |
+| Vertical alignment   | Controls vertical alignment when overlay is enabled | <p>• Top (default)<br>• Bottom<br><br>Visible when enable overlay is true</p><br><br>Visible when **Enable overlay** is on and **Show advanced settings** is on|
+| Enable overlay       | Positions badges as an overlay on product images    | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 
 ### Display
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

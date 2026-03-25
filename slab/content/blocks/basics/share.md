@@ -22,6 +22,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals direction, horizontal position, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting                | Description                  | Options                  |
@@ -44,12 +50,12 @@ The following blocks can be nested within this block:
 | Setting              | Description                                                             | Options                                        |
 | -------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- |
 | Width                | Controls the width of the share dropdown                                | 100 - 400 px (default: 250)                    |
-| Vertical direction   | Controls whether the dropdown opens up or down                          | <p>• Up (default)<br>• Down</p>                |
-| Horizontal position  | Controls horizontal positioning of the dropdown relative to the trigger | <p>• Left (default)<br>• Center<br>• Right</p> |
+| Direction            | Controls whether the dropdown opens up or down                          | <p>• Up (default)<br>• Down</p><br><br>Visible when **Show advanced settings** is on|
+| Horizontal position  | Controls horizontal positioning of the dropdown relative to the trigger | <p>• Left (default)<br>• Center<br>• Right</p><br><br>Visible when **Show advanced settings** is on|
 | Horizontal alignment | Controls horizontal alignment of the share button                       | <p>• Left (default)<br>• Center<br>• Right</p> |
 
 ### Display
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
