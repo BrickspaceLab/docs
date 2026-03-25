@@ -1,0 +1,104 @@
+# Your task
+
+Update **GitBook theme documentation** in this repo for an upcoming or shipped theme version. Compare the **upstream theme repo** (`main` vs the **release branch**, or tag-to-tag when both exist), use that diff to decide what merchants need documented, **verify every technical claim in `.src/<theme>/` at the same ref**, then edit markdown across the theme folder and add a new entry to **`<theme>/changelog.md`**.
+
+Do **not** commit, push, or open a pull request unless the user explicitly asks you to. Leave changes in the working tree for review by default.
+
+Example requests:
+
+- `Document Slab 0.3.0: compare branch 0.3.0 to main and update docs + changelog`
+- `Review keystone release branch release/2.4 against main and draft docs`
+
+
+## Theme and upstream mapping
+
+| Theme    | Upstream repo              | Docs root     |
+| -------- | -------------------------- | ------------- |
+| `slab`   | `brickspacelab/slab`       | `slab/`       |
+| `paper`  | `brickspacelab/paper`      | `paper/`      |
+| `space`  | `brickspacelab/space`      | `space/`      |
+| `keystone` | `brickspacelab/keystone` | `keystone/`   |
+
+Theme markdown lives under **`<theme>/`**: `content/` (blocks, sections), `guides/`, `getting-started/`, `SUMMARY.md`, `feature-list.md`, `changelog.md`, etc. It does **not** live under a top-level `docs/[THEME]/blocks/` path. When using [write-docs-for-blocks.mdc](mdc:.cursor/commands/write-docs-for-blocks.mdc) for structure, save new block docs under **`<theme>/content/blocks/...`** and link them from **`SUMMARY.md`**.
+
+
+## Workflow
+
+1. **Parse the request** and extract:
+   - Theme name (`slab`, `paper`, `space`, or `keystone`)
+   - Target ref: **release branch name** (e.g. `0.3.0`) and/or **version tag** (e.g. `0.3.0` when tagged)
+   - Any scope hints in the chat
+2. If the theme or target ref is missing or ambiguous, ask **1–2** targeted questions before proceeding.
+3. **Preflight authentication** (never print secrets):
+   - If `BRICKSPACE_GITHUB_TOKEN` is unset and repo-root `.env` exists, load it into the shell without echoing values.
+   - Confirm you can reach GitHub with **either** a valid token **or** the **`gh` CLI** authenticated as a user with access to `brickspacelab/<theme>`. If `.env` token fails but `gh` works, use `gh api` and `gh repo clone` for compare and clone.
+   - If neither works, stop and report the blocker.
+4. **Resolve the compare range** on `brickspacelab/<theme>` (use the GitHub compare API or equivalent):
+   - **Preferred for branch-based releases:** `main...<release-branch>` (three-dot compare: changes on the branch since it diverged from `main`, or use the form that matches your review goal; document the exact range in the final checklist).
+   - **When both ends are tags:** `previousTag...targetTag` (e.g. last shipped version from **`<theme>/changelog.md`** → target tag). Adjust for `v` prefix if the repo uses it.
+   - **Releases:** If a GitHub Release exists for the target, use its notes as *supporting* context only; **schema and Liquid remain the source of truth**.
+   - Confirm the ref exists (`git ls-remote`, `gh api`, or branches/tags listing). Branches and tags can share names; be explicit which you used.
+5. **Build a docs-first summary** from the compare (commits, changed paths, patches when available). Prioritize:
+   - `blocks/`, `sections/`, `snippets/`, `templates/`, `config/settings_schema.json`, `locales/` (especially `en.default.schema.json`)
+   - Removed or renamed **`"id"`** values in `{% schema %}` or theme settings (merchants may need to reconfigure after upgrade)
+   - New blocks, sections, templates, or merchant-visible behavior changes
+6. **Upgrade notes detection:** From diffs, explicitly flag:
+   - **Replaced or removed block/section settings** (e.g. checkboxes removed in favor of a select) — Shopify does not always migrate old JSON to new keys
+   - **Theme-level `settings_schema` removals** or renames
+   - **Editor label renames** (same behavior, different name) — update guides and reference tables that still use the old wording
+   These belong in **Upgrade notes** in **`<theme>/changelog.md`** per [changelog.mdc](mdc:.cursor/rules/changelog.mdc), and in any affected **guides** or **block** docs.
+7. **Populate `.src/<theme>/` at the target ref** for verification:
+   - **`npm run sync`** (see [AGENTS.md](mdc:AGENTS.md)) clones **only the default branch** of each theme into `.src/` — it is **not** sufficient by itself to review a named release branch or tag.
+   - **Shallow-clone the target ref** into `.src/<theme>/`, e.g. `gh repo clone brickspacelab/slab .src/slab -- --branch <ref> --depth 1`, or equivalent with token-based git auth. Use the **same ref** you summarized in the compare when possible.
+   - `.src/` is gitignored; it is for local verification only.
+8. **Verify in source** before writing (see [theme-docs.mdc](mdc:.cursor/rules/theme-docs.mdc)):
+   - Read `{% schema %}`, Liquid, and `locales/en.default.schema.json` (and related locale files as needed) under `.src/<theme>/`.
+   - Resolve `t:` keys to English labels before documenting setting names or options.
+   - Do not document defaults, ranges, or enums from memory or from release notes alone.
+9. **Review and update documentation coverage** under **`<theme>/`**:
+   - Search for existing pages that mention affected blocks, sections, settings, or workflows; **prefer updating** over duplicating.
+   - **New block or section:** add or extend reference docs, then add entries to **[`<theme>/SUMMARY.md`](slab/SUMMARY.md)** (adjust path per theme).
+   - **Merchant-facing feature list:** update **[`<theme>/feature-list.md`](slab/feature-list.md)** when the release adds or materially changes a customer-visible capability.
+   - **Guides:** update any guide that references old setting names or workflows (e.g. flex layout, quick actions, header).
+   - Grep the theme docs folder for **obsolete labels** after renames (e.g. old checkbox names replaced by a single control).
+   - For **new block pages**, follow the structure in [write-docs-for-blocks.mdc](mdc:.cursor/commands/write-docs-for-blocks.mdc) but use paths under **`<theme>/content/blocks/`**.
+   - Follow [formatting.mdc](mdc:.cursor/rules/formatting.mdc) and [theme-docs.mdc](mdc:.cursor/rules/theme-docs.mdc).
+   - Skip internal-only refactors with no merchant impact; say so in the final summary.
+10. **Write or update `<theme>/changelog.md`** (required for this command):
+    - Add a new `{% update %}` block for the version per [changelog.mdc](mdc:.cursor/rules/changelog.mdc): `date`, `tags`, title, optional top-level bullets, then `<details>` sections for **Upgrade notes** (when needed), **Improvements**, and **Fixes** as the rule describes.
+    - The **upstream** theme `CHANGELOG.md` is optional context only; the **docs** changelog is what merchants read in GitBook.
+    - Use the actual release date when known; otherwise coordinate with the user.
+11. **Git / PR (only if the user asks):**
+    - If they want a branch: `theme-release-<theme>-<version>`
+    - Commit with a message that references theme and version; push; open one PR to `BrickspaceLab/docs` with compare range, verification mode, intentional omissions, and limits.
+    - If they do not ask, **do not commit** — hand off a clean summary and `git diff` scope for manual review.
+
+
+## Release analysis details
+
+- Do not use **`npm run sync` alone** to discover “what changed” for a specific version; it does not check out the release branch or tag ([`.scripts/sync-src.sh`](mdc:.scripts/sync-src.sh)).
+- Use GitHub compare + cloned source at the target ref as the primary evidence chain.
+- **Limited fallback review:** If API or clone fails partially, restrict edits to what you can still verify, state limitations in the final output, and avoid claiming full compare verification.
+
+
+## Final output checklist
+
+Return a concise checklist including:
+
+- Theme and version (or branch) reviewed
+- **Compare range** used (e.g. `main...0.3.0` or `0.2.0...0.3.0`) and **primary ref** used for `.src/<theme>/`
+- Verification mode: full compare + source, or limited fallback (and why)
+- Whether **`<theme>/changelog.md`** was updated (including **Upgrade notes** if applicable)
+- Whether **SUMMARY**, **feature-list**, and **guides** were touched
+- Whether new docs were created vs only updates
+- Whether `npm run sync` was used (and for what, if anything)
+- **Commit / PR:** only if the user requested it — branch name, PR URL, or explicit “not committed per user preference”
+
+
+## References
+
+- [AGENTS.md](mdc:AGENTS.md) — repo layout, sync behavior, private repos
+- [Formatting](mdc:.cursor/rules/formatting.mdc)
+- [Theme docs source of truth](mdc:.cursor/rules/theme-docs.mdc)
+- [Changelog (GitBook)](mdc:.cursor/rules/changelog.mdc)
+- [Write docs for blocks](mdc:.cursor/commands/write-docs-for-blocks.mdc) — structure only; paths under `<theme>/content/blocks/`
