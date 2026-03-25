@@ -21,9 +21,8 @@ Install these tools before you start:
 After purchasing the theme, you'll have GitHub access. Fork the repo on GitHub first, then clone your fork so you can keep your own copy and pull upstream updates:
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/slab.git
+git clone https://github.com/BrickspaceLab/slab.git
 cd slab
-git remote add upstream https://github.com/BrickspaceLab/slab.git
 ```
 {% endstep %}
 
@@ -44,35 +43,16 @@ Copy the example env file and fill in your values:
 cp .env.example .env
 ```
 
-| Variable         | Required | Description                                        |
-| ---------------- | -------- | -------------------------------------------------- |
-| `STORE_PASSWORD` | Optional | Storefront password, if your store has one enabled |
-{% endstep %}
-
-{% step %}
-**Point to your store**
-
-Slab licenses are **per-store** — one license covers one storefront. Work directly against the store where the theme will be published. There is no need for a separate development store.
-
-Open `package.json` and update the `config.store` field:
-
-```json
-"config": {
-  "store": "your-store.myshopify.com"
-}
-```
-
-Then authenticate Shopify CLI with that store:
+Set `STORE_DOMAIN` to your development store domain:
 
 ```sh
-shopify auth login --store your-store.myshopify.com
+STORE_DOMAIN=your-store.myshopify.com
 ```
-{% endstep %}
 
-{% step %}
-**Activate your license**
+Optional values:
 
-When the theme loads in your store for the first time, it will prompt you to enter your license key. Enter the key from your order confirmation or customer portal. This activates and assigns the license to this store.
+* Add `STORE_PASSWORD` if the storefront is password-protected.
+* Add `SHOPIFY_CLI_THEME_TOKEN` if you want Shopify CLI to authenticate without prompting.
 {% endstep %}
 
 {% step %}
@@ -89,7 +69,19 @@ This runs three parallel processes:
 * **Section watcher** — compiles `src/sections/` preset JSON files into `sections/`
 
 Your live store is unaffected while you work — `shopify theme dev` creates a separate unpublished copy of the theme. Publish it through the Shopify admin when you are ready to go live.
+{% endstep %}
 
-> The Vite dev server shows an informational page at its own port — this is expected. The actual theme preview is at `http://127.0.0.1:9292` via Shopify CLI.
+{% step %}
+**Activate your license**
+
+When the theme loads in your store for the first time, it will prompt you to enter your license key. Enter the key from your order confirmation or customer portal. This activates and assigns the license to this store.
+{% endstep %}
+
+{% step %}
+**Optional: add repo secrets for GitHub Actions**
+
+Preview deploys use `STORE_DOMAIN` and `SHOPIFY_CLI_THEME_TOKEN`.
+
+Other CI workflows may also need secrets such as `CURSOR_API_KEY`.
 {% endstep %}
 {% endstepper %}

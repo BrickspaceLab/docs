@@ -2,8 +2,6 @@
 
 Slab ships with first-class support for AI-assisted development. The repo includes skills, rules, and commands that give any coding agent (Cursor, Claude, GitHub Copilot, etc.) the context it needs to write correct Shopify Liquid code, maintain consistency across the theme, and perform tasks that would otherwise require manual file editing.
 
-
-
 ## What's included
 
 | Type         | Location            | Purpose                                        |
@@ -11,8 +9,6 @@ Slab ships with first-class support for AI-assisted development. The repo includ
 | **Skills**   | `.agents/skills/`   | Step-by-step workflows for specialized tasks   |
 | **Rules**    | `.cursor/rules/`    | Always-on coding standards loaded into context |
 | **Commands** | `.cursor/commands/` | Saved prompts for reviews, fixes, and docs     |
-
-
 
 ## Skills
 
@@ -96,8 +92,6 @@ Covers: product cards, carousels, modals, cart drawers, forms, filters, price di
 
 Enforces BEM naming, design tokens, CSS custom properties, progressive enhancement, and Web Component patterns. Use when writing or reviewing CSS and JavaScript in Liquid files.
 
-
-
 ## Rules
 
 Rules are always-on guidance loaded automatically into the agent's context. They enforce consistency without you having to ask.
@@ -119,8 +113,6 @@ Rules are always-on guidance loaded automatically into the agent's context. They
 
 These rules mean the agent will automatically follow Slab conventions without you specifying them. For example, it will use the right snippet naming prefixes, keep schema translations in `t:` format, and avoid hardcoding color values.
 
-
-
 ## Commands
 
 Commands are saved prompts you can invoke with a `/` slash in Cursor's chat. Each one loads the relevant rules and runs a focused audit or generation task.
@@ -139,19 +131,14 @@ Run these after making changes to catch issues before committing:
 
 #### Generation and fix commands
 
-| Command                       | What it does                                                       |
-| ----------------------------- | ------------------------------------------------------------------ |
-| `/add-doc`                    | Adds a `{% doc %}` LiquidDoc header to a snippet or block          |
-| `/add-block-documentation`    | Documents all settings in a block's schema                         |
-| `/add-comment`                | Adds inline comments explaining non-obvious logic                  |
-| `/fix-accessibility-issue`    | Diagnoses and fixes a specific accessibility problem               |
-| `/fix-breaking-changes`       | Updates code for Slab API changes between versions                 |
-| `/update-translations`        | Adds missing translation keys to locale files                      |
-| `/update-schema-translations` | Syncs schema translation keys across locale files                  |
-| `/format-presets`             | Reformats section preset JSON to match conventions                 |
-| `/prepare-submission`         | Full release workflow: build, version bump, changelog, theme check |
-
-
+| Command                    | What it does                                                       |
+| -------------------------- | ------------------------------------------------------------------ |
+| `/add-doc`                 | Adds a `{% doc %}` LiquidDoc header to a snippet or block          |
+| `/add-comment`             | Adds inline comments explaining non-obvious logic                  |
+| `/fix-accessibility-issue` | Diagnoses and fixes a specific accessibility problem               |
+| `/fix-breaking-changes`    | Updates code for Slab API changes between versions                 |
+| `/format-presets`          | Reformats section preset JSON to match conventions                 |
+| `/prepare-submission`      | Full release workflow: build, version bump, changelog, theme check |
 
 ## Practical examples
 
@@ -197,8 +184,6 @@ After adding new schema settings or user-facing strings:
 Run /update-schema-translations on sections/hero.liquid —
 make sure all new t: keys exist in locales/en.default.schema.json.
 ```
-
-
 
 ## Tips
 
