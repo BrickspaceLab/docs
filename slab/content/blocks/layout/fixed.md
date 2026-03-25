@@ -19,6 +19,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals margin, and visibility | Checkbox (default: false) |
+
 ### Spacing
 
 | Setting        | Description                             | Options                                                                      |
@@ -46,10 +52,10 @@ The following blocks can be nested within this block:
 | Rotation            | Rotates the overlay content                       | <p>• None (default)<br>• Right 90°<br>• Left 90°</p> |
 | Horizontal position | Controls horizontal positioning of the overlay    | <p>• Left (default)<br>• Center<br>• Right</p>       |
 | Vertical position   | Controls vertical position as percentage from top | 0 - 100 % (default: 100)                             |
-| Enable margin       | Applies margin based on theme settings            | Checkbox (default: false)                            |
+| Margin              | Outer margin around the overlay                   | <p>• Default<br>• Narrow<br>• Standard<br>• Wide<br>• Full<br>• None (default)</p><br><br>Visible when **Show advanced settings** is on |
 
 ### Display
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

@@ -180,6 +180,7 @@ This page is a capability index for Slab. It includes every documented block kno
 | Full subtotal           | Show a detailed cart subtotal before checkout.                                          |
 | Order notes             | Let customers add notes or delivery instructions to their order.                        |
 | Order summary           | Display a clear summary of cart items, pricing, and totals.                             |
+| Progress bar            | Add a simple 0–100 progress bar anywhere; pair with metafields for dynamic values.      |
 | Progress tier           | Show progress toward a reward, discount, or free shipping threshold.                    |
 | Share cart              | Let customers share their cart with a link.                                             |
 | Simple subtotal         | Show a simplified cart subtotal before checkout.                                        |
@@ -235,6 +236,7 @@ This page is a capability index for Slab. It includes every documented block kno
 | Product sibling options | Let customers switch between closely related products, such as colors or styles.        |
 | Product subscription    | Let customers choose a recurring purchase option.                                       |
 | Product swatches        | Let customers select product options with color or image swatches.                      |
+| Shop Pay installments   | Show Shop Pay installment pricing for the cart or the current product.                 |
 | Breadcrumbs             | Show the path back through the storefront so customers can navigate easily.             |
 | Filter                  | Let customers narrow results by attributes such as size, price, or availability.        |
 | Menu                    | Display a navigation menu with links to key pages.                                      |
@@ -259,4 +261,4 @@ This page is a capability index for Slab. It includes every documented block kno
 | Render quick buy        | Render a quick buy experience from another part of the page.                            |
 | Render quick edit       | Render a quick edit experience for updating product choices.                            |
 | Shared discount         | Display a discount offer that can be reused across multiple blocks.                     |
-| Visibility              | Show or hide content based on rules such as device, customer state, or context.         |
+| Visibility              | Show or hide nested blocks by device, customer, cart, visit session, URL paths (with wildcards), or viewport visibility tied to another element’s CSS class. |

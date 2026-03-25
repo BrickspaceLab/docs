@@ -44,6 +44,10 @@ The Section component is Slab's general-purpose section container. It supports t
 | Scroll snap align                | Applies scroll snap alignment when enabled globally.        |
 | Visibility                       | Controls device visibility (all, mobile, or desktop).       |
 
+#### Show advanced settings
+
+The section includes **Show advanced settings** (checkbox, default off). When enabled, the theme editor shows additional controls: **Enable mobile margin**, **Mobile margin** (when **Enable mobile margin** is on), **Enable hide on scroll**, **Show above**, and the **Display** group with **Visibility** for the whole section.
+
 ### Block settings
 
 This section supports both theme and app blocks:

@@ -15,6 +15,12 @@ A comprehensive filtering system for collection and search pages that provides c
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals open filters, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting        | Description                                | Options                  |
@@ -36,7 +42,7 @@ A comprehensive filtering system for collection and search pages that provides c
 | Button size               | Size of filter buttons in inline layout                  | <p>• Extra small<br>• Small (default)<br>• Standard<br>• Large<br><br>Visible when container layout is "inline"</p>                                                                                        |
 | Border color              | Color of borders around the filter container             | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when container border position is not empty and container layout is "stacked"</p>           |
 | Border position           | Position of borders on the filter container              | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All<br><br>Visible when container layout is "stacked"</p>                                       |
-| Open filters              | Comma-separated list of filter labels to open by default | <p>Text input<br><br>Visible when container layout is "stacked"</p>                                                                                                                                        |
+| Open filters              | Comma-separated list of filter labels to open by default | <p>Text input<br><br>Visible when container layout is "stacked"</p><br><br>Visible when **Layout** is **stacked** and **Show advanced settings** is on|
 
 ### Filter items
 
@@ -56,4 +62,4 @@ A comprehensive filtering system for collection and search pages that provides c
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

@@ -19,6 +19,12 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ## Block settings
 
+### General
+
+| Setting                | Description                                 | Options                   |
+| ---------------------- | ------------------------------------------- | ------------------------- |
+| Show advanced settings | Reveals device visibility for the gallery | Checkbox (default: false) |
+
 ### Content
 
 | Setting               | Description                                               | Options                   |
@@ -26,6 +32,7 @@ This is a private block. It is intended for use only within specific parent bloc
 | Enable variant images | Shows different images based on selected product variants | Checkbox (default: false) |
 | Product               | Select the product to display media from                  | Product picker            |
 | Item count            | Number of media items to display (0 = all media)          | Number input (default: 7) |
+| Show alt text         | Shows each image’s alt text under the media when set      | Checkbox (default: false) |
 
 ### Color
 
@@ -50,6 +57,6 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting    | Description                        | Options                                                                                          |
+| ---------- | ---------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on |

@@ -17,13 +17,19 @@ A customizable slider component for displaying blog articles in a horizontal scr
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals filter by tag, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting       | Description                       | Options             |
 | ------------- | --------------------------------- | ------------------- |
 | Blog          | Blog to display articles from     | Blog picker         |
 | Item count    | Number of articles to display     | Number (default: 7) |
-| Filter by tag | Filter articles by a specific tag | Text input          |
+| Filter by tag | Filter articles by a specific tag | Text input<br><br>Visible when **Show advanced settings** is on|
 
 ### Spacing
 
@@ -36,4 +42,4 @@ A customizable slider component for displaying blog articles in a horizontal scr
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

@@ -15,12 +15,18 @@ A subscription options block that displays purchase choices for products with se
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals enable default subscription, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting                     | Description                                                                | Options                  |
 | --------------------------- | -------------------------------------------------------------------------- | ------------------------ |
 | Product                     | Select the product to display subscription options for                     | Product picker           |
-| Enable default subscription | Automatically selects the first available subscription option on page load | Checkbox (default: true) |
+| Enable default subscription | Automatically selects the first available subscription option on page load | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
 
 ### Spacing
 
@@ -40,4 +46,4 @@ A subscription options block that displays purchase choices for products with se
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

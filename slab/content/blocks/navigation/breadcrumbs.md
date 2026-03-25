@@ -4,7 +4,7 @@
 
 ## Overview
 
-A comprehensive breadcrumb navigation component that displays the current page's location within the site hierarchy. The component shows a path from the home page to the current page, with specialized support for article and product templates. It includes custom metafield breadcrumb support for complex navigation structures, with dropdown functionality when there are multiple breadcrumb links to prevent overcrowding.
+A comprehensive breadcrumb navigation component that displays the current page's location within the site hierarchy. The component shows a path from the home page to the current page, with specialized support for article and product templates. For custom paths, use product metafields `product.metafields.custom.breadcrumbs` or article metafields `article.metafields.custom.breadcrumbs` (namespace and key must match your store setup). Dropdown behavior helps when multiple breadcrumb links would otherwise overcrowd the row.
 
 ## Common use cases
 
@@ -16,6 +16,12 @@ A comprehensive breadcrumb navigation component that displays the current page's
 * Ensure breadcrumb links are contextually relevant to the user's navigation path
 
 ## Block settings
+
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
 
 ### Spacing
 
@@ -49,4 +55,4 @@ A comprehensive breadcrumb navigation component that displays the current page's
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

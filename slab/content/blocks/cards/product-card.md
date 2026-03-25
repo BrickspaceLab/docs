@@ -39,6 +39,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility, load animation, and scroll animation | Checkbox (default: false) |
+
 ### Content
 
 | Setting | Description                   | Options        |
@@ -71,5 +77,6 @@ The following blocks can be nested within this block:
 
 | Setting          | Description                                      | Options                                                                                                    |
 | ---------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| Visibility       | Controls when the block is visible               | <p>• All (default)<br>• Mobile only<br>• Desktop only</p>                                                  |
-| Scroll animation | Animation effect when the card scrolls into view | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p> |
+| Visibility       | Controls when the block is visible               | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+| Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
+| Scroll animation | Animation effect when the card scrolls into view | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|

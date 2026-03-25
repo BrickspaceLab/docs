@@ -22,6 +22,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 10 advanced options including enable dropdown icons, enable click to open, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting | Description                | Options                               |
@@ -34,7 +40,8 @@ The following blocks can be nested within this block:
 | --------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Font family           | Font family for parent menu links                 | <p>• Standard<br>• Heading<br>• Subheading<br>• Accent<br><br>Visible when parent font size contains type--</p>                                                   |
 | Font size             | Font size for parent menu links                   | <p>• Smaller<br>• Small<br>• Default (default)<br>• Big<br>• Bigger<br>• Heading 1<br>• Heading 2<br>• Heading 3<br>• Heading 4<br>• Heading 5<br>• Heading 6</p> |
-| Enable dropdown icons | Shows chevron icons for menu items with dropdowns | Checkbox (default: true)                                                                                                                                          |
+| Enable dropdown icons | Shows chevron icons for menu items with dropdowns | Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on|
+| Enable click to open  | Opens dropdowns on click instead of hover only   | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 | Enable link as button | Converts parent links with children to buttons    | Checkbox (default: false)                                                                                                                                         |
 
 ### Child links
@@ -55,14 +62,35 @@ The following blocks can be nested within this block:
 
 | Setting                 | Description                                                         | Options                                                                                                                                                                                    |
 | ----------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme            | Background and text color scheme for dropdown                       | <p>• Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Color border            | Border color for dropdown                                           | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None</p>                                                                                        |
 | Layout                  | Layout style for dropdown menus                                     | <p>• Stacked (default)<br>• Inline</p>                                                                                                                                                     |
-| Color divider           | Divider color between stacked dropdown items                        | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None</p>                                                                                        |
-| Enable internal padding | Adds internal padding to dropdown content                           | <p>Checkbox (default: false)<br><br>Visible when dropdown is not full-width</p>                                                                                                            |
-| Enable margin           | Applies margin based on theme settings                              | <p>Checkbox (default: true)<br><br>Visible when menu columns is not blank</p>                                                                                                              |
+| Enable internal padding | Adds internal padding to dropdown content                           | Checkbox (default: true)                                                                                                                                                                   |
+| Enable margin           | Applies margin for full-width dropdown columns                      | Checkbox (default: true)<br><br>Visible when **Menu columns** is not blank and **Show advanced settings** is on                                                                            |
 | Gap size                | Spacing between dropdown menu items                                 | <p>• None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL</p>                                                                                                               |
 | Menu columns            | Comma-separated list of menu items to display as full-width columns | Text input                                                                                                                                                                                 |
+
+### Dropdown colors
+
+These settings appear in the theme editor when **Show advanced settings** is on. They control the dropdown panel surface.
+
+| Setting             | Description                                        | Options                                                                                                                                                                                                                                                      |
+| ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Type                | Custom scheme vs preset dropdown colors            | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Show advanced settings** is on and **Enable inheritance** is off (dropdown colors)                                                                                                                    |
+| Color scheme        | Background and text pairing                        | Color scheme picker<br><br>Visible when dropdown type is **Custom**, **Show advanced settings** is on, and **Enable inheritance** is off (dropdown colors)                                                                                                      |
+| Color scheme        | Preset background pairing                          | <p>• Body background (default)<br>• Body foreground<br>• Accent 1–3<br>• Shade 1–3<br>• Blur<br>• Transparent</p><br><br>Visible when dropdown type is **Base**, **Show advanced settings** is on, and **Enable inheritance** is off (dropdown colors)          |
+| Border              | Dropdown panel border                              | <p>• None<br>• Subtle (default)<br>• Strong</p><br><br>Visible when **Show advanced settings** is on, dropdown type is **Base**, and **Enable inheritance** is off (dropdown colors)                                                                           |
+| Divider             | Divider between stacked dropdown items             | <p>• None<br>• Subtle (default)<br>• Strong</p><br><br>Visible when **Show advanced settings** is on, dropdown type is **Base**, and **Enable inheritance** is off (dropdown colors)                                                                           |
+| Enable inheritance  | Inherit dropdown colors from the closest parent    | <p>Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on</p>                                                                                                                                                                        |
+
+### Link colors
+
+These settings appear when **Show advanced settings** is on. They control parent, child, and grandchild link text colors.
+
+| Setting             | Description                                        | Options                                                                                                                                                                                                                                                      |
+| ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Type                | Custom scheme vs preset link text colors           | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Show advanced settings** is on and **Enable inheritance** is off (link colors)                                                                                                                        |
+| Text                | Text color pairing                                 | Color scheme picker<br><br>Visible when link type is **Custom**, **Show advanced settings** is on, and **Enable inheritance** is off (link colors)                                                                                                             |
+| Text                | Preset text color                                  | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1–3</p><br><br>Visible when link type is **Base**, **Show advanced settings** is on, and **Enable inheritance** is off (link colors)                                     |
+| Enable inheritance  | Inherit link colors from the closest parent        | <p>Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on</p>                                                                                                                                                                         |
 
 ### Spacing
 
@@ -83,4 +111,4 @@ The following blocks can be nested within this block:
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

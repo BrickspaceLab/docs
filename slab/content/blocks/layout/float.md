@@ -22,13 +22,19 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals enable color difference, visibility, load animation, and scroll animation | Checkbox (default: false) |
+
 ### Color
 
 | Setting                 | Description                                      | Options                                                                                                                                                                                    |
 | ----------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Color scheme            | Controls the background and text colors          | <p>• Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent (default)</p> |
 | Color border            | Controls the border color                        | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank</p>                                       |
-| Enable color difference | Applies mix-blend-difference for visual contrast | Checkbox (default: false)                                                                                                                                                                  |
+| Enable color difference | Applies mix-blend-difference for visual contrast | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 
 ### Style
 
@@ -58,5 +64,6 @@ The following blocks can be nested within this block:
 
 | Setting          | Description                        | Options                                                                                                    |
 | ---------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p>                                                  |
-| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p> |
+| Visibility       | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+| Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
+| Scroll animation | Adds scroll-triggered animations   | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|

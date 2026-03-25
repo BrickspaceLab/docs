@@ -17,6 +17,12 @@ A flexible menu block component that renders a multi-level navigation menu with 
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 10 advanced options including top spacing, bottom spacing, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting | Description                           | Options                               |
@@ -54,17 +60,28 @@ A flexible menu block component that renders a multi-level navigation menu with 
 
 | Setting                   | Description                             | Options                                                                      |
 | ------------------------- | --------------------------------------- | ---------------------------------------------------------------------------- |
-| Top spacing               | Spacing above the menu                  | 0 - 30 px (default: 0)                                                       |
-| Bottom spacing            | Spacing below the menu                  | 0 - 30 px (default: 0)                                                       |
-| Enable horizontal padding | Adds horizontal padding around the menu | Checkbox (default: false)                                                    |
-| Enable internal padding   | Adds internal padding to menu items     | Checkbox (default: false)                                                    |
-| Gap size                  | Spacing between menu items              | <p>• None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL</p> |
+| Top spacing               | Spacing above the menu                  | 0 - 30 px (default: 0)<br><br>Visible when **Show advanced settings** is on|
+| Bottom spacing            | Spacing below the menu                  | 0 - 30 px (default: 0)<br><br>Visible when **Show advanced settings** is on|
+| Enable horizontal padding | Adds horizontal padding around the menu | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Enable internal padding   | Adds internal padding to menu items     | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
+| Gap size                  | Spacing between menu items              | <p>• None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL</p><br><br>Visible when **Show advanced settings** is on|
+
+### Color
+
+These settings appear in the theme editor when **Show advanced settings** is on.
+
+| Setting             | Description                                        | Options                                                                                                                                                                                                                                                      |
+| ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Type                | Custom scheme vs preset text colors                | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Show advanced settings** is on and **Enable inheritance** is off                                                                                                                                     |
+| Text                | Text color pairing                                 | Color scheme picker<br><br>Visible when type is **Custom**, **Show advanced settings** is on, and **Enable inheritance** is off                                                                                                                                |
+| Text                | Preset text color                                  | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1–3</p><br><br>Visible when type is **Base**, **Show advanced settings** is on, and **Enable inheritance** is off                                                           |
+| Enable inheritance  | Inherit colors from the closest parent with a set scheme | <p>Checkbox (default: true)<br><br>Visible when **Show advanced settings** is on</p>                                                                                                                                                                    |
 
 ### Style
 
 | Setting     | Description                              | Options                                           |
 | ----------- | ---------------------------------------- | ------------------------------------------------- |
-| Hover style | Controls the hover effect for menu items | <p>• None (default)<br>• Background<br>• Fade</p> |
+| Hover style | Controls the hover effect for menu items | <p>• None (default)<br>• Background<br>• Fade</p><br><br>Visible when **Show advanced settings** is on|
 
 ### Layout
 
@@ -77,4 +94,4 @@ A flexible menu block component that renders a multi-level navigation menu with 
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

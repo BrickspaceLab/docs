@@ -45,7 +45,7 @@ Use this layout for content on one side that stays visible while scrolling.
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** set **Vertical alignment** to **Stretch**
-* On a child **Flex item** toggle **Enable sticky layout**
+* On a child **Flex item** turn on **Show advanced settings**, then enable **Enable sticky layout**
 * Set **Sticky position** to **Top**
 
 
@@ -58,9 +58,9 @@ Use this layout for a navigation or header bar.
 
 * Use a **Flex grid** block
 * On the parent **Flex grid** disable **Enable block wrap**
-* On the first **Flex item** toggle **Enable width fill** — this will force the block to fill available space in the row
-* On the second **Flex item** set a specific width like 20%
-* On the third **Flex item** toggle **Enable width fill**
+* On the first **Flex item** set **Width** to **Fill** so it grows and uses free space in the row
+* On the second **Flex item** set **Width** to **Custom** and set a specific width such as 20% (mobile and desktop as needed)
+* On the third **Flex item** set **Width** to **Fill**
 * With this layout the first and last columns will automatically fill the remaining 80% of the row equally
 
 

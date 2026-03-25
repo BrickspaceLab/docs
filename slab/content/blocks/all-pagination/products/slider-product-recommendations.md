@@ -20,6 +20,12 @@ A dynamic product recommendations block that displays recommended products in a 
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals filter by tag, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting               | Description                                           | Options                                       |
@@ -27,7 +33,7 @@ A dynamic product recommendations block that displays recommended products in a 
 | Intent                | Recommendation type                                   | <p>• Related (default)<br>• Complementary</p> |
 | Product               | Source product for recommendations                    | Product picker                                |
 | Item count            | Number of recommendations to display                  | Number (default: 5)                           |
-| Filter by tag         | Filter recommendations by a specific tag              | Text input                                    |
+| Filter by tag         | Filter recommendations by a specific tag              | Text input<br><br>Visible when **Show advanced settings** is on|
 | Show products in cart | Displays products even if they're already in the cart | Checkbox (default: true)                      |
 
 ### Spacing
@@ -41,4 +47,4 @@ A dynamic product recommendations block that displays recommended products in a 
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

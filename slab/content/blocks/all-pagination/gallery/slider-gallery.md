@@ -17,6 +17,12 @@ A product media gallery component that displays a collection of media items (ima
 
 ## Block settings
 
+### General
+
+| Setting                | Description                                 | Options                   |
+| ---------------------- | ------------------------------------------- | ------------------------- |
+| Show advanced settings | Reveals device visibility for the gallery | Checkbox (default: false) |
+
 ### Content
 
 | Setting             | Description                                  | Options                   |
@@ -55,6 +61,6 @@ A product media gallery component that displays a collection of media items (ima
 
 ### Display
 
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Setting    | Description                        | Options                                                                                          |
+| ---------- | ---------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on |

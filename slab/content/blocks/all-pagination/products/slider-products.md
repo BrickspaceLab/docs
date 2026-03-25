@@ -17,13 +17,19 @@ A product slider component designed to display a collection of products within t
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals filter by tag, and visibility | Checkbox (default: false) |
+
 ### Content
 
 | Setting               | Description                                           | Options                  |
 | --------------------- | ----------------------------------------------------- | ------------------------ |
 | Collection            | Collection to display products from                   | Collection picker        |
 | Item count            | Number of products to display                         | Number (default: 7)      |
-| Filter by tag         | Filter products by a specific tag                     | Text input               |
+| Filter by tag         | Filter products by a specific tag                     | Text input<br><br>Visible when **Show advanced settings** is on|
 | Show products in cart | Displays products even if they're already in the cart | Checkbox (default: true) |
 
 ### Spacing
@@ -37,4 +43,4 @@ A product slider component designed to display a collection of products within t
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|

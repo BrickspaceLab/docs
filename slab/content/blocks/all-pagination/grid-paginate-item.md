@@ -23,6 +23,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
+
 | Setting            | Description                                | Options                                                                                                                           |
 | ------------------ | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | Index              | Pagination index this block corresponds to | Number (default: 6)                                                                                                               |
@@ -34,4 +40,4 @@ The following blocks can be nested within this block:
 | Vertical alignment | Controls vertical alignment of content     | Top, Middle, Bottom (default)                                                                                                     |
 | Row span           | Number of rows this item spans             | 1 (default), 2, 3, 4, 5, 6                                                                                                        |
 | Column span        | Number of columns this item spans          | 1 (default), 2, 3, 4, 5, 6                                                                                                        |
-| Visibility         | Controls when the block is visible         | All (default), Mobile only, Desktop only                                                                                          |
+| Visibility         | Controls when the block is visible         | All (default), Mobile only, Desktop only<br><br>Visible when **Show advanced settings** is on|

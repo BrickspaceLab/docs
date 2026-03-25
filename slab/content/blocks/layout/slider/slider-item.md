@@ -24,6 +24,12 @@ The following blocks can be nested within this block:
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals vertical alignment, and visibility | Checkbox (default: false) |
+
 | Setting              | Description                                       | Options                                                                                                                           |
 | -------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Enable padding       | Adds padding around the slider item content       | Checkbox (default: false)                                                                                                         |
@@ -34,5 +40,5 @@ The following blocks can be nested within this block:
 | Width mobile         | Width of the slider item on mobile devices        | 5 - 100 % (default: 80). Visible when enable default width is false                                                               |
 | Width desktop        | Width of the slider item on desktop devices       | 5 - 100 % (default: 40). Visible when enable default width is false                                                               |
 | Enable default width | Uses automatic width sizing for equal-width items | Checkbox (default: false)                                                                                                         |
-| Vertical alignment   | Controls vertical alignment of content            | Top, Middle, Bottom (default)                                                                                                     |
-| Visibility           | Controls when the block is visible                | All (default), Mobile only, Desktop only                                                                                          |
+| Vertical alignment   | Controls vertical alignment of content            | Top, Middle, Bottom (default)<br><br>Visible when **Show advanced settings** is on|
+| Visibility           | Controls when the block is visible                | All (default), Mobile only, Desktop only<br><br>Visible when **Show advanced settings** is on|

@@ -18,6 +18,12 @@ A product navigation block that displays sibling products (related products from
 
 ## Block settings
 
+### General
+
+| Setting | Description | Options |
+| --- | --- | --- |
+| Show advanced settings | Reveals 5 advanced options including show tooltip, enable grid layout, and more | Checkbox (default: false) |
+
 ### Content
 
 | Setting          | Description                                             | Options                                                                                                                         |
@@ -26,7 +32,7 @@ A product navigation block that displays sibling products (related products from
 | Label            | Optional label text displayed above the sibling options | Text input                                                                                                                      |
 | Swatch selection | Controls how sibling options are displayed              | <p>• Buttons (default)<br>• Dropdowns</p>                                                                                       |
 | Show swatch      | Displays product featured image as swatch background    | Checkbox (default: true)                                                                                                        |
-| Show tooltip     | Displays tooltip on hover showing product title         | <p>Checkbox (default: true)<br><br>Visible when swatch selection is buttons</p>                                                 |
+| Show tooltip     | Displays tooltip on hover showing product title         | <p>Checkbox (default: true)<br><br>Visible when swatch selection is buttons</p><br><br>Visible when **Swatch selection** is **buttons** and **Show advanced settings** is on|
 | Show labels      | Displays product title alongside swatches               | <p>Checkbox (default: false)<br><br>Visible when swatch selection is buttons</p>                                                |
 | Layout           | Controls how swatches and labels are arranged           | <p>• Stacked<br>• Inline (default)<br><br>Visible when show labels and swatch selection is buttons</p>                          |
 | Swatch size      | Size of the swatch preview images                       | <p>8 - 120 px (default: 16)<br><br>Visible when show swatch is true</p>                                                         |
@@ -61,12 +67,12 @@ A product navigation block that displays sibling products (related products from
 | Setting              | Description                                     | Options                                                                                           |
 | -------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Horizontal alignment | Controls horizontal alignment                   | <p>• Left (default)<br>• Center<br>• Right<br><br>Visible when label is not blank</p>             |
-| Enable grid layout   | Displays options in a grid instead of flex wrap | <p>Checkbox (default: false)<br><br>Visible when swatch selection is buttons</p>                  |
-| Row desktop          | Number of columns in grid on desktop            | <p>1 - 12 (default: 4)<br><br>Visible when enable grid layout and swatch selection is buttons</p> |
-| Row mobile           | Number of columns in grid on mobile             | <p>1 - 3 (default: 2)<br><br>Visible when enable grid layout and swatch selection is buttons</p>  |
+| Enable grid layout   | Displays options in a grid instead of flex wrap | <p>Checkbox (default: false)<br><br>Visible when swatch selection is buttons</p><br><br>Visible when **Swatch selection** is **buttons** and **Show advanced settings** is on|
+| Desktop row size     | Number of columns in the grid on desktop        | <p>1 - 12 (default: 4)<br><br>Visible when **Enable grid layout** and **Swatch selection** are **buttons** and **Show advanced settings** is on</p> |
+| Mobile row size      | Number of columns in the grid on mobile         | <p>1 - 3 (default: 2)<br><br>Visible when **Enable grid layout** and **Swatch selection** are **buttons** and **Show advanced settings** is on</p>  |
 
 ### Display
 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p> |
+| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
