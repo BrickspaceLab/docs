@@ -40,9 +40,12 @@ The following blocks can be nested within this block:
 
 ### Color
 
-| Setting      | Description               | Options                               |
-| ------------ | ------------------------- | ------------------------------------- |
-| Border color | Controls the border color | <p>• Subtle (default)<br>• Strong</p> |
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Selects color mode | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Enable inheritance** is off and **Border position** is not **None** |
+| Scheme | Custom color scheme for the border | <p>Color scheme picker</p><br><br>Visible when **Type** is **Custom**, **Enable inheritance** is off, and **Border position** is not **None** |
+| Color border | Controls the border color | <p>• Subtle (default)<br>• Strong</p><br><br>Visible when **Border position** is not **None**, **Type** is **Base**, and **Enable inheritance** is off |
+| Enable inheritance | Inherits color settings from parent block | <p>Checkbox (default: false)</p><br><br>Visible when **Border position** is not **None** |
 
 ### Style
 

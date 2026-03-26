@@ -48,17 +48,20 @@ The following blocks can be nested within this block:
 
 ### Color
 
-| Setting      | Description                          | Options                                                                                                                                                                   |
-| ------------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Color scheme | Controls the background color scheme | <p>• Body<br>• Neutral<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur</p> |
-| Border color | Controls the border color            | <p>• Subtle (default)<br>• Strong<br>• None</p>                                                                                                                           |
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Selects color mode | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Enable inheritance** is off |
+| Scheme | Custom color scheme picker | <p>Color scheme picker</p><br><br>Visible when **Type** is **Custom** and **Enable inheritance** is off |
+| Color scheme | Controls the background color scheme | <p>• Body background<br>• Body foreground<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent</p><br><br>Visible when **Type** is **Base** and **Enable inheritance** is off |
+| Border color | Controls the border color | <p>• None (default)<br>• Subtle<br>• Strong</p><br><br>Visible when **Border position** is not **None**, **Type** is **Base**, and **Enable inheritance** is off |
+| Enable inheritance | Inherits color settings from parent block | Checkbox (default: false) |
 
 ### Style
 
 | Setting         | Description                               | Options                                                                                                            |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Width           | Controls the width of the video container | 5 - 100 % (default: 100)                                                                                           |
-| Minimum width   | Minimum width of the video container      | 5 - 500 px (default: 500)                                                                                          |
+| Minimum width   | Minimum width of the video container      | <p>5 - 500 px (default: 500)</p><br><br>Visible when **Width** is less than 100 |
 | Border position | Controls where borders appear on the video | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
 | Radius          | Controls the border radius                | <p>• None<br>• Default (default)<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full</p>                            |
 
@@ -66,7 +69,7 @@ The following blocks can be nested within this block:
 
 | Setting              | Description                                | Options                                        |
 | -------------------- | ------------------------------------------ | ---------------------------------------------- |
-| Horizontal alignment | Controls horizontal alignment of the video | <p>• Left (default)<br>• Center<br>• Right</p> |
+| Horizontal alignment | Controls horizontal alignment of the video | <p>• Left (default)<br>• Center<br>• Right</p><br><br>Visible when **Width** is less than 100 |
 
 ### Display
 

@@ -46,12 +46,16 @@ The following blocks can be nested within this block:
 
 ### Color
 
-| Setting      | Description                                               | Options                                                                                                                                                                                                                                                      |
-| ------------ | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color bar    | Controls the progress bar fill color                      | <p>• Body<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p>                                                                             |
-| Color scheme | Controls the background and text colors for tier messages | <p>• Body<br>• Neutral (default)<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p>                                                                   |
-| Color text   | Controls the text color for tier messages                 | <p>• Default (default)<br>• Alternative<br>• Primary background<br>• Primary foreground<br>• Secondary background<br>• Secondary foreground<br>• Tertiary background<br>• Tertiary foreground<br>• Neutral background<br>• Neutral foreground<br>• Shade</p> |
-| Color border | Controls the border color                                 | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank</p>                                                                                                         |
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Selects color mode | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Enable inheritance** is off |
+| Bar (custom) | Custom color scheme for the progress bar fill | <p>Color scheme picker</p><br><br>Visible when **Type** is **Custom** and **Enable inheritance** is off |
+| Container (custom) | Custom color scheme for the tier message container | <p>Color scheme picker</p><br><br>Visible when **Type** is **Custom** and **Enable inheritance** is off |
+| Color bar | Controls the progress bar fill color | <p>• Body background<br>• Body foreground<br>• Accent 1 (default)<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent</p><br><br>Visible when **Type** is **Base** and **Enable inheritance** is off |
+| Color container | Controls the background color for tier messages | <p>• Body background<br>• Body foreground<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1 (default)<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent</p><br><br>Visible when **Type** is **Base** and **Enable inheritance** is off |
+| Color text | Controls the text color for tier messages | <p>• Default (default)<br>• Alternative<br>• Link<br>• Error<br>• Success<br>• Shade 1<br>• Shade 2<br>• Shade 3</p><br><br>Visible when **Type** is **Base** and **Enable inheritance** is off |
+| Color border | Controls the border color | <p>• None<br>• Subtle (default)<br>• Strong</p><br><br>Visible when **Border position** is not **None**, **Type** is **Base**, and **Enable inheritance** is off |
+| Enable inheritance | Inherits color settings from parent block | Checkbox (default: true) |
 
 ### Style
 

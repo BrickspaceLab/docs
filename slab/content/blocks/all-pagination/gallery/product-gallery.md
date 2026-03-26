@@ -21,39 +21,38 @@ This is a private block. It is intended for use only within specific parent bloc
 
 ### General
 
-| Setting                | Description                                 | Options                   |
-| ---------------------- | ------------------------------------------- | ------------------------- |
-| Show advanced settings | Reveals device visibility for the gallery | Checkbox (default: false) |
+| Setting                | Description                                               | Options                   |
+| ---------------------- | --------------------------------------------------------- | ------------------------- |
+| Show advanced settings | Reveals device visibility for the gallery                 | Checkbox (default: false) |
+| Enable variant images  | Shows different images based on selected product variants | Checkbox (default: false) |
 
 ### Content
 
-| Setting               | Description                                               | Options                   |
-| --------------------- | --------------------------------------------------------- | ------------------------- |
-| Enable variant images | Shows different images based on selected product variants | Checkbox (default: false) |
-| Product               | Select the product to display media from                  | Product picker            |
-| Item count            | Number of media items to display (0 = all media)          | Number input (default: 7) |
-| Show alt text         | Shows each image’s alt text under the media when set      | Checkbox (default: false) |
+| Setting    | Description                                      | Options                   |
+| ---------- | ------------------------------------------------ | ------------------------- |
+| Product    | Select the product to display media from         | Product picker            |
+| Item count | Number of media items to display (0 = all media) | Number input (default: 7) |
 
 ### Color
 
-| Setting      | Description                             | Options                                                                                                                                                                                    |
-| ------------ | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text colors | <p>• Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Color border | Controls the border color               | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None<br><br>Visible when border position is not blank</p>                                       |
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Selects color mode | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Enable inheritance** is off |
+| Scheme | Custom color scheme picker | <p>Color scheme picker</p><br><br>Visible when **Type** is **Custom** and **Enable inheritance** is off |
+| Color scheme | Controls the background and text colors | <p>• Body background (default)<br>• Body foreground<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent</p><br><br>Visible when **Type** is **Base** and **Enable inheritance** is off |
+| Color border | Controls the border color | <p>• None<br>• Subtle (default)<br>• Strong</p><br><br>Visible when **Border position** is not **None**, **Type** is **Base**, and **Enable inheritance** is off |
+| Enable inheritance | Inherits color settings from parent block | Checkbox (default: false) |
 
 ### Style
 
-| Setting         | Description                   | Options                                                                                                            |
-| --------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Border position | Controls where borders appear | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
-
-### Layout
-
-| Setting             | Description                                           | Options                                                                                                |
-| ------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Enable aspect ratio | Maintains consistent aspect ratio for all media items | Checkbox (default: false)                                                                              |
-| Show entire image   | Displays entire image without cropping                | <p>Checkbox (default: true)<br><br>Visible when enable aspect ratio is true</p>                        |
-| Aspect ratio        | Aspect ratio for media items                          | <p>• Square<br>• Landscape<br>• Portrait<br>• None<br><br>Visible when enable aspect ratio is true</p> |
+| Setting             | Description                                           | Options                                                                                                            |
+| ------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Border position     | Controls where borders appear                         | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
+| Enable aspect ratio | Maintains consistent aspect ratio for all media items | Checkbox (default: false)                                                                                          |
+| Enable zoom hover   | Enables zoom effect on image hover                    | Checkbox (default: false)                                                                                          |
+| Show alt text       | Shows each image’s alt text under the media           | Checkbox (default: false)                                                                                          |
+| Show entire image   | Displays entire image without cropping                | <p>Checkbox (default: true)<br><br>Visible when **Enable aspect ratio** is on</p>                                  |
+| Aspect ratio        | Aspect ratio for media items                          | <p>• Square<br>• Landscape<br>• Portrait<br>• None<br><br>Visible when **Enable aspect ratio** is on</p>           |
 
 ### Display
 

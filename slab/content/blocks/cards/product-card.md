@@ -36,6 +36,13 @@ The following blocks can be nested within this block:
 * [Slider](../layout/slider/)
 * [Grid](../layout/default-grid/)
 * [Flex](../layout/flex-grid/)
+* [Sibling options](../products/sibling-options.md)
+* [Rating](../products/rating.md)
+* [Pickup availability](../products/pickup-availability.md)
+* [Bundles](../products/bundles.md)
+* [Buy button](../products/buy-button.md)
+* [Product options](../products/product-options.md)
+* [Subscription](../products/subscription.md)
 
 ## Block settings
 
@@ -61,16 +68,20 @@ The following blocks can be nested within this block:
 
 ### Color
 
-| Setting      | Description                             | Options                                                                                                                                                                                    |
-| ------------ | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Color scheme | Controls the background and text colors | <p>• Body (default)<br>• Neutral<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Primary<br>• Secondary<br>• Tertiary<br>• Blur<br>• Transparent</p> |
-| Color border | Controls the border color               | <p>• Body<br>• Subtle (default)<br>• Strong<br>• Primary<br>• Secondary<br>• Tertiary<br>• None</p>                                                                                        |
+| Setting | Description | Options |
+| --- | --- | --- |
+| Type | Selects color mode | <p>• Custom<br>• Base (default)</p><br><br>Visible when **Enable inheritance** is off |
+| Scheme | Custom color scheme picker | <p>Color scheme picker</p><br><br>Visible when **Type** is **Custom** and **Enable inheritance** is off |
+| Color scheme | Controls the background and text colors | <p>• Body background (default)<br>• Body foreground<br>• Accent 1<br>• Accent 2<br>• Accent 3<br>• Shade 1<br>• Shade 2<br>• Shade 3<br>• Blur<br>• Transparent</p><br><br>Visible when **Type** is **Base** and **Enable inheritance** is off |
+| Color border | Controls the border color | <p>• None<br>• Subtle (default)<br>• Strong</p><br><br>Visible when **Border position** is not **None**, **Type** is **Base**, and **Enable inheritance** is off |
+| Enable inheritance | Inherits color settings from parent block | Checkbox (default: false) |
 
 ### Style
 
 | Setting                 | Description                                              | Options                                                                                                            |
 | ----------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Border position         | Controls where borders appear                            | <p>• None (default)<br>• Top<br>• Bottom<br>• Left<br>• Right<br>• Top and bottom<br>• Left and right<br>• All</p> |
+| Radius                  | Controls the border radius                               | <p>• None<br>• Default (default)<br>• Sm<br>• Md<br>• Lg<br>• Xl<br>• 2xl<br>• Full</p>                            |
 | Show underline on hover | Displays an underline effect when hovering over the card | Checkbox (default: false)                                                                                          |
 
 ### Display
