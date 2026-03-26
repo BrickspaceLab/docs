@@ -1,6 +1,25 @@
 # Changelog
 
 {% updates format="full" %}
+{% update date="2026-03-26" tags="0.3.1" %}
+## Developer workflow, CORS for local dev, and version alignment
+
+* Bumped theme version to 0.3.1 and updated in-theme help links (design-mode menu, support tooling) so they reference this changelog entry. **No changes to storefront behavior, theme settings, blocks, or sections** compared with 0.3.0.
+
+
+
+<details>
+
+<summary>Improvements</summary>
+
+* Added Cursor command **`pull-upstream-updates`** and expanded **[Pull upstream updates](advanced-customizations/getting-started/pulling-upstream-updates.md)** for fork owners merging releases from `upstream`.
+* Improved local development by documenting optional **`CORS_ORIGINS`** in **[Install from GitHub](getting-started/installing-slab/installing-from-github.md)** for Vite when previewing on custom domains or tunnels.
+* Updated theme-repo developer docs (`README`, `AGENTS.md`) for CORS and upstream workflows.
+
+</details>
+
+{% endupdate %}
+
 {% update date="2026-03-25" tags="0.3.0" %}
 ## New blocks, richer visibility rules, and layout refinements
 

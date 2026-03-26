@@ -137,6 +137,7 @@ Run these after making changes to catch issues before committing:
 | `/add-comment`             | Adds inline comments explaining non-obvious logic                  |
 | `/fix-accessibility-issue` | Diagnoses and fixes a specific accessibility problem               |
 | `/fix-breaking-changes`    | Updates code for Slab API changes between versions                 |
+| `/pull-upstream-updates`   | Merges `upstream/main` on a fork using the [Pull upstream updates](getting-started/pulling-upstream-updates.md) conflict policy |
 | `/format-presets`          | Reformats section preset JSON to match conventions                 |
 | `/prepare-submission`      | Full release workflow: build, version bump, changelog, theme check |
 
