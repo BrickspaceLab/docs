@@ -54,13 +54,7 @@ Optional values:
 
 * Add `STORE_PASSWORD` if the storefront is password-protected.
 * Add `SHOPIFY_CLI_THEME_TOKEN` if you want Shopify CLI to authenticate without prompting.
-* Add **`CORS_ORIGINS`** (comma-separated URLs) if you preview the theme on a **custom domain** or **tunnel** where CSS and JavaScript load from a different origin than the storefront. Localhost and `*.myshopify.com` are allowed by default; set this when the browser sends an `Origin` header that is not covered by those defaults—for example:
-
-  ```sh
-  CORS_ORIGINS=https://your-store.com,https://www.your-store.com
-  ```
-
-  Use real values in your local `.env` (gitignored), not in commits.
+* Add `CORS_ORIGINS` if you preview the theme on a custom domain.&#x20;
 {% endstep %}
 
 {% step %}
