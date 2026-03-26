@@ -18,11 +18,12 @@ Install these tools before you start:
 {% step %}
 **Fork the repository**
 
-After purchasing the theme, you'll have GitHub access. Fork the repo on GitHub first, then clone your fork so you can keep your own copy and pull upstream updates:
+After purchasing the theme, you'll have GitHub access. On GitHub, fork [`BrickspaceLab/slab`](https://github.com/BrickspaceLab/slab) to your account. Then clone **your fork** (not the upstream repo directly) and add the original repo as `upstream` so you can merge new releases later—see [Pull upstream updates](../../advanced-customizations/getting-started/pulling-upstream-updates.md).
 
 ```sh
-git clone https://github.com/BrickspaceLab/slab.git
+git clone https://github.com/<your-github-username>/slab.git
 cd slab
+git remote add upstream https://github.com/BrickspaceLab/slab.git
 ```
 {% endstep %}
 

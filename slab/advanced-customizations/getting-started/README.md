@@ -15,7 +15,7 @@ Slab is a modular Shopify theme built on theme blocks. It is designed to be deve
 
 
 
-For advanced customizations we recommend installing Slab via GitHub.&#x20;
+For advanced customizations we recommend installing Slab via GitHub. Fork the theme repository on GitHub before you clone it so you have your own copy and can pull upstream updates.&#x20;
 
 {% content-ref url="../../getting-started/installing-slab/installing-from-github.md" %}
 [installing-from-github.md](../../getting-started/installing-slab/installing-from-github.md)
