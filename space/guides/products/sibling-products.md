@@ -18,10 +18,11 @@ If you have multiple versions of one product split into different product listin
 
 1. Go to Online Store > Themes > Customize
 2. Navigate to the product template then click "Add block" within the "Product" section
-3. Move the block and add a label
+3. Select "Linked products" block
+4. Move the block and add a label
    1. It's usually best to display the "Linked products" block above the "Buy buttons"
    2. Try adding a label that describes the additional linked products. If the additional products are variants of different color you could update the label to "Color".
-4. Hit **Save**
+5. Hit **Save**
 {% endstep %}
 
 {% step %}
