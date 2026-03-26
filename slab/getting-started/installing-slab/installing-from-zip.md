@@ -29,3 +29,5 @@ Click **Publish** when ready to go live.
 When the theme loads for the first time, it will prompt you to enter your license key. Enter the key from your order confirmation or customer portal. This activates and assigns the license to this store.
 {% endstep %}
 {% endstepper %}
+
+If you later switch to GitHub-based development, follow [Install from GitHub](installing-from-github.md)—fork the repository first, then clone your fork.
