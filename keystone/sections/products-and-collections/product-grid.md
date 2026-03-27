@@ -19,6 +19,10 @@ The Product grid section displays a collection of products in a customizable gri
 * Use the content block strategically to add context or promotional messaging within the product grid
 * Ensure your collection has enough products to fill the grid properly; consider product count settings based on available products
 
+#### Metafields on product cards
+
+Grid layouts use the theme’s standard product cards. **Table details** under **Theme settings → Product cards** does not add metafields to grid cards; it applies to list and table (row) layouts only. For which metafields appear on grid cards without code, how grid differs from list or table, and workarounds, see [Metafields on product cards](../../guides/products/metafields-on-product-cards.md).
+
 ### Section Settings
 
 | Setting              | Description                                                    |

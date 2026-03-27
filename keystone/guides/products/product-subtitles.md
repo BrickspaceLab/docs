@@ -13,7 +13,7 @@ Enhance product displays with short descriptions using Metafields. Taglines prov
    * Click **Add Definition**
    * Search for **"Product subtitle"** in the Name field
    * Select it and click **Save**
-   * _Note:_ Uses standard metafield `descriptiors.subtitle`
+   * _Note:_ Uses standard metafield `descriptors.subtitle`
 3. **Add Taglines to Products**
    * Open the product you want to update
    * Scroll to **Product Metafields** at the bottom
