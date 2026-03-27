@@ -16,7 +16,7 @@ Quick add allows customers to add products to their cart directly from product c
 4. Modify your quick add settings (button style, position, behavior, etc.) as needed
 5. Click **Save** to apply your changes
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

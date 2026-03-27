@@ -22,7 +22,7 @@ Before adjusting typography settings, consider your brand's mission and identity
 4. Modify your font settings (family, size, weight, spacing, etc.) as needed.
 5. Click **Save** to apply your changes.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

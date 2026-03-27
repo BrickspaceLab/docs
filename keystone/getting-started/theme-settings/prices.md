@@ -20,7 +20,7 @@ To learn more about how to hide prices based on customer tags visit [Broken link
 4. Modify your price settings (format, currency, discounts, etc.) as needed.
 5. Click **Save** to apply your changes.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
