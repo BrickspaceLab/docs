@@ -18,6 +18,7 @@ Our support includes bug fixes and questions about built-in features and functio
 | ✅ Call support via scheduled meetings.                    | ❌ Transferring customizations to an updated theme.                |
 | ✅ 1-on-1 onboarding via scheduled meetings.               | ❌ Fixing and troubleshooting issues related to custom theme code. |
 |                                                           | ❌ Support for integrations or third party apps.                   |
+|                                                           | ❌ Changes to theme code done via Shopify's AI Toolkit             |
 
 
 
