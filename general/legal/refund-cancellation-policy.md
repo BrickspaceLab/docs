@@ -86,7 +86,3 @@ Orillia, Ontario L3V 1V6
 Canada  
 
 Tel. 705-259-7528
-
----
-
-*Counsel should validate refund stance against CPA (Ontario), Shopify billing rules, Stripe parameters, and whether you offer statutory cooling-off rights.*

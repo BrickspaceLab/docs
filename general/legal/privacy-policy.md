@@ -78,7 +78,7 @@ We may disclose personal information:
 
 We do not sell your personal information as a standalone commercial asset. We may use advertising or analytics tools that process personal data as described in their policies; see **Section 9 (Cookies)**.
 
-A current list of material subprocessors may be published at **https://brickspacelab.com/subprocessors** or provided on request.
+A current list of material subprocessors is available **on request**—email **hello@brickspacelab.com** with “Subprocessors list” in the subject. We may publish an updated list on our website from time to time.
 
 ---
 
@@ -158,7 +158,3 @@ Canada
 Tel. 705-259-7528
 
 If you are not satisfied with our response, you may contact the **Office of the Privacy Commissioner of Canada** (OPC) at [https://www.priv.gc.ca](https://www.priv.gc.ca).
-
----
-
-*This policy is a draft for counsel review. Tailor subprocessors, retention specifics, and GDPR sections to your actual processing.*
