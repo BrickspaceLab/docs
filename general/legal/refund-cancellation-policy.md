@@ -1,10 +1,10 @@
 # Refund and cancellation policy
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
-**Legal entity:** [LEGAL_ENTITY_NAME] (“**Brickspace Lab**”)
+**Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”)
 
-**Contact:** [CONTACT_EMAIL]
+**Contact:** hello@brickspacelab.com
 
 This policy describes how **billing**, **renewals**, **cancellations**, and **refunds** work for Brickspace Lab’s subscription and digital products (**Slab**, **Catalog**, and related Services). Please read it **before** purchase.
 
@@ -26,7 +26,7 @@ Brickspace Lab is located in **Ontario, Canada**. Consumer protection laws may g
 
 **2.1 Self-service.** Where available, cancel through your account dashboard, billing portal (for example, Stripe Customer Portal), **Shopify’s subscription management** for app charges, or Theme Store mechanisms—depending on how you purchased.
 
-**2.2 Email.** If you cannot cancel in-product, email **[CONTACT_EMAIL]** from your account email with “Cancellation” in the subject.
+**2.2 Email.** If you cannot cancel in-product, email **hello@brickspacelab.com** from your account email with “Cancellation” in the subject.
 
 **2.3 Timing.** Cancellation **stops future renewals**. It does **not** erase amounts already charged for the current period unless **Section 4** applies.
 
@@ -78,8 +78,14 @@ If you purchase on behalf of a business, you confirm that the purchase is **not*
 
 ## 8. Contact
 
-Billing questions: **[CONTACT_EMAIL]**  
-Address: **[REGISTERED_ADDRESS]**
+Billing questions: **hello@brickspacelab.com**  
+Address:
+
+121 Mississaga Street East  
+Orillia, Ontario L3V 1V6  
+Canada  
+
+Tel. 705-259-7528
 
 ---
 

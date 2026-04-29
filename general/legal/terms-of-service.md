@@ -1,14 +1,14 @@
 # Terms of service
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
-**Legal entity:** [LEGAL_ENTITY_NAME] (“**Brickspace Lab**”, “**we**”, “**us**”, “**our**”)
+**Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”, “**we**”, “**us**”, “**our**”)
 
-**Contact:** [CONTACT_EMAIL]
+**Contact:** hello@brickspacelab.com
 
 These Terms of Service (“**Terms**”) govern your access to and use of:
 
-- our websites and marketing pages at [WEBSITE_URL] (the “**Site**”);
+- our websites and marketing pages at https://brickspacelab.com (the “**Site**”);
 - our Shopify-related products and services, including the **Slab** theme and **Catalog** (together with the Site, the “**Services**”); and
 - any accounts, subscriptions, or licenses you obtain from us in connection with the Services.
 
@@ -147,7 +147,7 @@ We may modify the Services or these Terms. For material changes to the Terms, we
 
 These Terms are governed by the **laws of the Province of Ontario** and the **federal laws of Canada** applicable therein, without regard to conflict-of-law rules.
 
-Except where prohibited by applicable consumer protection law, the courts located in **Toronto, Ontario** have exclusive jurisdiction over disputes arising from these Terms or the Services. You consent to that venue. **Before filing a claim**, the parties agree to attempt in good faith to resolve disputes informally by contacting [CONTACT_EMAIL] for at least thirty (30) days.
+Except where prohibited by applicable consumer protection law, the courts located in **Toronto, Ontario** have exclusive jurisdiction over disputes arising from these Terms or the Services. You consent to that venue. **Before filing a claim**, the parties agree to attempt in good faith to resolve disputes informally by contacting hello@brickspacelab.com for at least thirty (30) days.
 
 If you are a consumer in a jurisdiction that gives you a non-waivable right to sue in local courts or to invoke mandatory local protections, those rights remain available to the extent required by law.
 
@@ -169,6 +169,12 @@ If you are a consumer in a jurisdiction that gives you a non-waivable right to s
 
 ## 17. Contact
 
-Questions about these Terms: **[CONTACT_EMAIL]**
+Questions about these Terms: **hello@brickspacelab.com**
 
-Registered address: **[REGISTERED_ADDRESS]**
+Registered address:
+
+121 Mississaga Street East  
+Orillia, Ontario L3V 1V6  
+Canada  
+
+Tel. 705-259-7528

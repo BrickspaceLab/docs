@@ -1,8 +1,8 @@
 # Software license agreement — Catalog
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
-**Legal entity:** [LEGAL_ENTITY_NAME] (“**Brickspace Lab**”, “**Licensor**”)
+**Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”, “**Licensor**”)
 
 **Product:** **Catalog** — Brickspace Lab’s preset library, configuration tools, synchronization features, and related services for Shopify merchants (together, “**Catalog**”). Features may include third-party or community presets subject to separate notices.
 
@@ -116,5 +116,10 @@ This Agreement supplements Licensor’s **[Terms of service](./terms-of-service.
 
 ## 12. Contact
 
-**[CONTACT_EMAIL]**  
-**[REGISTERED_ADDRESS]**
+**hello@brickspacelab.com**
+
+121 Mississaga Street East  
+Orillia, Ontario L3V 1V6  
+Canada  
+
+Tel. 705-259-7528

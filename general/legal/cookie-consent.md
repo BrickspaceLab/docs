@@ -2,7 +2,7 @@
 
 **Priority:** secondary operational/legal UX — implement with a consent management platform (CMP) such as Cookiebot, Osano, OneTrust, or similar if you use non-essential cookies or trackers.
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
 This page supports implementation of a **cookie banner** consistent with **PIPEDA** (meaningful consent for non-essential tracking where required) and **GDPR** for visitors from the EEA/UK. It is **not** a substitute for configuring your CMP correctly or listing every cookie your stack sets.
 
@@ -20,7 +20,7 @@ Buttons: **Accept all** · **Reject non-essential** · **Cookie settings**
 
 ### Longer notice (expandable)
 
-> **Cookies.** We use cookies that are essential for security and basic functionality. With your consent, we also use analytics [and, if applicable: marketing pixels] to understand how our Site is used. Third-party providers may process data per their policies: [list key vendors, e.g. Google Analytics, Meta Pixel — **replace with actual tools**].  
+> **Cookies.** We use cookies that are essential for security and basic functionality. With your consent, we also use analytics and marketing pixels to understand how our Site is used. Third-party providers may process data per their policies—for example **Google Analytics**, **Meta** (Facebook pixel), and tools loaded via **Shopify Web Pixels**.  
 > **Your choices.** Essential cookies cannot be turned off here. You may accept or reject non-essential cookies. You can withdraw consent later.  
 > See our [Privacy policy](./privacy-policy.md) for retention and rights.
 
@@ -41,7 +41,7 @@ Buttons: **Accept all** · **Reject non-essential** · **Cookie settings**
 
 - [ ] Inventory scripts (tag manager, embedded chat, analytics, video embeds).
 - [ ] Block non-essential scripts until consent (CMP default **deny** where required).
-- [ ] Link to **[Privacy policy](./privacy-policy.md)** and optional dedicated cookie list page at `[WEBSITE_URL]/cookies`.
+- [ ] Link to **[Privacy policy](./privacy-policy.md)** and optional dedicated cookie list page at https://brickspacelab.com/cookies.
 - [ ] Log consent versions for GDPR accountability if EU traffic is realistic.
 - [ ] Refresh inventory when adding tools (new analytics, heatmaps, CRM embeds).
 
@@ -61,4 +61,4 @@ Cookie rules apply to **your marketing website**. **Shopify storefronts** used b
 
 ## Contact
 
-**[CONTACT_EMAIL]**
+**hello@brickspacelab.com**

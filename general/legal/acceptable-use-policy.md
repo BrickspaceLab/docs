@@ -1,8 +1,8 @@
 # Acceptable use policy
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
-**Legal entity:** [LEGAL_ENTITY_NAME] (“**Brickspace Lab**”)
+**Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”)
 
 This Acceptable Use Policy (“**AUP**”) applies to all users of Brickspace Lab’s websites, products, and services, including **Slab**, **Catalog**, APIs, developer tools, and support channels (the “**Services**”). It is incorporated into our **[Terms of service](./terms-of-service.md)**.
 
@@ -47,7 +47,7 @@ Where Catalog or other Services expose APIs or CLIs:
 - respect **documented rate limits** and quotas;
 - do not **overload**, **scrape**, or **mirror** our proprietary libraries or admin interfaces to replicate Catalog’s commercial offering;
 - do not distribute API keys or tokens in public repositories or client-side code beyond what documentation permits;
-- follow security disclosure practices if you discover vulnerabilities (**contact [CONTACT_EMAIL]**).
+- follow security disclosure practices if you discover vulnerabilities (**contact hello@brickspacelab.com**).
 
 ---
 
@@ -59,7 +59,7 @@ You are responsible for **your** storefront content (products, descriptions, ima
 
 ## 6. Abuse of support
 
-You must **not** harass staff, submit fraudulent tickets, or misuse emergency channels. Reasonable use of support is expected per fair use stated on **[WEBSITE_URL]**.
+You must **not** harass staff, submit fraudulent tickets, or misuse emergency channels. Reasonable use of support is expected per fair use stated on **https://brickspacelab.com**.
 
 ---
 
@@ -77,7 +77,7 @@ We may investigate suspected violations, remove content we are legally required 
 
 ## 9. Reporting
 
-Report violations or security concerns to **[CONTACT_EMAIL]** with “AUP report” in the subject.
+Report violations or security concerns to **hello@brickspacelab.com** with “AUP report” in the subject.
 
 ---
 
@@ -87,5 +87,10 @@ We may update this AUP; continued use after posting changes constitutes acceptan
 
 ---
 
-**[CONTACT_EMAIL]**  
-**[REGISTERED_ADDRESS]**
+**hello@brickspacelab.com**
+
+121 Mississaga Street East  
+Orillia, Ontario L3V 1V6  
+Canada  
+
+Tel. 705-259-7528

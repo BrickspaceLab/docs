@@ -18,7 +18,6 @@
 
 ## Legal
 
-* [Legal overview](legal/README.md)
 * [Terms of service](legal/terms-of-service.md)
 * [Privacy policy](legal/privacy-policy.md)
 * [Software license — Slab](legal/software-license-slab.md)

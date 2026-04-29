@@ -1,8 +1,8 @@
 # Software license agreement — Slab
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
-**Legal entity:** [LEGAL_ENTITY_NAME] (“**Brickspace Lab**”, “**Licensor**”)
+**Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”, “**Licensor**”)
 
 **Product:** **Slab** — a Shopify Online Store theme and related updates, documentation, and support offerings made available by Brickspace Lab (“**Slab**”).
 
@@ -62,7 +62,7 @@ Slab may include third-party open-source or licensed components subject to their
 
 ## 6. Support and SLA
 
-Support scope, channels, and response targets are as described on **[WEBSITE_URL]** or in your order. Unless expressly stated in writing, **there is no uptime SLA** for Shopify-hosted storefront rendering; Shopify operates hosting.
+Support scope, channels, and response targets are as described on **https://brickspacelab.com** or in your order. Unless expressly stated in writing, **there is no uptime SLA** for Shopify-hosted storefront rendering; Shopify operates hosting.
 
 ---
 
@@ -112,5 +112,10 @@ This Agreement, together with Licensor’s **[Terms of service](./terms-of-servi
 
 ## 13. Contact
 
-**[CONTACT_EMAIL]**  
-**[REGISTERED_ADDRESS]**
+**hello@brickspacelab.com**
+
+121 Mississaga Street East  
+Orillia, Ontario L3V 1V6  
+Canada  
+
+Tel. 705-259-7528

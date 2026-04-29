@@ -1,12 +1,12 @@
 # Privacy policy
 
-**Last updated:** [LAST_UPDATED]
+**Last updated:** April 29, 2026
 
-**Legal entity:** [LEGAL_ENTITY_NAME] (“**Brickspace Lab**”, “**we**”, “**us**”)
+**Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”, “**we**”, “**us**”)
 
-**Contact (privacy inquiries):** [CONTACT_EMAIL]
+**Contact (privacy inquiries):** hello@brickspacelab.com
 
-This Privacy Policy describes how Brickspace Lab collects, uses, discloses, and retains personal information in connection with our websites ([WEBSITE_URL]), our products (**Slab**, **Catalog**), and related support and sales activities (collectively, the “**Services**”).
+This Privacy Policy describes how Brickspace Lab collects, uses, discloses, and retains personal information in connection with our websites (https://brickspacelab.com), our products (**Slab**, **Catalog**), and related support and sales activities (collectively, the “**Services**”).
 
 This policy is designed to align with Canada’s **Personal Information Protection and Electronic Documents Act** (**PIPEDA**) and applicable provincial requirements. If you are in the European Economic Area or UK, additional rights may apply under GDPR; see **Section 10**.
 
@@ -70,7 +70,7 @@ Where GDPR applies, we rely on one or more of: **performance of a contract**; **
 
 We may disclose personal information:
 
-- **Service providers** who assist us under contractual safeguards—such as **[SUBPROCESSORS]** (hosting, email delivery, payment processing, analytics, customer support tooling, error monitoring);
+- **Service providers** who assist us under contractual safeguards—including **Google LLC** (Google Analytics), **Meta Platforms, Inc.** (advertising and analytics pixels), **Shopify Inc.** (commerce platform, Shopify Payments, storefront hosting, analytics, and related services), **Intercom, Inc.** (customer messaging and support), **GitBook** (documentation hosting), **Vercel** (API infrastructure used for marketing forms), and other providers we use for hosting, email delivery, payment processing, analytics, customer support tooling, and error monitoring;
 - **Shopify** and ecosystem partners, as needed to deliver integrations you enable;
 - **Professional advisers** (lawyers, accountants) under confidentiality;
 - **Authorities** when required by law or to protect rights, safety, and security; and
@@ -78,7 +78,7 @@ We may disclose personal information:
 
 We do not sell your personal information as a standalone commercial asset. We may use advertising or analytics tools that process personal data as described in their policies; see **Section 9 (Cookies)**.
 
-A current list of material subprocessors may be published at **[WEBSITE_URL]/subprocessors** or provided on request.
+A current list of material subprocessors may be published at **https://brickspacelab.com/subprocessors** or provided on request.
 
 ---
 
@@ -121,7 +121,7 @@ Where PIPEDA or other law requires consent for non-essential cookies, we obtain 
 
 You may also ask us to **delete** personal information we hold about you, subject to legal exceptions (for example, records we must retain for tax or dispute purposes).
 
-**Requests:** Email **[CONTACT_EMAIL]** with “Privacy request” in the subject. We may verify your identity before responding. We will respond within **30 days** where PIPEDA applies, unless an extension is permitted.
+**Requests:** Email **hello@brickspacelab.com** with “Privacy request” in the subject. We may verify your identity before responding. We will respond within **30 days** where PIPEDA applies, unless an extension is permitted.
 
 **Where GDPR applies**, you may also have rights to object, restrict processing, data portability, and to withdraw consent where processing is consent-based. You may lodge a complaint with a supervisory authority.
 
@@ -148,8 +148,14 @@ We may update this Privacy Policy from time to time. We will post the revised ve
 ## 14. Contact and complaints
 
 **Brickspace Lab — Privacy**  
-Email: **[CONTACT_EMAIL]**  
-Address: **[REGISTERED_ADDRESS]**
+Email: **hello@brickspacelab.com**  
+Address:
+
+121 Mississaga Street East  
+Orillia, Ontario L3V 1V6  
+Canada  
+
+Tel. 705-259-7528
 
 If you are not satisfied with our response, you may contact the **Office of the Privacy Commissioner of Canada** (OPC) at [https://www.priv.gc.ca](https://www.priv.gc.ca).
 
