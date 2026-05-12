@@ -18,7 +18,7 @@ Purchase Slab directly from [brickspacelab.com](https://brickspacelab.com). Afte
 
 <summary>How do I install the theme</summary>
 
-After purchasing, you can download Slab as a ZIP file or access the source code directly via GitHub. During installation, the theme will prompt you to enter your license key, which activates and assigns the license to that store.
+After purchasing, you can download Slab as a ZIP file or access the source code directly via GitHub. If you use GitHub, fork the repository to your account first, then clone your fork—see [Install from GitHub](../getting-started/installing-slab/installing-from-github.md). During installation, the theme will prompt you to enter your license key, which activates and assigns the license to that store.
 
 </details>
 

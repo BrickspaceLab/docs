@@ -1,2 +1,2 @@
-# Installing Slab
+# Install Slab
 

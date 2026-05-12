@@ -2,6 +2,8 @@
 
 ## Displaying metafield content in product tables
 
+This guide configures **Table details** for **list and table** (row) product layouts. It does **not** add those metafields to **grid** product cards. For grid versus row behavior and metafields that grid cards support out of the box, see [Metafields on product cards](metafields-on-product-cards.md).
+
 Using metafields, you can display custom data within your product table. This allows for enhanced product comparisons and detailed information display. Display SKU's, product id's, or any other additional product information within the table!&#x20;
 
 Available in Keystone 1.3.0+

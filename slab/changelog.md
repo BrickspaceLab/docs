@@ -54,22 +54,19 @@
 {% endupdate %}
 
 {% update date="2026-03-26" tags="0.3.1" %}
-## Developer workflow, CORS for local dev, and version alignment
+## Better updates and improved local development
 
-* Bumped theme version to 0.3.1 and updated in-theme help links (design-mode menu, support tooling) so they reference this changelog entry. **No changes to storefront behavior, theme settings, blocks, or sections** compared with 0.3.0.
-
-
+**No changes to storefront behavior, theme settings, blocks, or sections** compared with 0.3.0.
 
 <details>
 
 <summary>Improvements</summary>
 
-* Added Cursor command **`pull-upstream-updates`** and expanded **[Pull upstream updates](advanced-customizations/getting-started/pulling-upstream-updates.md)** for fork owners merging releases from `upstream`.
-* Improved local development by documenting optional **`CORS_ORIGINS`** in **[Install from GitHub](getting-started/installing-slab/installing-from-github.md)** for Vite when previewing on custom domains or tunnels.
+* Added Cursor command **`pull-upstream-updates`** for fork owners merging releases from `upstream`.
+* Improved local development by adding optional **`CORS_ORIGINS`** for when previewing on custom domains.
 * Updated theme-repo developer docs (`README`, `AGENTS.md`) for CORS and upstream workflows.
 
 </details>
-
 {% endupdate %}
 
 {% update date="2026-03-25" tags="0.3.0" %}
@@ -87,8 +84,6 @@
 * Added **Enable color difference** in **Theme settings > Header** so header content can invert over overlapping page content.
 * Added image alt text support to grid **Product gallery** when enabled.
 * Added a dedicated **Quick buy** product template for a minimal quick-buy layout. It remains configurable under **Theme settings > Quick actions**.
-
-
 
 <details>
 
@@ -123,8 +118,6 @@
 * Fixed strong border color alignment with design tokens for consistency.
 
 </details>
-
-
 {% endupdate %}
 
 {% update date="2026-03-04" tags="0.2.0" %}
@@ -132,8 +125,6 @@
 
 * Added zoom on hover to grid and slider gallery blocks with cursor-tracking transform origin.
 * Added support for high-variant products (250+ variants) per Shopify guide.
-
-
 
 <details>
 
@@ -152,8 +143,6 @@
 * Fixed swatches not displaying correctly for unavailable options.
 
 </details>
-
-
 {% endupdate %}
 
 {% update date="2026-02-19" tags="0.0.2" %}

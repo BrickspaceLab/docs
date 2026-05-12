@@ -18,11 +18,12 @@ Install these tools before you start:
 {% step %}
 **Fork the repository**
 
-After purchasing the theme, you'll have GitHub access. Fork the repo on GitHub first, then clone your fork so you can keep your own copy and pull upstream updates:
+After purchasing the theme, you'll have GitHub access. On GitHub, fork [`BrickspaceLab/slab`](https://github.com/BrickspaceLab/slab) to your account. Then clone **your fork** (not the upstream repo directly) and add the original repo as `upstream` so you can merge new releases later—see [Pull upstream updates](../../advanced-customizations/getting-started/pulling-upstream-updates.md).
 
 ```sh
-git clone https://github.com/BrickspaceLab/slab.git
+git clone https://github.com/<your-github-username>/slab.git
 cd slab
+git remote add upstream https://github.com/BrickspaceLab/slab.git
 ```
 {% endstep %}
 
@@ -53,13 +54,7 @@ Optional values:
 
 * Add `STORE_PASSWORD` if the storefront is password-protected.
 * Add `SHOPIFY_CLI_THEME_TOKEN` if you want Shopify CLI to authenticate without prompting.
-* Add **`CORS_ORIGINS`** (comma-separated URLs) if you preview the theme on a **custom domain** or **tunnel** where CSS and JavaScript load from a different origin than the storefront. Localhost and `*.myshopify.com` are allowed by default; set this when the browser sends an `Origin` header that is not covered by those defaults—for example:
-
-  ```sh
-  CORS_ORIGINS=https://your-store.com,https://www.your-store.com
-  ```
-
-  Use real values in your local `.env` (gitignored), not in commits.
+* Add `CORS_ORIGINS` if you preview the theme on a custom domain.&#x20;
 {% endstep %}
 
 {% step %}

@@ -26,6 +26,7 @@
 * [Products](guides/products/README.md)
   * [Product badges](guides/products/product-badges.md)
   * [Product subtitles](guides/products/product-subtitles.md)
+  * [Metafields on product cards](guides/products/metafields-on-product-cards.md)
   * [Custom content for tables](guides/products/custom-content-for-tables.md)
   * [Replace "Add to cart"](guides/products/replace-add-to-cart.md)
   * [Disable quick add](guides/products/disable-quick-add.md)
