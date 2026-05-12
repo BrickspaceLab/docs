@@ -1,0 +1,69 @@
+---
+description: Standards for maintaining changelog entries
+globs: **/changelog.md
+alwaysApply: false
+---
+
+# Changelog standards
+
+Use this rule when adding or editing changelog entries.
+
+## Structure
+
+- Keep a single `# Changelog` heading at the top.
+- Wrap entries in `{% updates format="full" %}` and `{% endupdates %}`.
+- Use one `{% update date="YYYY-MM-DD" tags="x.y.z" %}` block per release.
+- Close every release block with `{% endupdate %}`.
+- Add new releases at the top so entries remain reverse chronological.
+
+## Entry format
+
+- Start each release with an `##` title that summarizes the release.
+- Put headline changes (for example major **Added** items) as top-level bullets immediately under the title, outside any expandable block.
+- Put **Improvements** and **Fixes** inside separate HTML `<details>` blocks (see [Expandable sections](#expandable-sections)).
+- When relevant, add an **Upgrade notes** `<details>` block *before* Improvements and Fixes: use it for migrations, renamed or replaced settings, cases where Shopify does not map old values, removed options merchants relied on, or label renames they might search for in old docs. Omit it when nothing requires merchant action or re-checking after upgrade.
+- Use bullet points inside each section; keep each bullet specific and concise.
+- Use present-perfect verbs for change bullets (for example: "Added", "Updated", "Improved", "Fixed").
+
+## Expandable sections
+
+Use this markup pattern. Include a blank line after `<details>`, after `<summary>…</summary>`, before `</details>`, and between sibling `<details>` blocks for consistency with [slab/changelog.md](../../slab/changelog.md).
+
+```html
+<details>
+
+<summary>Upgrade notes</summary>
+
+* ...
+
+</details>
+
+<details>
+
+<summary>Improvements</summary>
+
+* ...
+
+</details>
+
+<details>
+
+<summary>Fixes</summary>
+
+* ...
+
+</details>
+```
+
+Omit the Upgrade notes block when not applicable. Omit Improvements or Fixes blocks when that category has no items for the release.
+
+## Quality checks
+
+- Ensure `tags` use semantic versioning and match the release being documented.
+- Ensure the `date` is the actual release date in `YYYY-MM-DD` format.
+- Keep tense and punctuation consistent across bullets.
+- Remove trailing spaces; keep spacing inside and between `<details>` blocks consistent with the pattern above (do not strip intentional blank lines that separate tags and sections).
+
+## Legacy formatting
+
+Some theme changelogs (for example Paper) may still use bold labels such as `**Improvements**` and `**Fixes**` instead of `<details>`. Prefer the expandable pattern for new and heavily edited entries; full migration of older releases is optional.

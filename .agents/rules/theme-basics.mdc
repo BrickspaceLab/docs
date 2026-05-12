@@ -1,0 +1,41 @@
+---
+description: User-first writing standards for theme basics guides (Paper, Space, Slab, Keystone)
+globs: "{slab/guides/basics/*.md,slab/guides/basics/**/*.md,slab/guides/slab-basics/*.md,slab/guides/slab-basics/**/*.md,paper/guides/basics/*.md,paper/guides/basics/**/*.md,space/guides/basics/*.md,space/guides/basics/**/*.md,keystone/guides/basics/*.md,keystone/guides/basics/**/*.md}"
+alwaysApply: false
+---
+
+# Theme basics writing standards
+
+Use this rule when writing or editing basics documentation under `guides/basics/` for Paper, Space, or Keystone, or under `guides/basics/` and `guides/slab-basics/` for Slab.
+
+## Audience and tone
+
+- Write for merchants first, not developers.
+- Explain the customer-facing outcome before setup details.
+- Use plain language and action-focused guidance.
+- Mention code-level details only when truly needed, and label them as optional.
+
+## Structure and style
+
+- Follow the same style used in existing theme basics guides: short intro, clear section headings, practical steps, and concise tables when settings are involved (for example Slab’s modular guides under `guides/slab-basics/`).
+- Keep instructions task-oriented and easy to scan in the theme editor.
+- Place setup and explanatory content near the top (for example setup steps, suggested order, and behavior explanations), then put detailed settings tables lower in the page.
+- Prefer concrete paths like **Theme settings > Colors** over abstract references.
+- Keep wording consistent with `formatting.mdc` terminology (`customers`, `merchants`, `storefront`, `sections`, `blocks`).
+
+## Source-of-truth checks
+
+- Before verifying settings for the theme you are documenting, sync source from the theme repos.
+- If `BRICKSPACE_GITHUB_TOKEN` is stored in `.env`, load it in the same shell session before syncing: `set -a && source .env && set +a`.
+- Then run `npm run sync` from the repo root so `.src/<theme>/` is up to date for that product (for example `.src/paper/`, `.src/space/`, `.src/slab/`, `.src/keystone/`).
+- If sync fails with `Operation not permitted` during clone, rerun the sync command with elevated permissions (outside sandbox) before diagnosing token access.
+- If sync fails, clearly state why (for example missing token or permissions) and avoid claiming verification against `.src/<theme>/`.
+- Follow `theme-docs.mdc` before publishing: verify behavior in `.src/<theme>/` source files for the theme the page documents.
+- Confirm setting names, defaults, ranges, and option values from schema and locale files for that theme instead of inferring.
+- If a claim cannot be confirmed from source, remove it or rewrite it as clearly scoped guidance.
+
+## Rule interactions
+
+- Apply `formatting.mdc` for markdown structure and terminology consistency.
+- Apply `theme-docs.mdc` for source verification in theme docs.
+- Apply `changelog.mdc` only when editing changelog files; it does not govern theme basics guides.

@@ -1,0 +1,24 @@
+---
+description: Source-of-truth verification for theme docs (slab, paper, space, keystone, Pallet)
+globs: "{slab,paper,space,keystone,Pallet}/**/*.md"
+alwaysApply: false
+---
+
+# Theme docs — source of truth
+
+## Source files
+
+Theme source code is synced from the upstream GitHub repos into `.src/<theme>/` by running `npm run sync`.
+This clones the latest default branch of each theme repo and places the result at `.src/slab/`, `.src/paper/`, `.src/space/`, `.src/keystone/`, etc.
+
+Before writing or editing any theme documentation, read the relevant source files from `.src/<theme>/`.
+Do not draft content without first consulting the source. If the required files are not present, ask the user to run `npm run sync` first.
+
+## Verification requirements
+
+- Use `.liquid` files, `{% schema %}` blocks, and locale files in `.src/<theme>/locales/` as the canonical reference.
+- Resolve all translated setting labels by looking up their `t:` keys in the locale files before writing setting names.
+- Verify defaults, ranges, and option values directly from `{% schema %}` — do not guess or infer them.
+- Confirm block compatibility (nesting, supported block types, app-block support) from schema definitions and Liquid usage.
+- If behavior differs by template or context, verify the condition from source and state it explicitly in the docs.
+- Do not document features, settings, or behaviors that cannot be confirmed in the source files.

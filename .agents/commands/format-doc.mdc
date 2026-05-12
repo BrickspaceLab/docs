@@ -1,0 +1,15 @@
+# Your task
+
+Apply formatting according to the project documentation rules.
+
+## Steps
+
+1. Identify the target file(s) from the user's request.
+2. Review each file against the formatting rules.
+3. Apply only formatting fixes (no content changes unless requested).
+4. Return a concise summary of what was changed.
+
+
+## References
+
+- [Formatting](mdc:.cursor/rules/formatting.mdc)
