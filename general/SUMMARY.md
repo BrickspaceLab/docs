@@ -5,6 +5,9 @@
 ## General
 
 * [Contact support](general/contact-support.md)
+* [Get help with Brickspace themes](general/get-help-with-brickspace-themes.md)
+* [Test responsive layouts without publishing the theme](general/test-responsive-layouts-without-publishing.md)
+* [Recover from third-party theme code changes](general/recover-from-third-party-theme-code.md)
 * [Theme comparisons](general/theme-comparisons.md)
 
 ## Support
