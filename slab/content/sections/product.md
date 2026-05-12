@@ -38,7 +38,9 @@ The main product section is the core container for product template content. It 
 | Color border                     | Sets section border color style.                            |
 | Border position                  | Controls where borders appear.                              |
 | Vertical alignment               | Aligns content vertically within the section.               |
-| Enable margin                    | Applies global horizontal margin settings.                  |
+| Margin                           | Controls the product section's desktop horizontal margin.   |
+| Enable mobile margin             | Reveals a separate mobile margin control when advanced settings are shown. |
+| Mobile margin                    | Controls the product section's mobile horizontal margin when enabled. |
 | Enable header overlap            | Allows section to overlap the header when enabled globally. |
 | Scroll snap align                | Applies scroll snap alignment when enabled globally.        |
 | Visibility                       | Controls device visibility (all, mobile, or desktop).       |

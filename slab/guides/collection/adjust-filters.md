@@ -11,8 +11,9 @@ Filters help customers narrow collection and search results faster. In Slab, fil
 5. Choose **Container layout**:
    - **Inline** for toolbar-style filter buttons.
    - **Stacked** for sidebar/drawer accordion filters.
-6. Set **Filter limit** and item display options.
-7. Save and test on desktop and mobile.
+6. For inline filters, set **Horizontal alignment** to align the filter buttons left, center, or right.
+7. Set **Filter limit** and item display options.
+8. Save and test on desktop and mobile.
 
 ## Suggested setup defaults
 
@@ -29,6 +30,7 @@ Filters help customers narrow collection and search results faster. In Slab, fil
 | Enable filters | Shows or hides filter groups. | On |
 | Enable sorting | Shows or hides sort options. | On |
 | Container layout | Overall filter UI mode: stacked or inline. | Stacked |
+| Horizontal alignment | Aligns inline filter buttons. | Left |
 | Filter limit | Maximum visible values before showing additional options. | 10 |
 | Items layout | How filter values display in each group (stacked or grid). | Stacked |
 | Row desktop / Row mobile | Grid columns for filter values when grid layout is used. | 2 / 1 |

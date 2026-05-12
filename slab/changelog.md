@@ -1,6 +1,58 @@
 # Changelog
 
 {% updates format="full" %}
+{% update date="2026-05-12" tags="0.4.0" %}
+## Header transitions, schema cleanup, and storefront refinements
+
+* Added **Header transition** options for **Fade**, **Slide up**, **Slide down**, and **Slide right** when page transitions are enabled.
+* Added header overlay color and border controls so overlapped headers can keep contrast against either the bar or the page background.
+* Added **Enable balanced wrapping** to the **Rich text** block for more balanced multiline text.
+* Added inline filter horizontal alignment controls and mobile margin controls for the product section.
+
+
+
+<details>
+
+<summary>Upgrade notes</summary>
+
+* Review blocks with custom color settings after updating. Slab 0.4.0 improves color inheritance for non-nestable blocks, which can change how inherited and custom schemes are applied in some layouts.
+* If you use custom header overlap designs, review the header section's default and overlay color schemes after updating so the header remains readable over both the bar and the page background.
+
+</details>
+
+<details>
+
+<summary>Improvements</summary>
+
+* Improved the shared schema settings system and applied shared settings across blocks for more consistent editor controls.
+* Improved flex layouts, flex item editor behavior, and gap spacing inside container blocks.
+* Improved page transitions to avoid content scrolling during navigation.
+* Improved marquee image rendering so images keep better proportions while scrolling.
+* Improved product section layout control with a mobile margin setting.
+* Added site credits to the developer console.
+* Removed the deprecated `update-shopify-json` agent skill and added schema-setting rules for agents.
+
+</details>
+
+<details>
+
+<summary>Fixes</summary>
+
+* Fixed right-positioned alert overlays staying left aligned.
+* Fixed custom liquid blocks so content can use the full available width.
+* Fixed theme editor scrolling to the wrong block when selecting a flex item.
+* Fixed broken button layout inside cards, trigger button hit areas, and standard button sizing in the account sheet block.
+* Fixed header overlap, menu item overlap, and header bar loading z-index issues.
+* Fixed background video in container blocks hiding inner content and mobile section backgrounds appearing skewed.
+* Fixed checkbox border color, product quantity input height, share button icon backgrounds, and cart item alignment.
+* Fixed product media hover images overlapping and gallery alt text layout in grid mode.
+* Fixed tab block content vertical padding, newsletter inline layout, button block flex wrapping, and sibling product dropdown radius and width.
+* Fixed filter dropdown shadows and incorrect color settings.
+
+</details>
+
+{% endupdate %}
+
 {% update date="2026-03-26" tags="0.3.1" %}
 ## Developer workflow, CORS for local dev, and version alignment
 

@@ -57,6 +57,7 @@ A flexible rich text content block that allows for formatted text content with c
 | -------------------- | -------------------------------------------- | ----------------------------------------------------------- |
 | Horizontal alignment | Controls horizontal text alignment           | <p>• Left (default)<br>• Center<br>• Justify<br>• Right</p> |
 | Enable max width     | Limits the maximum width of the text content | Checkbox (default: true)                                    |
+| Enable balanced wrapping | Balances multiline text wrapping for supported browsers | Checkbox (default: false)                                    |
 
 ### Display
 

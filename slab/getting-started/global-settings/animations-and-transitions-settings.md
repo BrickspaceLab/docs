@@ -18,7 +18,7 @@ Motion settings in **Theme settings > Motion** control animations, button motion
 ### Set transitions
 
 * Set **Page transition** to **None**, **Fade**, **Zoom**, **Slide down**, or **Slide right**.
-* Set **Header transition** to **None**, **Slide down**, or **Slide right**.
+* Set **Header transition** to **None**, **Fade**, **Slide up**, **Slide down**, or **Slide right**.
 {% endstep %}
 
 {% step %}
@@ -52,4 +52,4 @@ Motion settings in **Theme settings > Motion** control animations, button motion
 | Enable button motion  | Motion on buttons when animations are on. Default on.                          |
 | Enable image fade     | Fades images in using the dominant color from the center. Default off.           |
 | Page transition       | **None**, **Fade**, **Zoom**, **Slide down**, or **Slide right**. Default **Fade**. |
-| Header transition     | **None**, **Slide down**, or **Slide right**. Default **None**.                  |
+| Header transition     | **None**, **Fade**, **Slide up**, **Slide down**, or **Slide right**. Default **None**. |
