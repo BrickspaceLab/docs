@@ -26,3 +26,13 @@ Images must be ordered depending on their variants to ensure they are correctly 
    * The below image will help illustrate how to achieve this.
 
 <div align="left"><figure><img src="https://downloads.intercomcdn.com/i/o/1199111437/9087463c15b310aa77b99f73/Poster%2B-C2-B7%2BProducts%2B-C2-B7%2BBig%2BTote%2B-C2-B7%2BShopify%2B2023-09-06%2B17-32-57.png?expires=1744682400&#x26;signature=dd43a5947eadd3d59a74e56eff20fe252279e325718ec1d77b9cd329e196f06e&#x26;req=dSEuH8h%2FnIVcXvMW1HO4zbU7h%2BpLK%2BDDYKqzdz5v%2BClfFHjA%2FDMSkvnX%2FIpN%0AkZFGLHPiXFILbqaBO9Q%3D%0A" alt="" width="375"><figcaption></figcaption></figure></div>
+
+***
+
+### Troubleshoot variant image order on mobile
+
+1. Confirm **Show selected variant images only** is still enabled on **Product main** (see the steps above). Without this toggle, the gallery may not swap to the correct media when customers change variants.
+2. In **Shopify admin** > **Products**, open the product and verify each variant has a **featured image** that lines up with the gallery image you want customers to see first for that variant.
+3. Check overall **media order** in the product admin. Sliders on small screens emphasize the first matching slide, so ordering that matches your variant list reduces confusion.
+
+If you need structured text such as a UPC on each variant row, use the variant metafield columns described in [Show variant data in the product table](show-variant-data-in-product-tables.md).

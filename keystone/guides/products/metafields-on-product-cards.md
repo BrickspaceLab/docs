@@ -29,3 +29,4 @@ These are fixed hooks in the theme. Create the matching metafield definitions in
 
 * **Use the tagline for extra copy.** If the **Product subtitle** (`descriptors.subtitle`) definition uses a multi-line or rich text type, you can sometimes combine a few short lines in that one field instead of many separate card fields.
 * **Custom Liquid or theme edits.** To output additional metafields on grid cards, the theme’s product card templates must be extended. That is an advanced or developer change; start from [Add custom Liquid](../../advanced-customizations/adding-custom-liquid/) and treat product card snippets as the place a developer would wire new metafields.
+* **Variant rows in the product table.** Structured per-variant values (UPC, compliance text, and similar fields) use the comma-separated **Variant metafields** fields under **Theme settings → Product cards**. See [Show variant data in the product table](show-variant-data-in-product-tables.md).
