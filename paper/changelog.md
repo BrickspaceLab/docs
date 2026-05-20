@@ -1,6 +1,19 @@
 # Changelog
 
 {% updates format="full" %}
+{% update date="2026-05-20" tags="8.1.3" %}
+## 8.1.3 Variant media, subscribe script, and developer tooling
+
+**Improvements**
+
+* Updated the design-mode subscribe script to send paper_version in merchant data
+* Updated rules, commands, and skills for agent and theme development workflows
+
+**Fixes**
+
+* Fixed variant media order when a product has a duplicate video
+{% endupdate %}
+
 {% update date="2026-02-27" tags="8.1.2" %}
 ## 8.1.2 Cart note handling fixes
 
