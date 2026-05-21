@@ -14,7 +14,9 @@
 
 ## Partners
 
-* [Theme affiliate program](partners/theme-affiliate-program.md)
+* [Affiliate program](partners/theme-affiliate-program.md)
+* [Developer program](partners/developer-program.md)
+* [Design program](partners/design-program.md)
 
 ## Legal
 
