@@ -23,6 +23,7 @@ The Announcement bar displays text content at the top of the page, with support 
 | Setting           | Description                                                                                   |
 | ----------------- | --------------------------------------------------------------------------------------------- |
 | Auto scroll delay | Controls how quickly announcements automatically cycle in seconds (0 disables auto-scrolling) |
+| Hide progress bar | Hides the auto-scroll progress bar when announcements cycle automatically. Only applies when auto scroll delay is greater than 0. |
 | Color scheme      | Determines the background and text color combination for the announcement bar                 |
 | X alignment       | Sets the horizontal alignment of text content (left or center)                                |
 | Enable margin     | Adds horizontal margin to the announcement content                                            |

@@ -1,6 +1,36 @@
 # Changelog
 
 {% updates format="full" %}
+{% update date="2026-05-21" tags="2.2.3" %}
+## 2.2.3 Product media, search, and announcement bar improvements
+
+This update improves product media and search behavior, tightens announcement bar and collage playback, and restores app blocks on desktop product pages.
+
+* Added optional setting to hide the announcement bar auto-scroll progress bar
+
+<details>
+
+<summary>Improvements</summary>
+
+* Improved announcement bar scroll behavior near the auto-hide threshold
+
+</details>
+
+<details>
+
+<summary>Fixes</summary>
+
+* Fixed header logo spacing when using maximum desktop logo height
+* Fixed product upsell and complementary products so the section respects the configured background color
+* Fixed collage card videos not autoplaying when autoplay is enabled
+* Fixed a blue overlay glitch in the product fullscreen gallery when zooming
+* Fixed app blocks not rendering on desktop product pages
+* Fixed product gallery arrows disappearing for certain media gallery positions (top, right, bottom)
+* Fixed mobile search hiding product results when **Show product results in second column** is enabled
+
+</details>
+{% endupdate %}
+
 {% update date="2026-02-27" tags="2.2.2" %}
 ## 2.2.2 Product gallery and sticky content improvements
 
