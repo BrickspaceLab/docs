@@ -48,3 +48,4 @@ Block limit: 50
 | Input label       | The label displayed for the input field                                       |
 | Input placeholder | The placeholder text shown inside the empty input field                       |
 | Input type        | Determines the type of input field (single line, multiple lines, or checkbox) |
+| Enable required field | When enabled, makes the field mandatory for form submission               |

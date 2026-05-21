@@ -27,6 +27,8 @@ In the left panel, open **Theme settings > Product cards**.
 #### Configure Table details
 
 Scroll to the bottom to find **Table details** (Keystone 1.3.0+). Add the metafield(s) you want to display in your product tables. Supports both product and variant metafields (e.g., `custom.weight`).
+
+To show total stock across all locations in variant tables, add the variant metafield `custom.total_inventory_all_locations` to **Table details**. Populate this metafield on each variant to display combined inventory from all locations.
 {% endstep %}
 
 {% step %}

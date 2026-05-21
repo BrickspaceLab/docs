@@ -1,6 +1,29 @@
 # Changelog
 
 {% updates format="full" %}
+{% update date="2026-05-21" tags="2.1.2" %}
+## 2.1.2 Gallery, filters, and contact form improvements
+
+This update improves gallery and filter behavior, adds contact form validation controls, and fixes several collection and variant table issues.
+
+* Added **Enable required field** setting to contact form fields
+* Added support for the `custom.total_inventory_all_locations` variant metafield to display total stock across all locations in variant tables
+
+<details>
+
+<summary>Fixes</summary>
+
+* Fixed fullscreen gallery not opening to the selected variant image when clicked from the product row
+* Fixed fullscreen gallery when **Show selected variant images only** is enabled, including correct slide count and navigation between visible slides
+* Fixed collection filters breaking on tablets, including side filter layout and sticky positioning
+* Fixed side filter grid/list controls being obscured by the filter list on collection and search pages
+* Fixed menu drawer logo appearing in the header on medium tablet screens
+* Fixed collection list cards rendering blank description placeholders when a collection has no description
+* Removed empty variant-image placeholder boxes in variant tables when a variant has no image
+
+</details>
+{% endupdate %}
+
 {% update date="2026-02-27" tags="2.1.1" %}
 ## 2.1.1 Account fixes, banner rendering, and cart note improvements
 
