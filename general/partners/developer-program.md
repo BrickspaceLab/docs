@@ -2,8 +2,6 @@
 
 If you're a Shopify developer, freelancer or agency and want to get your hands on the Slab theme for free here's your chance. Apply to become a partner and you'll get free access to the Slab Shopify theme.
 
-####
-
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Apply now</td><td><a href="https://polar-check.vercel.app/apply">https://polar-check.vercel.app/apply</a></td></tr></tbody></table>
 
 
