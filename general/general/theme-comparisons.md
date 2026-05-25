@@ -2,6 +2,8 @@
 
 Not sure which theme to pick - take a look at our comparison chart. If you can't decide and want some more help reach out to our support team.&#x20;
 
+Slab is not included in this comparison - head over to the [complete feature list](https://app.gitbook.com/s/GnixyIfIYFWroNtVmZo6/feature-list) to see all available features and blocks for slab.&#x20;
+
 
 
 ## Theme basics
