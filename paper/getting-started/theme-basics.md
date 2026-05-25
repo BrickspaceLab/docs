@@ -5,6 +5,10 @@ If you need additional support contact our team for personalized onboarding, and
 {% endhint %}
 
 {% hint style="info" %}
+Coming from traditional web development (for example .NET or Rails)? Read [Start with Paper when you are new to Shopify](paper-and-shopify-for-developers.md) for how Liquid, the theme editor, and Shopify hosting fit together before you dive into sections and blocks.
+{% endhint %}
+
+{% hint style="info" %}
 Not sure which theme is right for your business? Our detailed [comparison chart](https://help.brickspacelab.com/general/theme-comparisons) breaks down key features available in each of our themes.
 {% endhint %}
 
