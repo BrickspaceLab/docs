@@ -33,6 +33,7 @@
   * [Hide out of stock options](guides/products/hide-out-of-stock-variants.md)
   * [Request a quote](guides/products/product-request-quote.md)
   * [Dynamic variant images](guides/products/product-variant-images.md)
+  * [Show variant data in the product table](guides/products/show-variant-data-in-product-tables.md)
   * [Subscription options](guides/products/product-subscriptions.md)
   * [Quantity picker](guides/products/product-quantity-picker.md)
   * [Combined listing](guides/products/product-combined-listing.md)
@@ -137,4 +138,5 @@
 * [Support policy](general/support-policy.md)
 * [Theme license](general/theme-license.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
+  * [Incorrect links in Recent slider and recommended products (BL-620)](general/known-issues-and-troubleshooting/incorrect-links-recent-and-recommended-products-bl-620.md)
   * [v1.3.0](general/known-issues-and-troubleshooting/v1.3.0.md)
