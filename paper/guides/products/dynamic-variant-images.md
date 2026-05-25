@@ -2,6 +2,8 @@
 
 Enabling “Show selected variant images only” will update your product pages to only show images assigned to each variant. This is useful if you have products that are visually different. Using this will help show customers which variant they have selected. For example if you have a shirt in blue and red - you can show only the red product photos when customers have selected red.
 
+To show variant-specific images **and** shared lifestyle or size-guide photos at the same time, see [Variant image filtering with shared images](variant-image-filtering-with-shared-images.md).
+
 
 
 {% stepper %}

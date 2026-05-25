@@ -6,6 +6,10 @@
 
 * [Contact support](general/contact-support.md)
 * [Get help with Brickspace themes](general/get-help-with-brickspace-themes.md)
+* [Support policy for modified theme code](general/support-policy-for-modified-theme-code.md)
+* [How third-party apps affect theme styles](general/how-third-party-apps-affect-theme-styles.md)
+* [Troubleshoot favicon and SEO page title](general/troubleshoot-favicon-and-seo-title.md)
+* [Preserve customizations when updating themes](general/preserve-customizations-when-updating-themes.md)
 * [Test responsive layouts without publishing the theme](general/test-responsive-layouts-without-publishing.md)
 * [Recover from third-party theme code changes](general/recover-from-third-party-theme-code.md)
 * [Theme comparisons](general/theme-comparisons.md)

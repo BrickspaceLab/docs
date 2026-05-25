@@ -19,6 +19,8 @@ In the left panel, open **Menu drawer** and toggle off **Enable sidebar**. This 
 **Choose your menu in the Header**
 
 In the left panel, open **Header** and set **Dropdown menu** to the navigation you want to show in the header.
+
+For nested dropdown layouts and promotional content blocks, see [Configure dropdown navigation menus](configure-dropdown-navigation-menus.md).
 {% endstep %}
 
 {% step %}

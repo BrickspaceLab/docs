@@ -36,7 +36,7 @@ Theme code is interconnected. If you are not comfortable reading Liquid, ask the
 
 ## Brickspace support and custom code
 
-Brickspace support covers defects in **unmodified** theme files and questions about built-in settings. It does not include debugging arbitrary third-party edits. See [Contact support](contact-support.md) for the full policy.
+Brickspace support covers defects in **unmodified** theme files and questions about built-in settings. It does not include debugging arbitrary third-party edits. See [Contact support](contact-support.md) and [Support policy for modified theme code](support-policy-for-modified-theme-code.md) for the full policy.
 
 If you need hands-on help merging updates or cleaning custom work, consider hiring a Shopify Expert. The general hub lists [Hire a Shopify developer](../support/hire-a-shopify-developer.md).
 
