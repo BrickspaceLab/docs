@@ -32,6 +32,7 @@
   * [Replace “Add to cart”](guides/products/replacing-add-to-cart.md)
   * [Option blocks](guides/products/option-blocks.md)
   * [Dynamic variant images](guides/products/dynamic-variant-images.md)
+  * [Variant image filtering with shared images](guides/products/variant-image-filtering-with-shared-images.md)
   * [Variant filtering](guides/products/variant-filtering.md)
   * [Disable quick add](guides/products/disabling-quick-add.md)
   * [Customize filters](guides/products/customizing-filters.md)
@@ -116,4 +117,5 @@
 * [Support policy](general/support-policy.md)
 * [Theme license](general/theme-license.md)
 * [Known issues and troubleshooting](general/known-issues-and-troubleshooting/README.md)
+  * [Troubleshoot Load More on collection pages](general/known-issues-and-troubleshooting/troubleshoot-load-more-on-collection-pages.md)
   * [v8.0.1](general/known-issues-and-troubleshooting/v8.0.1.md)

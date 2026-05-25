@@ -22,7 +22,8 @@ Keystone's wholesale capabilities include:
 To set up a wholesale store with Keystone:
 
 1. [**Set up customer approval**](customer-approval.md) - Decide how you'll approve wholesale customers
-2. [**Choose what to restrict**](hide-products.md) - Hide products, prices, or blog posts
+2. [**Control guest visibility**](guest-visibility-before-login.md) - Choose what logged-out visitors see (prices vs. product names)
+3. [**Choose what to restrict**](hide-products.md) - Hide products, prices, or blog posts
 3. [**Configure minimums**](minimum-order-amount.md) - Set minimum order amounts if needed
 4. [**Install pricing app**](wholesale-pricing-apps.md) - Add wholesale pricing if showing different prices
 5. [**Automate workflows**](automate-with-flow.md) - Optional: Use Flow to automate processes
@@ -33,6 +34,7 @@ To set up a wholesale store with Keystone:
 
 | Feature                                             | Description                                            |
 | --------------------------------------------------- | ------------------------------------------------------ |
+| [Guest visibility before login](guest-visibility-before-login.md) | Separate price vs. product visibility for logged-out visitors |
 | [Hide prices](hide-prices.md)                       | Hide pricing and add to cart for unauthorized visitors |
 | [Hide products](hide-products.md)                   | Completely hide products from collections and search   |
 | [Hide blog posts](hide-blog-posts.md)               | Restrict blog content to approved customers            |

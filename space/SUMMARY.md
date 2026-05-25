@@ -27,6 +27,7 @@
   * [Disable "quick add"](guides/products/disable-quick-add-for-a-product.md)
   * [Variant swatches](guides/products/variant-swatches.md)
   * [Fixed buy buttons](guides/products/fixed-buy-buttons.md)
+  * [Customize the sticky buy button](guides/products/customize-the-sticky-buy-button.md)
   * [Replace “Add to cart”](guides/products/replacing-add-to-cart.md)
   * [Dynamic variant images](guides/products/dynamic-variant-images.md)
   * [Variant filtering](guides/products/variant-filtering.md)

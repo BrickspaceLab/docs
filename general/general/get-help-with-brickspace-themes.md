@@ -35,3 +35,5 @@ Response times and scope are summarized in [Contact support](contact-support.md)
 
 * [Test responsive layouts without publishing the theme](test-responsive-layouts-without-publishing.md).
 * [Recover from third-party theme code changes](recover-from-third-party-theme-code.md).
+* [Support policy for modified theme code](support-policy-for-modified-theme-code.md).
+* [How third-party apps affect theme styles](how-third-party-apps-affect-theme-styles.md).

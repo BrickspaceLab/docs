@@ -22,3 +22,7 @@ Our support includes bug fixes and questions about built-in features and functio
 
 
 
+## Related reading
+
+* [Support policy for modified theme code](support-policy-for-modified-theme-code.md)
+* [How third-party apps affect theme styles](how-third-party-apps-affect-theme-styles.md)

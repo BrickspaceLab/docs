@@ -149,3 +149,5 @@ Works seamlessly with products that have:
 * Custom button text metafields
 
 Automatically integrates with your cart system (no additional configuration needed).
+
+For changes beyond theme editor settings (button text, price in bar, layout), see [Customize the sticky buy button](customize-the-sticky-buy-button.md).
