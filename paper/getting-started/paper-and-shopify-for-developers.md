@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Start with Paper when you are new to Shopify
 
 Paper is a Shopify Online Store 2.0 theme. If your background is in stacks such as ASP.NET, Ruby on Rails, or Laravel, the biggest mental shift is that **merchants** customize almost everything in the **theme editor**, while **Liquid** templates render HTML on Shopify’s servers instead of your own application server.
@@ -20,7 +24,7 @@ You do not SSH into a server to deploy Paper. You upload or connect the theme th
 
 * **Product walkthroughs:** continue with [Theme basics](theme-basics.md) inside this Paper hub for editor-first setup tasks.
 * **Deep dives:** browse the GitBook sidebar for **Guides**, **Sections**, and **Advanced customizations** once you know which surface you are changing.
-* **Cross-theme articles:** the [Brickspace general hub](../../general/README.md) covers licensing, support policy, and comparisons between Paper, Space, Keystone, and Slab.
+* **Cross-theme articles:** the [Brickspace general hub](../../general/) covers licensing, support policy, and comparisons between Paper, Space, Keystone, and Slab.
 
 ## Purchasing and installing Paper
 
@@ -31,7 +35,7 @@ Buy Paper through the [Shopify Theme Store](https://themes.shopify.com/) listing
 1. Skim Shopify’s [Themes overview](https://shopify.dev/docs/storefronts/themes) and [Liquid introduction](https://shopify.dev/docs/api/liquid).
 2. Follow [Theme basics](theme-basics.md) to configure global settings in Paper.
 3. Read [Use custom templates](../guides/basics/use-custom-templates.md) when you need alternate layouts for specific collections or products.
-4. Open [Add custom Liquid](../advanced-customizations/adding-custom-liquid/README.md) only after you are comfortable making backups and working in **Edit code**.
+4. Open [Add custom Liquid](../advanced-customizations/adding-custom-liquid/) only after you are comfortable making backups and working in **Edit code**.
 
 ## When to hire help
 
