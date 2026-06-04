@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Test responsive layouts without publishing the theme
 
 You can review how your Brickspace theme looks on phones and tablets before you publish changes to your live storefront.

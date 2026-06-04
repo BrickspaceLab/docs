@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Troubleshoot favicon and SEO page title
 
 Favicons and search-result titles can look “stuck” even after you change settings. This guide covers where each value is set, why caching delays updates, and how to verify the correct source is in control.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Support policy
 
 Brickspace Lab theme support covers built-in features in **unmodified** theme files. If you or a third party change theme code—including with Shopify Sidekick, other AI assistants, or the theme code editor—support eligibility and what we can help with change.

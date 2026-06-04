@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Recover from third-party theme code changes
 
 If a freelancer, agency, or app changed your theme’s Liquid, CSS, or JavaScript, you might see broken layouts (for example desktop styling on mobile), console errors, or features that no longer match the original Brickspace behavior.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # How third-party apps affect theme styles
 
 Third-party apps often inject forms, popups, or widgets into your storefront. When an app embed looks unstyled, broken, or “wrong” compared to its marketing site, merchants sometimes assume the theme is at fault. In most cases, normal **CSS cascade** behavior is involved—and fixing the app’s appearance is the app developer’s responsibility, not the theme author’s.
