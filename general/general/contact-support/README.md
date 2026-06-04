@@ -20,9 +20,3 @@ Our support includes bug fixes and questions about built-in features and functio
 |                                                          | ❌ Support for integrations or third party apps.                   |
 |                                                          | ❌ Changes to theme code done via Shopify's AI Toolkit             |
 
-
-
-## Related reading
-
-* [Support policy for modified theme code](../support-policy-for-modified-theme-code.md)
-* [How third-party apps affect theme styles](../how-third-party-apps-affect-theme-styles.md)
