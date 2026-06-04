@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Tips for contacting support
 
 Use this page when you are not sure how to reach Brickspace or what to include so the team can answer quickly.
