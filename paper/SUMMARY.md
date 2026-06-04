@@ -6,7 +6,6 @@
 ## Getting started
 
 * [Theme basics](getting-started/theme-basics.md)
-* [Start with Paper when you are new to Shopify](getting-started/paper-and-shopify-for-developers.md)
 * [Theme settings](getting-started/theme-settings/README.md)
   * [Colors](getting-started/theme-settings/colors.md)
   * [Typography](getting-started/theme-settings/typography.md)

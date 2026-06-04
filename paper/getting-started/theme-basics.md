@@ -5,20 +5,16 @@ If you need additional support contact our team for personalized onboarding, and
 {% endhint %}
 
 {% hint style="info" %}
-Coming from traditional web development (for example .NET or Rails)? Read [Start with Paper when you are new to Shopify](paper-and-shopify-for-developers.md) for how Liquid, the theme editor, and Shopify hosting fit together before you dive into sections and blocks.
+Coming from traditional web development (for example .NET or Rails)? Read [Start with Paper when you are new to Shopify](https://app.gitbook.com/s/PJlTTtkiYsDIt9ISlkeW/getting-started/paper-and-shopify-for-developers) for how Liquid, the theme editor, and Shopify hosting fit together before you dive into sections and blocks.
 {% endhint %}
 
 {% hint style="info" %}
 Not sure which theme is right for your business? Our detailed [comparison chart](https://help.brickspacelab.com/general/theme-comparisons) breaks down key features available in each of our themes.
 {% endhint %}
 
-
-
 ## An introduction to Paper
 
-Paper is a premium Shopify theme built specifically for large catalogue businesses. With powerful customization options and a wide range of built-in features, Paper makes it easy to create a professional, high-performing storefront tailored to large product catalogues.&#x20;
-
-
+Paper is a premium Shopify theme built specifically for large catalogue businesses. With powerful customization options and a wide range of built-in features, Paper makes it easy to create a professional, high-performing storefront tailored to large product catalogues.
 
 ## Getting started
 
@@ -29,11 +25,9 @@ Before customizing your theme, keep these best practices in mind:
 * Always duplicate your theme before making significant changes to ensure you have a backup.
 * Reach out to our team for 1-on-1 onboarding if you need tailored support.
 
-
-
 ### Setting up your theme for the first time
 
-If your new to Paper we recommend setting up your global theme settings then going page-by-page to review and adjust your design and content.&#x20;
+If your new to Paper we recommend setting up your global theme settings then going page-by-page to review and adjust your design and content.
 
 {% stepper %}
 {% step %}
@@ -57,7 +51,7 @@ If your new to Paper we recommend setting up your global theme settings then goi
 {% step %}
 **Update your storefront domain and password**
 
-* If you're ready to launch make sure you remove the storefront password and connect a custom domain if you have one.&#x20;
+* If you're ready to launch make sure you remove the storefront password and connect a custom domain if you have one.
 {% endstep %}
 
 {% step %}
@@ -66,8 +60,6 @@ If your new to Paper we recommend setting up your global theme settings then goi
 * Once you’re happy with how your store looks, publish your theme. After launch, continue monitoring performance and make ongoing improvements as needed.
 {% endstep %}
 {% endstepper %}
-
-
 
 ### **Understanding sections, blocks & templates**
 
