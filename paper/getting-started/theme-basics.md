@@ -5,7 +5,7 @@ If you need additional support contact our team for personalized onboarding, and
 {% endhint %}
 
 {% hint style="info" %}
-Coming from traditional web development (for example .NET or Rails)? Read [Start with Paper when you are new to Shopify](https://app.gitbook.com/s/PJlTTtkiYsDIt9ISlkeW/getting-started/paper-and-shopify-for-developers) for how Liquid, the theme editor, and Shopify hosting fit together before you dive into sections and blocks.
+Coming from traditional web development (for example .NET or Rails)? Read [Start with Paper when you are new to Shopify](/broken/pages/gUL3dzybjvS24IiXJ6w1) for how Liquid, the theme editor, and Shopify hosting fit together before you dive into sections and blocks.
 {% endhint %}
 
 {% hint style="info" %}

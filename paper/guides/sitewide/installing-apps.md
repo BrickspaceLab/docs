@@ -56,7 +56,7 @@ Keep overrides narrow. Avoid editing core theme files unless you accept [modifie
 
 #### 4. Prefer supported install methods <a href="#id-4.-prefer-supported-install-methods" id="id-4.-prefer-supported-install-methods"></a>
 
-Use [app blocks and app embeds](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps) rather than manual script tags pasted into `theme.liquid`. See [Use and install apps](../guides/basics/use-and-install-apps.md) for general guidance.
+Use [app blocks and app embeds](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps) rather than manual script tags pasted into `theme.liquid`. See [Use and install apps](../basics/use-and-install-apps.md) for general guidance.
 
 ### Common symptoms and likely causes <a href="#common-symptoms-and-likely-causes" id="common-symptoms-and-likely-causes"></a>
 

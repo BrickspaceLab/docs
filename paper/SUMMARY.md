@@ -56,6 +56,7 @@
   * [Migrate custom changes](guides/sitewide/migrating-custom-changes.md)
   * [Blog tag filtering](guides/sitewide/blog-tag-filtering.md)
   * [Search results](guides/sitewide/search-results.md)
+  * [Installing apps](guides/sitewide/installing-apps.md)
 
 ## Sections
 
@@ -110,7 +111,6 @@
 * [Add custom JavaScript](advanced-customizations/adding-custom-javascript.md)
 * [Use custom fonts](advanced-customizations/using-custom-fonts.md)
 * [Install a review app](advanced-customizations/installing-a-review-app.md)
-* [Installing apps](advanced-customizations/installing-apps.md)
 
 ## General
 
