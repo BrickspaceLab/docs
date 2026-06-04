@@ -36,6 +36,7 @@
   * [Improve page speed](guides/basics/improve-page-speed.md)
   * [SEO for Shopify](guides/basics/seo-for-shopify.md)
   * [Accessibility for Shopify](guides/basics/accessibility-for-shopify.md)
+  * [Installing apps](guides/basics/installing-apps.md)
 * [Slab basics](guides/slab-basics/README.md)
   * [Grid layouts](guides/slab-basics/build-grid-layouts.md)
   * [Menus](guides/slab-basics/menus.md)
