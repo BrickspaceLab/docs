@@ -2,108 +2,51 @@
 
 ## When to hire a Shopify developer <a href="#h_0170420437" id="h_0170420437"></a>
 
-When customizing your Shopify store, it's best to start with built-in features and settings before resorting to code changes. However, there are times when working with a developer or learning to code becomes necessary. Here's what you need to know:
+Consider hiring a Shopify developer when:
 
-1. Explore no-code options first Try to achieve your desired features or design elements using Shopify's built-in tools and app integrations before considering code modifications.
-2. Consider hiring a Shopify expert If you've exhausted no-code options and are unfamiliar with coding, it's time to work with an expert.
+* Your theme can’t support the layout or feature you need.
+* You’re running into app conflicts, bugs, or performance issues.
+* You need custom sections, advanced layouts, or unique functionality.
+* You want a more polished, flexible, and conversion-focused storefront.
+* You have the budget and want to save time instead of figuring everything out yourself.
+
+If you’re working with a smaller budget, start with your theme’s built-in tools and only invest in custom development when there’s a clear opportunity to improve the shopping experience.
 
 
 
 ## What we can help with <a href="#h_de1600cfc6" id="h_de1600cfc6"></a>
 
-Our team is available to build customizations and extend your Shopify theme with custom features and designs. We’re currently offering the following services.
+Our team offers three services for merchants who want help launching, improving, or growing their Shopify storefront.
 
+#### **Storefront Launch**
 
+Launch a polished Shopify storefront without spending weeks learning your theme, rebuilding templates, or worrying about every design decision.
 
-#### **Theme roast**
+* Store setup by the same team that designed and built your theme.
+* A polished storefront configured around your brand and products.
+* Proven layouts designed to improve product discovery, conversion, and shopping experience.
 
-A quick, 30-minute video review of your store. Our team walks through your site, pinpointing what’s working, what’s confusing customers, and what’s costing you conversions. You’ll get access to the video review with actionable tips of what to improve.
+[↳ Learn more](https://brickspacelab.com/pages/services)
 
-↳ $100 usd
+#### **Storefront Development**
 
-[↳ Book your theme roast](https://brickspacelab.com/products/theme-roast)
+Keep improving your Shopify storefront without hiring in-house, waiting on one-off quotes, or letting small development tasks pile up.
 
+* Ongoing Shopify development from the team behind your theme.
+* One active feature or improvement worked on at a time.
+* No fixed cap on development requests during your monthly plan.
 
+[↳ Learn more](https://brickspacelab.com/pages/services)
 
-#### **Theme roadmap**
+#### **Storefront Optimization**
 
-This is the full audit service. We review your entire ecommerce flow - from homepage to checkout then grade your UI and UX against industry benchmarks. You’ll walk away with a detailed roadmap of what to improve and in what order.
+Improve your Shopify storefront every week with a dedicated team handling the strategy, testing, design, and development work.
 
-↳ Starting at $3900 usd
+* Weekly A/B testing and implementation focused on measurable storefront improvements.
+* Design, accessibility, performance, and UX audits to uncover what should be prioritized.
+* Ongoing Shopify development included, so insights turn into real updates.
 
-[↳ Book discovery call](https://cal.com/brickspacelab/meeting?overlayCalendar=true)
-
-
-
-#### **Theme retainer**
-
-Prepay for a set number of development hours to help manage and maintain your Shopify store.
-
-↳ Starting at $3000 usd
-
-[↳ Book discovery call](https://cal.com/brickspacelab/meeting?overlayCalendar=true)
-
-
-
-#### **Theme setup**
-
-Get your shopify theme set up by the team that built it. We’ll configure everything to take full advantage of built-in features, and make sure your store looks polished and ready to launch.
-
-↳ Starting at $3900 usd
-
-[↳ Book discovery call](https://cal.com/brickspacelab/meeting?overlayCalendar=true)
-
-✓ Get your Shopify theme setup by the same team that design and built your theme
-
-✓ Expertly crafted online store taking full advantage of built-in theme features
-
-✓ Designed optimized for conversion rate, AOV and a simple shopping UX
-
-<details>
-
-<summary>Theme setup details</summary>
-
-* Setup up standard theme templates including the homepage, collection, collection list, product, and cart templates
-* Use design best-practices and leading [UX research](https://web.archive.org/web/20231203042453/https://baymard.com/) to create a conversion focused storefront.
-
-**What's included**
-
-* Theme duplicate installed and setup for your brand
-* Homepage, navigation, collection, product, cart and contact us templates setup
-* Setup up standard theme templates including the homepage, collection, collection list, product, and cart templates
-* Use design best-practices and leading [UX research](https://web.archive.org/web/20231203042453/https://baymard.com/) to create a conversion focused storefront.
-* Up to 2 custom templates such as an about, contact or FAQ page.
-
-**Benefits**
-
-* Optimized theme to grow your business
-* Backed by industry-leading [UX research](https://web.archive.org/web/20231203042453/https://baymard.com/)
-* Launch in a snap without worrying about the details
-
-**Eligibility requirements**
-
-* Collaborator access to your Shopify store - we'll send this request to you to approve
-* Products uploaded with all content (images, descriptions, etc)
-* Additional photography, text and list of pages needed
-
-**Setup would not include**
-
-* Shipping, payment, taxes or other settings outside the theme editor
-* Uploading content, writing content, designing brand
-
-</details>
-
-
-
-#### **Theme customizations**
-
-Need something custom? Our team can build custom layouts, features and tweak your theme to really bring your storefront to life.
-
-↳ Starting at $4900 usd
-
-[↳ Book discovery call](https://cal.com/brickspacelab/meeting?overlayCalendar=true)
-
-✓ Build customizations on top of your existing Shopify theme
+[↳ Learn more](https://brickspacelab.com/pages/services)
 
 
 
