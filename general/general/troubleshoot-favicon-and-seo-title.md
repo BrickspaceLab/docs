@@ -44,10 +44,10 @@ If you or an app edited `theme.liquid` or layout files, a second `<link rel="ico
 
 ### Two places control search snippets
 
-| Source | Controls |
-| ------ | -------- |
-| **Shopify admin** — product, collection, or page **Search engine listing** | Title and meta description for that resource |
-| **Theme defaults** | Fallback title patterns when a resource has no custom SEO fields |
+| Source                                                                     | Controls                                                         |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Shopify admin** — product, collection, or page **Search engine listing** | Title and meta description for that resource                     |
+| **Theme defaults**                                                         | Fallback title patterns when a resource has no custom SEO fields |
 
 Themes output meta tags based on Shopify’s SEO fields. Changing only the visible page heading in a section block does **not** automatically change the `<title>` tag or meta description.
 
@@ -63,7 +63,7 @@ For broader SEO context, see [SEO for Shopify](../../paper/guides/basics/seo-for
 
 ## Still not working?
 
-Include the following when you [contact support](contact-support.md):
+Include the following when you [contact support](contact-support/):
 
 * Store URL and whether the issue is favicon, title, or meta description
 * Published theme name and version
@@ -75,5 +75,5 @@ If custom layout code is involved, see [Support policy for modified theme code](
 
 ## Related reading
 
-* [Get help with Brickspace themes](get-help-with-brickspace-themes.md)
+* [Get help with Brickspace themes](contact-support/get-help-with-brickspace-themes.md)
 * [SEO for Shopify](../../paper/guides/basics/seo-for-shopify.md)

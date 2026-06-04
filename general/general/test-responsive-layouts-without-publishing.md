@@ -32,4 +32,4 @@ For theme-specific steps, open your product’s documentation hub and search for
 ## Related reading
 
 * [Recover from third-party theme code changes](recover-from-third-party-theme-code.md) — if mobile layout breaks after custom edits.
-* [Get help with Brickspace themes](get-help-with-brickspace-themes.md) — when you need support after your own tests.
+* [Get help with Brickspace themes](contact-support/get-help-with-brickspace-themes.md) — when you need support after your own tests.

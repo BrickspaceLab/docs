@@ -35,7 +35,7 @@ Brickspace Lab **does not provide support for third-party app integrations**. Th
 
 For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.
 
-For our full support scope, see [Contact support](contact-support.md) and [Support policy for modified theme code](support-policy-for-modified-theme-code.md).
+For our full support scope, see [Contact support](contact-support/) and [Support policy for modified theme code](support-policy-for-modified-theme-code.md).
 
 ## What merchants can do
 
@@ -64,15 +64,15 @@ Use [app blocks and app embeds](https://help.shopify.com/en/manual/online-store/
 
 ## Common symptoms and likely causes
 
-| Symptom | Likely cause |
-| ------- | ------------ |
-| App popup uses theme fonts or button styles | Global CSS inheritance (cascade) |
-| App form fields match theme inputs | Theme form resets applied to injected HTML |
-| App worked on a previous theme | Different global CSS on the new theme |
-| App broke after uninstall | Residual app code in theme files |
+| Symptom                                     | Likely cause                               |
+| ------------------------------------------- | ------------------------------------------ |
+| App popup uses theme fonts or button styles | Global CSS inheritance (cascade)           |
+| App form fields match theme inputs          | Theme form resets applied to injected HTML |
+| App worked on a previous theme              | Different global CSS on the new theme      |
+| App broke after uninstall                   | Residual app code in theme files           |
 
 ## Related reading
 
 * [Recover from third-party theme code changes](recover-from-third-party-theme-code.md)
 * [Support policy for modified theme code](support-policy-for-modified-theme-code.md)
-* [Get help with Brickspace themes](get-help-with-brickspace-themes.md)
+* [Get help with Brickspace themes](contact-support/get-help-with-brickspace-themes.md)
