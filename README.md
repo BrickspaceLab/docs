@@ -1,7 +1,7 @@
 # Changelog
 
 {% updates format="full" %}
-{% update date="2026-06-17" tags="0.3.0" %}
+{% update date="2026-06-17" tags="0.3.2" %}
 ## 0.3.2
 
 * This release improves admin reliability and cleanup, with fixes for missing images, archived-item visibility, and dark mode polish in the table of contents.
@@ -32,7 +32,7 @@
 </details>
 {% endupdate %}
 
-{% update date="2026-06-17" tags="0.3.0" %}
+{% update date="2026-06-17" tags="0.3.1" %}
 ## 0.3.1
 
 * Small fixes improve mobile polish, search accuracy, page speed, and release-version details.
