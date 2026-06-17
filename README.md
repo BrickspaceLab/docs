@@ -1,7 +1,71 @@
 # Changelog
 
 {% updates format="full" %}
-{% update date="2026-06-16" tags="0.3.0" %}
+{% update date="2026-06-17" tags="0.3.0" %}
+## 0.3.2
+
+* This release improves admin reliability and cleanup, with fixes for missing images, archived-item visibility, and dark mode polish in the table of contents.
+
+<details>
+
+<summary>Notes</summary>
+
+* Version information in the "..." menu was updated for 0.3.2.
+
+</details>
+
+<details>
+
+<summary>Features and improvements</summary>
+
+* Archived resources are now hidden from the admin list by default, with a way to switch between active and archived items.
+
+</details>
+
+<details>
+
+<summary>Bugs</summary>
+
+* Missing image thumbnails in admin were fixed.
+* The table of contents now shows a solid hover background in dark mode.
+
+</details>
+{% endupdate %}
+
+{% update date="2026-06-17" tags="0.3.0" %}
+## 0.3.1
+
+* Small fixes improve mobile polish, search accuracy, page speed, and release-version details.
+
+<details>
+
+<summary>Notes</summary>
+
+* Hotfix release focused on a handful of targeted cleanup and reliability fixes.
+
+</details>
+
+<details>
+
+<summary>Features and improvements</summary>
+
+* Faster homepage image loading.
+* More accurate section search that only matches exact tagged locations.
+* Better spacing between sticky buttons on mobile.
+
+</details>
+
+<details>
+
+<summary>Bugs</summary>
+
+* Version information in the "..." menu was updated for 0.3.1.
+* Mobile border radius rendering was fixed.
+
+</details>
+{% endupdate %}
+
+{% update date="2026-06-15" tags="0.3.0" %}
 ## 0.3.0
 
 * Smarter section indexing, and refreshed admin controls make catalog content easier to organize and discover.
