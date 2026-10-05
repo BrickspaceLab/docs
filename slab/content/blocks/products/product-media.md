@@ -1,3 +1,9 @@
+---
+title: "Product media"
+published: true
+index: 4
+---
+
 # Product media
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>

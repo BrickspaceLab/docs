@@ -1,3 +1,9 @@
+---
+title: "Borders"
+published: true
+index: 1
+---
+
 # Borders
 
 Border settings in **Theme settings > Borders** control corner radius and border width for buttons, form inputs, and other page elements across the storefront.

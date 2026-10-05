@@ -1,3 +1,9 @@
+---
+title: "Cookies and consent"
+published: true
+index: 5
+---
+
 # Cookies and consent banner
 
 **Priority:** secondary operational/legal UX — implement with a consent management platform (CMP) such as Cookiebot, Osano, OneTrust, or similar if you use non-essential cookies or trackers.

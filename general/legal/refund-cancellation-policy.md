@@ -1,3 +1,9 @@
+---
+title: "Refund and cancellation"
+published: true
+index: 4
+---
+
 # Refund and cancellation policy
 
 **Last updated:** April 29, 2026

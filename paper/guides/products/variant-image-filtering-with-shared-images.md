@@ -1,3 +1,9 @@
+---
+title: "Variant image filtering with shared images"
+published: true
+index: 8
+---
+
 # Variant image filtering with shared images
 
 Paper’s **Only show media associated with the selected variant** setting (in the product section) filters the gallery so customers see images tied to the active variant. Merchants with large variant catalogs often also need **shared** images—lifestyle shots, size guides, or detail photos—that stay visible for every variant. This guide explains how filtering works, built-in behavior for unassigned media, and options when you need more control.

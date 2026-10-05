@@ -1,3 +1,9 @@
+---
+title: "Image hotspot"
+published: true
+index: 4
+---
+
 # Image hotspot
 
 ### Section overview

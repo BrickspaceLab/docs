@@ -1,3 +1,9 @@
+---
+title: "Alternative collection grid"
+published: true
+index: 4
+---
+
 # Alternative collection grid
 
 ### Section overview

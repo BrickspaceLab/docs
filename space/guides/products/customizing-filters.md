@@ -1,3 +1,9 @@
+---
+title: "Customize filters"
+published: true
+index: 11
+---
+
 # Customize filters
 
 Collection templates in Paper are compatible with Shopify's official [Search & Discovery](https://apps.shopify.com/search-and-discovery) app. This app can be used to customize and extend the available filters for your store.

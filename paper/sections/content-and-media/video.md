@@ -1,3 +1,9 @@
+---
+title: "Video"
+published: true
+index: 2
+---
+
 # Video
 
 ### Section overview

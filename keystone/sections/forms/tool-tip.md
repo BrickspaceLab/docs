@@ -1,3 +1,9 @@
+---
+title: "Tool tip"
+published: true
+index: 3
+---
+
 # Tool tip
 
 ### Section overview

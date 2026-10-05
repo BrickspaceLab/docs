@@ -1,3 +1,9 @@
+---
+title: "Header"
+published: true
+index: 4
+---
+
 # Header
 
 Header settings in **Theme settings > Header** control how the header behaves while customers scroll and whether top sections can render under the header when overlap is enabled at the theme and section level.

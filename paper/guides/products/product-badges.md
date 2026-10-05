@@ -1,3 +1,9 @@
+---
+title: "Product badges"
+published: true
+index: 0
+---
+
 # Product badges
 
 Product badges can be used to highlight key information about products. Badges can help customers make decisions about what products they want to explore more.

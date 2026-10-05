@@ -1,3 +1,9 @@
+---
+title: "Logo list"
+published: true
+index: 12
+---
+
 # Logo list
 
 ### Section overview

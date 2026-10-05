@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Table of contents
 
-* [Changelog](README.md)
+* [Changelog](catalog/changelog.md)

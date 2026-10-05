@@ -1,3 +1,9 @@
+---
+title: "Changelog"
+published: true
+index: 0
+---
+
 # Changelog
 
 {% updates format="full" %}

@@ -1,3 +1,9 @@
+---
+title: "Table"
+published: true
+index: 6
+---
+
 # Table
 
 ## Overview

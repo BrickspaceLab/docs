@@ -1,3 +1,9 @@
+---
+title: "Slideshow"
+published: true
+index: 2
+---
+
 # Slideshow
 
 ### Section overview

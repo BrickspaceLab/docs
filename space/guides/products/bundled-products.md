@@ -1,3 +1,9 @@
+---
+title: "Bundled products"
+published: true
+index: 16
+---
+
 # Bundled products
 
 The bundle product template can be used to sell multiple products from a single page. This can be combined with automatic discounts for an added layer of functionality. To set this up you'll need to create a new metafield definition then assign the bundle template to a new product.

@@ -1,3 +1,9 @@
+---
+title: "Create a Mapbox API key"
+published: true
+index: 3
+---
+
 # Create a Mapbox API key
 
 {% hint style="info" %}

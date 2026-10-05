@@ -1,3 +1,9 @@
+---
+title: "Improve page speed"
+published: true
+index: 3
+---
+
 # Improve page speed
 
 ## How does page speed impact your business <a href="#h_029076d4e0" id="h_029076d4e0"></a>

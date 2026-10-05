@@ -1,3 +1,9 @@
+---
+title: "Slider"
+published: true
+index: 4
+---
+
 # Slider
 
 <figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>

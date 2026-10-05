@@ -1,3 +1,9 @@
+---
+title: "Dynamic variant images"
+published: true
+index: 8
+---
+
 # Dynamic variant images
 
 Enabling “Show selected variant images only” will update your product pages to only show images assigned to each variant. This is useful if you have products that are visually different. Using this will help show customers which variant they have selected. For example if you have a shirt in blue and red - you can show only the red product photos when customers have selected red.

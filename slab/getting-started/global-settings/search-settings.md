@@ -1,3 +1,9 @@
+---
+title: "Search"
+published: true
+index: 10
+---
+
 # Search
 
 Search settings in **Theme settings > Search** control which result types can appear on the search results page.

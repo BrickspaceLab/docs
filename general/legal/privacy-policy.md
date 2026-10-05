@@ -1,3 +1,9 @@
+---
+title: "Privacy policy"
+published: true
+index: 1
+---
+
 # Privacy policy
 
 **Last updated:** April 29, 2026

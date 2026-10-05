@@ -1,3 +1,9 @@
+---
+title: "Image comparison"
+published: true
+index: 14
+---
+
 # Image comparison
 
 ### Section overview

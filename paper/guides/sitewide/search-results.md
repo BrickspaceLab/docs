@@ -1,3 +1,9 @@
+---
+title: "Search results"
+published: true
+index: 7
+---
+
 # Search results
 
 {% hint style="info" %}

@@ -1,3 +1,9 @@
+---
+title: "Set up mobile-specific images"
+published: true
+index: 8
+---
+
 # Set up mobile-specific images
 
 Several Keystone sections support a separate **Mobile background image** so you can show a cropped or simplified asset on phones while keeping a wide desktop hero. Uploading a mobile image alone is not enough—you must enable the background image and understand the fallback rules.

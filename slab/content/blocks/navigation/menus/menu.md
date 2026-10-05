@@ -1,3 +1,9 @@
+---
+title: "Menu"
+published: true
+index: 0
+---
+
 # Menu
 
 <figure><img src="../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>

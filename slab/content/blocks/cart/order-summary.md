@@ -1,3 +1,9 @@
+---
+title: "Order summary"
+published: true
+index: 7
+---
+
 # Order summary
 
 <figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>

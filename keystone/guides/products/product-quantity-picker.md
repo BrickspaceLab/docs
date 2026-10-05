@@ -1,3 +1,9 @@
+---
+title: "Quantity picker"
+published: true
+index: 12
+---
+
 # Quantity picker
 
 A quantity input field can be enabled or disabled on product pages. If you aren't seeing a quantity field it's likely it has been disabled in your theme settings.

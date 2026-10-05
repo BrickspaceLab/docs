@@ -1,3 +1,9 @@
+---
+title: "Cart drawer"
+published: true
+index: 3
+---
+
 # Cart drawer
 
 ### Section overview

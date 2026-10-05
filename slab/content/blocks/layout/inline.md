@@ -1,3 +1,9 @@
+---
+title: "Inline"
+published: true
+index: 8
+---
+
 # Inline
 
 <figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>

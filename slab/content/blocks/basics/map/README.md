@@ -1,3 +1,9 @@
+---
+title: "Map"
+published: true
+index: 7
+---
+
 # Map
 
 <figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,9 @@
+---
+title: "Store location"
+published: true
+index: 14
+---
+
 # Store location
 
 Store location settings in **Theme settings > Store location** control optional local business information and the Mapbox key used for dynamic maps.

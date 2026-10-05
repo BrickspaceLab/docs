@@ -1,3 +1,9 @@
+---
+title: "Search results"
+published: true
+index: 1
+---
+
 # Search results
 
 <figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>

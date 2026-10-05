@@ -1,3 +1,9 @@
+---
+title: "Blog"
+published: true
+index: 5
+---
+
 # Blog
 
 ### Section overview

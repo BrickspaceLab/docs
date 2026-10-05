@@ -1,3 +1,9 @@
+---
+title: "Sibling products"
+published: true
+index: 15
+---
+
 # Sibling products
 
 Paper supports two methods to display products as swatch options. This is helpful if you want to split one product into seperate listing but maintain visibility for each option. When this is setup customers will see sibling products as options so they can easily select different options or colors.&#x20;

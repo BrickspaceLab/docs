@@ -1,3 +1,9 @@
+---
+title: "Video"
+published: true
+index: 9
+---
+
 # Video
 
 <figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>

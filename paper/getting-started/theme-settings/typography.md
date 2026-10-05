@@ -1,3 +1,9 @@
+---
+title: "Typography"
+published: true
+index: 1
+---
+
 # Typography
 
 Text plays a significant role on your website. Both the content and the typography you use are crucial for building a strong visual identity that resonates with customers.

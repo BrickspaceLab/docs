@@ -1,3 +1,9 @@
+---
+title: "Software license — Slab"
+published: true
+index: 2
+---
+
 # Software license agreement — Slab
 
 **Last updated:** April 29, 2026

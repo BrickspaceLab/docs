@@ -1,3 +1,9 @@
+---
+title: "Automate with Flow"
+published: true
+index: 8
+---
+
 # Automate with Flow
 
 Shopify Flow is a powerful automation tool that can streamline your wholesale operations. Flow allows you to create automated workflows that trigger actions based on events in your store.

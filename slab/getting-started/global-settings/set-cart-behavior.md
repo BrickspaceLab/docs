@@ -1,3 +1,9 @@
+---
+title: "Cart"
+published: true
+index: 9
+---
+
 # Cart
 
 Cart settings in **Theme settings > Cart** control what happens after cart updates on desktop and mobile, what happens when customers use the cart control, and an optional minimum order amount.

@@ -1,3 +1,9 @@
+---
+title: "Tooltip"
+published: true
+index: 20
+---
+
 # Tooltip
 
 ### Section overview

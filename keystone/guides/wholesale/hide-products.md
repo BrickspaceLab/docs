@@ -1,3 +1,9 @@
+---
+title: "Hide products"
+published: true
+index: 2
+---
+
 # Hide products
 
 Hiding products completely removes them from view for unauthorized visitors. This is useful for wholesale-only products or exclusive items that should only be visible to approved customers.

@@ -1,3 +1,9 @@
+---
+title: "Article date"
+published: true
+index: 1
+---
+
 # Article date
 
 <figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>

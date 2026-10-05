@@ -1,3 +1,9 @@
+---
+title: "Use device-specific visibility"
+published: true
+index: 1
+---
+
 # Use device-specific visibility
 
 ## Space: Using device specific visibility

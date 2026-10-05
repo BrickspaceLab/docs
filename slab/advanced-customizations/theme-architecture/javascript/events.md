@@ -1,3 +1,9 @@
+---
+title: "Events"
+published: true
+index: 0
+---
+
 # Events
 
 The theme dispatches custom events on `document` using `dispatchEvent()` from `src/javascript/core/utils.ts`. Listen for these events to react to cart changes or dynamic content updates without modifying theme source files.
