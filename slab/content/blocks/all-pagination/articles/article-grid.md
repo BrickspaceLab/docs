@@ -1,3 +1,9 @@
+---
+title: "Grid articles"
+published: true
+index: 0
+---
+
 # Grid articles
 
 ## Overview

@@ -1,3 +1,9 @@
+---
+title: "Blog posts grid"
+published: true
+index: 11
+---
+
 # Blog posts grid
 
 ### Section overview

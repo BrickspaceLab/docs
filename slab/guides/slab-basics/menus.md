@@ -1,3 +1,9 @@
+---
+title: "Menus"
+published: true
+index: 1
+---
+
 # Menus
 
 Slab separates **desktop navigation** (dropdown menus in the header) from the **menu overlay** (the panel that opens when customers tap the menu control on smaller screens or when a button is set to open the menu). You build the link structure in the Shopify admin, then style behavior and layout in the theme editor.

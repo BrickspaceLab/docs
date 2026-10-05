@@ -1,3 +1,9 @@
+---
+title: "Logo"
+published: true
+index: 13
+---
+
 # Logo
 
 <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>

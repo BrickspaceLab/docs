@@ -1,3 +1,9 @@
+---
+title: "Banner"
+published: true
+index: 8
+---
+
 # Banner
 
 ### Section overview

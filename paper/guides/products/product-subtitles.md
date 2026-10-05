@@ -1,3 +1,9 @@
+---
+title: "Product subtitles"
+published: true
+index: 1
+---
+
 # Product subtitles
 
 Taglines or subtitles can be included using Metafields. This can be used to show a short description for your product.

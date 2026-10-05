@@ -1,3 +1,9 @@
+---
+title: "Social media"
+published: true
+index: 15
+---
+
 # Social media
 
 Social media settings in **Theme settings > Social media** store profile URLs the theme uses for social icons and links.

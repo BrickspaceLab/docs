@@ -1,3 +1,9 @@
+---
+title: "Accordion"
+published: true
+index: 2
+---
+
 # Accordion
 
 <figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>

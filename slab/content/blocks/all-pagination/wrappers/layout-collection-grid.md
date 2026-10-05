@@ -1,3 +1,9 @@
+---
+title: "Collection"
+published: true
+index: 1
+---
+
 # Collection
 
 ## Block limitations

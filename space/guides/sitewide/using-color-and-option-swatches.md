@@ -1,3 +1,9 @@
+---
+title: "Use color and option swatches"
+published: true
+index: 0
+---
+
 # Use color and option swatches
 
 ## Space: Using color and option swatches

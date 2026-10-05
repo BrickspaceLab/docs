@@ -1,3 +1,9 @@
+---
+title: "Icon grid"
+published: true
+index: 7
+---
+
 # Icon grid
 
 ### Section overview

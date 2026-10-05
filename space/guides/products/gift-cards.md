@@ -1,3 +1,9 @@
+---
+title: "Gift cards"
+published: true
+index: 12
+---
+
 # Gift cards
 
 Gift cards are a great way to boost sales for holiday seasons or special promotions. Shopify gift cards can be purchased online or in-person. They work with the Paper Shopify theme and have an additonal option to let customers specifiy an email address to send the gift cards too.

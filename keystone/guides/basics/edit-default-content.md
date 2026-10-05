@@ -1,3 +1,9 @@
+---
+title: "Edit default content"
+published: true
+index: 0
+---
+
 # Edit default content
 
 When setting up your Shopify theme you may come across text content that can't be edited from the theme editor. Here's where the default content editor comes in handy.

@@ -1,3 +1,9 @@
+---
+title: "Variant swatches"
+published: true
+index: 4
+---
+
 # Variant swatches
 
 Swatches are used to make variant selections easier and more intuitive for customers when they are selecting an option with color. Swatches appear throughout your theme in various places and can be used with custom images or hex code colors.

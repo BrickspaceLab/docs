@@ -1,3 +1,9 @@
+---
+title: "Customize filters"
+published: true
+index: 0
+---
+
 # Customize filters
 
 Collection templates in Keystone are compatible with Shopify's official [Search & Discovery](https://apps.shopify.com/search-and-discovery) app. This app can be used to customize and extend the available filters for your store.

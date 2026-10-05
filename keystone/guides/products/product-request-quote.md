@@ -1,3 +1,9 @@
+---
+title: "Request a quote"
+published: true
+index: 7
+---
+
 # Request a quote
 
 The Request a Quote block allows customers to request a quote or additional information. It can be used alongside or instead of the Buy Buttons.

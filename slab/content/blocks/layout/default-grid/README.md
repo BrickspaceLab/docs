@@ -1,3 +1,9 @@
+---
+title: "Grid"
+published: true
+index: 2
+---
+
 # Grid
 
 <figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>

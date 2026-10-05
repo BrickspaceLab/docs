@@ -1,3 +1,9 @@
+---
+title: "Quick actions"
+published: true
+index: 13
+---
+
 # Quick actions
 
 Quick actions settings in **Theme settings > Quick actions** set which product templates open in quick buy and quick edit when those features are used.

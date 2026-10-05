@@ -1,3 +1,9 @@
+---
+title: "Slab"
+published: true
+index: 4
+---
+
 # Slab
 
 <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button>
@@ -10,7 +16,7 @@
 
 ## Helpful links
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting started</td><td><a href="/broken/pages/lYcEG5mEMBSCEGTvmdEZ">Broken link</a></td></tr><tr><td>Guides</td><td><a href="/broken/pages/tMGxQOtv94SxF6JRO0U8">Broken link</a></td></tr><tr><td>Blocks and sections</td><td><a href="/broken/pages/KQSKqi8ABoykvGW9xpHU">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting started</td><td><a href="getting-started/README.md">Getting started</a></td></tr><tr><td>Guides</td><td><a href="guides/README.md">Guides</a></td></tr><tr><td>Blocks and sections</td><td><a href="content/README.md">Content</a></td></tr></tbody></table>
 
 
 

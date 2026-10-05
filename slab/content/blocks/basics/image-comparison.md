@@ -1,3 +1,9 @@
+---
+title: "Image comparison"
+published: true
+index: 12
+---
+
 # Image comparison
 
 <figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>

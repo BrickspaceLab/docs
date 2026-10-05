@@ -1,3 +1,9 @@
+---
+title: "Search"
+published: true
+index: 2
+---
+
 # Search
 
 ## Block limitations

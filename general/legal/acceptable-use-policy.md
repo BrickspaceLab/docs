@@ -1,3 +1,9 @@
+---
+title: "Acceptable use policy"
+published: true
+index: 6
+---
+
 # Acceptable use policy
 
 **Last updated:** April 29, 2026

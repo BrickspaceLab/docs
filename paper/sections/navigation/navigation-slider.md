@@ -1,3 +1,9 @@
+---
+title: "Navigation slider"
+published: true
+index: 0
+---
+
 # Navigation slider
 
 ### Section overview

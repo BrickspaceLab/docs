@@ -1,3 +1,9 @@
+---
+title: "Simple subtotal"
+published: true
+index: 4
+---
+
 # Simple subtotal
 
 <figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

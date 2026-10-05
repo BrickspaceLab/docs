@@ -1,3 +1,9 @@
+---
+title: "Tags"
+published: true
+index: 4
+---
+
 # Tags
 
 ## Overview

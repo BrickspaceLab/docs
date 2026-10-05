@@ -1,3 +1,9 @@
+---
+title: "Inputs"
+published: true
+index: 2
+---
+
 # Inputs
 
 Input settings in **Theme settings > Inputs** control default, hover, and focus styles for form fields across the storefront, including colors, horizontal padding, and whether the border wraps the field or appears on the bottom edge only.

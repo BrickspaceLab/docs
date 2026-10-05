@@ -1,3 +1,9 @@
+---
+title: "Terms of service"
+published: true
+index: 0
+---
+
 # Terms of service
 
 **Last updated:** April 29, 2026

@@ -1,3 +1,9 @@
+---
+title: "Software license — Catalog"
+published: true
+index: 3
+---
+
 # Software license agreement — Catalog
 
 **Last updated:** April 29, 2026

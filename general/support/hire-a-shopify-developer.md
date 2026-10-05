@@ -1,3 +1,9 @@
+---
+title: "Hire a Shopify developer"
+published: true
+index: 1
+---
+
 # Hire a Shopify developer
 
 ## When to hire a Shopify developer <a href="#h_0170420437" id="h_0170420437"></a>

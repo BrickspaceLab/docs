@@ -1,3 +1,9 @@
+---
+title: "Grid products"
+published: true
+index: 0
+---
+
 # Grid products
 
 ## Overview

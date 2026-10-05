@@ -1,3 +1,9 @@
+---
+title: "Article card"
+published: true
+index: 0
+---
+
 # Article card
 
 <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
@@ -28,9 +34,9 @@ The following blocks can be nested within this block:
 * [Button](../basics/button.md)
 * [Video](../basics/video.md)
 * [Article date](../blog/article-date.md)
-* [Slider](../layout/slider/)
-* [Grid](../layout/default-grid/)
-* [Flex](../layout/flex-grid/)
+* [Slider](../layout/slider/README.md)
+* [Grid](../layout/default-grid/README.md)
+* [Flex](../layout/flex-grid/README.md)
 
 ## Block settings
 

@@ -1,3 +1,9 @@
+---
+title: "Comparison table"
+published: true
+index: 22
+---
+
 # Comparison table
 
 ### Section overview

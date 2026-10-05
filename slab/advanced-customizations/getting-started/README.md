@@ -1,3 +1,9 @@
+---
+title: "Getting started"
+published: true
+index: 0
+---
+
 # Getting started
 
 {% hint style="warning" %}
@@ -21,12 +27,12 @@ For advanced customizations we recommend installing Slab via GitHub. Fork the th
 [installing-from-github.md](../../getting-started/installing-slab/installing-from-github.md)
 {% endcontent-ref %}
 
-{% content-ref url="../theme-architecture/" %}
-[theme-architecture](../theme-architecture/)
+{% content-ref url="../theme-architecture/README.md" %}
+[theme-architecture](../theme-architecture/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="../making-changes/" %}
-[making-changes](../making-changes/)
+{% content-ref url="../making-changes/README.md" %}
+[making-changes](../making-changes/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="../working-with-coding-agents.md" %}

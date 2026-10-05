@@ -1,3 +1,9 @@
+---
+title: "Product comparison"
+published: true
+index: 3
+---
+
 # Product comparison
 
 ### Section overview

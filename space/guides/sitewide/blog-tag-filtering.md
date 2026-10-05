@@ -1,3 +1,9 @@
+---
+title: "Blog tag filtering"
+published: true
+index: 4
+---
+
 # Blog tag filtering
 
 ***

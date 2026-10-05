@@ -1,3 +1,9 @@
+---
+title: "Product subtitles"
+published: true
+index: 1
+---
+
 # Product subtitles
 
 Enhance product displays with short descriptions using Metafields. Taglines provide additional context and appeal to customers.

@@ -1,3 +1,9 @@
+---
+title: "Avatars"
+published: true
+index: 3
+---
+
 # Avatars
 
 <figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,9 @@
+---
+title: 'Disable "quick add"'
+published: true
+index: 3
+---
+
 # Disable "quick add"
 
 ## Space: Disable "quick add" for a product

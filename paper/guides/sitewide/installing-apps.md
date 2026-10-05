@@ -1,3 +1,9 @@
+---
+title: "Installing apps"
+published: true
+index: 8
+---
+
 # Installing apps
 
 Third-party apps often inject forms, popups, or widgets into your storefront. When an app embed looks unstyled, broken, or “wrong” compared to its marketing site, merchants sometimes assume the theme is at fault. In most cases, normal **CSS cascade** behavior is involved—and fixing the app’s appearance is the app developer’s responsibility, not the theme author’s.
@@ -31,7 +37,7 @@ Brickspace Lab **does not provide support for third-party app integrations**. Th
 * App features that stop working after a theme update
 * Code an app left in theme files after uninstall
 
-For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.For our full support scope, see [Contact support](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/contact-support) and [Support policy for modified theme code](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/support-policy-for-modified-theme-code).
+For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.For our full support scope, see [Contact support](../../../general/general/contact-support/README.md) and [Support policy for modified theme code](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/support-policy-for-modified-theme-code).
 
 ### What merchants can do <a href="#what-merchants-can-do" id="what-merchants-can-do"></a>
 

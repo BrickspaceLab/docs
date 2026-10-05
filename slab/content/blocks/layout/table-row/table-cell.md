@@ -1,3 +1,9 @@
+---
+title: "Table cell"
+published: true
+index: 0
+---
+
 # Table cell
 
 ## Overview

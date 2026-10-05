@@ -1,3 +1,9 @@
+---
+title: "Feature list"
+published: true
+index: 1
+---
+
 # Feature list
 
 This page is a capability index for Slab. It includes every documented block known feature. Slab is built almost entirely with blocks, so many features are possible through unique block combinations, and new feature patterns can still be discovered.

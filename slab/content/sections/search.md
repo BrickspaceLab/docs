@@ -1,3 +1,9 @@
+---
+title: "Search"
+published: true
+index: 4
+---
+
 # Search
 
 ### Section overview

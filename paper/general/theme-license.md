@@ -1,3 +1,9 @@
+---
+title: "Theme license"
+published: true
+index: 1
+---
+
 # Theme license
 
 You can get a theme license by buying a theme through the Shopify theme store. Each theme license is valid only for the store it was purchased. If you've downloaded a theme from outside the Shopify theme store or imported one into a different store, it's unlicensed.

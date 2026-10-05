@@ -1,3 +1,9 @@
+---
+title: "Show variant count on product cards"
+published: true
+index: 9
+---
+
 # Show variant count on product cards
 
 Keystone can display how many variants a product has (for example “3 options”) on collection grids, sliders, and other product cards. The **Show variant count** setting is global—it applies to all products that use product cards, including single-variant products.

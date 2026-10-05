@@ -1,3 +1,9 @@
+---
+title: "Quick actions"
+published: true
+index: 1
+---
+
 # Quick add and quick edit
 
 Quick add lets customers open a product form from a product card or other merchandising area without leaving the current page. In Slab, the editor labels this feature as **Quick buy**. **Quick edit** uses the same pattern for items already in the cart, so customers can update their selection from an overlay instead of returning to the product page.

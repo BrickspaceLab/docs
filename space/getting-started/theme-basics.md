@@ -1,3 +1,9 @@
+---
+title: "Theme basics"
+published: true
+index: 0
+---
+
 # Theme basics
 
 ## Theme basics

@@ -1,3 +1,9 @@
+---
+title: "Grid gallery"
+published: true
+index: 0
+---
+
 # Grid gallery
 
 ## Overview
