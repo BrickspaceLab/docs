@@ -1,2 +1,5 @@
-# Theme settings
+---
+index: 1
+---
 
+# Theme settings

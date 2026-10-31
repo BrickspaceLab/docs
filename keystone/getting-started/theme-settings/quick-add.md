@@ -1,8 +1,10 @@
+---
+index: 4
+---
+
 # Quick add
 
 Quick add allows customers to add products to their cart directly from product cards without having to visit the product page. This feature can streamline the shopping experience and increase conversion rates by reducing friction in the purchase process.
-
-
 
 ### FAQs
 
@@ -16,11 +18,9 @@ Quick add allows customers to add products to their cart directly from product c
 4. Modify your quick add settings (button style, position, behavior, etc.) as needed
 5. Click **Save** to apply your changes
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 </details>
-
-
 
 ### Quick add settings
 

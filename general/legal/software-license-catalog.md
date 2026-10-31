@@ -1,4 +1,8 @@
-# Software license agreement — Catalog
+---
+index: 3
+---
+
+# Software license — Catalog
 
 **Last updated:** April 29, 2026
 
@@ -18,7 +22,7 @@ This Software License Agreement (“**Agreement**”) governs your access to and
 
 **1.3 Updates.** Licensor may update Catalog; continued use after notice may constitute acceptance of material changes where permitted by law.
 
-**1.4 APIs and developer tools.** If Licensor provides APIs, CLI tools, or developer sandboxes, Licensee may use them only under this Agreement, our **[Acceptable use policy](./acceptable-use-policy.md)**, documented rate limits, and any separate developer terms we publish.
+**1.4 APIs and developer tools.** If Licensor provides APIs, CLI tools, or developer sandboxes, Licensee may use them only under this Agreement, our **[Acceptable use policy](acceptable-use-policy.md)**, documented rate limits, and any separate developer terms we publish.
 
 ---
 
@@ -82,7 +86,7 @@ Non-public documentation, roadmap materials under NDA, or beta features marked c
 
 **7.2 Suspension.** Licensor may suspend access for non-payment, breach, security incidents, or legal process.
 
-**7.3 Effect on termination.** Upon expiry or termination, Licensee’s right to use Catalog ends. Export features (if any) may be available for a limited window as stated in-product or in our **[Refund and cancellation policy](./refund-cancellation-policy.md)**. Licensor may delete hosted data after that period subject to law and our Privacy Policy.
+**7.3 Effect on termination.** Upon expiry or termination, Licensee’s right to use Catalog ends. Export features (if any) may be available for a limited window as stated in-product or in our **[Refund and cancellation policy](refund-cancellation-policy.md)**. Licensor may delete hosted data after that period subject to law and our Privacy Policy.
 
 ---
 
@@ -110,7 +114,7 @@ This Agreement is governed by **Ontario and Canadian federal law**. Courts in **
 
 ## 11. Entire agreement
 
-This Agreement supplements Licensor’s **[Terms of service](./terms-of-service.md)**. For Catalog-specific licensing, **this Agreement controls** where expressly stated.
+This Agreement supplements Licensor’s **[Terms of service](terms-of-service.md)**. For Catalog-specific licensing, **this Agreement controls** where expressly stated.
 
 ---
 

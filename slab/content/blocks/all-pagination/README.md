@@ -1,2 +1,5 @@
-# Pagination
+---
+index: 8
+---
 
+# Pagination

@@ -1,4 +1,8 @@
-# Use custom CSS
+---
+index: 1
+---
+
+# Add custom CSS
 
 Custom CSS can be applied to your Shopify theme using the built-in [custom CSS](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/add-css) feature in the theme editor. It is the perfect option for minor visual tweaks that do not require editing theme source files — things like adjusting colors, spacing, typography, or button styles.
 
@@ -9,6 +13,6 @@ You can add custom CSS at two levels:
 
 For commonly requested customizations, refer to the guides below.
 
-{% content-ref url="popular-css-customizations/" %}
-[popular-css-customizations](popular-css-customizations/)
+{% content-ref url="popular-css-customizations/README.md" %}
+[popular-css-customizations](popular-css-customizations/README.md)
 {% endcontent-ref %}

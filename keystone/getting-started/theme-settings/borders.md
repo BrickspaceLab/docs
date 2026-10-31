@@ -1,8 +1,10 @@
+---
+index: 2
+---
+
 # Borders
 
 Border styling helps define your brand’s visual tone. Choose between rounded edges for a friendly, approachable look or sharp corners for a modern, bold aesthetic.
-
-
 
 ### FAQs
 
@@ -16,7 +18,7 @@ Border styling helps define your brand’s visual tone. Choose between rounded e
 4. Modify your border settings (style, width, color, etc.) as needed.
 5. Click **Save** to apply your changes.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%281%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

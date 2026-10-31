@@ -1,2 +1,5 @@
-# Install Slab
+---
+index: 0
+---
 
+# Install Slab

@@ -1,8 +1,10 @@
+---
+index: 1
+---
+
 # Borders
 
 Border settings in **Theme settings > Borders** control corner radius and border width for buttons, form inputs, and other page elements across the storefront.
-
-
 
 ## How to change theme borders
 
@@ -28,19 +30,13 @@ Border settings in **Theme settings > Borders** control corner radius and border
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on borders
 
 * **Button** and **Input** settings apply to those components; **Element** applies more broadly to other bordered surfaces.
 * A width of **0** removes the visible border for that category where the theme uses these values.
 * Input outline shape also works with **Border position** under **Theme settings > Inputs** (full border vs bottom edge only).
 
-
-
 ## Border settings
-
-
 
 ### Radius
 
@@ -49,8 +45,6 @@ Border settings in **Theme settings > Borders** control corner radius and border
 | Button radius   | Corner radius for buttons (0–50 px, default 50 px).   |
 | Input radius    | Corner radius for form inputs (0–50 px, default 50 px). |
 | Element radius  | Corner radius for general page elements (0–50 px, default 5 px). |
-
-
 
 ### Width
 

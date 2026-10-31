@@ -1,2 +1,5 @@
-# Sections
+---
+index: 1
+---
 
+# Sections

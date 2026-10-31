@@ -1,10 +1,14 @@
+---
+index: 7
+---
+
 # Wholesale pricing apps
 
 While Keystone's built-in features can restrict content and set minimums, displaying different prices to different customers requires a third-party wholesale pricing app. These apps integrate seamlessly with Keystone to show customer-specific pricing.
 
 ***
 
-### Why use a pricing app <a href="#why" id="why"></a>
+### Why use a pricing app
 
 Wholesale pricing apps allow you to:
 
@@ -16,7 +20,7 @@ Wholesale pricing apps allow you to:
 
 ***
 
-### Recommended apps <a href="#recommended" id="recommended"></a>
+### Recommended apps
 
 Popular wholesale pricing apps that work with Keystone:
 
@@ -26,7 +30,7 @@ Popular wholesale pricing apps that work with Keystone:
 
 ***
 
-### Installing a wholesale pricing app <a href="#install" id="install"></a>
+### Installing a wholesale pricing app
 
 1. Visit the [Shopify App Store](https://apps.shopify.com/) and search for wholesale pricing apps
 2. Choose an app that fits your needs and click **Add app**
@@ -38,7 +42,7 @@ Popular wholesale pricing apps that work with Keystone:
 
 ***
 
-### How apps work with Keystone <a href="#integration" id="integration"></a>
+### How apps work with Keystone
 
 Wholesale pricing apps typically:
 
@@ -51,7 +55,7 @@ These apps work alongside Keystone's built-in restriction features, giving you c
 
 ***
 
-### Combining with Keystone features <a href="#combining" id="combining"></a>
+### Combining with Keystone features
 
 You can use wholesale pricing apps together with Keystone's features:
 
@@ -62,7 +66,7 @@ You can use wholesale pricing apps together with Keystone's features:
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 * Most wholesale apps require customers to be logged in
 * Apps typically use customer tags to determine pricing tiers

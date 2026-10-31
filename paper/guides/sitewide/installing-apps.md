@@ -1,8 +1,12 @@
+---
+index: 8
+---
+
 # Installing apps
 
 Third-party apps often inject forms, popups, or widgets into your storefront. When an app embed looks unstyled, broken, or “wrong” compared to its marketing site, merchants sometimes assume the theme is at fault. In most cases, normal **CSS cascade** behavior is involved—and fixing the app’s appearance is the app developer’s responsibility, not the theme author’s.
 
-### How app embeds inherit theme styles <a href="#how-app-embeds-inherit-theme-styles" id="how-app-embeds-inherit-theme-styles"></a>
+### How app embeds inherit theme styles
 
 Brickspace Lab themes ship global base styles: typography, button resets, form field styling, link colors, and spacing utilities. Any HTML the app injects into your page sits inside the same document as your theme.Browsers apply CSS from the outside in:
 
@@ -12,7 +16,7 @@ Brickspace Lab themes ship global base styles: typography, button resets, form f
 
 If the theme’s global rules are broad (for example `button { font-family: … }`), app buttons can inherit theme fonts, padding, or borders even when the app author expected their stylesheet to control everything. That is expected browser behavior—not a theme bug.
 
-### Why themes do not exclude vendor-specific app CSS <a href="#why-themes-do-not-exclude-vendor-specific-app-css" id="why-themes-do-not-exclude-vendor-specific-app-css"></a>
+### Why themes do not exclude vendor-specific app CSS
 
 There are thousands of Shopify apps, each with different HTML structures and class names. Brickspace Lab themes cannot maintain a blocklist of vendor-specific CSS overrides in core stylesheets because:
 
@@ -22,7 +26,7 @@ There are thousands of Shopify apps, each with different HTML structures and cla
 
 We design themes for storefront consistency. App vendors are responsible for styles that survive inside customer themes.
 
-### Our policy on third-party app support <a href="#our-policy-on-third-party-app-support" id="our-policy-on-third-party-app-support"></a>
+### Our policy on third-party app support
 
 Brickspace Lab **does not provide support for third-party app integrations**. That includes:
 
@@ -31,34 +35,34 @@ Brickspace Lab **does not provide support for third-party app integrations**. Th
 * App features that stop working after a theme update
 * Code an app left in theme files after uninstall
 
-For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.For our full support scope, see [Contact support](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/contact-support) and [Support policy for modified theme code](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/support-policy-for-modified-theme-code).
+For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.For our full support scope, see [Contact support](../../../general/general/contact-support/README.md) and [Support policy for modified theme code](../../general/support-policy.md).
 
-### What merchants can do <a href="#what-merchants-can-do" id="what-merchants-can-do"></a>
+### What merchants can do
 
-#### 1. Confirm the app is the source <a href="#id-1.-confirm-the-app-is-the-source" id="id-1.-confirm-the-app-is-the-source"></a>
+#### 1. Confirm the app is the source
 
 1. In **Customize**, open **Theme settings** > **App embeds** (or the template’s app blocks).
 2. Disable the app embed temporarily.
 3. Reload the page. If the styling issue disappears, the app—not the theme—is involved.
 
-#### 2. Ask the app developer for scoped CSS <a href="#id-2.-ask-the-app-developer-for-scoped-css" id="id-2.-ask-the-app-developer-for-scoped-css"></a>
+#### 2. Ask the app developer for scoped CSS
 
 Request CSS that targets **only their embed’s root container** (for example a wrapper class the app documents). Good app CSS avoids resetting global `button` or `input` rules on the entire page.
 
-#### 3. Add store-specific overrides (optional) <a href="#id-3.-add-store-specific-overrides-optional" id="id-3.-add-store-specific-overrides-optional"></a>
+#### 3. Add store-specific overrides (optional)
 
 If the app vendor provides fix CSS, add it through:
 
 * **Theme settings** > **Custom CSS** (all Brickspace themes), or
 * A **Custom liquid** section for isolated markup
 
-Keep overrides narrow. Avoid editing core theme files unless you accept [modified-code support limits](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/support-policy-for-modified-theme-code).
+Keep overrides narrow. Avoid editing core theme files unless you accept [modified-code support limits](../../general/support-policy.md).
 
-#### 4. Prefer supported install methods <a href="#id-4.-prefer-supported-install-methods" id="id-4.-prefer-supported-install-methods"></a>
+#### 4. Prefer supported install methods
 
 Use [app blocks and app embeds](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps) rather than manual script tags pasted into `theme.liquid`. See [Use and install apps](../basics/use-and-install-apps.md) for general guidance.
 
-### Common symptoms and likely causes <a href="#common-symptoms-and-likely-causes" id="common-symptoms-and-likely-causes"></a>
+### Common symptoms and likely causes
 
 | Symptom                                     | Likely cause                               |
 | ------------------------------------------- | ------------------------------------------ |

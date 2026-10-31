@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Navigation slider
 
 ### Section overview

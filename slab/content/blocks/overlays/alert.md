@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Alert
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2852%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

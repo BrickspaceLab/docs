@@ -1,2 +1,5 @@
-# Collections
+---
+index: 3
+---
 
+# Collections

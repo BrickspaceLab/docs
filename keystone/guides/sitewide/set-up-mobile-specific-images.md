@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Set up mobile-specific images
 
 Several Keystone sections support a separate **Mobile background image** so you can show a cropped or simplified asset on phones while keeping a wide desktop hero. Uploading a mobile image alone is not enough—you must enable the background image and understand the fallback rules.
@@ -64,4 +68,3 @@ Video backgrounds follow their own mobile toggle (**Show video background mobile
 
 * [Banner section reference](../../sections/content-and-media/banner.md)
 * [Device specific visibility](device-specific-visibility.md)
-* [Test responsive layouts without publishing the theme](../../../general/general/test-responsive-layouts-without-publishing.md)

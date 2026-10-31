@@ -1,2 +1,5 @@
-# Basics
+---
+index: 0
+---
 
+# Basics

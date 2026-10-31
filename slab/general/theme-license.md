@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Theme license
 
 Slab is sold directly from the [Brickspace Lab website](https://brickspacelab.com) with an annual subscription. After purchasing, you receive a license key that can be assigned to one Shopify store. When you install the theme, it will prompt you to enter your license key — this activates the license and assigns it to that store.

@@ -1,3 +1,7 @@
+---
+index: 14
+---
+
 # Image comparison
 
 ### Section overview

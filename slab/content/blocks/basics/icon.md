@@ -1,6 +1,10 @@
+---
+index: 10
+---
+
 # Icon
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2823%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

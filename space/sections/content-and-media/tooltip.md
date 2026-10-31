@@ -1,3 +1,7 @@
+---
+index: 20
+---
+
 # Tooltip
 
 ### Section overview

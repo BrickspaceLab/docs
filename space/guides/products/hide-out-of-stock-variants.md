@@ -1,3 +1,7 @@
+---
+index: 19
+---
+
 # Hide out of stock options
 
 Space includes built-in settings to control how unavailable product options are displayed to customers. You can choose to hide them completely or show them as disabled.
@@ -57,4 +61,4 @@ Click **Save**
 
 ### Need more control?
 
-For advanced CSS customization beyond these settings, see our [advanced customization guide](../../../general/developer-guides/advanced-customizations/hide-out-of-stock-options.md).
+For advanced CSS customization beyond these settings, see the [custom CSS guide](../../advanced-customizations/using-custom-css.md).

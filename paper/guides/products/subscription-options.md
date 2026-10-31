@@ -1,8 +1,10 @@
+---
+index: 14
+---
+
 # Subscription options
 
 Shopify subscriptions can be a bit tricky to setup. This guide will walk you through different options for displaying subscription options on your product page.
-
-
 
 ### Using the built-in subscription options
 
@@ -12,8 +14,6 @@ However, this may cause complications with your product templates if you've alre
 
 * Ensure the third party subscription widget is disabled
 * Ensure the product block Options is included on your product template
-
-
 
 ### Using third-party subscription options
 
@@ -54,7 +54,6 @@ Assign the 'subscription' product template to all products that have a subscript
 
 {% step %}
 Hit **Save**
-
 
 {% endstep %}
 {% endstepper %}

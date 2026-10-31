@@ -1,6 +1,10 @@
+---
+index: 4
+---
+
 # Product media
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%284%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

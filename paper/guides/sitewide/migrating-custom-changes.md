@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Migrate custom changes
 
 ## Merging custom changes in Shopify themes - challenges and best practices

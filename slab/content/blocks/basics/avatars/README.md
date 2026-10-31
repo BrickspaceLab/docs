@@ -1,6 +1,10 @@
+---
+index: 3
+---
+
 # Avatars
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2815%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

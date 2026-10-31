@@ -1,8 +1,10 @@
+---
+index: 0
+---
+
 # Change background color
 
 This guide shows how to apply a custom background color to a section using the theme editor's built-in custom CSS field.
-
-
 
 1. In the theme editor, navigate to the section you want to edit.
 2. In the settings panel, scroll to the bottom and expand **Custom CSS**.

@@ -1,2 +1,5 @@
-# Popular custom liquid
+---
+index: 0
+---
 
+# Popular custom liquid

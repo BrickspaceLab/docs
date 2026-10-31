@@ -1,8 +1,10 @@
+---
+index: 11
+---
+
 # Prices
 
 Price settings in **Theme settings > Prices** control whether formatted prices show trailing zeros and whether currency notation appears.
-
-
 
 ## How to change theme prices
 
@@ -27,14 +29,10 @@ Price settings in **Theme settings > Prices** control whether formatted prices s
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on prices
 
 * **Show trailing zeros** changes how whole-number prices are displayed where this setting applies.
 * **Show currency symbol** helps when customers need explicit currency context.
-
-
 
 ## Price settings
 

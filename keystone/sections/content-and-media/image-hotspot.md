@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Image hotspot
 
 ### Section overview

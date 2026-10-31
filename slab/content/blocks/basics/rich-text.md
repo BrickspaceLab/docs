@@ -1,6 +1,10 @@
+---
+index: 16
+---
+
 # Rich text
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2828%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

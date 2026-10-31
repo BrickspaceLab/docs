@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Breadcrumbs
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2848%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

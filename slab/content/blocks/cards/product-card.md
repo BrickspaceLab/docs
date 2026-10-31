@@ -1,6 +1,10 @@
+---
+index: 2
+---
+
 # Product card
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2831%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -33,9 +37,9 @@ The following blocks can be nested within this block:
 * [Badges](../products/badges.md)
 * [Swatches](../products/swatches.md)
 * [Product media](../products/product-media.md)
-* [Slider](../layout/slider/)
-* [Grid](../layout/default-grid/)
-* [Flex](../layout/flex-grid/)
+* [Slider](../layout/slider/README.md)
+* [Grid](../layout/default-grid/README.md)
+* [Flex](../layout/flex-grid/README.md)
 
 ## Block settings
 

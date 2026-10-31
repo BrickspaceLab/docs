@@ -1,8 +1,10 @@
+---
+index: 8
+---
+
 # Favicon
 
 Favicon settings in **Theme settings > Favicon** set the small icon shown in browser tabs, bookmarks, and some search and sharing surfaces.
-
-
 
 ## How to change theme favicon
 
@@ -22,14 +24,10 @@ Favicon settings in **Theme settings > Favicon** set the small icon shown in bro
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on favicons
 
 * Shopify scales the favicon to about 32×32 px; a square source around 400×400 px stays sharp.
 * Simple marks read better than detailed artwork at small sizes.
-
-
 
 ## Favicon settings
 

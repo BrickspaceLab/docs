@@ -1,6 +1,10 @@
+---
+index: 11
+---
+
 # Render quick buy
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%287%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

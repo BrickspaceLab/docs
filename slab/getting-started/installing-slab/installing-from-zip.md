@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Install from ZIP
 
 ## How to install

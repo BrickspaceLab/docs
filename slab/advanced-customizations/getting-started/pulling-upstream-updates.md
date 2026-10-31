@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Pull upstream updates
 
 If you forked the repo, you can pull in new Slab releases at any time:
@@ -8,8 +12,6 @@ git merge upstream/main
 ```
 
 Resolve any conflicts, then run `npm install` to pick up any dependency changes. Run `npm run build` afterward to confirm the theme compiles.
-
-
 
 ## Automatic updates
 

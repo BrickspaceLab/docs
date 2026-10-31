@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Privacy policy
 
 **Last updated:** April 29, 2026
@@ -109,7 +113,7 @@ We implement reasonable technical and organizational measures appropriate to the
 
 ## 9. Cookies and similar technologies
 
-We use cookies and similar technologies for essential functionality, preferences, analytics, and (if enabled) marketing. For details and choices, see our **[Cookie and consent guidance](./cookie-consent.md)**.
+We use cookies and similar technologies for essential functionality, preferences, analytics, and (if enabled) marketing. For details and choices, see our **[Cookie and consent guidance](cookie-consent.md)**.
 
 Where PIPEDA or other law requires consent for non-essential cookies, we obtain consent through our banner or settings before loading those technologies.
 

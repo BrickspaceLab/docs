@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Collection list grid
 
 ### Section overview

@@ -1,8 +1,10 @@
+---
+index: 10
+---
+
 # Search
 
 Search settings in **Theme settings > Search** control which result types can appear on the search results page.
-
-
 
 ## How to change theme search
 
@@ -26,14 +28,10 @@ Search settings in **Theme settings > Search** control which result types can ap
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on search
 
 * Disabling a type affects the theme search experience; Shopify may still index that content elsewhere.
 * **Enable query results** controls query-style results where the theme uses them—preview search and any search drawer you use.
-
-
 
 ## Search settings
 

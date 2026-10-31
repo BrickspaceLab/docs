@@ -1,8 +1,10 @@
+---
+index: 0
+---
+
 # Colors
 
 Slab color styling starts in **Theme settings > Colors**. Merchants pick a small set of global colors, then Slab generates additional color tokens (such as accents, shades, neutral, and plain) that sections and blocks can use through color scheme settings.
-
-
 
 ## How to change theme colors
 
@@ -33,8 +35,6 @@ Slab color styling starts in **Theme settings > Colors**. Merchants pick a small
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Generated color options
 
 After you choose your global colors, Slab automatically creates extra color variations so sections and blocks stay visually consistent.
@@ -46,11 +46,7 @@ After you choose your global colors, Slab automatically creates extra color vari
 * If your body background is light, Slab creates darker overlays and shade tones.
 * If your body background is dark, Slab creates lighter overlays and shade tones.
 
-
-
 ## Color settings
-
-
 
 ### Base
 
@@ -60,8 +56,6 @@ These settings define your store's base color system.
 | ---------- | ------------------------------------------------------------------------------- |
 | Background | Main storefront background and the base used for generated shade/overlay tones. |
 | Foreground | Default text color and default border contrast for base surfaces.               |
-
-
 
 ### Schemes
 
@@ -79,8 +73,6 @@ Each scheme has the same six color fields:
 | Hover border     | Hover border color for interactive elements in that scheme.           |
 
 Important: editing a scheme updates every section and block that uses that scheme.
-
-
 
 ### Utility
 

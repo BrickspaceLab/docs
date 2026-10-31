@@ -1,6 +1,10 @@
+---
+index: 3
+---
+
 # Flex grid
 
-<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2841%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

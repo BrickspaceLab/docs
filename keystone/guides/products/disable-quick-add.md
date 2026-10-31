@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Disable quick add
 
 Disable the Quick Add feature for specific products when:

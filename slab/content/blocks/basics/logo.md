@@ -1,6 +1,10 @@
+---
+index: 13
+---
+
 # Logo
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2826%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

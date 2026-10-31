@@ -1,10 +1,14 @@
+---
+index: 6
+---
+
 # Acceptable use policy
 
 **Last updated:** April 29, 2026
 
 **Legal entity:** Brickspace Lab Inc. (“**Brickspace Lab**”)
 
-This Acceptable Use Policy (“**AUP**”) applies to all users of Brickspace Lab’s websites, products, and services, including **Slab**, **Catalog**, APIs, developer tools, and support channels (the “**Services**”). It is incorporated into our **[Terms of service](./terms-of-service.md)**.
+This Acceptable Use Policy (“**AUP**”) applies to all users of Brickspace Lab’s websites, products, and services, including **Slab**, **Catalog**, APIs, developer tools, and support channels (the “**Services**”). It is incorporated into our **[Terms of service](terms-of-service.md)**.
 
 We may suspend or terminate access for violations.
 

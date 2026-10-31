@@ -1,3 +1,7 @@
+---
+index: 9
+---
+
 # Store locater
 
 ### Section overview

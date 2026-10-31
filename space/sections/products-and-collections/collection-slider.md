@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Collection slider
 
 ### Section overview

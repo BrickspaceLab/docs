@@ -1,6 +1,10 @@
+---
+index: 1
+---
+
 # Select theme colors
 
-### Getting started <a href="#h_7a0d84a38a" id="h_7a0d84a38a"></a>
+### Getting started
 
 You can adjust all colors in Paper using the global color settings. To achieve better results and improve design implementation, it's important to understand how and where each setting applies colors differently.
 
@@ -48,8 +52,6 @@ You can adjust all colors in Paper using the global color settings. To achieve b
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Understanding your color schemes
 
 Throughout your theme you'll see in a number of different places color settings that you can use. These settings are generated from your global color settings.&#x20;
@@ -69,8 +71,6 @@ Subtle
 Strong
 
 **Text color**
-
-
 
 #### Body and Body Neutral:
 

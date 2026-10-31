@@ -1,2 +1,5 @@
-# Navigation
+---
+index: 1
+---
 
+# Navigation

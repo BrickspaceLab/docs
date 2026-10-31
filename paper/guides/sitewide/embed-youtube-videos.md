@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Embed YouTube videos
 
 Use a **Custom Liquid** block to add a YouTube video anywhere in Paper where blocks are supported.

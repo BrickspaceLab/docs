@@ -1,3 +1,7 @@
+---
+index: 10
+---
+
 # Show variant data in the product table
 
 Keystone’s **Table** block on the product template can print up to three extra columns beside each variant row. Those columns read **variant metafields** (for example a UPC, size chart URL, or compliance note) from **Theme settings → Product cards**.

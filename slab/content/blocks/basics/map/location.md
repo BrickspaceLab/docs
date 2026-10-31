@@ -1,8 +1,12 @@
+---
+index: 0
+---
+
 # Map item
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Map](../) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Map](../README.md) block.
 
 ## Overview
 

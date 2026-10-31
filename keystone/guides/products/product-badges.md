@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Product badges
 
 Product badges highlight key product information, helping customers quickly identify special items. Use tags or metafields to display custom badges.

@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Collection
 
 ### Section overview

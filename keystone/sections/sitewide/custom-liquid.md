@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Custom liquid
 
 ### Section overview

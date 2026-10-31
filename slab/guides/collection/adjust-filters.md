@@ -1,4 +1,8 @@
-# Adjust filters
+---
+index: 0
+---
+
+# Sort and filters
 
 Filters help customers narrow collection and search results faster. In Slab, filter behavior is controlled by the **Filter** block, which can run in inline mode (button/dropdown style) or stacked mode (accordion style).
 

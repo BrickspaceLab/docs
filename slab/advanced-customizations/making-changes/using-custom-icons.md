@@ -1,8 +1,10 @@
+---
+index: 3
+---
+
 # Use custom icons
 
-The theme includes 60+ icons available through the [Icon block](../../../content/blocks/basics/icon.md). If you need an icon that is not part of the default set, you have two options: add a custom icon via code, or use the Image block to display any image as an icon.
-
-
+The theme includes 60+ icons available through the [Icon block](../../content/blocks/basics/icon.md). If you need an icon that is not part of the default set, you have two options: add a custom icon via code, or use the Image block to display any image as an icon.
 
 ## Option 1: Add a custom icon via code
 
@@ -32,14 +34,12 @@ The theme includes 60+ icons available through the [Icon block](../../../content
 {% endstep %}
 {% endstepper %}
 
-
-
 ## Option 2: Use the Image block (no code required)
 
-If you only need to display a single custom icon without modifying theme code, the [Image block](../../../content/blocks/basics/icon.md) is a simpler alternative.
+If you only need to display a single custom icon without modifying theme code, the [Image block](../../content/blocks/basics/icon.md) is a simpler alternative.
 
 * Add an **Image** block to any section in the theme editor.
 * Use the image picker to upload your icon file (`.png`, `.svg`, `.webp`, etc.).
 * Adjust the **Width** setting to control the display size of the icon.
 
-Refer to the [Image block documentation](../../../content/blocks/basics/image.md) for a full list of available settings including spacing, color scheme, alignment, and border options.
+Refer to the [Image block documentation](../../content/blocks/basics/image.md) for a full list of available settings including spacing, color scheme, alignment, and border options.

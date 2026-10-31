@@ -1,8 +1,12 @@
+---
+index: 1
+---
+
 # Slider articles
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](../../layout/slider/) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](../../layout/slider/README.md) block.
 
 ## Overview
 

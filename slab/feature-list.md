@@ -1,8 +1,10 @@
+---
+index: 1
+---
+
 # Feature list
 
 This page is a capability index for Slab. It includes every documented block known feature. Slab is built almost entirely with blocks, so many features are possible through unique block combinations, and new feature patterns can still be discovered.
-
-
 
 ## Design and styling
 
@@ -14,8 +16,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Animations               | Add rich animations and transitions throughout the storefront. Customize page transitions and header transitions for a polished experience. |
 | Vertical scroll snapping | Snap scroll onto each section for a guided browsing experience.                                                                             |
 | Audio interactions       | Play subtle audio cues when customers click and interact with the storefront.                                                               |
-
-
 
 ## Theme basics
 
@@ -31,8 +31,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Device specific visibility | Customize visibility on almost every block and section for mobile and desktop separately.                                                   |
 | Drag and drop blocks       | A completely modular block architecture allowing you to build any layout.                                                                   |
 
-
-
 ## Navigation and header
 
 | Feature                       | Description                                                                                                                                                          |
@@ -45,8 +43,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Dynamic header                | Set your header to hide while scrolling down and reveal when scrolling up.                                                                                           |
 | Discount overlay              | Show customers a discount overlay when they land on the storefront. The overlay can display a code to copy.                                                          |
 
-
-
 ## Forms
 
 | Feature             | Description                                                                                                                                      |
@@ -54,8 +50,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Build your own form | Use blocks to build custom contact forms by adding different input fields. Combine inputs, labels, and buttons to create forms for any use case. |
 | Age verification    | Require customers to confirm they meet a minimum age before accessing the storefront. Supports birthdate verification or simple confirmation.    |
 | Form response overlay | Show an overlay with form success or error messages for a seamless submission experience.                                                               |
-
-
 
 ## Collection
 
@@ -80,8 +74,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Image slider                   | Show multiple photos for each product card in a slider.                                                                              |
 | Show selected collection card  | Automatically highlight collection cards that are active for the current page. Let customers easily navigate between collections.    |
 
-
-
 ## Product
 
 | Feature                      | Description                                                                                                                              |
@@ -101,8 +93,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Related products             | Show automatic product recommendations.                                                                                                  |
 | Combined listing (Shopify +) | Create and display combined listing products.                                                                                            |
 
-
-
 ## Cart and checkout
 
 | Feature                 | Description                                                                                                                                             |
@@ -121,8 +111,6 @@ This page is a capability index for Slab. It includes every documented block kno
 | Device specific control | Set different cart types for mobile and desktop. Show a cart alert on mobile and a cart drawer on desktop, for example.                                 |
 | Cart redirect           | Redirect customers to the cart page.                                                                                                                    |
 
-
-
 ## Blog
 
 | Feature                     | Description                                                                |
@@ -134,16 +122,12 @@ This page is a capability index for Slab. It includes every documented block kno
 | Tag filtering               | Filter to show blog posts with a specific tag.                             |
 | Table of contents           | Let customers jump to different headings in a blog post.                   |
 
-
-
 ## Account
 
 | Feature                 | Description                                                                                                                                                     |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sign in with Shop       | Let customers sign in with their Shop account. Products with matching tags can be hidden or have hidden prices for customers not logged into approved accounts. |
 | Advanced account drawer | Quick access to all account details in a slideout drawer. Customers can reorder and view order history.                                                         |
-
-
 
 ## Complete block list
 

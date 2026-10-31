@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Discount popups
 
 Customize the popup message that appears when customers apply automatic discounts by adding      `?dt=Custom+text` to your discount URL.

@@ -1,8 +1,10 @@
+---
+index: 3
+---
+
 # Change button size
 
 This guide shows how to change the font size and padding of buttons using the theme editor's built-in custom CSS field.
-
-
 
 1. In the theme editor, navigate to the section you want to edit.
 2. In the settings panel, scroll to the bottom and expand **Custom CSS**.

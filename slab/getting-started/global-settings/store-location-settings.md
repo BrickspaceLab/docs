@@ -1,8 +1,10 @@
+---
+index: 14
+---
+
 # Store location
 
 Store location settings in **Theme settings > Store location** control optional local business information and the Mapbox key used for dynamic maps.
-
-
 
 ## How to change theme store location
 
@@ -28,14 +30,10 @@ Store location settings in **Theme settings > Store location** control optional 
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on store location
 
 * Turn **Enable local business** off if you do not want that metadata or you have no public address.
 * The Mapbox key is only required where a dynamic map uses Mapbox.
-
-
 
 ## Store location settings
 

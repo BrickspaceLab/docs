@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Grid recommendations
 
 ## Overview

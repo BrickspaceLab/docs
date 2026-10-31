@@ -1,6 +1,10 @@
+---
+index: 8
+---
+
 # Product quick buy
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%288%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

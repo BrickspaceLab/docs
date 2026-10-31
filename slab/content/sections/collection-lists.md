@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Collection lists
 
 ### Section overview
@@ -42,5 +46,5 @@ Both presets inherit the shared `section.liquid` settings, including:
 
 Preset-specific block structures are documented in:
 
-* [Collection list: grid](/broken/pages/yLPpN6OYCPM3gibbTh35)
-* [Collection list: slider](/broken/pages/iQbuIGNEBpXlkggXb7FR)
+* [Collection list: grid](../blocks/all-pagination/collections/grid-collection-grid.md)
+* [Collection list: slider](../blocks/all-pagination/collections/slider-collections.md)

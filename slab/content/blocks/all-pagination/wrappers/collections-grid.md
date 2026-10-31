@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # List collections
 
 ## Block limitations

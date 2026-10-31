@@ -1,6 +1,10 @@
+---
+index: 9
+---
+
 # Float
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2840%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

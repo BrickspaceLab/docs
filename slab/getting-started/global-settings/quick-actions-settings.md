@@ -1,8 +1,10 @@
+---
+index: 13
+---
+
 # Quick actions
 
 Quick actions settings in **Theme settings > Quick actions** set which product templates open in quick buy and quick edit when those features are used.
-
-
 
 ## How to change theme quick actions
 
@@ -27,14 +29,10 @@ Quick actions settings in **Theme settings > Quick actions** set which product t
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on quick actions
 
 * Leave a field blank to use the default product template for that action.
 * Values should match the product template name or handle you created in the theme editor.
-
-
 
 ## Quick actions settings
 

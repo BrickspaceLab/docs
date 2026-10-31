@@ -1,6 +1,10 @@
+---
+index: 3
+---
+
 # Product inventory
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%283%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

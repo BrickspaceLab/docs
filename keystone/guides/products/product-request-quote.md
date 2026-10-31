@@ -1,10 +1,14 @@
+---
+index: 7
+---
+
 # Request a quote
 
 The Request a Quote block allows customers to request a quote or additional information. It can be used alongside or instead of the Buy Buttons.
 
 ***
 
-### Setup <a href="#h_0b58de060a" id="h_0b58de060a"></a>
+### Setup
 
 1. Go to **Online Store** > **Themes** > **Customize**
 2. Navigate to the product you want to modify
