@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Global settings
 
 Slab groups storefront-wide options under **Theme settings**. Use these guides to adjust colors, type, layout, cart behavior, and more from one place.

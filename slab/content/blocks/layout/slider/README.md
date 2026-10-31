@@ -1,6 +1,10 @@
+---
+index: 4
+---
+
 # Slider
 
-<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2845%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

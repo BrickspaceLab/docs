@@ -1,16 +1,18 @@
+---
+index: 9
+---
+
 # Variant filtering
 
 Your collection page filtering can be customized from the [Shopify Search and Discovery app](https://apps.shopify.com/search-and-discovery). Using this app you can add new filters and customize how they appear on your theme.
 
 Shopify has recently made a number of improvements to metafields and how they work with swatches. This is great news for us because now swatches are much easier to manage and update.
 
-
-
-### Add swatch filter from metafield <a href="#h_4f300afd17" id="h_4f300afd17"></a>
+### Add swatch filter from metafield
 
 {% stepper %}
 {% step %}
-### Add swatch filter from metafield <a href="#h_4f300afd17" id="h_4f300afd17"></a>
+### Add swatch filter from metafield
 
 1. Go to **Settings** > **Custom Data**
 2. Scroll down to **Metaobject** definitions then click **Add definition**
@@ -22,8 +24,6 @@ Shopify has recently made a number of improvements to metafields and how they wo
     * Label should be a required field using "Single line text" - Make sure to select "List of values" after clicking single line text.
     * Color is not required and uses "Color".
     * Image is not required and uses "File" with "Accepts specific file types - Images" selected.
-
-
 
     <figure><img src="../../.gitbook/assets/swatch.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -68,15 +68,11 @@ We now have to assign values so data is populated for our new metafields.
 {% endstep %}
 {% endstepper %}
 
-
-
-### Add swatch filter from 'Color' option <a href="#h_c284ce1b06" id="h_c284ce1b06"></a>
+### Add swatch filter from 'Color' option
 
 {% hint style="info" %}
 You can add filters using color product options. This is a easy way to add filters but will require swatch files to be uploaded in a specific format. Swatches will only appear using this approach when the product option matches "color" - or a translation of color.
 {% endhint %}
-
-
 
 1. Open the [**Search and discovery app**](https://apps.shopify.com/search-and-discovery)
 2. Navigate to **Filters** and click **Add** **filter**
@@ -90,19 +86,11 @@ This is the same approach you would take if you wanted to filter by any other pr
    1. You can use any name or description. E.g. "Color"
 5. Hit **Save**
 
-
-
-
-
-
-
 ### Caveats of metafield filtering
 
 If you use metafield swatch filtering you'll have to ensure you update your metafields for all products that you want to appear on this filter - this will NOT happen automatically even if category metafields and variant options are displaying swatches.
 
-
-
-### &#x20;A temporary fix for adjusting color swatch sizing <a href="#h_9af1582f1b" id="h_9af1582f1b"></a>
+### &#x20;A temporary fix for adjusting color swatch sizing
 
 1. Go to **Online Store** > **Theme settings** > **Custom css**
 2.  Within your custom css block paste the following code:\
@@ -126,4 +114,4 @@ Swatches will only appear automatically if the color name matches a default [CSS
 2. Upload a 64x64 jpg file for each swatch you want to replace.
    * Swatches must be named all lowercase and prepended with “swatch-”. For example, if your color variant is “Electric blue” you would name your file “swatch-electric-blue.jpg
 
-<figure><img src="../../.gitbook/assets/swatches filter.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/swatches%20filter.png" alt=""><figcaption></figcaption></figure>

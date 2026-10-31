@@ -1,4 +1,8 @@
-# Cookies and consent banner
+---
+index: 5
+---
+
+# Cookies and consent
 
 **Priority:** secondary operational/legal UX — implement with a consent management platform (CMP) such as Cookiebot, Osano, OneTrust, or similar if you use non-essential cookies or trackers.
 
@@ -14,7 +18,7 @@ Use variants as needed (short vs. detailed link).
 
 ### Short notice
 
-> We use cookies and similar technologies to run our site, remember preferences, and measure traffic. By clicking **Accept all**, you agree to non-essential analytics as described in our Cookie notice and [Privacy policy](./privacy-policy.md). You can change your choices anytime via **Cookie settings**.
+> We use cookies and similar technologies to run our site, remember preferences, and measure traffic. By clicking **Accept all**, you agree to non-essential analytics as described in our Cookie notice and [Privacy policy](privacy-policy.md). You can change your choices anytime via **Cookie settings**.
 
 Buttons: **Accept all** · **Reject non-essential** · **Cookie settings**
 
@@ -22,7 +26,7 @@ Buttons: **Accept all** · **Reject non-essential** · **Cookie settings**
 
 > **Cookies.** We use cookies that are essential for security and basic functionality. With your consent, we also use analytics and marketing pixels to understand how our Site is used. Third-party providers may process data per their policies—for example **Google Analytics**, **Meta** (Facebook pixel), and tools loaded via **Shopify Web Pixels**.  
 > **Your choices.** Essential cookies cannot be turned off here. You may accept or reject non-essential cookies. You can withdraw consent later.  
-> See our [Privacy policy](./privacy-policy.md) for retention and rights.
+> See our [Privacy policy](privacy-policy.md) for retention and rights.
 
 ---
 
@@ -41,7 +45,7 @@ Buttons: **Accept all** · **Reject non-essential** · **Cookie settings**
 
 - [ ] Inventory scripts (tag manager, embedded chat, analytics, video embeds).
 - [ ] Block non-essential scripts until consent (CMP default **deny** where required).
-- [ ] Link to **[Privacy policy](./privacy-policy.md)** and optional dedicated cookie list page at https://brickspacelab.com/cookies.
+- [ ] Link to **[Privacy policy](privacy-policy.md)** and optional dedicated cookie list page at https://brickspacelab.com/cookies.
 - [ ] Log consent versions for GDPR accountability if EU traffic is realistic.
 - [ ] Refresh inventory when adding tools (new analytics, heatmaps, CRM embeds).
 

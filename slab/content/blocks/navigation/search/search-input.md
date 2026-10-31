@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Search input
 
-<figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2859%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

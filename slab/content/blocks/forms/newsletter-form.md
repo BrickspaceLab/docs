@@ -1,6 +1,10 @@
+---
+index: 3
+---
+
 # Newsletter form
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2835%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Menu drawer
 
 ### Section overview

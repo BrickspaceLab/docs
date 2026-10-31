@@ -1,10 +1,14 @@
+---
+index: 3
+---
+
 # Collection blocks
 
 The collection template can include optional blocks. These blocks are displayed in-grid alongside your products. This can be used to display a text block or a newsletter. Both of which are great for highlighting ongoing promotions
 
 ***
 
-### Setup <a href="#h_909bdc8144" id="h_909bdc8144"></a>
+### Setup
 
 1. Go to **Online Store** > **Themes** > **Customize**
 2. From the dropdown in the center of the top bar select **Collections** > **Default collection**

@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Changelog
 
 {% updates format="full" %}
@@ -8,8 +12,6 @@
 * Added header overlay color and border controls so overlapped headers can keep contrast against either the bar or the page background.
 * Added **Enable balanced wrapping** to the **Rich text** block for more balanced multiline text.
 * Added inline filter horizontal alignment controls and mobile margin controls for the product section.
-
-
 
 <details>
 

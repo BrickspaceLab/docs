@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Blog
 
 ## Block limitations

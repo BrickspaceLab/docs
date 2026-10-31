@@ -1,8 +1,12 @@
+---
+index: 0
+---
+
 # Use color and option swatches
 
 ## Space: Using color and option swatches
 
-## Summary <a href="#h_c9f7a3a18b" id="h_c9f7a3a18b"></a>
+## Summary
 
 ***
 
@@ -10,7 +14,7 @@ Swatches are used to make variant selections easier and more intuitive for custo
 
 [![](https://downloads.intercomcdn.com/i/o/1200188733/46c1428813b9c2fbdcc65d4e/CleanShot+2024-10-01+at+11_20_26%402x.png?expires=1744834500\&signature=3a4c32e16ea4bc7136d621f14ecba6992325b88c6728bf3605723b4110f925fe\&req=dSInFsh2lYZcWvMW1HO4zbdRtJu5ajOk%2FRbXQPw4Q4f%2FT2%2FfkrqyTVf1xevP%0AHTDRfD%2Ft9dFEyg1ZEv8%3D%0A)](https://downloads.intercomcdn.com/i/o/1200188733/46c1428813b9c2fbdcc65d4e/CleanShot+2024-10-01+at+11_20_26%402x.png?expires=1744834500\&signature=3a4c32e16ea4bc7136d621f14ecba6992325b88c6728bf3605723b4110f925fe\&req=dSInFsh2lYZcWvMW1HO4zbdRtJu5ajOk%2FRbXQPw4Q4f%2FT2%2FfkrqyTVf1xevP%0AHTDRfD%2Ft9dFEyg1ZEv8%3D%0A)
 
-## Using swatch options <a href="#h_7b48b3b2e7" id="h_7b48b3b2e7"></a>
+## Using swatch options
 
 ***
 
@@ -25,13 +29,13 @@ From here you'll be able to change the hexcode or image of each swatch by clicki
 
 [![](https://downloads.intercomcdn.com/i/o/fnubgeik/1227086630/3648d8b932cd0f26926fb046b038/CleanShot-2B2024-09-30-2Bat-2B15_59_06.png?expires=1744834500\&signature=c1be0fefb7fdf5b4f81680f6472d554f14d3de324a0a408d3dd2f99513f21ed0\&req=dSIlEcl2m4dcWfMW1HO4zXUc5IuEUeMHdZOdHKH3i3ww%2BPEJy1XEEWnx4Tf3%0A3rjRKnpvjXd0aPODbRE%3D%0A)](https://downloads.intercomcdn.com/i/o/fnubgeik/1227086630/3648d8b932cd0f26926fb046b038/CleanShot-2B2024-09-30-2Bat-2B15_59_06.png?expires=1744834500\&signature=c1be0fefb7fdf5b4f81680f6472d554f14d3de324a0a408d3dd2f99513f21ed0\&req=dSIlEcl2m4dcWfMW1HO4zXUc5IuEUeMHdZOdHKH3i3ww%2BPEJy1XEEWnx4Tf3%0A3rjRKnpvjXd0aPODbRE%3D%0A)
 
-## Using swatch filtering <a href="#h_cd5e5bf18a" id="h_cd5e5bf18a"></a>
+## Using swatch filtering
 
 ***
 
 Your collection page filtering can be customized from the [Shopify Search and Discovery app](https://apps.shopify.com/search-and-discovery). Using this app you can add new filters and customize how they appear on your theme.
 
-### Add swatch filter from metafield <a href="#h_f6538f3037" id="h_f6538f3037"></a>
+### Add swatch filter from metafield
 
 Shopify has recently made a number of improvements to metafields and how they work with swatches. This is great news for us because now swatches are much easier to manage and update.
 
@@ -87,7 +91,7 @@ Caveats of metafield filtering
 
 If you use metafield swatch filtering you'll have to ensure you update your metafields for all products that you want to appear on this filter - this will NOT happen automatically even if category metafields and variant options are displaying swatches.
 
-### Add swatch filter from 'color' option <a href="#h_8b81e9e28e" id="h_8b81e9e28e"></a>
+### Add swatch filter from 'color' option
 
 You can add filters using color product options. This is a easy way to add filters but will require swatch files to be uploaded in a specific format. Swatches will only appear using this approach when the product option matches "color" - or a translation of color.
 

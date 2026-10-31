@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Comparison table
 
 ### Section overview

@@ -1,3 +1,7 @@
+---
+index: 6
+---
+
 # Blog tag filtering
 
 Using Paper you can update blog template to use tag based filtering. This is an easy way to surface sub-categories within a blog. For example, you may can show filters to view blogs posts with specific tags

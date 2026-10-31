@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Account B2B
 
 ## Overview

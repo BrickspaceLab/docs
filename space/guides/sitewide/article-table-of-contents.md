@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Article table of contents
 
 ***

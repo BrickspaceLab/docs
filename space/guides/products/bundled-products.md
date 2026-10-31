@@ -1,8 +1,12 @@
+---
+index: 16
+---
+
 # Bundled products
 
 The bundle product template can be used to sell multiple products from a single page. This can be combined with automatic discounts for an added layer of functionality. To set this up you'll need to create a new metafield definition then assign the bundle template to a new product.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/1199127570/6f61db4dbc02e91d09e286df/CleanShot+2024-09-30+at+16_52_17%402x.png?expires=1744682400&#x26;signature=70c912d9873f8d8e939d68c0a6f1ed1be610960c00c418497443ff59ccc57cca&#x26;req=dSEuH8h8moRYWfMW1HO4zfR48YsnIvPzChhoeb370%2Bvco%2Bgw9qRtQNn8DSCG%0A9N%2FcIqN%2FrkbflJuCsfQ%3D%0A" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://downloads.intercomcdn.com/i/o/1199127570/6f61db4dbc02e91d09e286df/CleanShot+2024-09-30+at+16_52_17%402x.png?expires=1744682400&signature=70c912d9873f8d8e939d68c0a6f1ed1be610960c00c418497443ff59ccc57cca&req=dSEuH8h8moRYWfMW1HO4zfR48YsnIvPzChhoeb370%2Bvco%2Bgw9qRtQNn8DSCG%0A9N%2FcIqN%2FrkbflJuCsfQ%3D%0A" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}

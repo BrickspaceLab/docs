@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Create a Mapbox API key
 
 {% hint style="info" %}
@@ -5,8 +9,6 @@ Mapbox comes with a free tier. Please refer to their pricing page to see if you'
 {% endhint %}
 
 In order to use some of the features on our theme like the store locator you’ll need to create and update a Mapbox API key.
-
-
 
 {% stepper %}
 {% step %}

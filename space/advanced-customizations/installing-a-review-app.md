@@ -1,9 +1,13 @@
+---
+index: 5
+---
+
 # Install a review app
 
 {% hint style="warning" %}
 **We do not provide support for code customizations**
 
-If you are not comfortable making code changes, we highly recommend [hiring an expert developer](/broken/pages/Fyss7M7PkIKyON7bVWSI).
+If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../../general/support/hire-a-shopify-developer.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -11,8 +15,6 @@ Most apps support app-block install for reviews widgets.
 {% endhint %}
 
 To display ratings and reviews properly in our Shopify themes, a standard metafield is used. If your review app doesn't use this metafield, you'll need to edit the code to integrate review widgets throughout
-
-
 
 ## Changing review and rating metafields
 
@@ -39,4 +41,3 @@ To display ratings and reviews properly in our Shopify themes, a standard metafi
 {% endcode %}
 {% endstep %}
 {% endstepper %}
-

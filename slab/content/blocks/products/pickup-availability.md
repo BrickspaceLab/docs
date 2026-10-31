@@ -1,6 +1,10 @@
+---
+index: 6
+---
+
 # Product pickup
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%286%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

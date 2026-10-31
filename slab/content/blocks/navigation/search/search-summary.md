@@ -1,6 +1,10 @@
+---
+index: 2
+---
+
 # Search summary
 
-<figure><img src="../../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2861%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

@@ -1,6 +1,10 @@
+---
+index: 1
+---
+
 # Age verification
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2833%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

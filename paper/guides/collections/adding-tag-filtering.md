@@ -1,10 +1,14 @@
+---
+index: 0
+---
+
 # Add tag filtering
 
 Using Paper you can update collection template to use tag based filtering. This is an easy way to surface sub-categories within a collection. For example, you may have a collection titled Accessories using nested navigation you could then set up links to Wallets, Phone Cases, and Bags.
 
 In this example clicking "Wallets" would filter the current collection to only show products that contain the tag "wallets".
 
-<figure><img src="../../.gitbook/assets/tag filter.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tag%20filter.png" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}

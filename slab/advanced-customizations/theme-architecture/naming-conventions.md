@@ -1,8 +1,10 @@
+---
+index: 3
+---
+
 # Naming conventions
 
 Files follow a prefix system across all three component layers:
-
-
 
 ## Snippets&#x20;
 
@@ -13,8 +15,6 @@ Files follow a prefix system across all three component layers:
 | `theme__`    | Core theme infrastructure (scripts, styles, meta) |
 | `template__` | Snippets tied to a specific template context      |
 
-
-
 ## Blocks
 
 | Prefix      | Purpose                                                                |
@@ -23,8 +23,6 @@ Files follow a prefix system across all three component layers:
 | `_`         | Private block — only valid inside a specific parent                    |
 | `layout__`  | Structural layout container                                            |
 | `overlay__` | Overlay block (drawer, popup, sidebar)                                 |
-
-
 
 ## Sections
 

@@ -1,6 +1,10 @@
+---
+index: 2
+---
+
 # Contact form
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2834%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

@@ -1,3 +1,7 @@
+---
+index: 21
+---
+
 # Collage
 
 ### Section overview

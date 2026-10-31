@@ -1,10 +1,14 @@
+---
+index: 4
+---
+
 # Customer approval
 
 The customer approval system determines which customers can view restricted content, products, and pricing. Keystone supports two approval methods: tag-based approval and B2B customer accounts.
 
 ***
 
-### Tag-based customer approval <a href="#tag-based" id="tag-based"></a>
+### Tag-based customer approval
 
 Tag-based approval is the most flexible option and works on all Shopify plans.
 
@@ -27,7 +31,7 @@ Once tagged, the customer will see all restricted content when logged in.
 
 ***
 
-### B2B customer approval <a href="#b2b" id="b2b"></a>
+### B2B customer approval
 
 B2B customer accounts are available on **Shopify Plus** plans and provide enterprise-level wholesale features.
 
@@ -45,7 +49,7 @@ For more information on setting up B2B accounts, visit [Shopify B2B Help](https:
 
 ***
 
-### Using both methods together <a href="#combined" id="combined"></a>
+### Using both methods together
 
 You can enable both tag-based and B2B approval simultaneously:
 
@@ -57,7 +61,7 @@ This gives you flexibility to manage both B2B accounts and individual wholesale 
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 {% hint style="warning" %}
 **Approval tags are case sensitive!**

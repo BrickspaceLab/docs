@@ -1,14 +1,18 @@
+---
+index: 1
+---
+
 # Use device-specific visibility
 
 ## Space: Using device specific visibility
 
-## Summary <a href="#h_ebe495baf7" id="h_ebe495baf7"></a>
+## Summary
 
 ***
 
 After editing your theme and previewing it across different devices you may find that some sections just look better on some devices. For example on mobile devices you may want to use a slider instead of a grid section.
 
-## How to <a href="#h_347c6cec81" id="h_347c6cec81"></a>
+## How to
 
 ***
 

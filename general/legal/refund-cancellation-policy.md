@@ -1,4 +1,8 @@
-# Refund and cancellation policy
+---
+index: 4
+---
+
+# Refund and cancellation
 
 **Last updated:** April 29, 2026
 
@@ -36,7 +40,7 @@ Brickspace Lab is located in **Ontario, Canada**. Consumer protection laws may g
 
 **3.1 Access.** You typically retain access through the **end of the paid period**. After that, paid features may be disabled according to the product (for example, Catalog subscription features or entitlement-linked theme updates).
 
-**3.2 Data.** We may delete or de-identify hosted data associated with your account after a reasonable retention window, as described in our **[Privacy policy](./privacy-policy.md)**. Export any data you need **before** cancellation if the product offers export.
+**3.2 Data.** We may delete or de-identify hosted data associated with your account after a reasonable retention window, as described in our **[Privacy policy](privacy-policy.md)**. Export any data you need **before** cancellation if the product offers export.
 
 **3.3 Shopify themes.** Theme licenses obtained through Shopify may be subject to **Shopify’s policies** regarding transfers and uninstallation. Our obligations track your valid entitlement and Shopify’s records.
 

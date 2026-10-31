@@ -1,12 +1,14 @@
+---
+index: 0
+---
+
 # Support policy
 
 Email support is available Monday to Friday with a typical 3-day response time. Shopify support is often the best option for platform issues or third party integrations.
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Contact theme support</td><td><a href="https://brickspacelab.com/pages/contact">https://brickspacelab.com/pages/contact</a></td></tr><tr><td>Contact Shopify support</td><td><a href="http://help.shopify.com/">http://help.shopify.com/</a></td></tr></tbody></table>
 
-
-
-## Our support policy <a href="#our-support-policy" id="our-support-policy"></a>
+## Our support policy
 
 Our support includes bug fixes and questions about built-in features and functionality. Our support does not include third party app integrations or code customizations.
 
@@ -55,7 +57,7 @@ These are **not** considered modified code:
 Shopify Sidekick and similar AI assistants can generate Liquid, CSS, or JavaScript and apply it straight to your theme. That application counts as a code modification.
 
 {% hint style="warning" %}
-**Using AI tools to edit theme code may void theme support eligibility** for issues caused by or related to those edits. This is stated in our [Terms of service](/broken/pages/VuGJkBmco9hfsmS6EaqH) and [Contact support](/broken/pages/YG06LNDFlIQrOtPuh7gU) policy.
+**Using AI tools to edit theme code may void theme support eligibility** for issues caused by or related to those edits. This is stated in our [Terms of service](../../general/legal/terms-of-service.md) and [Contact support](../../general/general/contact-support/README.md) policy.
 {% endhint %}
 
 If you want to experiment with AI-generated code:
@@ -69,6 +71,6 @@ If you want to experiment with AI-generated code:
 1. **Duplicate the theme** and keep the modified copy for reference.
 2. **Install a fresh copy** of your Brickspace theme from your purchase source, or duplicate before edits began if you still have it.
 3. **Compare behavior** on the clean theme. If the issue disappears, the cause is almost certainly custom or app code—not a core theme defect.
-4. **Contact the original developer** or hire a Shopify Expert for rollback or fixes. See [Hire a Shopify developer](/broken/pages/Fyss7M7PkIKyON7bVWSI).
+4. **Contact the original developer** or hire a Shopify Expert for rollback or fixes. See [Hire a Shopify developer](../../general/support/hire-a-shopify-developer.md).
 
-For step-by-step recovery guidance, see [Recover from third-party theme code changes](/broken/pages/hgWE4sjckHbJn7NrUSv0).
+For step-by-step recovery guidance, see [Recover from third-party theme code changes](support-policy.md#if-your-theme-was-already-modified).

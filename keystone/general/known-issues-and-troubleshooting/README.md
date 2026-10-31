@@ -1,2 +1,5 @@
-# Known issues and troubleshooting
+---
+index: 2
+---
 
+# Known issues and troubleshooting

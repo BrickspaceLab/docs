@@ -1,6 +1,10 @@
+---
+index: 14
+---
+
 # Payment icons
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2827%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

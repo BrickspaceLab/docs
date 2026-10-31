@@ -1,12 +1,16 @@
+---
+index: 1
+---
+
 # Slider products
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](../../layout/slider/) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](../../layout/slider/README.md) block.
 
 ## Overview
 
-A product slider component designed to display a collection of products within the [Slider](../../layout/slider/) block. This block renders individual product items in a horizontally scrollable slider format with responsive sizing and customizable gap spacing.
+A product slider component designed to display a collection of products within the [Slider](../../layout/slider/README.md) block. This block renders individual product items in a horizontally scrollable slider format with responsive sizing and customizable gap spacing.
 
 ## Common use cases
 

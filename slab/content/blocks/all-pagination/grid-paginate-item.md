@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Paginate item
 
 ## Block limitations

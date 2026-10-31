@@ -1,3 +1,7 @@
+---
+index: 7
+---
+
 # Footer
 
 ### Section overview

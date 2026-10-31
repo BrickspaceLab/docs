@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Countdown
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2810%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

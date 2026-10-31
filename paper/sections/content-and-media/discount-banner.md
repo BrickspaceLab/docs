@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Discount banner
 
 ### Section overview

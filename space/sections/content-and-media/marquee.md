@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Marquee
 
 ### Section overview

@@ -1,10 +1,14 @@
+---
+index: 11
+---
+
 # Subscription options
 
 Shopify subscriptions can be a bit tricky to setup. This guide will walk you through different options for displaying subscription options on your product page.
 
 ***
 
-### Built-in subscription features <a href="#h_built_in_features" id="h_built_in_features"></a>
+### Built-in subscription features
 
 Keystone has **built-in subscription support** that works with Shopify's native selling plan groups. The theme automatically integrates with Shopify subscription apps (like Recharge, Bold Subscriptions, etc.) through Shopify's Selling Plans API.
 
@@ -34,7 +38,7 @@ The subscription functionality is implemented in `snippets/product__options.liqu
 
 ***
 
-### Using the built-in subscription options <a href="#h_10340383b3" id="h_10340383b3"></a>
+### Using the built-in subscription options
 
 We recommend using the built-in subscription options as you'll have more control over the experience and can customize this with the help of a developer.
 
@@ -45,7 +49,7 @@ However, this may cause complications with your product templates if you've alre
 
 ***
 
-### Using third-party subscription options <a href="#h_0f926d6c18" id="h_0f926d6c18"></a>
+### Using third-party subscription options
 
 Disabling the default subscription options is possible if you'd like to stick to using a third-party widget. There a few more steps here.
 

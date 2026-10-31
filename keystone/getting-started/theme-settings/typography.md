@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Typography
 
 Choose fonts that match your brand style and enhance readability. Stick to 1-2 fonts to keep your design clean. Prioritize fast-loading fonts and check accessibility (good contrast, mobile-friendly). Pick styles that suit your audience - elegant serifs for luxury brands, clean sans-serifs for modern shops. Always preview on different devices.
@@ -7,8 +11,6 @@ Before adjusting typography settings, consider your brand's mission and identity
 {% hint style="info" %}
 [How to Pick a Font for Your Brand: Guide to Choosing Fonts](https://www.masterclass.com/articles/how-to-pick-a-font)
 {% endhint %}
-
-
 
 ### FAQs
 
@@ -22,7 +24,7 @@ Before adjusting typography settings, consider your brand's mission and identity
 4. Modify your font settings (family, size, weight, spacing, etc.) as needed.
 5. Click **Save** to apply your changes.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -41,8 +43,6 @@ Before adjusting typography settings, consider your brand's mission and identity
 [http://help.brickspacelab.com/developer-guides/advanced-customizations#change-the-color-of-a-button](http://help.brickspacelab.com/developer-guides/advanced-customizations#change-the-color-of-a-button)
 
 </details>
-
-
 
 ### Typography settings
 

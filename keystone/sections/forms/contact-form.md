@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Contact form
 
 ### Section overview

@@ -1,10 +1,14 @@
+---
+index: 6
+---
+
 # Minimum order amount
 
 Setting a minimum order amount prevents customers from checking out unless their cart meets a specified subtotal. This is useful for wholesale stores that require minimum purchase quantities or order values.
 
 ***
 
-### Setup minimum order <a href="#setup" id="setup"></a>
+### Setup minimum order
 
 1. Open the **Theme Editor** by clicking **Customize** next to your theme
 2. Click **Theme Settings** (gear icon near the top left)
@@ -15,7 +19,7 @@ Setting a minimum order amount prevents customers from checking out unless their
 
 ***
 
-### How it works <a href="#how-it-works" id="how-it-works"></a>
+### How it works
 
 When a minimum order amount is set:
 
@@ -26,7 +30,7 @@ When a minimum order amount is set:
 
 ***
 
-### Examples <a href="#examples" id="examples"></a>
+### Examples
 
 | Minimum Amount | Enter in Field |
 | -------------- | -------------- |
@@ -37,7 +41,7 @@ When a minimum order amount is set:
 
 ***
 
-### Remove minimum order <a href="#remove" id="remove"></a>
+### Remove minimum order
 
 To allow orders of any amount:
 
@@ -47,7 +51,7 @@ To allow orders of any amount:
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 * The minimum is based on the cart subtotal before taxes and shipping
 * The minimum applies to all customers unless using custom code

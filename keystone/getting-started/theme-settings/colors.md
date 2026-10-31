@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Colors
 
 Although it's possible to jump into Keystone and start picking colors, we recommend doing a bit of prep work beforehand. This ensures you have a solid idea of the direction of your brand and the colors you want to use.
@@ -11,8 +15,6 @@ There are a handful of great resources online that can help guide your color sel
 * [Color Psychology: How Color Meanings Affect Your Brand](https://www.oberlo.com/blog/color-psychology-color-meanings)
 {% endhint %}
 
-
-
 ### FAQs
 
 <details>
@@ -25,7 +27,7 @@ There are a handful of great resources online that can help guide your color sel
 4. Modify your color settings (palette, accents, text colors, etc.) as needed
 5. Click **Save** to apply your changes
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%282%29.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -35,9 +37,9 @@ There are a handful of great resources online that can help guide your color sel
 
 Accent 1-3 represents darker shades of the **Body** color. You can find your Body color within the **Colors** drawer in your **Theme settings** tab. To use an accent color, you can set this within the **Color** settings of most **Section** blocks.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Theme settings 'Color' tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%2814%29.png" alt=""><figcaption><p>Theme settings 'Color' tab</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>What the setting will look like within a Section</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%2812%29.png" alt=""><figcaption><p>What the setting will look like within a Section</p></figcaption></figure>
 
 </details>
 
@@ -47,13 +49,9 @@ Accent 1-3 represents darker shades of the **Body** color. You can find your Bod
 
 Update the Mobile bar to change top bar above the website. This is used to create a more finished look. This is currently only supported on some mobile devices. We recommend matching your announcement bar to the Mobile bar color.
 
-
-
-<div data-full-width="true"><figure><img src="https://downloads.intercomcdn.com/i/o/1198958900/ccc7f1701938dd7bd6459ecf/shotsnapp-1666801448_626.png?expires=1744398000&#x26;signature=8b6db350fd25f73c4ef8f01b263186ae454c4987bfc6abd25297717fdff45112&#x26;req=dSEuHsB7lYhfWfMW1HO4zUTPeXYqhlRs6OyH1QnljCwSCKS61%2BdJQFEQkj3P%0AAtEp6wWtGLHIt4kkrOA%3D%0A" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="https://downloads.intercomcdn.com/i/o/1198958900/ccc7f1701938dd7bd6459ecf/shotsnapp-1666801448_626.png?expires=1744398000&signature=8b6db350fd25f73c4ef8f01b263186ae454c4987bfc6abd25297717fdff45112&req=dSEuHsB7lYhfWfMW1HO4zUTPeXYqhlRs6OyH1QnljCwSCKS61%2BdJQFEQkj3P%0AAtEp6wWtGLHIt4kkrOA%3D%0A" alt=""><figcaption></figcaption></figure></div>
 
 </details>
-
-
 
 ### Color settings
 

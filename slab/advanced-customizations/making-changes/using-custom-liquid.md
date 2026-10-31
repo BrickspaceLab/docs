@@ -1,8 +1,10 @@
+---
+index: 4
+---
+
 # Use custom Liquid
 
 The **Custom liquid** section type lets you inject Liquid and HTML directly into any page template without editing theme source files. It is the fastest way to add a one-off snippet of dynamic or interactive content.
-
-
 
 ## When to use custom liquid
 
@@ -15,8 +17,6 @@ Custom liquid is a good fit when:
 
 If you find yourself needing the same snippet in multiple places, or if you want merchants to be able to configure the content from the theme editor, consider [creating a custom block](creating-custom-blocks.md) or [creating a custom section](creating-custom-sections.md) instead.
 
-
-
 ## How to add custom liquid
 
 1. Open the theme editor and navigate to the page where you want to add the snippet.
@@ -24,13 +24,9 @@ If you find yourself needing the same snippet in multiple places, or if you want
 3. Paste your Liquid and HTML code into the code field.
 4. Save.
 
-
-
 ## Using AI to write custom liquid
 
 AI coding agents are well-suited to writing custom liquid snippets. Slab uses [Alpine.js](https://alpinejs.dev/) for interactivity, so you can ask an agent to generate snippets that combine Liquid with Alpine's `x-data` and `x-init` directives.
-
-
 
 **A useful prompt structure:**
 
@@ -39,8 +35,6 @@ AI coding agents are well-suited to writing custom liquid snippets. Slab uses [A
 Write a Shopify Liquid snippet using Alpine.js x-data that [describe what you want it to do]. Use utility classes from the Slab theme for styling where appropriate.
 ```
 {% endcode %}
-
-
 
 **Example: live clock for a timezone**
 

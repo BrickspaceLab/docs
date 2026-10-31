@@ -1,3 +1,7 @@
+---
+index: 13
+---
+
 # Icon grid
 
 ### Section overview

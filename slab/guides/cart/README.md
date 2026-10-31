@@ -1,6 +1,6 @@
 ---
-hidden: true
+navigation: hidden
+index: 4
 ---
 
 # Cart
-

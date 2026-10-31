@@ -1,2 +1,5 @@
-# Gallery
+---
+index: 4
+---
 
+# Gallery

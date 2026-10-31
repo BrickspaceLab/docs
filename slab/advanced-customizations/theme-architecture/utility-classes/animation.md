@@ -1,10 +1,12 @@
+---
+index: 4
+---
+
 # Animation
 
 `src/css/utilities/animation.css`
 
 Shorthand transition and scroll-driven animation utilities. Prefer these over writing `transition` or `animation` properties inline.
-
-
 
 ## Transitions
 
@@ -17,8 +19,6 @@ Apply `transition-all` with a fixed duration:
 | `animation-500--all`  | `transition-all duration-500` |
 | `animation-5000--all` | `transition-all` at 5000ms    |
 
-
-
 Apply `transition` (Tailwind default properties) with a fixed duration:
 
 | Class            | Transition                 |
@@ -30,8 +30,6 @@ Apply `transition` (Tailwind default properties) with a fixed duration:
 | `animation-1000` | `transition duration-1000` |
 | `animation-5000` | `transition` at 5000ms     |
 
-
-
 ## Keyframe animations
 
 | Class                 | Effect                                          |
@@ -42,8 +40,6 @@ Apply `transition` (Tailwind default properties) with a fixed duration:
 | `animate-hop1`        | Vertical hop, stagger offset 0.2s               |
 | `animate-hop2`        | Vertical hop, stagger offset 0.4s               |
 | `animate-hop3`        | Vertical hop, stagger offset 0.6s               |
-
-
 
 ## Scroll-driven animations
 

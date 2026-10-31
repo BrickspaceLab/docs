@@ -1,6 +1,10 @@
+---
+index: 7
+---
+
 # Marquee
 
-<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2844%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

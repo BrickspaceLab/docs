@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Blank section
 
 ### Section overview

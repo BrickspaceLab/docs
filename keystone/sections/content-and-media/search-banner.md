@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Search banner
 
 ### Section overview

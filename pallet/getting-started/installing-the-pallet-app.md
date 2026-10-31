@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Install Pallet
 
 This guide will walk you through installing and setting up Pallet on your Shopify store. The entire process takes about 5-10 minutes.
@@ -62,7 +66,7 @@ This is the most important step - it enables Pallet to display custom prices on 
 2. Then select **Change currency formatting**
 3. Wrap the currency in a span with a data-pallet-price attribute. Do this for both HTML with currency and HTML without currency.
 
-<figure><img src="../.gitbook/assets/screenshot_2026-01-21_101704_480 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot_2026-01-21_101704_480%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 For example:
 

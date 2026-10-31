@@ -1,6 +1,10 @@
+---
+index: 8
+---
+
 # Inline
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2843%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

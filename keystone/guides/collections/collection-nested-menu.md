@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Add a nested menu
 
 Each collection can be set up with nested navigation. This is useful if you have a large collection with multiple sub-groupings within. For example, you may have a collection titled Accessories using nested navigation you could then set up links to Wallets, Phone Cases, and Bags.
@@ -6,7 +10,7 @@ In this example clicking "Elastic" would navigate to a new page loading the "Ela
 
 ***
 
-### Create metafields definitions <a href="#h_8713c28b98" id="h_8713c28b98"></a>
+### Create metafields definitions
 
 1. Go to **Settings** > **Metafields**
 2. Click **Collections** then click **Add definition**
@@ -16,7 +20,7 @@ In this example clicking "Elastic" would navigate to a new page loading the "Ela
 
 ***
 
-### Add data to Collection metafield <a href="#h_6bebd429e6" id="h_6bebd429e6"></a>
+### Add data to Collection metafield
 
 1. Open the collection you'd like to add a tag filtering too
 2. Scroll to the bottom **Metafields** area
@@ -47,9 +51,7 @@ _Example:_ **Collections/sibling-products**
 
 <summary>S<em>creen shot of where to find your collection handle</em></summary>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image%20%2816%29.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -57,6 +59,6 @@ _Example:_ **Collections/sibling-products**
 
 _Full example:_ **Sibling Products,/collections/sibling-products**
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%2817%29.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%2818%29.png" alt=""><figcaption></figcaption></figure>

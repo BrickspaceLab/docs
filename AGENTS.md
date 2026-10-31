@@ -1,10 +1,14 @@
+---
+published: false
+---
+
 # Agents
 
 ## Cursor Cloud specific instructions
 
 ### Overview
 
-This is a **GitBook-formatted documentation repository** for Brickspace Lab's Shopify themes and apps. There is no application server or build step — development consists of editing Markdown files with optional source verification.
+This is a **Knowing-compatible Markdown documentation repository** for Brickspace Lab's Shopify themes and apps. There is no application server or build step. Development consists of editing Markdown and verifying theme claims against source. Run `npm run check` to validate publication metadata, page coverage, links, assets, and supported block structure. See `.migration/README.md` for migration evidence and remaining acceptance checks.
 
 ### Products documented
 
@@ -40,4 +44,14 @@ Schema settings use translated labels like `"label": "t:general.settings.dropdow
 
 ### Lint / test / build
 
-There is no linter, test suite, or build step in this repository. Quality is enforced by the Cursor rules and by verifying documentation against the synced theme source in `.src/`.
+There is no application build or test suite. Run `npm run check` for documentation validation. Verify feature claims against the synced theme source in `.src/` and follow the writing rules.
+
+## Knowing publication
+
+- Keep a root `README.md` for the Brickspace Lab homepage and folder `README.md` files for navigation labels.
+- Use flat Knowing frontmatter. The integer `index` orders pages and folders among siblings.
+- Set `published: false` on contributor instructions, GitBook `SUMMARY.md` files, includes, and migration reports. Every regular Markdown file is otherwise a page.
+- Use relative repository paths ending in `.md` for internal page links, including `README.md` for folders.
+- Knowing supports the existing GitBook-style hints, steppers, tabs, content references, updates, HTML cards, and details. Preserve them; remove GitBook-only action buttons and layout metadata.
+- Keep Catalog product documentation in the separate `catalog-docs` repository. Shared company legal policies may remain here.
+- Opening or merging a PR is not a request to publish a Knowing release, change DNS, or replace the live help center.
