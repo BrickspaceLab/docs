@@ -89,6 +89,4 @@ Address:
 
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
-Canada  
-
-Tel. 705-259-7528
+Canada
