@@ -1,3 +1,9 @@
+---
+title: "Grid layouts"
+published: true
+index: 0
+---
+
 # Grid layouts
 
 Slab offers two main layout blocks for arranging content: **Default grid** and **Flex grid**. Each suits different layout needs. This guide covers both blocks and when to use them.

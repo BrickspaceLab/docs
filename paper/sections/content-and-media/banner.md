@@ -1,3 +1,9 @@
+---
+title: "Banner"
+published: true
+index: 4
+---
+
 # Banner
 
 The Banner section displays a background image or video with text overlay, creating visually appealing hero banners for your store. It supports both desktop and mobile-specific media assets with customizable text alignment and spacing.

@@ -1,3 +1,9 @@
+---
+title: "Update your theme"
+published: true
+index: 4
+---
+
 # Update your theme
 
 Our themes are updated regularly with new features, general improvements, and bug fixes.&#x20;

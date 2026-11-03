@@ -1,3 +1,9 @@
+---
+title: "Full site restriction"
+published: true
+index: 5
+---
+
 # Full site restriction
 
 Full site restriction locks down your entire store to only approved customers. This creates a completely private wholesale or members-only experience where unauthorized visitors can only see specific sections you choose to display.

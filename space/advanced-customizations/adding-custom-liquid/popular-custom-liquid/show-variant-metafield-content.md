@@ -1,3 +1,9 @@
+---
+title: "Show variant metafield content"
+published: true
+index: 0
+---
+
 # Show variant metafield content
 
 Display variant-specific metafields when a shopper selects a variant on the product page. This uses Alpine's `x-show` to conditionally render content for the active variant and can be added via a `Custom liquid` section.

@@ -1,3 +1,9 @@
+---
+title: "Product table block"
+published: true
+index: 18
+---
+
 # Product table block
 
 The Table block lets customers easily see all options/variants of a product and add multiple quantities at once.

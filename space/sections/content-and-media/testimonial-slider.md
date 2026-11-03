@@ -1,3 +1,9 @@
+---
+title: "Testimonial slider"
+published: true
+index: 10
+---
+
 # Testimonial slider
 
 ### Section overview

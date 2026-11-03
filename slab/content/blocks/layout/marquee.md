@@ -1,3 +1,9 @@
+---
+title: "Marquee"
+published: true
+index: 7
+---
+
 # Marquee
 
 <figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>

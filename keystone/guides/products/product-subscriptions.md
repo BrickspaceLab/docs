@@ -1,3 +1,9 @@
+---
+title: "Subscription options"
+published: true
+index: 11
+---
+
 # Subscription options
 
 Shopify subscriptions can be a bit tricky to setup. This guide will walk you through different options for displaying subscription options on your product page.

@@ -1,3 +1,9 @@
+---
+title: "Image"
+published: true
+index: 11
+---
+
 # Image
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>

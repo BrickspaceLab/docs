@@ -1,3 +1,9 @@
+---
+title: "JavaScript"
+published: true
+index: 1
+---
+
 # JavaScript
 
 Interactivity is handled by Alpine.js. Components are defined inline in Liquid templates with `x-data`.

@@ -1,3 +1,9 @@
+---
+title: "Icon"
+published: true
+index: 10
+---
+
 # Icon
 
 <figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>

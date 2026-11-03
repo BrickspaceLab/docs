@@ -1,3 +1,9 @@
+---
+title: "Customize the sticky buy button"
+published: true
+index: 6
+---
+
 # Customize the sticky buy button
 
 Space’s **Fixed buy buttons** block adds a sticky add-to-cart bar on product pages. The theme editor exposes colors, position, and scroll behavior. Changes to button labels, price in the button, or mobile layout beyond those settings require editing the **`product__stickyadd.liquid`** snippet.

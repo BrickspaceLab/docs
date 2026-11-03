@@ -1,3 +1,9 @@
+---
+title: "Collection list slider"
+published: true
+index: 6
+---
+
 # Collection list slider
 
 ### Section overview

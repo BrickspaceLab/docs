@@ -1,3 +1,9 @@
+---
+title: "Featured product"
+published: true
+index: 7
+---
+
 # Featured product
 
 ### Section overview

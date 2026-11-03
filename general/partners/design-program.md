@@ -1,3 +1,9 @@
+---
+title: "Design program"
+published: true
+index: 2
+---
+
 # Design program
 
 If you’re an ecommerce designer looking for a way to showcase your work, apply to become a design partner. You’ll get free access to the Slab Shopify theme along with demo content to help you build your preset.

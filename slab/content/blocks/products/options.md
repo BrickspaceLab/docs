@@ -1,3 +1,9 @@
+---
+title: "Product options"
+published: true
+index: 5
+---
+
 # Product options
 
 <figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>

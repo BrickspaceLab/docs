@@ -1,3 +1,9 @@
+---
+title: "Disable quick add"
+published: true
+index: 10
+---
+
 # Disable quick add
 
 The Quick add feature can be disabled for individual products. This may be useful if you have a heavily customized product page that is not compatible with the quick add component. Using this can force customers to visit your product page.

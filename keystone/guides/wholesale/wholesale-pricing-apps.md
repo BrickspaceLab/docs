@@ -1,3 +1,9 @@
+---
+title: "Wholesale pricing apps"
+published: true
+index: 7
+---
+
 # Wholesale pricing apps
 
 While Keystone's built-in features can restrict content and set minimums, displaying different prices to different customers requires a third-party wholesale pricing app. These apps integrate seamlessly with Keystone to show customer-specific pricing.

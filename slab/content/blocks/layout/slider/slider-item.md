@@ -1,8 +1,14 @@
+---
+title: "Slider item"
+published: true
+index: 0
+---
+
 # Slider item
 
 ## Overview
 
-A configurable slider item component designed to be used within the [Slider](./) block. Provides customizable width settings for both mobile and desktop displays, with optional gap sizing between child elements.
+A configurable slider item component designed to be used within the [Slider](README.md) block. Provides customizable width settings for both mobile and desktop displays, with optional gap sizing between child elements.
 
 ## Block limitations
 

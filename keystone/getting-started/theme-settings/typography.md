@@ -1,3 +1,9 @@
+---
+title: "Typography"
+published: true
+index: 1
+---
+
 # Typography
 
 Choose fonts that match your brand style and enhance readability. Stick to 1-2 fonts to keep your design clean. Prioritize fast-loading fonts and check accessibility (good contrast, mobile-friendly). Pick styles that suit your audience - elegant serifs for luxury brands, clean sans-serifs for modern shops. Always preview on different devices.

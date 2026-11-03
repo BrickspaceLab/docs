@@ -1,3 +1,9 @@
+---
+title: "Footer"
+published: true
+index: 1
+---
+
 # Footer
 
 ### Section overview

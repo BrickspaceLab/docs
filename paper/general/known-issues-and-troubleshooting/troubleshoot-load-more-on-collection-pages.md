@@ -1,3 +1,9 @@
+---
+title: "Troubleshoot Load More on collection pages"
+published: true
+index: 0
+---
+
 # Troubleshoot Load More on collection pages
 
 Paper collection pages can paginate with **Load more on click** or **Load more on scroll** instead of numbered pages. If the **Load more** button appears but nothing loads—or the page count never increases—use this guide to isolate JavaScript conflicts, settings, and custom code issues.

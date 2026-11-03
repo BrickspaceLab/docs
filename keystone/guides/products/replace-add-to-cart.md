@@ -1,3 +1,9 @@
+---
+title: 'Replace "Add to cart"'
+published: true
+index: 4
+---
+
 # Replace "Add to cart"
 
 Customize the "Add to Cart" button text for individual products using metafields. Change to action-specific text like:

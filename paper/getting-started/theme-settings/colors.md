@@ -1,3 +1,9 @@
+---
+title: "Colors"
+published: true
+index: 0
+---
+
 # Colors
 
 Although it's possible to jump into Paper and start picking colors, we recommend doing a bit of prep work beforehand. This ensures you have a solid idea of the direction of your brand and the colors you want to use.

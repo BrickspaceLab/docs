@@ -1,3 +1,9 @@
+---
+title: "Search banner"
+published: true
+index: 11
+---
+
 # Search banner
 
 ### Section overview

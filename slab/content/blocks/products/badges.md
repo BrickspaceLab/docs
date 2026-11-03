@@ -1,3 +1,9 @@
+---
+title: "Badges"
+published: true
+index: 0
+---
+
 # Badges
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>

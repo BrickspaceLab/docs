@@ -1,3 +1,9 @@
+---
+title: "Storefront rules"
+published: true
+index: 2
+---
+
 # Storefront rules
 
 ## Pricing rules

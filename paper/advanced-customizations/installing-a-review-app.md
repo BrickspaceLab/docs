@@ -1,3 +1,9 @@
+---
+title: "Install a review app"
+published: true
+index: 4
+---
+
 # Install a review app
 
 {% hint style="warning" %}

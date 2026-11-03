@@ -1,3 +1,9 @@
+---
+title: "Discount"
+published: true
+index: 6
+---
+
 # Discount
 
 ### Section overview

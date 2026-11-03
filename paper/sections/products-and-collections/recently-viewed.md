@@ -1,3 +1,9 @@
+---
+title: "Recently viewed"
+published: true
+index: 6
+---
+
 # Recently viewed
 
 ### Section overview

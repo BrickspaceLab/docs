@@ -1,8 +1,14 @@
+---
+title: "Avatar image"
+published: true
+index: 0
+---
+
 # Avatar image
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Avatars](./) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Avatars](README.md) block.
 
 ## Overview
 

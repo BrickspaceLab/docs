@@ -1,3 +1,9 @@
+---
+title: "Product list"
+published: true
+index: 6
+---
+
 # Product list
 
 ### Section overview

@@ -1,3 +1,9 @@
+---
+title: "Use device-specific visibility"
+published: true
+index: 0
+---
+
 # Use device-specific visibility
 
 After editing your theme and previewing it across different devices you may find that some sections just look better on some devices. For example on mobile devices you may want to use a slider instead of a grid section.

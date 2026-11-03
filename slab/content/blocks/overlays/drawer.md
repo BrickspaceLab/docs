@@ -1,3 +1,9 @@
+---
+title: "Drawer"
+published: true
+index: 1
+---
+
 # Drawer
 
 <figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>

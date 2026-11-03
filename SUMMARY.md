@@ -1,3 +1,5 @@
-# Table of contents
+---
+published: false
+---
 
-* [Changelog](README.md)
+# Table of contents

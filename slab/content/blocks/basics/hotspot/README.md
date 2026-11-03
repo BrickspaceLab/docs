@@ -1,3 +1,9 @@
+---
+title: "Hotspot"
+published: true
+index: 6
+---
+
 # Hotspot
 
 <figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>

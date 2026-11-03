@@ -1,3 +1,9 @@
+---
+title: "Use custom templates"
+published: true
+index: 1
+---
+
 # Use custom templates
 
 Custom templates can be created to include drag-and-drop sections on almost any page. These templates can be used for content pages, collection pages, product pages, blog pages, and article pages.

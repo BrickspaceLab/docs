@@ -1,3 +1,9 @@
+---
+title: "Product table"
+published: true
+index: 2
+---
+
 # Product table
 
 ### Section overview

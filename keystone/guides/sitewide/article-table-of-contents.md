@@ -1,3 +1,9 @@
+---
+title: "Article table of contents"
+published: true
+index: 9
+---
+
 # Article table of contents
 
 Add a table of contents to your blog articles to improve navigation and readability.

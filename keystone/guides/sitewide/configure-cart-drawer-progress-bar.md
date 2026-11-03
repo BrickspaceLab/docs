@@ -1,3 +1,9 @@
+---
+title: "Configure cart drawer progress bar"
+published: true
+index: 5
+---
+
 # Configure cart drawer progress bar
 
 Use the cart drawer progress bar to show customers how close they are to a cart goal, such as free shipping.

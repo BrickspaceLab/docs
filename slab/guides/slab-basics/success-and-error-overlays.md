@@ -1,3 +1,9 @@
+---
+title: "Success and error messages"
+published: true
+index: 3
+---
+
 # Success and error overlays
 
 Success and error overlays let Slab show feedback after a customer submits a form or when the theme encounters an action error. In most storefront templates, this feedback appears in an **Alert** overlay, even if the form itself is inside a **Popup**.

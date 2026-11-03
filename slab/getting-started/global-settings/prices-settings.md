@@ -1,3 +1,9 @@
+---
+title: "Prices"
+published: true
+index: 11
+---
+
 # Prices
 
 Price settings in **Theme settings > Prices** control whether formatted prices show trailing zeros and whether currency notation appears.

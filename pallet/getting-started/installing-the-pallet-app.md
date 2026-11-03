@@ -1,3 +1,9 @@
+---
+title: "Install Pallet"
+published: true
+index: 1
+---
+
 # Install Pallet
 
 This guide will walk you through installing and setting up Pallet on your Shopify store. The entire process takes about 5-10 minutes.

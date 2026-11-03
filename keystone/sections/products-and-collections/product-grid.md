@@ -1,3 +1,9 @@
+---
+title: "Product grid"
+published: true
+index: 0
+---
+
 # Product grid
 
 ### Section Overview

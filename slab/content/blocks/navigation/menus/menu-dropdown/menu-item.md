@@ -1,8 +1,14 @@
+---
+title: "Menu item"
+published: true
+index: 0
+---
+
 # Menu item
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Menu dropdown](./) or [Menu page](../menu-page.md) blocks.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Menu dropdown](README.md) or [Menu page](../menu-page.md) blocks.
 
 ## Overview
 

@@ -1,3 +1,9 @@
+---
+title: "Discount"
+published: true
+index: 1
+---
+
 # Discount
 
 <figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>

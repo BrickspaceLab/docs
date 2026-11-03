@@ -1,3 +1,9 @@
+---
+title: "Refund and cancellation"
+published: true
+index: 4
+---
+
 # Refund and cancellation policy
 
 **Last updated:** April 29, 2026
@@ -83,6 +89,4 @@ Address:
 
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
-Canada  
-
-Tel. 705-259-7528
+Canada

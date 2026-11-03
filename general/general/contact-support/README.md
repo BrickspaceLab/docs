@@ -1,3 +1,9 @@
+---
+title: "Contact support"
+published: true
+index: 0
+---
+
 # Contact support
 
 Email support is available Monday to Friday with a typical 3-day response time. Shopify support is often the best option for platform issues or third party integrations.

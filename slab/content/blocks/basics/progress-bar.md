@@ -1,3 +1,9 @@
+---
+title: "Progress bar"
+published: true
+index: 15
+---
+
 # Progress bar
 
 ## Overview

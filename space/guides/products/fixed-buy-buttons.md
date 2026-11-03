@@ -1,3 +1,9 @@
+---
+title: "Fixed buy buttons"
+published: true
+index: 5
+---
+
 # Fixed buy buttons
 
 The Fixed Buy Buttons feature adds a sticky add-to-cart bar that stays visible on product pages, making it easy for customers to purchase even when they've scrolled away from the main product form. This helps reduce friction and can improve conversion rates, especially on mobile devices.

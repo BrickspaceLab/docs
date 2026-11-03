@@ -1,3 +1,9 @@
+---
+title: "Upsell checkbox"
+published: true
+index: 8
+---
+
 # Upsell checkbox
 
 <figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>

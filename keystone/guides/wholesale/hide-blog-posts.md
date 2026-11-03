@@ -1,3 +1,9 @@
+---
+title: "Hide blog posts"
+published: true
+index: 3
+---
+
 # Hide blog posts
 
 Hiding blog posts allows you to create exclusive content for approved wholesale customers. Unauthorized visitors won't be able to view blog posts with the restriction tag.

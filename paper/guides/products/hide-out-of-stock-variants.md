@@ -1,3 +1,9 @@
+---
+title: "Hide out of stock options"
+published: true
+index: 19
+---
+
 # Hide out of stock options
 
 Paper includes built-in settings to control how unavailable product options are displayed to customers. You can choose to hide them completely or show them as disabled.

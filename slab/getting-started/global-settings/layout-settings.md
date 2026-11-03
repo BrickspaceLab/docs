@@ -1,3 +1,9 @@
+---
+title: "Layout"
+published: true
+index: 5
+---
+
 # Layout
 
 Layout settings in **Theme settings > Layout** control storefront horizontal margins, default spacing rhythm, and optional vertical scroll snapping for supported sections.

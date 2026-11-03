@@ -1,3 +1,9 @@
+---
+title: "Product pickup"
+published: true
+index: 6
+---
+
 # Product pickup
 
 <figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>

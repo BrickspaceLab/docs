@@ -1,3 +1,9 @@
+---
+title: "Overlays and popups"
+published: true
+index: 2
+---
+
 # Overlays and popups
 
 Slab includes four overlay block types: **Drawer**, **Sidebar**, **Popup**, and **Alert**. Use overlays when you want to show content on top of the storefront without sending customers to a new page.

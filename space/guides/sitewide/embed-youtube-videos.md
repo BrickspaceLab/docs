@@ -1,3 +1,9 @@
+---
+title: "Embed YouTube videos"
+published: true
+index: 2
+---
+
 # Embed YouTube videos
 
 Use a **Custom Liquid** block to add a YouTube video anywhere in Space where blocks are supported.

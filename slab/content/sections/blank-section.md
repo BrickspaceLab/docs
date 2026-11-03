@@ -1,3 +1,9 @@
+---
+title: "Blank section"
+published: true
+index: 0
+---
+
 # Blank section
 
 ### Section overview

@@ -1,3 +1,9 @@
+---
+title: "Product rating"
+published: true
+index: 9
+---
+
 # Product rating
 
 <figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>

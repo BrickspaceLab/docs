@@ -1,3 +1,9 @@
+---
+title: "Add custom Liquid"
+published: true
+index: 0
+---
+
 # Adding custom liquid
 
 The Custom liquid section can be used to add any code snippet to a template. This is a great way to add app install scripts if an app requires manual installation. This is a great approach to take - your theme code remains un-edited and you still have access to easily update the theme.
@@ -31,6 +37,6 @@ Click **Save**
 
 
 
-{% content-ref url="popular-custom-liquid/" %}
-[popular-custom-liquid](popular-custom-liquid/)
+{% content-ref url="popular-custom-liquid/README.md" %}
+[popular-custom-liquid](popular-custom-liquid/README.md)
 {% endcontent-ref %}

@@ -1,3 +1,9 @@
+---
+title: "Product recommendations"
+published: true
+index: 1
+---
+
 # Display product recommendations
 
 Product recommendations surface related or complementary items from Shopify’s recommendation system. In Slab you add them with a **Product recommendations** block inside a parent that supports that block (often a grid or slider area on product, collection, or cart templates).

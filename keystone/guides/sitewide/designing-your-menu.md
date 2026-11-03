@@ -1,3 +1,9 @@
+---
+title: "Design your menu"
+published: true
+index: 6
+---
+
 # Design your menu
 
 Use the default header navigation or combine it with the sidebar menu depending on your store’s needs.

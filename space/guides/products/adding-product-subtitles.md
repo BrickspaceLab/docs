@@ -1,3 +1,9 @@
+---
+title: "Product subtitles"
+published: true
+index: 0
+---
+
 # Product subtitles
 
 ## Space: Adding product subtitles

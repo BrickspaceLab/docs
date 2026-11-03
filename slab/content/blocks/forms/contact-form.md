@@ -1,3 +1,9 @@
+---
+title: "Contact form"
+published: true
+index: 2
+---
+
 # Contact form
 
 <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>

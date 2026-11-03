@@ -1,3 +1,9 @@
+---
+title: "Account B2B"
+published: true
+index: 0
+---
+
 # Account B2B
 
 ## Overview

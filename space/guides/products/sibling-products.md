@@ -1,3 +1,9 @@
+---
+title: "Sibling products"
+published: true
+index: 15
+---
+
 # Sibling products
 
 Space supports two methods to display products as swatch options. This is helpful if you want to split one product into separate listings but maintain visibility for each option. When this is set up, customers will see sibling products as options so they can easily select different options or colors.

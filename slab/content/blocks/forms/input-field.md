@@ -1,3 +1,9 @@
+---
+title: "Input field"
+published: true
+index: 0
+---
+
 # Input field
 
 <figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>

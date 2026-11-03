@@ -1,3 +1,9 @@
+---
+title: "Social icons"
+published: true
+index: 18
+---
+
 # Social icons
 
 ## Overview

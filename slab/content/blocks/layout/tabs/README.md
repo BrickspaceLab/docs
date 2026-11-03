@@ -1,3 +1,9 @@
+---
+title: "Tab"
+published: true
+index: 5
+---
+
 # Tab
 
 <figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,9 @@
+---
+title: "Software license — Slab"
+published: true
+index: 2
+---
+
 # Software license agreement — Slab
 
 **Last updated:** April 29, 2026
@@ -116,6 +122,4 @@ This Agreement, together with Licensor’s **[Terms of service](./terms-of-servi
 
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
-Canada  
-
-Tel. 705-259-7528
+Canada

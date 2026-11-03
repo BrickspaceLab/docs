@@ -1,3 +1,9 @@
+---
+title: "Account"
+published: true
+index: 12
+---
+
 # Account
 
 Account settings in **Theme settings > Account** help limit catalog or blog visibility to approved customers, optionally treat B2B customers as approved, and choose how restricted content appears.

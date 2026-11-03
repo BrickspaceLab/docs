@@ -1,3 +1,9 @@
+---
+title: "Naming conventions"
+published: true
+index: 2
+---
+
 # Naming conventions
 
 Files follow a prefix system across all three component layers:

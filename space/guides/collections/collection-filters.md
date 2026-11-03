@@ -1,3 +1,9 @@
+---
+title: "Customize filters"
+published: true
+index: 0
+---
+
 # Customize filters
 
 ***

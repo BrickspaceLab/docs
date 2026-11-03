@@ -1,3 +1,9 @@
+---
+title: "Breadcrumbs"
+published: true
+index: 0
+---
+
 # Breadcrumbs
 
 <figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>

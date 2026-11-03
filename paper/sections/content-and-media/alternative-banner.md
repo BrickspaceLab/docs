@@ -1,3 +1,9 @@
+---
+title: "Alternative banner"
+published: true
+index: 3
+---
+
 # Alternative banner
 
 ### Section overview

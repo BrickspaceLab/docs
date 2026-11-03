@@ -1,3 +1,9 @@
+---
+title: "Prices"
+published: true
+index: 3
+---
+
 # Prices
 
 Keystone comes with a number of settings and features to customize how prices are displayed.&#x20;

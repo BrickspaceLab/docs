@@ -1,3 +1,9 @@
+---
+title: "Dynamic product cards"
+published: true
+index: 2
+---
+
 # Dynamic product cards
 
 Slab builds product cards in two different ways. Most collection and slider grids render a **Product card** block that lives on **that page’s template**. **Recently viewed** (grid and slider) loads the separate **`product-card`** product template over the network. Use the section below to find the right place to edit for the area you care about.

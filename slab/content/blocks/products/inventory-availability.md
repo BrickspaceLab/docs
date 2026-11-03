@@ -1,3 +1,9 @@
+---
+title: "Product inventory"
+published: true
+index: 3
+---
+
 # Product inventory
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>

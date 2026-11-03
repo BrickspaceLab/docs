@@ -1,3 +1,9 @@
+---
+title: "Search input"
+published: true
+index: 0
+---
+
 # Search input
 
 <figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,9 @@
+---
+title: "Cart count"
+published: true
+index: 0
+---
+
 # Cart count
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

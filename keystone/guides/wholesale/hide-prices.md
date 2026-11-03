@@ -1,3 +1,9 @@
+---
+title: "Hide prices"
+published: true
+index: 1
+---
+
 # Hide prices
 
 Hiding prices is useful for wholesale or B2B stores where you want to prevent unauthorized visitors from seeing product pricing. Products with the restriction tag will not display prices or an **Add to Cart** button to customers who aren't logged in or approved.

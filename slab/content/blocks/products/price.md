@@ -1,3 +1,9 @@
+---
+title: "Product price"
+published: true
+index: 7
+---
+
 # Product price
 
 <figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>

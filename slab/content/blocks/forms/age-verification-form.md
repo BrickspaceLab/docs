@@ -1,3 +1,9 @@
+---
+title: "Age verification"
+published: true
+index: 1
+---
+
 # Age verification
 
 <figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>

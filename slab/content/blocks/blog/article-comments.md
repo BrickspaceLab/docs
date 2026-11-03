@@ -1,3 +1,9 @@
+---
+title: "Article comments"
+published: true
+index: 0
+---
+
 # Article comments
 
 <figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,9 @@
+---
+title: "Software license — Catalog"
+published: true
+index: 3
+---
+
 # Software license agreement — Catalog
 
 **Last updated:** April 29, 2026
@@ -120,6 +126,4 @@ This Agreement supplements Licensor’s **[Terms of service](./terms-of-service.
 
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
-Canada  
-
-Tel. 705-259-7528
+Canada

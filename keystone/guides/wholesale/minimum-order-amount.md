@@ -1,3 +1,9 @@
+---
+title: "Minimum order amount"
+published: true
+index: 6
+---
+
 # Minimum order amount
 
 Setting a minimum order amount prevents customers from checking out unless their cart meets a specified subtotal. This is useful for wholesale stores that require minimum purchase quantities or order values.

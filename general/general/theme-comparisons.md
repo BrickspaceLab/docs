@@ -1,4 +1,7 @@
 ---
+title: "Theme comparisons"
+published: true
+index: 1
 layout:
   width: default
   title:
@@ -23,7 +26,7 @@ layout:
 
 Not sure which theme to pick - take a look at our comparison chart. If you can't decide and want some more help reach out to our support team.&#x20;
 
-Slab is not included in this comparison - head over to the [complete feature list](https://app.gitbook.com/s/GnixyIfIYFWroNtVmZo6/feature-list) to see all available features and blocks for slab.&#x20;
+Slab is not included in this comparison - head over to the [complete feature list](../../slab/feature-list.md) to see all available features and blocks for slab.&#x20;
 
 
 

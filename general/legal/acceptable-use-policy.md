@@ -1,3 +1,9 @@
+---
+title: "Acceptable use policy"
+published: true
+index: 6
+---
+
 # Acceptable use policy
 
 **Last updated:** April 29, 2026
@@ -91,6 +97,4 @@ We may update this AUP; continued use after posting changes constitutes acceptan
 
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
-Canada  
-
-Tel. 705-259-7528
+Canada

@@ -1,3 +1,9 @@
+---
+title: "Add login to mobile menu drawer"
+published: true
+index: 8
+---
+
 # Add login to mobile menu drawer
 
 If the login icon is not visible in the mobile header, this is intentional. On smaller screens, adding too many header icons can cause wrapping and layout issues.

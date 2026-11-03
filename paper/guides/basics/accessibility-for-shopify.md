@@ -1,3 +1,9 @@
+---
+title: "Accessibility for Shopify"
+published: true
+index: 6
+---
+
 # Accessibility for Shopify
 
 ## What is accessibility
