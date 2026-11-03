@@ -1,6 +1,7 @@
 ---
 title: "Space"
 published: true
+topbar: true
 index: 2
 ---
 

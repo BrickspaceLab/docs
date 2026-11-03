@@ -1,6 +1,7 @@
 ---
 title: "Keystone"
 published: true
+topbar: true
 index: 3
 ---
 

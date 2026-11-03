@@ -1,6 +1,7 @@
 ---
 title: "Paper"
 published: true
+topbar: true
 index: 1
 ---
 

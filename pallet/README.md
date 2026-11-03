@@ -1,6 +1,7 @@
 ---
 title: "Pallet"
 published: true
+topbar: true
 index: 5
 ---
 

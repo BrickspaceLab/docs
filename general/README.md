@@ -1,6 +1,7 @@
 ---
 title: "General"
 published: true
+topbar: true
 index: 0
 ---
 

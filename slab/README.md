@@ -1,6 +1,7 @@
 ---
 title: "Slab"
 published: true
+topbar: true
 index: 4
 ---
 
