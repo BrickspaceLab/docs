@@ -1,9 +1,3 @@
----
-title: "Testimonial slider"
-published: true
-index: 7
----
-
 # Testimonial slider
 
 ### Section overview

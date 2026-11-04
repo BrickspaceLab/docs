@@ -1,9 +1,3 @@
----
-title: "Rich text"
-published: true
-index: 12
----
-
 # Rich text
 
 ### Section overview

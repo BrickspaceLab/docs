@@ -1,9 +1,3 @@
----
-title: "Alert"
-published: true
-index: 0
----
-
 # Alert
 
 <figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>

@@ -1,9 +1,3 @@
----
-title: "Comparison table"
-published: true
-index: 5
----
-
 # Comparison table
 
 ### Section overview

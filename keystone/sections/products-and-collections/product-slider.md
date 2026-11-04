@@ -1,9 +1,3 @@
----
-title: "Product slider"
-published: true
-index: 1
----
-
 # Product slider
 
 ### Section overview

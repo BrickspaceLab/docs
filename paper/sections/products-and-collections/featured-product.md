@@ -1,9 +1,3 @@
----
-title: "Featured product"
-published: true
-index: 0
----
-
 # Featured product
 
 ### Section overview

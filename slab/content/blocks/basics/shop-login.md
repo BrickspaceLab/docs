@@ -1,9 +1,3 @@
----
-title: "Shop login"
-published: true
-index: 17
----
-
 # Shop login
 
 ## Overview

@@ -1,9 +1,3 @@
----
-title: "Motion"
-published: true
-index: 7
----
-
 # Motion
 
 Motion settings in **Theme settings > Motion** control animations, button motion, image fade-in, and page and header transitions.

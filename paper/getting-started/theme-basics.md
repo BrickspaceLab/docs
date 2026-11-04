@@ -1,9 +1,3 @@
----
-title: "Theme basics"
-published: true
-index: 0
----
-
 # Theme basics
 
 {% hint style="info" %}

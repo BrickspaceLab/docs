@@ -1,9 +1,3 @@
----
-title: "Color and option swatches"
-published: true
-index: 0
----
-
 # Color and option swatches
 
 Swatches help customers select variants (colors/materials) more easily. Customize them using:

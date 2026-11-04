@@ -1,9 +1,3 @@
----
-title: "Image hotspot"
-published: true
-index: 15
----
-
 # Image hotspot
 
 ### Section overview

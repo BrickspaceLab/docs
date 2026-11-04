@@ -1,9 +1,3 @@
----
-title: "Account orders"
-published: true
-index: 1
----
-
 # Account orders
 
 ## Overview

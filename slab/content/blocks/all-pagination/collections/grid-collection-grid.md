@@ -1,9 +1,3 @@
----
-title: "Grid collections"
-published: true
-index: 0
----
-
 # Grid collections
 
 ## Overview

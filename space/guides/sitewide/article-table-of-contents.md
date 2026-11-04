@@ -1,9 +1,3 @@
----
-title: "Article table of contents"
-published: true
-index: 5
----
-
 # Article table of contents
 
 ***

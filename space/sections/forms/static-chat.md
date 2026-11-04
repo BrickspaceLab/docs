@@ -1,9 +1,3 @@
----
-title: "Static chat"
-published: true
-index: 0
----
-
 # Static chat
 
 ### Section overview

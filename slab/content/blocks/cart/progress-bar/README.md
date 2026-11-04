@@ -1,9 +1,3 @@
----
-title: "Progress bar"
-published: true
-index: 10
----
-
 # Progress bar
 
 <figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>

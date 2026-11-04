@@ -1,9 +1,3 @@
----
-title: "Terms of service"
-published: true
-index: 0
----
-
 # Terms of service
 
 **Last updated:** April 29, 2026
@@ -181,4 +175,6 @@ Registered address:
 
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
-Canada
+Canada  
+
+Tel. 705-259-7528

@@ -1,9 +1,3 @@
----
-title: "Paginate item"
-published: true
-index: 0
----
-
 # Paginate item
 
 ## Block limitations

@@ -1,9 +1,3 @@
----
-title: "Testimonial grid"
-published: true
-index: 14
----
-
 # Testimonial grid
 
 ### Section overview

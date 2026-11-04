@@ -1,9 +1,3 @@
----
-title: "Discount input"
-published: true
-index: 1
----
-
 # Discount input
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

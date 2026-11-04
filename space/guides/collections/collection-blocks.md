@@ -1,9 +1,3 @@
----
-title: "Collection blocks"
-published: true
-index: 3
----
-
 # Collection blocks
 
 ***

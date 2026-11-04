@@ -1,9 +1,3 @@
----
-title: "Pagination"
-published: true
-index: 3
----
-
 # Pagination
 
 ## Block limitations

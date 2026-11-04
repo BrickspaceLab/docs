@@ -1,9 +1,3 @@
----
-title: "Countdown"
-published: true
-index: 3
----
-
 # Countdown
 
 ### Section overview

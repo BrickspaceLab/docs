@@ -1,9 +1,3 @@
----
-title: "Testimonials"
-published: true
-index: 12
----
-
 # Testimonials
 
 ### Section overview

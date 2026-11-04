@@ -1,9 +1,3 @@
----
-title: "Shop Pay installments"
-published: true
-index: 13
----
-
 # Shop Pay installments
 
 ## Overview

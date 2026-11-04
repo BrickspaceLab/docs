@@ -1,9 +1,3 @@
----
-title: "Announcement"
-published: true
-index: 2
----
-
 # Announcement
 
 ### Section overview

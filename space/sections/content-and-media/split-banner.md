@@ -1,9 +1,3 @@
----
-title: "Split banner"
-published: true
-index: 3
----
-
 # Split banner
 
 ### Section overview

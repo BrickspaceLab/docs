@@ -1,9 +1,3 @@
----
-title: "Developer program"
-published: true
-index: 1
----
-
 # Developer program
 
 If you're a Shopify developer, freelancer or agency and want to get your hands on the Slab theme for free here's your chance. Apply to become a partner and you'll get free access to the Slab Shopify theme.

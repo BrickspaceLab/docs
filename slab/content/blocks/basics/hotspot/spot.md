@@ -1,14 +1,8 @@
----
-title: "Hotspot spot"
-published: true
-index: 0
----
-
 # Hotspot spot
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Hotspot](README.md) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Hotspot](./) block.
 
 ## Overview
 

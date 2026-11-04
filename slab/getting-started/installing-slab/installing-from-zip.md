@@ -1,9 +1,3 @@
----
-title: "Install from ZIP"
-published: true
-index: 0
----
-
 # Install from ZIP
 
 ## How to install

@@ -1,9 +1,3 @@
----
-title: "Device specific visibility"
-published: true
-index: 1
----
-
 # Device specific visibility
 
 After editing your theme and previewing it across devices, you may find some sections work better on specific devices. For example:

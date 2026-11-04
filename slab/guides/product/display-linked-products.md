@@ -1,9 +1,3 @@
----
-title: "Linked products"
-published: true
-index: 0
----
-
 # Display linked products
 
 Linked products let customers move between related items (for example colors or styles) without leaving the product page. Slab uses the **Product sibling options** block for this.

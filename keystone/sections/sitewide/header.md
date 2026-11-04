@@ -1,9 +1,3 @@
----
-title: "Header"
-published: true
-index: 0
----
-
 # Header
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Text highlight"
-published: true
-index: 18
----
-
 # Text highlight
 
 ### Section Overview

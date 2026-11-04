@@ -1,9 +1,3 @@
----
-title: "Render quick buy"
-published: true
-index: 11
----
-
 # Render quick buy
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>

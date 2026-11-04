@@ -1,9 +1,3 @@
----
-title: "Block displaying empty"
-published: true
-index: 0
----
-
 # Block displaying empty
 
 Some Slab blocks need a selected Shopify object before they can render any content in the theme editor. This is common with blocks that display a **product**, **collection**, **article**, or similar resource.

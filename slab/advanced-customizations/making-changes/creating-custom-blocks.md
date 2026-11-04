@@ -1,9 +1,3 @@
----
-title: "Create custom blocks"
-published: true
-index: 4
----
-
 # Create custom blocks
 
 ## What is a block?

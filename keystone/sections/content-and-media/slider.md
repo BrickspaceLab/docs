@@ -1,9 +1,3 @@
----
-title: "Slider"
-published: true
-index: 4
----
-
 # Slider
 
 ### Section overview

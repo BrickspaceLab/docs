@@ -1,9 +1,3 @@
----
-title: "Product sibling options"
-published: true
-index: 10
----
-
 # Product sibling options
 
 <figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>

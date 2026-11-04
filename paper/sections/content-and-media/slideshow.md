@@ -1,9 +1,3 @@
----
-title: "Slideshow"
-published: true
-index: 0
----
-
 # Slideshow
 
 ### Section overview

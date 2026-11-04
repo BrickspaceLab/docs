@@ -1,9 +1,3 @@
----
-title: "Affiliate program"
-published: true
-index: 0
----
-
 # Affiliate program
 
 This is your chance to earn commission anytime your clients use one of our themes. This program is great for agencies, freelancers and other companies working directly with Shopify brands.

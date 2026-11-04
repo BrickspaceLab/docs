@@ -1,9 +1,3 @@
----
-title: "Tabs"
-published: true
-index: 17
----
-
 # Tabs
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Typography"
-published: true
-index: 3
----
-
 # Typography
 
 Typography settings in **Theme settings > Typography** let merchants choose font families, set readable type scale, and standardize body, button, heading, icon, and separator styles across the storefront.

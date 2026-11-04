@@ -1,9 +1,3 @@
----
-title: "Navigation slider"
-published: true
-index: 3
----
-
 # Navigation slider
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Picker language"
-published: true
-index: 10
----
-
 # Picker language
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

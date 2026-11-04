@@ -1,9 +1,3 @@
----
-title: "Collapsible content"
-published: true
-index: 5
----
-
 # Collapsible content
 
 ### Section overview

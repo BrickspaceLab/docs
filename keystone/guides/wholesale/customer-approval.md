@@ -1,9 +1,3 @@
----
-title: "Customer approval"
-published: true
-index: 4
----
-
 # Customer approval
 
 The customer approval system determines which customers can view restricted content, products, and pricing. Keystone supports two approval methods: tag-based approval and B2B customer accounts.

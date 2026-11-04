@@ -1,9 +1,3 @@
----
-title: "SEO for Shopify"
-published: true
-index: 5
----
-
 # SEO for Shopify
 
 ## What is SEO

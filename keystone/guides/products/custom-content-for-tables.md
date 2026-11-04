@@ -1,9 +1,3 @@
----
-title: "Custom content for tables"
-published: true
-index: 3
----
-
 # Custom content for tables
 
 ## Displaying metafield content in product tables

@@ -1,9 +1,3 @@
----
-title: "Theme architecture"
-published: true
-index: 1
----
-
 # Theme architecture
 
 Slab follows [standard Shopify theme architecture](https://shopify.dev/docs/storefronts/themes/architecture) with one addition: a `src/` folder that holds source files compiled into the theme at build time.
@@ -24,12 +18,12 @@ slab/
 └── templates/        # JSON templates
 ```
 
-{% content-ref url="styling/README.md" %}
-[styling.md](styling/README.md)
+{% content-ref url="styling.md" %}
+[styling.md](styling.md)
 {% endcontent-ref %}
 
-{% content-ref url="javascript/README.md" %}
-[javascript](javascript/README.md)
+{% content-ref url="javascript/" %}
+[javascript](javascript/)
 {% endcontent-ref %}
 
 {% content-ref url="naming-conventions.md" %}

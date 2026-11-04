@@ -1,9 +1,3 @@
----
-title: "Linked products block"
-published: true
-index: 14
----
-
 # Linked products block
 
 ### Overview <a href="#h_cca672d346" id="h_cca672d346"></a>

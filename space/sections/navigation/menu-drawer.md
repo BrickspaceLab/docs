@@ -1,9 +1,3 @@
----
-title: "Menu drawer"
-published: true
-index: 0
----
-
 # Menu drawer
 
 ### Section overview

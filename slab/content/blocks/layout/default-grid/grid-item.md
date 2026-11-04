@@ -1,9 +1,3 @@
----
-title: "Grid item"
-published: true
-index: 0
----
-
 # Grid item
 
 ## Overview

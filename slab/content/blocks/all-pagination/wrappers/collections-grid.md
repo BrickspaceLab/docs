@@ -1,9 +1,3 @@
----
-title: "List collections"
-published: true
-index: 0
----
-
 # List collections
 
 ## Block limitations

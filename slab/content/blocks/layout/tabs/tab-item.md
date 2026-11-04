@@ -1,9 +1,3 @@
----
-title: "Tab item"
-published: true
-index: 0
----
-
 # Tab item
 
 ## Overview

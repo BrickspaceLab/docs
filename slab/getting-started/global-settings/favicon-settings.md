@@ -1,9 +1,3 @@
----
-title: "Favicon"
-published: true
-index: 8
----
-
 # Favicon
 
 Favicon settings in **Theme settings > Favicon** set the small icon shown in browser tabs, bookmarks, and some search and sharing surfaces.

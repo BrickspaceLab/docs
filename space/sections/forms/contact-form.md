@@ -1,9 +1,3 @@
----
-title: "Contact form"
-published: true
-index: 2
----
-
 # Contact form
 
 ### Section overview

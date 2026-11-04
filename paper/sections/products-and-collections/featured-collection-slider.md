@@ -1,9 +1,3 @@
----
-title: "Featured collection slider"
-published: true
-index: 2
----
-
 # Featured collection slider
 
 ### Section overview

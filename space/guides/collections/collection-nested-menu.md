@@ -1,9 +1,3 @@
----
-title: "Nested menu"
-published: true
-index: 2
----
-
 # Nested menu
 
 ***

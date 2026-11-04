@@ -1,7 +1,3 @@
----
-published: false
----
-
 # Agents
 
 ## Cursor Cloud specific instructions

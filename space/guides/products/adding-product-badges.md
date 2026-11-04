@@ -1,9 +1,3 @@
----
-title: "Product badges"
-published: true
-index: 1
----
-
 # Product badges
 
 ## Space: Adding product badges

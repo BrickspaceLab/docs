@@ -1,9 +1,3 @@
----
-title: "Collage"
-published: true
-index: 21
----
-
 # Collage
 
 ### Section overview

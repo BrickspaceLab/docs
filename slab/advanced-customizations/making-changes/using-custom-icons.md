@@ -1,9 +1,3 @@
----
-title: "Use custom icons"
-published: true
-index: 2
----
-
 # Use custom icons
 
 The theme includes 60+ icons available through the [Icon block](../../../content/blocks/basics/icon.md). If you need an icon that is not part of the default set, you have two options: add a custom icon via code, or use the Image block to display any image as an icon.

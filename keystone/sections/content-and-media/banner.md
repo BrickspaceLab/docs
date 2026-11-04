@@ -1,9 +1,3 @@
----
-title: "Banner"
-published: true
-index: 0
----
-
 # Banner
 
 ### Section overview

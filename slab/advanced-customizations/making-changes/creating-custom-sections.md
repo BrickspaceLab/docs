@@ -1,9 +1,3 @@
----
-title: "Create custom sections"
-published: true
-index: 5
----
-
 # Create custom sections
 
 ## What is a section?

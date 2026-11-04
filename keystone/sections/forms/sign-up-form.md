@@ -1,9 +1,3 @@
----
-title: "Sign-up form"
-published: true
-index: 2
----
-
 # Sign-up form
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Footer"
-published: true
-index: 7
----
-
 # Footer
 
 ### Section overview

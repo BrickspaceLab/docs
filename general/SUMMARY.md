@@ -1,10 +1,6 @@
----
-published: false
----
-
 # Table of contents
 
-* [Support](../README.md)
+* [Support](README.md)
 
 ## General
 

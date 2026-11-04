@@ -1,9 +1,3 @@
----
-title: "Video"
-published: true
-index: 5
----
-
 # Video
 
 ### Section overview

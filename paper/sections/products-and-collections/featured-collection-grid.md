@@ -1,9 +1,3 @@
----
-title: "Featured collection grid"
-published: true
-index: 1
----
-
 # Featured collection grid
 
 ### Section overview

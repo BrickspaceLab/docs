@@ -1,9 +1,3 @@
----
-title: "Custom liquid"
-published: true
-index: 2
----
-
 # Custom liquid
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Marquee"
-published: true
-index: 2
----
-
 # Marquee
 
 ### Section overview

@@ -1,7 +1,4 @@
 ---
-title: "Tips for contacting support"
-published: true
-index: 0
 hidden: true
 ---
 
@@ -11,7 +8,7 @@ Use this page when you are not sure how to reach Brickspace or what to include s
 
 ## Where to open a request
 
-* **Theme support and pre-sales questions:** use the contact options on [Brickspace Lab — contact](https://brickspacelab.com/pages/contact) (same destination linked from [Contact support](README.md)).
+* **Theme support and pre-sales questions:** use the contact options on [Brickspace Lab — contact](https://brickspacelab.com/pages/contact) (same destination linked from [Contact support](./)).
 * **Shopify billing, domains, or checkout errors outside the theme:** contact [Shopify Help Center](https://help.shopify.com/) first.
 
 Brickspace documents each product in this help center (Paper, Space, Keystone, Slab, Pallet). Searching the hub for your theme name plus a feature (for example “Keystone variant images”) often surfaces a guide immediately.
@@ -36,7 +33,7 @@ If support needs to view your theme settings, use the store access process descr
 
 ## What to expect
 
-Response times and scope are summarized in [Contact support](README.md), including what Brickspace covers versus what requires a developer or Shopify.
+Response times and scope are summarized in [Contact support](./), including what Brickspace covers versus what requires a developer or Shopify.
 
 ## Related reading
 

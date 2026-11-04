@@ -1,9 +1,3 @@
----
-title: "Cart results"
-published: true
-index: 5
----
-
 # Cart results
 
 <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>

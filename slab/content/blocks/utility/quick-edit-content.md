@@ -1,9 +1,3 @@
----
-title: "Render quick edit"
-published: true
-index: 12
----
-
 # Render quick edit
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>

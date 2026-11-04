@@ -1,9 +1,3 @@
----
-title: "Account drawer"
-published: true
-index: 7
----
-
 # Account drawer
 
 ### Section overview

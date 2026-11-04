@@ -1,9 +1,3 @@
----
-title: "Install from GitHub"
-published: true
-index: 1
----
-
 # Install from GitHub
 
 ## How to install

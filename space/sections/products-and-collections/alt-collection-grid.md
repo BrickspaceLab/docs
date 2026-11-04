@@ -1,9 +1,3 @@
----
-title: "Alt collection grid"
-published: true
-index: 1
----
-
 # Alt collection grid
 
 ### Section overview

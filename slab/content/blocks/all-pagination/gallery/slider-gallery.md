@@ -1,14 +1,8 @@
----
-title: "Slider gallery"
-published: true
-index: 1
----
-
 # Slider gallery
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](../../layout/slider/README.md) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Slider](../../layout/slider/) block.
 
 ## Overview
 

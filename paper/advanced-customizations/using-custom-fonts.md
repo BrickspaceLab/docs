@@ -1,9 +1,3 @@
----
-title: "Use custom fonts"
-published: true
-index: 3
----
-
 # Use custom fonts
 
 {% hint style="warning" %}

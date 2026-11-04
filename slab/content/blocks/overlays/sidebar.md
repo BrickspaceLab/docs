@@ -1,9 +1,3 @@
----
-title: "Sidebar"
-published: true
-index: 3
----
-
 # Sidebar
 
 <figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>

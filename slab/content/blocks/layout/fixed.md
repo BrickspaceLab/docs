@@ -1,9 +1,3 @@
----
-title: "Overlay"
-published: true
-index: 10
----
-
 # Overlay
 
 ## Overview

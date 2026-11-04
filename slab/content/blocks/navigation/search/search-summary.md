@@ -1,9 +1,3 @@
----
-title: "Search summary"
-published: true
-index: 2
----
-
 # Search summary
 
 <figure><img src="../../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>

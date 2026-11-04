@@ -1,9 +1,3 @@
----
-title: "Cart drawer"
-published: true
-index: 1
----
-
 # Cart drawer
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Checkout"
-published: true
-index: 11
----
-
 # Checkout
 
 <figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>

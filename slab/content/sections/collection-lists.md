@@ -1,9 +1,3 @@
----
-title: "Collection lists"
-published: true
-index: 2
----
-
 # Collection lists
 
 ### Section overview

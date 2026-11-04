@@ -1,9 +1,3 @@
----
-title: "Share cart"
-published: true
-index: 6
----
-
 # Share cart
 
 <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>

@@ -1,9 +1,3 @@
----
-title: "Picker country"
-published: true
-index: 9
----
-
 # Picker country
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>

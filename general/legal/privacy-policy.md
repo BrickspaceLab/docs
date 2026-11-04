@@ -1,9 +1,3 @@
----
-title: "Privacy policy"
-published: true
-index: 1
----
-
 # Privacy policy
 
 **Last updated:** April 29, 2026
@@ -160,5 +154,7 @@ Address:
 121 Mississaga Street East  
 Orillia, Ontario L3V 1V6  
 Canada  
+
+Tel. 705-259-7528
 
 If you are not satisfied with our response, you may contact the **Office of the Privacy Commissioner of Canada** (OPC) at [https://www.priv.gc.ca](https://www.priv.gc.ca).

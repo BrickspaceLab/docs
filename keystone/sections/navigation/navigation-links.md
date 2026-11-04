@@ -1,9 +1,3 @@
----
-title: "Navigation links"
-published: true
-index: 0
----
-
 # Navigation links
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Dynamic discount popups"
-published: true
-index: 3
----
-
 # Dynamic discount popups
 
 ## Space: Using dynamic discount popups

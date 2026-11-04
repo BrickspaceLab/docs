@@ -1,9 +1,3 @@
----
-title: "Visibility"
-published: true
-index: 5
----
-
 # Visibility
 
 ## Overview

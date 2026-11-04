@@ -1,9 +1,3 @@
----
-title: "Select theme colors"
-published: true
-index: 1
----
-
 # Select theme colors
 
 ### Getting started <a href="#h_7a0d84a38a" id="h_7a0d84a38a"></a>

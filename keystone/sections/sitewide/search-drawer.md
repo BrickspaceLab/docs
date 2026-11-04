@@ -1,9 +1,3 @@
----
-title: "Search drawer"
-published: true
-index: 4
----
-
 # Search drawer
 
 ### Section overview

@@ -1,14 +1,8 @@
----
-title: "Progress tier"
-published: true
-index: 0
----
-
 # Progress tier
 
 ## Block limitations
 
-This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Progress bar](README.md) block.
+This is a private block and can only be used within specific parent blocks. It is designed to work exclusively within the [Progress bar](./) block.
 
 ## Overview
 

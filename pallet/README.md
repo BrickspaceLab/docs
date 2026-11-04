@@ -1,9 +1,3 @@
----
-title: "Pallet"
-published: true
-index: 5
----
-
 # Pallet
 
 ## What is Pallet?

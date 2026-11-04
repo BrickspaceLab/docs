@@ -1,9 +1,3 @@
----
-title: "Tag filtering"
-published: true
-index: 1
----
-
 # Tag filtering
 
 ***

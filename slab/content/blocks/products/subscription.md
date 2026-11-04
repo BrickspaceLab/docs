@@ -1,9 +1,3 @@
----
-title: "Product subscription"
-published: true
-index: 11
----
-
 # Product subscription
 
 ## Overview

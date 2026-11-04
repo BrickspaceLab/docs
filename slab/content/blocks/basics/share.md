@@ -1,9 +1,3 @@
----
-title: "Share"
-published: true
-index: 8
----
-
 # Share
 
 <figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>

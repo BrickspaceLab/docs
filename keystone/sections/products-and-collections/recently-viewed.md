@@ -1,9 +1,3 @@
----
-title: "Recently viewed"
-published: true
-index: 4
----
-
 # Recently viewed
 
 ### Section overview

@@ -1,9 +1,3 @@
----
-title: "Collection list slider"
-published: true
-index: 3
----
-
 # Collection list slider
 
 ### Section overview

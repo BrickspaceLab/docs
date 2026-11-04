@@ -1,9 +1,3 @@
----
-title: "Block reveal"
-published: true
-index: 19
----
-
 # Block reveal
 
 ### Section overview

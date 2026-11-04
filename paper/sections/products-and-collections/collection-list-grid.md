@@ -1,9 +1,3 @@
----
-title: "Collection list grid"
-published: true
-index: 3
----
-
 # Collection list grid
 
 ### Section overview

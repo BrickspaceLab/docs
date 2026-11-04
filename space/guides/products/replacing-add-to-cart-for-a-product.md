@@ -1,9 +1,3 @@
----
-title: 'Replace "Add to cart" for a product'
-published: true
-index: 2
----
-
 # Replace "Add to cart" for a product
 
 ## Space: Replacing "Add to cart" for a product

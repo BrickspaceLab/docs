@@ -1,9 +1,3 @@
----
-title: "Flex grid"
-published: true
-index: 3
----
-
 # Flex grid
 
 <figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>

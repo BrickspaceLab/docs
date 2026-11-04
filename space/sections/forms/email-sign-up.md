@@ -1,9 +1,3 @@
----
-title: "Email sign-up"
-published: true
-index: 1
----
-
 # Email sign-up
 
 ### Section overview

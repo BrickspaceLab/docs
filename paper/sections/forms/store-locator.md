@@ -1,9 +1,3 @@
----
-title: "Store locator"
-published: true
-index: 2
----
-
 # Store locator
 
 ### Section overview
