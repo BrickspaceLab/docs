@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Variant image filtering with shared images
 
 Paper’s **Only show media associated with the selected variant** setting (in the product section) filters the gallery so customers see images tied to the active variant. Merchants with large variant catalogs often also need **shared** images—lifestyle shots, size guides, or detail photos—that stay visible for every variant. This guide explains how filtering works, built-in behavior for unassigned media, and options when you need more control.
@@ -48,7 +52,7 @@ Create a alternate product template without filtering for products that need the
 
 ### Custom Liquid (developer)
 
-For rules that unassigned media cannot cover (for example pinning images by tag or metafield), a developer can customize gallery snippets (`product__gallery-grid.liquid`, `product__gallery-slider.liquid`, etc.). That is custom code—see [Support policy for modified theme code](../../../general/general/support-policy-for-modified-theme-code.md).
+For rules that unassigned media cannot cover (for example pinning images by tag or metafield), a developer can customize gallery snippets (`product__gallery-grid.liquid`, `product__gallery-slider.liquid`, etc.). That is custom code—see [Support policy for modified theme code](../../general/support-policy.md).
 
 ### Duplicate media per variant (last resort)
 

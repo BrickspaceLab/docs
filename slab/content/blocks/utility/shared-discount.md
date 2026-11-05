@@ -1,6 +1,10 @@
+---
+index: 13
+---
+
 # Shared discount
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2864%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

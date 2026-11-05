@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Slideshow
 
 ### Section overview

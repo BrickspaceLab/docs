@@ -1,3 +1,7 @@
+---
+index: 12
+---
+
 # Installing apps
 
 Third-party apps often inject forms, popups, or widgets into your storefront. When an app embed looks unstyled, broken, or “wrong” compared to its marketing site, merchants sometimes assume the theme is at fault. In most cases, normal **CSS cascade** behavior is involved—and fixing the app’s appearance is the app developer’s responsibility, not the theme author’s.
@@ -31,7 +35,7 @@ Brickspace Lab **does not provide support for third-party app integrations**. Th
 * App features that stop working after a theme update
 * Code an app left in theme files after uninstall
 
-For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.For our full support scope, see [Contact support](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/contact-support) and [Support policy for modified theme code](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/support-policy-for-modified-theme-code).
+For app issues, **contact the app developer first**. They control the embed, its CSS, and its scripts.For our full support scope, see [Contact support](../../../general/general/contact-support/README.md) and [Support policy for modified theme code](../../general/support-policy.md).
 
 **What merchants can do**
 
@@ -46,7 +50,7 @@ For app issues, **contact the app developer first**. They control the embed, its
 * **Theme settings** > **Custom CSS** (all Brickspace themes), or
 * A **Custom liquid** section for isolated markup
 
-Keep overrides narrow. Avoid editing core theme files unless you accept [modified-code support limits](https://app.gitbook.com/o/IxMO7qKqucxvsAjnGtFw/s/TnJCyRVLdtKs6ZCDLXr1/general/support-policy-for-modified-theme-code).**4. Prefer supported install methods**Use [app blocks and app embeds](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps) rather than manual script tags pasted into `theme.liquid`. See [Use and install apps](../../../paper/guides/basics/use-and-install-apps.md) for general guidance.
+Keep overrides narrow. Avoid editing core theme files unless you accept [modified-code support limits](../../general/support-policy.md).**4. Prefer supported install methods**Use [app blocks and app embeds](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps) rather than manual script tags pasted into `theme.liquid`. See [Use and install apps](../../../paper/guides/basics/use-and-install-apps.md) for general guidance.
 
 **Common symptoms and likely causes**
 

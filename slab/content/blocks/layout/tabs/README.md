@@ -1,6 +1,10 @@
+---
+index: 5
+---
+
 # Tab
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2846%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

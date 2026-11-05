@@ -1,6 +1,10 @@
+---
+index: 8
+---
+
 # Share
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2821%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

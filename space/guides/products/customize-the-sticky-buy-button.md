@@ -1,3 +1,7 @@
+---
+index: 6
+---
+
 # Customize the sticky buy button
 
 Space’s **Fixed buy buttons** block adds a sticky add-to-cart bar on product pages. The theme editor exposes colors, position, and scroll behavior. Changes to button labels, price in the button, or mobile layout beyond those settings require editing the **`product__stickyadd.liquid`** snippet.
@@ -36,7 +40,7 @@ Common merchant requests that need snippet or developer work:
 | Replace variant dropdown with swatches | Not in editor | Snippet + product options blocks |
 
 {% hint style="warning" %}
-Editing `product__stickyadd.liquid` counts as **modified theme code**. Keep a backup duplicate and review [Support policy for modified theme code](../../../general/general/support-policy-for-modified-theme-code.md) before requesting theme support on customized files.
+Editing `product__stickyadd.liquid` counts as **modified theme code**. Keep a backup duplicate and review [Support policy for modified theme code](../../general/support-policy.md) before requesting theme support on customized files.
 {% endhint %}
 
 ## Locate the snippet
@@ -71,6 +75,6 @@ Fixed elements (sticky header, cookie banners, chat widgets) can overlap the buy
 ## Related reading
 
 * [Fixed buy buttons](fixed-buy-buttons.md)
-* [Preserve customizations when updating themes](../../../general/general/preserve-customizations-when-updating-themes.md)
+* [Update your theme](../basics/update-your-theme.md)
 * [Add custom Liquid](../../advanced-customizations/adding-custom-liquid/README.md)
 * [Hire a Shopify developer](../../../general/support/hire-a-shopify-developer.md)

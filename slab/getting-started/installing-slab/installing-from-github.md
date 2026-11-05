@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Install from GitHub
 
 ## How to install

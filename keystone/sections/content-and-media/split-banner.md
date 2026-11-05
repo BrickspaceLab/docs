@@ -1,3 +1,7 @@
+---
+index: 6
+---
+
 # Split banner
 
 ### Section overview

@@ -1,2 +1,5 @@
-# Articles
+---
+index: 2
+---
 
+# Articles

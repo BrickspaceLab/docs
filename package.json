@@ -2,6 +2,7 @@
   "name": "docs",
   "private": true,
   "scripts": {
-    "sync": "bash .scripts/sync-src.sh"
+    "sync": "bash .scripts/sync-src.sh",
+    "check": "python3 .scripts/check-docs.py"
   }
 }

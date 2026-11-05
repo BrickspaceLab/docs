@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Spacing
 
 `src/css/utilities/spacing.css`

@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Cart drawer
 
 ### Section overview

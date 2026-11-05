@@ -1,0 +1,26 @@
+{
+  "emptyFaqPages": [
+    "paper/getting-started/theme-settings/colors.md"
+  ],
+  "expiringImagePages": [
+    "paper/getting-started/theme-settings/colors.md",
+    "paper/guides/products/dynamic-variant-images.md",
+    "paper/guides/products/bundled-products.md",
+    "paper/guides/products/custom-fields.md",
+    "paper/guides/products/sibling-products.md",
+    "space/guides/products/adding-product-badges.md",
+    "space/guides/products/dynamic-variant-images.md",
+    "space/guides/products/bundled-products.md",
+    "space/guides/products/custom-fields.md",
+    "space/guides/products/sibling-products.md",
+    "space/guides/products/adding-product-subtitles.md",
+    "space/guides/collections/collection-blocks.md",
+    "space/guides/collections/collection-tag-filtering.md",
+    "space/guides/sitewide/using-color-and-option-swatches.md",
+    "space/guides/sitewide/article-table-of-contents.md",
+    "space/guides/sitewide/dynamic-discount-popups.md",
+    "keystone/getting-started/theme-settings/colors.md",
+    "keystone/guides/products/product-variant-images.md",
+    "keystone/guides/sitewide/article-table-of-contents.md"
+  ]
+}

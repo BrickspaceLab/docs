@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Colors
 
 Although it's possible to jump into Paper and start picking colors, we recommend doing a bit of prep work beforehand. This ensures you have a solid idea of the direction of your brand and the colors you want to use.
@@ -9,15 +13,11 @@ There are a handful of great resources online that can help guide your color sel
 * [Brand Colors: How to Choose the Perfect Palette](https://looka.com/blog/brand-colors/)
 * [Color Psychology: How Color Meanings Affect Your Brand](https://www.oberlo.com/blog/color-psychology-color-meanings)
 
-
-
 ### FAQs
 
 <details>
 
 <summary>How can I change the accent colors in my theme settings?</summary>
-
-
 
 </details>
 
@@ -27,15 +27,11 @@ There are a handful of great resources online that can help guide your color sel
 
 Update the Mobile bar to change top bar above the website. This is used to create a more finished look. This is currently only supported on some mobile devices. We recommend matching your announcement bar to the Mobile bar color.
 
-
-
-<div data-full-width="true"><figure><img src="https://downloads.intercomcdn.com/i/o/1198958900/ccc7f1701938dd7bd6459ecf/shotsnapp-1666801448_626.png?expires=1744398000&#x26;signature=8b6db350fd25f73c4ef8f01b263186ae454c4987bfc6abd25297717fdff45112&#x26;req=dSEuHsB7lYhfWfMW1HO4zUTPeXYqhlRs6OyH1QnljCwSCKS61%2BdJQFEQkj3P%0AAtEp6wWtGLHIt4kkrOA%3D%0A" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="https://downloads.intercomcdn.com/i/o/1198958900/ccc7f1701938dd7bd6459ecf/shotsnapp-1666801448_626.png?expires=1744398000&signature=8b6db350fd25f73c4ef8f01b263186ae454c4987bfc6abd25297717fdff45112&req=dSEuHsB7lYhfWfMW1HO4zUTPeXYqhlRs6OyH1QnljCwSCKS61%2BdJQFEQkj3P%0AAtEp6wWtGLHIt4kkrOA%3D%0A" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
-
-
-### Getting started <a href="#h_7a0d84a38a" id="h_7a0d84a38a"></a>
+### Getting started
 
 You can adjust all colors in Paper using the global color settings. To achieve better results and improve design implementation, it's important to understand how and where each setting applies colors differently.
 
@@ -83,8 +79,6 @@ You can adjust all colors in Paper using the global color settings. To achieve b
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Understanding your color schemes
 
 Throughout your theme you'll see in a number of different places color settings that you can use. These settings are generated from your global color settings.&#x20;
@@ -104,8 +98,6 @@ Subtle
 Strong
 
 **Text color**
-
-
 
 #### Body and Body Neutral:
 

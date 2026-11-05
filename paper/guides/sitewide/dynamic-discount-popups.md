@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Dynamic discount popups
 
 If you're already using automatic discounts. This is a neat little feature to ensure customers are aware of the discounts being applied to their cart. Take your automatic discount URL and append "?dt=Custom+text" to change the content that appears in the popup.

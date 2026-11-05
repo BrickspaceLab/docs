@@ -1,16 +1,20 @@
+---
+index: 8
+---
+
 # Automate with Flow
 
 Shopify Flow is a powerful automation tool that can streamline your wholesale operations. Flow allows you to create automated workflows that trigger actions based on events in your store.
 
 ***
 
-### What is Shopify Flow <a href="#what-is-flow" id="what-is-flow"></a>
+### What is Shopify Flow
 
 [Shopify Flow](https://apps.shopify.com/flow) is a free app (available on Shopify Plus) that automates tasks and processes in your store. For wholesale operations, Flow can handle repetitive tasks automatically, saving you time and reducing errors.
 
 ***
 
-### Wholesale automation examples <a href="#examples" id="examples"></a>
+### Wholesale automation examples
 
 #### Automatic wholesale signups
 
@@ -49,7 +53,7 @@ Maintain relationships with wholesale customers automatically.
 
 ***
 
-### Getting started with Flow <a href="#getting-started" id="getting-started"></a>
+### Getting started with Flow
 
 1. Install [Shopify Flow](https://apps.shopify.com/flow) from the Shopify App Store
 2. Open the Flow app from your Shopify admin
@@ -61,7 +65,7 @@ Maintain relationships with wholesale customers automatically.
 
 ***
 
-### Flow with Keystone features <a href="#with-keystone" id="with-keystone"></a>
+### Flow with Keystone features
 
 Flow works seamlessly with Keystone's wholesale features:
 
@@ -72,7 +76,7 @@ Flow works seamlessly with Keystone's wholesale features:
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 * Shopify Flow is free but requires **Shopify Plus**
 * Non-Plus merchants can use third-party automation apps like [Mechanic](https://apps.shopify.com/mechanic) or [Launchpad](https://apps.shopify.com/launchpad)
@@ -85,7 +89,7 @@ Start with simple workflows and add complexity as you become comfortable with Fl
 
 ***
 
-### Learn more <a href="#learn-more" id="learn-more"></a>
+### Learn more
 
 * [Shopify Flow Documentation](https://help.shopify.com/en/manual/shopify-flow)
 * [Flow Template Library](https://help.shopify.com/en/manual/shopify-flow/templates)

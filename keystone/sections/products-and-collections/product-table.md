@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Product table
 
 ### Section overview

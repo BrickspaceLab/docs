@@ -1,6 +1,10 @@
+---
+index: 6
+---
+
 # Hotspot
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2819%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

@@ -1,3 +1,7 @@
+---
+index: 9
+---
+
 # Slider
 
 ### Section overview

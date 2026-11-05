@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Store locator
 
 ### Section overview

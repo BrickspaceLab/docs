@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Update your theme
 
 Our themes are updated regularly with new features, general improvements, and bug fixes.&#x20;
@@ -6,9 +10,7 @@ Your theme will automatically update for minor fixes. Unfortunetly, Shopify does
 
 Visit the Shopify help center to [learn more about updating themes](https://help.shopify.com/en/manual/online-store/themes/managing-themes/updating-themes).
 
-
-
-## FAQs <a href="#h_ca638b6997" id="h_ca638b6997"></a>
+## FAQs
 
 <details>
 
@@ -34,9 +36,7 @@ Update your theme is not a requirement. If you see we've released new features y
 
 </details>
 
-
-
-## How to transfer settings after updating <a href="#h_a45de23e11" id="h_a45de23e11"></a>
+## How to transfer settings after updating
 
 {% hint style="info" %}
 This process does not copy over code changes. If you've made code changes those will have to manually be copied over to your new theme.
@@ -78,7 +78,6 @@ This process does not copy over code changes. If you've made code changes those 
    * For each file with a blue icon:
      1. In your original theme, open the file with a blue icon, copy the contents
      2. In your new theme, overwrite the file's content by pasting the content you copied from the original theme
-
 
 {% endstep %}
 {% endstepper %}

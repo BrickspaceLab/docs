@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Featured collection grid
 
 ### Section overview

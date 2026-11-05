@@ -1,10 +1,14 @@
+---
+index: 5
+---
+
 # Full site restriction
 
 Full site restriction locks down your entire store to only approved customers. This creates a completely private wholesale or members-only experience where unauthorized visitors can only see specific sections you choose to display.
 
 ***
 
-### Enable full site restriction <a href="#enable" id="enable"></a>
+### Enable full site restriction
 
 1. Open the **Theme Editor** by clicking **Customize** next to your theme
 2. Click **Theme Settings** (gear icon near the top left)
@@ -14,7 +18,7 @@ Full site restriction locks down your entire store to only approved customers. T
 
 ***
 
-### What gets restricted <a href="#what-restricted" id="what-restricted"></a>
+### What gets restricted
 
 When enabled, unauthorized visitors will not see:
 
@@ -26,7 +30,7 @@ When enabled, unauthorized visitors will not see:
 
 ***
 
-### Choose which sections to display <a href="#sections" id="sections"></a>
+### Choose which sections to display
 
 You can select specific sections to show on the homepage to unauthorized visitors. This is useful for displaying:
 
@@ -44,7 +48,7 @@ To configure visible sections:
 
 ***
 
-### Control restricted content display style <a href="#display-style" id="display-style"></a>
+### Control restricted content display style
 
 You can choose how restricted content appears to unauthorized visitors:
 
@@ -68,7 +72,7 @@ You can choose how restricted content appears to unauthorized visitors:
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 * Full site restriction works with both [tag-based approval](customer-approval.md#tag-based) and [B2B approval](customer-approval.md#b2b)
 * Approved customers must be logged in to access the full site

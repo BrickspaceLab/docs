@@ -1,8 +1,10 @@
+---
+index: 2
+---
+
 # Inputs
 
 Input settings in **Theme settings > Inputs** control default, hover, and focus styles for form fields across the storefront, including colors, horizontal padding, and whether the border wraps the field or appears on the bottom edge only.
-
-
 
 ## How to change theme inputs
 
@@ -37,19 +39,13 @@ Input settings in **Theme settings > Inputs** control default, hover, and focus 
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on inputs
 
 * **Type** chooses **Base** generated colors or **Custom** scheme-based borders.
 * Focus **Border** on **Base** defaults to **Strong** so the active field is easy to see.
 * **Bottom** **Border position** suits minimal or underline-style forms.
 
-
-
 ## Input settings
-
-
 
 ### Default colors
 
@@ -59,8 +55,6 @@ Input settings in **Theme settings > Inputs** control default, hover, and focus 
 | Background  | Resting background: Body, Shade 1–3, or Transparent.                           |
 | Border      | Resting border: Subtle, Strong, or None (**Base**), or a Scheme (**Custom**).   |
 
-
-
 ### Hover colors
 
 | Setting     | What it controls                                                                 |
@@ -68,8 +62,6 @@ Input settings in **Theme settings > Inputs** control default, hover, and focus 
 | Type        | **Base** or **Custom** for hover, same pattern as default.                      |
 | Background  | Hover background: Body, Shade 1–3, or Transparent.                              |
 | Border      | Hover border: Subtle, Strong, or None (**Base**), or a Scheme (**Custom**).       |
-
-
 
 ### Focus colors
 
@@ -79,15 +71,11 @@ Input settings in **Theme settings > Inputs** control default, hover, and focus 
 | Background  | Focus background: Body, Shade 1–3, or Transparent.                              |
 | Border      | Focus border: Subtle, Strong, or None (**Base**), or a Scheme (**Custom**). Default **Strong** on **Base**. |
 
-
-
 ### Spacing
 
 | Setting                   | What it controls                                      |
 | ------------------------- | ----------------------------------------------------- |
 | Enable horizontal padding | Adds left and right padding inside inputs when on.    |
-
-
 
 ### Style
 

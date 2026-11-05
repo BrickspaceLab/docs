@@ -1,8 +1,10 @@
+---
+index: 6
+---
+
 # Audio
 
 Audio settings in **Theme settings > Audio** control whether the theme may play interface sounds. When audio is enabled, you can add an **Audio picker** block so customers can choose their preference.
-
-
 
 ## How to change theme audio
 
@@ -22,15 +24,11 @@ Audio settings in **Theme settings > Audio** control whether the theme may play 
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on audio
 
 * When **Enable audio interface sounds** is off, storefront audio stays off.
 * When it is on, the theme can use the preference from the **Audio picker** where that block is placed.
 * Mobile browsers may still limit sound regardless of theme settings.
-
-
 
 ## Audio settings
 

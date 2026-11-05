@@ -1,8 +1,10 @@
+---
+index: 12
+---
+
 # Gift cards
 
 Gift cards are a great way to boost sales for holiday seasons or special promotions. Shopify gift cards can be purchased online or in-person. They work with the Paper Shopify theme and have an additonal option to let customers specifiy an email address to send the gift cards too.&#x20;
-
-
 
 ### FAQs
 
@@ -12,7 +14,7 @@ Gift cards are a great way to boost sales for holiday seasons or special promoti
 
 Gift cards will be emailed to your customers only after order notifications are sent. To do this, navigate to an order on your Shopify account with a gift card. Click **Fulfill items**, then select **Send a** [**notification**](https://admin.shopify.com/store/brickspacetestingstore/email_templates/shipping_confirmation/preview) **to the customer**, then click **Fulfill items**<br>
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-04-30 at 23.23.47@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot%202025-04-30%20at%2023.23.47%402x.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -22,13 +24,9 @@ Gift cards will be emailed to your customers only after order notifications are 
 
 You can find more information on where gift cards were sent by viewing your order history. To do this find an order with a gift card purchase, then scroll down to **You scheduled X gift cards for fulfillment, click to expand this dropdown**, from here you can click each gift card number to view further details on each gift card.&#x20;
 
-
-
-<figure><img src="../../.gitbook/assets/CleanShot 2025-04-30 at 23.30.04@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot%202025-04-30%20at%2023.30.04%402x.png" alt=""><figcaption></figcaption></figure>
 
 </details>
-
-
 
 ### How to enable gift card recipient form
 

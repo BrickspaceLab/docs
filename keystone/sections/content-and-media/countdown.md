@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Countdown
 
 ### Section overview

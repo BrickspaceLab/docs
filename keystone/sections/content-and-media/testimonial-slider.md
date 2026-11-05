@@ -1,3 +1,7 @@
+---
+index: 7
+---
+
 # Testimonial slider
 
 ### Section overview

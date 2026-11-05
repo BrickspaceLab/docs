@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Custom content for tables
 
 ## Displaying metafield content in product tables
@@ -39,8 +43,6 @@ Click **Save**, then preview a page with a product table to confirm your custom 
 {% endstepper %}
 
 <figure><img src="../../.gitbook/assets/imageedit_17_2771695334.jpg" alt=""><figcaption></figcaption></figure>
-
-
 
 **Create your metafields in Shopify**
 

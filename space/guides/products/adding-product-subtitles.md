@@ -1,8 +1,12 @@
+---
+index: 0
+---
+
 # Product subtitles
 
 ## Space: Adding product subtitles
 
-## Summary <a href="#h_064453b3b7" id="h_064453b3b7"></a>
+## Summary
 
 ***
 
@@ -10,16 +14,16 @@ Taglines or subtitles can be included using Metafields. This can be used to show
 
 [![](https://downloads.intercomcdn.com/i/o/1200199660/94a31526900470e59c94a2e5/CleanShot+2024-10-01+at+11_26_48%402x.png?expires=1744834500\&signature=041cb233b13955d6afe85d0a2e73d654413306b3a35a4268ecf61009b8d101e4\&req=dSInFsh3lIdZWfMW1HO4zeQptQx5T2cxkivdxPxtOdnfeBU%2BY9Fj%2Fgu7Plaz%0A8k0EUCb7Rsvkcf1v1lk%3D%0A)](https://downloads.intercomcdn.com/i/o/1200199660/94a31526900470e59c94a2e5/CleanShot+2024-10-01+at+11_26_48%402x.png?expires=1744834500\&signature=041cb233b13955d6afe85d0a2e73d654413306b3a35a4268ecf61009b8d101e4\&req=dSInFsh3lIdZWfMW1HO4zeQptQx5T2cxkivdxPxtOdnfeBU%2BY9Fj%2Fgu7Plaz%0A8k0EUCb7Rsvkcf1v1lk%3D%0A)
 
-## How to <a href="#h_e552cd870a" id="h_e552cd870a"></a>
+## How to
 
 ***
 
-### Enable setting <a href="#h_49ad8e9d77" id="h_49ad8e9d77"></a>
+### Enable setting
 
 1. Navigate to Theme settings > Product cards > then check "Enable product tagline"
 2. Click save
 
-### Create metafield definition <a href="#h_cbc35fa19b" id="h_cbc35fa19b"></a>
+### Create metafield definition
 
 1. Navigate to Settings > Custom data > Products
 2. Click Add definition
@@ -29,7 +33,7 @@ Taglines or subtitles can be included using Metafields. This can be used to show
 
 [![](https://downloads.intercomcdn.com/i/o/1200197776/8be045dd867ff90baa63b71d/Untitled.png?expires=1744834500\&signature=a65216efd3be4acaf29a55f08caaef340be456ffe29db4700ed215c12b6e34a4\&req=dSInFsh3moZYX%2FMW1HO4zav4VjeSjoeZnQNOYAnMtM0Ji%2BYKQ%2BIxFvUpnv7x%0AG46DMu%2Bdw1lys6yAiHk%3D%0A)](https://downloads.intercomcdn.com/i/o/1200197776/8be045dd867ff90baa63b71d/Untitled.png?expires=1744834500\&signature=a65216efd3be4acaf29a55f08caaef340be456ffe29db4700ed215c12b6e34a4\&req=dSInFsh3moZYX%2FMW1HO4zav4VjeSjoeZnQNOYAnMtM0Ji%2BYKQ%2BIxFvUpnv7x%0AG46DMu%2Bdw1lys6yAiHk%3D%0A)
 
-### Update metafield <a href="#h_270326d744" id="h_270326d744"></a>
+### Update metafield
 
 1. Navigate to the product you’d like to update
 2. Scroll to the bottom and enter in a tagline in “Product subtitle”

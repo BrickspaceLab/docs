@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Article comments
 
-<figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2862%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

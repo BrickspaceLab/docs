@@ -1,2 +1,5 @@
-# Blocks
+---
+index: 0
+---
 
+# Blocks

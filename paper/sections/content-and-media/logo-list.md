@@ -1,3 +1,7 @@
+---
+index: 10
+---
+
 # Logo list
 
 ### Section overview

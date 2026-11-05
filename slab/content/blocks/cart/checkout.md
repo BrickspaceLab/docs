@@ -1,6 +1,10 @@
+---
+index: 11
+---
+
 # Checkout
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2858%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

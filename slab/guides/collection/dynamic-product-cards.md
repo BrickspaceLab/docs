@@ -1,8 +1,10 @@
+---
+index: 2
+---
+
 # Dynamic product cards
 
 Slab builds product cards in two different ways. Most collection and slider grids render a **Product card** block that lives on **that page’s template**. **Recently viewed** (grid and slider) loads the separate **`product-card`** product template over the network. Use the section below to find the right place to edit for the area you care about.
-
-
 
 ## Choose where to customize
 
@@ -27,8 +29,6 @@ Optional: Shopify loads this with the alternate template view parameter (`?view=
 That template uses the **Product** section. The theme’s default layout is a **Container** that groups **Product media**, **Rich text** (often wired to the product title), **Price**, and **Swatches**—you can add, remove, or reorder blocks in the editor the same way as on other product templates.
 
 Edits here apply to any feature that loads that template with the `product-card` view (including **Recently viewed**). They do **not** change cards on collection or search pages unless those pages are also loading that view (they normally are not).
-
-
 
 ## Edit the product-card template (Recently viewed)
 
@@ -57,8 +57,6 @@ Save your changes, then open a page with **Recently viewed** (grid or slider) an
 {% endstep %}
 {% endstepper %}
 
-
-
 ## Show titles, metafields, and other product details
 
 What appears on a card depends on **which surface** you are editing (page **Product card** block vs **`product-card`** product template). In both cases, content comes from the blocks you add—not from one combined “product card settings” panel.
@@ -81,8 +79,6 @@ Add or edit a **Rich text** block and connect the field to product information (
 ### Metafields on badges
 
 To surface custom attributes as badges, configure the **Badges** block as described in [Badges](../../content/blocks/products/badges.md).
-
-
 
 ## Related guides
 

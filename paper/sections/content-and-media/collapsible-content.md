@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Collapsible content
 
 ### Section overview

@@ -1,6 +1,10 @@
+---
+index: 9
+---
+
 # Picker country
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%285%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

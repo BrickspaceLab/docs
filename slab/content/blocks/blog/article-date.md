@@ -1,6 +1,10 @@
+---
+index: 1
+---
+
 # Article date
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2863%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

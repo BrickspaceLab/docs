@@ -1,8 +1,10 @@
+---
+index: 9
+---
+
 # Cart
 
 Cart settings in **Theme settings > Cart** control what happens after cart updates on desktop and mobile, what happens when customers use the cart control, and an optional minimum order amount.
-
-
 
 ## How to change theme cart
 
@@ -34,14 +36,10 @@ Cart settings in **Theme settings > Cart** control what happens after cart updat
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on cart behavior
 
 * **Desktop cart behavior** and **Mobile cart behavior** apply after cart updates; **Cart button behavior** applies when opening the cart from navigation.
 * If a cart overlay is already open, the theme does not open a second overlay on update.
-
-
 
 ## Cart settings
 

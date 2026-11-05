@@ -1,10 +1,12 @@
+---
+index: 1
+---
+
 # Menus
 
 Slab separates **desktop navigation** (dropdown menus in the header) from the **menu overlay** (the panel that opens when customers tap the menu control on smaller screens or when a button is set to open the menu). You build the link structure in the Shopify admin, then style behavior and layout in the theme editor.
 
 For how overlay blocks connect to theme actions, see [Overlays and popups](popups-drawers-and-overlays.md). For flex layouts often used next to menus in the header, see [Grid layouts](build-grid-layouts.md).
-
-
 
 ## Menu dropdown (header navigation)
 
@@ -16,8 +18,6 @@ The **Menu dropdown** block drives the main horizontal navigation with hover or 
 * When you need full-width “mega menu” style panels for specific top-level items.
 * When you want to add extra blocks (promotions, products, and so on) inside a specific dropdown via **Menu item** child blocks.
 
-
-
 ## Menu overlay (drawer, sidebar, or popup)
 
 The storefront **menu** action opens whichever overlay block is assigned the **Menu overlay** preset in **Overlay group**. The default theme content often uses a **Drawer** block (commonly named **Menu drawer**) with a **Menu page** or **Menu** block inside it.
@@ -26,8 +26,6 @@ The storefront **menu** action opens whichever overlay block is assigned the **M
 
 * Primary navigation on viewports where the header menu is hidden.
 * A full-screen or side-panel menu experience independent from the header bar.
-
-
 
 ## Swap the menu to a different overlay type
 
@@ -66,8 +64,6 @@ Only one overlay block should use the **Menu overlay** preset at a time.
 {% endstepper %}
 
 Menu controls in the header use the same **Menu overlay** action. On a **Button** block, turn on **Enable custom action**, set **Overlay** to **Menu overlay**, so the button opens the overlay you configured above.
-
-
 
 ## Customize menus and dropdowns
 
@@ -110,8 +106,6 @@ Menu controls in the header use the same **Menu overlay** action. On a **Button*
 {% endstep %}
 {% endstepper %}
 
-
-
 ## Full width dropdowns
 
 For top-level items that should span the viewport like a mega menu, use the **Full width dropdown** setting on the **Menu dropdown** block.
@@ -133,8 +127,6 @@ For top-level items that should span the viewport like a mega menu, use the **Fu
 **Enable internal padding** on the dropdown applies to non-full-width dropdowns; full-width panels use wider edge padding in the theme.
 
 Full-width dropdowns still respect a maximum height with scrolling when content is tall, so long lists remain usable on smaller screens.
-
-
 
 ## Menu dropdown: dropdown and layout settings
 

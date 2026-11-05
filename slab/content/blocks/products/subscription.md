@@ -1,3 +1,7 @@
+---
+index: 11
+---
+
 # Product subscription
 
 ## Overview

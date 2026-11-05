@@ -1,2 +1,5 @@
-# Products and collections
+---
+index: 3
+---
 
+# Products and Collections

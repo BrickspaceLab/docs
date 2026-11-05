@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Theme basics
 
 {% hint style="info" %}
@@ -7,16 +11,12 @@ If you need additional support contact our team for personalized onboarding, and
 {% endhint %}
 
 {% hint style="info" %}
-Not sure which theme is right for your business? Our detailed [comparison chart](https://help.brickspacelab.com/general/theme-comparisons) breaks down key features available in each of our themes.
+Not sure which theme is right for your business? Our detailed [comparison chart](../../general/general/theme-comparisons.md) breaks down key features available in each of our themes.
 {% endhint %}
-
-
 
 ## An introduction to Keystone
 
 Keystone is a premium Shopify theme built specifically for B2B and wholesale businesses. With powerful customization options and a wide range of built-in features, Keystone makes it easy to create a professional, high-performing storefront tailored to the needs of wholesale buyers.
-
-
 
 ## Getting started
 
@@ -26,8 +26,6 @@ Before customizing your theme, keep these best practices in mind:
 * Use the theme’s built-in features whenever possible to maintain speed and performance.
 * Always duplicate your theme before making significant changes to ensure you have a backup.
 * Reach out to our team for 1-on-1 onboarding if you need tailored support.
-
-
 
 ### Setting up your theme for the first time
 
@@ -64,8 +62,6 @@ If your new to Keystone we recommend setting up your global theme settings then 
 * Once you’re happy with how your store looks, publish your theme. After launch, continue monitoring performance and make ongoing improvements as needed.
 {% endstep %}
 {% endstepper %}
-
-
 
 ### **Understanding sections, blocks & templates**
 

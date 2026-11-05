@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Theme basics
 
 ## Theme basics
@@ -9,7 +13,7 @@ If you need additional support contact our team for personalized onboarding, and
 {% endhint %}
 
 {% hint style="info" %}
-Not sure which theme is right for your business? Our detailed [comparison chart](https://help.brickspacelab.com/general/theme-comparisons) breaks down key features available in each of our themes.
+Not sure which theme is right for your business? Our detailed [comparison chart](../../general/general/theme-comparisons.md) breaks down key features available in each of our themes.
 {% endhint %}
 
 ### An introduction to Space

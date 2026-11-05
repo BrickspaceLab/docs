@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Create custom blocks
 
 ## What is a block?
@@ -5,8 +9,6 @@
 A block is a configurable, reusable content unit that merchants can add, remove, and reorder inside sections from the theme editor. Blocks have a `{% schema %}` that defines their settings — things like text fields, image pickers, color selectors, and toggles — which appear in the editor's sidebar whenever a block is selected.
 
 Slab includes 60+ built-in blocks covering most common use cases. Custom blocks let you extend this library with components tailored to your store.
-
-
 
 ## Block vs custom liquid
 
@@ -19,8 +21,6 @@ Slab includes 60+ built-in blocks covering most common use cases. Custom blocks 
 
 If the content only needs to appear in one place and does not need merchant-facing controls, [custom liquid](using-custom-liquid.md) is simpler. Use a custom block when you need the content to be editable, have configuration options, or be reusable across multiple sections.
 
-
-
 ## How blocks are structured
 
 A block file lives in the `blocks/` folder and follows this pattern:
@@ -30,8 +30,6 @@ A block file lives in the `blocks/` folder and follows this pattern:
 * `{{ block.shopify_attributes }}` on the root element (required for the theme editor to work)
 * Optional `{% stylesheet %}` for scoped styles
 * `{% schema %}` — JSON defining the block's name, settings, and presets
-
-
 
 ## Generating a custom block with AI
 

@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Theme typography
 
-### Getting started <a href="#h_97321b3056" id="h_97321b3056"></a>
+### Getting started
 
 Editing font family
 

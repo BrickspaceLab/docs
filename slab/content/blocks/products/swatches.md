@@ -1,6 +1,10 @@
+---
+index: 12
+---
+
 # Product swatches
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2856%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

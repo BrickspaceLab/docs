@@ -1,3 +1,7 @@
+---
+index: 11
+---
+
 # Search results
 
 {% hint style="info" %}

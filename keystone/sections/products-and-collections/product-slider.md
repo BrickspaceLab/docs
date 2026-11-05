@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Product slider
 
 ### Section overview

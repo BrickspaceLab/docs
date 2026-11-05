@@ -1,3 +1,7 @@
+---
+index: 6
+---
+
 # Create custom sections
 
 ## What is a section?
@@ -5,8 +9,6 @@
 A section is a full-width content area that merchants can add to any page template from the theme editor. Sections act as containers — they hold blocks, control the overall layout, and expose their own settings for things like spacing, background color, and visibility.
 
 Every page in a Slab-powered store is built from sections stacked vertically. The built-in `Section` type covers most layouts, but custom sections let you build entirely new content areas with their own block types and configuration options.
-
-
 
 ## When to create a custom section
 
@@ -18,8 +20,6 @@ Sections are the right choice when you need:
 
 If you only need a small piece of dynamic or interactive content within an existing section, [custom liquid](using-custom-liquid.md) or a [custom block](creating-custom-blocks.md) is simpler.
 
-
-
 ## How sections are structured
 
 A section file lives in the `sections/` folder (compiled from `src/sections/` if you are using the development toolkit) and follows this pattern:
@@ -29,8 +29,6 @@ A section file lives in the `sections/` folder (compiled from `src/sections/` if
 * `{% schema %}` — JSON defining the section's name, accepted block types, settings, and presets
 
 Accepted block types are declared in the schema's `"blocks"` array. Use `{ "type": "@theme" }` to accept all theme blocks, `{ "type": "@app" }` for app blocks, or list specific block types to restrict what merchants can add.
-
-
 
 ## Generating a custom section with AI
 

@@ -1,2 +1,5 @@
-# Search
+---
+index: 5
+---
 
+# Search

@@ -1,6 +1,10 @@
+---
+index: 1
+---
+
 # Hire a Shopify developer
 
-## When to hire a Shopify developer <a href="#h_0170420437" id="h_0170420437"></a>
+## When to hire a Shopify developer
 
 Consider hiring a Shopify developer when:
 
@@ -12,9 +16,7 @@ Consider hiring a Shopify developer when:
 
 If you’re working with a smaller budget, start with your theme’s built-in tools and only invest in custom development when there’s a clear opportunity to improve the shopping experience.
 
-
-
-## What we can help with <a href="#h_de1600cfc6" id="h_de1600cfc6"></a>
+## What we can help with
 
 Our team offers three services for merchants who want help launching, improving, or growing their Shopify storefront.
 
@@ -48,9 +50,7 @@ Improve your Shopify storefront every week with a dedicated team handling the st
 
 [↳ Learn more](https://brickspacelab.com/pages/services)
 
-
-
-## Our development partners <a href="#h_a3f4ea6baf" id="h_a3f4ea6baf"></a>
+## Our development partners
 
 For all other development needs we recommend working with our partners.
 

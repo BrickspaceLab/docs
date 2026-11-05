@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Product
 
 ### Section overview

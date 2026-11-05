@@ -1,8 +1,10 @@
+---
+index: 2
+---
+
 # Use custom fonts
 
 We rely on [Shopify's Font Picker](https://www.shopify.ca/partners/blog/font-picker) to provide a font selection for your store. To access these settings go to Theme settings > Typography. Installing a font not available in the default selection will involve making some code customizations.
-
-
 
 ## Installing a custom font
 

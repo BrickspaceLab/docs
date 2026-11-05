@@ -1,6 +1,10 @@
+---
+index: 14
+---
+
 # Linked products block
 
-### Overview <a href="#h_cca672d346" id="h_cca672d346"></a>
+### Overview
 
 If you have multiple versions of one product split into different product listing it may be hard for customers to find the option they want. Using the "Linked products" block you can display additional products as options on your product page.
 
@@ -14,7 +18,7 @@ How it works:
 
 ***
 
-### Enable the product block <a href="#h_85cfff255d" id="h_85cfff255d"></a>
+### Enable the product block
 
 1. Go to Online Store > Themes > Customize
 2. Navigate to the product template then click "Add block" within the "Product" section
@@ -25,7 +29,7 @@ How it works:
 
 ***
 
-### Create metafield definition <a href="#h_4a7f6a8b39" id="h_4a7f6a8b39"></a>
+### Create metafield definition
 
 1. Navigate to **Settings** > **Custom data** > **Products**
 2. Click **Add definition**
@@ -36,7 +40,7 @@ How it works:
 
 ***
 
-### Update metafield <a href="#h_dd4b183e2a" id="h_dd4b183e2a"></a>
+### Update metafield
 
 1. Navigate to the product you'd like to update
 2. Scroll to the bottom and select a collection for the metafield

@@ -1,17 +1,21 @@
+---
+index: 15
+---
+
 # Content drawers
 
 The Content drawer block allows you to display a link that opens a slide-out drawer. Use it to conveniently showcase product details such as sizing charts or ingredient lists.
 
 ***
 
-### Open the theme editor <a href="#h_83e23f3648" id="h_83e23f3648"></a>
+### Open the theme editor
 
 1. Go to **Online Store** > **Themes** > **Customize**
 2. From the dropdown in the top bar select **Product**
 
 ***
 
-### Add the Content drawer block <a href="#h_965f789548" id="h_965f789548"></a>
+### Add the Content drawer block
 
 1. On the lefthand side click **Add block** then select **Content drawer**
 2. In the Option field enter the text that matches the product option you want to display this next to.

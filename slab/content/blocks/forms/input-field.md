@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Input field
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2832%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

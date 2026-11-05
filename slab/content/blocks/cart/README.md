@@ -1,2 +1,5 @@
-# Cart
+---
+index: 2
+---
 
+# Cart

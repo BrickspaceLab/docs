@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Blog
 
 ### Section overview

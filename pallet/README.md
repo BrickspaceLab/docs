@@ -1,10 +1,12 @@
+---
+index: 5
+---
+
 # Pallet
 
 ## What is Pallet?
 
 Pallet is a Shopify app designed for B2B and wholesale stores that need to make account based changes. For example, Pallet enables you to display different prices to different customers based on their account tags. Whether you're running a wholesale operation, offering VIP discounts, or managing tiered pricing for different customer segments, Pallet makes it simple to show the right price to the right customer.
-
-
 
 ## Who is Pallet for?
 
@@ -14,8 +16,6 @@ Pallet is perfect for:
 * **B2B stores** with multiple customer tiers (e.g., Silver, Gold, Platinum)
 * **Dual retail/wholesale operations** that serve both regular and bulk buyers
 * **Membership programs** offering exclusive pricing to VIP customers
-
-
 
 ## Current Features
 

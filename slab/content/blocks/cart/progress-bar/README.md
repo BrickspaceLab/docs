@@ -1,6 +1,10 @@
+---
+index: 10
+---
+
 # Progress bar
 
-<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2857%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

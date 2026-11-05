@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Container
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2837%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

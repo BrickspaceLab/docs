@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Error
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

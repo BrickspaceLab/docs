@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Typography
 
 `src/css/utilities/typography.css`
