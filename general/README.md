@@ -25,7 +25,7 @@ layout:
 
 ## Themes <a href="#get-support" id="get-support"></a>
 
-If you want to learn more about our Shopify themes you've come to the right place. Not sure which theme to pick - take a look at our [comparison chart](general/theme-comparisons.md) otherwise click below to get more details on the theme your using.&#x20;
+If you want to learn more about our Shopify themes then you've come to the right place. Not sure which theme to pick - take a look at our [comparison chart](general/theme-comparisons.md) otherwise click below to get more details on the theme your using.&#x20;
 
 
 
