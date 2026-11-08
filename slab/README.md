@@ -6,6 +6,16 @@ index: 4
 
 <figure><img src=".gitbook/assets/52e82fff661fec8619.png" alt=""><figcaption></figcaption></figure>
 
+## Install with an AI assistant
+
+After purchasing Slab and receiving GitHub access, copy this prompt into your AI coding assistant.
+
+{% prompt description="Install Slab and open a local preview" %}
+```markdown
+Fetch and read https://help.brickspacelab.com/slab/getting-started/installing-slab/installing-from-github.md, then follow the instructions to install Slab and open a local preview. Use a fork of the Slab repository, ask me for my Shopify store domain and any missing access, and verify the storefront loads in the browser. Keep the theme unpublished.
+```
+{% endprompt %}
+
 ## Helpful links
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting started</td><td><a href="getting-started/README.md">Broken link</a></td></tr><tr><td>Guides</td><td><a href="guides/README.md">Broken link</a></td></tr><tr><td>Blocks and sections</td><td><a href="content/README.md">Broken link</a></td></tr></tbody></table>
