@@ -1,8 +1,10 @@
+---
+index: 15
+---
+
 # Social media
 
 Social media settings in **Theme settings > Social media** store profile URLs the theme uses for social icons and links.
-
-
 
 ## How to change theme social media
 
@@ -27,14 +29,10 @@ Social media settings in **Theme settings > Social media** store profile URLs th
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on social links
 
 * Use complete URLs (including `https://`) so links work on all devices.
 * You do not need to fill every field.
-
-
 
 ## Social media settings
 

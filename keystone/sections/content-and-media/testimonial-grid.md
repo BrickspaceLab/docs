@@ -1,3 +1,7 @@
+---
+index: 17
+---
+
 # Testimonial grid
 
 ### Section overview

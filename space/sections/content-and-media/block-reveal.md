@@ -1,3 +1,7 @@
+---
+index: 19
+---
+
 # Block reveal
 
 ### Section overview

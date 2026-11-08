@@ -1,10 +1,14 @@
+---
+index: 16
+---
+
 # Custom fields
 
 The Custom field product block can be used to add additional fields to a product form. This can be used to collect more information. E.g. include a custom engraving field to let customers customize their purchase.
 
 ***
 
-### Setup <a href="#h_ca60ff3207" id="h_ca60ff3207"></a>
+### Setup
 
 1. Go to **Online Store** > **Themes** > **Customize**
 2. From the dropdown in the top bar select **Product**

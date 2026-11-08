@@ -1,10 +1,14 @@
+---
+index: 2
+---
+
 # Hide products
 
 Hiding products completely removes them from view for unauthorized visitors. This is useful for wholesale-only products or exclusive items that should only be visible to approved customers.
 
 ***
 
-### Setup <a href="#setup" id="setup"></a>
+### Setup
 
 1. Open the **Theme Editor** by clicking **Customize** next to your theme
 2. Click **Theme Settings** (gear icon near the top left)
@@ -14,7 +18,7 @@ Hiding products completely removes them from view for unauthorized visitors. Thi
 
 ***
 
-### Add tags to products <a href="#add-tags" id="add-tags"></a>
+### Add tags to products
 
 1. In your Shopify admin, go to **Products**
 2. Select the product you want to hide
@@ -23,7 +27,7 @@ Hiding products completely removes them from view for unauthorized visitors. Thi
 
 ***
 
-### Where products are hidden <a href="#where-hidden" id="where-hidden"></a>
+### Where products are hidden
 
 Tagged products will be hidden from:
 
@@ -35,7 +39,7 @@ Tagged products will be hidden from:
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 {% hint style="warning" %}
 **Restriction tags are case sensitive!**

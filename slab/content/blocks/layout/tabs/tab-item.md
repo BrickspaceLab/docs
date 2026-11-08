@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Tab item
 
 ## Overview

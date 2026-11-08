@@ -1,6 +1,10 @@
+---
+index: 2
+---
+
 # Grid
 
-<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20%2842%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

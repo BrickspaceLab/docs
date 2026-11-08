@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Control guest visibility before login
 
 Wholesale and B2B stores often need logged-out visitors to see the product catalog while hiding prices—or the opposite. Keystone separates **price** restrictions from **product** restrictions. Using the wrong tag or combining features incorrectly can hide product names when you only meant to hide prices.

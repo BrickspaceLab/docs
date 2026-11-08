@@ -1,6 +1,10 @@
+---
+index: 9
+---
+
 # Checkout agreement
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%289%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

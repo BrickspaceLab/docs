@@ -1,3 +1,7 @@
+---
+index: 5
+---
+
 # Scrollbar
 
 `src/css/utilities/scrollbar.css`

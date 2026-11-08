@@ -1,8 +1,10 @@
+---
+index: 7
+---
+
 # Motion
 
 Motion settings in **Theme settings > Motion** control animations, button motion, image fade-in, and page and header transitions.
-
-
 
 ## How to change theme motion
 
@@ -35,14 +37,10 @@ Motion settings in **Theme settings > Motion** control animations, button motion
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on motion
 
 * When **Enable animations** is off, related controls are hidden in the theme editor.
 * **Page transition** defaults to **Fade**; **Header transition** defaults to **None**.
-
-
 
 ## Motion settings
 

@@ -1,10 +1,12 @@
+---
+index: 2
+---
+
 # Use and install apps
 
 Shopify apps are a fundamental part of most ecommerce sites. With over 8,000 Shopify apps it's important to understand the best approaches to take when installing apps.
 
 Visit the Shopify help center to learn how to [extend your theme with apps](https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps).
-
-
 
 ## Considerations when using Shopify apps
 

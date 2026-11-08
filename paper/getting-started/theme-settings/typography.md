@@ -1,8 +1,12 @@
+---
+index: 1
+---
+
 # Typography
 
 Text plays a significant role on your website. Both the content and the typography you use are crucial for building a strong visual identity that resonates with customers.
 
-### Before starting <a href="#h_d38eb78290" id="h_d38eb78290"></a>
+### Before starting
 
 Typography greatly influences your website's visual identity. Choosing the right font helps customers connect with your brand.
 
@@ -156,11 +160,7 @@ Choose between sharp (modern) or round (friendly) icons
 
 ### Font Pairings
 
-
-
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Helvetica + Helvetica Black</td><td><a href="../../.gitbook/assets/helvetica x 2.png">helvetica x 2.png</a></td></tr><tr><td>Inter + Fraunces</td><td><a href="../../.gitbook/assets/Screenshot 2025-05-13 at 11.59.44 AM.png">Screenshot 2025-05-13 at 11.59.44 AM.png</a></td></tr><tr><td>Geist + Geist Semi Bold</td><td><a href="../../.gitbook/assets/Screenshot 2025-05-13 at 12.04.34 PM.png">Screenshot 2025-05-13 at 12.04.34 PM.png</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Helvetica + Helvetica Black</td><td><a href="../../.gitbook/assets/helvetica%20x%202.png">helvetica x 2.png</a></td></tr><tr><td>Inter + Fraunces</td><td><a href="../../.gitbook/assets/Screenshot%202025-05-13%20at%2011.59.44%E2%80%AFAM.png">Screenshot 2025-05-13 at 11.59.44 AM.png</a></td></tr><tr><td>Geist + Geist Semi Bold</td><td><a href="../../.gitbook/assets/Screenshot%202025-05-13%20at%2012.04.34%E2%80%AFPM.png">Screenshot 2025-05-13 at 12.04.34 PM.png</a></td></tr></tbody></table>
 
 ### FAQs
 
@@ -171,7 +171,5 @@ Choose between sharp (modern) or round (friendly) icons
 [https://help.brickspacelab.com/use-a-custom-font#installing-a-custom-font](https://help.brickspacelab.com/use-a-custom-font#installing-a-custom-font)
 
 </details>
-
-
 
 ###

@@ -1,2 +1,5 @@
-# Slab basics
+---
+index: 1
+---
 
+# Slab basics

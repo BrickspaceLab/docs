@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Borders
 
 Border styling helps define your brand’s visual tone. Choose between rounded edges for a friendly, approachable look or sharp corners for a modern, bold aesthetic.

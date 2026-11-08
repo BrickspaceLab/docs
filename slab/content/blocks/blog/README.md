@@ -1,2 +1,5 @@
-# Blog
+---
+index: 3
+---
 
+# Blog

@@ -1,3 +1,7 @@
+---
+index: 9
+---
+
 # Rich text
 
 ### Section overview

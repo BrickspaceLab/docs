@@ -1,12 +1,14 @@
-# Success and error overlays
+---
+index: 3
+---
+
+# Success and error messages
 
 Success and error overlays let Slab show feedback after a customer submits a form or when the theme encounters an action error. In most storefront templates, this feedback appears in an **Alert** overlay, even if the form itself is inside a **Popup**.
 
 {% content-ref url="popups-drawers-and-overlays.md" %}
 [popups-drawers-and-overlays.md](popups-drawers-and-overlays.md)
 {% endcontent-ref %}
-
-
 
 ## How it works
 
@@ -19,13 +21,9 @@ Slab uses a shared feedback flow for several built-in forms.
 
 This means customers can submit a form inside a popup and still see the final feedback message in a separate alert overlay at the edge of the storefront.
 
-
-
 ## Form response and error blocks
 
 Slab separates form feedback into two different block types: **Form response** and **Error**.
-
-
 
 #### **Form response**
 
@@ -34,8 +32,6 @@ Slab separates form feedback into two different block types: **Form response** a
 * On successful submission, it uses the form block's **Success message** setting.
 * On failed submission, it shows the validation message returned by Shopify.
 
-
-
 #### **Error**
 
 * Use this block for general theme errors that are not coming from a Shopify Liquid form object.
@@ -43,8 +39,6 @@ Slab separates form feedback into two different block types: **Form response** a
 * It shows the error message returned by the failed action.
 
 In practice, if you are comparing "form response" and "error response" behavior in Slab, the matching blocks are **Form response** and **Error**.
-
-
 
 ## What can trigger these overlays
 
@@ -65,8 +59,6 @@ The shared form response flow is used by these Slab form blocks:
 
 These forms all pass their submit result through the same helper, so merchants get a consistent feedback pattern across the storefront.
 
-
-
 #### **Error examples**
 
 * An add-to-cart request fails.
@@ -76,8 +68,6 @@ These forms all pass their submit result through the same helper, so merchants g
 * A discount code request fails.
 
 For these error overlays, the exact message usually comes from Shopify's response, so the wording can vary depending on the failure.
-
-
 
 ## Important behavior to know
 

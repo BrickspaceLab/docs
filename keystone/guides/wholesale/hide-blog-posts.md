@@ -1,10 +1,14 @@
+---
+index: 3
+---
+
 # Hide blog posts
 
 Hiding blog posts allows you to create exclusive content for approved wholesale customers. Unauthorized visitors won't be able to view blog posts with the restriction tag.
 
 ***
 
-### Setup <a href="#setup" id="setup"></a>
+### Setup
 
 1. Open the **Theme Editor** by clicking **Customize** next to your theme
 2. Click **Theme Settings** (gear icon near the top left)
@@ -14,7 +18,7 @@ Hiding blog posts allows you to create exclusive content for approved wholesale 
 
 ***
 
-### Add tags to blog posts <a href="#add-tags" id="add-tags"></a>
+### Add tags to blog posts
 
 1. In your Shopify admin, go to **Online Store** > **Blog posts**
 2. Select the blog post you want to restrict
@@ -23,7 +27,7 @@ Hiding blog posts allows you to create exclusive content for approved wholesale 
 
 ***
 
-### Where blog posts are hidden <a href="#where-hidden" id="where-hidden"></a>
+### Where blog posts are hidden
 
 Tagged blog posts will be hidden from:
 
@@ -34,7 +38,7 @@ Tagged blog posts will be hidden from:
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 {% hint style="warning" %}
 **Restriction tags are case sensitive!**

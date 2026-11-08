@@ -1,3 +1,7 @@
+---
+index: 6
+---
+
 # Table
 
 ## Overview

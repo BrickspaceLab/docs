@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # SEO for Shopify
 
 ## What is SEO
@@ -5,8 +9,6 @@
 Search Engine Optimization (SEO) is the practice of enhancing your website to improve its visibility on search engines like Google. For Shopify merchants, this means optimizing your store's content and structure to ensure that potential customers can easily find your products when they search online. By following SEO best practices, you can increase traffic to your store, leading to more sales and higher customer engagement.
 
 Visit the Shopify blog to learn more about [generating traffic with SEO](https://www.shopify.com/blog/shopify-seo).
-
-
 
 ## FAQs
 
@@ -45,8 +47,6 @@ Focus on [improving your page speed](improve-page-speed.md) where possible. You 
 
 </details>
 
-
-
 ## Improve SEO results
 
 1. **Hire an SEO Expert**: Get professional help to create an SEO plan that matches your brand.
@@ -54,8 +54,6 @@ Focus on [improving your page speed](improve-page-speed.md) where possible. You 
 3. **Use Social Media**: Boost your store's presence and create backlinks through social media promotion.
 4. **Focus on Relevant Keywords**: Avoid overloading with irrelevant keywords. Aim for content that aids users, not just search engines.
 5. **Publish Original Content**: Regularly add new, unique content like blog posts. Avoid copying from other sites to maintain uniqueness.
-
-
 
 ## Edit content shown in search results
 

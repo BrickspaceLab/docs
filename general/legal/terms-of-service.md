@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Terms of service
 
 **Last updated:** April 29, 2026
@@ -44,7 +48,7 @@ We may suspend or terminate accounts that violate these Terms, our **Acceptable 
 
 **3.2 Taxes.** Fees are exclusive of applicable taxes unless stated otherwise. You are responsible for taxes imposed on your purchase other than taxes based on our net income.
 
-**3.3 Renewals.** Unless otherwise stated at purchase, subscriptions renew automatically for successive periods equal to the initial term until you cancel in accordance with our **[Refund and cancellation policy](./refund-cancellation-policy.md)**.
+**3.3 Renewals.** Unless otherwise stated at purchase, subscriptions renew automatically for successive periods equal to the initial term until you cancel in accordance with our **[Refund and cancellation policy](refund-cancellation-policy.md)**.
 
 **3.4 Payment failures.** We may suspend access to paid features if payment fails until payment succeeds or the subscription is cancelled.
 
@@ -54,8 +58,8 @@ We may suspend or terminate accounts that violate these Terms, our **Acceptable 
 
 Your rights to use Slab, Catalog, and related software are governed by the applicable **Software license agreement**:
 
-- [Software license agreement — Slab](./software-license-slab.md)
-- [Software license agreement — Catalog](./software-license-catalog.md)
+- [Software license agreement — Slab](software-license-slab.md)
+- [Software license agreement — Catalog](software-license-catalog.md)
 
 Those agreements explain scope (including per-store or account limits), restrictions, ownership, and what happens on termination. Your purchase or installation does not transfer ownership of the software to you.
 
@@ -63,7 +67,7 @@ Those agreements explain scope (including per-store or account limits), restrict
 
 ## 5. Acceptable use
 
-You agree to comply with our **[Acceptable use policy](./acceptable-use-policy.md)**, which is incorporated into these Terms by reference. Among other things, you must not misuse the Services, interfere with other users, attempt unauthorized access, scrape or resell access contrary to your agreements, or use the Services for unlawful storefront activity.
+You agree to comply with our **[Acceptable use policy](acceptable-use-policy.md)**, which is incorporated into these Terms by reference. Among other things, you must not misuse the Services, interfere with other users, attempt unauthorized access, scrape or resell access contrary to your agreements, or use the Services for unlawful storefront activity.
 
 ---
 
@@ -93,7 +97,7 @@ If we provide non-public information under an NDA or as marked confidential, you
 
 ## 9. Privacy
 
-Our **[Privacy policy](./privacy-policy.md)** describes how we collect, use, and disclose personal information in connection with the Services. By using the Services, you acknowledge that practice.
+Our **[Privacy policy](privacy-policy.md)** describes how we collect, use, and disclose personal information in connection with the Services. By using the Services, you acknowledge that practice.
 
 ---
 
@@ -133,7 +137,7 @@ We may suspend or terminate access to the Services if you materially breach thes
 
 Upon termination, rights granted to you cease except those that by nature should survive. Sections that by their nature should survive (including intellectual property, disclaimers, limitation of liability, indemnity, governing law, and disputes) survive termination.
 
-Details regarding refunds and data on cancellation are in our **[Refund and cancellation policy](./refund-cancellation-policy.md)**.
+Details regarding refunds and data on cancellation are in our **[Refund and cancellation policy](refund-cancellation-policy.md)**.
 
 ---
 

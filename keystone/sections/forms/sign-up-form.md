@@ -1,3 +1,7 @@
+---
+index: 2
+---
+
 # Sign-up form
 
 ### Section overview

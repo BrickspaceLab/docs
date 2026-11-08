@@ -1,6 +1,10 @@
+---
+index: 2
+---
+
 # Menu dropdown
 
-<figure><img src="../../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image%20%2849%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Cart count
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%289%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

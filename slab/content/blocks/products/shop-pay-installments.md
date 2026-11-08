@@ -1,3 +1,7 @@
+---
+index: 13
+---
+
 # Shop Pay installments
 
 ## Overview

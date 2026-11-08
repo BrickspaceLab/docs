@@ -1,26 +1,30 @@
+---
+index: 4
+---
+
 # Slab
-
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button>
-
-
 
 <figure><img src=".gitbook/assets/52e82fff661fec8619.png" alt=""><figcaption></figcaption></figure>
 
+## Install with an AI assistant
 
+After purchasing Slab and receiving GitHub access, copy this prompt into your AI coding assistant.
+
+{% prompt description="Install command" %}
+```markdown
+Fetch and read https://help.brickspacelab.com/slab/getting-started/installing-slab/installing-from-github.md, then follow the instructions to install Slab and open a local preview. Use a fork of the Slab repository, ask me for my Shopify store domain and any missing access, and verify the storefront loads in the browser. Keep the theme unpublished.
+```
+{% endprompt %}
 
 ## Helpful links
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting started</td><td><a href="/broken/pages/lYcEG5mEMBSCEGTvmdEZ">Broken link</a></td></tr><tr><td>Guides</td><td><a href="/broken/pages/tMGxQOtv94SxF6JRO0U8">Broken link</a></td></tr><tr><td>Blocks and sections</td><td><a href="/broken/pages/KQSKqi8ABoykvGW9xpHU">Broken link</a></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting started</td><td><a href="getting-started/README.md">Broken link</a></td></tr><tr><td>Guides</td><td><a href="guides/README.md">Broken link</a></td></tr><tr><td>Blocks and sections</td><td><a href="content/README.md">Broken link</a></td></tr></tbody></table>
 
 ## Updates
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Changelog</td><td><a href="changelog.md">changelog.md</a></td></tr></tbody></table>
 
-
-
-## Get support <a href="#get-support" id="get-support"></a>
+## Get support
 
 Email support is available Monday to Friday with a typical 3-day response time.
 

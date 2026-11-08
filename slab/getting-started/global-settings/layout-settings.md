@@ -1,8 +1,10 @@
+---
+index: 5
+---
+
 # Layout
 
 Layout settings in **Theme settings > Layout** control storefront horizontal margins, default spacing rhythm, and optional vertical scroll snapping for supported sections.
-
-
 
 ## How to change theme layout
 
@@ -30,15 +32,11 @@ Layout settings in **Theme settings > Layout** control storefront horizontal mar
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on layout
 
 * **Horizontal margin** changes overall content width; **Full** uses the maximum width the theme allows for that template.
 * **Gap size** applies where layouts read this global value—verify on real sections.
 * Scroll snapping only applies where a section supports **Scroll snap alignment**; it is off by default.
-
-
 
 ## Layout settings
 

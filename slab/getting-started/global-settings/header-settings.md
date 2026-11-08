@@ -1,8 +1,10 @@
+---
+index: 4
+---
+
 # Header
 
 Header settings in **Theme settings > Header** control how the header behaves while customers scroll and whether top sections can render under the header when overlap is enabled at the theme and section level.
-
-
 
 ## How to change theme header
 
@@ -31,14 +33,10 @@ Header settings in **Theme settings > Header** control how the header behaves wh
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on header behavior
 
 * **Sticky** keeps the header visible while scrolling; **Standard** scrolls with the page; **Dynamic** can hide the header while scrolling down and show it when scrolling up—preview your main templates.
 * Overlap values use 5 px steps from 5 to 200 px; tune them to your logo and bar height.
-
-
 
 ## Header settings
 

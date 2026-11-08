@@ -1,6 +1,10 @@
+---
+index: 11
+---
+
 # Table
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2847%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -19,7 +23,7 @@ A flexible container component that provides customizable table layout options f
 
 The following blocks can be nested within this block:
 
-* [Table row](table-row/)
+* [Table row](table-row/README.md)
 
 ## Block settings
 

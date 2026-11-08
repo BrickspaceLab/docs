@@ -1,4 +1,8 @@
-# Quick add and quick edit
+---
+index: 1
+---
+
+# Quick actions
 
 Quick add lets customers open a product form from a product card or other merchandising area without leaving the current page. In Slab, the editor labels this feature as **Quick buy**. **Quick edit** uses the same pattern for items already in the cart, so customers can update their selection from an overlay instead of returning to the product page.
 
@@ -6,8 +10,6 @@ Both experiences work in two parts:
 
 * A block or action opens the overlay.
 * A matching product template controls the content rendered inside that overlay.
-
-
 
 ## Quick action blocks
 
@@ -19,8 +21,6 @@ Use the **Quick buy button** block anywhere you want to trigger quick add, such 
 * For products with multiple variants, it opens the quick add overlay.
 * Use this block when you want customers to start the quick add flow.
 
-
-
 #### Quick buy content
 
 Use the **Quick buy content** block inside the overlay that should display your quick add form.
@@ -29,8 +29,6 @@ Use the **Quick buy content** block inside the overlay that should display your 
 * Add it inside a **Popup**, **Drawer**, or other overlay block depending on how you want quick add to appear.
 * The content customers see comes from the selected product template, not from the product card itself.
 
-
-
 #### Quick edit content
 
 Use the **Quick edit content** block inside the overlay used for editing cart items.
@@ -38,8 +36,6 @@ Use the **Quick edit content** block inside the overlay used for editing cart it
 * This block renders the template selected in **Theme settings > Quick actions > Quick edit template**.
 * Add it inside the overlay where customers should edit an existing cart item.
 * This is useful when customers need to change variants, subscriptions, or other product options after adding an item to cart.
-
-
 
 ## How to edit quick actions
 

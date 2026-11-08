@@ -1,10 +1,12 @@
+---
+index: 8
+---
+
 # Banner
 
 ### Section overview
 
 The Banner section is a versatile full-width component that displays a background image or video with overlaying text content, providing a visually impactful way to highlight information or promotions.
-
-
 
 #### Common use cases
 
@@ -13,8 +15,6 @@ The Banner section is a versatile full-width component that displays a backgroun
 * Collection introductions with descriptive text and navigation options
 * Full-width imagery with brand statements
 
-
-
 #### Usage tips
 
 * Choose images with good contrast for text overlay visibility
@@ -22,8 +22,6 @@ The Banner section is a versatile full-width component that displays a backgroun
 * Consider mobile display - text that appears well-spaced on desktop may look crowded on mobile
 * When using video backgrounds, ensure they aren't distracting from your main message
 * If enabling header overlap, test thoroughly to ensure text remains visible against your header
-
-
 
 #### Image recommendations
 
@@ -39,8 +37,6 @@ Use the guidelines below to choose image dimensions that work well across common
 | <p>Large<br>The banner height will expand to 90% of the user's screen height, minus 100px.</p>                                                                                                                                                   | 3072 x 2774              | 860 x 1476                  |
 | <p>Extra large<br>The banner height will expand to 100% of the user's screen height, minus 100px.</p>                                                                                                                                            | 5120 x 3108              | 860 x 1664                  |
 | <p>Image height<br>If you select the <strong>Image height</strong> option, the banner will display the full height of the image you upload—no cropping will occur. This setting is useful when you want to preserve the entire image layout.</p> |                          |                             |
-
-
 
 ### Section settings
 

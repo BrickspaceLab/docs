@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Search drawer
 
 ### Section overview

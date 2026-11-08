@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Pagination
 
 ## Block limitations

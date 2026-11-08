@@ -1,9 +1,13 @@
+---
+index: 0
+---
+
 # Getting started
 
 {% hint style="warning" %}
 **We do not provide support for code customizations**
 
-If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../../support/hire-a-shopify-developer.md).
+If you are not comfortable making code changes, we highly recommend [hiring an expert developer](../../../general/support/hire-a-shopify-developer.md).
 {% endhint %}
 
 Slab is a modular Shopify theme built on theme blocks. It is designed to be developer-friendly and highly customizable out of the box. Slab has a number of helpful features for developers and ai coding agents
@@ -13,20 +17,18 @@ Slab is a modular Shopify theme built on theme blocks. It is designed to be deve
 * **Powered by Alpine.js + Tailwind CSS**: Lightweight interactivity and utility-first styling without heavy dependencies.
 * **AI-ready**: Includes Cursor rules, commands, and skills for AI-assisted development and code review.
 
-
-
 For advanced customizations we recommend installing Slab via GitHub. Fork the theme repository on GitHub before you clone it so you have your own copy and can pull upstream updates.&#x20;
 
 {% content-ref url="../../getting-started/installing-slab/installing-from-github.md" %}
 [installing-from-github.md](../../getting-started/installing-slab/installing-from-github.md)
 {% endcontent-ref %}
 
-{% content-ref url="../theme-architecture/" %}
-[theme-architecture](../theme-architecture/)
+{% content-ref url="../theme-architecture/README.md" %}
+[theme-architecture](../theme-architecture/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="../making-changes/" %}
-[making-changes](../making-changes/)
+{% content-ref url="../making-changes/README.md" %}
+[making-changes](../making-changes/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="../working-with-coding-agents.md" %}

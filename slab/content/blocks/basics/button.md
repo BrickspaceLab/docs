@@ -1,6 +1,10 @@
+---
+index: 4
+---
+
 # Button
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2817%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -23,8 +27,8 @@ The following blocks can be nested within this block:
 * [Icon](icon.md)
 * [Image](image.md)
 * [Localization label](../utility/localization-label.md)
-* [Cart count](/broken/pages/I1uLikf9S6Wq0KNvGdgN)
-* [Cart price](/broken/pages/4VWNibJzvJcDHosz3SNd)
+* [Cart count](../cart/cart-count.md)
+* [Simple subtotal](../cart/simple-subtotal.md)
 
 ## Block settings
 

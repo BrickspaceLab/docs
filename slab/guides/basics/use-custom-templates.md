@@ -1,10 +1,12 @@
+---
+index: 1
+---
+
 # Use custom templates
 
 Custom templates can be created to include drag-and-drop sections on almost any page. These templates can be used for content pages, collection pages, product pages, blog pages, and article pages.
 
 Visit the Shopify help center to [learn more about using templates](https://help.shopify.com/en/manual/online-store/themes/theme-structure/templates).
-
-
 
 ## How to create and use custom templates
 
@@ -84,9 +86,7 @@ We'll create a custom page template, customize it, and assign it to a page. This
 {% endstep %}
 {% endstepper %}
 
-
-
-## Considerations for creating a new template <a href="#considerations-for-creating-a-new-template" id="considerations-for-creating-a-new-template"></a>
+## Considerations for creating a new template
 
 Before you create a new template, review the following considerations:
 

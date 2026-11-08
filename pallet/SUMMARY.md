@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Table of contents
 
 * [Pallet](README.md)

@@ -1,3 +1,7 @@
+---
+index: 3
+---
+
 # Tool tip
 
 ### Section overview

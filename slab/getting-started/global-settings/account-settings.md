@@ -1,8 +1,10 @@
+---
+index: 12
+---
+
 # Account
 
 Account settings in **Theme settings > Account** help limit catalog or blog visibility to approved customers, optionally treat B2B customers as approved, and choose how restricted content appears.
-
-
 
 ## How to change theme account
 
@@ -35,19 +37,13 @@ Account settings in **Theme settings > Account** help limit catalog or blog visi
 {% endstep %}
 {% endstepper %}
 
-
-
 ### Notes on account restrictions
 
 * Tags must match how you tag customers and content in Shopify.
 * **Enable full restriction** is a strong gate—confirm essential pages remain reachable for support.
 * **Placeholder** keeps layout; **Hidden** removes items from view for unapproved customers.
 
-
-
 ## Account settings
-
-
 
 ### Approved customers
 
@@ -56,8 +52,6 @@ Account settings in **Theme settings > Account** help limit catalog or blog visi
 | Matching tags           | Customers with these tags count as approved for restricted content.              |
 | Enable B2B customers    | Logged-in B2B customers count as approved when enabled.                          |
 
-
-
 ### Restricted content
 
 | Setting                    | What it controls                                                                 |
@@ -65,8 +59,6 @@ Account settings in **Theme settings > Account** help limit catalog or blog visi
 | Hide products with tag     | Products with this tag are hidden unless the customer is approved.               |
 | Hide blog posts with tag   | Posts with this tag are hidden unless the customer is approved.                  |
 | Enable full restriction    | When on, customers must be logged in to an approved account to view the site.    |
-
-
 
 ### Styles
 

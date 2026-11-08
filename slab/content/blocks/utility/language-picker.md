@@ -1,6 +1,10 @@
+---
+index: 10
+---
+
 # Picker language
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%286%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

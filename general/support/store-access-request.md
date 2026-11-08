@@ -1,8 +1,10 @@
+---
+index: 0
+---
+
 # Store access request
 
 If you contact our support team we may ask for a collaborator access code. This will give us the ability to request access to parts of your Shopify account. With this we're able to investigate support issues much better. This is a much safer way to share account access - you'll always remain the admin and have the ability to revoke access at any time.&#x20;
-
-
 
 ## How to get a collaborator access code
 

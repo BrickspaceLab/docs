@@ -1,3 +1,7 @@
+---
+index: 8
+---
+
 # Add login to mobile menu drawer
 
 If the login icon is not visible in the mobile header, this is intentional. On smaller screens, adding too many header icons can cause wrapping and layout issues.
@@ -21,8 +25,6 @@ Instead, place the login link inside the mobile side drawer menu.
 
 If the link still does not work as expected, make sure customer accounts are enabled in **Shopify admin** > **Settings** > **Customer accounts**.
 
-
-
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20%281%29.png" alt=""><figcaption></figcaption></figure>

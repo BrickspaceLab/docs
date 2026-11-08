@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Recently viewed
 
 ### Section overview

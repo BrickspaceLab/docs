@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Scripts reference
 
 Use these scripts during local development, builds, and testing.

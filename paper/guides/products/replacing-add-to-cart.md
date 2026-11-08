@@ -1,10 +1,14 @@
+---
+index: 5
+---
+
 # Replace “Add to cart”
 
 The “Add to cart” text can be customized for each product using metafields. This is useful if you want to change the wording for specific products. For example, you could use this to display “Pre-order” for one product.
 
 {% stepper %}
 {% step %}
-#### Create metafield definition <a href="#h_18d27d70b1" id="h_18d27d70b1"></a>
+#### Create metafield definition
 
 1. Navigate to **Settings** > **Custom** **data** > **Products**
 2. Click **Add definition**
@@ -13,7 +17,7 @@ The “Add to cart” text can be customized for each product using metafields. 
 {% endstep %}
 
 {% step %}
-#### Update metafield <a href="#h_da3430396b" id="h_da3430396b"></a>
+#### Update metafield
 
 1. Navigate to the product you’d like to update
 2. Scroll to the bottom and enter in text for the “Button text” metafield

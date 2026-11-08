@@ -1,10 +1,12 @@
+---
+index: 2
+---
+
 # Borders
 
 `src/css/utilities/borders.css`
 
 Theme-aware border width and radius utilities that read from CSS custom properties, plus standardised focus ring patterns. Use these instead of hardcoding pixel values for borders and radii so they automatically reflect merchant style settings.
-
-
 
 ## Border width
 
@@ -19,8 +21,6 @@ Theme-aware border width and radius utilities that read from CSS custom properti
 | `border--b-width` | Bottom only — `--border__width-element`                 |
 | `border--l-width` | Left only — `--border__width-element`                   |
 
-
-
 **Button**
 
 | Class                    | Sets                                   |
@@ -30,8 +30,6 @@ Theme-aware border width and radius utilities that read from CSS custom properti
 | `border--r-button-width` | Right only — `--border__width-button`  |
 | `border--b-button-width` | Bottom only — `--border__width-button` |
 | `border--l-button-width` | Left only — `--border__width-button`   |
-
-
 
 **Input**
 
@@ -44,8 +42,6 @@ Theme-aware border width and radius utilities that read from CSS custom properti
 | `border--l-input-width` | Left — `--input__border-width-left`      |
 | `border--input-padding` | Horizontal padding — `--input__padding`  |
 
-
-
 ## Border radius
 
 | Class              | Sets                                                    |
@@ -55,8 +51,6 @@ Theme-aware border width and radius utilities that read from CSS custom properti
 | `border--b-radius` | Bottom-left + bottom-right — `--border__radius-element` |
 | `border--l-radius` | Top-left + bottom-left — `--border__radius-element`     |
 | `border--r-radius` | Top-right + bottom-right — `--border__radius-element`   |
-
-
 
 ## Focus styles
 
@@ -70,8 +64,6 @@ Theme-aware border width and radius utilities that read from CSS custom properti
 | `border--focus--underline` | Underline only, no outline or shadow                                   |
 | `border--focus--none`      | Removes all border, outline, and shadow                                |
 
-
-
 ## Button border presets
 
 Composite classes that apply the appropriate border widths, focus rings, and radii for buttons:
@@ -81,8 +73,6 @@ Composite classes that apply the appropriate border widths, focus rings, and rad
 | `border__button`         | `border--button-width`                            |
 | `border__button--focus`  | `color-br__input--focus` + `border--focus--inset` |
 | `border__button--radius` | `--border__radius-button`                         |
-
-
 
 ## Input border presets
 
@@ -94,8 +84,6 @@ Composite classes that apply the appropriate border widths, focus rings, and rad
 | `border__input--focus`     | `border--focus--inset`                                     |
 | `border__input--radius`    | `--border__radius-input`                                   |
 | `border__textarea--radius` | `--border__radius-textarea`                                |
-
-
 
 ## Miscellaneous
 

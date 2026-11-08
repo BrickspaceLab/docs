@@ -1,10 +1,12 @@
+---
+index: 0
+---
+
 # Contact support
 
 Email support is available Monday to Friday with a typical 3-day response time. Shopify support is often the best option for platform issues or third party integrations.
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Contact theme support</td><td><a href="https://brickspacelab.com/pages/contact">https://brickspacelab.com/pages/contact</a></td></tr><tr><td>Contact Shopify support</td><td><a href="http://help.shopify.com/">http://help.shopify.com/</a></td></tr></tbody></table>
-
-
 
 ## Our support policy
 
@@ -19,4 +21,3 @@ Our support includes bug fixes and questions about built-in features and functio
 | ✅ 1-on-1 onboarding via scheduled meetings.              | ❌ Fixing and troubleshooting issues related to custom theme code. |
 |                                                          | ❌ Support for integrations or third party apps.                   |
 |                                                          | ❌ Changes to theme code done via Shopify's AI Toolkit             |
-

@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Quick re‑order
 
 Quickly let customers reorder previously purchased products using Shopify’s built‑in Buy Again for New Customer Accounts, or add dedicated reorder buttons with third‑party apps.

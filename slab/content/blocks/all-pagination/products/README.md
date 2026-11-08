@@ -1,2 +1,5 @@
-# Products
+---
+index: 5
+---
 
+# Products

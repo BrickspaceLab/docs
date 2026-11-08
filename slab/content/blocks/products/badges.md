@@ -1,6 +1,10 @@
+---
+index: 0
+---
+
 # Badges
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2810%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

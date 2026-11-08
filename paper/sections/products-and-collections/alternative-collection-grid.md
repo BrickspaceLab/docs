@@ -1,3 +1,7 @@
+---
+index: 4
+---
+
 # Alternative collection grid
 
 ### Section overview
@@ -54,4 +58,3 @@ The Product Featured section displays a grid of highlighted products from a coll
 | X alignment     | Set the horizontal alignment of section content     |
 | Display         | Header section for display settings                 |
 | Visibility      | Control section visibility on different devices     |
-

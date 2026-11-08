@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Colors
 
 `src/css/utilities/colors.css`
@@ -5,8 +9,6 @@
 Use color utility classes instead of hardcoding hex values or raw `color` / `background-color` declarations.
 
 Scheme-aware variants (`color-bg__scheme-bg`, `color-tx__scheme-fg`, etc.) automatically reflect the color scheme set on the nearest parent section or block — prefer these over body-level utilities inside themed sections.
-
-
 
 ## How it works
 
@@ -23,13 +25,9 @@ There are two layers:
 * `src/css/utilities/colors.css` — all utility class definitions
 * `config/settings_schema.json` — color scheme configuration
 
-
-
 ## Global CSS variables
 
 These are always available on `:root` regardless of scheme context.
-
-
 
 **Body colors:**
 
@@ -39,8 +37,6 @@ These are always available on `:root` regardless of scheme context.
 | `--color__foreground-body` | Default text            |
 | `--color__text-default`    | Same as foreground-body |
 | `--color__text-link`       | Link color              |
-
-
 
 **Auto-calculated colors** — derived from body background brightness, adapts on light and dark backgrounds:
 
@@ -52,8 +48,6 @@ These are always available on `:root` regardless of scheme context.
 | Borders  | `--color__border-divider-1/2/3`     | Divider lines, increasing opacity                  |
 | Selected | `--color__border-selected-1/2`      | Selected / active states                           |
 
-
-
 **Input states:**
 
 | Variable                                                  | Use           |
@@ -61,8 +55,6 @@ These are always available on `:root` regardless of scheme context.
 | `--input__default-background` / `--input__default-border` | Default state |
 | `--input__hover-background` / `--input__hover-border`     | Hover state   |
 | `--input__focus-background` / `--input__focus-border`     | Focus state   |
-
-
 
 ## Color schemes
 
@@ -129,8 +121,6 @@ color-[property]__[source]-[aspect]
 | `color-bg__input--hover`  | Input hover background                             |
 | `color-bg__input--focus`  | Input focus background                             |
 
-
-
 #### Text — `color-tx__*`
 
 | Class                    | Sets text color to                                        |
@@ -144,8 +134,6 @@ color-[property]__[source]-[aspect]
 | `color-tx__shade-1/2/3`  | Shade colors (muted text)                                 |
 | `color-tx__error`        | Error text                                                |
 | `color-tx__success`      | Success text                                              |
-
-
 
 #### Border — `color-br__*`
 
@@ -166,8 +154,6 @@ color-[property]__[source]-[aspect]
 | `color-br__input--hover`  | Input hover border                                       |
 | `color-br__input--focus`  | Input focus border                                       |
 
-
-
 #### Outline — `color-ol__*`
 
 Primarily used for focus rings.
@@ -178,8 +164,6 @@ Primarily used for focus rings.
 | `color-ol__selected-1`  | Selected state           |
 | `color-ol__transparent` | Transparent (hides ring) |
 | `color-ol__input`       | Input border color       |
-
-
 
 #### Button — `color-bt__*`
 
@@ -193,4 +177,3 @@ Button utilities set background, border, and text color together with `:hover` s
 | `color-bt__transparent` | Transparent fill, shade hover                                        |
 | `color-bt__shade`       | Shade-2 fill, shade-3 hover                                          |
 | `color-bt__unshade`     | Unshade-2 fill, unshade-3 hover                                      |
-

@@ -1,3 +1,7 @@
+---
+index: 11
+---
+
 # Blog posts grid
 
 ### Section overview

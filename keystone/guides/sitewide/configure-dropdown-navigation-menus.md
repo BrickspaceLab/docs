@@ -1,3 +1,7 @@
+---
+index: 7
+---
+
 # Configure dropdown navigation menus
 
 Keystone’s header supports multi-level **dropdown menus** on desktop, optional **content blocks** inside dropdowns (images, promos, video), and a separate **sidebar menu** for alternative navigation layouts. This guide covers how dropdowns appear and how to achieve common menu layouts.

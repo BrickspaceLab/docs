@@ -1,6 +1,10 @@
+---
+index: 4
+---
+
 # Password form
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20%2836%29.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

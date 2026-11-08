@@ -1,2 +1,5 @@
-# Fixed buy buttons
+---
+index: 3
+---
 
+# Fixed buy buttons

@@ -1,3 +1,7 @@
+---
+index: 0
+---
+
 # Troubleshoot Load More on collection pages
 
 Paper collection pages can paginate with **Load more on click** or **Load more on scroll** instead of numbered pages. If the **Load more** button appears but nothing loads—or the page count never increases—use this guide to isolate JavaScript conflicts, settings, and custom code issues.
@@ -56,7 +60,7 @@ Duplicate your theme or add a fresh Paper install. Enable the same pagination ty
 | Cause | What to look for |
 | ----- | ---------------- |
 | **JavaScript conflict** | Console errors when clicking Load more; handler never runs |
-| **Custom code in `theme.liquid` or assets** | Modified theme files; support may be limited—see [modified-code policy](../../../general/general/support-policy-for-modified-theme-code.md) |
+| **Custom code in `theme.liquid` or assets** | Modified theme files; support may be limited—see [modified-code policy](../support-policy.md) |
 | **App script overrides `$fetch` or Alpine** | Issue starts after installing an app; fixed when embed disabled |
 | **Too few products** | Collection has fewer items than **Products per page**—no second page to load |
 | **Filtered collection URL** | Some filter combinations reload the page instead of AJAX; test the base collection URL first |
@@ -84,6 +88,6 @@ Brickspace support can confirm bugs in **unmodified** Paper themes. Custom scrip
 
 ## Related reading
 
-* [Use and install apps](../basics/use-and-install-apps.md)
-* [How third-party apps affect theme styles](../../../general/general/how-third-party-apps-affect-theme-styles.md)
-* [Support policy for modified theme code](../../../general/general/support-policy-for-modified-theme-code.md)
+* [Use and install apps](../../guides/basics/use-and-install-apps.md)
+* [How third-party apps affect theme styles](../../guides/sitewide/installing-apps.md)
+* [Support policy for modified theme code](../support-policy.md)

@@ -1,4 +1,8 @@
-# Software license agreement — Slab
+---
+index: 2
+---
+
+# Software license — Slab
 
 **Last updated:** April 29, 2026
 
@@ -34,7 +38,7 @@ Licensee must **not**:
 - rent, lease, sublicense, sell, redistribute, or transfer Slab or rights under this Agreement **except** as Shopify’s Theme Store or partner policies expressly allow (for example, legitimate assignment when transferring a store);
 - use Slab to build a competing theme marketplace or to train machine learning models on Licensor’s proprietary assets without written consent;
 - remove or alter proprietary notices or branding embedded in Slab by Licensor;
-- use Slab in violation of law, Shopify policies, or Licensor’s **[Acceptable use policy](./acceptable-use-policy.md)**.
+- use Slab in violation of law, Shopify policies, or Licensor’s **[Acceptable use policy](acceptable-use-policy.md)**.
 
 ---
 
@@ -106,7 +110,7 @@ This Agreement is governed by the **laws of Ontario and Canada**, without regard
 
 ## 12. Entire agreement; precedence
 
-This Agreement, together with Licensor’s **[Terms of service](./terms-of-service.md)** and **[Refund and cancellation policy](./refund-cancellation-policy.md)** where incorporated by reference, is the entire agreement regarding Slab’s license. If the Terms of Service conflict with this Agreement on license scope for Slab, **this Agreement controls** for Slab-specific licensing topics.
+This Agreement, together with Licensor’s **[Terms of service](terms-of-service.md)** and **[Refund and cancellation policy](refund-cancellation-policy.md)** where incorporated by reference, is the entire agreement regarding Slab’s license. If the Terms of Service conflict with this Agreement on license scope for Slab, **this Agreement controls** for Slab-specific licensing topics.
 
 ---
 

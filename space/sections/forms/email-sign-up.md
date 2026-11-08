@@ -1,3 +1,7 @@
+---
+index: 1
+---
+
 # Email sign-up
 
 ### Section overview

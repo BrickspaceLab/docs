@@ -1,0 +1,3590 @@
+[
+  {
+    "url": "https://help.brickspacelab.com/readme.md",
+    "path": "README.md",
+    "title": "Support",
+    "liveSha256": "0d2052ffa63cb5c41d81592f0cd17c4b8ffa218f99aee67b5c5a3e6f2bfcb21d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/general/contact-support.md",
+    "path": "general/general/contact-support/README.md",
+    "title": "Contact support",
+    "liveSha256": "14d65833ecf186098504073d8a4dec2d678dc4da9d872f4bcd3db40a36825892"
+  },
+  {
+    "url": "https://help.brickspacelab.com/general/contact-support/get-help-with-brickspace-themes.md",
+    "path": "general/general/contact-support/get-help-with-brickspace-themes.md",
+    "title": "Tips for contacting support",
+    "liveSha256": "58b86e6c54ef93ea499f1d118ab9d018c986812e39c1d3ffee2775496896eea2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/general/theme-comparisons.md",
+    "path": "general/general/theme-comparisons.md",
+    "title": "Theme comparisons",
+    "liveSha256": "585f324933959bb5a6838abf441a997d43630f6a9640063ab4c78024abd8a496"
+  },
+  {
+    "url": "https://help.brickspacelab.com/support/store-access-request.md",
+    "path": "general/support/store-access-request.md",
+    "title": "Store access request",
+    "liveSha256": "e593d9bbcebaf62908c7eca131cdc2bdf9a639956d55143bea59f3835f9ee54a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/support/hire-a-shopify-developer.md",
+    "path": "general/support/hire-a-shopify-developer.md",
+    "title": "Hire a Shopify developer",
+    "liveSha256": "8cdbe9fd767113f4c56618056b4ce896a259fedc7b870d9083c346e0371d69ef"
+  },
+  {
+    "url": "https://help.brickspacelab.com/partners/theme-affiliate-program.md",
+    "path": "general/partners/theme-affiliate-program.md",
+    "title": "Affiliate program",
+    "liveSha256": "15beba8c0c77734bf6d8db02dce019dfdf93d57991dbb56e58e7cf10e5ebf462"
+  },
+  {
+    "url": "https://help.brickspacelab.com/partners/developer-program.md",
+    "path": "general/partners/developer-program.md",
+    "title": "Developer program",
+    "liveSha256": "a23c9f39d055ef0e37b0ff1a77c89a1cf4e456db327ed5467f2aed7f1120be77"
+  },
+  {
+    "url": "https://help.brickspacelab.com/partners/design-program.md",
+    "path": "general/partners/design-program.md",
+    "title": "Design program",
+    "liveSha256": "9836583f27e3f625f8171c8b25af6eb63b95043209b5a603c95c89b3ac5d1205"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/terms-of-service.md",
+    "path": "general/legal/terms-of-service.md",
+    "title": "Terms of service",
+    "liveSha256": "234db7fb9f912e2361a2f1caaa2c19a5380f8a1c1496f008c856bda9553905f4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/privacy-policy.md",
+    "path": "general/legal/privacy-policy.md",
+    "title": "Privacy policy",
+    "liveSha256": "e1c44c24117ae833272a14caa94cc072c85cd0ef5999ae08871e169fc02a465a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/software-license-slab.md",
+    "path": "general/legal/software-license-slab.md",
+    "title": "Software license \u2014 Slab",
+    "liveSha256": "a84c73afe0c9af30c1e747e94750d3dd26493ffe7a837b74359c25c0572f4ba9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/software-license-catalog.md",
+    "path": "general/legal/software-license-catalog.md",
+    "title": "Software license \u2014 Catalog",
+    "liveSha256": "05fabb29e9421b8891195689fbe7194ac36dd4eddf0293fc98df86c3344b6b75"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/refund-cancellation-policy.md",
+    "path": "general/legal/refund-cancellation-policy.md",
+    "title": "Refund and cancellation",
+    "liveSha256": "35fe1789f847084720bd8b4a116e5e0ec6a0efd53da04be1e5f73edae2a2841a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/cookie-consent.md",
+    "path": "general/legal/cookie-consent.md",
+    "title": "Cookies and consent",
+    "liveSha256": "f2cc4e825716edb7fc0657dad3481d536112d892bb9b4f8509719f9dc9bfe6f5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/legal/acceptable-use-policy.md",
+    "path": "general/legal/acceptable-use-policy.md",
+    "title": "Acceptable use policy",
+    "liveSha256": "c8660c2e6a7954f8adf63cce69cca316ccad4533058c402330f31d7f894d63e6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/readme.md",
+    "path": "paper/README.md",
+    "title": "Paper",
+    "liveSha256": "8cfa1966dc8713611edc8f91c8517ef2433ea5d79adeea4f20a835858181c922"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/changelog.md",
+    "path": "paper/changelog.md",
+    "title": "Changelog",
+    "liveSha256": "37f5b50715bf94f4493f85f43c566e47df3eff780b12caf28aa470ee6c10225e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/getting-started/theme-basics.md",
+    "path": "paper/getting-started/theme-basics.md",
+    "title": "Theme basics",
+    "liveSha256": "a6da48540207f2073d5b13aabc0415b14e407ddf3008dbdc2c3ff863b8d7d857"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/getting-started/theme-settings.md",
+    "path": "paper/getting-started/theme-settings/README.md",
+    "title": "Theme settings",
+    "liveSha256": "ca7efd5e5901a3c95c4e15901f93ef88465197046e048a0db2321232f565f1ab"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/getting-started/theme-settings/colors.md",
+    "path": "paper/getting-started/theme-settings/colors.md",
+    "title": "Colors",
+    "liveSha256": "6c42f9bfeda32b615568e1ab7d0e1cb78d3009f0aa9a73b66dd64366a5f11450"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/getting-started/theme-settings/typography.md",
+    "path": "paper/getting-started/theme-settings/typography.md",
+    "title": "Typography",
+    "liveSha256": "2634016074044cabd43f32eb5788ca2e4fc695606a9bb8f268fad54b8f2a085d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/getting-started/theme-settings/borders.md",
+    "path": "paper/getting-started/theme-settings/borders.md",
+    "title": "Borders",
+    "liveSha256": "e387b6916562075f46f8eb56420b3860983cac690578caefaeefc70970461f7f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/getting-started/theme-settings/quick-add.md",
+    "path": "paper/getting-started/theme-settings/quick-add.md",
+    "title": "Quick add",
+    "liveSha256": "b98be958504b5f1780611adf377ac7b5ed7373c9e381b9743a312b448963ee0f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics.md",
+    "path": "paper/guides/basics/README.md",
+    "title": "Basics",
+    "liveSha256": "1f90a502f2dbf174b4ea8e707558dc4a2d803f52de5be30f8bfadfc6e71649ae"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/edit-default-content.md",
+    "path": "paper/guides/basics/edit-default-content.md",
+    "title": "Edit default content",
+    "liveSha256": "3e7da6746f95497986aa3358cd814a58eedb45c701317e7edb5938df851ede5c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/use-custom-templates.md",
+    "path": "paper/guides/basics/use-custom-templates.md",
+    "title": "Use custom templates",
+    "liveSha256": "caa142115488540f273e709572946fdfcd7268430d34e43f73c3a06ae89e7dd5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/use-and-install-apps.md",
+    "path": "paper/guides/basics/use-and-install-apps.md",
+    "title": "Use and install apps",
+    "liveSha256": "f67da81890749b9bf4d5119240337328d869f8902efd4c30a74cad6b6bcc9bd6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/improve-page-speed.md",
+    "path": "paper/guides/basics/improve-page-speed.md",
+    "title": "Improve page speed",
+    "liveSha256": "7cefcc68af4a873b7f009fe091f056ede01e7b1f549985bf3cb9574f32e722ff"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/update-your-theme.md",
+    "path": "paper/guides/basics/update-your-theme.md",
+    "title": "Update your theme",
+    "liveSha256": "284b7e364b2f24dee503bf57e45dc7342c314d3f87a8661e2c4f5555766d8e9d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/seo-for-shopify.md",
+    "path": "paper/guides/basics/seo-for-shopify.md",
+    "title": "SEO for Shopify",
+    "liveSha256": "22050460b49ea6bcdd135fdbaea75014b41494029340b7543d4bd9cf6f18590f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/basics/accessibility-for-shopify.md",
+    "path": "paper/guides/basics/accessibility-for-shopify.md",
+    "title": "Accessibility for Shopify",
+    "liveSha256": "de244e8465ed2d9c813e028ed67b773057d08f52107e6bf6b7bdbdec492f88de"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products.md",
+    "path": "paper/guides/products/README.md",
+    "title": "Products",
+    "liveSha256": "4873e734a36011979b53ff713f4d1ab009be36e8944c7d8499bf7dd245b395fb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/product-badges.md",
+    "path": "paper/guides/products/product-badges.md",
+    "title": "Product badges",
+    "liveSha256": "b32e6a6bf07ddf1c34b0e447273eb57782572754094cfe105530ba957d42217c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/product-subtitles.md",
+    "path": "paper/guides/products/product-subtitles.md",
+    "title": "Product subtitles",
+    "liveSha256": "94703f7a05182484f62905f7f49b8885ed55ce48f6aabc96d3dc167b63db36d6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/variant-swatches.md",
+    "path": "paper/guides/products/variant-swatches.md",
+    "title": "Variant swatches",
+    "liveSha256": "e94e27dc97dc838a50db5cff342a71187d42f6e2ccf1268a75062182cdb5c035"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/fixed-buy-buttons.md",
+    "path": "paper/guides/products/fixed-buy-buttons.md",
+    "title": "Fixed buy buttons",
+    "liveSha256": "9f5bc81647d0fb64f8b4b72769a90ab2b0eca490a4e6f8c9e95f3dba668f00a9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/disabling-default-ratings-when-using-a-third-party-app.md",
+    "path": "paper/guides/products/disabling-default-ratings-when-using-a-third-party-app.md",
+    "title": "Disable default ratings when using a third-party app",
+    "liveSha256": "782b51392f18c6b9a01de83bda2f9b6fa19d1fabac300ddf6d5bca9f8c5a821d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/replacing-add-to-cart.md",
+    "path": "paper/guides/products/replacing-add-to-cart.md",
+    "title": "Replace \u201cAdd to cart\u201d",
+    "liveSha256": "522f529146643ef064825f4b4fb07553be009988ec70d8762c2fc957a19c808d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/option-blocks.md",
+    "path": "paper/guides/products/option-blocks.md",
+    "title": "Option blocks",
+    "liveSha256": "9c9ac24b274d1b667a29d373aca627483200b9056e4ed48e5ff2de38785cad9f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/dynamic-variant-images.md",
+    "path": "paper/guides/products/dynamic-variant-images.md",
+    "title": "Dynamic variant images",
+    "liveSha256": "1c3a62f95a6111cde796d778dded62245134fea56f4702d45e4a512790ab797e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/variant-image-filtering-with-shared-images.md",
+    "path": "paper/guides/products/variant-image-filtering-with-shared-images.md",
+    "title": "Variant image filtering with shared images",
+    "liveSha256": "e4e4f1d4a49b2fb11bcfd27e00884b63a0becb78032d33c421ac94a52846eb81"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/variant-filtering.md",
+    "path": "paper/guides/products/variant-filtering.md",
+    "title": "Variant filtering",
+    "liveSha256": "22c247c20234278d4f544e4e95c8653b97c6ffacb40be824f5c7636e9781f038"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/disabling-quick-add.md",
+    "path": "paper/guides/products/disabling-quick-add.md",
+    "title": "Disable quick add",
+    "liveSha256": "d862e4462b53f1298f8f37bd259d01c34bbc7bde9383cc796992f475d94ce830"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/customizing-filters.md",
+    "path": "paper/guides/products/customizing-filters.md",
+    "title": "Customize filters",
+    "liveSha256": "cabcc730dc80976bd924a8c54530a707e06f29d94be262a9073863ed04f3dab5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/gift-cards.md",
+    "path": "paper/guides/products/gift-cards.md",
+    "title": "Gift cards",
+    "liveSha256": "f36b91c23d4d8b81e008217e3c55efa7eee943278e9c221e6160bb81d2a48019"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/quantity-picker.md",
+    "path": "paper/guides/products/quantity-picker.md",
+    "title": "Quantity picker",
+    "liveSha256": "5d572006b667f11092b609431805db47f842147256dcb74512ce9a1b1b505069"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/subscription-options.md",
+    "path": "paper/guides/products/subscription-options.md",
+    "title": "Subscription options",
+    "liveSha256": "1e8001482c141fcc5b9bfdca03428750eb59a05da3b36ca4b5dc9d94e886bf42"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/sibling-products.md",
+    "path": "paper/guides/products/sibling-products.md",
+    "title": "Sibling products",
+    "liveSha256": "357b9d459650f5980c2e627bc8cf831b6685fe03299210eaaf118df95fa9301f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/bundled-products.md",
+    "path": "paper/guides/products/bundled-products.md",
+    "title": "Bundled products",
+    "liveSha256": "3c290f5cb57c454e42413241ad1da9b83c026b65cde696db2a1854c64da263f2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/custom-fields.md",
+    "path": "paper/guides/products/custom-fields.md",
+    "title": "Custom fields",
+    "liveSha256": "552f3be354f4cb906973cd74949d509e0bfa3e1f37912b70850b8237f825c3d5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/content-drawers.md",
+    "path": "paper/guides/products/content-drawers.md",
+    "title": "Content drawers",
+    "liveSha256": "2796df5585d00c30d1e4d9ee4ef4c7a603d18344e4b53290f272c1f74451621b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/products/hide-out-of-stock-variants.md",
+    "path": "paper/guides/products/hide-out-of-stock-variants.md",
+    "title": "Hide out of stock options",
+    "liveSha256": "d79df96746aaa69d9bc92d52ecb1ab95d929d73a0e382363a025af39f078dcfe"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/collections.md",
+    "path": "paper/guides/collections/README.md",
+    "title": "Collections",
+    "liveSha256": "0968a758b0703d0a2672c46d260d6944585ed57934f0ce122a45a2b01f3830c5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/collections/adding-tag-filtering.md",
+    "path": "paper/guides/collections/adding-tag-filtering.md",
+    "title": "Add tag filtering",
+    "liveSha256": "79cec1b52343f95cff4432fbe0bd03eee29eb8f3b14ea206b13b89c60578e29a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/collections/adding-nested-menu.md",
+    "path": "paper/guides/collections/adding-nested-menu.md",
+    "title": "Add a nested menu",
+    "liveSha256": "bf96d494dcdc13477a9ced8cda5a03948a5d060ea984398c829aeffec45fae34"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/collections/collection-blocks.md",
+    "path": "paper/guides/collections/collection-blocks.md",
+    "title": "Collection blocks",
+    "liveSha256": "b3a9544414198d6c994dc664913b941c65baa2c7d37a611d38999fd91c4be9de"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide.md",
+    "path": "paper/guides/sitewide/README.md",
+    "title": "Sitewide",
+    "liveSha256": "f873a28806607e322a1fc0f4e45d148d077bef82ede46ce3b73a32aacee5a9c4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/using-device-specific-visibility.md",
+    "path": "paper/guides/sitewide/using-device-specific-visibility.md",
+    "title": "Use device-specific visibility",
+    "liveSha256": "12c294cc4d12e37d983f023b5fa6a704052f7f4dcafb6f762dff78b3da25b212"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/embed-youtube-videos.md",
+    "path": "paper/guides/sitewide/embed-youtube-videos.md",
+    "title": "Embed YouTube videos",
+    "liveSha256": "2a89fb0de592f487ab5311e5c11d50fe98e55fd6eea17e31c89a3056148e28e6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/dynamic-discount-popups.md",
+    "path": "paper/guides/sitewide/dynamic-discount-popups.md",
+    "title": "Dynamic discount popups",
+    "liveSha256": "52e8de0b3a4fc426b16c6ef08ead757aec30753a286ca67b5e888d3f7cbc0d8d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/creating-a-mapbox-api-key.md",
+    "path": "paper/guides/sitewide/creating-a-mapbox-api-key.md",
+    "title": "Create a Mapbox API key",
+    "liveSha256": "bd8e13f015a5e2ab01bccc0029bb33d514f16a0c95d6cf06b2bfe4ffeab23585"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/designing-your-menu.md",
+    "path": "paper/guides/sitewide/designing-your-menu.md",
+    "title": "Design your menu",
+    "liveSha256": "e8a80cc84acbeb7cbca4f4824c02a2fef65e65f182486f75a3d2ad4ed57f216a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/migrating-custom-changes.md",
+    "path": "paper/guides/sitewide/migrating-custom-changes.md",
+    "title": "Migrate custom changes",
+    "liveSha256": "f22dd05d9012a8930ec42cec528eb6d8328640779f8d9c07dbe1b3aae377378f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/blog-tag-filtering.md",
+    "path": "paper/guides/sitewide/blog-tag-filtering.md",
+    "title": "Blog tag filtering",
+    "liveSha256": "2cef0e4b0671b2c580db7878c77663fc8a5ceead6a68d14bc731736bdc9c04d9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/search-results.md",
+    "path": "paper/guides/sitewide/search-results.md",
+    "title": "Search results",
+    "liveSha256": "8ddc2aa068b88474dd0892f7e4ab5bb4be0498e3a9885b5518d100afcea2bfc6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/guides/sitewide/installing-apps.md",
+    "path": "paper/guides/sitewide/installing-apps.md",
+    "title": "Installing apps",
+    "liveSha256": "7c5496e1633b02442b46b7e1370a0ff0993dbdae9073081763ff113650ec105a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/sitewide.md",
+    "path": "paper/sections/sitewide/README.md",
+    "title": "Sitewide",
+    "liveSha256": "02cadb3f8651282bf8e8a65555b7528c4773f89d881b0058710a973d8b384903"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/sitewide/header.md",
+    "path": "paper/sections/sitewide/header.md",
+    "title": "Header",
+    "liveSha256": "ad48b149e1395cdf5d8553388038612239c6ab2aa027ba2614703fb8ca0ab207"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/sitewide/cart-drawer.md",
+    "path": "paper/sections/sitewide/cart-drawer.md",
+    "title": "Cart drawer",
+    "liveSha256": "95d19aa16942825ebb221075134158a7af8472c106831f3fbca406114aa53a8f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/sitewide/custom-liquid.md",
+    "path": "paper/sections/sitewide/custom-liquid.md",
+    "title": "Custom liquid",
+    "liveSha256": "3a70f3abf4c576dca271670f7b62d375189a900bff73069768041e295427ca28"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/navigation.md",
+    "path": "paper/sections/navigation/README.md",
+    "title": "Navigation",
+    "liveSha256": "31910d259fa14da99702c86e8455d0ab0cf812b73e08b15544a555fd142b67e2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/navigation/navigation-slider.md",
+    "path": "paper/sections/navigation/navigation-slider.md",
+    "title": "Navigation slider",
+    "liveSha256": "025ceb70f09cc4428eca917f7cca60e827851f93fea1c6e8aa8eebb44dabcb60"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media.md",
+    "path": "paper/sections/content-and-media/README.md",
+    "title": "Content and Media",
+    "liveSha256": "aa29cee4d442249ede7849ceeb8fc67b58e18916e1c4942e35294587492f0736"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/slideshow.md",
+    "path": "paper/sections/content-and-media/slideshow.md",
+    "title": "Slideshow",
+    "liveSha256": "e3f0196693debaf0efd019d2c212815c5c7a3f24a2a46849ad74eefc62f62dac"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/collage.md",
+    "path": "paper/sections/content-and-media/collage.md",
+    "title": "Collage",
+    "liveSha256": "a46e0cc528f1f62b36ef59c02a80d8503f9c8acd9da05a4bb8e1d1e351715eca"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/video.md",
+    "path": "paper/sections/content-and-media/video.md",
+    "title": "Video",
+    "liveSha256": "718838845998bbd13362d0df71d5d23e766d7a874f0e7a3ae06a6d6ad269d324"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/alternative-banner.md",
+    "path": "paper/sections/content-and-media/alternative-banner.md",
+    "title": "Alternative banner",
+    "liveSha256": "7a3a3ef16053bae29831f8baf2c184620705655c394f6b184c30c8e909abb134"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/banner.md",
+    "path": "paper/sections/content-and-media/banner.md",
+    "title": "Banner",
+    "liveSha256": "edc4a77a63824b11961bd38cd47a284a286dcf7903f806e7aad81f50b40a7e4d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/collapsible-content.md",
+    "path": "paper/sections/content-and-media/collapsible-content.md",
+    "title": "Collapsible content",
+    "liveSha256": "5f34eeb90d119cd091b5afaece609145b83a2ac3ddad3dd14c4a2d8cde4ec8cf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/blog-posts-grid.md",
+    "path": "paper/sections/content-and-media/blog-posts-grid.md",
+    "title": "Blog posts grid",
+    "liveSha256": "5f55ab2c02a56cd8cf809a68b553d4de9cdea99ff0586d8f35d7e5dab027d56b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/icon-grid.md",
+    "path": "paper/sections/content-and-media/icon-grid.md",
+    "title": "Icon grid",
+    "liveSha256": "8239d2d74afd649204bcfbdfb46aa789a42278703c08a4e3ab98c655dd9dc130"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/discount-banner.md",
+    "path": "paper/sections/content-and-media/discount-banner.md",
+    "title": "Discount banner",
+    "liveSha256": "de6ccfd95cd6d3dbbff5f4a330e9207ce05e8538263203a15c545c8fa87431ea"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/rich-text.md",
+    "path": "paper/sections/content-and-media/rich-text.md",
+    "title": "Rich text",
+    "liveSha256": "301e29bad76c79ab04837215e78da06dfccfe7d70bfee963fb25989c72866e24"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/logo-list.md",
+    "path": "paper/sections/content-and-media/logo-list.md",
+    "title": "Logo list",
+    "liveSha256": "67fefa4d464790fea8a8b029fcb2e4a13d9e93f5488e911e0af30ad90fd9865b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/slider.md",
+    "path": "paper/sections/content-and-media/slider.md",
+    "title": "Slider",
+    "liveSha256": "6719fea696db10c8ec032acebde294c2e80a9571838d780a63b94612772ee393"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/testimonials.md",
+    "path": "paper/sections/content-and-media/testimonials.md",
+    "title": "Testimonials",
+    "liveSha256": "38284b6ebf7102802ece99b8f7c1c053095d4bbaa63e62005bf5c468898fc976"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/countdown.md",
+    "path": "paper/sections/content-and-media/countdown.md",
+    "title": "Countdown",
+    "liveSha256": "8e4f3b9d5a3bc86ad665dd4499d38171573720e1a4492899770de0f5a6ce6d37"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/image-comparison.md",
+    "path": "paper/sections/content-and-media/image-comparison.md",
+    "title": "Image comparison",
+    "liveSha256": "5ff9075c1f92c9989b93dcb93c596bc8a767e71ad95ac1b926cf1791ad46be26"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/content-and-media/image-hotspot.md",
+    "path": "paper/sections/content-and-media/image-hotspot.md",
+    "title": "Image hotspot",
+    "liveSha256": "8a4a3dcdd84a912f34c857812d058868a87cf47707528ead734ca8c3ec00b974"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections.md",
+    "path": "paper/sections/products-and-collections/README.md",
+    "title": "Products and Collections",
+    "liveSha256": "b7c13f7382b8824629edf585c9eda254220678b84abf820fd46f9b02c82634df"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/featured-product.md",
+    "path": "paper/sections/products-and-collections/featured-product.md",
+    "title": "Featured product",
+    "liveSha256": "8cfad3893cc682c9dbdedb16a295c8bfaab7db8783631e8ebb4e3718576ea9ac"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/featured-collection-grid.md",
+    "path": "paper/sections/products-and-collections/featured-collection-grid.md",
+    "title": "Featured collection grid",
+    "liveSha256": "be42275d36be9a7a04a1cbfa4baae7843a683c0d7fc200a678da58467401f68c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/featured-collection-slider.md",
+    "path": "paper/sections/products-and-collections/featured-collection-slider.md",
+    "title": "Featured collection slider",
+    "liveSha256": "0a56fc9e18894a87a0e7586d94485de644f10c0eaf54359ea19270d84b8c6e77"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/collection-list-grid.md",
+    "path": "paper/sections/products-and-collections/collection-list-grid.md",
+    "title": "Collection list grid",
+    "liveSha256": "b82b921967e02f7e638c74ed64ce0ddc10fd52afa5e4e88d352c97ecdb014814"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/alternative-collection-grid.md",
+    "path": "paper/sections/products-and-collections/alternative-collection-grid.md",
+    "title": "Alternative collection grid",
+    "liveSha256": "52149fc36daba4429deba64f46e333668213e296d0bcacb9e8d73028e4301dfc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/comparison-table.md",
+    "path": "paper/sections/products-and-collections/comparison-table.md",
+    "title": "Comparison table",
+    "liveSha256": "e5ea5f4fef745ed70d177920b952891c05ef69b7a3f6eb1fb5218d1c95803b6a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/recently-viewed.md",
+    "path": "paper/sections/products-and-collections/recently-viewed.md",
+    "title": "Recently viewed",
+    "liveSha256": "de01b61cc5224d92ec17c3e046b59394c099df7732c1fa6ccc3e9ad8df508985"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/products-and-collections/collection-list-slider.md",
+    "path": "paper/sections/products-and-collections/collection-list-slider.md",
+    "title": "Collection list slider",
+    "liveSha256": "fa5568ec0b7303786518a9bd82914a92d8b0799dff0b2c2ac4223eb33aee2d7c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/forms.md",
+    "path": "paper/sections/forms/README.md",
+    "title": "Forms",
+    "liveSha256": "701469fc4ddaf53a758a5dfbf2861781ea40aa2cf68333f33e4fdb84195c7b9c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/forms/email-sign-up.md",
+    "path": "paper/sections/forms/email-sign-up.md",
+    "title": "Email sign-up",
+    "liveSha256": "228314d7d3981e51c44d57da13acd5be3a127a766d23dc7ffe67de4640859a86"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/forms/contact-form.md",
+    "path": "paper/sections/forms/contact-form.md",
+    "title": "Contact form",
+    "liveSha256": "6a2ab08acf0836017773c00109a8124422709430e69a203498911f44abb9f6bf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/sections/forms/store-locator.md",
+    "path": "paper/sections/forms/store-locator.md",
+    "title": "Store locator",
+    "liveSha256": "ae96140e9f127180fb38ac9774915381ac9acab139af9c3b7405cfb9333def4a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/adding-custom-liquid.md",
+    "path": "paper/advanced-customizations/adding-custom-liquid/README.md",
+    "title": "Add custom Liquid",
+    "liveSha256": "47465df1572209f0dbc2da571f3a493a2405d3f1fe9fb892fa45180d833e356e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/adding-custom-liquid/popular-custom-liquid.md",
+    "path": "paper/advanced-customizations/adding-custom-liquid/popular-custom-liquid/README.md",
+    "title": "Popular custom liquid",
+    "liveSha256": "e1fcbca1d8aa62a229611f59bddf734946342313abbdc1966a5666c774ff9d2c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md",
+    "path": "paper/advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md",
+    "title": "Show variant metafield content",
+    "liveSha256": "06c9ccc08d49311413a5b14045c45be136aee2f23eb006ce11725ebd42902176"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-css.md",
+    "path": "paper/advanced-customizations/using-custom-css.md",
+    "title": "Add custom CSS",
+    "liveSha256": "24cff45843070aad2624029af92c7ab9b19460defb7940a2eeb222a538066250"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-css/popular-css-customizations.md",
+    "path": "paper/advanced-customizations/popular-css-customizations/README.md",
+    "title": "Popular custom CSS",
+    "liveSha256": "8c2ec3a541b08c7e71a2b678fc5b5f1225a47a7c9e1bd2fdaa17e975de453338"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-css/popular-css-customizations/change-background-color.md",
+    "path": "paper/advanced-customizations/popular-css-customizations/change-background-color.md",
+    "title": "Change background color",
+    "liveSha256": "00585bd11be4ed23789fe832b6f58de682333d90e4a176a315f9dc4dda2f068b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-css/popular-css-customizations/change-button-color.md",
+    "path": "paper/advanced-customizations/popular-css-customizations/change-button-color.md",
+    "title": "Change button color",
+    "liveSha256": "5b1ab3057d6b1560112f66de255cf161f63437ceef4090d9b744d66ab156428f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-css/popular-css-customizations/change-heading-color.md",
+    "path": "paper/advanced-customizations/popular-css-customizations/change-heading-color.md",
+    "title": "Change heading color",
+    "liveSha256": "449bd617a9054fd4204115ecfe6789769cdea2734d9ad3cf710d358bbb61eebd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-css/popular-css-customizations/adjust-button-size.md",
+    "path": "paper/advanced-customizations/popular-css-customizations/adjust-button-size.md",
+    "title": "Change button size",
+    "liveSha256": "ca4eb746e07d97c1f862c8fdee32e8aece85207190820eb79c12a99c461f26bf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/adding-custom-javascript.md",
+    "path": "paper/advanced-customizations/adding-custom-javascript.md",
+    "title": "Add custom JavaScript",
+    "liveSha256": "9d0008643d7ad9a80207a19eb604756e4fff5f40f6095df0d70939063c712c96"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/using-custom-fonts.md",
+    "path": "paper/advanced-customizations/using-custom-fonts.md",
+    "title": "Use custom fonts",
+    "liveSha256": "bfc4f3012d72e9d20205b622e43141bfbcfbe1028fbb4e6ec7462eacac640324"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/advanced-customizations/installing-a-review-app.md",
+    "path": "paper/advanced-customizations/installing-a-review-app.md",
+    "title": "Install a review app",
+    "liveSha256": "d7bb9df248f285d318fab0ed759c7f98a25bf645a280ebeeb70f27a52ba3d8e0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/general/support-policy.md",
+    "path": "paper/general/support-policy.md",
+    "title": "Support policy",
+    "liveSha256": "07eba8729c4f10b5370dc74fb2cfc086ec9dde3c0a471bdc44aef8d47a9c1587"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/general/theme-license.md",
+    "path": "paper/general/theme-license.md",
+    "title": "Theme license",
+    "liveSha256": "56db81c9de0570542c942cc5596f18265080e0e14989e9852c78dcb7363d5e6a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/general/known-issues-and-troubleshooting.md",
+    "path": "paper/general/known-issues-and-troubleshooting/README.md",
+    "title": "Known issues and troubleshooting",
+    "liveSha256": "3db6674d92b63c0f042cdb303010b5a2dfa3765cbcf5caa0cb9426464d349e04"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/general/known-issues-and-troubleshooting/troubleshoot-load-more-on-collection-pages.md",
+    "path": "paper/general/known-issues-and-troubleshooting/troubleshoot-load-more-on-collection-pages.md",
+    "title": "Troubleshoot Load More on collection pages",
+    "liveSha256": "b28632671e0ed2059ec13dab726e7bd9d1feef1371177c47c92192463f0de731"
+  },
+  {
+    "url": "https://help.brickspacelab.com/paper/general/known-issues-and-troubleshooting/v8.0.1.md",
+    "path": "paper/general/known-issues-and-troubleshooting/v8.0.1.md",
+    "title": "v8.0.1",
+    "liveSha256": "e4822823bfc399defac875d4da287bec1a2844fed66a91bb4493867d8006ee5f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/readme.md",
+    "path": "space/README.md",
+    "title": "Space",
+    "liveSha256": "a94715cdacfbf2fb6800d538b83e8b7f6ca516d827e9baad41e2291dd8d8ca11"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/changelog.md",
+    "path": "space/changelog.md",
+    "title": "Changelog",
+    "liveSha256": "d1954a22ec068f0aa7e2284c385044996bc3f33248d11a9e793fb2a687714245"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/getting-started/theme-basics.md",
+    "path": "space/getting-started/theme-basics.md",
+    "title": "Theme basics",
+    "liveSha256": "136eb04ce32bd18da0d562fe04319a7164ab3eb1d6a4a05ab19693931d3345da"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/getting-started/theme-settings.md",
+    "path": "space/getting-started/theme-settings/README.md",
+    "title": "Theme settings",
+    "liveSha256": "0c1626b7fe1f1eff9bc13700b86b5c634206f59bf7224b44dbe4b6eb9890f92a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/getting-started/theme-settings/theme-typography.md",
+    "path": "space/getting-started/theme-settings/theme-typography.md",
+    "title": "Theme typography",
+    "liveSha256": "c359797d9789a9e492d1744467a49582de9cf1a3e41a9322a24632bfc6dafe2f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/getting-started/theme-settings/selecting-theme-colors.md",
+    "path": "space/getting-started/theme-settings/selecting-theme-colors.md",
+    "title": "Select theme colors",
+    "liveSha256": "8a27eb321add842256a25ca29856ce9d2ec67621a630fbf63968fedf4d64b041"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics.md",
+    "path": "space/guides/basics/README.md",
+    "title": "Basics",
+    "liveSha256": "2e8dd12696340890b95aaa0c5a79654facb156bb3f50d402be8f702e81ad0b47"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/edit-default-content.md",
+    "path": "space/guides/basics/edit-default-content.md",
+    "title": "Edit default content",
+    "liveSha256": "8546b812e2c233d6be67fff23c224c9e7c4df30a317b319f2b471041ee523d7b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/use-custom-templates.md",
+    "path": "space/guides/basics/use-custom-templates.md",
+    "title": "Use custom templates",
+    "liveSha256": "168d95d28b84a8d7a684c25cf5d266586111d64a6ad66c2981cf5333f7b1b3b1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/use-and-install-apps.md",
+    "path": "space/guides/basics/use-and-install-apps.md",
+    "title": "Use and install apps",
+    "liveSha256": "7a6d615cd155bfa136c26884122aec9dca554de4189db583e3ed53bdf3994dd8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/improve-page-speed.md",
+    "path": "space/guides/basics/improve-page-speed.md",
+    "title": "Improve page speed",
+    "liveSha256": "c92c0e9affbc9c0a6dd3becb104a97be15f007b5c4c027efc19d0ad9058514a6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/update-your-theme.md",
+    "path": "space/guides/basics/update-your-theme.md",
+    "title": "Update your theme",
+    "liveSha256": "e39e32b5975e6eb9166d351726c000a5948df2db178524180f2e0f7685ca0a99"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/seo-for-shopify.md",
+    "path": "space/guides/basics/seo-for-shopify.md",
+    "title": "SEO for Shopify",
+    "liveSha256": "80a8edabae2335846cd3c7673ac6d028d33a1328b56cd4f69df0acea599c6ee9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/basics/accessibility-for-shopify.md",
+    "path": "space/guides/basics/accessibility-for-shopify.md",
+    "title": "Accessibility for Shopify",
+    "liveSha256": "e73078781c897190c623a5c69e7ce1737033f65f6cb8aae6b0052b948a7a4011"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products.md",
+    "path": "space/guides/products/README.md",
+    "title": "Products",
+    "liveSha256": "6171c58cce66df075ce7de49f12065b7a641da43b94afb6f3e78b26d5df741d4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/adding-product-subtitles.md",
+    "path": "space/guides/products/adding-product-subtitles.md",
+    "title": "Product subtitles",
+    "liveSha256": "7ddaafea3fdabb7dfc8992de64a0ad646fe3e05e63d7168bbc2f602521706384"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/adding-product-badges.md",
+    "path": "space/guides/products/adding-product-badges.md",
+    "title": "Product badges",
+    "liveSha256": "c6c3bb25d1f4b0fafe859e1d7b80b11aaa921e9e87c753d2dac46f30c8d55944"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/replacing-add-to-cart-for-a-product.md",
+    "path": "space/guides/products/replacing-add-to-cart-for-a-product.md",
+    "title": "Replace \"Add to cart\" for a product",
+    "liveSha256": "69da58728d72d551ee9e7a369872fab8cb719d8183b3d457422599f04e333786"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/disable-quick-add-for-a-product.md",
+    "path": "space/guides/products/disable-quick-add-for-a-product.md",
+    "title": "Disable \"quick add\"",
+    "liveSha256": "ab5efe4347a113450c97e5d7bade8f1065f81f30dff839db0754fe682ee200d4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/variant-swatches.md",
+    "path": "space/guides/products/variant-swatches.md",
+    "title": "Variant swatches",
+    "liveSha256": "78a9d5f2bfab9652d1389564cf11e8bed4a01d35ff4c6809f584f37b1c37e315"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/fixed-buy-buttons.md",
+    "path": "space/guides/products/fixed-buy-buttons.md",
+    "title": "Fixed buy buttons",
+    "liveSha256": "b5cafca837b5593ff43910f2d1727acbbe335d16cad8104cf17ba7a159652df4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/customize-the-sticky-buy-button.md",
+    "path": "space/guides/products/customize-the-sticky-buy-button.md",
+    "title": "Customize the sticky buy button",
+    "liveSha256": "5062c900c0784f269489a7c73982a97f5a81eee412e352e9a11bb1e38c2e12d2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/replacing-add-to-cart.md",
+    "path": "space/guides/products/replacing-add-to-cart.md",
+    "title": "Replace \u201cAdd to cart\u201d",
+    "liveSha256": "bdfa4299dca1ce12311238dd00920c81bc7463f372107d1382f20bbe8dde5a81"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/dynamic-variant-images.md",
+    "path": "space/guides/products/dynamic-variant-images.md",
+    "title": "Dynamic variant images",
+    "liveSha256": "363a3b0f78bfcb2eb6f55ac9f431325ad1221396fa3c49a731a9389a9da45933"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/variant-filtering.md",
+    "path": "space/guides/products/variant-filtering.md",
+    "title": "Variant filtering",
+    "liveSha256": "dab6d64b738ba5a53dd9b3379d894146efc84bfbb18bf3b86c2c654a4275a19c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/disabling-quick-add.md",
+    "path": "space/guides/products/disabling-quick-add.md",
+    "title": "Disable quick add",
+    "liveSha256": "875f0a939883ed06da54ad4117fac65455c04eaf226c922b41e408f5031dd1b3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/customizing-filters.md",
+    "path": "space/guides/products/customizing-filters.md",
+    "title": "Customize filters",
+    "liveSha256": "76675822bdd51caab3eec488586338ea01f510b1e4c20e0f89f6f071f5f98340"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/gift-cards.md",
+    "path": "space/guides/products/gift-cards.md",
+    "title": "Gift cards",
+    "liveSha256": "d33d7f7075f33036c5ae2c17cc384d8dec58259294d2a5697c31820139de3d3a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/quantity-picker.md",
+    "path": "space/guides/products/quantity-picker.md",
+    "title": "Quantity picker",
+    "liveSha256": "641fe0cc0cfac5b70d50b60b5115bd55ac817b4a236908616ed2a1a2763e51aa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/subscription-options.md",
+    "path": "space/guides/products/subscription-options.md",
+    "title": "Subscription options",
+    "liveSha256": "80fcff11337fafecaedda05fe1b78866610734c62e0ad2258f0f2a9686e3fb6c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/sibling-products.md",
+    "path": "space/guides/products/sibling-products.md",
+    "title": "Sibling products",
+    "liveSha256": "d89846d0d874ee92cf0e5b38c182bfe2e109d852e671d29c5a3a6e6946ec0ace"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/bundled-products.md",
+    "path": "space/guides/products/bundled-products.md",
+    "title": "Bundled products",
+    "liveSha256": "f00a25fc7d3b13546cd2f7a1ea75cc05aad0cf9accf99cbf7cd3cc5403ebca23"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/custom-fields.md",
+    "path": "space/guides/products/custom-fields.md",
+    "title": "Custom fields",
+    "liveSha256": "00b646fa2838f079e06e9ab3b9ccf48daa91e89dd5dfb826e93fcc1e4da1bee5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/content-drawers.md",
+    "path": "space/guides/products/content-drawers.md",
+    "title": "Content drawers",
+    "liveSha256": "913d1751729a3cab81ec8862a06257b3013a0e6933a2b3f731cdbcb604361618"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/products/hide-out-of-stock-variants.md",
+    "path": "space/guides/products/hide-out-of-stock-variants.md",
+    "title": "Hide out of stock options",
+    "liveSha256": "d319458d93ddf393994e9c7998e47cbe1bfeac4d45e682b9946c96e743a5c8fa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/collections.md",
+    "path": "space/guides/collections/README.md",
+    "title": "Collections",
+    "liveSha256": "2b730158a8051f9b5e42f04e647699c712e1b96754d2f5dab5d63aef936b93a5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/collections/collection-filters.md",
+    "path": "space/guides/collections/collection-filters.md",
+    "title": "Customize filters",
+    "liveSha256": "1db2e32e428da6bcf7431f173f3824c0b2099dd16791d8c67394f320d7780f69"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/collections/collection-tag-filtering.md",
+    "path": "space/guides/collections/collection-tag-filtering.md",
+    "title": "Tag filtering",
+    "liveSha256": "9ddc9ba55a8e2fd86be4536051fbc002ccebc26e686c1fca7b410aa5edd23e0d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/collections/collection-nested-menu.md",
+    "path": "space/guides/collections/collection-nested-menu.md",
+    "title": "Nested menu",
+    "liveSha256": "e3b54981cb9a151db7d7b418728525f82a70cce43fb18ae5d7ff3e7eebcd9788"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/collections/collection-blocks.md",
+    "path": "space/guides/collections/collection-blocks.md",
+    "title": "Collection blocks",
+    "liveSha256": "afa9c6c59dd7e5f836dc6ef7e38cad0ccbf29b0266115914a2a8d1b054e3616c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide.md",
+    "path": "space/guides/sitewide/README.md",
+    "title": "Sitewide",
+    "liveSha256": "58e9faf98466bfa136f257c97e5478715de3bc61121f645df928a4d060a11f41"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/using-color-and-option-swatches.md",
+    "path": "space/guides/sitewide/using-color-and-option-swatches.md",
+    "title": "Use color and option swatches",
+    "liveSha256": "35cc3692a2fad41f9d33cabab07a68ca0ea302c7347aaa74e799e5c242459cde"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/using-device-specific-visibility.md",
+    "path": "space/guides/sitewide/using-device-specific-visibility.md",
+    "title": "Use device-specific visibility",
+    "liveSha256": "0c212a02310b47a08d96a0c1b1c251fdf6e27112c9c20a834ad938569326df90"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/embed-youtube-videos.md",
+    "path": "space/guides/sitewide/embed-youtube-videos.md",
+    "title": "Embed YouTube videos",
+    "liveSha256": "dbdab23820e3c9972df8176f6742d91c390e79907222d5d162cfe4e5e0ea82ec"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/dynamic-discount-popups.md",
+    "path": "space/guides/sitewide/dynamic-discount-popups.md",
+    "title": "Dynamic discount popups",
+    "liveSha256": "98276dd9e6fe6848eb33be886b6375e955586fdd5f2d913341b35a1cedf0042d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/blog-tag-filtering.md",
+    "path": "space/guides/sitewide/blog-tag-filtering.md",
+    "title": "Blog tag filtering",
+    "liveSha256": "fda1ec86770918870a1e900e82fefba07491f640579022da0f17aaac707f70c5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/article-table-of-contents.md",
+    "path": "space/guides/sitewide/article-table-of-contents.md",
+    "title": "Article table of contents",
+    "liveSha256": "9e2b31b0ed278d39c09700c70f4026972cd9c24147e784237a74b52edc931c15"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/search-results.md",
+    "path": "space/guides/sitewide/search-results.md",
+    "title": "Search results",
+    "liveSha256": "c662f3682bf6d27501ad5111a50dbb9eaa568d3afec1324efb2455d567cb1654"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/installing-apps.md",
+    "path": "space/guides/sitewide/installing-apps.md",
+    "title": "Installing apps",
+    "liveSha256": "a0fe5cf3635d620a86dd3f6d4170ecea4c7dfa1406972854bce1bb2896c698e2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/guides/sitewide/add-login-to-mobile-menu-drawer.md",
+    "path": "space/guides/sitewide/add-login-to-mobile-menu-drawer.md",
+    "title": "Add login to mobile menu drawer",
+    "liveSha256": "be6a7201641e02339a251810f14ff8388835857b588b237001e86233ef1832d4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/sitewide.md",
+    "path": "space/sections/sitewide/README.md",
+    "title": "Sitewide",
+    "liveSha256": "12a3dfc19e400faa12586af3ffe30adbc36600d926067a32b68701e960d5c096"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/sitewide/header.md",
+    "path": "space/sections/sitewide/header.md",
+    "title": "Header",
+    "liveSha256": "e7620d2ef708ea8a499c21cdb562d7d5e8afbb7876be52d6cb520c1adc3ca7c8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/sitewide/footer.md",
+    "path": "space/sections/sitewide/footer.md",
+    "title": "Footer",
+    "liveSha256": "42d6ecc9232bff082f8614e42a65eab67e65f6092747a30e7feed8a8e5b1a1df"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/sitewide/announcement.md",
+    "path": "space/sections/sitewide/announcement.md",
+    "title": "Announcement",
+    "liveSha256": "6ccde58276fcc6fe81669f809f0ee9eb426f370d19450fe37215730c7c1e6aac"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/sitewide/cart-drawer.md",
+    "path": "space/sections/sitewide/cart-drawer.md",
+    "title": "Cart drawer",
+    "liveSha256": "f63362083400b246b5928751f957cf52037819d4034dec09a01e45092e6fb220"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/navigation.md",
+    "path": "space/sections/navigation/README.md",
+    "title": "Navigation",
+    "liveSha256": "e26690092d8ec1619b239aad0d95538afec062399f27c2c391eba642a9d78ada"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/navigation/menu-drawer.md",
+    "path": "space/sections/navigation/menu-drawer.md",
+    "title": "Menu drawer",
+    "liveSha256": "aba092c1219c252f9ed2149e4090eb6838a8e801e8905dc41b7a66ea41d4bb7c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/navigation/fixed-menu.md",
+    "path": "space/sections/navigation/fixed-menu.md",
+    "title": "Fixed menu",
+    "liveSha256": "ceede1b29255f10d9fc3bb83262f87e81e1861236094a795114ffa8522de95ba"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/navigation/search-drawer.md",
+    "path": "space/sections/navigation/search-drawer.md",
+    "title": "Search drawer",
+    "liveSha256": "1586c65a03432f926c715788dc5cce54cbe23bfe8928ef912c9320411bc0521c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/navigation/navigation-slider.md",
+    "path": "space/sections/navigation/navigation-slider.md",
+    "title": "Navigation slider",
+    "liveSha256": "f5c55de44473d8a787ca02fc731dc515bc0f25a97d82523c6944e193a1e5f8d7"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media.md",
+    "path": "space/sections/content-and-media/README.md",
+    "title": "Content and Media",
+    "liveSha256": "9aca13913ed90dac02481589545ef6f49787a35ab0d56069c2267392b1b09779"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/video.md",
+    "path": "space/sections/content-and-media/video.md",
+    "title": "Video",
+    "liveSha256": "8f1d99c606256998b949468c2e3d5b915baed553081052819004a8d2a4378663"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/slideshow.md",
+    "path": "space/sections/content-and-media/slideshow.md",
+    "title": "Slideshow",
+    "liveSha256": "8ed8e80cb45118213dfb7b45592c5d2d4a95ff6a1976b2d9b260a41864ae1993"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/marquee.md",
+    "path": "space/sections/content-and-media/marquee.md",
+    "title": "Marquee",
+    "liveSha256": "26ed2d380540e0bd70402e961692e8d74f6a86475573acb41d55f6a101de671d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/split-banner.md",
+    "path": "space/sections/content-and-media/split-banner.md",
+    "title": "Split banner",
+    "liveSha256": "3220dd66d3addb096f7c74e7bb07808de4a772f8a6902d4a4338d984cec6f560"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/image-hotspot.md",
+    "path": "space/sections/content-and-media/image-hotspot.md",
+    "title": "Image hotspot",
+    "liveSha256": "42303d1207c76120b87d6f5a456b50b8a376e61495cd1cbf89522fa26d8c57cd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/countdown.md",
+    "path": "space/sections/content-and-media/countdown.md",
+    "title": "Countdown",
+    "liveSha256": "ddabc0916d9e5935a2dc41166e82b054b8eaaeb9abb218ae16b2fd2da583a909"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/discount.md",
+    "path": "space/sections/content-and-media/discount.md",
+    "title": "Discount",
+    "liveSha256": "401377db11b3280ddcffdd908f616485f4d44a42f6ca889b49dcae0c6f4ad535"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/logo-list.md",
+    "path": "space/sections/content-and-media/logo-list.md",
+    "title": "Logo list",
+    "liveSha256": "e6ae5d58a3e80e232cfebec9508613d98652d57004f9a71d1021b0ee55e337ae"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/banner.md",
+    "path": "space/sections/content-and-media/banner.md",
+    "title": "Banner",
+    "liveSha256": "47a9406dc74e5ad6f6468aa5708119593596a7cc15263cbb87e26d5c0c89adcc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/slider.md",
+    "path": "space/sections/content-and-media/slider.md",
+    "title": "Slider",
+    "liveSha256": "fdf300892c3f811c5fefcd9744bf8af636cfa9d0266d483627b08d0cd14bb1f4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/testimonial-slider.md",
+    "path": "space/sections/content-and-media/testimonial-slider.md",
+    "title": "Testimonial slider",
+    "liveSha256": "8486b26d4a8a21736060f228b76738559771bb4e17b69d532b3f45b23ab6d952"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/search-banner.md",
+    "path": "space/sections/content-and-media/search-banner.md",
+    "title": "Search banner",
+    "liveSha256": "2bea9ed9e29a35f5602e2ba8c842e61bfdc7c871b562e3b947e08871ee9d2ab1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/rich-text.md",
+    "path": "space/sections/content-and-media/rich-text.md",
+    "title": "Rich text",
+    "liveSha256": "08d98d351e01b87e197b79bee884d5dd7f655a25d0b646a9f7ad3e920b4ed067"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/blog-posts-grid.md",
+    "path": "space/sections/content-and-media/blog-posts-grid.md",
+    "title": "Blog posts grid",
+    "liveSha256": "5fc53ca5c4ed1eb86d9eee81d31fc3483c9ec3108359515c1a83f5c5844665e4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/testimonial-grid.md",
+    "path": "space/sections/content-and-media/testimonial-grid.md",
+    "title": "Testimonial grid",
+    "liveSha256": "0edaa51cd3c501f5d278661b8faecfa30d9a42b26681c92798f9b846375bc914"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/icon-grid.md",
+    "path": "space/sections/content-and-media/icon-grid.md",
+    "title": "Icon grid",
+    "liveSha256": "b760fe152f8b7e892e0f1b25e4e80d41fb079210d39fe841845b580f0dd9ca08"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/collapsible-content.md",
+    "path": "space/sections/content-and-media/collapsible-content.md",
+    "title": "Collapsible content",
+    "liveSha256": "03ffd24ab1a1fe551a740adee24016d10daba574009730be9862bf6e05e12325"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/tabs.md",
+    "path": "space/sections/content-and-media/tabs.md",
+    "title": "Tabs",
+    "liveSha256": "02a08c124b9f98acfdb24c2c2314f993fbf1e9f84cb0a57e02e2fb3db30548e2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/text-highlight.md",
+    "path": "space/sections/content-and-media/text-highlight.md",
+    "title": "Text highlight",
+    "liveSha256": "66a0f5f1556791605cfa077f43ecd4d56ce7c445ceb41f71f832bb3ed1186b3f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/block-reveal.md",
+    "path": "space/sections/content-and-media/block-reveal.md",
+    "title": "Block reveal",
+    "liveSha256": "e6c30e87cc149e4b03d85d2d1011f829d3a4a77f24cfa67d0fa24f25fa61ebf6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/tooltip.md",
+    "path": "space/sections/content-and-media/tooltip.md",
+    "title": "Tooltip",
+    "liveSha256": "d4cf94df822c095a73de6d4aa929c60ee4c38094747e86bb95fee00002a811ab"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/collage.md",
+    "path": "space/sections/content-and-media/collage.md",
+    "title": "Collage",
+    "liveSha256": "6126698e796546f03b964e79caba4f52057c489df472bb319fbf20e4fa42e455"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/content-and-media/comparison-table.md",
+    "path": "space/sections/content-and-media/comparison-table.md",
+    "title": "Comparison table",
+    "liveSha256": "9ffc6fac042eaed0c7d031412788a8547bc64567054195644fa032173a45fc0c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections.md",
+    "path": "space/sections/products-and-collections/README.md",
+    "title": "Products and Collections",
+    "liveSha256": "596945e7f25e069f0dbac65523db7c1cf9846cf229bfc42f181bab0fb2e889c0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/featured-product.md",
+    "path": "space/sections/products-and-collections/featured-product.md",
+    "title": "Featured product",
+    "liveSha256": "dd1efdfee19377e0befe913e42761f75159d19bf1b8b5976f95def6bfd954e97"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/alt-collection-grid.md",
+    "path": "space/sections/products-and-collections/alt-collection-grid.md",
+    "title": "Alt collection grid",
+    "liveSha256": "b017724135e99f4430b0f6cb21a41a6ab56432df4abf680b2c164dbb51ca69ac"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/collection-list-grid.md",
+    "path": "space/sections/products-and-collections/collection-list-grid.md",
+    "title": "Collection list grid",
+    "liveSha256": "14f0d81577f5a67fc5a1ab135f5374219a5045676aafbeca295dd149da3cf235"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/collection-list-slider.md",
+    "path": "space/sections/products-and-collections/collection-list-slider.md",
+    "title": "Collection list slider",
+    "liveSha256": "e459d8ac8d5ad453c2c78dff76815a866265495b12d28a9b87025a7acb9b3b34"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/collection-slider.md",
+    "path": "space/sections/products-and-collections/collection-slider.md",
+    "title": "Collection slider",
+    "liveSha256": "ea5f4e437d48fb949d32da0027c653160d68415cbbf30afbcc5b65fc8f8c048d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/featured-collection-grid.md",
+    "path": "space/sections/products-and-collections/featured-collection-grid.md",
+    "title": "Featured collection grid",
+    "liveSha256": "d85fd365dc1c9c58e990655f377b749167f7e67d6d6c6440f51a0aaab1677573"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/product-list.md",
+    "path": "space/sections/products-and-collections/product-list.md",
+    "title": "Product list",
+    "liveSha256": "a06f38a37cbf84ea5ddec3df444d383e84cf40e799d65a2c97b67089590bcc98"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/products-and-collections/recently-viewed.md",
+    "path": "space/sections/products-and-collections/recently-viewed.md",
+    "title": "Recently viewed",
+    "liveSha256": "a869830561be827bbab1139d50a76c7746e979be3a1ce629ea8e5b5eaf75ce5e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/forms.md",
+    "path": "space/sections/forms/README.md",
+    "title": "Forms",
+    "liveSha256": "0b0597e8684738c61b4aefee96b0ab11b84cb04b9f54a43dcfb37f97249c859c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/forms/static-chat.md",
+    "path": "space/sections/forms/static-chat.md",
+    "title": "Static chat",
+    "liveSha256": "58ee65eb488ac304dad42301dcaac2a62ab6788e99ba4596ab3a299b2af5a214"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/forms/email-sign-up.md",
+    "path": "space/sections/forms/email-sign-up.md",
+    "title": "Email sign-up",
+    "liveSha256": "db768444c319ae1ccefde8616f2095e211351f21be4b24097454ba413fba4012"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/forms/contact-form.md",
+    "path": "space/sections/forms/contact-form.md",
+    "title": "Contact form",
+    "liveSha256": "8f8a50356979f1429d94dbeb67c91eb6e8904b0d163d92cfd8d67bb8d0bb9243"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/forms/custom-liquid.md",
+    "path": "space/sections/forms/custom-liquid.md",
+    "title": "Custom liquid",
+    "liveSha256": "855385a01f94143c94c94b3b3a49c260d56d90651762106f5ff11632904e0edc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/sections/forms/store-locater.md",
+    "path": "space/sections/forms/store-locater.md",
+    "title": "Store locater",
+    "liveSha256": "2f837d9e3f898e28603be6618e03823041d2b649151447fe59d8956c0605d61b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/adding-custom-liquid.md",
+    "path": "space/advanced-customizations/adding-custom-liquid/README.md",
+    "title": "Add custom Liquid",
+    "liveSha256": "417626696f7548677d156bdb89ba6ec1dda29191c3a683ee30984cd4b810f8fa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/adding-custom-liquid/popular-custom-liquid.md",
+    "path": "space/advanced-customizations/adding-custom-liquid/popular-custom-liquid/README.md",
+    "title": "Popular custom liquid",
+    "liveSha256": "03ccca858554e9e55eede705dbd0df8d94a8f6dd877815d93ddd821340d11e8f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md",
+    "path": "space/advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md",
+    "title": "Show variant metafield content",
+    "liveSha256": "d84b4a75853d5bcbcd83cdd6cec46ef992de485b2b4c96188ea70f35ee88742c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-css.md",
+    "path": "space/advanced-customizations/using-custom-css.md",
+    "title": "Add custom CSS",
+    "liveSha256": "52ae460252efe2e4fbff6de789fe403ddec916684914fd2da68168ca6ea68b04"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-css/popular-css-customizations.md",
+    "path": "space/advanced-customizations/popular-css-customizations/README.md",
+    "title": "Popular custom CSS",
+    "liveSha256": "13d25b7a6e2b0f486edd6ae9e463d719f0e0a0a70fc38b3906d54ec55a1dcc98"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-css/popular-css-customizations/change-background-color.md",
+    "path": "space/advanced-customizations/popular-css-customizations/change-background-color.md",
+    "title": "Change background color",
+    "liveSha256": "72b9ca660006ecb7f49cab78ddaa882ce0768c2453482f58b3e88aacb5776f25"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-css/popular-css-customizations/change-button-color.md",
+    "path": "space/advanced-customizations/popular-css-customizations/change-button-color.md",
+    "title": "Change button color",
+    "liveSha256": "3cfacffa586db263cffd41344bb19b88c63de88bc0a1b5acdb1158c4b1979978"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-css/popular-css-customizations/change-heading-color.md",
+    "path": "space/advanced-customizations/popular-css-customizations/change-heading-color.md",
+    "title": "Change heading color",
+    "liveSha256": "deeb473e4b0a1a1e1dea2287a6fb8a556258c0755f9fc5ee442a822d41b82e61"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-css/popular-css-customizations/adjust-button-size.md",
+    "path": "space/advanced-customizations/popular-css-customizations/adjust-button-size.md",
+    "title": "Change button size",
+    "liveSha256": "ac155dbe4047c0981a2bcd9e48f0569a5af50f1f50f755a4d8052417ce3b7248"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/adding-custom-javascript.md",
+    "path": "space/advanced-customizations/adding-custom-javascript.md",
+    "title": "Add custom JavaScript",
+    "liveSha256": "07f3864664899823070145f96e59e56a6533042d54037db122592e8a8e946f9e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/using-custom-fonts.md",
+    "path": "space/advanced-customizations/using-custom-fonts.md",
+    "title": "Use custom fonts",
+    "liveSha256": "2b3c750fa113d8bb9c6352f524893c88a2047d0f483ff893c729192e1329df02"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/advanced-customizations/installing-a-review-app.md",
+    "path": "space/advanced-customizations/installing-a-review-app.md",
+    "title": "Install a review app",
+    "liveSha256": "4e1a8a0d5451d9583ab868c2cf0195829f6369761f70729c8be8b70c239f3b5c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/general/support-policy.md",
+    "path": "space/general/support-policy.md",
+    "title": "Support policy",
+    "liveSha256": "e7f7d2b574db23fef4ff7a8ef80e06a46edf71263c35046d4f0b814ff97001d9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/general/theme-license.md",
+    "path": "space/general/theme-license.md",
+    "title": "Theme license",
+    "liveSha256": "9fcfa7c35b5d2e6d2908d4c305c58437fea0533e145b86e937f666cc9a7b6c5a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/general/known-issues-and-troubleshooting.md",
+    "path": "space/general/known-issues-and-troubleshooting/README.md",
+    "title": "Known issues and troubleshooting",
+    "liveSha256": "791b5c42ed8dd609202aa135e935dd6e137f551f8bb871d6e56d3f4a80ecfa31"
+  },
+  {
+    "url": "https://help.brickspacelab.com/space/general/known-issues-and-troubleshooting/v2.0.0.md",
+    "path": "space/general/known-issues-and-troubleshooting/v2.0.0.md",
+    "title": "v2.0.0",
+    "liveSha256": "9e2337bcdf46632c1e2d3ebefbe1997bcc4eea05f6a45f1cc0784fdb1db14d6e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/readme.md",
+    "path": "keystone/README.md",
+    "title": "Keystone",
+    "liveSha256": "d65a65759c779eec4d599d05e33890699801a99c2d2cfdd6209d63ca463cb267"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/changelog.md",
+    "path": "keystone/changelog.md",
+    "title": "Changelog",
+    "liveSha256": "cace4904084a4812f8318be093f468352f4e8695277a9031c285c630ab45a01a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-basics.md",
+    "path": "keystone/getting-started/theme-basics.md",
+    "title": "Theme basics",
+    "liveSha256": "9274cbc20f3969cdf7b6d670ce6045c023f9154734416f52c17e38b747e326d7"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-settings.md",
+    "path": "keystone/getting-started/theme-settings/README.md",
+    "title": "Theme settings",
+    "liveSha256": "0cf2fc62b68180f94303aaa901a635970bc69dff4319211bb8f06a3356b25754"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-settings/colors.md",
+    "path": "keystone/getting-started/theme-settings/colors.md",
+    "title": "Colors",
+    "liveSha256": "990e343adca4e0ff854d61f08eb81bf0ecb5f2a14e4c317cf50dffb5a731fe61"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-settings/typography.md",
+    "path": "keystone/getting-started/theme-settings/typography.md",
+    "title": "Typography",
+    "liveSha256": "8ff63146b3d96dd7273aa941889d8db6217a80c0f028a7dda3187c4445fd9266"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-settings/borders.md",
+    "path": "keystone/getting-started/theme-settings/borders.md",
+    "title": "Borders",
+    "liveSha256": "dfde56e6245407d03d3fbee10d5f085f096863f37e9a3f0d9cbabfe938265fe6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-settings/prices.md",
+    "path": "keystone/getting-started/theme-settings/prices.md",
+    "title": "Prices",
+    "liveSha256": "f21ae9dd56acb7cd4a3c06fb77efca35830ac554e90c3860ef948424046b7854"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/getting-started/theme-settings/quick-add.md",
+    "path": "keystone/getting-started/theme-settings/quick-add.md",
+    "title": "Quick add",
+    "liveSha256": "12061e1ba2afbdd8824625d59489782575f976a84cce3cbbcfe24bc92144740a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics.md",
+    "path": "keystone/guides/basics/README.md",
+    "title": "Basics",
+    "liveSha256": "5a088e78f380aaac920010a337a475e42bc12874fb2792d252c2d159d644562d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/edit-default-content.md",
+    "path": "keystone/guides/basics/edit-default-content.md",
+    "title": "Edit default content",
+    "liveSha256": "7c9752a4f6758a0bca2a72b7eb16a9c3e7d803d6ed9e1b2cddd5f7e4ca72d5e8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/use-custom-templates.md",
+    "path": "keystone/guides/basics/use-custom-templates.md",
+    "title": "Use custom templates",
+    "liveSha256": "e174b2ecc4454c3118398edd68853337cb4b128d4409be67bc3cafb2e7a08a8d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/use-and-install-apps.md",
+    "path": "keystone/guides/basics/use-and-install-apps.md",
+    "title": "Use and install apps",
+    "liveSha256": "bd75e07b4069a4cc77faee838d0e7c80545c1cfb592658c283d83c0bd78d992f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/improve-page-speed.md",
+    "path": "keystone/guides/basics/improve-page-speed.md",
+    "title": "Improve page speed",
+    "liveSha256": "ab37f51b910b99dde9eaa084816d3ef12da40667dad2d1ab27a798d0a1b789ad"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/update-your-theme.md",
+    "path": "keystone/guides/basics/update-your-theme.md",
+    "title": "Update your theme",
+    "liveSha256": "17ab40ca88b148a64443f83fbbde025e49dcd0e2c1d633d1bf8dcd396e34e3df"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/seo-for-shopify.md",
+    "path": "keystone/guides/basics/seo-for-shopify.md",
+    "title": "SEO for Shopify",
+    "liveSha256": "2c16d650a133ca34ba1598c37939f62226eaad94fb811d935fa66eddd95bce0e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/basics/accessibility-for-shopify.md",
+    "path": "keystone/guides/basics/accessibility-for-shopify.md",
+    "title": "Accessibility for Shopify",
+    "liveSha256": "1e35b5afd58b90e915b2547418abdd3ba3cad73a2101c3dd5792f7b7704e9ac9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products.md",
+    "path": "keystone/guides/products/README.md",
+    "title": "Products",
+    "liveSha256": "c8b03a07b53b8caeea464ccb1d2a543942827a88b71dbe18ff37b5ca885d8241"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-badges.md",
+    "path": "keystone/guides/products/product-badges.md",
+    "title": "Product badges",
+    "liveSha256": "3b9046da1c5a528c385d2723d952674bc1cba66dba385380064872c2ba660e95"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-subtitles.md",
+    "path": "keystone/guides/products/product-subtitles.md",
+    "title": "Product subtitles",
+    "liveSha256": "c333ea1ea0a3e09ca35592e5b54389ac0745029f10d4233c8a9466764468288d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/metafields-on-product-cards.md",
+    "path": "keystone/guides/products/metafields-on-product-cards.md",
+    "title": "Metafields on product cards",
+    "liveSha256": "43fe1e0d2fbbdbf9bcb9e33d5ca7cd9f7eef14f498240aab75eb4dca9454bfb1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/custom-content-for-tables.md",
+    "path": "keystone/guides/products/custom-content-for-tables.md",
+    "title": "Custom content for tables",
+    "liveSha256": "8b3751b957366482a4ec3fecc8285936b2bb2dcc8d1b628a16cf53252daa207b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/replace-add-to-cart.md",
+    "path": "keystone/guides/products/replace-add-to-cart.md",
+    "title": "Replace \"Add to cart\"",
+    "liveSha256": "8cab8a6c52b85c570e2a96ca4b76a6d39113f5efa0da9e50a7da34ebbe77d21d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/disable-quick-add.md",
+    "path": "keystone/guides/products/disable-quick-add.md",
+    "title": "Disable quick add",
+    "liveSha256": "b704796d9ed819753c287735b771f9647e25e9637059cbac007723ed35936404"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/hide-out-of-stock-variants.md",
+    "path": "keystone/guides/products/hide-out-of-stock-variants.md",
+    "title": "Hide out of stock options",
+    "liveSha256": "aa3c5b433e5e89cbe6db2996420e40be4aaaab7731ddf8e0b895d42230a3c832"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-request-quote.md",
+    "path": "keystone/guides/products/product-request-quote.md",
+    "title": "Request a quote",
+    "liveSha256": "0e66b2de0995a2449e9358017f9aaf7a29b1236f82a0d20265c85cdc00b2ba6d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-variant-images.md",
+    "path": "keystone/guides/products/product-variant-images.md",
+    "title": "Dynamic variant images",
+    "liveSha256": "d2983d77c8cd37422f04fb4a0213848e5c2555ae740199d7b6863eaf224fe9af"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/show-variant-count-on-product-cards.md",
+    "path": "keystone/guides/products/show-variant-count-on-product-cards.md",
+    "title": "Show variant count on product cards",
+    "liveSha256": "1ec6e3607e06c110a3485a50fe04c6542ba8f55beb5b19ce2b12b92e092d2731"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/show-variant-data-in-product-tables.md",
+    "path": "keystone/guides/products/show-variant-data-in-product-tables.md",
+    "title": "Show variant data in the product table",
+    "liveSha256": "88169d1e0343532dfdcde84bb7d4943fe16d4006f9254d7687b7df10c028ea52"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-subscriptions.md",
+    "path": "keystone/guides/products/product-subscriptions.md",
+    "title": "Subscription options",
+    "liveSha256": "6ced2898d1140efe1043fe01250978af65ac9c8b72a9b76e1dab5c44cfb0d744"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-quantity-picker.md",
+    "path": "keystone/guides/products/product-quantity-picker.md",
+    "title": "Quantity picker",
+    "liveSha256": "93e967b52ed0d53c0a3499a0661f9f61e887bcb99f815a4a04184234197018fb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-combined-listing.md",
+    "path": "keystone/guides/products/product-combined-listing.md",
+    "title": "Combined listing",
+    "liveSha256": "d29626512e9cbb58acb93554343bcb9d6f8f74fb355fa9041f8ba7abbf79a780"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-linked-products.md",
+    "path": "keystone/guides/products/product-linked-products.md",
+    "title": "Linked products block",
+    "liveSha256": "0ed1c0cec10ee5226e5be6f54019ae0c7b2ba3173451dd72f46efcef2c671e1a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-content-drawer.md",
+    "path": "keystone/guides/products/product-content-drawer.md",
+    "title": "Content drawers",
+    "liveSha256": "fd4dd5525b96b83f056d58d45cd009fc4e5727a4cf65ebfe7638cdee65478779"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-custom-field.md",
+    "path": "keystone/guides/products/product-custom-field.md",
+    "title": "Custom fields",
+    "liveSha256": "8a7a0460c3af689e1bbda45f17c7fbe9a253bb1505cd70cfe5b81404adff7e94"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-bundle.md",
+    "path": "keystone/guides/products/product-bundle.md",
+    "title": "Bundled products",
+    "liveSha256": "c75f67316fa2ad34ac73320e6181dd05a74505033558ac09c67cc1ab94cf6a52"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/products/product-table-block.md",
+    "path": "keystone/guides/products/product-table-block.md",
+    "title": "Product table block",
+    "liveSha256": "54bee959f873557714df9489e632b29f4434ed59bdc788df6e6ef321c0fa569f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/collections.md",
+    "path": "keystone/guides/collections/README.md",
+    "title": "Collections",
+    "liveSha256": "82c8b57290b5973a46b084ce75f1bf9a428c6b042007d46ce12586e3fbd7d02c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/collections/collection-filters.md",
+    "path": "keystone/guides/collections/collection-filters.md",
+    "title": "Customize filters",
+    "liveSha256": "1a885959e5bbd9765423482dc4daafcff0b4c2e2313aad243dd9def0cb627138"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/collections/collection-tag-filtering.md",
+    "path": "keystone/guides/collections/collection-tag-filtering.md",
+    "title": "Add tag filtering",
+    "liveSha256": "55108b88bd67bd3951a97a9a27b634380127eae8324ca916af395db687f6bdc0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/collections/collection-nested-menu.md",
+    "path": "keystone/guides/collections/collection-nested-menu.md",
+    "title": "Add a nested menu",
+    "liveSha256": "30baeb8f94f0a515abfc2ab1833b86a170e21ec27ee5ed79870281c3de604541"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/collections/collection-blocks.md",
+    "path": "keystone/guides/collections/collection-blocks.md",
+    "title": "Collection blocks",
+    "liveSha256": "2c192c8f867a974c68203ef12fbe4509a182627716ccc164a8dce33666d7754b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide.md",
+    "path": "keystone/guides/sitewide/README.md",
+    "title": "Sitewide",
+    "liveSha256": "aa4136b2a9f6f9722a34dbe04fdf70a5ca447be7c723598eefe24dc640c7fff4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/color-and-option-swatches.md",
+    "path": "keystone/guides/sitewide/color-and-option-swatches.md",
+    "title": "Color and option swatches",
+    "liveSha256": "cf568ccaa467f1f457f24330d1c097e8055aa8a65b8ac046d92c1797cf68c2df"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/device-specific-visibility.md",
+    "path": "keystone/guides/sitewide/device-specific-visibility.md",
+    "title": "Device specific visibility",
+    "liveSha256": "047dff07892821349bdcf70152dedba2efde1c1559f48d849f470cca35db2d4a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/embed-youtube-videos.md",
+    "path": "keystone/guides/sitewide/embed-youtube-videos.md",
+    "title": "Embed YouTube videos",
+    "liveSha256": "691fd95e3f2d016411d3c828097b37c7b2ed7b6fc12a1a396f0d5d2715f96566"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/discount-popups.md",
+    "path": "keystone/guides/sitewide/discount-popups.md",
+    "title": "Discount popups",
+    "liveSha256": "6758bf6a116079a3f854beada5c1e2c8695ca49c5eabce827f1b7529d1bbdee1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/quick-reorder.md",
+    "path": "keystone/guides/sitewide/quick-reorder.md",
+    "title": "Quick re\u2011order",
+    "liveSha256": "0673f68ae9c3b30e0c0750399daa1072f889c84a5891ebed628fce77acae92fa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/configure-cart-drawer-progress-bar.md",
+    "path": "keystone/guides/sitewide/configure-cart-drawer-progress-bar.md",
+    "title": "Configure cart drawer progress bar",
+    "liveSha256": "8cdfcebbab7eacb41342130588351a8d81b36e38c943fd79d5690ffeb7eb1839"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/designing-your-menu.md",
+    "path": "keystone/guides/sitewide/designing-your-menu.md",
+    "title": "Design your menu",
+    "liveSha256": "ce93d71322d0a1a96a7d07a00df9962363545189f0b36cfb11b87998a5e72803"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/configure-dropdown-navigation-menus.md",
+    "path": "keystone/guides/sitewide/configure-dropdown-navigation-menus.md",
+    "title": "Configure dropdown navigation menus",
+    "liveSha256": "684365f2f3f3b95efba5f4342756c507f82e77d2fdf5b2f924ec82eeae4332e3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/set-up-mobile-specific-images.md",
+    "path": "keystone/guides/sitewide/set-up-mobile-specific-images.md",
+    "title": "Set up mobile-specific images",
+    "liveSha256": "d7668dd3c86dd3d193fbf6160588329b8cc7c1f0f711a0f79eca2fa49ec495d3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/article-table-of-contents.md",
+    "path": "keystone/guides/sitewide/article-table-of-contents.md",
+    "title": "Article table of contents",
+    "liveSha256": "eb82033f9d72720e12784ab8f7afcfafcd2905932a3f6084562473ab6a359ff2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/blog-tag-filtering.md",
+    "path": "keystone/guides/sitewide/blog-tag-filtering.md",
+    "title": "Blog tag filtering",
+    "liveSha256": "691d0621e3b340649350747910df28c4f7715cfd9f7de1ba8c89cd381186e1f9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/search-results.md",
+    "path": "keystone/guides/sitewide/search-results.md",
+    "title": "Search results",
+    "liveSha256": "2dfc317713475f775e616ce800c23d1fb45c29ebf5e894d59dbcd3ad3d5e21f5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/sitewide/installing-apps.md",
+    "path": "keystone/guides/sitewide/installing-apps.md",
+    "title": "Installing apps",
+    "liveSha256": "1f51cf3598eca9a37f9e2635a8cd3cea1fc22589ff6338be8ba7eea34359a55a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale.md",
+    "path": "keystone/guides/wholesale/README.md",
+    "title": "Wholesale",
+    "liveSha256": "b3d179222a3da83cdb3de6bb504005525f3ec244ae5a3c1f88d0339dc91f9459"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/guest-visibility-before-login.md",
+    "path": "keystone/guides/wholesale/guest-visibility-before-login.md",
+    "title": "Control guest visibility before login",
+    "liveSha256": "f8bd742d7d5995fe7faa8127f4738995d6a8d1bc14e8b719d3fe5595155ddd57"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/hide-prices.md",
+    "path": "keystone/guides/wholesale/hide-prices.md",
+    "title": "Hide prices",
+    "liveSha256": "e777adc14266e20a56e8a3c0ece23c3f475c38225636880bb0db91a0e1d2aa07"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/hide-products.md",
+    "path": "keystone/guides/wholesale/hide-products.md",
+    "title": "Hide products",
+    "liveSha256": "7408a4f0fbe7f743b96f055be1bbc5a79637fa653f4d923928224c78017f6f01"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/hide-blog-posts.md",
+    "path": "keystone/guides/wholesale/hide-blog-posts.md",
+    "title": "Hide blog posts",
+    "liveSha256": "173007584eb70999eeeee71592a9e7ccf56b6b1979c5bad275a266d7d3cf65f9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/customer-approval.md",
+    "path": "keystone/guides/wholesale/customer-approval.md",
+    "title": "Customer approval",
+    "liveSha256": "cd1341f9909bf8aa28f6cf147b8db274d30a8dba1dc689061c408e76a6a28d43"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/full-site-restriction.md",
+    "path": "keystone/guides/wholesale/full-site-restriction.md",
+    "title": "Full site restriction",
+    "liveSha256": "c5ca20a54e2adfc1cb5a8a714000d62fae2c47195b65b3b3aea5b86936434cd5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/minimum-order-amount.md",
+    "path": "keystone/guides/wholesale/minimum-order-amount.md",
+    "title": "Minimum order amount",
+    "liveSha256": "83b7dcf628324f3b0dcdfe340b0baf4cbb770bbbbcfefea0ea1a3612688af831"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/wholesale-pricing-apps.md",
+    "path": "keystone/guides/wholesale/wholesale-pricing-apps.md",
+    "title": "Wholesale pricing apps",
+    "liveSha256": "c17b1101c1577e143ed7510a3741c3e60d1492ce5ee5211b54993cd5ef1c8814"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/guides/wholesale/automate-with-flow.md",
+    "path": "keystone/guides/wholesale/automate-with-flow.md",
+    "title": "Automate with Flow",
+    "liveSha256": "e51b5232d532e7a905999400ec2629df9bc52ffd5bce1ab34fef1a48a8e815e5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide.md",
+    "path": "keystone/sections/sitewide/README.md",
+    "title": "Sitewide",
+    "liveSha256": "049ce65f803d1a5ca996603e3c3fca24ab059a2b4b994b747bf1921e3131230f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/header.md",
+    "path": "keystone/sections/sitewide/header.md",
+    "title": "Header",
+    "liveSha256": "7972c866f25d7f39d94294143b62d464d30f681cfb039361d5886668497a80ef"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/footer.md",
+    "path": "keystone/sections/sitewide/footer.md",
+    "title": "Footer",
+    "liveSha256": "c21b5ca0f7e403513b719ae727a501329d9e1ab70bd30044222580fbfe93b46d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/announcement.md",
+    "path": "keystone/sections/sitewide/announcement.md",
+    "title": "Announcement",
+    "liveSha256": "aa9e33afcdd531fd5d98ea2da655c863bd24dbcef3ce28b13e6c950c992295dc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/cart-drawer.md",
+    "path": "keystone/sections/sitewide/cart-drawer.md",
+    "title": "Cart drawer",
+    "liveSha256": "07d86804b6fcd010524ba8cd6ba23b1822dd225ed5c0c1a68340bce8b83066eb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/search-drawer.md",
+    "path": "keystone/sections/sitewide/search-drawer.md",
+    "title": "Search drawer",
+    "liveSha256": "fc278f1784742cbb1efb5d04545254fead00dcdc193ffc6ac2376c7c39b6d50d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/menu-drawer.md",
+    "path": "keystone/sections/sitewide/menu-drawer.md",
+    "title": "Menu drawer",
+    "liveSha256": "83bf7bb1daaeb3fe5f16df64f9f986e83c0c5599cee18147e942766e6814f5dd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/discount.md",
+    "path": "keystone/sections/sitewide/discount.md",
+    "title": "Discount",
+    "liveSha256": "ca254da6fc28f5c53e166918bf34173dcd4100140feea728e449ac896bf664be"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/account-drawer.md",
+    "path": "keystone/sections/sitewide/account-drawer.md",
+    "title": "Account drawer",
+    "liveSha256": "634b0869597a34cd20024536d96e4fde3c8966b75d8482fa98a62c681a363deb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/custom-liquid.md",
+    "path": "keystone/sections/sitewide/custom-liquid.md",
+    "title": "Custom liquid",
+    "liveSha256": "23cdaba2094a9122c841fe8c44ce3e57a9ef3eb9562d5c8a580a7e4e640bd590"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/sitewide/store-locater.md",
+    "path": "keystone/sections/sitewide/store-locater.md",
+    "title": "Store locater",
+    "liveSha256": "ad871220e74d2ce7dd2ea49d8bf502202e22f3554826f31af3847a07f373c7e8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/navigation.md",
+    "path": "keystone/sections/navigation/README.md",
+    "title": "Navigation",
+    "liveSha256": "67a86fc8665f1dba52cb5f4d6851808e128b1a46a488b030f1f26d750176bf85"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/navigation/navigation-links.md",
+    "path": "keystone/sections/navigation/navigation-links.md",
+    "title": "Navigation links",
+    "liveSha256": "52f9340af8f9138fb7130f80af2e722751323d6911945a3a4cd0540ec804fc67"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media.md",
+    "path": "keystone/sections/content-and-media/README.md",
+    "title": "Content and Media",
+    "liveSha256": "da33aee116d1929ab4db3f53a1948e68ee6df188118e172b63fb33a70b1c63e2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/banner.md",
+    "path": "keystone/sections/content-and-media/banner.md",
+    "title": "Banner",
+    "liveSha256": "b5d2efebedd5d245f6bbace9e66caaf89e810d012e1839839b36bbf6ea23896c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/image-hotspot.md",
+    "path": "keystone/sections/content-and-media/image-hotspot.md",
+    "title": "Image hotspot",
+    "liveSha256": "6e5f941729823267c97ed42636b2cc7126808587457fd8876ecf08c62ad708c0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/slideshow.md",
+    "path": "keystone/sections/content-and-media/slideshow.md",
+    "title": "Slideshow",
+    "liveSha256": "697f29ae51517bc75457c6a1e1499079584f2c4374b00acf3ee3975f707d320b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/countdown.md",
+    "path": "keystone/sections/content-and-media/countdown.md",
+    "title": "Countdown",
+    "liveSha256": "303865bfed21331336a5d9abe60158917f030c42a3fdf305057c7cc906da904e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/slider.md",
+    "path": "keystone/sections/content-and-media/slider.md",
+    "title": "Slider",
+    "liveSha256": "3ab85c2d907c6846326322f132973654f560a43a2bbf8a485bbf2a604ffd5e41"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/video.md",
+    "path": "keystone/sections/content-and-media/video.md",
+    "title": "Video",
+    "liveSha256": "caeae959d323fcbd1a477ac76ae19ee68ea62d3bbd787b7afaca50eba3249396"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/split-banner.md",
+    "path": "keystone/sections/content-and-media/split-banner.md",
+    "title": "Split banner",
+    "liveSha256": "cd639ae19c80a00b6339d83e6d17beba3951510ba0122e9f8d80a9d175d92468"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/testimonial-slider.md",
+    "path": "keystone/sections/content-and-media/testimonial-slider.md",
+    "title": "Testimonial slider",
+    "liveSha256": "28e3eb0e3dfbd20aea9e2fd9950819613ef742329775ce1e366b652aa9f556ad"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/search-banner.md",
+    "path": "keystone/sections/content-and-media/search-banner.md",
+    "title": "Search banner",
+    "liveSha256": "36272b601e6dc5dd2d56d4e417d912a53443f82f4d009709621de340b5e6479e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/marquee.md",
+    "path": "keystone/sections/content-and-media/marquee.md",
+    "title": "Marquee",
+    "liveSha256": "c0d01911b062425dbd5b4544a64734e324f2eac94e555b2f05f579f3575c2474"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/rich-text.md",
+    "path": "keystone/sections/content-and-media/rich-text.md",
+    "title": "Rich text",
+    "liveSha256": "e5ef57e6cf3b9be5f38eae3f03882c788eaf12dae266027f4389d85069a71091"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/blog-posts-grid.md",
+    "path": "keystone/sections/content-and-media/blog-posts-grid.md",
+    "title": "Blog posts grid",
+    "liveSha256": "e6113fd404684f01bdf03c4f1cc752acaef8dafef8d4708e8612323bf9b03c5c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/logo-list.md",
+    "path": "keystone/sections/content-and-media/logo-list.md",
+    "title": "Logo list",
+    "liveSha256": "8f0845df97defa423133869a84c525edd1779c6eb17e87269fbe4a81865156c2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/icon-grid.md",
+    "path": "keystone/sections/content-and-media/icon-grid.md",
+    "title": "Icon grid",
+    "liveSha256": "85ada4feb11255f183ef015aa0452eedb27cc2c3a708724e01cda173c531e704"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/collapsible-content.md",
+    "path": "keystone/sections/content-and-media/collapsible-content.md",
+    "title": "Collapsible content",
+    "liveSha256": "21920b221ec3a507a52a52c2c5deeb1b0047832c7e9063a680a953e1b888daec"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/tabs.md",
+    "path": "keystone/sections/content-and-media/tabs.md",
+    "title": "Tabs",
+    "liveSha256": "ee772dc5c6178cbc79ec2c2e1a388d825c4acf5f39b77a9186b34754d3449562"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/collage.md",
+    "path": "keystone/sections/content-and-media/collage.md",
+    "title": "Collage",
+    "liveSha256": "f222cda624918680f3b24e34886fe5ddc6a6c3b6c85152f525aa370def9f9fe8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/content-and-media/testimonial-grid.md",
+    "path": "keystone/sections/content-and-media/testimonial-grid.md",
+    "title": "Testimonial grid",
+    "liveSha256": "8a3e310499896fae9569fff1151abb9b1154e51254cb3bf48634bc9009da6b2b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections.md",
+    "path": "keystone/sections/products-and-collections/README.md",
+    "title": "Products and Collections",
+    "liveSha256": "37c6adc5ed55b00983006dd276280976b0cdc8c29da52fc452de31652f086fc9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/product-grid.md",
+    "path": "keystone/sections/products-and-collections/product-grid.md",
+    "title": "Product grid",
+    "liveSha256": "8e69424c3ea77514a9d9343d88cdc73035d6f705490f520f171cce3f493b4488"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/product-slider.md",
+    "path": "keystone/sections/products-and-collections/product-slider.md",
+    "title": "Product slider",
+    "liveSha256": "e905ef55a0e416069c987b975d6c4090184fa768ed9bcc544fd7f2922b50c8cd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/product-table.md",
+    "path": "keystone/sections/products-and-collections/product-table.md",
+    "title": "Product table",
+    "liveSha256": "1b7b23b71bc0341ca279ddad16be7b812940bb06e99f59e95a10b91fc96a9228"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/product-comparison.md",
+    "path": "keystone/sections/products-and-collections/product-comparison.md",
+    "title": "Product comparison",
+    "liveSha256": "e2bab051a9561ffb9f5090f46dbebd9a34a10818563a640a439cb52353550e43"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/recently-viewed.md",
+    "path": "keystone/sections/products-and-collections/recently-viewed.md",
+    "title": "Recently viewed",
+    "liveSha256": "e7935f2292609e1c9765a21a45bcce9ee13d9ba682d557119d628c166d59c90d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/collection-list-grid.md",
+    "path": "keystone/sections/products-and-collections/collection-list-grid.md",
+    "title": "Collection list grid",
+    "liveSha256": "030acfa9e1702d8eaf70190ac478091bddcb3a19f01aa87b221a498150cd5c67"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/collection-list-slider.md",
+    "path": "keystone/sections/products-and-collections/collection-list-slider.md",
+    "title": "Collection list slider",
+    "liveSha256": "a610dff960c26c6429994c52d5b0355b47a2706795a5922017f8c8bab95461aa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/featured-product.md",
+    "path": "keystone/sections/products-and-collections/featured-product.md",
+    "title": "Featured product",
+    "liveSha256": "0a3051f3f7dd1a64dc7e35314d2d0f259bdce6c4c8b1bdeced9e25b85bbac164"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/products-and-collections/comparison-table.md",
+    "path": "keystone/sections/products-and-collections/comparison-table.md",
+    "title": "Comparison table",
+    "liveSha256": "fc4dc5853158a8d2a691fe0e9043b1741466858fba5507b360be3d16d382c8ab"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/forms.md",
+    "path": "keystone/sections/forms/README.md",
+    "title": "Forms",
+    "liveSha256": "c33d653e3f503f239e0f6692fa8cd9ef58f9722424b645b6831d8a85de637aaf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/forms/contact-form.md",
+    "path": "keystone/sections/forms/contact-form.md",
+    "title": "Contact form",
+    "liveSha256": "ef6d973f04942874d89072c2fa699b6cf715e892133761efe11dc19ccf912a4e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/forms/email-sign-up.md",
+    "path": "keystone/sections/forms/email-sign-up.md",
+    "title": "Email sign-up",
+    "liveSha256": "86434886422860b6809e3a76499b4fc10e024961af00635b771967a71b4b9aaf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/forms/sign-up-form.md",
+    "path": "keystone/sections/forms/sign-up-form.md",
+    "title": "Sign-up form",
+    "liveSha256": "262a60e7b9218c5b91dd37417a1391889960175ac37037b09bb39a9fb91cf83b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/sections/forms/tool-tip.md",
+    "path": "keystone/sections/forms/tool-tip.md",
+    "title": "Tool tip",
+    "liveSha256": "f85380b5ab213a328f1d007d100d0bb356f68a765b8fa5131667c6b6556d870c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/adding-custom-liquid.md",
+    "path": "keystone/advanced-customizations/adding-custom-liquid/README.md",
+    "title": "Add custom Liquid",
+    "liveSha256": "dfe66554859ece997fcdc32c4ff5ddf7ef705cc9d9fc1d752f2040941763a2d3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/adding-custom-liquid/popular-custom-liquid.md",
+    "path": "keystone/advanced-customizations/adding-custom-liquid/popular-custom-liquid/README.md",
+    "title": "Popular custom liquid",
+    "liveSha256": "658490806fe9e30f4454cadaede6d53f8a44709d09659a95e5df57301ae21991"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md",
+    "path": "keystone/advanced-customizations/adding-custom-liquid/popular-custom-liquid/show-variant-metafield-content.md",
+    "title": "Show variant metafield content",
+    "liveSha256": "a5200581859c4c77d96f2354a0679179588e59919219c9ea1274ec96fdd70f17"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-css.md",
+    "path": "keystone/advanced-customizations/using-custom-css.md",
+    "title": "Add custom CSS",
+    "liveSha256": "d61320dc66a649b706e6fde2d47703e33928956daead954d125bee8c3d23b105"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-css/popular-css-customizations.md",
+    "path": "keystone/advanced-customizations/popular-css-customizations/README.md",
+    "title": "Popular custom CSS",
+    "liveSha256": "c0f71462fb38452210ced0c2706c2a7c0bc80ac0fb7f16d57a35686ca0afbf43"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-css/popular-css-customizations/change-background-color.md",
+    "path": "keystone/advanced-customizations/popular-css-customizations/change-background-color.md",
+    "title": "Change background color",
+    "liveSha256": "a7e8c1b1aa8b681212108b100d8457131613337a3be9e20934be5cb5fe8a4985"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-css/popular-css-customizations/change-button-color.md",
+    "path": "keystone/advanced-customizations/popular-css-customizations/change-button-color.md",
+    "title": "Change button color",
+    "liveSha256": "25906ae56f44bcf1815ff96aa67f901234bcd973d9bfc3571c2ff9635392e886"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-css/popular-css-customizations/change-heading-color.md",
+    "path": "keystone/advanced-customizations/popular-css-customizations/change-heading-color.md",
+    "title": "Change heading color",
+    "liveSha256": "f5e36d3c7703d72ede7b71833dbbcbcd479d44a78af412c4b539cf06faaaf4d0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-css/popular-css-customizations/adjust-button-size.md",
+    "path": "keystone/advanced-customizations/popular-css-customizations/adjust-button-size.md",
+    "title": "Change button size",
+    "liveSha256": "d8b3177970771703180fb903c3aa8cf2e46e1792df400bad0efa8ada64ae2b1b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/adding-custom-javascript.md",
+    "path": "keystone/advanced-customizations/adding-custom-javascript.md",
+    "title": "Add custom JavaScript",
+    "liveSha256": "d899051cc3831eb3a81c9c02271697a6a50f29073e7dcb05a87b671b5a8aa936"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/using-custom-fonts.md",
+    "path": "keystone/advanced-customizations/using-custom-fonts.md",
+    "title": "Use custom fonts",
+    "liveSha256": "ffc56b649071b112ff4d66c5d2cfddf2812394ea43d9cf13b512c3ab3f2b003e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/advanced-customizations/installing-a-review-app.md",
+    "path": "keystone/advanced-customizations/installing-a-review-app.md",
+    "title": "Install a review app",
+    "liveSha256": "e9fb029af200e8185e4bc52c77b4a87dedafac5026b16bfa7a624c6574af75bd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/general/support-policy.md",
+    "path": "keystone/general/support-policy.md",
+    "title": "Support policy",
+    "liveSha256": "c29cf33f934761f5e136b851552a621def0317ec8772a402d4f9b2440560b5e0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/general/theme-license.md",
+    "path": "keystone/general/theme-license.md",
+    "title": "Theme license",
+    "liveSha256": "ea46363b9c80136bab7fd63ed30024885da5a8f3e55b4629829fe5b231882a15"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/general/known-issues-and-troubleshooting.md",
+    "path": "keystone/general/known-issues-and-troubleshooting/README.md",
+    "title": "Known issues and troubleshooting",
+    "liveSha256": "8a5be8480b4c733d7c6499fa25ed1bae6a40445275ff6222aa0e54bb4aca0b1d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/general/known-issues-and-troubleshooting/incorrect-links-in-recent-slider-and-recommended-products-bl-620.md",
+    "path": "keystone/general/known-issues-and-troubleshooting/incorrect-links-in-recent-slider-and-recommended-products-bl-620.md",
+    "title": "Incorrect links in Recent slider and recommended products (BL-620)",
+    "liveSha256": "6e4d0ee6265de7249b39ef38f557e25ed323a2c990855c7a92c73fc877c3271a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/keystone/general/known-issues-and-troubleshooting/v1.3.0.md",
+    "path": "keystone/general/known-issues-and-troubleshooting/v1.3.0.md",
+    "title": "v1.3.0",
+    "liveSha256": "5b078690b8851ed5b21261792a11f8e11ae07faa0ca3f47a4950070060ccffcb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/readme.md",
+    "path": "slab/README.md",
+    "title": "Slab",
+    "liveSha256": "e6ff99411b4e9a7ce3b78fe12d1202dfd9bf9ccff71d51a3b6d5211ccb439420"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/changelog.md",
+    "path": "slab/changelog.md",
+    "title": "Changelog",
+    "liveSha256": "932430b5eba06909df58ce3217eb787d7faa201d42f9e6ad560bdd4708e92576"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/feature-list.md",
+    "path": "slab/feature-list.md",
+    "title": "Feature list",
+    "liveSha256": "b647a4d66716a3224a8660e675bdee22c18770d80ea9bc3a9d4217dd3b98cf1b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/installing-slab.md",
+    "path": "slab/getting-started/installing-slab/README.md",
+    "title": "Install Slab",
+    "liveSha256": "f5defb34b1acb0a518215382bfe62f409762ea9b5cf1c67580d3ed4026b7fef6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/installing-slab/installing-from-zip.md",
+    "path": "slab/getting-started/installing-slab/installing-from-zip.md",
+    "title": "Install from ZIP",
+    "liveSha256": "171ebce3c8f8dbf7984a54d46f238ce60317e17fc1bd40e041988adbb50a40e6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/installing-slab/installing-from-github.md",
+    "path": "slab/getting-started/installing-slab/installing-from-github.md",
+    "title": "Install from GitHub",
+    "liveSha256": "9dc730eff89884daa4e760a3a986467623e0e0b6b29f7842390a9c59dddee80a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings.md",
+    "path": "slab/getting-started/global-settings/README.md",
+    "title": "Global settings",
+    "liveSha256": "f7db4603d7f9085fbc1dfd21e6cb2e2e8c10bcf22de3abcc4b5a598b68ff6c66"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/colors-and-schemes.md",
+    "path": "slab/getting-started/global-settings/colors-and-schemes.md",
+    "title": "Colors",
+    "liveSha256": "51b14f355db153edcb3cbf3683627dec94535f58dcd5d1d47d28da713a3cf928"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/borders-settings.md",
+    "path": "slab/getting-started/global-settings/borders-settings.md",
+    "title": "Borders",
+    "liveSha256": "7c09fd302a9a6cf859d40fa24f849eee7d3e0c26735b7188b65131dd0c6ffece"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/inputs-settings.md",
+    "path": "slab/getting-started/global-settings/inputs-settings.md",
+    "title": "Inputs",
+    "liveSha256": "319a0bd36408e05e0b975aad0aa13fd91911bf17f6d7c11153c31565bc7973e6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/typography-settings.md",
+    "path": "slab/getting-started/global-settings/typography-settings.md",
+    "title": "Typography",
+    "liveSha256": "381833b286ce43968021699ffcd4434b02444bbf654a83a064db4088b7bf0962"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/header-settings.md",
+    "path": "slab/getting-started/global-settings/header-settings.md",
+    "title": "Header",
+    "liveSha256": "77d77c43eb1a527c4979d82f3464992113af3b538028383965755133ca3534a1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/layout-settings.md",
+    "path": "slab/getting-started/global-settings/layout-settings.md",
+    "title": "Layout",
+    "liveSha256": "df9c6a6b1fbd5fa1d2db6eb92a7d2893764368881d3eacd2851ed0710bc5cd2f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/audio-settings.md",
+    "path": "slab/getting-started/global-settings/audio-settings.md",
+    "title": "Audio",
+    "liveSha256": "42ee686be9fd30f38414f360b4def475f560d195fc4d6a8850e991ca13826e89"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/animations-and-transitions-settings.md",
+    "path": "slab/getting-started/global-settings/animations-and-transitions-settings.md",
+    "title": "Motion",
+    "liveSha256": "564569727c6dd17b2697e0daad7870d7cd196669878fe301066f3a4965cfa385"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/favicon-settings.md",
+    "path": "slab/getting-started/global-settings/favicon-settings.md",
+    "title": "Favicon",
+    "liveSha256": "73f502e244d1e3bc511095c3b174fffe79d94d442f78774b1f2f98f0e17229da"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/set-cart-behavior.md",
+    "path": "slab/getting-started/global-settings/set-cart-behavior.md",
+    "title": "Cart",
+    "liveSha256": "b8fbca39b9659fe7d905466bca04b4a1e561c037e600d1232b2d5d5b1970ad06"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/search-settings.md",
+    "path": "slab/getting-started/global-settings/search-settings.md",
+    "title": "Search",
+    "liveSha256": "c22b8ce0f2f2bf229060a8a5f221be2868581d497a1afcf7096a569dbba7fdcf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/prices-settings.md",
+    "path": "slab/getting-started/global-settings/prices-settings.md",
+    "title": "Prices",
+    "liveSha256": "91c5336e6e380d913aa37a9e2c25b0c16bde953d3a343229d7d29fd8fc7bdbad"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/account-settings.md",
+    "path": "slab/getting-started/global-settings/account-settings.md",
+    "title": "Account",
+    "liveSha256": "873b4c8d4d92e345938df93a17e05e2196257138bf6d16af2029471eb55b9757"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/quick-actions-settings.md",
+    "path": "slab/getting-started/global-settings/quick-actions-settings.md",
+    "title": "Quick actions",
+    "liveSha256": "cbcc160c42c849ade7a97a0e559e82f7e76e86d7d10e3bc1ae21b5186216cbbc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/store-location-settings.md",
+    "path": "slab/getting-started/global-settings/store-location-settings.md",
+    "title": "Store location",
+    "liveSha256": "bc7454756a1fd69a6248777131483aa411b4e7e6a064509eb24798c10ca71630"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/getting-started/global-settings/social-media-settings.md",
+    "path": "slab/getting-started/global-settings/social-media-settings.md",
+    "title": "Social media",
+    "liveSha256": "ed9a551c04decda078cfde060e01f89761ad636a01a7722d285e8cb407d6f426"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics.md",
+    "path": "slab/guides/basics/README.md",
+    "title": "Shopify basics",
+    "liveSha256": "9bac9eda73c9321037a3d1e4ede398cab27c7c1c7d2dbb10553dd69af8b4fc1e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/edit-default-content.md",
+    "path": "slab/guides/basics/edit-default-content.md",
+    "title": "Edit default content",
+    "liveSha256": "aa5411604028a35c18a857e0925e9ff66c0c8774089e5ba1e62c0dcc2e3daa80"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/use-custom-templates.md",
+    "path": "slab/guides/basics/use-custom-templates.md",
+    "title": "Use custom templates",
+    "liveSha256": "795e2266d0b5363790c7781df156cc3d2e1f9ab235c6993be83ae49608b1db20"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/use-and-install-apps.md",
+    "path": "slab/guides/basics/use-and-install-apps.md",
+    "title": "Use and install apps",
+    "liveSha256": "08c9b181259aa53e56dc5e466145d1ff58bc28cb8a63687fefff669b79bf89c0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/improve-page-speed.md",
+    "path": "slab/guides/basics/improve-page-speed.md",
+    "title": "Improve page speed",
+    "liveSha256": "fccc15b90a3b0f403b2863766b88de61b311c5789f38ee1e513806cacf069f27"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/seo-for-shopify.md",
+    "path": "slab/guides/basics/seo-for-shopify.md",
+    "title": "SEO for Shopify",
+    "liveSha256": "e61b49e0096c2fbae0b691be434fef497384a1da3dd88ac734e7a254cf479e55"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/accessibility-for-shopify.md",
+    "path": "slab/guides/basics/accessibility-for-shopify.md",
+    "title": "Accessibility for Shopify",
+    "liveSha256": "99d5ecce5a6a43cb646553f09db112bff4cf1cd68d65d1735fae8f94136c821c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/basics/installing-apps.md",
+    "path": "slab/guides/basics/installing-apps.md",
+    "title": "Installing apps",
+    "liveSha256": "0301b222e2c030f3c6e4825fa8a1cf0c81dafaf86f14e4260d93a6883b070512"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/slab-basics.md",
+    "path": "slab/guides/slab-basics/README.md",
+    "title": "Slab basics",
+    "liveSha256": "c261b7a4612c21f12ac61cf30a275a08609a7e264e13a599411893410f5cd29e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/slab-basics/build-grid-layouts.md",
+    "path": "slab/guides/slab-basics/build-grid-layouts.md",
+    "title": "Grid layouts",
+    "liveSha256": "50d571203fde2a35810bb18caaf877927c35022fa423dc22e1a99b19c600c654"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/slab-basics/menus.md",
+    "path": "slab/guides/slab-basics/menus.md",
+    "title": "Menus",
+    "liveSha256": "2ab5154ec03cc0085073488f7fc341719c4c15fc73c1d160d4955c400ab64327"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/slab-basics/popups-drawers-and-overlays.md",
+    "path": "slab/guides/slab-basics/popups-drawers-and-overlays.md",
+    "title": "Overlays and popups",
+    "liveSha256": "fa9a63c94b3103b3fcd7cac89a7edc1efa8264673190faef072ce59cd4f09a8d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/slab-basics/success-and-error-overlays.md",
+    "path": "slab/guides/slab-basics/success-and-error-overlays.md",
+    "title": "Success and error messages",
+    "liveSha256": "81e2e9c57901bf7be0d87b3ea498cddc1798aeb44293c044d9d67be893877a59"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/collection.md",
+    "path": "slab/guides/collection/README.md",
+    "title": "Collection",
+    "liveSha256": "49d06fc3d354ffcb978752bd7638097494eab8ced60d739bf1348c5e31b8aea8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/collection/adjust-filters.md",
+    "path": "slab/guides/collection/adjust-filters.md",
+    "title": "Sort and filters",
+    "liveSha256": "20b5f393a92bc886809c31a925cf86e3e4fe05f35e53531da76dd1ee8dcdee91"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/collection/quick-add-and-quick-edit.md",
+    "path": "slab/guides/collection/quick-add-and-quick-edit.md",
+    "title": "Quick actions",
+    "liveSha256": "58ca8b7e24c6182973615a55d9ab7f88e4350967baf65d7ef5cc15bc61f7261d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/collection/dynamic-product-cards.md",
+    "path": "slab/guides/collection/dynamic-product-cards.md",
+    "title": "Dynamic product cards",
+    "liveSha256": "210abcbc24901f45b08aaf494101a2fe05ac2cd3d8989c499dc387dd33ade494"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/product.md",
+    "path": "slab/guides/product/README.md",
+    "title": "Product",
+    "liveSha256": "4c9a27b107199e69288c4d7858c0ad2dc7860885328e03e102d65a395a17392b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/product/display-linked-products.md",
+    "path": "slab/guides/product/display-linked-products.md",
+    "title": "Linked products",
+    "liveSha256": "c75e17026a6cb64189cee17bb112ea5be02c0cdcfeb971ca6b9ada086f2eaa8c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/product/display-product-recommendations.md",
+    "path": "slab/guides/product/display-product-recommendations.md",
+    "title": "Product recommendations",
+    "liveSha256": "d1ee3baccddcbb2960f97034bf05daf42a1a783b434bca650028d70c83ded432"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/cart.md",
+    "path": "slab/guides/cart/README.md",
+    "title": "Cart",
+    "liveSha256": "e99645aa6dc71c2c6bd94dc66c1013bb39e42538bf40b894373d0f471baeb6de"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/cart/build-your-cart.md",
+    "path": "slab/guides/cart/build-your-cart.md",
+    "title": "Build your cart",
+    "liveSha256": "63f72cdd0c9014e1b2c4893da53a92eeabad161e4b24f826d396827d32c88f2d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/common-issues.md",
+    "path": "slab/guides/common-issues/README.md",
+    "title": "Common issues",
+    "liveSha256": "89d846db2ae163fd4edaccfa6b69c7dace05332ce19dad2e7c6d485110ac2a8b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/guides/common-issues/block-displaying-empty.md",
+    "path": "slab/guides/common-issues/block-displaying-empty.md",
+    "title": "Block displaying empty",
+    "liveSha256": "2acb4f76b7a39b8f7503eea8d1b0bd35dd26593c7e6f67e7e4076b4a6e61c3c4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks.md",
+    "path": "slab/content/blocks/README.md",
+    "title": "Blocks",
+    "liveSha256": "40e1053f1172e4fc90bca20e584f88bfa1174bbf6445829b6be94ecedbc7a97e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics.md",
+    "path": "slab/content/blocks/basics/README.md",
+    "title": "Basics",
+    "liveSha256": "35337b55bda774ebec8bece4f6608ae506c5a58ed96e71edbbf86f2bbbd0a32f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/countdown.md",
+    "path": "slab/content/blocks/basics/countdown.md",
+    "title": "Countdown",
+    "liveSha256": "e1f21c5bb93ede8cd1b7f0d74a76724ba24b2a7b620d2a95d3786866f12b305e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/discount.md",
+    "path": "slab/content/blocks/basics/discount.md",
+    "title": "Discount",
+    "liveSha256": "7eebf6a3619cea24d740521af89273051a2416a66693b00e3cd6ce11d0c616a1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/accordion.md",
+    "path": "slab/content/blocks/basics/accordion.md",
+    "title": "Accordion",
+    "liveSha256": "05c268ff08dafa8d023a90b226a2a470347ef968bc23f6386142f0cc9e1f482b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/avatars.md",
+    "path": "slab/content/blocks/basics/avatars/README.md",
+    "title": "Avatars",
+    "liveSha256": "1bf47fba5937038921336824f7783852c1a4b8e2e352940221b8fc6fbd73ac75"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/avatars/avatar-image.md",
+    "path": "slab/content/blocks/basics/avatars/avatar-image.md",
+    "title": "Avatar image",
+    "liveSha256": "819d62f269f3a616f60daba8d33ad783a851e37a94b1bcd51c098442d82e9ac7"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/button.md",
+    "path": "slab/content/blocks/basics/button.md",
+    "title": "Button",
+    "liveSha256": "99a5f0062d64f4b25bd44e0952a5c6e1c7ae19d08296b5e04af99c46a05f8030"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/dropdown.md",
+    "path": "slab/content/blocks/basics/dropdown.md",
+    "title": "Dropdown",
+    "liveSha256": "e9fd2ef0cc8fac2b512615d23d276c80754897258194241252d642f063ee3114"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/hotspot.md",
+    "path": "slab/content/blocks/basics/hotspot/README.md",
+    "title": "Hotspot",
+    "liveSha256": "2cf302c10217e732f84d8a7cf090ea18804a0c4cbd0e62dc94000d427d426a5f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/hotspot/spot.md",
+    "path": "slab/content/blocks/basics/hotspot/spot.md",
+    "title": "Hotspot spot",
+    "liveSha256": "f9cd403dd54fd1822234e91f48278950ad8e9e602b5eb3ddfba004b66c59954f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/map.md",
+    "path": "slab/content/blocks/basics/map/README.md",
+    "title": "Map",
+    "liveSha256": "9bb4889abbdf0a23b4f963b099e52e9702398934797a7e08c0fa14eb4d1d1c4d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/map/location.md",
+    "path": "slab/content/blocks/basics/map/location.md",
+    "title": "Map item",
+    "liveSha256": "f4d4bd8adfeefc43e36b2c93dc4913192058e656a8d302aab8ae282a86ef68ff"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/share.md",
+    "path": "slab/content/blocks/basics/share.md",
+    "title": "Share",
+    "liveSha256": "67eabe327456120f03fe16c8c4718d030a7221f8ad6fdaae7ff8f3589fa98690"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/video.md",
+    "path": "slab/content/blocks/basics/video.md",
+    "title": "Video",
+    "liveSha256": "d7f917367693ea6db66a3a3f5e3120a64a77b4c9465d710d49905d66a7da9c49"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/icon.md",
+    "path": "slab/content/blocks/basics/icon.md",
+    "title": "Icon",
+    "liveSha256": "bd68e80d396d88e077ea80cf6687b6f8388fa8f32cb424a004086fbd09de1c40"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/image.md",
+    "path": "slab/content/blocks/basics/image.md",
+    "title": "Image",
+    "liveSha256": "01a2f76a060ff76e04798847e4622f34772b0087b406c776d6512be77a81c6b6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/image-comparison.md",
+    "path": "slab/content/blocks/basics/image-comparison.md",
+    "title": "Image comparison",
+    "liveSha256": "58e35ba7bb3c667cfa72a86577ace0d1a19b7e01ebc1a14ce17c070769eccf5e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/logo.md",
+    "path": "slab/content/blocks/basics/logo.md",
+    "title": "Logo",
+    "liveSha256": "a091ac144f61bb7e3d7e2348c75d39dcf5e680a957bd6f22dde857c84271c45f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/payment-icons.md",
+    "path": "slab/content/blocks/basics/payment-icons.md",
+    "title": "Payment icons",
+    "liveSha256": "a7399134fb26c6703103d27054f6ea9411f7e32d428dfa6720e5804158c13e60"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/progress-bar.md",
+    "path": "slab/content/blocks/basics/progress-bar.md",
+    "title": "Progress bar",
+    "liveSha256": "25f9eaa1596a69208a1e6f67acbe2a6b1903c1380d9a0fed012722f6e2d44a59"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/rich-text.md",
+    "path": "slab/content/blocks/basics/rich-text.md",
+    "title": "Rich text",
+    "liveSha256": "78b2ea983866684875668f35409a755da394dbdcc81402bc3a67f66d3a7b35f3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/shop-login.md",
+    "path": "slab/content/blocks/basics/shop-login.md",
+    "title": "Shop login",
+    "liveSha256": "ba4cf57716c3e40e81d025b139af60b2a0d9b550600c61e3f535a477d3c21696"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/basics/social-icons.md",
+    "path": "slab/content/blocks/basics/social-icons.md",
+    "title": "Social icons",
+    "liveSha256": "d83367cf192379e839077daf9af92482a749c4b3eb4e598e97e309b511a6b762"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products.md",
+    "path": "slab/content/blocks/products/README.md",
+    "title": "Products",
+    "liveSha256": "8dff3b24cb3f4a271f43e822044ff450470578d9532686eb3b8d301bd8927a5b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/badges.md",
+    "path": "slab/content/blocks/products/badges.md",
+    "title": "Badges",
+    "liveSha256": "2a60d1dfa091b3a071a4962972af0865ea2f60ebbd4ae1dbd2b13c223f66db4c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/bundles.md",
+    "path": "slab/content/blocks/products/bundles.md",
+    "title": "Bundles",
+    "liveSha256": "cf1a0005560532ce49b9c60a3b3f1248151250a82e876dd3ca4776bfe36a6f22"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/buy-buttons.md",
+    "path": "slab/content/blocks/products/buy-buttons.md",
+    "title": "Product buy",
+    "liveSha256": "736d90a3cad22f76fd2f8a6af6c4d517320bf0d7de817c3cc43fa69c4e5925c7"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/inventory-availability.md",
+    "path": "slab/content/blocks/products/inventory-availability.md",
+    "title": "Product inventory",
+    "liveSha256": "7c5ec2d93da69fe28975e376d5025af5843e8eec70795341e9ed75c514b2c125"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/product-media.md",
+    "path": "slab/content/blocks/products/product-media.md",
+    "title": "Product media",
+    "liveSha256": "67da1d5360efc4e8ca3e37c62db167229034f710d520e3c1ed3f4728c5cb9eff"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/options.md",
+    "path": "slab/content/blocks/products/options.md",
+    "title": "Product options",
+    "liveSha256": "d24cd9b323fc58310bfb8e8b0799db28aaa0db9c3e9d3bf8e42d791214f11e9e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/pickup-availability.md",
+    "path": "slab/content/blocks/products/pickup-availability.md",
+    "title": "Product pickup",
+    "liveSha256": "cf07540ed157bf44b4173d7db3e20472aaf339324e870ced1fcae1be48eeab65"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/price.md",
+    "path": "slab/content/blocks/products/price.md",
+    "title": "Product price",
+    "liveSha256": "f1271b7cc017da2e02bd9a7c80656298c76799a5c8762c1e4dc02244a2faacfe"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/quick-buy-button.md",
+    "path": "slab/content/blocks/products/quick-buy-button.md",
+    "title": "Product quick buy",
+    "liveSha256": "c7e94b7ca781bf69114432786f80b8fda4b2449014255b4c4b5aa09962d40a6b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/rating.md",
+    "path": "slab/content/blocks/products/rating.md",
+    "title": "Product rating",
+    "liveSha256": "07ca72e8434b62b11e8ccd138388636405b8c350ed30f148a87f093a0f86d82d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/sibling-options.md",
+    "path": "slab/content/blocks/products/sibling-options.md",
+    "title": "Product sibling options",
+    "liveSha256": "4444369c6911387618eefae3497e03425b7d3c2865e46fcf51c7cac9cc068809"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/subscription.md",
+    "path": "slab/content/blocks/products/subscription.md",
+    "title": "Product subscription",
+    "liveSha256": "035ae4cea21ab2c442aa7cfb765416301df04fd08e81e759bfb68ddec256250a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/swatches.md",
+    "path": "slab/content/blocks/products/swatches.md",
+    "title": "Product swatches",
+    "liveSha256": "7d622d8db082c83a134892d2a34fba576f360c14ff267bf837828e53de5dac1b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/products/shop-pay-installments.md",
+    "path": "slab/content/blocks/products/shop-pay-installments.md",
+    "title": "Shop Pay installments",
+    "liveSha256": "f7b1e59e773eaceafb83bdfeaf56f3394bfc127adecd03f1762693cca25c0e42"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart.md",
+    "path": "slab/content/blocks/cart/README.md",
+    "title": "Cart",
+    "liveSha256": "a4f85a182cb6ef9da1efd9f84544b8474b5063b5a873a0fd9ff2bfda7f82ce71"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/cart-count.md",
+    "path": "slab/content/blocks/cart/cart-count.md",
+    "title": "Cart count",
+    "liveSha256": "25a47590c3d3ed583d80be8ae059e83728b94f43594bfd942868a1d625c3fab5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/discount-input.md",
+    "path": "slab/content/blocks/cart/discount-input.md",
+    "title": "Discount input",
+    "liveSha256": "9df6f8db68c904d088af537d653e9b47999b692c48380444473916ae112e2bdf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/full-subtotal.md",
+    "path": "slab/content/blocks/cart/full-subtotal.md",
+    "title": "Full subtotal",
+    "liveSha256": "8634cf5e7b1d8400e36ca4cec14e6bbe2321984e8b56eb943c5a9604cdfeb75c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/order-notes.md",
+    "path": "slab/content/blocks/cart/order-notes.md",
+    "title": "Order notes",
+    "liveSha256": "67d6370e51227730b4808c8f8c8aa238d84cff1145a25047dfb544a338c44b44"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/simple-subtotal.md",
+    "path": "slab/content/blocks/cart/simple-subtotal.md",
+    "title": "Simple subtotal",
+    "liveSha256": "00a62e5eafdbb661cf658ebd755193c7b571eaa85ee8646db6ee86f95668bc33"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/cart-results.md",
+    "path": "slab/content/blocks/cart/cart-results.md",
+    "title": "Cart results",
+    "liveSha256": "a1c5ee1cd8bf6a1158dfdf1b7cda4be2ca809f30a5143d5ac60a820da966b893"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/share-cart.md",
+    "path": "slab/content/blocks/cart/share-cart.md",
+    "title": "Share cart",
+    "liveSha256": "e7fab12b6f15daa0fb38cd239013c1f45cda169409d7ab3ff02d0beaf46a5951"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/order-summary.md",
+    "path": "slab/content/blocks/cart/order-summary.md",
+    "title": "Order summary",
+    "liveSha256": "c53b913eb4f21117863fc95468ea4b26db373a71e47f9bff5e3bb372b56ede19"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/upsell-checkbox.md",
+    "path": "slab/content/blocks/cart/upsell-checkbox.md",
+    "title": "Upsell checkbox",
+    "liveSha256": "53523f0b5baf3f419131567d63526025daaac6943e9f9a9d1a1828dd00836e4f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/checkout-agreement.md",
+    "path": "slab/content/blocks/cart/checkout-agreement.md",
+    "title": "Checkout agreement",
+    "liveSha256": "7fe5183486fb2da2ddd5fbec7389e426a244b3c77aa9dc7a53d5774249252aea"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/progress-bar.md",
+    "path": "slab/content/blocks/cart/progress-bar/README.md",
+    "title": "Progress bar",
+    "liveSha256": "2635d0eba5ff7e38c6b629c275521951e5190118e447d63bf14298daa6246c7d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/progress-bar/progress-tier.md",
+    "path": "slab/content/blocks/cart/progress-bar/progress-tier.md",
+    "title": "Progress tier",
+    "liveSha256": "4bd3670452b24005c3890b950d667759e985a1d5c2ef5f1a692687b260bf4967"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cart/checkout.md",
+    "path": "slab/content/blocks/cart/checkout.md",
+    "title": "Checkout",
+    "liveSha256": "a56fc74131d4c7f74c833b63b74af317d2ecfce51da4c49916fb49ec49a4f3e0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/blog.md",
+    "path": "slab/content/blocks/blog/README.md",
+    "title": "Blog",
+    "liveSha256": "895a7b282f04f68338dec9851d96b899caa7bf231f9fdfb6ee602c45d37f9307"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/blog/article-comments.md",
+    "path": "slab/content/blocks/blog/article-comments.md",
+    "title": "Article comments",
+    "liveSha256": "75da30ab06cad38211ed7c85a4febc0e15cc01ebe4280b4a4cbe5424d8f8112c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/blog/article-date.md",
+    "path": "slab/content/blocks/blog/article-date.md",
+    "title": "Article date",
+    "liveSha256": "104bdce5c1f03ea6df8f4f82095821f0283cf9c7e6d8461fb382151ebc7dfdfa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout.md",
+    "path": "slab/content/blocks/layout/README.md",
+    "title": "Layout",
+    "liveSha256": "a9c665f965c2037340120367145f9698a75d98a12bc1d20bb7e14379f2f83fcc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/container.md",
+    "path": "slab/content/blocks/layout/container.md",
+    "title": "Container",
+    "liveSha256": "f5a05be3603bc2906a5d4c2308eda1a2ff3b9feaae2ae1c4ef5bffb8a70204a1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/divider.md",
+    "path": "slab/content/blocks/layout/divider.md",
+    "title": "Divider",
+    "liveSha256": "541514c3a10c0833357cec08f93e1df90b04ab0e877eec8106c5a5e7679ae6dc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/default-grid.md",
+    "path": "slab/content/blocks/layout/default-grid/README.md",
+    "title": "Grid",
+    "liveSha256": "16ca386ea8eb45a51bd3e4953416c9e53c0a62204d5d535d618714144817f4ef"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/default-grid/grid-item.md",
+    "path": "slab/content/blocks/layout/default-grid/grid-item.md",
+    "title": "Grid item",
+    "liveSha256": "76a1dfd1f1cdc80dd456a13467a82a1f59c59436570ee50647c58fd516571382"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/flex-grid.md",
+    "path": "slab/content/blocks/layout/flex-grid/README.md",
+    "title": "Flex grid",
+    "liveSha256": "8cfad3df29e995453917a8372c5f19eaa53637984cf9445870d113c912a72879"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/flex-grid/flex-item.md",
+    "path": "slab/content/blocks/layout/flex-grid/flex-item.md",
+    "title": "Flex item",
+    "liveSha256": "a92a9c22ab8143e5ff73ec244de26c6f65474189314f2b8e150a9440f832afd4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/slider.md",
+    "path": "slab/content/blocks/layout/slider/README.md",
+    "title": "Slider",
+    "liveSha256": "08ad0e9bae26ff78a36f177a1eac14fab28d49cfb36e532a06d5c1a1e2821261"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/slider/slider-item.md",
+    "path": "slab/content/blocks/layout/slider/slider-item.md",
+    "title": "Slider item",
+    "liveSha256": "99549a573283e2b641c3c536adc1ee680f64c37868f9346aaddd836fface0052"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/tabs.md",
+    "path": "slab/content/blocks/layout/tabs/README.md",
+    "title": "Tab",
+    "liveSha256": "9de43364ff8beb5008ee6ad45bf4c6c3fcd12f1a445b6edc8c27203ac3d4a551"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/tabs/tab-item.md",
+    "path": "slab/content/blocks/layout/tabs/tab-item.md",
+    "title": "Tab item",
+    "liveSha256": "c01c8cd1c95075c4dfc5952b9e570249df7e66756376633fad81770b2c7b1d78"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/table-row.md",
+    "path": "slab/content/blocks/layout/table-row/README.md",
+    "title": "Table",
+    "liveSha256": "eaa4a7641847bf453d7dd033229a14045c5a2ed207a830523cb212a69c561662"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/table-row/table-cell.md",
+    "path": "slab/content/blocks/layout/table-row/table-cell.md",
+    "title": "Table cell",
+    "liveSha256": "78a63ce53db0f2e133edcc42c65668c3362e6a3850560334ed1affa7d1d32556"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/marquee.md",
+    "path": "slab/content/blocks/layout/marquee.md",
+    "title": "Marquee",
+    "liveSha256": "b72dd06ef53af92bbf8aad6cbdfaefac9ce982cf19bf68cad3b215d4158bec20"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/inline.md",
+    "path": "slab/content/blocks/layout/inline.md",
+    "title": "Inline",
+    "liveSha256": "ff517a3785fb3471611ad21060555d35b068a6eaff9ecb48a49e30863b37c1de"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/float.md",
+    "path": "slab/content/blocks/layout/float.md",
+    "title": "Float",
+    "liveSha256": "7f7c7e78b3d295adc3fbe7e3f8d7176e3bfe49334fad81df0f84eb9814e9533c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/fixed.md",
+    "path": "slab/content/blocks/layout/fixed.md",
+    "title": "Overlay",
+    "liveSha256": "dc4d277b28a7cdd4ff630b10b41918981551f4a3f416133fd8ef0078ee3277c0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/layout/table.md",
+    "path": "slab/content/blocks/layout/table.md",
+    "title": "Table",
+    "liveSha256": "079804144464f787170df57a3fafce5053b1f671102d32f87b1891aaf3343298"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cards.md",
+    "path": "slab/content/blocks/cards/README.md",
+    "title": "Cards",
+    "liveSha256": "76159270128222cccfd8aa80600fb11ddf9398573324cbee4bdb543030737de2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cards/article-card.md",
+    "path": "slab/content/blocks/cards/article-card.md",
+    "title": "Article card",
+    "liveSha256": "95285ed9d2c83180800e2ea5e80c059990a37cc6fa9d68f3c99640d9dd749acf"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cards/collection-card.md",
+    "path": "slab/content/blocks/cards/collection-card.md",
+    "title": "Collection card",
+    "liveSha256": "28f371be188108f400c7bc7be4da4c27c9bffd296d928b21ed3587853f8cb3fd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/cards/product-card.md",
+    "path": "slab/content/blocks/cards/product-card.md",
+    "title": "Product card",
+    "liveSha256": "6e240f0dd41c5d012a454669149493858c254fa080d1e0a928c7417f4e08957b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation.md",
+    "path": "slab/content/blocks/navigation/README.md",
+    "title": "Search and navigation",
+    "liveSha256": "d055747619b7a360e01f2356509d241a39c1445a1ab0f73186d878f8f6dd233f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/breadcrumbs.md",
+    "path": "slab/content/blocks/navigation/breadcrumbs.md",
+    "title": "Breadcrumbs",
+    "liveSha256": "dde0f1e954e9227e48c26e643ccd3cc0014dccccc321db4ad9f770bea61fd837"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/filter.md",
+    "path": "slab/content/blocks/navigation/filter/README.md",
+    "title": "Filter",
+    "liveSha256": "94aa62f05595d31dd7cdf4eff2afbe6c23fd1b309b31f635a823cf0e0e04403b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/filter/filter.md",
+    "path": "slab/content/blocks/navigation/filter/filter.md",
+    "title": "Filter",
+    "liveSha256": "bb48333ab17ac2ee4027dc66d00ad801be32f206939df30e856cefbd84eb3f49"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/filter/filter-tags.md",
+    "path": "slab/content/blocks/navigation/filter/filter-tags.md",
+    "title": "Tag filter",
+    "liveSha256": "d45233b52945d339dd7c47f987d53d1f2cc7d3e0049b8fbb7ea49f474701e2b1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/menus.md",
+    "path": "slab/content/blocks/navigation/menus/README.md",
+    "title": "Menus",
+    "liveSha256": "5f62167bc8fafdac4fc62b1594f1b35a63c15c19587fc897aed60e1df4c9309c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/menus/menu.md",
+    "path": "slab/content/blocks/navigation/menus/menu.md",
+    "title": "Menu",
+    "liveSha256": "1ecb80376447712c0cc5ee927616c68fb109e6f0d5392a07a3e64a138a313746"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/menus/menu-page.md",
+    "path": "slab/content/blocks/navigation/menus/menu-page.md",
+    "title": "Menu page",
+    "liveSha256": "f271a18826987d37c6399a61bc913a046fde3a6f7720739dab2e930c034cbcad"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/menus/menu-dropdown.md",
+    "path": "slab/content/blocks/navigation/menus/menu-dropdown/README.md",
+    "title": "Menu dropdown",
+    "liveSha256": "c5eaffbfe869df2cdeb2489d30811bad67217c02fc80c5eacb29f98a7dec2410"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/menus/menu-dropdown/menu-item.md",
+    "path": "slab/content/blocks/navigation/menus/menu-dropdown/menu-item.md",
+    "title": "Menu item",
+    "liveSha256": "6b88973d7d982ff8f58763e82ca6ea28d465c9cbb686fa0bf564623cefae7c6c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/pagination.md",
+    "path": "slab/content/blocks/navigation/pagination.md",
+    "title": "Pagination",
+    "liveSha256": "bc52c5b58acf3aefea91104f85ad34e0471b1df08e7b3f689e08a6bc3258df16"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/tags.md",
+    "path": "slab/content/blocks/navigation/tags.md",
+    "title": "Tags",
+    "liveSha256": "960d26f1d24e4b04eeb37003ffe56475b9a30251944a6d4626a28d2aad0ac110"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/search.md",
+    "path": "slab/content/blocks/navigation/search/README.md",
+    "title": "Search",
+    "liveSha256": "ea3e0e930ce8922be600bc1a5773c12c162c8f8342c6f78ed49ff12ba315de7d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/search/search-input.md",
+    "path": "slab/content/blocks/navigation/search/search-input.md",
+    "title": "Search input",
+    "liveSha256": "8062219fce6773dcef5ad717963d52a974979333fd704d2288f9e77d03b96377"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/search/search-results.md",
+    "path": "slab/content/blocks/navigation/search/search-results.md",
+    "title": "Search results",
+    "liveSha256": "fd2ae2036ab0b751a06fc3a5948674434b1a6811b9cee4225ab93f23cbd5ecae"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/navigation/search/search-summary.md",
+    "path": "slab/content/blocks/navigation/search/search-summary.md",
+    "title": "Search summary",
+    "liveSha256": "b968d7e454c53609d575c72d1d8024ca4cce314e6ba92c39f89ff9f98c856ec3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/forms.md",
+    "path": "slab/content/blocks/forms/README.md",
+    "title": "Forms",
+    "liveSha256": "e173ab9f133a93291ee87207af258bd04fa14365d20e23523f4d2dab629cf1ef"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/forms/input-field.md",
+    "path": "slab/content/blocks/forms/input-field.md",
+    "title": "Input field",
+    "liveSha256": "be2df040a107dc38145850e5d9cf38b4b522b70aa7e6a70f820959d069ce0ffb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/forms/age-verification-form.md",
+    "path": "slab/content/blocks/forms/age-verification-form.md",
+    "title": "Age verification",
+    "liveSha256": "1b141e4f8f9fddda2297cf7a01add3493916be2ae39d667d033196fd3d26d3f6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/forms/contact-form.md",
+    "path": "slab/content/blocks/forms/contact-form.md",
+    "title": "Contact form",
+    "liveSha256": "d8818214479765674efe8df6252004e5bb2dce75d66510b2ce6f5cbeb592ea07"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/forms/newsletter-form.md",
+    "path": "slab/content/blocks/forms/newsletter-form.md",
+    "title": "Newsletter form",
+    "liveSha256": "ff25a7b90519b7becdfc3c8a1d5c61194598aacbe5f7c2b06399055dc1642f05"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/forms/password-form.md",
+    "path": "slab/content/blocks/forms/password-form.md",
+    "title": "Password form",
+    "liveSha256": "405ccc9997559e1abb8b66301cf5ad5f882e09b1cd905175154b0a0afbae0caa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination.md",
+    "path": "slab/content/blocks/all-pagination/README.md",
+    "title": "Pagination",
+    "liveSha256": "6bc4ea2f6e1a9881a4e8b6ba16a340a6a1d5305a0ed802c274534acef7a637a2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/grid-paginate-item.md",
+    "path": "slab/content/blocks/all-pagination/grid-paginate-item.md",
+    "title": "Paginate item",
+    "liveSha256": "22a4a272d9619602592f539120f5b9ab9df30e93e5efc78ec14ea519e99a43f3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/wrappers.md",
+    "path": "slab/content/blocks/all-pagination/wrappers/README.md",
+    "title": "Wrappers",
+    "liveSha256": "6188b4c3bf0a0464195ff50bdd0800c2675917165663b06f7b013256be2994bd"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/wrappers/collections-grid.md",
+    "path": "slab/content/blocks/all-pagination/wrappers/collections-grid.md",
+    "title": "List collections",
+    "liveSha256": "833d793ab84b2bb79e0a1dd40948db1d87fe449e2b7a683926299ff12e2fb064"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/wrappers/layout-collection-grid.md",
+    "path": "slab/content/blocks/all-pagination/wrappers/layout-collection-grid.md",
+    "title": "Collection",
+    "liveSha256": "b6baee1e423fdc5c8891984c3085e4255a20f9cd6b90a9abe73ace6acf6f8110"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/wrappers/search-grid.md",
+    "path": "slab/content/blocks/all-pagination/wrappers/search-grid.md",
+    "title": "Search",
+    "liveSha256": "8eb94e7e27ae589c4757cb4d6fefcdd3f94123009b6388c7b5d14aa0a208de15"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/wrappers/blog-grid.md",
+    "path": "slab/content/blocks/all-pagination/wrappers/blog-grid.md",
+    "title": "Blog",
+    "liveSha256": "9aa7e35b70dae4f042f31aae39c19f653845632b8c736f65795969e78239ed2b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/articles.md",
+    "path": "slab/content/blocks/all-pagination/articles/README.md",
+    "title": "Articles",
+    "liveSha256": "45a172bdb03c34665e0643e14e5977217d87cb60fc0a52953398edfb65664f25"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/articles/article-grid.md",
+    "path": "slab/content/blocks/all-pagination/articles/article-grid.md",
+    "title": "Grid articles",
+    "liveSha256": "c626b19c287e2d7ac9a5da5a7280741fad7018e040c1d2610ba6f7ab98c5fc69"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/articles/slider-articles.md",
+    "path": "slab/content/blocks/all-pagination/articles/slider-articles.md",
+    "title": "Slider articles",
+    "liveSha256": "05542a376d2d4192e884256a9b7e0a592059638f7304cca49b37e7b6ff625c8b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/collections.md",
+    "path": "slab/content/blocks/all-pagination/collections/README.md",
+    "title": "Collections",
+    "liveSha256": "23cc886f82c156b84e920bee23ad62ab75b748d6c29be9de6026e6c6bce76cc6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/collections/grid-collection-grid.md",
+    "path": "slab/content/blocks/all-pagination/collections/grid-collection-grid.md",
+    "title": "Grid collections",
+    "liveSha256": "247639a16cbf0a275891245816a601293b62596ad38defd2fdf18e08241e6e5d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/collections/slider-collections.md",
+    "path": "slab/content/blocks/all-pagination/collections/slider-collections.md",
+    "title": "Slider collections",
+    "liveSha256": "d824276c9031169f3bc641ae45cb86f58fe649401b62a8be97ab33dfc4a21a1c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/gallery.md",
+    "path": "slab/content/blocks/all-pagination/gallery/README.md",
+    "title": "Gallery",
+    "liveSha256": "902ec0d763c173fde38fdd0e7165f4f133a9287a51d68802bc518ef1990d1992"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/gallery/product-gallery.md",
+    "path": "slab/content/blocks/all-pagination/gallery/product-gallery.md",
+    "title": "Grid gallery",
+    "liveSha256": "9231869f9acf5df0309c869407ad813ff4312941719cfc8a6eef775afaa89a4d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/gallery/slider-gallery.md",
+    "path": "slab/content/blocks/all-pagination/gallery/slider-gallery.md",
+    "title": "Slider gallery",
+    "liveSha256": "f293e7c2cdda543d954b590a797cc4c82ecd9a0f701d5e9f11cab50adf74bc6e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products.md",
+    "path": "slab/content/blocks/all-pagination/products/README.md",
+    "title": "Products",
+    "liveSha256": "58306c66671ff94626043ed70e5b3d9e430b78c1ac7c3ee9ffc8903a32db0a7e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products/product-grid.md",
+    "path": "slab/content/blocks/all-pagination/products/product-grid.md",
+    "title": "Grid products",
+    "liveSha256": "2a75b26d89f6e26bec88e353093b430679f36054cd737b50a6efcf11f3227c72"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products/slider-products.md",
+    "path": "slab/content/blocks/all-pagination/products/slider-products.md",
+    "title": "Slider products",
+    "liveSha256": "5772fdd7c8a9345ef24c45cb678680ae21d93d178a927dd8d651bb8ce5d99666"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products/grid-recently-viewed.md",
+    "path": "slab/content/blocks/all-pagination/products/grid-recently-viewed.md",
+    "title": "Grid recent",
+    "liveSha256": "6850293dfa781f895591f2e0217412d7fe5a3c25733e123d17570ff3116f8c04"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products/slider-recently-viewed.md",
+    "path": "slab/content/blocks/all-pagination/products/slider-recently-viewed.md",
+    "title": "Slider recent",
+    "liveSha256": "2b148930b76d4f4fd571aeb91200766f730a07bad1a7055dcd06b43e681e7ec1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products/grid-product-recommendations.md",
+    "path": "slab/content/blocks/all-pagination/products/grid-product-recommendations.md",
+    "title": "Grid recommendations",
+    "liveSha256": "85ef64ef1065b8304685bbca792a2506b90732c28182f85f58cd82211659d643"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/all-pagination/products/slider-product-recommendations.md",
+    "path": "slab/content/blocks/all-pagination/products/slider-product-recommendations.md",
+    "title": "Slider recommendations",
+    "liveSha256": "577facc4a8acc50683a71b8e9107b5782a62daa4ed2b7b8157347c55e3b6edf7"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/overlays.md",
+    "path": "slab/content/blocks/overlays/README.md",
+    "title": "Overlays",
+    "liveSha256": "435530cfa24a390747f7ece5f5cf6ca4201922f63caf71455fac85002f408c67"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/overlays/alert.md",
+    "path": "slab/content/blocks/overlays/alert.md",
+    "title": "Alert",
+    "liveSha256": "8b13a5d1a3f114aa886f31f3300572d57e732de500c8ebf95b43da7cc9149024"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/overlays/drawer.md",
+    "path": "slab/content/blocks/overlays/drawer.md",
+    "title": "Drawer",
+    "liveSha256": "9ed6b89a799d6f052dae97ddc6c9b0db0f088c6c065b2e1bab322731799abeeb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/overlays/popup.md",
+    "path": "slab/content/blocks/overlays/popup.md",
+    "title": "Popup",
+    "liveSha256": "518a608815d95b65078e73fc24ba49d7eaf21d85ef1ef0046b675051fda496fb"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/overlays/sidebar.md",
+    "path": "slab/content/blocks/overlays/sidebar.md",
+    "title": "Sidebar",
+    "liveSha256": "891fa814563de28d199de40373ec06e579956e5b4420b42a5fa272d7d72f8be3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility.md",
+    "path": "slab/content/blocks/utility/README.md",
+    "title": "Utility",
+    "liveSha256": "1b22668857c91840ebe9dc761c173007344fa65750b0ced916b7b34e67d5708b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/account-b2b.md",
+    "path": "slab/content/blocks/utility/account-b2b.md",
+    "title": "Account B2B",
+    "liveSha256": "f81bd69f5f951c0203e1c231e793df7f5664e14eb31ecc885a21d2da67858b0d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/account-orders.md",
+    "path": "slab/content/blocks/utility/account-orders.md",
+    "title": "Account orders",
+    "liveSha256": "27cfd03d874cfa48bb97b8937fecdbf40792faaeb0c90bdc87b6fc7dd20da5b6"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/account-profile.md",
+    "path": "slab/content/blocks/utility/account-profile.md",
+    "title": "Account profile",
+    "liveSha256": "413d1749c8a016463d5973ba6b29623447e787a7253661f03a79c37f5a795b29"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/error.md",
+    "path": "slab/content/blocks/utility/error.md",
+    "title": "Error",
+    "liveSha256": "e14ac16330f9b3eca7ea0d877496697c91882547c6d20dec9c123251de8a0f94"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/form-response.md",
+    "path": "slab/content/blocks/utility/form-response.md",
+    "title": "Form response",
+    "liveSha256": "0f2edbbc11ad02718731987c037605df924c83a952872a7a820a5d8b0148529f"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/visibility.md",
+    "path": "slab/content/blocks/utility/visibility.md",
+    "title": "Visibility",
+    "liveSha256": "1a3616d26a6dfda38de63b50d640c9c6f5b4fee8529639d35818c5f2da4a082c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/liquid.md",
+    "path": "slab/content/blocks/utility/liquid.md",
+    "title": "Liquid",
+    "liveSha256": "28af7f24cefdc3f10db46a1e784e1f65a0b4fd8b85e9e399303e7bb3cf6f970b"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/localization-label.md",
+    "path": "slab/content/blocks/utility/localization-label.md",
+    "title": "Localization label",
+    "liveSha256": "8cfb6c9720c4a7e5bceb3810e4ced0f3f380fe27757306d1cae1199882b585b1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/audio-picker.md",
+    "path": "slab/content/blocks/utility/audio-picker.md",
+    "title": "Picker audio",
+    "liveSha256": "0d8d42795b8e3249e28b804732b38b5517ea2c89afd44e4b6cdbae769cfac9c3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/country-picker.md",
+    "path": "slab/content/blocks/utility/country-picker.md",
+    "title": "Picker country",
+    "liveSha256": "bda02d10dae3915607c400df4d00c80789758a9f5d94ff3bc0096438a8e8073a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/language-picker.md",
+    "path": "slab/content/blocks/utility/language-picker.md",
+    "title": "Picker language",
+    "liveSha256": "96dc3c933f5ce5bf001eb566ea0921c631c0f04441c87c80bea3538670ce4d01"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/quick-buy-content.md",
+    "path": "slab/content/blocks/utility/quick-buy-content.md",
+    "title": "Render quick buy",
+    "liveSha256": "d9d395cc82de6c6815a18694e9deb7306fc64f6ae1f5a342b653838d1e16008e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/quick-edit-content.md",
+    "path": "slab/content/blocks/utility/quick-edit-content.md",
+    "title": "Render quick edit",
+    "liveSha256": "8f5321459bdb6413f840c8a41905196cd8f03ff206f5b66aad50ed11fba1ebc2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/blocks/utility/shared-discount.md",
+    "path": "slab/content/blocks/utility/shared-discount.md",
+    "title": "Shared discount",
+    "liveSha256": "c9ba013fc23c518f9e4bdc49f7244a24607ada2edfde4bb41858c537d304f2c1"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections.md",
+    "path": "slab/content/sections/README.md",
+    "title": "Sections",
+    "liveSha256": "ed97e4d8f2773aa18e3b8d6277e439ba133e8ed8d60348c13528440b617ee6aa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/blank-section.md",
+    "path": "slab/content/sections/blank-section.md",
+    "title": "Blank section",
+    "liveSha256": "3942a211fa4a8a9c929bd8c0efacd5de4d67a29758754ecc5c49bd8af2b7a2dc"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/collection.md",
+    "path": "slab/content/sections/collection.md",
+    "title": "Collection",
+    "liveSha256": "3b91732c981035c54f3ce23ae782184d92464de4762490ea01a7536fdbfe6333"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/collection-lists.md",
+    "path": "slab/content/sections/collection-lists.md",
+    "title": "Collection lists",
+    "liveSha256": "d74ee064c38265ed6a9f0bac1d52cb5c279bf6cf7fe75dd4361cad163943ea9a"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/product.md",
+    "path": "slab/content/sections/product.md",
+    "title": "Product",
+    "liveSha256": "d42f1c0d98176e06609ea77de4b9cb8808d4ec36cb21eddf1a4ef3c850a12ffa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/search.md",
+    "path": "slab/content/sections/search.md",
+    "title": "Search",
+    "liveSha256": "12412a22ed789f6f85cc50f72d963793864a1c42c3758b64607ceef6653cb41d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/blog.md",
+    "path": "slab/content/sections/blog.md",
+    "title": "Blog",
+    "liveSha256": "70f0c87b5d0ed68a9f2dd912d3e5ef4e3ac83877e77a44d0044d411ce630fff0"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/header.md",
+    "path": "slab/content/sections/header.md",
+    "title": "Header",
+    "liveSha256": "442bb28e029947b0846eb28a2db8387ccd3259c801ccc6f0171dc3c78d3f87ce"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/content/sections/footer.md",
+    "path": "slab/content/sections/footer.md",
+    "title": "Footer",
+    "liveSha256": "9c564a05279674ec6552ca9cccc7164d3a372e8ce0a41446dc31f20e0773bdfa"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/getting-started.md",
+    "path": "slab/advanced-customizations/getting-started/README.md",
+    "title": "Getting started",
+    "liveSha256": "37c2377b0b0af280b0fbafaa6734c5ac3eb0261a8c71a9b80416b8cfda4cc085"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/getting-started/scripts-reference.md",
+    "path": "slab/advanced-customizations/getting-started/scripts-reference.md",
+    "title": "Scripts reference",
+    "liveSha256": "97a8fcfd014f1249f1348d828bbe6c4eade1dc87499676025ecb1fa8a4b8079c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/getting-started/pulling-upstream-updates.md",
+    "path": "slab/advanced-customizations/getting-started/pulling-upstream-updates.md",
+    "title": "Pull upstream updates",
+    "liveSha256": "7ceb7553340059a38a8a54d2d1ac5ba06d380a83b7a43f0b8a7ec92c55341fc4"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture.md",
+    "path": "slab/advanced-customizations/theme-architecture/README.md",
+    "title": "Theme architecture",
+    "liveSha256": "0d4e1bafeb3558cf1d4e0cf13e8d50654fb5a0f9f425fdff31411d1fa6701670"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling.md",
+    "path": "slab/advanced-customizations/theme-architecture/styling.md",
+    "title": "Styling",
+    "liveSha256": "78d2740aaf854034b289f1572145938a0c60c14a84a5d825a59828f3f3cd5883"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/README.md",
+    "title": "Utility classes",
+    "liveSha256": "93b9e10fdba4a737b9065bafdde4ab0a24913eb83fc3a25e042bbe1735727a7d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes/colors.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/colors.md",
+    "title": "Colors",
+    "liveSha256": "8afbb90d920c4f665cc036ea63ffb375388be316f4d2f990c67dce8d5dcf81b2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes/typography.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/typography.md",
+    "title": "Typography",
+    "liveSha256": "86eda383ad6cce9681f3499516cc0af60f9725eafcd1fb19d40433e9e7cd3275"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes/borders.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/borders.md",
+    "title": "Borders",
+    "liveSha256": "f80af319e7c6aaff8972a26c123f44b6f3e40bc61f5914d90f3fa33d2d3c6ea8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes/spacing.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/spacing.md",
+    "title": "Spacing",
+    "liveSha256": "bacc39471146061d1ea297bd91485fe10a6f33f08d07c621823be170f5fe4489"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes/animation.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/animation.md",
+    "title": "Animation",
+    "liveSha256": "b62b4dc588a3413947c93f33704a898d1428f53aece2d663ce9c55e248ce8a42"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/styling/utility-classes/scrollbar.md",
+    "path": "slab/advanced-customizations/theme-architecture/utility-classes/scrollbar.md",
+    "title": "Scrollbar",
+    "liveSha256": "b5ea5d7cd79d9f044e7599da84f1fab06a0e72473ca94e4f7842d17bf5da8f04"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/javascript.md",
+    "path": "slab/advanced-customizations/theme-architecture/javascript/README.md",
+    "title": "JavaScript",
+    "liveSha256": "e6460010a789ae6c3e6715f51552c81acb0171c6cc01521c7f2b274a23ccf737"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/javascript/events.md",
+    "path": "slab/advanced-customizations/theme-architecture/javascript/events.md",
+    "title": "Events",
+    "liveSha256": "3b3bdba3d32b5c7f4fca195ac965d0607922441d153f6b268bdf2b8d1d54ab95"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/theme-architecture/naming-conventions.md",
+    "path": "slab/advanced-customizations/theme-architecture/naming-conventions.md",
+    "title": "Naming conventions",
+    "liveSha256": "7926d6860210668581fb5d7e23cc8dce7629a061aed5540c6e0b867d6bea46b2"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes.md",
+    "path": "slab/advanced-customizations/making-changes/README.md",
+    "title": "Customizing your theme",
+    "liveSha256": "6f3e733627682af3cda0fb6f73566a5390d7a84e3eafae8e73cc58b8a80df12d"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-css.md",
+    "path": "slab/advanced-customizations/making-changes/using-custom-css.md",
+    "title": "Use custom CSS",
+    "liveSha256": "1ec9fdc2e45ecfa7c2391613520f6048c79371257dea63557613e132c4696fa3"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-css/popular-css-customizations.md",
+    "path": "slab/advanced-customizations/making-changes/popular-css-customizations/README.md",
+    "title": "Popular custom CSS",
+    "liveSha256": "cd8100f80986e3824d6a557aa27e170ab67b3a9df93e21e5246e363412a80c0e"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-css/popular-css-customizations/change-background-color.md",
+    "path": "slab/advanced-customizations/making-changes/popular-css-customizations/change-background-color.md",
+    "title": "Change background color",
+    "liveSha256": "8d535f47fa81de27575072cb91701215c5a050a9884dd121f0a683bb0c8f12ae"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-css/popular-css-customizations/change-heading-color.md",
+    "path": "slab/advanced-customizations/making-changes/popular-css-customizations/change-heading-color.md",
+    "title": "Change heading color",
+    "liveSha256": "f623da1d355ae7db2f070666614fe416bcb98b0dac18ff62e5d1a978797e5631"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-css/popular-css-customizations/change-button-color.md",
+    "path": "slab/advanced-customizations/making-changes/popular-css-customizations/change-button-color.md",
+    "title": "Change button color",
+    "liveSha256": "7aa9037056b613b09999f8daab5a3527dfb878531356288f1b05c9fe8e483950"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-css/popular-css-customizations/adjust-button-size.md",
+    "path": "slab/advanced-customizations/making-changes/popular-css-customizations/adjust-button-size.md",
+    "title": "Change button size",
+    "liveSha256": "a59d8b98ad070922227a587d6eb16e3fbf9e896601c9fd6b1d8c6b9120ecb241"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-fonts.md",
+    "path": "slab/advanced-customizations/making-changes/using-custom-fonts.md",
+    "title": "Use custom fonts",
+    "liveSha256": "5a4a166d3ef285ebd47d8662460402554a5ec08cb158d1d904470ff3a30f3676"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-icons.md",
+    "path": "slab/advanced-customizations/making-changes/using-custom-icons.md",
+    "title": "Use custom icons",
+    "liveSha256": "8af5c8bdd9905012747914bc250f76ce86715e1670f85a70102ffb8f669e1b28"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/using-custom-liquid.md",
+    "path": "slab/advanced-customizations/making-changes/using-custom-liquid.md",
+    "title": "Use custom Liquid",
+    "liveSha256": "abf3c69c95ae24fcf7118740aa662f3c20922ed3a3a59e246c12647802e84b90"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/creating-custom-blocks.md",
+    "path": "slab/advanced-customizations/making-changes/creating-custom-blocks.md",
+    "title": "Create custom blocks",
+    "liveSha256": "ac6535ec981240e4d5147955ebbadb1c483793dce418aa8ada0fc167329139e9"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/making-changes/creating-custom-sections.md",
+    "path": "slab/advanced-customizations/making-changes/creating-custom-sections.md",
+    "title": "Create custom sections",
+    "liveSha256": "b8dbc6ff99c7f63efc63c33230a5f7a4d1021c5a995d8d42b15da867bdaf6e03"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/advanced-customizations/working-with-coding-agents.md",
+    "path": "slab/advanced-customizations/working-with-coding-agents.md",
+    "title": "Work with coding agents",
+    "liveSha256": "a16a44fd7e4f9ad67e2f75d9994487c8775317627c51560d54432380339f795c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/general/support-policy.md",
+    "path": "slab/general/support-policy.md",
+    "title": "Support policy",
+    "liveSha256": "003381a948f4b80fc298371e3386cb55c5d555e0afcc626021b237704cc4f96c"
+  },
+  {
+    "url": "https://help.brickspacelab.com/slab/general/theme-license.md",
+    "path": "slab/general/theme-license.md",
+    "title": "Theme license",
+    "liveSha256": "dcd298700f037d539977df94b0278e411f8c1c08e3a0509a282630682e2cb2e5"
+  },
+  {
+    "url": "https://help.brickspacelab.com/pallet/readme.md",
+    "path": "pallet/README.md",
+    "title": "Pallet",
+    "liveSha256": "6fe4ee2432f805658b608be8646d5e413b9dc40a54256e1e3ad8b73de84f9354"
+  },
+  {
+    "url": "https://help.brickspacelab.com/pallet/getting-started/selecting-a-subscription-plan.md",
+    "path": "pallet/getting-started/selecting-a-subscription-plan.md",
+    "title": "Select a plan",
+    "liveSha256": "a3f26cc650b64468d9fec40cbda638ccec9d7d2da0771c85caeaad26f995c471"
+  },
+  {
+    "url": "https://help.brickspacelab.com/pallet/getting-started/installing-the-pallet-app.md",
+    "path": "pallet/getting-started/installing-the-pallet-app.md",
+    "title": "Install Pallet",
+    "liveSha256": "810f077cc6e090fb81ec8fba0feae5fdf209a87f4103f2dd954bd16950be1bf8"
+  },
+  {
+    "url": "https://help.brickspacelab.com/pallet/getting-started/creating-your-first-storefront-rule.md",
+    "path": "pallet/getting-started/creating-your-first-storefront-rule.md",
+    "title": "Storefront rules",
+    "liveSha256": "8532c67cc380d237d8828fe3c6440a2f7e5497563becda91e8e256101c59278a"
+  }
+]

@@ -1,10 +1,14 @@
+---
+index: 1
+---
+
 # Hide prices
 
 Hiding prices is useful for wholesale or B2B stores where you want to prevent unauthorized visitors from seeing product pricing. Products with the restriction tag will not display prices or an **Add to Cart** button to customers who aren't logged in or approved.
 
 ***
 
-### Setup <a href="#setup" id="setup"></a>
+### Setup
 
 1. Open the **Theme Editor** by clicking **Customize** next to your theme
 2. Click **Theme Settings** (gear icon near the top left)
@@ -14,7 +18,7 @@ Hiding prices is useful for wholesale or B2B stores where you want to prevent un
 
 ***
 
-### Add tags to products <a href="#add-tags" id="add-tags"></a>
+### Add tags to products
 
 1. In your Shopify admin, go to **Products**
 2. Select the product you want to restrict
@@ -23,7 +27,7 @@ Hiding prices is useful for wholesale or B2B stores where you want to prevent un
 
 ***
 
-### Important notes <a href="#notes" id="notes"></a>
+### Important notes
 
 {% hint style="warning" %}
 **Restriction tags are case sensitive!**
