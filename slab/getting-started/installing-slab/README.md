@@ -4,9 +4,9 @@ index: 0
 
 # Install Slab
 
-## Install with an AI assistant
+## Install with your agent
 
-After purchasing Slab and receiving GitHub access, copy this prompt into your AI coding assistant.
+After purchasing Slab and receiving GitHub access, copy this prompt into your agent.
 
 {% prompt description="Install command" %}
 ```markdown

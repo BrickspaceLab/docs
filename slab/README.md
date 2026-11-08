@@ -1,4 +1,5 @@
 ---
+topbar: true
 index: 4
 ---
 
@@ -6,9 +7,9 @@ index: 4
 
 <figure><img src=".gitbook/assets/52e82fff661fec8619.png" alt=""><figcaption></figcaption></figure>
 
-## Install with an AI assistant
+## Install with your agent
 
-After purchasing Slab and receiving GitHub access, copy this prompt into your AI coding assistant.
+After purchasing Slab and receiving GitHub access, copy this prompt into your agent.
 
 {% prompt description="Install command" %}
 ```markdown
