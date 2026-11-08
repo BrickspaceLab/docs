@@ -8,18 +8,13 @@ Find setup guides, reference documentation, and support for Brickspace Lab theme
 
 ## Themes
 
-| Theme | Documentation |
-| --- | --- |
-| Paper | [For large catalog storefronts](paper/README.md). |
-| Space | [For storefronts with visual impact](space/README.md). |
-| Keystone | [For B2B and wholesale storefronts](keystone/README.md). |
-| Slab | [For a modular theme experience](slab/README.md). |
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Paper</strong></td><td>For large catalog storefronts.</td><td><a href="paper/README.md">Paper</a></td></tr><tr><td><strong>Space</strong></td><td>For storefronts with visual impact.</td><td><a href="space/README.md">Space</a></td></tr><tr><td><strong>Keystone</strong></td><td>For B2B and wholesale storefronts.</td><td><a href="keystone/README.md">Keystone</a></td></tr><tr><td><strong>Slab</strong></td><td>For a modular theme experience.</td><td><a href="slab/README.md">Slab</a></td></tr></tbody></table>
 
 Not sure which theme to choose? Read the [theme comparison](general/general/theme-comparisons.md).
 
 ## Shopify apps
 
-[Pallet](pallet/README.md) helps merchants create and manage B2B pricing groups.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pallet</strong></td><td>Create and manage B2B pricing groups.</td><td><a href="pallet/README.md">Pallet</a></td></tr></tbody></table>
 
 ## General and services
 
