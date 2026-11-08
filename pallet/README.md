@@ -1,4 +1,5 @@
 ---
+topbar: true
 index: 5
 ---
 

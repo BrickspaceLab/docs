@@ -1,5 +1,6 @@
 ---
 title: General
+topbar: true
 index: 0
 ---
 
