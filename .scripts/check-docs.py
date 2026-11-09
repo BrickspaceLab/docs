@@ -99,7 +99,8 @@ def check():
                 if re.search(r'^published: false$', target.read_text().split('---', 2)[1] if target.read_text().startswith('---\n') else '', re.M):
                     errors.append(f'{name}: link to unpublished page: {value}')
     inventory = json.loads((ROOT / '.migration/live-pages.json').read_text())
-    for item in inventory:
+    active_inventory = [item for item in inventory if item.get('retired') is not True]
+    for item in active_inventory:
         if (ROOT / item['path']).resolve() not in pages:
             errors.append(f"Live page missing from publication: {item['url']}")
     sizes = [len(source.encode()) for source in pages.values()]
@@ -107,7 +108,8 @@ def check():
         errors.append('Repository exceeds Knowing sync limits')
     for error in errors:
         print(error)
-    print(f'{len(pages)} published pages; {len(inventory)} live pages covered; {sum(sizes):,} Markdown bytes; {len(errors)} errors.')
+    print(f'{len(pages)} published pages; {len(active_inventory)} active live pages covered; '
+          f'{len(inventory) - len(active_inventory)} retired; {sum(sizes):,} Markdown bytes; {len(errors)} errors.')
     return bool(errors)
 
 

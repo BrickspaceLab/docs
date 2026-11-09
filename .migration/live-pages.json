@@ -3567,24 +3567,28 @@
     "url": "https://help.brickspacelab.com/pallet/readme.md",
     "path": "pallet/README.md",
     "title": "Pallet",
+    "retired": true,
     "liveSha256": "6fe4ee2432f805658b608be8646d5e413b9dc40a54256e1e3ad8b73de84f9354"
   },
   {
     "url": "https://help.brickspacelab.com/pallet/getting-started/selecting-a-subscription-plan.md",
     "path": "pallet/getting-started/selecting-a-subscription-plan.md",
     "title": "Select a plan",
+    "retired": true,
     "liveSha256": "a3f26cc650b64468d9fec40cbda638ccec9d7d2da0771c85caeaad26f995c471"
   },
   {
     "url": "https://help.brickspacelab.com/pallet/getting-started/installing-the-pallet-app.md",
     "path": "pallet/getting-started/installing-the-pallet-app.md",
     "title": "Install Pallet",
+    "retired": true,
     "liveSha256": "810f077cc6e090fb81ec8fba0feae5fdf209a87f4103f2dd954bd16950be1bf8"
   },
   {
     "url": "https://help.brickspacelab.com/pallet/getting-started/creating-your-first-storefront-rule.md",
     "path": "pallet/getting-started/creating-your-first-storefront-rule.md",
     "title": "Storefront rules",
+    "retired": true,
     "liveSha256": "8532c67cc380d237d8828fe3c6440a2f7e5497563becda91e8e256101c59278a"
   }
 ]

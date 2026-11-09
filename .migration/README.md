@@ -59,3 +59,7 @@ Live Knowing rendering remains an acceptance check. The destination did not load
 Before replacing the existing help center, preview the candidate content in Knowing and check the homepage, folder order, cross-product links, image access, search, mobile layout, cards, steps, expandable FAQs, and changelogs. Confirm that the deployed Knowing version supports the same repository metadata and Markdown features as the checked source.
 
 The existing source paths are preserved. GitBook's published routes still differ from some repository paths: the live General space is served at the domain root; custom CSS and utility-class pages have additional public URL aliases. `live-pages.json` is the starting point for a page-by-page redirect map, not an installed redirect configuration. Map both clean page URLs and `.md` endpoints when preparing a future domain cutover. Keep Catalog redirects coordinated with its independent migration. Publishing a release and changing DNS/redirects require separate authorization.
+
+## Pallet retirement — November 9, 2026
+
+Pallet is no longer available. Its five published pages, homepage card, and product navigation have been removed from the documentation source. The publication now contains 619 pages. The four Pallet entries in `live-pages.json` retain their original URLs and export hashes with `retired: true`; validation continues to require all 594 active inventory pages. The migration findings above describe the original October 31 snapshot.
