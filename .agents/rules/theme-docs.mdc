@@ -1,6 +1,6 @@
 ---
-description: Source-of-truth verification for theme docs (slab, paper, space, keystone, Pallet)
-globs: "{slab,paper,space,keystone,Pallet}/**/*.md"
+description: Source-of-truth verification for theme docs (slab, paper, space, keystone)
+globs: "{slab,paper,space,keystone}/**/*.md"
 alwaysApply: false
 ---
 

@@ -31,7 +31,7 @@ Example request:
 Decide whether the request is theme-backed or non-theme.
 
 - Theme-backed topics depend on `slab`, `paper`, `space`, or `keystone` theme behavior, settings, blocks, sections, snippets, or schema-defined options.
-- Non-theme topics usually belong to `general` or `pallet`, unless the solution clearly depends on theme functionality.
+- Non-theme topics usually belong to `general`, unless the solution clearly depends on theme functionality.
 
 If the request is theme-backed:
 
@@ -56,7 +56,6 @@ If the request is non-theme:
    - `paper/...`
    - `space/...`
    - `keystone/...`
-   - `pallet/...`
    - `general/...`
 4. Follow `.cursor/rules/formatting.mdc`.
 5. For theme docs, also follow `.cursor/rules/theme-docs.mdc`.
