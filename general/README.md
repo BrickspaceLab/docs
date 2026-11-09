@@ -4,7 +4,7 @@ topbar: true
 index: 0
 ---
 
-# General and services
+# General
 
 Find [support](general/contact-support/README.md), [compare themes](general/theme-comparisons.md), or learn about [services](support/README.md) and [partner programs](partners/README.md).
 
