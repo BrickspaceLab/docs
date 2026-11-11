@@ -9,36 +9,21 @@ Start with the theme repository's `AGENTS.md`. It explains how to build and prev
 | Location | What it contains |
 | --- | --- |
 | `.agents/rules/` | Project standards for Liquid, JavaScript, accessibility, and more. Use the rules that match the files or components you are editing. |
-| `.agents/skills/` | Workflows such as `edit-shopify-json` for schema-bound theme JSON and the Liquid skills for theme code. |
+| `.agents/skills/` | Guides for Liquid, accessibility, and code review. |
 | `.agents/commands/` | Saved prompts for reviews, fixes, and release tasks. |
 
 ## Commands
 
 Open the matching Markdown file under `.agents/commands/` and follow its steps. If your agent supports slash commands, you can use the command name.
 
-#### Review commands
-
-Run these after making changes to catch issues before committing:
-
-| Command                 | What it audits                                           |
-| ----------------------- | -------------------------------------------------------- |
-| `/review-liquid`        | Liquid syntax, variable naming, file organization        |
-| `/review-accessibility` | WAI-ARIA patterns, keyboard navigation, focus management |
-| `/review-performance`   | Lazy loading, loop optimization, unnecessary re-renders  |
-| `/review-alpine`        | Alpine.js component structure and loading strategy       |
-| `/review-javascript`    | JavaScript correctness, event handling patterns          |
-
-#### Generation and fix commands
-
-| Command                    | What it does                                                       |
-| -------------------------- | ------------------------------------------------------------------ |
-| `/add-doc`                 | Adds a `{% doc %}` LiquidDoc header to a snippet or block          |
-| `/add-comment`             | Adds inline comments explaining non-obvious logic                  |
-| `/fix-accessibility-issue` | Diagnoses and fixes a specific accessibility problem               |
-| `/fix-breaking-changes`    | Updates code for Slab API changes between versions                 |
-| `/pull-upstream-updates`   | Merges `upstream/main` on a fork using the [Pull upstream updates](getting-started/pulling-upstream-updates.md) conflict policy |
-| `/format-presets`          | Reformats section preset JSON to match conventions                 |
-| `/prepare-submission`      | Full release workflow: build, version bump, changelog, theme check |
+| Command | What it does |
+| --- | --- |
+| `/review-rules` | Reviews changes against the project rules and review skills. |
+| `/test-preview` | Checks the Shopify preview for a pull request. |
+| `/review-submission` | Validates a theme release before submission. |
+| `/add-doc` | Adds a `{% doc %}` LiquidDoc header to a snippet or block. |
+| `/add-comment` | Adds inline comments explaining non-obvious logic. |
+| `/pull-upstream-updates` | Merges `upstream/main` on a fork using the [Pull upstream updates](getting-started/pulling-upstream-updates.md) conflict policy. |
 
 ## Practical examples
 
@@ -49,7 +34,7 @@ Run these after making changes to catch issues before committing:
 3. Prompt the agent:
 
 ```
-Using the edit-shopify-json skill, update templates/index.json to match this design.
+Read the template and block rules before updating templates/index.json to match this design.
 Keep the existing header and footer sections, replace the body sections with the new layout.
 ```
 
@@ -70,8 +55,8 @@ The grid columns should be configurable (2, 3, or 4 columns on desktop).
 #### "Audit accessibility after a change"
 
 ```
-I just updated the cart drawer — run /review-accessibility on snippets/cart-drawer.liquid
-and fix any issues you find.
+I just updated the cart drawer. Review it against the cart drawer accessibility rule
+and verify keyboard navigation in the preview.
 ```
 
 ***
@@ -88,6 +73,6 @@ locales/en.default.schema.json.
 ## Tips
 
 * **Be specific about files.** Name the template, section, or snippet you want modified. The agent works best with a clear target file.
-* **Attach images when you have them.** The `edit-shopify-json` skill is designed to accept screenshots — describing a layout in words works, but a visual reference produces faster, more accurate results.
-* **Use review commands before committing.** Try `/review-liquid` and `/review-accessibility` on the files you changed.
+* **Attach images when you have them.** Describe the layout in words if you don't have an image.
+* **Use review commands before committing.** Run `/review-rules` on the files you changed.
 * **Point your agent to the project rules.** Start with `AGENTS.md` if your agent does not load the repository guidance automatically.
