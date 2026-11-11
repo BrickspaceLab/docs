@@ -4,7 +4,9 @@ index: 0
 
 # Changelog
 
-## Slab 0.5.0 (upcoming)
+{% updates format="full" %}
+{% update date="2026-11-11" tags="0.5.0" %}
+## Full-screen galleries, purchase options, and cart controls
 
 * Added [product customization and quantity offers](content/blocks/products/buy-buttons.md), selected variant pricing, and more controls for [subscriptions](content/blocks/products/subscription.md).
 * Added [Cart frequency and Cart upgrade](guides/cart/build-your-cart.md), plus options for grouping cart items and showing savings.
@@ -45,7 +47,8 @@ index: 0
 
 </details>
 
-{% updates format="full" %}
+{% endupdate %}
+
 {% update date="2026-05-12" tags="0.4.0" %}
 ## Header transitions, schema cleanup, and storefront refinements
 
