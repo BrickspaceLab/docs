@@ -30,3 +30,13 @@ The **Quick buy button** takes customers to the product page when its assigned t
 1. Add a **Quantity discount** preset to the product template and keep **Buy buttons** in the same product section.
 2. Edit each **Quantity discount option**. Set **Quantity** and **Discount**, and add a **Tag** if you want to call out an offer.
 3. Create a matching automatic discount in Shopify. The block shows the offer and sets the quantity when selected. Shopify applies the discount in the cart and at checkout.
+
+## Add purchase option cards
+
+Use **Purchase options** to let customers select a card and add all its configured items to the cart together.
+
+1. In the theme editor, open a product template and add **Purchase options** to the **Product** section.
+2. Edit the included **Purchase option** and add more cards as needed. Set each card's **Heading** and optional **Badge**. Add a block such as **Rich text** to describe the offer.
+3. Inside each card, configure a **Purchase option item** for each cart line. Choose the **Product** and set the **Quantity**, which defaults to 1. Enter a **Variant ID** to use a specific variant. Leave it blank to use the selected or first available variant.
+4. For a subscription item, enter a **Selling plan ID** to use a specific plan, or a **Selling plan group ID** to use the first available plan in the group. If you enter both, the plan must belong to that group. Leave both blank for a one-time purchase when the product allows it.
+5. Keep **Buy buttons** inside **Purchase options** and use its nested **Button** to customize the appearance and text. Preview each card and check that its items, quantities, and purchase plans appear in the cart as configured.

@@ -16,12 +16,16 @@ A product media gallery component that displays a collection of media items (ima
 
 * Best used within a slider section for product galleries
 * Configure appropriate widths based on your layout needs
-* Consider enabling zoom functionality for product images when detail viewing is important
+* Let customers open product media full screen or magnify images on hover.
 * Use in conjunction with navigation controls for better user experience
 
 ## Filter images and add thumbnails
 
 Use the same [variant media setup](product-gallery.md#group-media-by-variant) as the grid gallery. Add **Slider gallery thumbnails** inside the same **Slider** as **Slider gallery**, then check that **Show thumbnails** is on in the **Slider** settings. Match the thumbnail block’s **Product**, **Item count**, and **Show selected variant images only** settings to the gallery. On the **Slider**, set **Thumbnail size** and choose **Left**, **Right**, **Top**, or **Bottom** for **Thumbnails position**.
+
+## Open media full screen
+
+**Enable full screen gallery** is on by default. Customers can select an image or use the full-screen button on a video or 3D model. See [how customers browse media full screen](product-gallery.md#open-media-full-screen).
 
 ## Block settings
 
@@ -38,7 +42,7 @@ Use the same [variant media setup](product-gallery.md#group-media-by-variant) as
 | Show selected variant images only | Filter media for the selected variant on products with fewer than 50 variants. | Checkbox (default: false) |
 | Jump to selected variant image | Scroll to the selected variant image without changing the order of the slides. Works independently of filtering. | Checkbox (default: true) |
 | Product             | Product to display media from                | Product picker            |
-| Item count          | Number of media items to display             | Number (default: 7)       |
+| Item count          | Number of media items to display inline             | Number (default: 7)       |
 
 ### Spacing
 
@@ -64,7 +68,9 @@ Use the same [variant media setup](product-gallery.md#group-media-by-variant) as
 
 | Setting             | Description                                   | Options                                                                                                |
 | ------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Enable aspect ratio | Maintains a consistent aspect ratio for media | Checkbox (default: false)                                                                              |
+| Enable aspect ratio | Maintains a consistent aspect ratio for media | Checkbox (default: false) |
+| Enable full screen gallery | Open the selected media in a full-screen viewer. | Checkbox (default: true) |
+| Enable zoom on hover | Magnify images when customers hover over them. | Checkbox (default: false) |
 | Show entire image   | Shows the full image without cropping         | <p>Checkbox (default: true)<br><br>Visible when enable aspect ratio is true</p>                        |
 | Aspect ratio        | Aspect ratio for the media container          | <p>• Square<br>• Landscape<br>• Portrait<br>• None<br><br>Visible when enable aspect ratio is true</p> |
 

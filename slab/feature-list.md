@@ -6,7 +6,7 @@ index: 1
 
 ## Complete block list
 
-Slab 0.5.0 includes 133 theme block types. The names below match the English Shopify theme editor. When a block belongs inside a specific section or parent block, its description names that location.
+Slab 0.5.0 includes 137 theme block types. The names below match the English Shopify theme editor. When a block belongs inside a specific section or parent block, its description names that location.
 
 Some block types have more than one preset. For example, **Quantity discount** is a preset of **Default grid**.
 
@@ -98,7 +98,7 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | [Collection grid](content/blocks/all-pagination/wrappers/layout-collection-grid.md) | Display paginated products in the Collection section. |
 | [Collections grid](content/blocks/all-pagination/wrappers/collections-grid.md) | Display paginated collections in the List collections section. |
 | [Grid paginate item](content/blocks/all-pagination/grid-paginate-item.md) | Insert content at a chosen position in a paginated blog, collection, collections, or search grid. |
-| [Product gallery](content/blocks/all-pagination/gallery/product-gallery.md) | Show product media inside Default grid. |
+| [Product gallery](content/blocks/all-pagination/gallery/product-gallery.md) | Show product media inside Default grid with a full-screen viewing option. |
 | [Product grid](content/blocks/all-pagination/products/product-grid.md) | Show products inside Default grid. |
 | [Product recommendations](content/blocks/all-pagination/products/grid-product-recommendations.md) | Show recommended products inside Default grid. |
 | [Product recommendations](content/blocks/all-pagination/products/slider-product-recommendations.md) | Show recommended products inside Slider. |
@@ -107,7 +107,7 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | [Search grid](content/blocks/all-pagination/wrappers/search-grid.md) | Display paginated results in the Search section. |
 | [Slider articles](content/blocks/all-pagination/articles/slider-articles.md) | Show blog articles inside Slider. |
 | [Slider collections](content/blocks/all-pagination/collections/slider-collections.md) | Show collections inside Slider. |
-| [Slider gallery](content/blocks/all-pagination/gallery/slider-gallery.md) | Show product media inside Slider. |
+| [Slider gallery](content/blocks/all-pagination/gallery/slider-gallery.md) | Show product media inside Slider with a full-screen viewing option. |
 | [Slider gallery thumbnails](content/blocks/all-pagination/gallery/slider-gallery.md#filter-images-and-add-thumbnails) | Add thumbnail navigation inside the same Slider as Slider gallery. |
 | [Slider products](content/blocks/all-pagination/products/slider-products.md) | Show products inside Slider. |
 
@@ -133,12 +133,16 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | --- | --- |
 | [Badges](content/blocks/products/badges.md) | Highlight a product's sale, availability, or custom labels. |
 | [Bundles](content/blocks/products/bundles.md) | Offer a group of products together. |
-| [Buy buttons](content/blocks/products/buy-buttons.md) | Build the purchase form with add-to-cart buttons and related controls. |
+| [Buy buttons](content/blocks/products/buy-buttons.md) | Build the product purchase form with add-to-cart buttons and related controls. |
+| [Buy buttons](content/blocks/products/buy-buttons.md#add-purchase-option-cards) | Add the selected card’s items to the cart from inside Purchase options. |
 | [Inventory availability](content/blocks/products/inventory-availability.md) | Show stock status or a low-inventory message. |
 | [Options](content/blocks/products/options.md) | Let customers choose product variant options. |
 | [Pickup availability](content/blocks/products/pickup-availability.md) | Show pickup locations and availability for the selected variant. |
 | [Price](content/blocks/products/price.md) | Display a product price range, starting price, selected variant price, or selected variant total. |
 | [Product media](content/blocks/products/product-media.md) | Display media for the current or selected product. |
+| [Purchase option](content/blocks/products/buy-buttons.md#add-purchase-option-cards) | Define a selectable card inside Purchase options. |
+| [Purchase option item](content/blocks/products/buy-buttons.md#add-purchase-option-cards) | Specify the product, variant, quantity, and optional selling plan for an item inside Purchase option. |
+| [Purchase options](content/blocks/products/buy-buttons.md#add-purchase-option-cards) | Present selectable cards for different groups of products or subscription offers. |
 | [Quantity discount option](content/blocks/products/buy-buttons.md#show-a-quantity-offer) | Display a quantity offer and set the product form quantity. Configure the matching Shopify discount separately. |
 | [Quick buy button](content/blocks/products/quick-buy-button.md) | Open quick buy or add an eligible variant directly to the cart. |
 | [Rating](content/blocks/products/rating.md) | Display a product's review rating. |
@@ -156,7 +160,7 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | [Cart frequency](guides/cart/build-your-cart.md#let-customers-change-subscription-frequency) | Let customers change the subscription lines to a shared frequency. |
 | [Cart results](content/blocks/cart/cart-results.md) | Display and edit cart items as individual lines or grouped by product. |
 | [Cart upgrade](guides/cart/build-your-cart.md#add-an-automatic-cart-upgrade) | Automatically add a product at its catalog price when the cart meets the configured conditions. |
-| [Checkout](content/blocks/cart/checkout.md) | Provide a checkout button and configure a minimum order value. |
+| [Checkout](content/blocks/cart/checkout.md) | Give customers a button to proceed to checkout. |
 | [Checkout agreement](content/blocks/cart/checkout-agreement.md) | Require customers to accept terms before checkout. |
 | [Discount input](content/blocks/cart/discount-input.md) | Let customers enter a cart discount code. |
 | [Full subtotal](content/blocks/cart/full-subtotal.md) | Display detailed cart totals and discounts. |
@@ -291,7 +295,9 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | [Sibling products](content/blocks/products/sibling-options.md) | Link related products as swatches using a collection-reference product metafield. |
 | Product upsells              | Display automatic or manually selected product upsells.                                                                                  |
 | Product bundles              | Sell multiple items together on one product page.                                                                                        |
-| Image zooming                | Let customers get a closer look at product images with a zoomable gallery.                                                               |
+| [Purchase option cards](content/blocks/products/buy-buttons.md#add-purchase-option-cards) | Let customers add a configured group of variants, quantities, and optional selling plans in one action. |
+| [Hover zoom](content/blocks/all-pagination/gallery/product-gallery.md) | Magnify product images when customers hover over them. |
+| [Full-screen product gallery](content/blocks/all-pagination/gallery/product-gallery.md#open-media-full-screen) | Let customers open images, videos, and 3D models in a full-screen viewer from a grid or slider gallery. |
 | Multimedia gallery           | Display images, videos, and 3D files in a single media gallery.                                                                          |
 | Supports app blocks          | Easily add third-party apps to your product template using app blocks.                                                                   |
 | Store pickup                 | Show inventory availability and different locations.                                                                                     |
@@ -311,7 +317,6 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | Build your own cart     | Use blocks to build your cart in a popup, drawer, alert, sidebar, or full page. Set the display type per device and build the contents with each block. |
 | Cart agreement          | Require customers to check a box agreeing to terms and conditions before continuing to checkout.                                                        |
 | Cart discount           | Let customers enter and apply discount codes to their cart.                                                                                             |
-| Minimum order value     | Set a minimum cart value to unlock checkout.                                                                                                            |
 | Multi-tier progress bar | Show progress toward a reward, discount, or free shipping threshold. Customers see how much more they need to spend.                                    |
 | [Cart item display](content/blocks/cart/cart-results.md) | Group variants by product or show individual cart lines. Choose how the edit, delete, and subscription actions appear. |
 | Cart upsells            | Display a collection of products to upsell. Use checkbox upsells for one-click upgrades such as shipping insurance or gift wrapping.                    |
@@ -323,7 +328,7 @@ Some block types have more than one preset. For example, **Quantity discount** i
 | Cart redirect           | Redirect customers to the cart page.                                                                                                                    |
 | [Cart upgrade](guides/cart/build-your-cart.md#add-an-automatic-cart-upgrade) | Add a product at its catalog price when the cart meets the conditions. |
 | [Cart frequency](guides/cart/build-your-cart.md#let-customers-change-subscription-frequency) | Let customers choose a frequency shared by their subscription items. |
-| [Cart savings](content/blocks/cart/cart-results.md) | Show the higher one-time or compare-at price crossed out when available. |
+| [Cart savings](content/blocks/cart/cart-results.md) | Show crossed-out prices and control discount badges on individual cart lines. |
 
 ## Blog
 

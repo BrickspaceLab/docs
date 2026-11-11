@@ -8,6 +8,8 @@ index: 0
 
 * Added [product customization and quantity offers](content/blocks/products/buy-buttons.md), selected variant pricing, and more controls for [subscriptions](content/blocks/products/subscription.md).
 * Added [Cart frequency and Cart upgrade](guides/cart/build-your-cart.md), plus options for grouping cart items and showing savings.
+* Added [purchase option cards](content/blocks/products/buy-buttons.md#add-purchase-option-cards) for groups of variants, quantities, and optional selling plans.
+* Added [full-screen product galleries](content/blocks/all-pagination/gallery/product-gallery.md#open-media-full-screen) for images, videos, and 3D models in grid and slider layouts.
 * Added [variant media filtering and sorting](content/blocks/all-pagination/gallery/product-gallery.md) and slider gallery thumbnails.
 * Added [reusable sections and FAQ layouts](guides/slab-basics/reuse-content.md), **Scroll area**, and **Scroll reveal bar**.
 
@@ -25,6 +27,7 @@ index: 0
 
 <summary>Improvements</summary>
 
+* Added **Show saving details** in [Cart results](content/blocks/cart/cart-results.md) to control discount badges on cart items.
 * Added active menu link styling and a setting to open external links in a new tab.
 * Updated the default desktop header to show a text **Search** control.
 * Added card bottom alignment, longer marquee durations, and payment icon alignment. Updated storefront audio to use Cuelume.

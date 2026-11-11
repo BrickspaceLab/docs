@@ -29,6 +29,12 @@ To filter or reorder images by variant, use the gallery inside the **Product** s
 2. In **Product gallery** or **Slider gallery**, turn on **Show selected variant images only**. Media with no variant assignment or recognized tag stays visible for all variants.
 3. Preview the product and change variants to check the images. Filtering is available for products with fewer than 50 variants.
 
+## Open media full screen
+
+**Enable full screen gallery** is on by default. Customers can click or tap a photo, or use the full-screen button on a video or 3D model. The viewer opens on that item and follows the gallery’s variant filtering. **Item count** limits the inline gallery. Customers can see additional media in the full-screen view.
+
+The viewer scrolls horizontally on desktop and vertically on mobile. Customers can also use **Previous**, **Next**, or the arrow keys to browse, and **Close** or **Esc** to return to the page.
+
 ## Block settings
 
 ### General
@@ -44,7 +50,7 @@ To filter or reorder images by variant, use the gallery inside the **Product** s
 | Show selected variant images only | Filter media for the selected variant on products with fewer than 50 variants. | Checkbox (default: false) |
 | Move selected variant image first | Works independently of image filtering on products with fewer than 50 variants. | Checkbox (default: true) |
 | Product               | Select the product to display media from                  | Product picker            |
-| Item count            | Number of media items to display (0 = all media)          | Number input (default: 7) |
+| Item count            | Number of media items to display inline (0 = all media)          | Number input (default: 7) |
 | Show alt text         | Shows each image’s alt text under the media when set      | Checkbox (default: false) |
 
 ### Color
@@ -64,7 +70,9 @@ To filter or reorder images by variant, use the gallery inside the **Product** s
 
 | Setting             | Description                                           | Options                                                                                                |
 | ------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Enable aspect ratio | Maintains consistent aspect ratio for all media items | Checkbox (default: false)                                                                              |
+| Enable aspect ratio | Maintains consistent aspect ratio for all media items | Checkbox (default: false) |
+| Enable full screen gallery | Open the selected media in a full-screen viewer. | Checkbox (default: true) |
+| Enable zoom on hover | Magnify images when customers hover over them. | Checkbox (default: false) |
 | Show entire image   | Displays entire image without cropping                | <p>Checkbox (default: true)<br><br>Visible when enable aspect ratio is true</p>                        |
 | Aspect ratio        | Aspect ratio for media items                          | <p>• Square<br>• Landscape<br>• Portrait<br>• None<br><br>Visible when enable aspect ratio is true</p> |
 
