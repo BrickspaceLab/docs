@@ -40,7 +40,7 @@ This is a private block. It is intended for use only within specific parent bloc
 | Setting               | Description                                               | Options                   |
 | --------------------- | --------------------------------------------------------- | ------------------------- |
 | Show selected variant images only | Filter media for the selected variant on products with fewer than 50 variants. | Checkbox (default: false) |
-| Enable sort selected variant | Move the selected variant image to the front of the grid on products with fewer than 50 variants. Works independently of filtering. | Checkbox (default: true) |
+| Move selected variant image first | Works independently of image filtering on products with fewer than 50 variants. | Checkbox (default: true) |
 | Product               | Select the product to display media from                  | Product picker            |
 | Item count            | Number of media items to display (0 = all media)          | Number input (default: 7) |
 | Show alt text         | Shows each image’s alt text under the media when set      | Checkbox (default: false) |
