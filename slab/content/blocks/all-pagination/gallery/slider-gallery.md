@@ -36,7 +36,7 @@ Use the same [variant media setup](product-gallery.md#group-media-by-variant) as
 | Setting             | Description                                  | Options                   |
 | ------------------- | -------------------------------------------- | ------------------------- |
 | Show selected variant images only | Filter media for the selected variant on products with fewer than 50 variants. | Checkbox (default: false) |
-| Enable sort selected variant | Scroll to the selected variant image without changing the order of the slides. Works independently of filtering. | Checkbox (default: true) |
+| Jump to selected variant image | Scroll to the selected variant image without changing the order of the slides. Works independently of filtering. | Checkbox (default: true) |
 | Product             | Product to display media from                | Product picker            |
 | Item count          | Number of media items to display             | Number (default: 7)       |
 
