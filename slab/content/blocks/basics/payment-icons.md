@@ -46,3 +46,7 @@ A customizable block that displays payment method icons supported by the store. 
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
 | Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+
+## Align payment icons
+
+Use **Horizontal alignment** to align the icons to the left, center, or right.

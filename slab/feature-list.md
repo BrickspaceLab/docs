@@ -4,7 +4,7 @@ index: 1
 
 # Feature list
 
-This page is a capability index for Slab. It includes every documented block known feature. Slab is built almost entirely with blocks, so many features are possible through unique block combinations, and new feature patterns can still be discovered.
+See what you can build with Slab. This list includes features through version 0.5.0.
 
 ## Design and styling
 
@@ -16,6 +16,9 @@ This page is a capability index for Slab. It includes every documented block kno
 | Animations               | Add rich animations and transitions throughout the storefront. Customize page transitions and header transitions for a polished experience. |
 | Vertical scroll snapping | Snap scroll onto each section for a guided browsing experience.                                                                             |
 | Audio interactions       | Play subtle audio cues when customers click and interact with the storefront.                                                               |
+| [Scroll area](guides/slab-basics/build-grid-layouts.md#make-a-group-of-blocks-scroll) | Make nested blocks scroll horizontally or vertically with an optional edge mask and scrollbar. |
+| [Scroll reveal bar](content/sections/blank-section.md#reveal-a-fixed-bar-on-scroll) | Show a fixed bar after customers scroll. |
+| [Marquee](content/blocks/layout/marquee.md) | Scroll text or images with a loop duration of up to 600 seconds. |
 
 ## Theme basics
 
@@ -30,6 +33,8 @@ This page is a capability index for Slab. It includes every documented block kno
 | Flexible price settings    | Remove trailing zeros and currency symbols for a simplified look.                                                                           |
 | Device specific visibility | Customize visibility on almost every block and section for mobile and desktop separately.                                                   |
 | Drag and drop blocks       | A completely modular block architecture allowing you to build any layout.                                                                   |
+| [Reusable content](guides/slab-basics/reuse-content.md) | Reuse a section or repeat a layout for FAQ metaobjects. |
+| [Required product metafield](content/sections/product.md#show-a-section-only-when-a-metafield-is-filled-in) | Hide a section for products that do not have a value for a specified metafield. |
 
 ## Navigation and header
 
@@ -42,6 +47,8 @@ This page is a capability index for Slab. It includes every documented block kno
 | Sticky header                 | Ensure your header section is always visible.                                                                                                                        |
 | Dynamic header                | Set your header to hide while scrolling down and reveal when scrolling up.                                                                                           |
 | Discount overlay              | Show customers a discount overlay when they land on the storefront. The overlay can display a code to copy.                                                          |
+| [Menu links](guides/slab-basics/menus.md#set-active-and-external-link-behavior) | Highlight the current menu link and choose whether external links open in a new tab. |
+| [Copy bar](content/blocks/basics/discount.md) | Display text customers can copy, such as a code or link. |
 
 ## Forms
 
@@ -50,6 +57,7 @@ This page is a capability index for Slab. It includes every documented block kno
 | Build your own form | Use blocks to build custom contact forms by adding different input fields. Combine inputs, labels, and buttons to create forms for any use case. |
 | Age verification    | Require customers to confirm they meet a minimum age before accessing the storefront. Supports birthdate verification or simple confirmation.    |
 | Form response overlay | Show an overlay with form success or error messages for a seamless submission experience.                                                               |
+| [Product customization](content/blocks/products/buy-buttons.md#add-product-customization) | Collect choices such as an engraving and save them with the cart item. |
 
 ## Collection
 
@@ -73,6 +81,8 @@ This page is a capability index for Slab. It includes every documented block kno
 | Video support                  | Show videos for each product card when used as featured or second media.                                                             |
 | Image slider                   | Show multiple photos for each product card in a slider.                                                                              |
 | Show selected collection card  | Automatically highlight collection cards that are active for the current page. Let customers easily navigate between collections.    |
+| [Default variant quick add](guides/collection/quick-add-and-quick-edit.md#quick-action-blocks) | Add the first available variant directly for eligible products. |
+| [Card alignment](content/blocks/cards/product-card.md#align-card-content) | Align the last block to the bottom of each product card and outline the active card. |
 
 ## Product
 
@@ -80,8 +90,8 @@ This page is a capability index for Slab. It includes every documented block kno
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Build your own template      | Use blocks to build your product template. Add tabs, accordions, drawers, and other blocks for a custom layout.                          |
 | Shop Pay installments        | Display pricing in Shop Pay installments.                                                                                                |
-| Rich option styles           | Display options in a grid, stacked, or dropdown. Set colors and radius for swatches and other labels.                                    |
-| Sibling products             | Display sibling products linked as swatches. Let customers switch between closely related products.                                      |
+| [Rich option styles](content/blocks/products/swatches.md) | Choose which product options appear as swatches and add fallback images or colors. |
+| [Sibling products](content/blocks/products/sibling-options.md) | Link related products as swatches using a collection metafield. |
 | Product upsells              | Display automatic or manually selected product upsells.                                                                                  |
 | Product bundles              | Sell multiple items together on one product page.                                                                                        |
 | Image zooming                | Let customers get a closer look at product images with a zoomable gallery.                                                               |
@@ -92,6 +102,10 @@ This page is a capability index for Slab. It includes every documented block kno
 | Product recommendations      | Display product recommendations as upsells anywhere on the storefront. Use grid or slider layouts on product, collection, or cart pages. |
 | Related products             | Show automatic product recommendations.                                                                                                  |
 | Combined listing (Shopify +) | Create and display combined listing products.                                                                                            |
+| [Selected variant price](content/blocks/products/price.md#show-the-selected-variant-price) | Show the selected variant price or its total for the chosen quantity. |
+| [Quantity offers](content/blocks/products/buy-buttons.md#show-a-quantity-offer) | Show offers that set the purchase quantity. Configure a matching Shopify discount. |
+| [Subscription](content/blocks/products/subscription.md) | Show selling plans and content for the selected subscription. |
+| [Variant media](content/blocks/all-pagination/gallery/product-gallery.md#group-media-by-variant) | Filter media by variant or bring the selected image into view. Add thumbnail navigation to a slider gallery. |
 
 ## Cart and checkout
 
@@ -102,14 +116,17 @@ This page is a capability index for Slab. It includes every documented block kno
 | Cart discount           | Let customers enter and apply discount codes to their cart.                                                                                             |
 | Minimum order value     | Set a minimum cart value to unlock checkout.                                                                                                            |
 | Multi-tier progress bar | Show progress toward a reward, discount, or free shipping threshold. Customers see how much more they need to spend.                                    |
-| Unified cart view       | Display all cart variants grouped under each product.                                                                                                   |
+| [Cart item display](content/blocks/cart/cart-results.md) | Group variants by product or show individual cart lines. Choose how the edit, delete, and subscription actions appear. |
 | Cart upsells            | Display a collection of products to upsell. Use checkbox upsells for one-click upgrades such as shipping insurance or gift wrapping.                    |
-| Cart editing            | Let customers quickly change variant options for items in their cart, such as swapping size or color.                                                   |
+| [Cart editing](guides/collection/quick-add-and-quick-edit.md) | Let customers update a cart item's variant or product customization. |
 | Cart notes              | Let customers add a note or delivery instructions to their order.                                                                                       |
 | Content blocks          | Display custom content to highlight promotions or offers in your cart.                                                                                  |
 | Share cart              | Let customers share their cart by copying and sharing a URL.                                                                                            |
 | Device specific control | Set different cart types for mobile and desktop. Show a cart alert on mobile and a cart drawer on desktop, for example.                                 |
 | Cart redirect           | Redirect customers to the cart page.                                                                                                                    |
+| [Cart upgrade](guides/cart/build-your-cart.md#add-an-automatic-cart-upgrade) | Add a product at its catalog price when the cart meets the conditions. |
+| [Cart frequency](guides/cart/build-your-cart.md#let-customers-change-subscription-frequency) | Let customers choose a frequency shared by their subscription items. |
+| [Cart savings](content/blocks/cart/cart-results.md) | Show the higher one-time or compare-at price crossed out when available. |
 
 ## Blog
 
@@ -137,7 +154,7 @@ This page is a capability index for Slab. It includes every documented block kno
 | Avatar image            | Display a profile image for a customer, author, or reviewer.                            |
 | Button                  | Add a clear call to action that links anywhere or triggers an action.                   |
 | Countdown               | Show a live countdown timer for launches, promotions, or events.                        |
-| Discount                | Display a discount code customers can copy in one click.                                |
+| Copy bar | Display text that customers can copy. |
 | Dropdown                | Reveal extra content after a customer clicks a button.                                  |
 | Hotspot                 | Show content when a customer hovers over or taps a specific point on an image or video. |
 | Icon                    | Display a visual icon to support text or highlight a feature.                           |
@@ -214,7 +231,7 @@ This page is a capability index for Slab. It includes every documented block kno
 | Product media           | Display product images, videos, and other media.                                        |
 | Product options         | Let customers choose variants such as size, color, or material.                         |
 | Product pickup          | Show local pickup availability for a product.                                           |
-| Product price           | Display pricing, compare-at pricing, and savings.                                       |
+| Price | Display price ranges, selected prices, totals, and compare-at prices. |
 | Product quick buy       | Let customers add a product to cart without leaving the current page.                   |
 | Product rating          | Show product review ratings for quick social proof.                                     |
 | Product sibling options | Let customers switch between closely related products, such as colors or styles.        |

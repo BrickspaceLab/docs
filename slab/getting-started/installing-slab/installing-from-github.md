@@ -23,9 +23,9 @@ Opt for direct GitHub installation if you're planning to build customizations or
 {% hint style="info" %}
 Install these tools before you start:
 
-* [Node.js](https://nodejs.org/en/download/) (18+)
+* [Node.js](https://nodejs.org/en/download/) (24+, matching Slab CI)
 * [npm](https://www.npmjs.com/package/npm)
-* [Shopify CLI](https://shopify.dev/docs/themes/tools/cli/install) (3+)
+* [Shopify CLI](https://shopify.dev/docs/themes/tools/cli/install) (4.8.4, for Shopify previews and uploads)
 {% endhint %}
 
 {% stepper %}
@@ -45,46 +45,37 @@ git remote add upstream https://github.com/BrickspaceLab/slab.git
 **Install dependencies**
 
 ```sh
-npm install
+npm ci --include=dev
 ```
 {% endstep %}
 
 {% step %}
-**Configure environment variables**
+**Open a local preview**
 
-Copy the example env file and fill in your values:
+```sh
+npm run build
+npx --yes local-storefront@0.1.16 serve --theme . --port 0 --preview liquid-july-26 --live-reload
+```
+
+Open the URL printed after `ready:`. This preview uses demo data and needs no Shopify credentials. Rebuild after changes to section source or assets.
+{% endstep %}
+
+{% step %}
+**Preview with your Shopify catalog**
+
+For the theme editor or real products, copy the example environment file:
 
 ```sh
 cp .env.example .env
 ```
 
-Set `STORE_DOMAIN` to your development store domain:
+* Set `STORE_DOMAIN` to your development store's `myshopify.com` domain.
+* Set `STORE_PASSWORD` if the storefront is password protected.
+* Set `SHOPIFY_CLI_THEME_TOKEN` for noninteractive Theme Access authentication.
 
-```sh
-STORE_DOMAIN=your-store.myshopify.com
-```
+Run `npm run dev`. When it prints `READY`, open the storefront or editor link it provides. The command builds and uploads changes to an unpublished theme for this worktree and store. Refresh the preview after uploads.
 
-Optional values:
-
-* Add `STORE_PASSWORD` if the storefront is password-protected.
-* Add `SHOPIFY_CLI_THEME_TOKEN` if you want Shopify CLI to authenticate without prompting.
-* Add `CORS_ORIGINS` if you preview the theme on a custom domain.&#x20;
-{% endstep %}
-
-{% step %}
-**Start local development**
-
-```sh
-npm run dev
-```
-
-This runs three parallel processes:
-
-* **Vite dev server** — compiles and hot-reloads CSS and JavaScript
-* **Shopify theme dev** — pushes your local files to an **unpublished** development preview on your store, served at `http://127.0.0.1:9292`
-* **Section watcher** — compiles `src/sections/` preset JSON files into `sections/`
-
-Your live store is unaffected while you work — `shopify theme dev` creates a separate unpublished copy of the theme. Publish it through the Shopify admin when you are ready to go live.
+For Vite hot reload, use `npm run dev:hmr` with an HTTPS tunnel. If the storefront uses a custom domain, set `CORS_ORIGINS` to the allowed HTTPS origins.
 {% endstep %}
 
 {% step %}
@@ -96,8 +87,6 @@ When the theme loads in your store for the first time, it will prompt you to ent
 {% step %}
 **Optional: add repo secrets for GitHub Actions**
 
-Preview deploys use `STORE_DOMAIN` and `SHOPIFY_CLI_THEME_TOKEN`.
-
-Other CI workflows may also need secrets such as `CURSOR_API_KEY`.
+The pull request preview workflow uses `STORE_DOMAIN` and `SHOPIFY_CLI_THEME_TOKEN` to deploy an unpublished theme. Use the preview and editor links posted on the pull request. For a password protected store, provide `STORE_PASSWORD` for browser checks.
 {% endstep %}
 {% endstepper %}

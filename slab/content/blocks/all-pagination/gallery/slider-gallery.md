@@ -19,6 +19,10 @@ A product media gallery component that displays a collection of media items (ima
 * Consider enabling zoom functionality for product images when detail viewing is important
 * Use in conjunction with navigation controls for better user experience
 
+## Filter images and add thumbnails
+
+Use the same [variant media setup](product-gallery.md#group-media-by-variant) as the grid gallery. To give customers thumbnail navigation, add **Slider thumbnails** inside the same **Slider** and turn on **Show thumbnails**. Set **Thumbnails position** and **Thumbnail size** on the **Slider**.
+
 ## Block settings
 
 ### General
@@ -31,7 +35,8 @@ A product media gallery component that displays a collection of media items (ima
 
 | Setting             | Description                                  | Options                   |
 | ------------------- | -------------------------------------------- | ------------------------- |
-| Show variant images | Shows variant-specific images in the gallery | Checkbox (default: false) |
+| Show selected variant images only | Filter media for the selected variant on products with fewer than 50 variants. | Checkbox (default: false) |
+| Enable sort selected variant | Scroll to the selected variant image without changing the order of the slides. Works independently of filtering. | Checkbox (default: true) |
 | Product             | Product to display media from                | Product picker            |
 | Item count          | Number of media items to display             | Number (default: 7)       |
 

@@ -139,3 +139,8 @@ Full-width dropdowns still respect a maximum height with scrolling when content 
 | Full width dropdown | Comma-separated parent link titles that use a full viewport-width panel. |
 | Enable click to open | Parents with children become toggle buttons; dropdown closes on outside click. Default off (hover/focus behavior). |
 | Horizontal alignment | Aligns the row of parent links: **Left**, **Center**, or **Right**. |
+
+## Set active and external link behavior
+
+* Use **Show active link** on a menu block to highlight links for the current page.
+* Open **Theme settings > Navigation** and turn on **Enable new tabs for external links** to open links to other sites in a new tab. This is off by default.

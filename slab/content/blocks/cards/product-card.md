@@ -84,3 +84,7 @@ The following blocks can be nested within this block:
 | Visibility       | Controls when the block is visible               | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
 | Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
 | Scroll animation | Animation effect when the card scrolls into view | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|
+
+## Align card content
+
+Turn on **Enable last block bottom alignment** to align the last block, such as a button, with the bottom of the card. Use **Show outline when active** to outline the card for the current product.

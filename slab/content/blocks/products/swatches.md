@@ -56,3 +56,9 @@ A customizable product variant swatches block that displays color and other opti
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
 | Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+
+## Choose which options show as swatches
+
+In **Swatches** or **Options**, enter comma-separated option names in **Swatch options**, such as `Color, Material`. Leave it blank to detect color options automatically.
+
+Use **Swatch metafield** to provide fallback images or colors from a product metafield that references metaobjects. Enter the metafield's namespace and key, such as `custom.scents`.

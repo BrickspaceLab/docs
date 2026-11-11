@@ -43,3 +43,7 @@ Each file exports a default function whose name matches the filename (e.g. `slid
 {% content-ref url="events.md" %}
 [events.md](events.md)
 {% endcontent-ref %}
+
+## Refresh content with Liquid partials
+
+Wrap markup in a named Liquid partial to refresh one part of a page without replacing the rest. Slab uses partials for collection filters and pagination, product options, pickup availability, and reusable sections. Use Slab's shared partial loader for new code that follows this pattern. See the [theme repository's partials guide](https://github.com/BrickspaceLab/slab/blob/0.5.0/.agents/rules/partials.mdc) for a working example.

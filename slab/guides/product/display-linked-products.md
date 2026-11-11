@@ -32,3 +32,7 @@ All options—swatches, labels, grid layout, spacing, colors, button size, and v
 - Confirm the linked collection contains the products you expect.
 - Confirm the block is on the product template customers actually use.
 - If the block never appears, check **Visibility** on the block (device limits can hide it).
+
+## Choose a different metafield
+
+If you already use a different product metafield that references a collection, enter its namespace and key in **Sibling options > Sibling metafield**. The instructions above use the default, `custom.linked_collection`.

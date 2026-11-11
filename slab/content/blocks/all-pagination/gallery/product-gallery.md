@@ -2,7 +2,7 @@
 index: 0
 ---
 
-# Grid gallery
+# Product gallery
 
 ## Overview
 
@@ -19,7 +19,13 @@ This is a private block. It is intended for use only within specific parent bloc
 * Utilize enable\_aspect\_ratio and aspect\_ratio settings to maintain consistent media proportions across different devices
 * Experiment with color\_scheme, color\_border, and border\_position for visual customization to match the theme's aesthetic
 * Use visibility options to create responsive layouts, showing different gallery configurations on mobile and desktop
-* Enable variant images to show different images based on selected product variants
+* Use variant image filtering to show media for the selected option.
+
+## Group media by variant
+
+1. In Shopify, assign each variant its featured image. To include more media for an option, add a tag at the end of its alt text, such as `Blue shirt from the back #Color_Blue`. Use your product's actual option name and value.
+2. In **Product gallery** or **Slider gallery**, turn on **Show selected variant images only**. Media with no variant assignment or recognized tag stays visible for all variants.
+3. Preview the product and change variants to check the images. Filtering is available for products with fewer than 50 variants.
 
 ## Block settings
 
@@ -33,7 +39,8 @@ This is a private block. It is intended for use only within specific parent bloc
 
 | Setting               | Description                                               | Options                   |
 | --------------------- | --------------------------------------------------------- | ------------------------- |
-| Enable variant images | Shows different images based on selected product variants | Checkbox (default: false) |
+| Show selected variant images only | Filter media for the selected variant on products with fewer than 50 variants. | Checkbox (default: false) |
+| Enable sort selected variant | Move the selected variant image to the front of the grid on products with fewer than 50 variants. Works independently of filtering. | Checkbox (default: true) |
 | Product               | Select the product to display media from                  | Product picker            |
 | Item count            | Number of media items to display (0 = all media)          | Number input (default: 7) |
 | Show alt text         | Shows each image’s alt text under the media when set      | Checkbox (default: false) |

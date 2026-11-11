@@ -39,7 +39,7 @@ The following blocks can be nested within this block:
 
 | Setting                  | Description                                     | Options                   |
 | ------------------------ | ----------------------------------------------- | ------------------------- |
-| Animation duration       | Duration of the marquee animation in seconds    | 1 - 90 s (default: 60)    |
+| Duration | Time for one loop, in seconds. | 10–600 s (default: 60 s) |
 | Enable pause on hover    | Pauses animation when hovering over the marquee | Checkbox (default: false) |
 | Enable reverse animation | Reverses the scroll direction                   | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
 

@@ -58,3 +58,7 @@ This section supports both theme and app blocks:
 
 * `@theme`
 * `@app`
+
+## Reveal a fixed bar on scroll
+
+Add the **Scroll reveal bar** section preset for a fixed bar that appears after customers scroll 200 pixels. The bar stays visible in the theme editor so you can edit its content.

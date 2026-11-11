@@ -2,7 +2,7 @@
 index: 7
 ---
 
-# Product price
+# Price
 
 <figure><img src="../../../.gitbook/assets/image%20%287%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,6 +19,10 @@ A comprehensive product price display block that renders pricing information for
 * Configure appropriate font sizes based on context (smaller for cards, larger for product pages)
 * Use alignment settings that match your overall product layout design
 
+## Show the selected variant price
+
+In **Price range**, choose **Selected variant price** to follow the selected variant, or **Selected variant total** to include the selected quantity. Use these options near the purchase controls on a product template.
+
 ## Block settings
 
 ### General
@@ -32,8 +36,8 @@ A comprehensive product price display block that renders pricing information for
 | Setting          | Description                                                    | Options                                      |
 | ---------------- | -------------------------------------------------------------- | -------------------------------------------- |
 | Product          | Select the product to display pricing for                      | Product picker                               |
-| Price range      | How to display prices for products with multiple variants      | <p>• Range (default)<br>• Starting price</p> |
-| Sale price range | How to display sale prices for products with multiple variants | <p>• Range (default)<br>• Starting price</p> |
+| Price range | Choose how to display prices when variant prices differ. | Show price range (default), Show starting price, Selected variant total, or Selected variant price |
+| Sale range | Choose how to display a range of sale prices. | Show range (default) or Show starting price |
 
 ### Spacing
 

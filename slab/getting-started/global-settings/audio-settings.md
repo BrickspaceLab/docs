@@ -4,7 +4,7 @@ index: 6
 
 # Audio
 
-Audio settings in **Theme settings > Audio** control whether the theme may play interface sounds. When audio is enabled, you can add an **Audio picker** block so customers can choose their preference.
+Audio settings in **Theme settings > Audio** control whether the theme may play interface sounds. Slab 0.5.0 plays these sounds through Cuelume. When audio is enabled, you can add an **Audio picker** block so customers can choose their preference.
 
 ## How to change theme audio
 

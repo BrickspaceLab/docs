@@ -60,3 +60,7 @@ The section supports product-specific blocks plus theme and app blocks. Common p
 * `product-badges`
 * `product-swatches`
 * `shop-pay-installments`
+
+## Show a section only when a metafield is filled in
+
+On a **Section** in a product template, turn on **Show advanced settings**, then enter a product metafield's namespace and key in **Required product metafield**, such as `custom.size_guide`. On the storefront, the section is hidden for products where that metafield is missing or blank.

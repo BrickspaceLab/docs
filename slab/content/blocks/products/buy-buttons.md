@@ -2,76 +2,31 @@
 index: 2
 ---
 
-# Product buy
+# Buy buttons
 
-<figure><img src="../../../.gitbook/assets/image%20%282%29%20%281%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
-
-## Overview
-
-A comprehensive product purchase form block that handles variant selection, quantity input, and cart actions. The block dynamically displays different button states based on product availability and option selection, including "Choose Options", "Sold Out", "Unavailable", and "Add to Cart" states. Supports optional quantity input, dynamic checkout buttons, and real-time price display.
-
-## Common use cases
-
-* Ensure all product options are configured before adding this block
-* Use inline layout only when horizontal space is sufficient for both quantity and button
-* Enable quantity input for products that customers typically buy in bulk
-* Configure appropriate button colors to match your theme's design system
-* Test with products that have multiple variants to ensure proper option selection flow
-* Consider enabling dynamic checkout for improved conversion rates
+Use **Buy buttons** to let customers add the selected product to their cart. Add a **Button** inside it to change the look of the add to cart button or show the price inside the button.
 
 ## Block settings
 
-### General
+| Setting | What it controls |
+| --- | --- |
+| Product | Select the product the form adds to cart. |
+| Enable quantity input | Let customers choose a quantity. |
+| Layout | Stack the quantity and button or place them inline. |
+| Enable dynamic checkout | Show Shopify's accelerated checkout buttons where available. These buttons are hidden when the form contains product customization fields. |
+| Show gift card form | Show recipient fields for gift card products. |
 
-| Setting | Description | Options |
-| --- | --- | --- |
-| Show advanced settings | Reveals dynamic label, enable dynamic label, and visibility | Checkbox (default: false) |
+## Add product customization
 
-### Content
+1. Open the product template in the theme editor and select **Buy buttons**.
+2. Add **Product customization**, then add an **Input field** for each choice you need. For example, use **Text** for engraving or **Select** for a list of choices.
+3. Give each field a unique **Label**. The label identifies the customer's answer in the cart and on the order. For select or radio fields, separate the choices with commas in **Options**.
+4. Turn on **Make this field required** on **Product customization** to require its fields before adding to cart.
 
-| Setting                 | Description                                                   | Options                                                                 |
-| ----------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| Product                 | Select the product to display buy buttons for                 | Product picker                                                          |
-| Dynamic label           | Custom label for the add to cart button (e.g., "Pre-order")   | <p>Rich text input<br><br>Visible when enable dynamic label is true</p><br><br>Visible when **Enable dynamic label** and **Show advanced settings** is on|
-| Enable dynamic label    | Replaces "Add to cart" with custom label text                 | Checkbox (default: false)<br><br>Visible when **Show advanced settings** is on|
-| Enable quantity input   | Displays a quantity selector input field                      | Checkbox (default: false)                                               |
-| Enable dynamic checkout | Displays dynamic checkout buttons (Shop Pay, Apple Pay, etc.) | Checkbox (default: true)                                                |
-| Show price              | Displays the product price on the add to cart button          | Checkbox (default: true)                                                |
-| Show gift card form     | Displays form fields for gift card recipient information      | Checkbox (default: false)                                               |
+The **Quick buy button** takes customers to the product page when its assigned template contains product customization. If you use a [separate quick edit template](../../../guides/collection/quick-add-and-quick-edit.md), add the same fields there with the same labels. Quick edit fills the fields with the values from the selected cart item.
 
-### Spacing
+## Show a quantity offer
 
-| Setting                   | Description                             | Options                                                                      |
-| ------------------------- | --------------------------------------- | ---------------------------------------------------------------------------- |
-| Enable horizontal padding | Adds horizontal padding around the form | Checkbox (default: false)                                                    |
-| Enable top padding        | Adds top padding around the form        | Checkbox (default: false)                                                    |
-| Enable bottom padding     | Adds bottom padding around the form     | Checkbox (default: false)                                                    |
-| Gap size                  | Spacing between form elements           | <p>• None<br>• Default (default)<br>• XS<br>• SM<br>• MD<br>• LG<br>• XL</p> |
-
-### Color
-
-| Setting                       | Description                                   | Options                                                                                                                                                   |
-| ----------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Main button color             | Color scheme for the add to cart button       | <p>• Primary (default)<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link</p> |
-| Disabled button color         | Color scheme for disabled/placeholder buttons | <p>• Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain (default)<br>• Outline<br>• Inverted outline<br>• Blur<br>• Link<br>• Inverted link</p> |
-| Dynamic checkout button color | Color scheme for dynamic checkout buttons     | <p>• Primary<br>• Secondary<br>• Tertiary<br>• Neutral<br>• Plain (default)</p>                                                                           |
-
-### Style
-
-| Setting        | Description                       | Options                                                                                   |
-| -------------- | --------------------------------- | ----------------------------------------------------------------------------------------- |
-| Button size    | Controls the size of buttons      | <p>• Extra small<br>• Small<br>• Standard (default)<br>• Large</p>                        |
-| Quantity input | Style of the quantity input field | <p>• Default (default)<br>• Minimal<br><br>Visible when enable quantity input is true</p> |
-
-### Layout
-
-| Setting           | Description                                        | Options                                |
-| ----------------- | -------------------------------------------------- | -------------------------------------- |
-| Layout            | Controls the layout of quantity and button         | <p>• Stacked (default)<br>• Inline</p> |
-| Enable full width | Makes buttons span the full width of the container | Checkbox (default: false)              |
-
-### Display
-
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+1. Add a **Quantity discount** preset to the product template and keep **Buy buttons** in the same product section.
+2. Edit each **Quantity discount option**. Set **Quantity** and **Discount**, and add a **Tag** if you want to call out an offer.
+3. Create a matching automatic discount in Shopify. The block shows the offer and sets the quantity when selected. Shopify applies the discount in the cart and at checkout.
