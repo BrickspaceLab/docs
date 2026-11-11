@@ -33,7 +33,7 @@ The following blocks can be nested within this block:
 
 ## Gallery navigation
 
-For product media, add [Slider gallery and thumbnails](../../all-pagination/gallery/slider-gallery.md#filter-images-and-add-thumbnails) to the slider. Turn on **Show scroll mask** to fade the slider edges.
+For product media, add [Slider gallery and thumbnails](../../all-pagination/gallery/slider-gallery.md#filter-images-and-add-thumbnails) to the slider. Under **Show advanced settings**, use **Show scroll mask** to control whether the slider edges fade. It is on by default.
 
 ## Block settings
 

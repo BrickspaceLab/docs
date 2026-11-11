@@ -84,4 +84,4 @@ Use a **Grid item** in a supported product, collection, or article grid to place
 
 ## Make a group of blocks scroll
 
-Add a **Scroll area** and place the blocks you want to scroll inside it. Set **Direction** to **Horizontal** or **Vertical**, then set the maximum width or height. Use **Show scroll mask** to fade the scrollable edges or **Show scrollbar** to display a scrollbar.
+Add a **Scroll area** and place the blocks you want to scroll inside it. For **Horizontal** scrolling, set **Max width** to limit each child block’s width. For **Vertical** scrolling, set **Max height** to limit the height of the scroll area. Use **Show scroll mask** to fade the scrollable edges or **Show scrollbar** to display a scrollbar.

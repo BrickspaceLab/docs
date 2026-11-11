@@ -21,7 +21,7 @@ A product media gallery component that displays a collection of media items (ima
 
 ## Filter images and add thumbnails
 
-Use the same [variant media setup](product-gallery.md#group-media-by-variant) as the grid gallery. To give customers thumbnail navigation, add **Slider thumbnails** inside the same **Slider** and turn on **Show thumbnails**. Set **Thumbnails position** and **Thumbnail size** on the **Slider**.
+Use the same [variant media setup](product-gallery.md#group-media-by-variant) as the grid gallery. Add **Slider gallery thumbnails** inside the same **Slider** as **Slider gallery**, then check that **Show thumbnails** is on in the **Slider** settings. Match the thumbnail block’s **Product**, **Item count**, and **Show selected variant images only** settings to the gallery. On the **Slider**, set **Thumbnail size** and choose **Left**, **Right**, **Top**, or **Bottom** for **Thumbnails position**.
 
 ## Block settings
 
@@ -44,8 +44,8 @@ Use the same [variant media setup](product-gallery.md#group-media-by-variant) as
 
 | Setting       | Description                          | Options                 |
 | ------------- | ------------------------------------ | ----------------------- |
-| Width mobile  | Width of each slider item on mobile  | 5 - 100 % (default: 80) |
-| Width desktop | Width of each slider item on desktop | 5 - 100 % (default: 40) |
+| Mobile width  | Width of each slider item on mobile  | 5 - 100 % (default: 80) |
+| Desktop width | Width of each slider item on desktop | 5 - 100 % (default: 40) |
 
 ### Color
 

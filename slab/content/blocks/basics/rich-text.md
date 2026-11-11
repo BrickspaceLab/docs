@@ -73,4 +73,4 @@ A flexible rich text content block that allows for formatted text content with c
 
 ## Keep extra whitespace
 
-Turn on **Show extra whitespace** to keep spacing at the start and end of the content. It is off by default.
+Under **Show advanced settings**, turn on **Show extra whitespace** to keep spacing at the start and end of the content. It is off by default.

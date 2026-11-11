@@ -4,7 +4,7 @@ index: 8
 
 # Quick buy button
 
-Use **Quick buy button** on a product card or in a featured product section. It lets customers add a product or open the quick buy form without leaving the current page. Use a nested **Button** to style the control.
+Use **Quick buy button** on a product card or in a featured product section. It can add an eligible variant directly or open the quick buy form. If the quick buy template includes **Product customization**, Slab opens the product page. Use a nested **Button** to style the control.
 
 ## Add the first available variant
 

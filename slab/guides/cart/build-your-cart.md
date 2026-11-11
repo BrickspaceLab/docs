@@ -9,11 +9,11 @@ Add cart blocks to your cart page or the [overlay](../slab-basics/popups-drawers
 ## Add an automatic cart upgrade
 
 1. Add **Cart upgrade** to the cart layout.
-2. Choose a **Product**. Leave **Variant ID** blank to use its first variant, or enter the ID of the variant to add.
+2. Choose a **Product**. Leave **Variant ID** blank to use its first variant, which must be available, or enter the ID of the variant to add.
 3. Set the **Minimum amount**. Slab checks item prices before discounts and excludes upgrade products.
 4. To require a matching item, enter a **Required product tag**.
 
-Slab adds one upgrade item when the conditions match and removes the automatically added item when they stop matching. The item uses its catalog price. Set up a separate Shopify discount if you want it to be free or discounted.
+Slab adds one upgrade item when a cart item qualifies and the upgrade variant is absent. Slab removes the automatically added item when the conditions stop matching. The item uses its catalog price. Set up a separate Shopify discount if you want it to be free or discounted.
 
 ## Let customers change subscription frequency
 
