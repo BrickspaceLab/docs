@@ -12,6 +12,8 @@ A grid gallery block that displays media from a selected product. It iterates th
 
 This is a private block. It is intended for use only within specific parent blocks and should not be added directly to sections.
 
+To filter or reorder images by variant, use the gallery inside the **Product** section and select the same product in both settings.
+
 ## Common use cases
 
 * Always select a product in the theme editor to populate the gallery with media
