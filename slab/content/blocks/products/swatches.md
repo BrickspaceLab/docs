@@ -2,7 +2,7 @@
 index: 12
 ---
 
-# Product swatches
+# Swatches
 
 <figure><img src="../../../.gitbook/assets/image%20%2856%29.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,3 +56,9 @@ A customizable product variant swatches block that displays color and other opti
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
 | Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+
+## Choose which options show as swatches
+
+In **Swatches** or **Options**, enter comma-separated names in **Swatch options** to show additional options as swatches, such as `Material, Scent`. Slab also detects native Shopify swatches and recognizes color option names automatically. **Swatches** displays the first matching option in product option order. **Options** can display multiple swatch options.
+
+Use **Swatch metafield** to provide fallback images or colors for swatch options from a product metafield that references metaobjects. Enter the metafield's namespace and key, such as `custom.scents`.

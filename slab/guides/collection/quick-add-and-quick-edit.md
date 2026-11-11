@@ -17,9 +17,9 @@ Both experiences work in two parts:
 
 Use the **Quick buy button** block anywhere you want to trigger quick add, such as inside a **Product card**.
 
-* For single-variant products, the button can add the item directly to cart.
-* For products with multiple variants, it opens the quick add overlay.
-* Use this block when you want customers to start the quick add flow.
+* Eligible single-variant products can go straight to the cart.
+* Turn on **Enable default variant** to add the first available variant of eligible products with multiple variants.
+* Products that require a subscription open the quick buy form. If the assigned product template contains product customization, customers go to the product page to fill it in.
 
 #### Quick buy content
 
@@ -65,12 +65,12 @@ After choosing the template in **Quick actions**, open that same product templat
 
 This is where you control the actual quick add or quick edit content, such as:
 
-* **Product options**.
-* **Product buy**.
-* **Product price**.
+* **Options**.
+* **Buy buttons**.
+* **Price**.
 * **Product media**.
 * **Rich text**.
-* **Product subscription**.
+* **Subscription**.
 
 Any blocks you add, remove, or reorder in that product template will appear inside the quick add or quick edit overlay.
 {% endstep %}

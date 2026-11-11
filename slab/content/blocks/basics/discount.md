@@ -2,51 +2,8 @@
 index: 1
 ---
 
-# Discount
+# Copy bar
 
-<figure><img src="../../../.gitbook/assets/image%20%2811%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
+Use **Copy bar** to show text customers can copy, such as a discount code or a link. Add it to a section or overlay, then enter what you want customers to copy in **Text**.
 
-## Overview
-
-A customizable discount code display component that allows users to easily copy discount codes to their clipboard. Features a disabled input field showing the discount code and a copy button with dynamic text feedback.
-
-## Common use cases
-
-* Display promotional discount codes in cart drawers or promotional sections
-* Provide easy copy-to-clipboard functionality for discount codes
-* Combine with other promotional content blocks for comprehensive marketing
-* Create accessible discount code displays with clear button contrast
-
-## Block settings
-
-### General
-
-| Setting | Description | Options |
-| --- | --- | --- |
-| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
-
-### Content
-
-| Setting       | Description                  | Options                      |
-| ------------- | ---------------------------- | ---------------------------- |
-| Discount code | The discount code to display | Text input (default: SAVE10) |
-
-### Spacing
-
-| Setting                   | Description                                | Options                   |
-| ------------------------- | ------------------------------------------ | ------------------------- |
-| Enable horizontal padding | Adds horizontal padding around the content | Checkbox (default: false) |
-| Enable top padding        | Adds top padding around the content        | Checkbox (default: false) |
-| Enable bottom padding     | Adds bottom padding around the content     | Checkbox (default: false) |
-
-### Color
-
-| Setting      | Description                                 | Options                                                                                                                      |
-| ------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Button color | Controls the color style of the copy button | <p>• Primary<br>• Secondary (default)<br>• Tertiary<br>• Neutral<br>• Plain<br>• Outline<br>• Inverted outline<br>• Blur</p> |
-
-### Display
-
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+In Slab 0.5.0, the **Discount** block was renamed to **Copy bar**. Its saved text stays in place. For a discount code, create the discount in Shopify first.

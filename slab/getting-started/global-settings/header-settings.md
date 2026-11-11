@@ -6,6 +6,12 @@ index: 4
 
 Header settings in **Theme settings > Header** control how the header behaves while customers scroll and whether top sections can render under the header when overlap is enabled at the theme and section level.
 
+## Default desktop header
+
+In Slab 0.5.0, the default desktop header uses a text **Search** control to the left of the logo.
+
+<figure><img src="../../.gitbook/assets/slab-0.5.0-desktop-header.png" alt="Slab desktop header with Search on the left, the logo in the center, and Account and Bag on the right"><figcaption>Default desktop header in the Slab 0.5.0 storefront preview.</figcaption></figure>
+
 ## How to change theme header
 
 {% stepper %}

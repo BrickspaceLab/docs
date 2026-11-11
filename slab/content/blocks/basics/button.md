@@ -29,6 +29,7 @@ The following blocks can be nested within this block:
 * [Localization label](../utility/localization-label.md)
 * [Cart count](../cart/cart-count.md)
 * [Simple subtotal](../cart/simple-subtotal.md)
+* [Price](../products/price.md)
 
 ## Block settings
 
@@ -67,7 +68,7 @@ The following blocks can be nested within this block:
 | ------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Type               | Custom color scheme vs preset styles | <p>• Custom<br>• Base (default)</p>                                                                                                                             |
 | Button (custom)    | Color scheme applied to the button   | Color scheme picker<br><br>Visible when type is **Custom**                                                                                                      |
-| Button (base)      | Preset button style                  | <p>• Plain<br>• Main<br>• Blur<br>• Outline<br>• Inverted outline<br>• Text<br>• Inverted text</p><br><br>Visible when type is **Base**                           |
+| Button (base)      | Preset button style                  | <p>• Plain<br>• Main<br>• Ghost<br>• Blur<br>• Outline<br>• Inverted outline<br>• Text<br>• Inverted text</p><br><br>Visible when type is **Base**                           |
 
 ### Style
 

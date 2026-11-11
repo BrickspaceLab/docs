@@ -80,3 +80,7 @@ A product navigation block that displays sibling products (related products from
 | Setting    | Description                        | Options                                                   |
 | ---------- | ---------------------------------- | --------------------------------------------------------- |
 | Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+
+## Use a different collection metafield
+
+In **Sibling options**, set **Sibling metafield** to the namespace and key of a product metafield that references a collection. The default is `custom.linked_collection`. See [Display linked products](../../../guides/product/display-linked-products.md) for the collection setup.

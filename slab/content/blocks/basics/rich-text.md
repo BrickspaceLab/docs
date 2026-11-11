@@ -70,3 +70,7 @@ A flexible rich text content block that allows for formatted text content with c
 | Visibility       | Controls when the block is visible        | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
 | Load animation | Animation when the block first loads | <p>• None (default)<br>• Fade<br>• Fade up<br>• Offset fade<br>• Offset fade up</p><br><br>Visible when **Show advanced settings** is on and **Scroll animation** is **None**|
 | Scroll animation | Adds scroll-based animations to the block | <p>• None (default)<br>• Fade<br>• Slide up<br>• Slide down<br>• Slide left<br>• Slide right<br>• Zoom</p><br><br>Visible when **Show advanced settings** is on and **Load animation** is **None**|
+
+## Keep extra whitespace
+
+Under **Show advanced settings**, turn on **Show extra whitespace** to keep spacing at the start and end of the content. It is off by default.

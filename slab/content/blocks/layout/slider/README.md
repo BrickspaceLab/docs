@@ -31,6 +31,10 @@ The following blocks can be nested within this block:
 * [Slider recommendations](../../all-pagination/products/slider-product-recommendations.md)
 * [Slider recent](../../all-pagination/products/slider-recently-viewed.md)
 
+## Gallery navigation
+
+For product media, add [Slider gallery and thumbnails](../../all-pagination/gallery/slider-gallery.md#filter-images-and-add-thumbnails) to the slider. Under **Show advanced settings**, use **Show scroll mask** to control whether the slider edges fade. It is on by default.
+
 ## Block settings
 
 ### General

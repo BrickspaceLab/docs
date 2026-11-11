@@ -4,6 +4,47 @@ index: 0
 
 # Changelog
 
+## Slab 0.5.0 (upcoming)
+
+* Added [product customization and quantity offers](content/blocks/products/buy-buttons.md), selected variant pricing, and more controls for [subscriptions](content/blocks/products/subscription.md).
+* Added [Cart frequency and Cart upgrade](guides/cart/build-your-cart.md), plus options for grouping cart items and showing savings.
+* Added [purchase option cards](content/blocks/products/buy-buttons.md#add-purchase-option-cards) for groups of variants, quantities, and optional selling plans.
+* Added [full-screen product galleries](content/blocks/all-pagination/gallery/product-gallery.md#open-media-full-screen) for images, videos, and 3D models in grid and slider layouts.
+* Added [variant media filtering and sorting](content/blocks/all-pagination/gallery/product-gallery.md) and slider gallery thumbnails.
+* Added [reusable sections and FAQ layouts](guides/slab-basics/reuse-content.md), **Scroll area**, and **Scroll reveal bar**.
+
+<details>
+
+<summary>Upgrade notes</summary>
+
+* The **Discount** block is now **Copy bar**. Its saved text stays in place.
+* Review custom **Buy buttons** and **Quick buy button** blocks after updating. Use their nested **Button** blocks to set the appearance and content.
+* The shipped templates use the updated Coy layout. Review existing layout and spacing settings when moving custom templates to the new version.
+
+</details>
+
+<details>
+
+<summary>Improvements</summary>
+
+* Added **Show saving details** in [Cart results](content/blocks/cart/cart-results.md) to control discount badges on cart items.
+* Added active menu link styling and a setting to open external links in a new tab.
+* Updated the default desktop header to show a text **Search** control.
+* Added card bottom alignment, longer marquee durations, and payment icon alignment. Updated storefront audio to use Cuelume.
+* Added fixture previews for local development and unpublished Shopify previews for real store data. Shared agent guidance lives under `.agents/`.
+
+</details>
+
+<details>
+
+<summary>Fixes</summary>
+
+* Fixed full width dropdown positioning, header overlap and scroll behavior, and nested overlays closing their parent.
+* Improved mobile Safari image rendering, marquee image height, and product card hover media.
+* Fixed active filter alignment, selected prices, and cart progress price formatting.
+
+</details>
+
 {% updates format="full" %}
 {% update date="2026-05-12" tags="0.4.0" %}
 ## Header transitions, schema cleanup, and storefront refinements

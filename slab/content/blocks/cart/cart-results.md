@@ -4,37 +4,18 @@ index: 5
 
 # Cart results
 
-<figure><img src="../../../.gitbook/assets/image%20%285%29%20%281%29.png" alt=""><figcaption></figcaption></figure>
-
-## Overview
-
-Displays cart items in a customizable container with configurable padding and responsive visibility options. Uses Alpine.js to iterate through grouped cart items and renders the template\_\_cart-item snippet for each item group.
-
-## Common use cases
-
-* Display cart items in cart drawers or cart pages
-* Ensure template\_\_cart-item snippet exists and is properly configured
-* Consider visibility settings when using multiple cart item blocks for responsive layouts
-* Configure padding to match your theme's spacing system
+Add **Cart results** to your cart page or cart overlay to show the items customers added, including their prices and quantities.
 
 ## Block settings
 
-### General
+| Setting | What it controls |
+| --- | --- |
+| Group cart items | Group variants of the same product. Turn this off to show each cart line separately. |
+| Show savings | Show the higher one-time or compare-at price crossed out when available. |
+| Show saving details | Show badges with discount names and amounts beneath cart items. On by default. This setting works independently of **Show savings**. |
+| Show SKU in cart | Display each variant’s SKU when one is set. Off by default. |
+| Edit button | Choose **Text**, **Icon**, **Icon and text**, or **None**. Editing uses your [quick edit template](../../../guides/collection/quick-add-and-quick-edit.md). |
+| Delete button | Choose **Text**, **Icon**, **Icon and text**, or **None** for the remove action. |
+| Subscribe button | Choose how to show the subscription action on eligible items. It is hidden by default. |
 
-| Setting | Description | Options |
-| --- | --- | --- |
-| Show advanced settings | Reveals visibility settings | Checkbox (default: false) |
-
-### Spacing
-
-| Setting                   | Description                                   | Options                   |
-| ------------------------- | --------------------------------------------- | ------------------------- |
-| Enable horizontal padding | Adds horizontal padding around the cart items | Checkbox (default: false) |
-| Enable top padding        | Adds top padding around the cart items        | Checkbox (default: false) |
-| Enable bottom padding     | Adds bottom padding around the cart items     | Checkbox (default: false) |
-
-### Display
-
-| Setting    | Description                        | Options                                                   |
-| ---------- | ---------------------------------- | --------------------------------------------------------- |
-| Visibility | Controls when the block is visible | <p>• All (default)<br>• Mobile only<br>• Desktop only</p><br><br>Visible when **Show advanced settings** is on|
+See [Build your cart](../../../guides/cart/build-your-cart.md) for cart upgrades and subscription frequency.
