@@ -4,7 +4,204 @@ index: 1
 
 # Feature list
 
-See what you can build with Slab 0.5.0, or jump to the [complete block list](#complete-block-list).
+## Complete block list
+
+Slab 0.5.0 includes 133 theme block types. The names below match the English Shopify theme editor. When a block belongs inside a specific section or parent block, its description names that location.
+
+Some block types have more than one preset. For example, **Quantity discount** is a preset of **Default grid**.
+
+### Basics
+
+| Block | Description |
+| --- | --- |
+| [Accordion](content/blocks/basics/accordion.md) | Show content in an expandable panel. |
+| [Avatars](content/blocks/basics/avatars/README.md) | Group avatar images. |
+| [Avatar image](content/blocks/basics/avatars/avatar-image.md) | Add an image inside Avatars. |
+| [Button](content/blocks/basics/button.md) | Link to another page or trigger an action such as opening an overlay. |
+| [Copy bar](content/blocks/basics/discount.md) | Display a code, link, or other text customers can copy. |
+| [Countdown](content/blocks/basics/countdown.md) | Count down to a launch, promotion, or event. |
+| [Dropdown](content/blocks/basics/dropdown.md) | Reveal nested content when customers activate a trigger. |
+| [Hotspot](content/blocks/basics/hotspot/README.md) | Place interactive spots over media. |
+| [Spot](content/blocks/basics/hotspot/spot.md) | Position an interactive point inside Hotspot. |
+| [Icon](content/blocks/basics/icon.md) | Display an icon. |
+| [Image](content/blocks/basics/image.md) | Display an image with cropping and aspect ratio controls. |
+| [Image comparison](content/blocks/basics/image-comparison.md) | Let customers drag a slider to compare two images. |
+| [Logo](content/blocks/basics/logo.md) | Display the store logo. |
+| [Map](content/blocks/basics/map/README.md) | Display a map with location markers. |
+| [Location](content/blocks/basics/map/location.md) | Add a marker and its content inside Map. |
+| [Payment icons](content/blocks/basics/payment-icons.md) | Show the store's enabled payment methods. |
+| [Progress bar](content/blocks/basics/progress-bar.md) | Display a progress value from 0 to 100. |
+| [Rich text](content/blocks/basics/rich-text.md) | Display formatted text, links, and lists. |
+| [Share](content/blocks/basics/share.md) | Give customers controls to share a page or product. |
+| [Social icons](content/blocks/basics/social-icons.md) | Link to the store's social profiles. |
+| [Video](content/blocks/basics/video.md) | Display video in the page layout. |
+
+### Layout
+
+| Block | Description |
+| --- | --- |
+| [Container](content/blocks/layout/container.md) | Group blocks and control their spacing, styling, and alignment. |
+| [Default grid](content/blocks/layout/default-grid/README.md) | Arrange blocks or resource listings in columns. |
+| [Divider](content/blocks/layout/divider.md) | Add a visual separator between blocks. |
+| [Fixed](content/blocks/layout/fixed.md) | Pin nested content to a position in the viewport. |
+| [Flex grid](content/blocks/layout/flex-grid/README.md) | Arrange blocks in flexible rows or columns. |
+| [Flex item](content/blocks/layout/flex-grid/flex-item.md) | Set the width and placement of content inside Flex grid or Header. |
+| [Float](content/blocks/layout/float.md) | Position nested content at chosen coordinates inside its container. |
+| [Grid item](content/blocks/layout/default-grid/grid-item.md) | Place content inside Default grid, Flex grid, or a supported paginated grid. |
+| [Inline](content/blocks/layout/inline.md) | Arrange blocks in a line. |
+| [Marquee](content/blocks/layout/marquee.md) | Loop scrolling text or images. |
+| [Scroll area](guides/slab-basics/build-grid-layouts.md#make-a-group-of-blocks-scroll) | Make nested content scroll horizontally or vertically. |
+| [Slider](content/blocks/layout/slider/README.md) | Arrange content or resource listings in a slider. |
+| [Slider item](content/blocks/layout/slider/slider-item.md) | Add a content slide inside Slider. |
+| [Table](content/blocks/layout/table.md) | Arrange information in rows and columns. |
+| [Table row](content/blocks/layout/table-row/README.md) | Add a row inside Table. |
+| [Table cell](content/blocks/layout/table-row/table-cell.md) | Add content inside Table row. |
+| [Tabs](content/blocks/layout/tabs/README.md) | Group content into switchable panels. |
+| [Tab item](content/blocks/layout/tabs/tab-item.md) | Add a labeled panel inside Tabs. |
+
+### Overlays
+
+| Block | Description |
+| --- | --- |
+| [Alert](content/blocks/overlays/alert.md) | Show a notification in a small overlay. |
+| [Drawer](content/blocks/overlays/drawer.md) | Show content in a panel that slides in from the edge of the screen. |
+| [Popup](content/blocks/overlays/popup.md) | Show content in a modal window. |
+| [Sidebar](content/blocks/overlays/sidebar.md) | Show content in a side panel. |
+
+### Forms
+
+| Block | Description |
+| --- | --- |
+| [Age verification form](content/blocks/forms/age-verification-form.md) | Ask customers to confirm their age or enter their date of birth. |
+| [Contact form](content/blocks/forms/contact-form.md) | Collect and submit customer messages. |
+| [Input field](content/blocks/forms/input-field.md) | Add a configurable field to a form. |
+| [Newsletter form](content/blocks/forms/newsletter-form.md) | Collect email addresses for newsletter signups. |
+| [Password form](content/blocks/forms/password-form.md) | Let customers enter a password to access a gated storefront. |
+| [Product customization](content/blocks/products/buy-buttons.md#add-product-customization) | Collect details such as engraving inside Buy buttons and save them with the cart line. |
+
+### Cards and tags
+
+| Block | Description |
+| --- | --- |
+| [Article card](content/blocks/cards/article-card.md) | Build a preview card for a blog article. |
+| [Collection card](content/blocks/cards/collection-card.md) | Build a card that links to a collection. |
+| [Product card](content/blocks/cards/product-card.md) | Build a product card with media, prices, and purchase actions. |
+| [Tags](content/blocks/navigation/tags.md) | Display tags inside Article card, Collection card, or Product card. |
+
+### Grids, sliders, and galleries
+
+| Block | Description |
+| --- | --- |
+| [Article grid](content/blocks/all-pagination/articles/article-grid.md) | Show blog articles inside Default grid. |
+| [Blog grid](content/blocks/all-pagination/wrappers/blog-grid.md) | Display paginated articles in the Blog section. |
+| [Collection grid](content/blocks/all-pagination/collections/grid-collection-grid.md) | Show a selected list of collections inside Default grid. |
+| [Collection grid](content/blocks/all-pagination/wrappers/layout-collection-grid.md) | Display paginated products in the Collection section. |
+| [Collections grid](content/blocks/all-pagination/wrappers/collections-grid.md) | Display paginated collections in the List collections section. |
+| [Grid paginate item](content/blocks/all-pagination/grid-paginate-item.md) | Insert content at a chosen position in a paginated blog, collection, collections, or search grid. |
+| [Product gallery](content/blocks/all-pagination/gallery/product-gallery.md) | Show product media inside Default grid. |
+| [Product grid](content/blocks/all-pagination/products/product-grid.md) | Show products inside Default grid. |
+| [Product recommendations](content/blocks/all-pagination/products/grid-product-recommendations.md) | Show recommended products inside Default grid. |
+| [Product recommendations](content/blocks/all-pagination/products/slider-product-recommendations.md) | Show recommended products inside Slider. |
+| [Recently viewed](content/blocks/all-pagination/products/grid-recently-viewed.md) | Show recently viewed products inside Default grid. |
+| [Recently viewed](content/blocks/all-pagination/products/slider-recently-viewed.md) | Show recently viewed products inside Slider. |
+| [Search grid](content/blocks/all-pagination/wrappers/search-grid.md) | Display paginated results in the Search section. |
+| [Slider articles](content/blocks/all-pagination/articles/slider-articles.md) | Show blog articles inside Slider. |
+| [Slider collections](content/blocks/all-pagination/collections/slider-collections.md) | Show collections inside Slider. |
+| [Slider gallery](content/blocks/all-pagination/gallery/slider-gallery.md) | Show product media inside Slider. |
+| [Slider gallery thumbnails](content/blocks/all-pagination/gallery/slider-gallery.md#filter-images-and-add-thumbnails) | Add thumbnail navigation inside the same Slider as Slider gallery. |
+| [Slider products](content/blocks/all-pagination/products/slider-products.md) | Show products inside Slider. |
+
+### Navigation and search
+
+| Block | Description |
+| --- | --- |
+| [Breadcrumbs](content/blocks/navigation/breadcrumbs.md) | Show the current page's location in the storefront. |
+| [Filter](content/blocks/navigation/filter/filter.md) | Show storefront filters and sorting controls. |
+| [Filter tags](content/blocks/navigation/filter/filter-tags.md) | Let customers filter supported results by tag. |
+| [Menu](content/blocks/navigation/menus/menu.md) | Show links from a Shopify menu. |
+| [Menu dropdown](content/blocks/navigation/menus/menu-dropdown/README.md) | Build a dropdown menu from nested content and links. |
+| [Menu item](content/blocks/navigation/menus/menu-dropdown/menu-item.md) | Add a navigation item inside Menu dropdown or Menu page. |
+| [Menu page](content/blocks/navigation/menus/menu-page.md) | Show a multilevel menu that opens child links in a separate panel. |
+| [Pagination](content/blocks/navigation/pagination.md) | Use the built-in paging controls in paginated grids and Article comments. |
+| [Search input](content/blocks/navigation/search/search-input.md) | Let customers enter a search query. |
+| [Search results](content/blocks/navigation/search/search-results.md) | Display predictive search results as customers type. |
+| [Search summary](content/blocks/navigation/search/search-summary.md) | Show the search term and result count. |
+
+### Product
+
+| Block | Description |
+| --- | --- |
+| [Badges](content/blocks/products/badges.md) | Highlight a product's sale, availability, or custom labels. |
+| [Bundles](content/blocks/products/bundles.md) | Offer a group of products together. |
+| [Buy buttons](content/blocks/products/buy-buttons.md) | Build the purchase form with add-to-cart buttons and related controls. |
+| [Inventory availability](content/blocks/products/inventory-availability.md) | Show stock status or a low-inventory message. |
+| [Options](content/blocks/products/options.md) | Let customers choose product variant options. |
+| [Pickup availability](content/blocks/products/pickup-availability.md) | Show pickup locations and availability for the selected variant. |
+| [Price](content/blocks/products/price.md) | Display a product price range, starting price, selected variant price, or selected variant total. |
+| [Product media](content/blocks/products/product-media.md) | Display media for the current or selected product. |
+| [Quantity discount option](content/blocks/products/buy-buttons.md#show-a-quantity-offer) | Display a quantity offer and set the product form quantity. Configure the matching Shopify discount separately. |
+| [Quick buy button](content/blocks/products/quick-buy-button.md) | Open quick buy or add an eligible variant directly to the cart. |
+| [Rating](content/blocks/products/rating.md) | Display a product's review rating. |
+| [Shop Pay installments](content/blocks/products/shop-pay-installments.md) | Display Shop Pay installment information for eligible purchases. |
+| [Sibling options](content/blocks/products/sibling-options.md) | Let customers switch between related products, such as different colors. |
+| [Subscription](content/blocks/products/subscription.md) | Let customers choose from available one-time and subscription purchase options. |
+| [Subscription content](content/blocks/products/subscription.md#add-content-to-a-purchase-option) | Show nested content for the selected purchase option inside Subscription. |
+| [Swatches](content/blocks/products/swatches.md) | Display product options as image or color swatches. |
+
+### Cart and checkout
+
+| Block | Description |
+| --- | --- |
+| [Cart count](content/blocks/cart/cart-count.md) | Display the number of items in the cart. |
+| [Cart frequency](guides/cart/build-your-cart.md#let-customers-change-subscription-frequency) | Let customers change the subscription lines to a shared frequency. |
+| [Cart results](content/blocks/cart/cart-results.md) | Display and edit cart items as individual lines or grouped by product. |
+| [Cart upgrade](guides/cart/build-your-cart.md#add-an-automatic-cart-upgrade) | Automatically add a product at its catalog price when the cart meets the configured conditions. |
+| [Checkout](content/blocks/cart/checkout.md) | Provide a checkout button and configure a minimum order value. |
+| [Checkout agreement](content/blocks/cart/checkout-agreement.md) | Require customers to accept terms before checkout. |
+| [Discount input](content/blocks/cart/discount-input.md) | Let customers enter a cart discount code. |
+| [Full subtotal](content/blocks/cart/full-subtotal.md) | Display detailed cart totals and discounts. |
+| [Order notes](content/blocks/cart/order-notes.md) | Collect a note or delivery instructions for the order. |
+| [Order summary](content/blocks/cart/order-summary.md) | Show the cart item count and subtotal before discounts. |
+| [Progress bar](content/blocks/cart/progress-bar/README.md) | Show cart progress toward one or more spending targets. |
+| [Progress tier](content/blocks/cart/progress-bar/progress-tier.md) | Add a spending threshold inside the cart Progress bar. |
+| [Share cart](content/blocks/cart/share-cart.md) | Let customers copy a link to share the cart. |
+| [Simple subtotal](content/blocks/cart/simple-subtotal.md) | Display the current cart subtotal. |
+| [Upsell checkbox](content/blocks/cart/upsell-checkbox.md) | Let customers add an optional product or service with a checkbox. |
+
+### Blog
+
+| Block | Description |
+| --- | --- |
+| [Article comments](content/blocks/blog/article-comments.md) | Display comments and let customers submit a comment when enabled. |
+| [Article date](content/blocks/blog/article-date.md) | Display the article's publication date. |
+
+### Account and localization
+
+| Block | Description |
+| --- | --- |
+| [Account B2B](content/blocks/utility/account-b2b.md) | Show B2B account information for eligible customers. |
+| [Account orders](content/blocks/utility/account-orders.md) | Show order history and details for signed-in customers. |
+| [Account profile](content/blocks/utility/account-profile.md) | Show a signed-in customer's profile details. |
+| Account sheet | Open the Shopify account sheet from a customizable avatar or trigger. |
+| [Country picker](content/blocks/utility/country-picker.md) | Let customers choose a country or region. |
+| [Language picker](content/blocks/utility/language-picker.md) | Let customers choose an available storefront language. |
+| [Localization label](content/blocks/utility/localization-label.md) | Show the active country, currency, or language. |
+| [Shop login](content/blocks/basics/shop-login.md) | Let customers sign in with Shop. |
+
+### Utility
+
+| Block | Description |
+| --- | --- |
+| [Audio picker](content/blocks/utility/audio-picker.md) | Let customers control storefront interaction sounds. |
+| [Error](content/blocks/utility/error.md) | Display an error message from a storefront action. |
+| [Form response](content/blocks/utility/form-response.md) | Display feedback after a form submission. |
+| [Liquid](content/blocks/utility/liquid.md) | Add custom Liquid to the layout. |
+| [Metaobjects](guides/slab-basics/reuse-content.md#display-a-list-of-faq-entries) | Repeat a layout for selected FAQ metaobjects. |
+| [Quick buy content](content/blocks/utility/quick-buy-content.md) | Load the configured quick-buy template into an overlay. |
+| [Quick edit content](content/blocks/utility/quick-edit-content.md) | Load the configured quick-edit template for a cart item. |
+| [Render section](guides/slab-basics/reuse-content.md#reuse-a-section) | Reuse blocks from a Render source section on another page. |
+| [Shared discount](content/blocks/utility/shared-discount.md) | Show the code and message when customers open a shared discount link. |
+| [Visibility](content/blocks/utility/visibility.md) | Show nested content only when the configured device, customer, cart, visit, URL, or viewport conditions match. |
 
 ## Design and styling
 
@@ -145,203 +342,3 @@ See what you can build with Slab 0.5.0, or jump to the [complete block list](#co
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sign in with Shop       | Let customers sign in with Shop. |
 | Account sheet and account blocks | Open the Shopify account sheet or build a theme account drawer with profile and order blocks.                                                         |
-
-
-## Complete block list
-
-Slab 0.5.0 includes 133 theme block types. The names below match the English Shopify theme editor. When a block belongs inside a specific section or parent block, its description names that location.
-
-Some block types have more than one preset. For example, **Quantity discount** is a preset of **Default grid**.
-
-### Basics
-
-| Block | Description |
-| --- | --- |
-| [Accordion](content/blocks/basics/accordion.md) | Show content in an expandable panel. |
-| [Avatars](content/blocks/basics/avatars/README.md) | Group avatar images. |
-| [Avatar image](content/blocks/basics/avatars/avatar-image.md) | Add an image inside Avatars. |
-| [Button](content/blocks/basics/button.md) | Link to another page or trigger an action such as opening an overlay. |
-| [Copy bar](content/blocks/basics/discount.md) | Display a code, link, or other text customers can copy. |
-| [Countdown](content/blocks/basics/countdown.md) | Count down to a launch, promotion, or event. |
-| [Dropdown](content/blocks/basics/dropdown.md) | Reveal nested content when customers activate a trigger. |
-| [Hotspot](content/blocks/basics/hotspot/README.md) | Place interactive spots over media. |
-| [Spot](content/blocks/basics/hotspot/spot.md) | Position an interactive point inside Hotspot. |
-| [Icon](content/blocks/basics/icon.md) | Display an icon. |
-| [Image](content/blocks/basics/image.md) | Display an image with cropping and aspect ratio controls. |
-| [Image comparison](content/blocks/basics/image-comparison.md) | Let customers drag a slider to compare two images. |
-| [Logo](content/blocks/basics/logo.md) | Display the store logo. |
-| [Map](content/blocks/basics/map/README.md) | Display a map with location markers. |
-| [Location](content/blocks/basics/map/location.md) | Add a marker and its content inside Map. |
-| [Payment icons](content/blocks/basics/payment-icons.md) | Show the store's enabled payment methods. |
-| [Progress bar](content/blocks/basics/progress-bar.md) | Display a progress value from 0 to 100. |
-| [Rich text](content/blocks/basics/rich-text.md) | Display formatted text, links, and lists. |
-| [Share](content/blocks/basics/share.md) | Give customers controls to share a page or product. |
-| [Social icons](content/blocks/basics/social-icons.md) | Link to the store's social profiles. |
-| [Video](content/blocks/basics/video.md) | Display video in the page layout. |
-
-### Layout
-
-| Block | Description |
-| --- | --- |
-| [Container](content/blocks/layout/container.md) | Group blocks and control their spacing, styling, and alignment. |
-| [Default grid](content/blocks/layout/default-grid/README.md) | Arrange blocks or resource listings in columns. |
-| [Divider](content/blocks/layout/divider.md) | Add a visual separator between blocks. |
-| [Fixed](content/blocks/layout/fixed.md) | Pin nested content to a position in the viewport. |
-| [Flex grid](content/blocks/layout/flex-grid/README.md) | Arrange blocks in flexible rows or columns. |
-| [Flex item](content/blocks/layout/flex-grid/flex-item.md) | Set the width and placement of content inside Flex grid or Header. |
-| [Float](content/blocks/layout/float.md) | Position nested content at chosen coordinates inside its container. |
-| [Grid item](content/blocks/layout/default-grid/grid-item.md) | Place content inside Default grid, Flex grid, or a supported paginated grid. |
-| [Inline](content/blocks/layout/inline.md) | Arrange blocks in a line. |
-| [Marquee](content/blocks/layout/marquee.md) | Loop scrolling text or images. |
-| [Scroll area](guides/slab-basics/build-grid-layouts.md#make-a-group-of-blocks-scroll) | Make nested content scroll horizontally or vertically. |
-| [Slider](content/blocks/layout/slider/README.md) | Arrange content or resource listings in a slider. |
-| [Slider item](content/blocks/layout/slider/slider-item.md) | Add a content slide inside Slider. |
-| [Table](content/blocks/layout/table.md) | Arrange information in rows and columns. |
-| [Table row](content/blocks/layout/table-row/README.md) | Add a row inside Table. |
-| [Table cell](content/blocks/layout/table-row/table-cell.md) | Add content inside Table row. |
-| [Tabs](content/blocks/layout/tabs/README.md) | Group content into switchable panels. |
-| [Tab item](content/blocks/layout/tabs/tab-item.md) | Add a labeled panel inside Tabs. |
-
-### Overlays
-
-| Block | Description |
-| --- | --- |
-| [Alert](content/blocks/overlays/alert.md) | Show a notification in a small overlay. |
-| [Drawer](content/blocks/overlays/drawer.md) | Show content in a panel that slides in from the edge of the screen. |
-| [Popup](content/blocks/overlays/popup.md) | Show content in a modal window. |
-| [Sidebar](content/blocks/overlays/sidebar.md) | Show content in a side panel. |
-
-### Forms
-
-| Block | Description |
-| --- | --- |
-| [Age verification form](content/blocks/forms/age-verification-form.md) | Ask customers to confirm their age or enter their date of birth. |
-| [Contact form](content/blocks/forms/contact-form.md) | Collect and submit customer messages. |
-| [Input field](content/blocks/forms/input-field.md) | Add a configurable field to a form. |
-| [Newsletter form](content/blocks/forms/newsletter-form.md) | Collect email addresses for newsletter signups. |
-| [Password form](content/blocks/forms/password-form.md) | Let customers enter a password to access a gated storefront. |
-| [Product customization](content/blocks/products/buy-buttons.md#add-product-customization) | Collect details such as engraving inside Buy buttons and save them with the cart line. |
-
-### Cards and tags
-
-| Block | Description |
-| --- | --- |
-| [Article card](content/blocks/cards/article-card.md) | Build a preview card for a blog article. |
-| [Collection card](content/blocks/cards/collection-card.md) | Build a card that links to a collection. |
-| [Product card](content/blocks/cards/product-card.md) | Build a product card with media, prices, and purchase actions. |
-| [Tags](content/blocks/navigation/tags.md) | Display tags inside Article card, Collection card, or Product card. |
-
-### Grids, sliders, and galleries
-
-| Block | Description |
-| --- | --- |
-| [Article grid](content/blocks/all-pagination/articles/article-grid.md) | Show blog articles inside Default grid. |
-| [Blog grid](content/blocks/all-pagination/wrappers/blog-grid.md) | Display paginated articles in the Blog section. |
-| [Collection grid](content/blocks/all-pagination/collections/grid-collection-grid.md) | Show a selected list of collections inside Default grid. |
-| [Collection grid](content/blocks/all-pagination/wrappers/layout-collection-grid.md) | Display paginated products in the Collection section. |
-| [Collections grid](content/blocks/all-pagination/wrappers/collections-grid.md) | Display paginated collections in the List collections section. |
-| [Grid paginate item](content/blocks/all-pagination/grid-paginate-item.md) | Insert content at a chosen position in a paginated blog, collection, collections, or search grid. |
-| [Product gallery](content/blocks/all-pagination/gallery/product-gallery.md) | Show product media inside Default grid. |
-| [Product grid](content/blocks/all-pagination/products/product-grid.md) | Show products inside Default grid. |
-| [Product recommendations](content/blocks/all-pagination/products/grid-product-recommendations.md) | Show recommended products inside Default grid. |
-| [Product recommendations](content/blocks/all-pagination/products/slider-product-recommendations.md) | Show recommended products inside Slider. |
-| [Recently viewed](content/blocks/all-pagination/products/grid-recently-viewed.md) | Show recently viewed products inside Default grid. |
-| [Recently viewed](content/blocks/all-pagination/products/slider-recently-viewed.md) | Show recently viewed products inside Slider. |
-| [Search grid](content/blocks/all-pagination/wrappers/search-grid.md) | Display paginated results in the Search section. |
-| [Slider articles](content/blocks/all-pagination/articles/slider-articles.md) | Show blog articles inside Slider. |
-| [Slider collections](content/blocks/all-pagination/collections/slider-collections.md) | Show collections inside Slider. |
-| [Slider gallery](content/blocks/all-pagination/gallery/slider-gallery.md) | Show product media inside Slider. |
-| [Slider gallery thumbnails](content/blocks/all-pagination/gallery/slider-gallery.md#filter-images-and-add-thumbnails) | Add thumbnail navigation inside the same Slider as Slider gallery. |
-| [Slider products](content/blocks/all-pagination/products/slider-products.md) | Show products inside Slider. |
-
-### Navigation and search
-
-| Block | Description |
-| --- | --- |
-| [Breadcrumbs](content/blocks/navigation/breadcrumbs.md) | Show the current page's location in the storefront. |
-| [Filter](content/blocks/navigation/filter/filter.md) | Show storefront filters and sorting controls. |
-| [Filter tags](content/blocks/navigation/filter/filter-tags.md) | Let customers filter supported results by tag. |
-| [Menu](content/blocks/navigation/menus/menu.md) | Show links from a Shopify menu. |
-| [Menu dropdown](content/blocks/navigation/menus/menu-dropdown/README.md) | Build a dropdown menu from nested content and links. |
-| [Menu item](content/blocks/navigation/menus/menu-dropdown/menu-item.md) | Add a navigation item inside Menu dropdown or Menu page. |
-| [Menu page](content/blocks/navigation/menus/menu-page.md) | Build a menu panel that opens from a navigation trigger. |
-| [Pagination](content/blocks/navigation/pagination.md) | Use the built-in paging controls in paginated grids and Article comments. |
-| [Search input](content/blocks/navigation/search/search-input.md) | Let customers enter a search query. |
-| [Search results](content/blocks/navigation/search/search-results.md) | Display predictive search results as customers type. |
-| [Search summary](content/blocks/navigation/search/search-summary.md) | Show the search term and result count. |
-
-### Product
-
-| Block | Description |
-| --- | --- |
-| [Badges](content/blocks/products/badges.md) | Highlight a product's sale, availability, or custom labels. |
-| [Bundles](content/blocks/products/bundles.md) | Offer a group of products together. |
-| [Buy buttons](content/blocks/products/buy-buttons.md) | Build the purchase form with add-to-cart buttons and related controls. |
-| [Inventory availability](content/blocks/products/inventory-availability.md) | Show stock status or a low-inventory message. |
-| [Options](content/blocks/products/options.md) | Let customers choose product variant options. |
-| [Pickup availability](content/blocks/products/pickup-availability.md) | Show pickup locations and availability for the selected variant. |
-| [Price](content/blocks/products/price.md) | Display a product price range, starting price, selected variant price, or selected variant total. |
-| [Product media](content/blocks/products/product-media.md) | Display media for the current or selected product. |
-| [Quantity discount option](content/blocks/products/buy-buttons.md#show-a-quantity-offer) | Display a quantity offer and set the product form quantity. Configure the matching Shopify discount separately. |
-| [Quick buy button](content/blocks/products/quick-buy-button.md) | Open quick buy or add an eligible variant directly to the cart. |
-| [Rating](content/blocks/products/rating.md) | Display a product's review rating. |
-| [Shop Pay installments](content/blocks/products/shop-pay-installments.md) | Display Shop Pay installment information for eligible purchases. |
-| [Sibling options](content/blocks/products/sibling-options.md) | Let customers switch between related products, such as different colors. |
-| [Subscription](content/blocks/products/subscription.md) | Let customers choose from available one-time and subscription purchase options. |
-| [Subscription content](content/blocks/products/subscription.md#add-content-to-a-purchase-option) | Show nested content for the selected purchase option inside Subscription. |
-| [Swatches](content/blocks/products/swatches.md) | Display product options as image or color swatches. |
-
-### Cart and checkout
-
-| Block | Description |
-| --- | --- |
-| [Cart count](content/blocks/cart/cart-count.md) | Display the number of items in the cart. |
-| [Cart frequency](guides/cart/build-your-cart.md#let-customers-change-subscription-frequency) | Let customers change the subscription lines to a shared frequency. |
-| [Cart results](content/blocks/cart/cart-results.md) | Display and edit cart items as individual lines or grouped by product. |
-| [Cart upgrade](guides/cart/build-your-cart.md#add-an-automatic-cart-upgrade) | Automatically add a product at its catalog price when the cart meets the configured conditions. |
-| [Checkout](content/blocks/cart/checkout.md) | Provide a checkout button and configure a minimum order value. |
-| [Checkout agreement](content/blocks/cart/checkout-agreement.md) | Require customers to accept terms before checkout. |
-| [Discount input](content/blocks/cart/discount-input.md) | Let customers enter a cart discount code. |
-| [Full subtotal](content/blocks/cart/full-subtotal.md) | Display detailed cart totals and discounts. |
-| [Order notes](content/blocks/cart/order-notes.md) | Collect a note or delivery instructions for the order. |
-| [Order summary](content/blocks/cart/order-summary.md) | Show the cart item count and subtotal before discounts. |
-| [Progress bar](content/blocks/cart/progress-bar/README.md) | Show cart progress toward one or more spending targets. |
-| [Progress tier](content/blocks/cart/progress-bar/progress-tier.md) | Add a spending threshold inside the cart Progress bar. |
-| [Share cart](content/blocks/cart/share-cart.md) | Let customers copy a link to share the cart. |
-| [Simple subtotal](content/blocks/cart/simple-subtotal.md) | Display the current cart subtotal. |
-| [Upsell checkbox](content/blocks/cart/upsell-checkbox.md) | Let customers add an optional product or service with a checkbox. |
-
-### Blog
-
-| Block | Description |
-| --- | --- |
-| [Article comments](content/blocks/blog/article-comments.md) | Display comments and let customers submit a comment when enabled. |
-| [Article date](content/blocks/blog/article-date.md) | Display the article's publication date. |
-
-### Account and localization
-
-| Block | Description |
-| --- | --- |
-| [Account B2B](content/blocks/utility/account-b2b.md) | Show B2B account information for eligible customers. |
-| [Account orders](content/blocks/utility/account-orders.md) | Show order history and details for signed-in customers. |
-| [Account profile](content/blocks/utility/account-profile.md) | Show a signed-in customer's profile details. |
-| Account sheet | Open the Shopify account sheet from a customizable avatar or trigger. |
-| [Country picker](content/blocks/utility/country-picker.md) | Let customers choose a country or region. |
-| [Language picker](content/blocks/utility/language-picker.md) | Let customers choose an available storefront language. |
-| [Localization label](content/blocks/utility/localization-label.md) | Show the active country, currency, or language. |
-| [Shop login](content/blocks/basics/shop-login.md) | Let customers sign in with Shop. |
-
-### Utility
-
-| Block | Description |
-| --- | --- |
-| [Audio picker](content/blocks/utility/audio-picker.md) | Let customers control storefront interaction sounds. |
-| [Error](content/blocks/utility/error.md) | Display an error message from a storefront action. |
-| [Form response](content/blocks/utility/form-response.md) | Display feedback after a form submission. |
-| [Liquid](content/blocks/utility/liquid.md) | Add custom Liquid to the layout. |
-| [Metaobjects](guides/slab-basics/reuse-content.md#display-a-list-of-faq-entries) | Repeat a layout for selected FAQ metaobjects. |
-| [Quick buy content](content/blocks/utility/quick-buy-content.md) | Load the configured quick-buy template into an overlay. |
-| [Quick edit content](content/blocks/utility/quick-edit-content.md) | Load the configured quick-edit template for a cart item. |
-| [Render section](guides/slab-basics/reuse-content.md#reuse-a-section) | Reuse blocks from a Render source section on another page. |
-| [Shared discount](content/blocks/utility/shared-discount.md) | Show the code and message when customers open a shared discount link. |
-| [Visibility](content/blocks/utility/visibility.md) | Show nested content only when the configured device, customer, cart, visit, URL, or viewport conditions match. |
