@@ -2,7 +2,7 @@
 index: 0
 ---
 
-# Brickspace Lab support
+# Support
 
 Find setup guides, reference documentation, and support for Brickspace Lab themes and services.
 
