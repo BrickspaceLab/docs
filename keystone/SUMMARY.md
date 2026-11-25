@@ -74,7 +74,7 @@ published: false
   * [Customer approval](guides/wholesale/customer-approval.md)
   * [Full site restriction](guides/wholesale/full-site-restriction.md)
   * [Minimum order amount](guides/wholesale/minimum-order-amount.md)
-  * [Wholesale pricing apps](guides/wholesale/wholesale-pricing-apps.md)
+  * [Set wholesale prices](guides/wholesale/wholesale-pricing-apps.md)
   * [Automate with Flow](guides/wholesale/automate-with-flow.md)
 
 ## Sections

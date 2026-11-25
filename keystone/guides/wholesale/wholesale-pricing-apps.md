@@ -2,77 +2,40 @@
 index: 7
 ---
 
-# Wholesale pricing apps
+# Set wholesale prices
 
-While Keystone's built-in features can restrict content and set minimums, displaying different prices to different customers requires a third-party wholesale pricing app. These apps integrate seamlessly with Keystone to show customer-specific pricing.
-
-***
-
-### Why use a pricing app
-
-Wholesale pricing apps allow you to:
-
-* Display different prices for wholesale vs. retail customers
-* Create tiered pricing based on quantity or customer tags
-* Offer percentage or fixed amount discounts
-* Show volume discounts automatically
-* Hide retail prices from wholesale customers
+A Shopify B2B catalog lets company buyers pay a different price for the same product you sell at retail. Keystone’s approval settings control who can see a price. The catalog sets the amount the buyer pays.
 
 ***
 
-### Recommended apps
+### Set prices for company buyers
 
-Popular wholesale pricing apps that work with Keystone:
+1. In **Settings > Customer accounts**, [activate customer accounts for B2B](https://help.shopify.com/en/manual/b2b/customer-login-and-accounts). Then [set up a company and location](https://help.shopify.com/en/manual/b2b/companies-and-customers/creating-companies) and give a test buyer permission to order for that location.
+2. In **Markets > Catalogs**, create a catalog, include the product, and set a fixed price for the variant. Set the catalog to **Active**.
+3. Assign the catalog to an active B2B market whose **Company locations** condition includes the test location. A region-only market can also match retail customers.
+4. Have the buyer sign in through customer accounts and select that company location if prompted. [Shopify’s B2B catalog setup](https://help.shopify.com/en/manual/b2b/markets/catalogs).
 
-* [**B2B Wholesale Hub**](https://apps.shopify.com/wholesale-hub) - Comprehensive B2B solution with pricing, forms, and more
-* [**Wholesale Pricing Discount B2B**](https://apps.shopify.com/wholesale-pricing-discount) - Flexible pricing tiers and customer groups
-* [**Bold Subscriptions**](https://apps.shopify.com/bold-subscriptions) - If you need recurring wholesale orders
+If your Plus store has the older Markets experience and you cannot select **Company locations**, review Shopify’s [B2B and Markets setup](https://help.shopify.com/en/manual/b2b/markets) for the feature test drive.
 
-***
-
-### Installing a wholesale pricing app
-
-1. Visit the [Shopify App Store](https://apps.shopify.com/) and search for wholesale pricing apps
-2. Choose an app that fits your needs and click **Add app**
-3. Follow the app's installation instructions
-4. Configure your wholesale pricing rules within the app
-5. In the **Theme Editor**, go to **App embeds**
-6. Find your wholesale pricing app and toggle it **on**
-7. Click **Save**
+On Basic, Grow, and Advanced, you can use three active catalog assignments across active B2B markets. Assigning one catalog to two markets uses two assignments. Plus also lets you assign a catalog directly to a company or location for negotiated pricing. [B2B features by plan](https://help.shopify.com/en/manual/b2b/getting-started/plan-features).
 
 ***
 
-### How apps work with Keystone
+### Check the price of one variant
 
-Wholesale pricing apps typically:
+For example, choose one variant priced at $100 in the retail store and set its B2B catalog price to $50 in the same currency. Use a product with visible retail pricing and a test location with only this catalog. Use separate browser sessions. Select the same country in both and use a shipping address in that country at checkout.
 
-* Detect which customer is logged in
-* Check their tags or customer group
-* Override the displayed price with wholesale pricing
-* Apply discounts at checkout automatically
+| Buyer | Expected price for one unit |
+| --- | --- |
+| Retail customer | $100 |
+| Signed-in company buyer purchasing for the test location | $50 |
 
-These apps work alongside Keystone's built-in restriction features, giving you complete control over your wholesale experience.
-
-***
-
-### Combining with Keystone features
-
-You can use wholesale pricing apps together with Keystone's features:
-
-* Use [customer approval](customer-approval.md) to control who sees restricted content
-* Use [hide prices](hide-prices.md) to hide prices from non-wholesale customers
-* Use [minimum order amount](minimum-order-amount.md) to enforce wholesale minimums
-* Let the pricing app handle displaying different prices to different customers
+Add one unit of the same variant to each cart and compare the product, cart, and checkout prices before tax, shipping, and discounts. If the company buyer sees $100, check which location they selected and whether the active catalog contains that variant. [Test B2B and retail pricing in Shopify](https://help.shopify.com/en/manual/b2b/getting-started/testing).
 
 ***
 
-### Important notes
+### Set prices for tagged individuals
 
-* Most wholesale apps require customers to be logged in
-* Apps typically use customer tags to determine pricing tiers
-* Always enable app embeds in your theme settings
-* Test with a wholesale customer account before going live
+If you sell to individual customers outside Shopify B2B and want a tag such as `approved` to select their price, choose a pricing app that supports customer tags. Configure its price rule and follow its theme setup instructions. Test a tagged and an untagged customer through checkout.
 
-{% hint style="info" %}
-Some apps offer trial periods. Take advantage of these to ensure the app meets your wholesale needs before committing.
-{% endhint %}
+Use [customer approval](customer-approval.md) and [price visibility](hide-prices.md) to decide who can view prices on the storefront. Adding the approval tag alone leaves the price unchanged.

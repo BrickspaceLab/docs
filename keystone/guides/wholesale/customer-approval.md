@@ -10,14 +10,14 @@ The customer approval system determines which customers can view restricted cont
 
 ### Tag-based customer approval
 
-Tag-based approval is the most flexible option and works on all Shopify plans.
+Use a customer tag to give individual customers access to restricted content in Keystone. A customer can use this method without belonging to a Shopify B2B company.
 
-#### Setup approval tag
+#### Set the approval tag
 
 1. Open the **Theme Editor** by clicking **Customize** next to your theme
 2. Click **Theme Settings** (gear icon near the top left)
 3. Scroll down and click **Account**
-4. In the **Matching tag** field, enter a tag (e.g., `approved`)
+4. In **Matching tags**, enter one customer tag, such as `approved`
 5. Click **Save**
 
 #### Approve customers
@@ -33,7 +33,7 @@ Once tagged, the customer will see all restricted content when logged in.
 
 ### B2B customer approval
 
-B2B customer accounts are available on **Shopify Plus** plans and provide enterprise-level wholesale features.
+Shopify B2B supports companies and company locations on Basic, Grow, Advanced, and Plus. In **Settings > Customer accounts**, [activate customer accounts for B2B](https://help.shopify.com/en/manual/b2b/customer-login-and-accounts). Legacy accounts support retail sign-in only. Then create a company in **Customers > Companies**, add a location, and give the buyer permission to order for it. [Set up a company in Shopify](https://help.shopify.com/en/manual/b2b/companies-and-customers/creating-companies).
 
 #### Enable B2B customers
 
@@ -43,21 +43,19 @@ B2B customer accounts are available on **Shopify Plus** plans and provide enterp
 4. Check **Enable B2B customers**
 5. Click **Save**
 
-All B2B customers will automatically see restricted content when logged in.
-
-For more information on setting up B2B accounts, visit [Shopify B2B Help](https://help.shopify.com/en/manual/b2b).
+Sign in through customer accounts as the company buyer. If the buyer can order for multiple locations, select the location to test. With **Enable B2B customers** selected, Keystone shows the buyer restricted content even without the approval tag.
 
 ***
 
 ### Using both methods together
 
-You can enable both tag-based and B2B approval simultaneously:
+To admit both groups, enter an approval tag in **Matching tags** and select **Enable B2B customers**. Test one restricted product in each account.
 
-* Customers with the matching tag will see restricted content
-* B2B customers will also see restricted content
-* Regular customers without tags won't see restricted content
+* A signed-in customer with the matching tag can see the product.
+* A signed-in B2B buyer can see it without the tag.
+* A signed-in retail customer without the tag and a signed-out visitor should see the restriction.
 
-This gives you flexibility to manage both B2B accounts and individual wholesale customers.
+Leaving **Matching tags** blank lets any signed-in customer pass Keystone’s approval check. To restrict access to company buyers only, enter a tag that you don’t assign to retail customers and enable the B2B setting.
 
 ***
 
@@ -69,6 +67,4 @@ This gives you flexibility to manage both B2B accounts and individual wholesale 
 Tags must match exactly between the theme settings and customer tags. For example, if you set `Approved` in theme settings, the customer tag must also be `Approved`—`approved` or `APPROVED` won't work.
 {% endhint %}
 
-* Customers must be logged in to see restricted content
-* Changes to customer tags take effect immediately
-* B2B accounts require Shopify Plus
+Keystone approval controls visibility. To give approved buyers a different price, [set up wholesale pricing](wholesale-pricing-apps.md).

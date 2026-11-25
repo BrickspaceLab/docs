@@ -4,7 +4,7 @@ index: 4
 
 # Wholesale
 
-Keystone offers robust features for creating a wholesale or B2B storefront. These features allow you to restrict access to certain products, pages, and pricing information, ensuring an exclusive experience for approved customers.
+Use Keystone to choose which products, prices, and articles wholesale customers can see. Use Shopify B2B catalogs to set prices for company buyers.
 
 ***
 
@@ -16,7 +16,7 @@ Keystone's wholesale capabilities include:
 * **Customer approval** - Control access using tags or B2B customer accounts
 * **Site lockdown** - Restrict your entire store to approved customers only
 * **Order minimums** - Set minimum cart amounts for wholesale orders
-* **Pricing integration** - Works with third-party apps for customer-specific pricing
+* **Pricing integration** - Show catalog prices to company buyers or use an app for tag-based prices
 * **Automation** - Use Shopify Flow to automate wholesale workflows
 
 ***
@@ -28,9 +28,9 @@ To set up a wholesale store with Keystone:
 1. [**Set up customer approval**](customer-approval.md) - Decide how you'll approve wholesale customers
 2. [**Control guest visibility**](guest-visibility-before-login.md) - Choose what logged-out visitors see (prices vs. product names)
 3. [**Choose what to restrict**](hide-products.md) - Hide products, prices, or blog posts
-3. [**Configure minimums**](minimum-order-amount.md) - Set minimum order amounts if needed
-4. [**Install pricing app**](wholesale-pricing-apps.md) - Add wholesale pricing if showing different prices
-5. [**Automate workflows**](automate-with-flow.md) - Optional: Use Flow to automate processes
+4. [**Configure minimums**](minimum-order-amount.md) - Set minimum order amounts if needed
+5. [**Set wholesale prices**](wholesale-pricing-apps.md) - Choose prices for company buyers or tagged individuals
+6. [**Automate workflows**](automate-with-flow.md) - Optional: Use Flow to automate processes
 
 ***
 
@@ -45,7 +45,7 @@ To set up a wholesale store with Keystone:
 | [Customer approval](customer-approval.md)           | Tag-based or B2B approval system                       |
 | [Full site restriction](full-site-restriction.md)   | Lock down entire store to approved customers           |
 | [Minimum order amount](minimum-order-amount.md)     | Require minimum cart subtotal                          |
-| [Wholesale pricing apps](wholesale-pricing-apps.md) | Display different prices to different customers        |
+| [Set wholesale prices](wholesale-pricing-apps.md)      | Choose between catalog and tag-based pricing        |
 | [Automate with Flow](automate-with-flow.md)         | Automate wholesale tasks and workflows                 |
 
 ***
@@ -59,6 +59,6 @@ Tags must match exactly between theme settings and your products/customers. For 
 {% endhint %}
 
 * Customers must be logged in to see restricted content
-* B2B features require Shopify Plus
+* Shopify B2B is available on Basic, Grow, Advanced, and Plus. See [B2B features by plan](https://help.shopify.com/en/manual/b2b/getting-started/plan-features) for catalog limits.
 * Combine multiple features for complete wholesale control
 * Always test with a wholesale customer account before launching
