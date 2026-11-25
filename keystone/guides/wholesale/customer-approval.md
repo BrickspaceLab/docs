@@ -33,7 +33,7 @@ Once tagged, the customer will see all restricted content when logged in.
 
 ### B2B customer approval
 
-Shopify B2B supports companies and company locations on Basic, Grow, Advanced, and Plus. First create a company in **Customers > Companies**, add a location, and give the buyer permission to order for it. [Set up a company in Shopify](https://help.shopify.com/en/manual/b2b/companies-and-customers/creating-companies).
+Shopify B2B supports companies and company locations on Basic, Grow, Advanced, and Plus. In **Settings > Customer accounts**, [activate customer accounts for B2B](https://help.shopify.com/en/manual/b2b/customer-login-and-accounts). Legacy accounts support retail sign-in only. Then create a company in **Customers > Companies**, add a location, and give the buyer permission to order for it. [Set up a company in Shopify](https://help.shopify.com/en/manual/b2b/companies-and-customers/creating-companies).
 
 #### Enable B2B customers
 

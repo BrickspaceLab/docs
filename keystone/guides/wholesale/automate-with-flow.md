@@ -55,7 +55,7 @@ Maintain relationships with wholesale customers automatically.
 4. Choose the [**Customer tags added** trigger](https://help.shopify.com/en/manual/shopify-flow/reference/triggers/customer-tags-added).
 5. Check whether the tags added in this event include `wholesale-request`.
 6. Add **Send internal email** and enter the address of the person who reviews applications.
-7. Turn on the workflow and add `wholesale-request` to a test customer. Check the workflow run and confirm that the reviewer received the email.
+7. Turn on the workflow and submit the wholesale application using a test customer who does not already have the request tag. Check that the form added `wholesale-request`, the workflow ran, and the reviewer received the email.
 
 ***
 

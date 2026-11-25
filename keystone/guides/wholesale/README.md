@@ -45,7 +45,7 @@ To set up a wholesale store with Keystone:
 | [Customer approval](customer-approval.md)           | Tag-based or B2B approval system                       |
 | [Full site restriction](full-site-restriction.md)   | Lock down entire store to approved customers           |
 | [Minimum order amount](minimum-order-amount.md)     | Require minimum cart subtotal                          |
-| [Wholesale pricing](wholesale-pricing-apps.md)      | Choose between catalog and tag-based pricing        |
+| [Set wholesale prices](wholesale-pricing-apps.md)      | Choose between catalog and tag-based pricing        |
 | [Automate with Flow](automate-with-flow.md)         | Automate wholesale tasks and workflows                 |
 
 ***
