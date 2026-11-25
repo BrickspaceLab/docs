@@ -4,31 +4,25 @@ index: 8
 
 # Automate with Flow
 
-Shopify Flow is a powerful automation tool that can streamline your wholesale operations. Flow allows you to create automated workflows that trigger actions based on events in your store.
+Use Shopify Flow to alert staff about wholesale applications, tag orders for review, or follow up when inventory runs low.
 
 ***
 
 ### What is Shopify Flow
 
-[Shopify Flow](https://apps.shopify.com/flow) is a free app (available on Shopify Plus) that automates tasks and processes in your store. For wholesale operations, Flow can handle repetitive tasks automatically, saving you time and reducing errors.
+Shopify Flow is free on Basic, Grow, Advanced, and Plus. Some actions have additional plan requirements. For example, **Send HTTP request** requires Grow, Advanced, or Plus. [Shopify Flow plan requirements](https://help.shopify.com/en/manual/shopify-flow).
 
 ***
 
 ### Wholesale automation examples
 
-#### Automatic wholesale signups
+#### Review wholesale applications
 
-**Trigger:** Customer submits a wholesale registration form\
-**Action:** Automatically tag customer with `approved` tag
-
-This eliminates manual customer approval and instantly grants access to restricted content.
+Have your application form add a request tag such as `wholesale-request`. Use the steps below to notify staff when it arrives. After reviewing the application, staff can add Keystone’s approval tag to the customer.
 
 #### Tiered pricing based on order history
 
-**Trigger:** Customer reaches a total order value threshold\
-**Action:** Apply custom tags for upgraded pricing tier
-
-Reward loyal wholesale customers with better pricing automatically.
+When an order is paid, Flow can check the customer's total spend and add a tier tag. A [pricing app](wholesale-pricing-apps.md) must have a rule for that tag to change the price. Shopify B2B catalogs apply according to the company location purchasing the order.
 
 #### Inventory alerts for wholesale products
 
@@ -58,10 +52,10 @@ Maintain relationships with wholesale customers automatically.
 1. Install [Shopify Flow](https://apps.shopify.com/flow) from the Shopify App Store
 2. Open the Flow app from your Shopify admin
 3. Click **Create workflow**
-4. Choose a trigger (e.g., "Customer created")
-5. Add conditions (e.g., "Customer has tag: wholesale-request")
-6. Add actions (e.g., "Add customer tag: approved")
-7. Click **Turn on workflow**
+4. Choose the [**Customer tags added** trigger](https://help.shopify.com/en/manual/shopify-flow/reference/triggers/customer-tags-added).
+5. Check whether the tags added in this event include `wholesale-request`.
+6. Add **Send internal email** and enter the address of the person who reviews applications.
+7. Turn on the workflow and add `wholesale-request` to a test customer. Check the workflow run and confirm that the reviewer received the email.
 
 ***
 
@@ -69,17 +63,15 @@ Maintain relationships with wholesale customers automatically.
 
 Flow works seamlessly with Keystone's wholesale features:
 
-* Automatically tag customers to grant access via [customer approval system](customer-approval.md)
+* Use a separate approval tag for [Keystone customer approval](customer-approval.md) so a submitted application can wait for review.
 * Tag products to trigger [hide products](hide-products.md) or [hide prices](hide-prices.md)
 * Monitor orders that meet [minimum order amounts](minimum-order-amount.md)
-* Integrate with [wholesale pricing apps](wholesale-pricing-apps.md) for advanced rules
+* Check how your [wholesale pricing](wholesale-pricing-apps.md) is assigned before using a customer tag for a price tier.
 
 ***
 
 ### Important notes
 
-* Shopify Flow is free but requires **Shopify Plus**
-* Non-Plus merchants can use third-party automation apps like [Mechanic](https://apps.shopify.com/mechanic) or [Launchpad](https://apps.shopify.com/launchpad)
 * Always test workflows with test customers before enabling them
 * You can view workflow history to troubleshoot automation issues
 
